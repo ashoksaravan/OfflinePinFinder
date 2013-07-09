@@ -1,8 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">OfflinePinFinder</string>
+    <string name="app_name">Pincode Finder</string>
     <string name="action_settings">Settings</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_search">Search</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Main Activity</string>
+    <string name="title_activity_display_message">Result</string>
     <string name="hello_world">Hello world!</string>
+    <string name="text1">Pincode/Officename</string>
+    <string name="state">State</string>
+    <string name="districts">Districts</string>
+    <string name="officename">Office Name</string>
+    <string name="pincode">Pincode</string>
+
+    <string-array name="countries_array">
+        <item>Select</item>
+        <item>China</item>
+        <item>India</item>
+        <item>USA</item>
+        <item>Indonesia</item>
+        <item>Brazil</item>
+        <item>Pakistan</item>
+        <item>Nigeria</item>
+        <item>Bangladesh</item>
+        <item>Russia</item>
+    </string-array>
+    <string-array name="states_array">
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Puducherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+    </string-array>
+    <string-array name="default_array">
+        <item>Select</item>
+    </string-array>
+    <string-array name="district_puducherry">
+        <item>Karaikal</item>
+        <item>Mahe</item>
+        <item>Pondicherry</item>
+        <item>Yanam</item>
+    </string-array>
+    <string-array name="district_tn">
+        <item>Ariyalur</item>
+        <item>Chennai</item>
+        <item>Coimbatore</item>
+        <item>Cuddalore</item>
+        <item>Dharmapuri</item>
+        <item>Dindigul</item>
+        <item>Erode</item>
+        <item>Kanchipuram</item>
+        <item>Kanniyakumari</item>
+        <item>Karur</item>
+        <item>Krishnagiri</item>
+        <item>Madurai</item>
+        <item>Nagapattinam </item>
+        <item>Namakkal</item>
+        <item>Nilgiris</item>
+        <item>Perambalur</item>
+        <item>Pudukkottai</item>
+        <item>Ramanathapuram</item>
+        <item>Salem</item>
+        <item>Sivaganga</item>
+        <item>Thanjavur</item>
+        <item>Theni</item>
+        <item>Thiruvallur</item>
+        <item>Thiruvarur</item>
+        <item>Thoothukudi</item>
+        <item>Tiruchirappalli </item>
+        <item>Tirunelveli</item>
+        <item>Tiruppur </item>
+        <item>Tiruvannamalai</item>
+        <item>Vellore</item>
+        <item>Villupuram</item>
+        <item>Virudhunagar</item>
+    </string-array>
+
+    <string name="title_activity_display_result">Result</string>
 
 </resources>

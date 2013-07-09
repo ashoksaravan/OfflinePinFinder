@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<offices>
+        <office>
+            <name>Abishegapakkam</name>
+            <pincode>605007</pincode>
+            <status>Branch Office</status>
+            <suboffice>Ariyankuppam</suboffice>
+            <headoffice>Pondicherry</headoffice>
+            <location>Pondicherry Taluk of Pondicherry District</location>
+            <telephone />
+        </office>
+        <office>
+            <name>Ariyankuppam</name>
+            <pincode>605007</pincode>
+            <status>Sub Office</status>
+            <suboffice>Ariyankuppam</suboffice>
+            <headoffice>Pondicherry</headoffice>
+            <location>Pondicherry Taluk of Pondicherry District</location>
+            <telephone />
+        </office>
+        <office>
+            <name>Bahoor</name>
+            <pincode>607402</pincode>
+            <status>Sub Office</status>
+            <suboffice />
+            <headoffice>Pondicherry</headoffice>
+            <location>Pondicherry Taluk of Pondicherry District</location>
+            <telephone>0413-2633680</telephone>
+        </office>
+        <office>
+            <name>Bommayarpalayam</name>
+            <pincode>605104</pincode>
+            <status>Branch Office</status>
+            <suboffice>Kottakuppam</suboffice>
+            <headoffice>Pondicherry</headoffice>
+            <location>Pondichery Taluk of Pondicherry District</location>
+            <telephone />
+        </office>
+        <office>
+            <name>Calapet</name>
+            <pincode>605014</pincode>
+            <status>Branch Office(Non Delivery)</status>
+            <suboffice>Ariyankuppam</suboffice>
+            <headoffice>Pondicherry University</headoffice>
+            <location>Pondicherry Taluk of Pondicherry District</location>
+            <telephone />
+        </office>      
+</offices>
