@@ -14,6 +14,12 @@
     <string name="districts">Districts</string>
     <string name="officename">Office Name</string>
     <string name="pincode">Pincode</string>
+    <string name="status">Status</string>
+    <string name="suboffice">Sub Office</string>
+    <string name="headoffice">Head Office</string>
+    <string name="location">Location</string>
+    <string name="telephone">Telephone</string>
+    <string name="NA">N/A</string>
 
     <string-array name="countries_array">
         <item>Select</item>

@@ -33,7 +33,6 @@ public class CustomOfficeAdapter extends BaseAdapter {
 
 	@Override
 	public Object getItem(int position) {
-		// TODO Auto-generated method stub
 		return offices.get(position);
 	}
 
@@ -52,17 +51,42 @@ public class CustomOfficeAdapter extends BaseAdapter {
 
 			holder = new ViewHolder();
 
-			holder.txtId = (TextView) convertView.findViewById(R.id.txtId);
+			holder.officeName = (TextView) convertView.findViewById(R.id.officeName);
 
-			holder.txtId.setPadding(2, 2, 2, 2);
+			holder.officeName.setPadding(2, 2, 2, 2);
 
-			holder.txtName = (TextView) convertView.findViewById(R.id.txtName);
+			holder.pincode = (TextView) convertView.findViewById(R.id.pincode);
 
-			holder.txtName.setPadding(2, 2, 2, 2);
+			holder.pincode.setPadding(2, 2, 2, 2);
+
+			holder.stauts = (TextView) convertView.findViewById(R.id.stauts);
+
+			holder.stauts.setPadding(2, 2, 2, 2);
+
+			holder.suboffice = (TextView) convertView.findViewById(R.id.subofficeName);
+
+			holder.suboffice.setPadding(2, 2, 2, 2);
+
+			holder.headoffice = (TextView) convertView.findViewById(R.id.headofficeName);
+
+			holder.headoffice.setPadding(2, 2, 2, 2);
+
+			holder.location = (TextView) convertView.findViewById(R.id.locationName);
+
+			holder.location.setPadding(2, 2, 2, 2);
+
+			holder.telephoneNumber = (TextView) convertView.findViewById(R.id.telephoneNumber);
+
+			holder.telephoneNumber.setPadding(2, 2, 2, 2);
 
 			if (position == 0) {
 
 				convertView.setTag(holder);
+			}
+			if (position % 2 == 0){
+				convertView.setBackgroundColor(0x30FF0000);
+			} else {
+	        	convertView.setBackgroundColor(0x300000FF);
 			}
 		}
 
@@ -70,15 +94,33 @@ public class CustomOfficeAdapter extends BaseAdapter {
 			holder = (ViewHolder) convertView.getTag();
 		}
 		if (holder != null) {
-			holder.txtId.setText(offices.get(position).getOfficeName());
-			holder.txtName.setText(offices.get(position).getPinCode());
+			holder.officeName.setText(offices.get(position).getOfficeName());
+			holder.pincode.setText(offices.get(position).getPinCode());
+			holder.stauts.setText(offices.get(position).getStatus());
+			if (offices.get(position).getSuboffice() != null
+					&& offices.get(position).getSuboffice().trim().length() > 0) {
+				holder.suboffice.setText(offices.get(position).getSuboffice());
+			}
+			holder.headoffice.setText(offices.get(position).getHeadoffice());
+			if (offices.get(position).getLocation() != null && offices.get(position).getLocation().trim().length() > 0) {
+				holder.location.setText(offices.get(position).getLocation());
+			}
+			if (offices.get(position).getTelephone() != null
+					&& offices.get(position).getTelephone().trim().length() > 0) {
+				holder.telephoneNumber.setText(offices.get(position).getTelephone());
+			}
 		}
 
 		return convertView;
 	}
 
 	static class ViewHolder {
-		TextView txtId;
-		TextView txtName;
+		TextView officeName;
+		TextView pincode;
+		TextView stauts;
+		TextView suboffice;
+		TextView headoffice;
+		TextView location;
+		TextView telephoneNumber;
 	}
 }

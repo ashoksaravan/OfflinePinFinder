@@ -29,6 +29,16 @@ public class XMLParser {
 						office.setOfficeName(parser.nextText());
 					} else if (name.equalsIgnoreCase("pincode")) {
 						office.setPinCode(parser.nextText());
+					} else if(name.equalsIgnoreCase("location")){
+						office.setLocation(parser.nextText());
+					} else if(name.equalsIgnoreCase("status")) {
+						office.setStatus(parser.nextText());
+					} else if(name.equalsIgnoreCase("suboffice")) {
+						office.setSuboffice(parser.nextText());
+					} else if(name.equalsIgnoreCase("headoffice")) {
+						office.setHeadoffice(parser.nextText());
+					} else if (name.equalsIgnoreCase("telephone")) {
+						office.setTelephone(parser.nextText());
 					}
 				}
 				break;
