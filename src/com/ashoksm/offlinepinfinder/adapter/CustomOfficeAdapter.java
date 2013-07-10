@@ -3,6 +3,7 @@ package com.ashoksm.offlinepinfinder.adapter;
 import java.util.ArrayList;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -83,11 +84,7 @@ public class CustomOfficeAdapter extends BaseAdapter {
 
 				convertView.setTag(holder);
 			}
-			if (position % 2 == 0){
-				convertView.setBackgroundColor(0x30FF0000);
-			} else {
-	        	convertView.setBackgroundColor(0x300000FF);
-			}
+				convertView.setBackgroundColor(Color.rgb(245, 245, 245));
 		}
 
 		else {
