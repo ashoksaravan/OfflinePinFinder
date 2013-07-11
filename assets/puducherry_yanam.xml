@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<offices>
+     <office>
+         <name>Yanam</name>
+         <pincode>533464</pincode>
+         <status>Sub Office(Delivery)</status>
+         <suboffice />
+         <headoffice>Kakinada</headoffice>
+         <location>Pondicherry Taluk of Pondicherry District </location>
+         <telephone>0884-2321120</telephone>
+     </office>
+</offices>
