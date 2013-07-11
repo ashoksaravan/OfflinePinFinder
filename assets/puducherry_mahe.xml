@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <offices>
      <office>
-         <name>Yanam</name>
-         <pincode>533464</pincode>
-         <status>Sub Office(Delivery)</status>
-         <suboffice />
-         <headoffice>Kakinada</headoffice>
-         <location>Pondicherry Taluk of Pondicherry District </location>
-         <telephone>0884-2321120</telephone>
+         <name>Naluthara</name>
+         <pincode>673310</pincode>
+         <status>Branch Office(Delivery)</status>
+         <suboffice>Mahe</suboffice>
+         <headoffice>Vadakara</headoffice>
+         <location>Mahe Ut Taluk of Mahe District</location>
+         <telephone />
      </office>
+     <office>
+         <name>Pallur</name>
+         <pincode>673310</pincode>
+         <status>Branch Office(Delivery)</status>
+         <suboffice>Mahe</suboffice>
+         <headoffice>Vadakara</headoffice>
+         <location>Mahe Ut Taluk of Mahe District</location>
+         <telephone />
+     </office>
+     <office>
+	     <name>Mahe</name>
+	     <pincode>673310</pincode>
+	     <status>Sub Office(Delivery)</status>
+	     <suboffice />
+	     <headoffice>Vadakara</headoffice>
+	     <location>Vadakara Taluk of Kozhikode District</location>
+	     <telephone>0490-2332230</telephone>
+      </office>
 </offices>

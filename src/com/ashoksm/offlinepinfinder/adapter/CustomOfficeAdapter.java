@@ -84,7 +84,7 @@ public class CustomOfficeAdapter extends BaseAdapter {
 
 				convertView.setTag(holder);
 			}
-				convertView.setBackgroundColor(Color.rgb(245, 245, 245));
+			convertView.setBackgroundColor(Color.rgb(245, 245, 245));
 		}
 
 		else {
