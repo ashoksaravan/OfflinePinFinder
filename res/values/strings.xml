@@ -20,6 +20,7 @@
     <string name="location">Location</string>
     <string name="telephone">Telephone</string>
     <string name="NA">N/A</string>
+    <string name="noMatchingTxt">No matching records found</string>
 
     <string-array name="countries_array">
         <item>Select</item>

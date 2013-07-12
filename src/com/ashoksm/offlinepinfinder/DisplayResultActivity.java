@@ -16,7 +16,6 @@ import android.view.View;
 import android.view.Window;
 import android.widget.GridView;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import com.ashoksm.offlinepinfinder.adapter.CustomOfficeAdapter;
 import com.ashoksm.offlinepinfinder.logic.XMLParser;
@@ -83,12 +82,8 @@ public class DisplayResultActivity extends Activity {
 					GridView gridview = (GridView) findViewById(R.id.gridview);
 					gridview.setAdapter(adapter);
 				} else {
-					TextView textView = new TextView(DisplayResultActivity.this);
-					textView.setTextSize(20);
-					textView.setText("No matching records found");
-
-					// Set the text view as the activity layout
-					setContentView(textView);
+					LinearLayout noMatchingLayout = (LinearLayout) findViewById(R.id.noMatchingLayout);
+					noMatchingLayout.setVisibility(View.VISIBLE);
 				}
 				// HIDE THE SPINNER AFTER LOADING FEEDS
 				linlaHeaderProgress.setVisibility(View.GONE);

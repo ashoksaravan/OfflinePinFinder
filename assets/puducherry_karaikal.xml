@@ -25,7 +25,7 @@
 	     <suboffice>Karaikal South</suboffice>
 	     <headoffice>Nagapattinam</headoffice>
 	     <location>Taluk of Karaikal District</location>
-	     <telephone>0490-2332230</telephone>
+	     <telephone />
       </office>
       <office>
          <name>Karaikal Bazaar</name>
@@ -205,7 +205,7 @@
          <suboffice />
          <headoffice>Nagapattinam</headoffice>
          <location>Karaikal Taluk of Karaikal District </location>
-         <telephone />
+         <telephone>04368-234493</telephone>
      </office>
      <office>
 	     <name>Tirunallar</name>

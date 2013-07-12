@@ -18,12 +18,32 @@
             android:layout_height="wrap_content" >
         </ProgressBar>
     </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/noMatchingLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+         <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/noMatchingTxt"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#808080"
+            android:textIsSelectable="false"
+            android:textStyle="bold" />
+    </LinearLayout>
 
     <GridView
         android:id="@+id/gridview"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:cacheColorHint="#00000000"
+        android:background="#CFCFC4"
         android:clipChildren="true"
         android:horizontalSpacing="5dp"
         android:numColumns="1"
