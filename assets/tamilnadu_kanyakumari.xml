@@ -1,0 +1,2405 @@
+<offices>
+  <office>
+    <name>Adaikkakuzhi</name>
+    <pinCode>629153</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kaliakkavilai</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Agasteeswaram</name>
+    <pinCode>629701</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Alagiamandapam</name>
+    <pinCode>629167</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Mulagumoodu</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Alampara</name>
+    <pinCode>629170</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palukal</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Alanchi</name>
+    <pinCode>629159</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palapalam</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Alancholai</name>
+    <pinCode>629101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kaliyal</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Alancode</name>
+    <pinCode>629802</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Neyyoor</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Aloor</name>
+    <pinCode>629801</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone>04562-232032</telephone>
+  </office>
+  <office>
+    <name>Ammandivilai</name>
+    <pinCode>629204</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Anandanadarkudy</name>
+    <pinCode>629201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Asaripallam</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Andirapuram</name>
+    <pinCode>629851</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Azhakiapandipuram</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Anducode</name>
+    <pinCode>629168</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pacode</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Anjugramam</name>
+    <pinCode>629401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Azhakappapuram</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Aralvaymoli</name>
+    <pinCode>629301</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone>04652-262300</telephone>
+  </office>
+  <office>
+    <name>Arukani</name>
+    <pinCode>629101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kaliyal</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Arumanai</name>
+    <pinCode>629151</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone>04651-209330</telephone>
+  </office>
+  <office>
+    <name>Arumanallur</name>
+    <pinCode>629851</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Azhakiapandipuram</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Thovalai Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Aruvikkarai</name>
+    <pinCode>629177</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruvattar</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Asaripallam</name>
+    <pinCode>629201</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Asiramam</name>
+    <pinCode>629704</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Suchindrum</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Attur</name>
+    <pinCode>629177</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruvattar</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Azhakamparai</name>
+    <pinCode>629252</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manavalakurichi</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Azhakappapuram</name>
+    <pinCode>629401</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice>Nagercoil</suboffice>
+    <headoffice>Agasteeswaram Taluk of Kanyakumari</headoffice>
+    <location>04652-266577</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Azhakiapandipuram</name>
+    <pinCode>629851</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice>Nagercoil</suboffice>
+    <headoffice>Thovalai Taluk of Kanyakumari</headoffice>
+    <location>04652-281359</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Azhikkal</name>
+    <pinCode>629202</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Muttom</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bethelpuram</name>
+    <pinCode>629803</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Neyyoor West</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bhoothapandy</name>
+    <pinCode>629852</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Thovala Taluk of Kanyakumari District</location>
+    <telephone>04652-282056</telephone>
+  </office>
+  <office>
+    <name>Catherin Booth Hospital</name>
+    <pinCode>629001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Chathancode</name>
+    <pinCode>629153</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kaliakkavilai</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chemparuthivilai</name>
+    <pinCode>629166</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mekkamandapam</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chemponvilai</name>
+    <pinCode>629804</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thickanamcode</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chenkody</name>
+    <pinCode>629177</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruvattar</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cherupallur</name>
+    <pinCode>629161</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kulasekharam</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chenbagaramanputhur</name>
+    <pinCode>629301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Aralvaymoli</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Thovalai Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cheruvallur</name>
+    <pinCode>629152</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idaikkode</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chitharal</name>
+    <pinCode>629151</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Arumanai</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chittardam Colony</name>
+    <pinCode>629161</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kulasekharam</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chunkankadai</name>
+    <pinCode>629003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vetturnimadam</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Colachel Port</name>
+    <pinCode>629251</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Colachel</name>
+    <pinCode>629251</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone>04651-225600</telephone>
+  </office>
+  <office>
+    <name>Derisanamcope</name>
+    <pinCode>629851</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Azhakiapandipuram</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Thovalai Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Devakulam</name>
+    <pinCode>629704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Suchindrum</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Eathamozhi</name>
+    <pinCode>629501</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone>04652-269850</telephone>
+  </office>
+  <office>
+    <name>Edalakudy</name>
+    <pinCode>629002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kottar</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Elavuvilai</name>
+    <pinCode>629171</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pudukadai</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Enayam</name>
+    <pinCode>629193</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Keezhkulam</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Enayamputhenthurai</name>
+    <pinCode>629193</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Keezhkulam</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Erachakulam</name>
+    <pinCode>629901</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thazhakudy</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Thovalai Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Eravipudurkadai</name>
+    <pinCode>629158</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Kattathurai</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Eraviputhur</name>
+    <pinCode>629402</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Marungoor</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Erumbukadu</name>
+    <pinCode>629004</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nagercoil Industrial Estate</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Fathima Nagar</name>
+    <pinCode>629160</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kollangodu</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Friday Market</name>
+    <pinCode>629203</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Ganapathipuram</name>
+    <pinCode>629502</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Gnaramvilai</name>
+    <pinCode>629165</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Marthandam North</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Idaikkode</name>
+    <pinCode>629152</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Ilanchirai</name>
+    <pinCode>629152</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idaikkode</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Irenipuram</name>
+    <pinCode>629162</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kappukadu</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Irulappapuram</name>
+    <pinCode>629002</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Kottar</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Isanthimangalam</name>
+    <pinCode>629852</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bhoothapandy</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Thovalai Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>James Town</name>
+    <pinCode>629401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Azhakappapuram</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kadiyapattanam</name>
+    <pinCode>629252</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manavalakurichi</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kadukkarai</name>
+    <pinCode>629401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Azhakappapuram</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Thovala Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kaliakkavilai</name>
+    <pinCode>629153</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone>04651-245928</telephone>
+  </office>
+  <office>
+    <name>Kaliyal</name>
+    <pinCode>629101</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Kallankuzhi</name>
+    <pinCode>629166</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mekkamandapam</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kallukoottam</name>
+    <pinCode>629802</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Neyyoor</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kalpadi</name>
+    <pinCode>629204</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ammandivilai</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kandanvilai</name>
+    <pinCode>629810</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Kaniyakulam</name>
+    <pinCode>629003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vetturnimadam</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kanjampuram</name>
+    <pinCode>629154</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Kanjikuzhi</name>
+    <pinCode>629169</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palliyadi</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kanjiracode</name>
+    <pinCode>629155</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Kannanore</name>
+    <pinCode>629158</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kattathurai</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kannattuvilai</name>
+    <pinCode>629802</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Neyyoor</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kanniyakumari</name>
+    <pinCode>629702</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Agasteeswaram Taluk of Kanyakumari District</location>
+    <telephone>04652-248321</telephone>
+  </office>
+  <office>
+    <name>Kannumamoodu</name>
+    <pinCode>629170</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palukal</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kappiyarai</name>
+    <pinCode>629156</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Kappukadu</name>
+    <pinCode>629162</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Karankad</name>
+    <pinCode>629809</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Karinkal</name>
+    <pinCode>629157</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone>04651-266661</telephone>
+  </office>
+  <office>
+    <name>Karod</name>
+    <pinCode>629151</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Arumanai</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kattathurai</name>
+    <pinCode>629158</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Kattimancode</name>
+    <pinCode>629801</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Aloor</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Keeriparai</name>
+    <pinCode>629401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Azhakappapuram</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Thovala Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Keezhkulam</name>
+    <pinCode>629193</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Keralapuram</name>
+    <pinCode>629174</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thiruvithancode</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kesavanputhenthurai</name>
+    <pinCode>629501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Eathamozhi</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Killiyoor</name>
+    <pinCode>629171</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pudukadai</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kirathur</name>
+    <pinCode>629160</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kollangodu</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kodayarkilthangal</name>
+    <pinCode>629102</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Kodimunai</name>
+    <pinCode>629251</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Colachel</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kollangodu</name>
+    <pinCode>629160</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone>04651-246462</telephone>
+  </office>
+  <office>
+    <name>Konamkadu</name>
+    <pinCode>629803</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Neyyoor West</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kottar</name>
+    <pinCode>629002</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone>04652-242785</telephone>
+  </office>
+  <office>
+    <name>Kottaram</name>
+    <pinCode>629703</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone>04652-270425</telephone>
+  </office>
+  <office>
+    <name>Kovalam</name>
+    <pinCode>629702</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kanniyakumari</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kozhiporvilai</name>
+    <pinCode>629167</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Mulagumoodu</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Krishnancoil</name>
+    <pinCode>629001</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Oluganacheri</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kulapuram</name>
+    <pinCode>629153</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kaliakkavilai</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kulasekharam</name>
+    <pinCode>629161</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone>04651-278011</telephone>
+  </office>
+  <office>
+    <name>Kulasekharapuram</name>
+    <pinCode>629403</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mayiladi</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agasteeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kumaracoil</name>
+    <pinCode>629180</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Villukuri</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kumarapuram</name>
+    <pinCode>629164</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manalikarai</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kumarapuram</name>
+    <pinCode>629301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Aralvaymoli</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kumarapuramthoppur</name>
+    <pinCode>629402</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Marungoor</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kurumpanai</name>
+    <pinCode>629251</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Colachel</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kurunthencode</name>
+    <pinCode>629802</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Neyyoor</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuzhithurai</name>
+    <pinCode>629163</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone>04651-260413</telephone>
+  </office>
+  <office>
+    <name>Kuzhithurai West</name>
+    <pinCode>629163</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Leepuram</name>
+    <pinCode>629702</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kanniyakumari</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lekshmipuram</name>
+    <pinCode>629802</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Neyyoor</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuzhicode</name>
+    <pinCode>629167</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mulagumoodu</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Madathattuvilai</name>
+    <pinCode>629180</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Villukuri</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Madavalayam</name>
+    <pinCode>629302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thovalai</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Thovala Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Madichel</name>
+    <pinCode>629163</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuzhithurai</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mahadanapuram</name>
+    <pinCode>629702</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kanniyakumari</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Malamary</name>
+    <pinCode>629152</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idaikkode</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Malayadi</name>
+    <pinCode>629153</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kaliakkavilai</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manakarai</name>
+    <pinCode>629180</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Villukuri</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manalikarai</name>
+    <pinCode>629164</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Manalodai</name>
+    <pinCode>629161</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kulasekharam</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manavalakurichi</name>
+    <pinCode>629252</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone>04651-200688</telephone>
+  </office>
+  <office>
+    <name>Mancode</name>
+    <pinCode>629152</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idaikkode</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mangalakunnu</name>
+    <pinCode>629178</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Udayamarthandam</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mangarai</name>
+    <pinCode>629157</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karinkal</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mangavilai</name>
+    <pinCode>629501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Eathamozhi</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maniankuzhi</name>
+    <pinCode>629161</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kulasekharam</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manivilai</name>
+    <pinCode>629170</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palukal</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manjalumoodu</name>
+    <pinCode>629151</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Arumanai</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maramalai</name>
+    <pinCode>629851</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Azhakiapandipuram</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Thovala Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maravankudiyiruppu</name>
+    <pinCode>629002</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Marthandam Bridge</name>
+    <pinCode>629165</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Marthandam North</name>
+    <pinCode>629165</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Marthandam</name>
+    <pinCode>629165</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone>04651-270046</telephone>
+  </office>
+  <office>
+    <name>Marthandamthurai</name>
+    <pinCode>629160</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Kollangodu</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Marungoor</name>
+    <pinCode>629402</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Agasteeswaram Taluk of Kanyakumari District</location>
+    <telephone>046-232032</telephone>
+  </office>
+  <office>
+    <name>Maruthemparai</name>
+    <pinCode>629101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kaliyal</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maruthencode</name>
+    <pinCode>629163</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuzhithurai</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maruthurkurichi</name>
+    <pinCode>629158</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kattathurai</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mathiasnagar</name>
+    <pinCode>629852</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bhoothapandy</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Thovala Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mayiladi</name>
+    <pinCode>629403</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Meenachel</name>
+    <pinCode>629153</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kaliakkavilai</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mekkamandapam</name>
+    <pinCode>629166</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone>04651-217676</telephone>
+  </office>
+  <office>
+    <name>Mekkode</name>
+    <pinCode>629804</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thickanamcode</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Melakrishnanputhur</name>
+    <pinCode>629601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Parakkai</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Melamanakudy</name>
+    <pinCode>629602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Puthalam</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Meppalai</name>
+    <pinCode>629152</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idaikkode</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Thovala Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Methukummal</name>
+    <pinCode>629172</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>S.T.Mankad</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mettukadai</name>
+    <pinCode>629175</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Mondaikad</name>
+    <pinCode>629252</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manavalakurichi</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Monikettipottal</name>
+    <pinCode>629501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Eathamozhi</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Moovattumugham</name>
+    <pinCode>629177</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruvattar</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mukkampala</name>
+    <pinCode>629164</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manalikarai</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mulachel</name>
+    <pinCode>629175</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Mettukadai</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mulagumoodu</name>
+    <pinCode>629167</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone>04651-249663</telephone>
+  </office>
+  <office>
+    <name>Mulankuzhi</name>
+    <pinCode>629162</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kappukadu</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mullanginavilai</name>
+    <pinCode>629157</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karinkal</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Munchirai</name>
+    <pinCode>629171</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Pudukadai</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Muttom</name>
+    <pinCode>629202</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice>Nagercoil</suboffice>
+    <headoffice>Kalkulam Taluk of Kanyakumari</headoffice>
+    <location></location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nagercoil Bazaar</name>
+    <pinCode>629001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Nagercoil Collectorate</name>
+    <pinCode>629001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone>04652-222844</telephone>
+  </office>
+  <office>
+    <name>Nagercoil</name>
+    <pinCode>629001</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone>04652-232066</telephone>
+  </office>
+  <office>
+    <name>Nagercoil Industrial Estate</name>
+    <pinCode>629004</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone>04652-261515</telephone>
+  </office>
+  <office>
+    <name>Nagercoil Town</name>
+    <pinCode>629001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone>04652-222855</telephone>
+  </office>
+  <office>
+    <name>Nagercoil West</name>
+    <pinCode>629001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Nallur</name>
+    <pinCode>629704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Suchindrum</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nallur-marthandam</name>
+    <pinCode>629165</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Marthandam</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nattalam</name>
+    <pinCode>629165</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Marthandam</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nesamony Nagar</name>
+    <pinCode>629001</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Nagercoil West</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Netta</name>
+    <pinCode>629101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kaliyal</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Neyyoor</name>
+    <pinCode>629802</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone>04651-222331</telephone>
+  </office>
+  <office>
+    <name>Neyyoor West</name>
+    <pinCode>629803</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Nithiravilai</name>
+    <pinCode>629154</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kanjampuram</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>North Soorankudy</name>
+    <pinCode>629501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Eathamozhi</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Oluganacheri</name>
+    <pinCode>629001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Pacode</name>
+    <pinCode>629168</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Padanthalumoodu</name>
+    <pinCode>629163</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuzhithurai</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Padmanabhapuram Fort</name>
+    <pinCode>629175</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Painkulam</name>
+    <pinCode>629173</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thengapattanam</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Palapalam</name>
+    <pinCode>629159</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone>04651-207411</telephone>
+  </office>
+  <office>
+    <name>Palavilai</name>
+    <pinCode>629160</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kollangodu</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Palkulam</name>
+    <pinCode>629851</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Azhakiapandipuram</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Thovala Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pallam</name>
+    <pinCode>629601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Parakkai</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Palliyadi</name>
+    <pinCode>629169</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Palukal</name>
+    <pinCode>629170</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone>04651-4651250</telephone>
+  </office>
+  <office>
+    <name>Parakkai</name>
+    <pinCode>629601</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Agasteeswaram Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Parvathipuram</name>
+    <pinCode>629003</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Vetturnimadam</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pathukani</name>
+    <pinCode>629101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kaliyal</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pazhavilai</name>
+    <pinCode>629501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Eathamozhi</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pechchipparai</name>
+    <pinCode>629161</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kulasekharam</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Peruvilai</name>
+    <pinCode>629003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vetturnimadam</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Peyankuzhi</name>
+    <pinCode>629809</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karankad</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ponmanai</name>
+    <pinCode>629161</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kulasekharam</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Poothurai</name>
+    <pinCode>629176</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thuthur</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Potraiyadi</name>
+    <pinCode>629703</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kottaram</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pottakulam</name>
+    <pinCode>629401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Azhakappapuram</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pottetty</name>
+    <pinCode>629157</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karinkal</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pozhikkarai</name>
+    <pinCode>629501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Eathamozhi</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pudukadai</name>
+    <pinCode>629171</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone>04651-233234</telephone>
+  </office>
+  <office>
+    <name>Puliyurkurichi</name>
+    <pinCode>629175</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Padmanabhapuram Fort</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puthalam</name>
+    <pinCode>629602</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Puthenthurai</name>
+    <pinCode>629501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Eathamozhi</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Putheri</name>
+    <pinCode>629001</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Catherin Booth Hospital</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rajakkamangalam</name>
+    <pinCode>629502</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ganapathipuram</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rajakkamangalamthurai</name>
+    <pinCode>629501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Eathamozhi</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ramanthurai</name>
+    <pinCode>629193</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Keezhkulam</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ramapuram</name>
+    <pinCode>629302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thovalai</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Thovala Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ramavarmanchirai</name>
+    <pinCode>629152</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idaikkode</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ratnapuram</name>
+    <pinCode>629851</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Azhakiapandipuram</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Thovala Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ritapuram</name>
+    <pinCode>629159</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palapalam</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>S.T.Mankad</name>
+    <pinCode>629172</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice>Thuckalay</suboffice>
+    <headoffice>Vilavancode Taluk of Kanyakumari</headoffice>
+    <location>04652-232032</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sahayanagar</name>
+    <pinCode>629159</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palapalam</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Santhaiyadi</name>
+    <pinCode>629703</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kottaram</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Santhapuram</name>
+    <pinCode>629201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Asaripallam</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Saral Agasteeswaram</name>
+    <pinCode>629203</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Friday Market</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sasthankcoilvilai</name>
+    <pinCode>629704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Suchindrum</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sooriacode</name>
+    <pinCode>629153</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kaliakkavilai</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>South Soorankudy</name>
+    <pinCode>629501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Eathamozhi</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Suchindrum</name>
+    <pinCode>629704</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Agasteeswaram Taluk of Kanyakumari District</location>
+    <telephone>04652-242499</telephone>
+  </office>
+  <office>
+    <name>Terur</name>
+    <pinCode>629704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Suchindrum</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agasteeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thadikarankonam</name>
+    <pinCode>629851</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Azhakiapandipuram</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Thovala Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thalakulam</name>
+    <pinCode>629802</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Neyyoor</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thamaraikulam</name>
+    <pinCode>629704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Suchindrum</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agasteeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thazhakudy</name>
+    <pinCode>629901</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice>Nagercoil</suboffice>
+    <headoffice>Thovala Taluk of Kanyakumari</headoffice>
+    <location>04652-232032</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thengamputhur</name>
+    <pinCode>629602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Puthalam</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agasteeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thengapattanam</name>
+    <pinCode>629173</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Therekalpudur</name>
+    <pinCode>629901</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thazhakudy</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Thovala Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Therku Thamaraikulam</name>
+    <pinCode>629701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Agasteeswaram</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Theruvukadai</name>
+    <pinCode>629157</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karinkal</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thickanamcode</name>
+    <pinCode>629804</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Thickurichy</name>
+    <pinCode>629168</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pacode</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thirupathisaram</name>
+    <pinCode>629901</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thazhakudy</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Thovalai Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thiruthuvapuram</name>
+    <pinCode>629163</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Kuzhithurai West</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thiruvarambu</name>
+    <pinCode>629161</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kulasekharam</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thiruvithancode</name>
+    <pinCode>629174</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Tholayavattai</name>
+    <pinCode>629157</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karinkal</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tholayavattai</name>
+    <pinCode>629157</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karinkal</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thuckalay</name>
+    <pinCode>629175</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone>04651-250740</telephone>
+  </office>
+  <office>
+    <name>Thumbode</name>
+    <pinCode>629161</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Kulasekharam</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thuthur</name>
+    <pinCode>629176</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Tiruparappu</name>
+    <pinCode>629161</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kulasekharam</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tiruvattar</name>
+    <pinCode>629177</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice>Thuckalay</suboffice>
+    <headoffice>Kalkulam Taluk of Kanyakumari</headoffice>
+    <location>04651-283887</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tittivilai</name>
+    <pinCode>629852</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Bhoothapandy</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Thovala Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Udayamarthandam</name>
+    <pinCode>629178</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Unnamalakada</name>
+    <pinCode>629179</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Urambu</name>
+    <pinCode>629160</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Kollangodu</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vadasery</name>
+    <pinCode>629001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Vadiveeswaram</name>
+    <pinCode>629001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone>04652-222877</telephone>
+  </office>
+  <office>
+    <name>Vallavilai</name>
+    <pinCode>629160</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kollangodu</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vaniyakudi</name>
+    <pinCode>629251</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Colachel</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vanniyur</name>
+    <pinCode>629163</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuzhithurai</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Variyoor</name>
+    <pinCode>629401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Azhakappapuram</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vazhukkamparai</name>
+    <pinCode>629704</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Suchindrum</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Veeyannur</name>
+    <pinCode>629177</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruvattar</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Velimalai</name>
+    <pinCode>629164</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manalikarai</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vellachiparai</name>
+    <pinCode>629152</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idaikkode</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vellamadam</name>
+    <pinCode>629302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thovalai</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Thovala Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vembanur</name>
+    <pinCode>629801</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Aloor</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vencode</name>
+    <pinCode>629171</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pudukadai</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vendalicode</name>
+    <pinCode>629161</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kulasekharam</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Verkilambi</name>
+    <pinCode>629166</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mekkamandapam</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vetturnimadam</name>
+    <pinCode>629003</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone>04652-222887</telephone>
+  </office>
+  <office>
+    <name>Villukuri</name>
+    <pinCode>629180</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagercoil</headoffice>
+    <location>Kalkulam Taluk of Kanyakumari District</location>
+    <telephone>04652-232032</telephone>
+  </office>
+  <office>
+    <name>Viricode</name>
+    <pinCode>629165</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Marthandam</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vivekanandapuram</name>
+    <pinCode>629702</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Kanniyakumari</suboffice>
+    <headoffice>Nagercoil</headoffice>
+    <location>Agastheeswaram Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vizhunthaiyambalam</name>
+    <pinCode>629173</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thengapattanam</suboffice>
+    <headoffice>Thuckalay</headoffice>
+    <location>Vilavancode Taluk of Kanyakumari District</location>
+    <telephone />
+  </office>
+</offices>
