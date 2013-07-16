@@ -22,18 +22,6 @@
     <string name="NA">N/A</string>
     <string name="noMatchingTxt">No matching records found</string>
 
-    <string-array name="countries_array">
-        <item>Select</item>
-        <item>China</item>
-        <item>India</item>
-        <item>USA</item>
-        <item>Indonesia</item>
-        <item>Brazil</item>
-        <item>Pakistan</item>
-        <item>Nigeria</item>
-        <item>Bangladesh</item>
-        <item>Russia</item>
-    </string-array>
     <string-array name="states_array">
         <item>Andhra Pradesh</item>
         <item>Arunachal Pradesh</item>

@@ -76,41 +76,61 @@ public class CustomOfficeAdapter extends BaseAdapter {
 
 			holder.suboffice.setPadding(2, 2, 2, 2);
 
+			holder.subofficeLabel = (TextView) v.findViewById(R.id.subofficeLabel);
+
 			holder.headoffice = (TextView) v.findViewById(R.id.headofficeName);
 
 			holder.headoffice.setPadding(2, 2, 2, 2);
+
+			holder.headofficeLabel = (TextView) v.findViewById(R.id.headofficeLabel);
 
 			holder.location = (TextView) v.findViewById(R.id.locationName);
 
 			holder.location.setPadding(2, 2, 2, 2);
 
+			holder.locationLabel = (TextView) v.findViewById(R.id.locationLabel);
+
 			holder.telephoneNumber = (TextView) v.findViewById(R.id.telephoneNumber);
 
+			holder.telephoneLabel = (TextView) v.findViewById(R.id.telephoneLabel);
+
 			holder.telephoneNumber.setPadding(2, 2, 2, 2);
-				v.setTag(holder);
+			v.setTag(holder);
 			v.setBackgroundColor(Color.rgb(245, 245, 245));
 
 			holder.officeName.setText(offices.get(position).getOfficeName());
 			holder.pincode.setText(offices.get(position).getPinCode());
 			holder.stauts.setText(offices.get(position).getStatus());
+
 			if (offices.get(position).getSuboffice() != null
 					&& offices.get(position).getSuboffice().trim().length() > 0) {
 				holder.suboffice.setText(offices.get(position).getSuboffice());
 			} else {
-				holder.suboffice.setText("N/A");
+				holder.suboffice.setVisibility(View.GONE);
+				holder.subofficeLabel.setVisibility(View.GONE);
 			}
-			holder.headoffice.setText(offices.get(position).getHeadoffice());
+
+			if (offices.get(position).getHeadoffice() != null
+					&& offices.get(position).getHeadoffice().trim().length() > 0) {
+				holder.headoffice.setText(offices.get(position).getHeadoffice());
+			} else {
+				holder.headoffice.setVisibility(View.GONE);
+				holder.headofficeLabel.setVisibility(View.GONE);
+			}
+
 			if (offices.get(position).getLocation() != null && offices.get(position).getLocation().trim().length() > 0) {
 				holder.location.setText(offices.get(position).getLocation());
 			} else {
-				holder.location.setText("N/A");
+				holder.location.setVisibility(View.GONE);
+				holder.locationLabel.setVisibility(View.GONE);
 			}
 			if (offices.get(position).getTelephone() != null
 					&& offices.get(position).getTelephone().trim().length() > 0) {
 				holder.telephoneNumber.setText(offices.get(position).getTelephone());
 				Linkify.addLinks(holder.telephoneNumber, Linkify.ALL);
 			} else {
-				holder.telephoneNumber.setText("N/A");
+				holder.telephoneNumber.setVisibility(View.GONE);
+				holder.telephoneLabel.setVisibility(View.GONE);
 			}
 		}
 
@@ -122,8 +142,12 @@ public class CustomOfficeAdapter extends BaseAdapter {
 		TextView pincode;
 		TextView stauts;
 		TextView suboffice;
+		TextView subofficeLabel;
 		TextView headoffice;
+		TextView headofficeLabel;
 		TextView location;
+		TextView locationLabel;
 		TextView telephoneNumber;
+		TextView telephoneLabel;
 	}
 }
