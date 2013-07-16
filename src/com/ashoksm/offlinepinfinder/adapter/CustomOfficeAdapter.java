@@ -104,6 +104,8 @@ public class CustomOfficeAdapter extends BaseAdapter {
 
 			if (offices.get(position).getSuboffice() != null
 					&& offices.get(position).getSuboffice().trim().length() > 0) {
+				holder.suboffice.setVisibility(View.VISIBLE);
+				holder.subofficeLabel.setVisibility(View.VISIBLE);
 				holder.suboffice.setText(offices.get(position).getSuboffice());
 			} else {
 				holder.suboffice.setVisibility(View.GONE);
@@ -112,6 +114,8 @@ public class CustomOfficeAdapter extends BaseAdapter {
 
 			if (offices.get(position).getHeadoffice() != null
 					&& offices.get(position).getHeadoffice().trim().length() > 0) {
+				holder.headoffice.setVisibility(View.VISIBLE);
+				holder.headofficeLabel.setVisibility(View.VISIBLE);
 				holder.headoffice.setText(offices.get(position).getHeadoffice());
 			} else {
 				holder.headoffice.setVisibility(View.GONE);
@@ -119,6 +123,8 @@ public class CustomOfficeAdapter extends BaseAdapter {
 			}
 
 			if (offices.get(position).getLocation() != null && offices.get(position).getLocation().trim().length() > 0) {
+				holder.location.setVisibility(View.VISIBLE);
+				holder.locationLabel.setVisibility(View.VISIBLE);
 				holder.location.setText(offices.get(position).getLocation());
 			} else {
 				holder.location.setVisibility(View.GONE);
@@ -126,6 +132,8 @@ public class CustomOfficeAdapter extends BaseAdapter {
 			}
 			if (offices.get(position).getTelephone() != null
 					&& offices.get(position).getTelephone().trim().length() > 0) {
+				holder.telephoneNumber.setVisibility(View.VISIBLE);
+				holder.telephoneLabel.setVisibility(View.VISIBLE);
 				holder.telephoneNumber.setText(offices.get(position).getTelephone());
 				Linkify.addLinks(holder.telephoneNumber, Linkify.ALL);
 			} else {
