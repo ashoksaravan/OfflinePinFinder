@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight=".3"
+            android:layout_weight=".4"
             android:text="@string/officename"
             android:textIsSelectable="false"
             android:textStyle="bold" />
@@ -24,7 +24,7 @@
             android:id="@+id/officeName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight=".7"
+            android:layout_weight=".6"
             android:textIsSelectable="true" />
     </LinearLayout>
 
@@ -37,7 +37,7 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight=".3"
+            android:layout_weight=".4"
             android:text="@string/pincode"
             android:textIsSelectable="false"
             android:textStyle="bold" />
@@ -46,7 +46,7 @@
             android:id="@+id/pincode"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight=".7"
+            android:layout_weight=".6"
             android:textIsSelectable="true" />
     </LinearLayout>
 
@@ -59,7 +59,7 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight=".3"
+            android:layout_weight=".4"
             android:text="@string/status"
             android:textIsSelectable="false"
             android:textStyle="bold" />
@@ -68,7 +68,7 @@
             android:id="@+id/stauts"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight=".7"
+            android:layout_weight=".6"
             android:textIsSelectable="true" />
     </LinearLayout>
 
@@ -81,7 +81,7 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight=".3"
+            android:layout_weight=".4"
             android:text="@string/suboffice"
             android:textIsSelectable="false"
             android:textStyle="bold" />
@@ -90,7 +90,7 @@
             android:id="@+id/subofficeName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight=".7"
+            android:layout_weight=".6"
             android:text="@string/NA"
             android:textIsSelectable="true" />
     </LinearLayout>
@@ -104,7 +104,7 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight=".3"
+            android:layout_weight=".4"
             android:text="@string/headoffice"
             android:textIsSelectable="false"
             android:textStyle="bold" />
@@ -113,7 +113,7 @@
             android:id="@+id/headofficeName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight=".7"
+            android:layout_weight=".6"
             android:textIsSelectable="true" />
     </LinearLayout>
 
@@ -126,7 +126,7 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight=".3"
+            android:layout_weight=".4"
             android:text="@string/location"
             android:textIsSelectable="false"
             android:textStyle="bold" />
@@ -135,7 +135,7 @@
             android:id="@+id/locationName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight=".7"
+            android:layout_weight=".6"
             android:text="@string/NA"
             android:textIsSelectable="true" />
     </LinearLayout>
@@ -149,7 +149,7 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight=".3"
+            android:layout_weight=".4"
             android:text="@string/telephone"
             android:textIsSelectable="false"
             android:textStyle="bold" />
@@ -158,7 +158,7 @@
             android:id="@+id/telephoneNumber"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight=".7"
+            android:layout_weight=".6"
             android:text="@string/NA"
             android:textIsSelectable="true" />
     </LinearLayout>
