@@ -1,0 +1,5015 @@
+<offices>
+  <office>
+    <name>A Thirumalapuram</name>
+    <pinCode>627113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Terkukallikulam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>A. Sathankulam</name>
+    <pinCode>627151</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Maruthakulam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Achampadu</name>
+    <pinCode>627117</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vallioor</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Achankuttam</name>
+    <pinCode>627861</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Virakeralmpudur</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Virakeralampudur Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Achanpudur</name>
+    <pinCode>627803</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Elathur S.O</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Shenkottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Adaichani</name>
+    <pinCode>627413</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Brahmadesam S.O</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Adaikalapattinam</name>
+    <pinCode>627808</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pavoorchatram</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Alangulam Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Agarakattu</name>
+    <pinCode>627852</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ayikudi</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Agasthiarpatti</name>
+    <pinCode>627416</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kallidaikurichi</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Agasthiyarpatti</name>
+    <pinCode>627428</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-222024</telephone>
+  </office>
+  <office>
+    <name>Aladiyur</name>
+    <pinCode>627421</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manimuthar Project</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Alagappapuram</name>
+    <pinCode>627652</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ittamozhi</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Alagapuri</name>
+    <pinCode>627719</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruvengadam</suboffice>
+    <headoffice>Kovilpatti</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Alagiapandiapuram</name>
+    <pinCode>627201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manur</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Alagunatchiapuram</name>
+    <pinCode>627754</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuruvikulam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Alangulam</name>
+    <pinCode>627851</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice>Tenkasi</suboffice>
+    <headoffice>Alangulam Taluk of Tirunelveli</headoffice>
+    <location>04633-272855</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Alkondarkulam</name>
+    <pinCode>627862</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Virasigamani</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Alwaneri</name>
+    <pinCode>627354</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mulaikaraipatti</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Alwarkurichi</name>
+    <pinCode>627412</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-283666</telephone>
+  </office>
+  <office>
+    <name>Ambalam</name>
+    <pinCode>627354</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mulaikaraipatti</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ambalavanapuram</name>
+    <pinCode>627425</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-250394</telephone>
+  </office>
+  <office>
+    <name>Ambasamudram Angadi</name>
+    <pinCode>627401</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-250394</telephone>
+  </office>
+  <office>
+    <name>Ambasamudram East</name>
+    <pinCode>627401</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-250394</telephone>
+  </office>
+  <office>
+    <name>Ambasamudram</name>
+    <pinCode>627401</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-250394</telephone>
+  </office>
+  <office>
+    <name>Ambasamudram Pothugudi</name>
+    <pinCode>627413</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Brahmadesam S.O</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Anaigudi</name>
+    <pinCode>627651</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idayangudi</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Anaikarai</name>
+    <pinCode>627654</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pettaikulam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Anaikulam</name>
+    <pinCode>627117</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vallioor</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Anaikulam</name>
+    <pinCode>627859</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Surandai</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Virakeralampudur Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Anaintha Perumal Nadanur</name>
+    <pinCode>627423</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pottalpudur</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Alangulam Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Andipatti</name>
+    <pinCode>627851</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Alangulam</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Alangulam Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Anjankattalai</name>
+    <pinCode>627851</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Alangulam</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Alangulam Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Anuvijay Township</name>
+    <pinCode>627120</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Ariyanayagipuram</name>
+    <pinCode>627862</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Virasigamani</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ariyur</name>
+    <pinCode>627758</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vasudevanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sivigiri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Arugankulam</name>
+    <pinCode>627757</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sivagiri S.O</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sivagiri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Athuvazhi</name>
+    <pinCode>627760</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone>04636-222313</telephone>
+  </office>
+  <office>
+    <name>Attalanallur</name>
+    <pinCode>627426</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Viravanallur</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Avaraikulam</name>
+    <pinCode>627105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kavalkinaru</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Avudaiyanur</name>
+    <pinCode>627808</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pavoorchatram</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ayanthiruvaleeswaram</name>
+    <pinCode>627418</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kila Ambur</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ayikudi</name>
+    <pinCode>627852</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone>04633-293273</telephone>
+  </office>
+  <office>
+    <name>Ayiraperi</name>
+    <pinCode>627814</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kizhapuliyur</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ayyanarkulam</name>
+    <pinCode>627853</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nallur S.O</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Alangulam Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ayyaneri</name>
+    <pinCode>628502</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lakshmipuram S.O</suboffice>
+    <headoffice>Kovilpatti</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ayyapuram</name>
+    <pinCode>627855</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Puliyangudi</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ayyapuram</name>
+    <pinCode>627805</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ilanji</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Azhaganeri</name>
+    <pinCode>627358</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tachanallur</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Azhaganeri</name>
+    <pinCode>627754</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuruvikulam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankoil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Balapadraramapuram</name>
+    <pinCode>627953</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Melanilithanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Virakeralampudur Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Battarpuram</name>
+    <pinCode>627108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nanguneri</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Boganallur</name>
+    <pinCode>627751</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadayanallur</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Brahmadesam S.O</name>
+    <pinCode>627413</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-250394</telephone>
+  </office>
+  <office>
+    <name>Bungalowsurandai</name>
+    <pinCode>627859</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Surandai</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Virakeralampudur Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Burkitmanagaram</name>
+    <pinCode>627351</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Palayamkottai Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Chatrapatti</name>
+    <pinCode>627719</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruvengadam</suboffice>
+    <headoffice>Kovilpatti</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chatrapatti</name>
+    <pinCode>627719</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruvengadam</suboffice>
+    <headoffice>Kovilpatti</headoffice>
+    <location>Sankarankoil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cheranmahadevi R.S</name>
+    <pinCode>627414</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Cheranmahadevi</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cheranmahadevi</name>
+    <pinCode>627414</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-261800</telephone>
+  </office>
+  <office>
+    <name>Chiambarapuram</name>
+    <pinCode>627754</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuruvikulam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chidamabarapuram</name>
+    <pinCode>627111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Radhapuram</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chidamabarapuram</name>
+    <pinCode>627501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalakad</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chinthamani</name>
+    <pinCode>627355</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Munanjipatti</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chinthamani</name>
+    <pinCode>627855</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Puliyangudi</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sivigiri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chitrampatti</name>
+    <pinCode>628502</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lakshmipuram S.O</suboffice>
+    <headoffice>Kovilpatti</headoffice>
+    <location>Sankarankoil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chockammpatti</name>
+    <pinCode>627751</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadayanallur</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chocknatchiapuram</name>
+    <pinCode>627951</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Devarkulam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Alangulam Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Courtallam</name>
+    <pinCode>627802</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone>04633-283474</telephone>
+  </office>
+  <office>
+    <name>Dalapathisamudram</name>
+    <pinCode>627101</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Danakkarkulam</name>
+    <pinCode>627116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vadakangulam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Deivanayagaperi</name>
+    <pinCode>627354</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mulaikaraipatti</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dohnavur</name>
+    <pinCode>627102</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Devanallur</name>
+    <pinCode>627502</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Padmaneri</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Devarkulam</name>
+    <pinCode>627951</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone>04636-286130</telephone>
+  </office>
+  <office>
+    <name>Devipattinam</name>
+    <pinCode>627757</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sivagiri S.O</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sivagiri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Duraikudiyiruppu</name>
+    <pinCode>627112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Samugarengapuram</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Duraisamypuram</name>
+    <pinCode>627757</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sivagiri S.O</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sivagiri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>E.Meenakshipuram</name>
+    <pinCode>627859</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Surandai</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Virakeralampudur Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Elankulam</name>
+    <pinCode>627110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Parappadi</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Elathur S.O</name>
+    <pinCode>627803</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tenkasi</headoffice>
+    <location>Sengottai Taluk of Tirunelveli District</location>
+    <telephone>04633-280413</telephone>
+  </office>
+  <office>
+    <name>Emankulam</name>
+    <pinCode>627108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nanguneri</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Erukkanthurai</name>
+    <pinCode>627106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kudankulam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Eruvadi</name>
+    <pinCode>627103</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone>04637-242022</telephone>
+  </office>
+  <office>
+    <name>Ettankulam</name>
+    <pinCode>627201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manur</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>G.V.N.Kalluri</name>
+    <pinCode>628502</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lakshmipuram S.O</suboffice>
+    <headoffice>Kovilpatti</headoffice>
+    <location>Sankarankoil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gandhinagar S.O</name>
+    <pinCode>627008</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone>0462-2322816</telephone>
+  </office>
+  <office>
+    <name>Gangaikondan</name>
+    <pinCode>627352</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone>0462-2322816</telephone>
+  </office>
+  <office>
+    <name>Gomathimuthupuram</name>
+    <pinCode>627761</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panaiyur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gopalasamudram</name>
+    <pinCode>627451</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-250394</telephone>
+  </office>
+  <office>
+    <name>Govindaperi</name>
+    <pinCode>627424</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ravanasamudram</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gudalur</name>
+    <pinCode>627760</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Athuvazhi</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sivagiri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gunaramanallur</name>
+    <pinCode>627814</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kizhapuliyur</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Harikesavanallur</name>
+    <pinCode>627426</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Viravanallur</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ichanda</name>
+    <pinCode>627857</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Serndamangalam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Idaikal</name>
+    <pinCode>627602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pappagudi</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Idaikal(TKS)</name>
+    <pinCode>627804</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone>04633-267127</telephone>
+  </office>
+  <office>
+    <name>Idaiyankulam</name>
+    <pinCode>627502</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Padmaneri</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Idayangudi</name>
+    <pinCode>627651</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Idindakarai</name>
+    <pinCode>627104</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Ilanji</name>
+    <pinCode>627805</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ilyarasanendal</name>
+    <pinCode>627713</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kovilpatti</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Inamkovilpatti</name>
+    <pinCode>627757</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sivagiri S.O</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sivagiri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Industrial Colony Pettai</name>
+    <pinCode>627010</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone>0462-2341199</telephone>
+  </office>
+  <office>
+    <name>Ittamozhi</name>
+    <pinCode>627652</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Jacobpuram</name>
+    <pinCode>627114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Terkukarungulam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jawahar Nagar (Tirunelveli)</name>
+    <pinCode>627007</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Palayamkottai Taluk of Tirunelveli District</location>
+    <telephone>0462-2658064</telephone>
+  </office>
+  <office>
+    <name>K Kailasapuram</name>
+    <pinCode>627352</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Gangaikondan</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>K T C Nagar</name>
+    <pinCode>627011</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Palayankottai Taluk of Tirunelveli District</location>
+    <telephone>0462-2520383</telephone>
+  </office>
+  <office>
+    <name>K. Alankulam</name>
+    <pinCode>627754</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuruvikulam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankoil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>K.Karisalkulam</name>
+    <pinCode>628552</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalugumalai</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kabaliparai</name>
+    <pinCode>627602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pappagudi</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kadabokathi</name>
+    <pinCode>627814</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kizhapuliyur</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kadamboduvalvu</name>
+    <pinCode>627108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nanguneri</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kadana Anaithittam</name>
+    <pinCode>627412</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Alwarkurichi</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kadayalurutti</name>
+    <pinCode>627859</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Surandai</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Virakeralampudur Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kadayam</name>
+    <pinCode>627415</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-241180</telephone>
+  </office>
+  <office>
+    <name>Kadayanallur Bazar</name>
+    <pinCode>627751</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kadayanallur Pettai</name>
+    <pinCode>627751</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kadayanallur</name>
+    <pinCode>627751</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone>04633-243492</telephone>
+  </office>
+  <office>
+    <name>Kaduvetti</name>
+    <pinCode>627202</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukkirankottai</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kailasapuram S.O</name>
+    <pinCode>627001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone>0462-2322816</telephone>
+  </office>
+  <office>
+    <name>Kakkarai</name>
+    <pinCode>627111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Radhapuram</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kalakad</name>
+    <pinCode>627501</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone>04635-262566</telephone>
+  </office>
+  <office>
+    <name>Kalakudi</name>
+    <pinCode>627201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manur</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kalandapanai</name>
+    <pinCode>627109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panagudi</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kalappakulam</name>
+    <pinCode>627754</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuruvikulam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kalathimadam</name>
+    <pinCode>627851</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Alangulam</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Alangulam Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kalikumarapuram</name>
+    <pinCode>627657</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tisayanvillai</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kalingapatti</name>
+    <pinCode>627719</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruvengadam</suboffice>
+    <headoffice>Kovilpatti</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kalladichidambarapuram</name>
+    <pinCode>627502</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Padmaneri</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kallidaikurichi</name>
+    <pinCode>627416</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-255200</telephone>
+  </office>
+  <office>
+    <name>Kallikulam</name>
+    <pinCode>627502</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Padmaneri</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kallur</name>
+    <pinCode>627010</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Industrial Colony Pettai</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kaluneerkulam</name>
+    <pinCode>627861</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Virakeralmpudur</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Alangulam Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kambapacheri</name>
+    <pinCode>627751</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadayanallur</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kanakkupillaivalasai</name>
+    <pinCode>627803</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Elathur S.O</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kanarpatti</name>
+    <pinCode>627201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manur</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kannanallur</name>
+    <pinCode>627108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nanguneri</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kannankulam</name>
+    <pinCode>627127</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuttapuli</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karaichithupudur</name>
+    <pinCode>627657</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tisayanvillai</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karaichuthupudur</name>
+    <pinCode>627659</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice>Palayankottai</suboffice>
+    <headoffice>Radhapuram Taluk of Tirunelveli</headoffice>
+    <location></location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karaikurichi S.O</name>
+    <pinCode>627417</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-250394</telephone>
+  </office>
+  <office>
+    <name>Karaiyiruppu</name>
+    <pinCode>627357</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sankarnagar</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karandaneri</name>
+    <pinCode>627152</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mundradaippu</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nenguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karankadu</name>
+    <pinCode>627108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nanguneri</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karisalkudiyiruppu</name>
+    <pinCode>627807</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panpuli</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Sengottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karisalkulam</name>
+    <pinCode>627719</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruvengadam</suboffice>
+    <headoffice>Kovilpatti</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karisalpatti</name>
+    <pinCode>627414</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cheranmahadevi</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karisathan</name>
+    <pinCode>627753</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karivalamvandanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karisulthamangalam</name>
+    <pinCode>627453</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pattamadai</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karivalamvandanallur</name>
+    <pinCode>627753</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone>04636-260266</telephone>
+  </office>
+  <office>
+    <name>Karkudi</name>
+    <pinCode>627813</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Puliyara</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Sengottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karungulam</name>
+    <pinCode>627356</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Munnirpallam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Palayamkottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karuppukatti</name>
+    <pinCode>627151</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Maruthakulam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karuthapillaiyur</name>
+    <pinCode>627418</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kila Ambur</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karuvanda</name>
+    <pinCode>627860</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Uthumalai</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Virakeralampudur Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kasidharmam</name>
+    <pinCode>627751</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadayanallur</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kasimajorpuram</name>
+    <pinCode>627802</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Courtallam</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kasthurirengapuram</name>
+    <pinCode>627112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Samugarengapuram</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kattalaikudiyiruppu</name>
+    <pinCode>627813</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Puliyara</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Sengottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kattarankulam</name>
+    <pinCode>627201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manur</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kavalakurichi</name>
+    <pinCode>627854</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nettur S.O</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Virakeralampudur Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kavalkinaru</name>
+    <pinCode>627105</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Keela Kaduvetty</name>
+    <pinCode>627152</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mundradaippu</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Keelakaruvelankulam</name>
+    <pinCode>627501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalakad</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Keelapattam</name>
+    <pinCode>627351</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Burkitmanagaram</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Palayankottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kidanganeri</name>
+    <pinCode>627854</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nettur S.O</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Alangulam Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kidarakulam</name>
+    <pinCode>627854</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nettur S.O</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Alangulam Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kila Ambur</name>
+    <pinCode>627418</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-250394</telephone>
+  </office>
+  <office>
+    <name>Kila Omanallur</name>
+    <pinCode>627356</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Munnirpallam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Palayamkottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kila Uvari</name>
+    <pinCode>627651</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idayangudi</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kilakalangal</name>
+    <pinCode>627860</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Uthumalai</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Virakeralampudur Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kilakku Kalakad</name>
+    <pinCode>627501</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Kalakad</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kilakulam</name>
+    <pinCode>627426</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Viravanallur</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kilanilithanallur</name>
+    <pinCode>627953</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Melanilithanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kilankadu</name>
+    <pinCode>627852</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ayikudi</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kilapavur</name>
+    <pinCode>627806</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone>04633-250796</telephone>
+  </office>
+  <office>
+    <name>Kilavirasigamani</name>
+    <pinCode>627862</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Virasigamani</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kiramangalam</name>
+    <pinCode>627010</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Industrial Colony Pettai</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kizhanatham</name>
+    <pinCode>627353</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Palayankottai Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Kizhapuliyur</name>
+    <pinCode>627814</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tenkasi</headoffice>
+    <location>Alangulam Taluk of Tirunelveli District</location>
+    <telephone>04633-222320</telephone>
+  </office>
+  <office>
+    <name>Kizhavaneri</name>
+    <pinCode>627117</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vallioor</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kodaganallur</name>
+    <pinCode>627010</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Industrial Colony Pettai</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kodaiseri</name>
+    <pinCode>627103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Eruvadi</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kodarankulam</name>
+    <pinCode>627416</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kallidaikurichi</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kodikurichi</name>
+    <pinCode>627804</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idaikal(TKS)</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kodiyankulam</name>
+    <pinCode>627352</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Gangaikondan</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Koliyankulam</name>
+    <pinCode>627116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vadakangulam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Komarudappapuram</name>
+    <pinCode>627953</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Melanilithanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankoil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Konganthanparai</name>
+    <pinCode>627007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perumalpuram</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Palayankottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kooduthalai</name>
+    <pinCode>627651</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idayangudi</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Koottapanai</name>
+    <pinCode>627651</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idayangudi</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kothayarmel Thangal</name>
+    <pinCode>627427</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nalumukku</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kottai Karungulam</name>
+    <pinCode>627112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Samugarengapuram</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kottaitheru</name>
+    <pinCode>627416</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Kallidaikurichi</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kottakulam</name>
+    <pinCode>627805</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ilanji</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kovaikulam</name>
+    <pinCode>627151</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Maruthakulam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kovilammalpuram</name>
+    <pinCode>627107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mavadi</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Koviloothu</name>
+    <pinCode>627415</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadayam</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Krishnapuram (TVL)</name>
+    <pinCode>627759</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice>Tenkasi</suboffice>
+    <headoffice>Tenkasi Taluk of Tirunelveli</headoffice>
+    <location>04633-240285</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Krishnapuram</name>
+    <pinCode>627011</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Maharajangar</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Palayankottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kudankulam</name>
+    <pinCode>627106</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Kulakkattakurichi</name>
+    <pinCode>627713</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ilyarasanendal</suboffice>
+    <headoffice>Kovilpatti</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kulasekaramangalam</name>
+    <pinCode>627862</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Virasigamani</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kulasekarapatti</name>
+    <pinCode>627806</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kilapavur</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kulasekaraperi</name>
+    <pinCode>627753</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karivalamvandanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kulavanickerpuram</name>
+    <pinCode>627002</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Palayamkottai Taluk of Tirunelveli District</location>
+    <telephone>0462-2322816</telephone>
+  </office>
+  <office>
+    <name>Kulayaneri</name>
+    <pinCode>627859</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Surandai</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Virakeralampudur Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kumanthapuram</name>
+    <pinCode>627751</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadayanallur</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kumarapuram</name>
+    <pinCode>627657</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tisayanvillai</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kundakulam</name>
+    <pinCode>627355</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Munanjipatti</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuniyur</name>
+    <pinCode>627417</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karaikurichi S.O</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kunnathur</name>
+    <pinCode>627006</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirunelveli Town</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kurichanpatti</name>
+    <pinCode>627860</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Uthumalai</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Virakeralampudur Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kurinjakulam</name>
+    <pinCode>627719</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruvengadam</suboffice>
+    <headoffice>Kovilpatti</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kurugapuram</name>
+    <pinCode>627657</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tisayanvillai</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kurukkalpatti</name>
+    <pinCode>627953</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Melanilithanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuruvankottai</name>
+    <pinCode>627853</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nallur S.O</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Alangulam Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuruvikulam</name>
+    <pinCode>627754</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankoil Taluk of Tirunelveli District</location>
+    <telephone>04632-251084</telephone>
+  </office>
+  <office>
+    <name>Kuthapanjan</name>
+    <pinCode>627851</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Alangulam</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Alangulam Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuthenkuli</name>
+    <pinCode>627104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idindakarai</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuthukalvalasai</name>
+    <pinCode>627803</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Elathur S.O</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuttam</name>
+    <pinCode>627651</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idayangudi</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuttapuli</name>
+    <pinCode>627127</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Kuvalaikanni</name>
+    <pinCode>627753</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karivalamvandanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Leninjipuram</name>
+    <pinCode>627114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Terkukarungulam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Madavakurichi</name>
+    <pinCode>627201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manur</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mahadevankulam</name>
+    <pinCode>627657</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tisayanvillai</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maharajangar</name>
+    <pinCode>627011</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Palayamkottai Taluk of Tirunelveli District</location>
+    <telephone>0462-2568069</telephone>
+  </office>
+  <office>
+    <name>Mahendragiri</name>
+    <pinCode>627133</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Maipparai</name>
+    <pinCode>627713</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ilyarasanendal</suboffice>
+    <headoffice>Kovilpatti</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Malayadikurichi</name>
+    <pinCode>627755</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mullikulam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sivigiri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manalur</name>
+    <pinCode>627753</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karivalamvandanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manappadaiveedu</name>
+    <pinCode>627353</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kizhanatham</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Palayankottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mangalapuram</name>
+    <pinCode>627751</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadayanallur</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manimuthar Project</name>
+    <pinCode>627421</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-250394</telephone>
+  </office>
+  <office>
+    <name>Manjolai</name>
+    <pinCode>627420</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-250394</telephone>
+  </office>
+  <office>
+    <name>Mannarkoil</name>
+    <pinCode>627413</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Brahmadesam S.O</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mannarpuram</name>
+    <pinCode>627657</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tisayanvillai</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manonmaniam Sundaranar Univers</name>
+    <pinCode>627012</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone>0462-2322816</telephone>
+  </office>
+  <office>
+    <name>Manthiyoor</name>
+    <pinCode>627424</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ravanasamudram</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manur</name>
+    <pinCode>627201</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone>0462-2485726</telephone>
+  </office>
+  <office>
+    <name>Marandai</name>
+    <pinCode>627851</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Alangulam</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Alangulam Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Marudur</name>
+    <pinCode>627351</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Burkitmanagaram</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Palayankottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Marukkalankulam</name>
+    <pinCode>627953</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Melanilithanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Virakeralampudur Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maruthakulam</name>
+    <pinCode>627151</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Maruthamputhur</name>
+    <pinCode>627851</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Alangulam</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Alangulam Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maruthankinar</name>
+    <pinCode>627953</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Melanilithanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mathalamparai</name>
+    <pinCode>627814</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kizhapuliyur</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mathapuram</name>
+    <pinCode>627415</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadayam</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mavadi</name>
+    <pinCode>627201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manur</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mavadi</name>
+    <pinCode>627107</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone>0462-2658064</telephone>
+  </office>
+  <office>
+    <name>Mayamankurichi</name>
+    <pinCode>627853</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nallur S.O</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Alangulam Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Melagaram</name>
+    <pinCode>627818</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone>04633-227977</telephone>
+  </office>
+  <office>
+    <name>Melailanthaikulam</name>
+    <pinCode>627951</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Devarkulam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Melakalangal</name>
+    <pinCode>627860</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Uthumalai</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Virakerlamapudur Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Melakulam</name>
+    <pinCode>627351</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Burkitmanagaram</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Palayamkottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Melamarudappapuram</name>
+    <pinCode>627860</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Uthumalai</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Virakeralampudur Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Melanarikudi</name>
+    <pinCode>627953</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Melanilithanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Melanilithanallur</name>
+    <pinCode>627953</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone>04636-284128</telephone>
+  </office>
+  <office>
+    <name>Melapalayam Bazaar(Tirunelveli</name>
+    <pinCode>627005</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Palayamkottai Taluk of Tirunelveli District</location>
+    <telephone>0462-2322816</telephone>
+  </office>
+  <office>
+    <name>Melapalayam S.O</name>
+    <pinCode>627005</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Palayamkottai Taluk of Tirunelveli District</location>
+    <telephone>0462-2352676</telephone>
+  </office>
+  <office>
+    <name>Melapattam</name>
+    <pinCode>627351</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Burkitmanagaram</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Palayankottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Melapavur</name>
+    <pinCode>627806</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kilapavur</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Melaputhaneri</name>
+    <pinCode>627351</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Burkitmanagaram</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Palayankottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Melasadayamankulam</name>
+    <pinCode>627152</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mundradaippu</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Melaseval</name>
+    <pinCode>627452</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-250394</telephone>
+  </office>
+  <office>
+    <name>Melathiru Vengadanathapuram</name>
+    <pinCode>627006</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirunelveli Town</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Melur</name>
+    <pinCode>627809</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Sengottai</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Shenkottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Merku Alwarkurichi</name>
+    <pinCode>627412</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Alwarkurichi</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mettur</name>
+    <pinCode>627808</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pavoorchatram</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Minatchipuram</name>
+    <pinCode>627001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone>0462-2322816</telephone>
+  </office>
+  <office>
+    <name>Moolaikadu</name>
+    <pinCode>627113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Terkukallikulam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mudaliarpatti</name>
+    <pinCode>627423</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pottalpudur</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mukkudal</name>
+    <pinCode>627601</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-274477</telephone>
+  </office>
+  <office>
+    <name>Mukkudal Vadakku</name>
+    <pinCode>627601</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Mukkudal</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mulaikaraipatti</name>
+    <pinCode>627354</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone>04635-258033</telephone>
+  </office>
+  <office>
+    <name>Mullikulam</name>
+    <pinCode>627755</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sivagiri Taluk of Tirunelveli District</location>
+    <telephone>0436-280490</telephone>
+  </office>
+  <office>
+    <name>Munanjipatti</name>
+    <pinCode>627355</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Mundradaippu</name>
+    <pinCode>627152</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Palayamkottai Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Munnirpallam</name>
+    <pinCode>627356</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Palayankottai Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Muthammalpuram</name>
+    <pinCode>627951</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Devarkulam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Muthukrishnapuram</name>
+    <pinCode>627657</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tisayanvillai</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Muthumathanmonmozhi</name>
+    <pinCode>627651</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idayangudi</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Muvirunthali</name>
+    <pinCode>627951</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Devarkulam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Naduchalaiputhur</name>
+    <pinCode>627107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mavadi</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Naduvakrichi</name>
+    <pinCode>627351</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Burkitmanagaram</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Palayankottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Naduvakurichi</name>
+    <pinCode>627862</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Virasigamani</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nagaram</name>
+    <pinCode>627755</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mullikulam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sivigiri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nainaragaram</name>
+    <pinCode>627804</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idaikal(TKS)</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nakkaneri</name>
+    <pinCode>627111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Radhapuram</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nallankulam</name>
+    <pinCode>627101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dalapathisamudram</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nallur S.O</name>
+    <pinCode>627853</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tenkasi</headoffice>
+    <location>Alangulam Taluk of Tirunelveli District</location>
+    <telephone>04633-270151</telephone>
+  </office>
+  <office>
+    <name>Nalumukku</name>
+    <pinCode>627427</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-250394</telephone>
+  </office>
+  <office>
+    <name>Nambinagar</name>
+    <pinCode>627108</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nambithalaivanpattaiyam</name>
+    <pinCode>627115</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirukurungudi</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nanajankulam</name>
+    <pinCode>627357</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sankarnagar</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nanguneri</name>
+    <pinCode>627108</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone>04635-250130</telephone>
+  </office>
+  <office>
+    <name>Naranammalpuram</name>
+    <pinCode>627357</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sankarnagar</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Naranapuram</name>
+    <pinCode>627760</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Athuvazhi</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sivagiri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Narasinganallur</name>
+    <pinCode>627604</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Suttamally</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Navaladi</name>
+    <pinCode>627657</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tisayanvillai</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nelkattumseval</name>
+    <pinCode>627758</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vasudevanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sivigiri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nettur S.O</name>
+    <pinCode>627854</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tenkasi</headoffice>
+    <location>Virakeralampudur Taluk of Tirunelveli District</location>
+    <telephone>04633-288184</telephone>
+  </office>
+  <office>
+    <name>Nochikulam</name>
+    <pinCode>627755</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mullikulam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Northachampatti</name>
+    <pinCode>627951</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Devarkulam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Odaimarichan</name>
+    <pinCode>627602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pappagudi</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Alangulam Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Oothu</name>
+    <pinCode>627427</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nalumukku</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Padalaiyarkulam</name>
+    <pinCode>627501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalakad</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Padmaneri</name>
+    <pinCode>627502</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Palamadai</name>
+    <pinCode>627359</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Rajavallipuram</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Palavoor</name>
+    <pinCode>627114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Terkukarungulam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Palayankottai Courts</name>
+    <pinCode>627002</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Palayamkottai Taluk of Tirunelveli District</location>
+    <telephone>062-2322816</telephone>
+  </office>
+  <office>
+    <name>Palayankottai</name>
+    <pinCode>627002</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Palayankottai Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Palayankottai High Grounds</name>
+    <pinCode>627011</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Palayamkottai Taluk of Tirunelveli District</location>
+    <telephone>0462-2322816</telephone>
+  </office>
+  <office>
+    <name>Palayapettai</name>
+    <pinCode>627008</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Gandhinagar S.O</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pallaikottai</name>
+    <pinCode>627357</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sankarnagar</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pambukoilshandy</name>
+    <pinCode>627862</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Virasigamani</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Panagudi</name>
+    <pinCode>627109</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone>04637-245105</telephone>
+  </office>
+  <office>
+    <name>Panaiyur</name>
+    <pinCode>627761</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Panankulam</name>
+    <pinCode>627152</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mundradaippu</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Panavadalichatram</name>
+    <pinCode>627953</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Melanilithanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pandapuli</name>
+    <pinCode>627753</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karivalamvandanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Panpuli</name>
+    <pinCode>627807</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tenkasi</headoffice>
+    <location>Sengottai Taluk of Tirunelveli District</location>
+    <telephone>04633-237991</telephone>
+  </office>
+  <office>
+    <name>Panrimalai</name>
+    <pinCode>627110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Parappadi</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Papanasam Mills</name>
+    <pinCode>627422</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-224353</telephone>
+  </office>
+  <office>
+    <name>Papanasam Project</name>
+    <pinCode>627425</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vickramasingapuram</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Papanasam Upper Dam</name>
+    <pinCode>627425</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vickramasingapuram</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pappagudi</name>
+    <pinCode>627602</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-274433</telephone>
+  </office>
+  <office>
+    <name>Pappankulam</name>
+    <pinCode>627110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Parappadi</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pappankulam</name>
+    <pinCode>627423</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pottalpudur</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pappiahpuram</name>
+    <pinCode>627359</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Rajavallipuram</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Parameswarapuram</name>
+    <pinCode>627111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Radhapuram</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Parankundrapuram</name>
+    <pinCode>627859</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Surandai</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Virakeralampudur Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Parappadi</name>
+    <pinCode>627110</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Paruthipadu</name>
+    <pinCode>627354</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mulaikaraipatti</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Paruvakkudi</name>
+    <pinCode>627753</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karivalamvandanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pathai</name>
+    <pinCode>627501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalakad</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pattakurichi</name>
+    <pinCode>627814</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kizhapuliyur</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pattamadai</name>
+    <pinCode>627453</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-250394</telephone>
+  </office>
+  <office>
+    <name>Pattapathu</name>
+    <pinCode>627006</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirunelveli Town</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pavoorchatram</name>
+    <pinCode>627808</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone>04633-250818</telephone>
+  </office>
+  <office>
+    <name>Pazhankottai</name>
+    <pinCode>628552</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalugumalai</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Periyakoilankulam</name>
+    <pinCode>627953</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Melanilithanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Periyapillaivalasi</name>
+    <pinCode>627809</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Sengottai</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Periyur</name>
+    <pinCode>627761</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panaiyur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Perumalpatti</name>
+    <pinCode>627753</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karivalamvandanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Perumalpuram</name>
+    <pinCode>627007</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Palayamkottai Taluk of Tirunelveli District</location>
+    <telephone>0462-2501399</telephone>
+  </office>
+  <office>
+    <name>Perumanal</name>
+    <pinCode>627106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kudankulam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Perumpattur</name>
+    <pinCode>627753</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karivalamvandanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Perungottur</name>
+    <pinCode>627754</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuruvikulam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Perungudi</name>
+    <pinCode>627105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kavalkinaru</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pethanadarpatti</name>
+    <pinCode>627808</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pavoorchatram</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Alangulam Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pettaikulam</name>
+    <pinCode>627654</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Pillaiyarkulam</name>
+    <pinCode>627201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manur</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Piranjeri</name>
+    <pinCode>627352</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Gangaikondan</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Piranur</name>
+    <pinCode>627809</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Sengottai</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Sengottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pogai</name>
+    <pinCode>627862</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Virasigamani</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Poigai</name>
+    <pinCode>627856</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sambavarvadakarai</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ponnakudi</name>
+    <pinCode>627151</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Maruthakulam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Palayankottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Poolankudiyiruppu</name>
+    <pinCode>627813</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Puliyara</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Sengottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Poolankulam</name>
+    <pinCode>627415</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadayam</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pottal</name>
+    <pinCode>627416</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kallidaikurichi</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pottalpudur</name>
+    <pinCode>627423</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-250394</telephone>
+  </office>
+  <office>
+    <name>Pudupatti</name>
+    <pinCode>627851</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Alangulam</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Alangulam Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pudur</name>
+    <pinCode>627851</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Alangulam</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Alangulam Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puliyangudi</name>
+    <pinCode>627855</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sivagiri Taluk of Tirunelveli District</location>
+    <telephone>04636-235716</telephone>
+  </office>
+  <office>
+    <name>Puliyara</name>
+    <pinCode>627813</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tenkasi</headoffice>
+    <location>Sengottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puliyurkurichi</name>
+    <pinCode>627102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dohnavur</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pungampatti</name>
+    <pinCode>627415</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadayam</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pushpavanam</name>
+    <pinCode>627109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panagudi</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Radhapuram</name>
+    <pinCode>627111</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone>04637-254312</telephone>
+  </office>
+  <office>
+    <name>Rajagopalaperi</name>
+    <pinCode>627861</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Virakeralmpudur</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Virakeralampudur Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rajakkamangalam</name>
+    <pinCode>627101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dalapathisamudram</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rajakrishnapuram</name>
+    <pinCode>627114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Terkukarungulam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rajapandi</name>
+    <pinCode>627806</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kilapavur</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rajaputhukudi</name>
+    <pinCode>627352</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Gangaikondan</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rajavallipuram</name>
+    <pinCode>627359</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone>0462-2322816</telephone>
+  </office>
+  <office>
+    <name>Ramakrishnapuram</name>
+    <pinCode>627355</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Munanjipatti</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ramanathapuram(SNL)</name>
+    <pinCode>627953</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Melanilithanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ramanathapuram(VSD)</name>
+    <pinCode>627760</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Athuvazhi</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sivagiri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ramasamipuram</name>
+    <pinCode>627755</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mullikulam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ramayanpatti</name>
+    <pinCode>627358</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tachanallur</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelvel;i Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ravanasamudram</name>
+    <pinCode>627424</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-250394</telephone>
+  </office>
+  <office>
+    <name>Reddiapatti</name>
+    <pinCode>627753</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karivalamvandanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Reddiarpatti</name>
+    <pinCode>627007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perumalpuram</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Palayankottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rengasamudram</name>
+    <pinCode>627413</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Brahmadesam S.O</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Royagiri</name>
+    <pinCode>627757</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sivagiri S.O</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sivagiri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rukmaniammalpuram</name>
+    <pinCode>627860</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Uthumalai</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Virakeralampudur Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sadayappapuram</name>
+    <pinCode>627601</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Mukkudal</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Salainainarpallivasal</name>
+    <pinCode>627107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mavadi</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Samadanapuram</name>
+    <pinCode>627002</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Palayamkottai Taluk of Tirunelveli District</location>
+    <telephone>0462-2322816</telephone>
+  </office>
+  <office>
+    <name>Samaria</name>
+    <pinCode>627657</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Tisayanvillai</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sambavarvadakarai</name>
+    <pinCode>627856</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice>Tenkasi</suboffice>
+    <headoffice>Sengottai Taluk of Tirunelveli</headoffice>
+    <location></location>
+    <telephone />
+  </office>
+  <office>
+    <name>Samugarengapuram</name>
+    <pinCode>627112</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Sangupuram</name>
+    <pinCode>627761</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panaiyur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sankanaperi</name>
+    <pinCode>627758</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vasudevanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sivigiri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sankanapuram</name>
+    <pinCode>627114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Terkukarungulam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sankankulam</name>
+    <pinCode>627118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vijayanarayanam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sankarankovil Bazaar</name>
+    <pinCode>627756</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sankarankovil</headoffice>
+    <location>Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sankarankovil</name>
+    <pinCode>627756</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone>04636-222313</telephone>
+  </office>
+  <office>
+    <name>Sankarnagar</name>
+    <pinCode>627357</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone>0462-2300335</telephone>
+  </office>
+  <office>
+    <name>Santhinagar</name>
+    <pinCode>627002</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Palayamkottai Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Sathirakondan</name>
+    <pinCode>627754</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuruvikulam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sattupathu</name>
+    <pinCode>627416</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kallidaikurichi</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sayamalai</name>
+    <pinCode>628552</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalugumalai</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Seelathikulam</name>
+    <pinCode>627112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Samugarengapuram</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Seethaparpanallur</name>
+    <pinCode>627012</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manonmaniam Sundaranar Univers</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Seliyanallur</name>
+    <pinCode>627352</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Gangaikondan</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sembankulam</name>
+    <pinCode>627412</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Alwarkurichi</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sembikulam</name>
+    <pinCode>627116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vadakangulam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sengalakurichi</name>
+    <pinCode>627102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dohnavur</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sengottai RS</name>
+    <pinCode>627809</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tenkasi</headoffice>
+    <location>Taluk of Tirunelveli District</location>
+    <telephone>04633-233466</telephone>
+  </office>
+  <office>
+    <name>Sengottai</name>
+    <pinCode>627809</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tenkasi</headoffice>
+    <location>Sengottai Taluk of Tirunelveli District</location>
+    <telephone>04633-236050</telephone>
+  </office>
+  <office>
+    <name>Sengulam</name>
+    <pinCode>627152</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mundradaippu</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Palayankottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sennikulam</name>
+    <pinCode>627753</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karivalamvandanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankoil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Senthattiapuram</name>
+    <pinCode>627753</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karivalamvandanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Senthimanagalam</name>
+    <pinCode>627358</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tachanallur</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Serndamangalam</name>
+    <pinCode>627857</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone>04636-287228</telephone>
+  </office>
+  <office>
+    <name>Servaikaranpatti</name>
+    <pinCode>627415</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadayam</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Servalar Camp</name>
+    <pinCode>627425</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vickramasingapuram</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sethurayanputhur</name>
+    <pinCode>627358</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tachanallur</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Settikulam</name>
+    <pinCode>627120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Anuvijay Township</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sevalkulam</name>
+    <pinCode>627754</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuruvikulam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Shenbagaramanallur</name>
+    <pinCode>627108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nanguneri</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Singamparai</name>
+    <pinCode>627601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mukkudal</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Singampathu</name>
+    <pinCode>627501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalakad</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Singampatti</name>
+    <pinCode>627416</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kallidaikurichi</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Singaneri</name>
+    <pinCode>627108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nanguneri</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Singikulam</name>
+    <pinCode>627152</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mundradaippu</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sippiparai</name>
+    <pinCode>627713</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ilyarasanendal</suboffice>
+    <headoffice>Kovilpatti</headoffice>
+    <location>Virudhunagar Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sivagiri S.O</name>
+    <pinCode>627757</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sivagiri Taluk of Tirunelveli District</location>
+    <telephone>04636-251373</telephone>
+  </office>
+  <office>
+    <name>Sivalaperi</name>
+    <pinCode>627351</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Burkitmanagaram</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Palayankottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sivalarkulam</name>
+    <pinCode>627853</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nallur S.O</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Alangulam Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sivanadanur</name>
+    <pinCode>627808</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pavoorchatram</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Alangulam Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sivanthipatti</name>
+    <pinCode>627011</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Maharajangar</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Palayankottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sivanthipuram</name>
+    <pinCode>627425</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vickramasingapuram</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sivasailam</name>
+    <pinCode>627412</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Alwarkurichi</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Soundarapandiapuram</name>
+    <pinCode>627113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Terkukallikulam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Srigomathipuram</name>
+    <pinCode>627753</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karivalamvandanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sriregunathapuram</name>
+    <pinCode>627109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panagudi</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Subbulapuram</name>
+    <pinCode>627753</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karivalamvandanallur</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sundapandiapuram</name>
+    <pinCode>627858</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sundaresapuram</name>
+    <pinCode>627751</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadayanallur</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Surandai</name>
+    <pinCode>627859</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tenkasi</headoffice>
+    <location>Virakeralampudur Taluk of Tirunelveli District</location>
+    <telephone>04633-260255</telephone>
+  </office>
+  <office>
+    <name>Surangudi</name>
+    <pinCode>627108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nanguneri</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Suttamally</name>
+    <pinCode>627604</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone>0462-2322816</telephone>
+  </office>
+  <office>
+    <name>Suviseshapuram</name>
+    <pinCode>627652</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ittamozhi</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>T.Vijayanarayanam</name>
+    <pinCode>627118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vijayanarayanam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tachanallur</name>
+    <pinCode>627358</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone>0462-2322017</telephone>
+  </office>
+  <office>
+    <name>Tana</name>
+    <pinCode>627425</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Vickramasingapuram</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Taruvai</name>
+    <pinCode>627356</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Munnirpallam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Palayankottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tenkasi</name>
+    <pinCode>627811</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone>04633-222329</telephone>
+  </office>
+  <office>
+    <name>Tenkasi RS</name>
+    <pinCode>627811</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone>04633-222235</telephone>
+  </office>
+  <office>
+    <name>Tenkulam</name>
+    <pinCode>627357</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sankarnagar</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tenmalai</name>
+    <pinCode>627757</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sivagiri S.O</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sivigiri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Terku Vallioor</name>
+    <pinCode>627117</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vallioor</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Terkukallikulam</name>
+    <pinCode>627113</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Terkukarungulam</name>
+    <pinCode>627114</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Thalaivankottai</name>
+    <pinCode>627755</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mullikulam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sivigiri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thannuthu</name>
+    <pinCode>627857</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Serndamangalam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankoil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Theertharappapuram</name>
+    <pinCode>627423</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pottalpudur</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thenpothai</name>
+    <pinCode>627809</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sengottai</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Therku Madathur</name>
+    <pinCode>627423</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pottalpudur</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Therkupappankulam</name>
+    <pinCode>627416</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kallidaikurichi</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Therkupatti</name>
+    <pinCode>627201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manur</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thidiyur</name>
+    <pinCode>627152</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mundradaippu</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Palayankottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thirumalapuram</name>
+    <pinCode>627857</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Serndamangalam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sivagiri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thiruppudaimarudur</name>
+    <pinCode>627426</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Viravanallur</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thiruvembalapuram</name>
+    <pinCode>627111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Radhapuram</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thiruvettanallur</name>
+    <pinCode>627855</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Puliyangudi</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thiruviruthanpulli</name>
+    <pinCode>627414</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cheranmahadevi</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thottakudi</name>
+    <pinCode>627151</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Maruthakulam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thulukkarpatti</name>
+    <pinCode>627101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dalapathisamudram</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thuppakudi</name>
+    <pinCode>627423</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pottalpudur</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Alangulam Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Timmarajapuram</name>
+    <pinCode>627353</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kizhanatham</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Palayamkottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tippanampatti</name>
+    <pinCode>627808</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pavoorchatram</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tirukurungudi</name>
+    <pinCode>627115</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Tirumalapuram</name>
+    <pinCode>627355</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Munanjipatti</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tirunelveli Collectorate</name>
+    <pinCode>627009</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Palayamkottai Taluk of Tirunelveli District</location>
+    <telephone>0462-2500890</telephone>
+  </office>
+  <office>
+    <name>Tirunelveli East</name>
+    <pinCode>627006</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone>0462-2322816</telephone>
+  </office>
+  <office>
+    <name>Tirunelveli</name>
+    <pinCode>627001</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone>0462-2322816</telephone>
+  </office>
+  <office>
+    <name>Tirunelveli Merku</name>
+    <pinCode>627006</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone>0462-2322816</telephone>
+  </office>
+  <office>
+    <name>Tirunelveli Nagarmandram</name>
+    <pinCode>627001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone>0462-2322816</telephone>
+  </office>
+  <office>
+    <name>Tirunelveli Pettai East</name>
+    <pinCode>627004</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone>0462-2322816</telephone>
+  </office>
+  <office>
+    <name>Tirunelveli Pettai</name>
+    <pinCode>627004</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone>0462-2342001</telephone>
+  </office>
+  <office>
+    <name>Tirunelveli R.S</name>
+    <pinCode>627001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone>0462-2322816</telephone>
+  </office>
+  <office>
+    <name>Tirunelveli Terku</name>
+    <pinCode>627006</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone>0462-2322816</telephone>
+  </office>
+  <office>
+    <name>Tirunelveli Town</name>
+    <pinCode>627006</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone>0462-2334660</telephone>
+  </office>
+  <office>
+    <name>Tiruppanikarisalkulam</name>
+    <pinCode>627010</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Industrial Colony Pettai</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tiruvembalapuram</name>
+    <pinCode>627130</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Tiruvengadam</name>
+    <pinCode>627719</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kovilpatti</headoffice>
+    <location>Sankarankoil Taluk of Tirunelveli District</location>
+    <telephone>04636-264130</telephone>
+  </office>
+  <office>
+    <name>Tiruvengadanathapuram</name>
+    <pinCode>627103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Eruvadi</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tisayanvillai</name>
+    <pinCode>627657</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone>04637-271286</telephone>
+  </office>
+  <office>
+    <name>Tondar Bazar</name>
+    <pinCode>627006</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone>0462-2322816</telephone>
+  </office>
+  <office>
+    <name>Tulukkapatti</name>
+    <pinCode>627602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pappagudi</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Uchankulam</name>
+    <pinCode>627425</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Ambalavanapuram</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ukkirankottai</name>
+    <pinCode>627202</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone>0462-2322816</telephone>
+  </office>
+  <office>
+    <name>Umaithalaivanpatti</name>
+    <pinCode>627719</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruvengadam</suboffice>
+    <headoffice>Kovilpatti</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Unnankulam</name>
+    <pinCode>627108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nanguneri</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Uralvaimozhi</name>
+    <pinCode>627116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vadakangulam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Urkad</name>
+    <pinCode>627416</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Kallidaikurichi</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Urmelalagian</name>
+    <pinCode>627852</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ayikudi</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Urumankulam</name>
+    <pinCode>627654</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pettaikulam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Uthankulam</name>
+    <pinCode>627857</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Serndamangalam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Uthayathur</name>
+    <pinCode>627111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Radhapuram</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Uthumalai</name>
+    <pinCode>627860</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sankarankovil</headoffice>
+    <location>Virakeralampudur Taluk of Tirunelveli District</location>
+    <telephone>04636-247131</telephone>
+  </office>
+  <office>
+    <name>Uvari</name>
+    <pinCode>627651</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idayangudi</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>V.M.Chatram</name>
+    <pinCode>627011</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Maharajangar</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Palayamkottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vadakangulam</name>
+    <pinCode>627116</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone>04637-231320</telephone>
+  </office>
+  <office>
+    <name>Vadakarai S.O</name>
+    <pinCode>627812</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tenkasi</headoffice>
+    <location>Sengottai Taluk of Tirunelveli District</location>
+    <telephone>04633-238103</telephone>
+  </office>
+  <office>
+    <name>Vadakaraikilpidagai</name>
+    <pinCode>627812</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Vadakarai S.O</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Shenkottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vadakku Ariyanayagipuram Petta</name>
+    <pinCode>627603</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-250394</telephone>
+  </office>
+  <office>
+    <name>Vadakku Veppilangulam</name>
+    <pinCode>627131</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Vadakkupudur</name>
+    <pinCode>627755</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mullikulam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vadakkuveppilankulam</name>
+    <pinCode>627109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panagudi</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vadalivilai</name>
+    <pinCode>627117</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vallioor</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vadamalapuram</name>
+    <pinCode>627755</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mullikulam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vadanathampatti</name>
+    <pinCode>627862</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Virasigamani</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vadi</name>
+    <pinCode>627861</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Virakeralmpudur</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Virakeralampudur Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vaduganpatti</name>
+    <pinCode>627010</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Industrial Colony Pettai</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vadugapatti</name>
+    <pinCode>627757</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sivagiri S.O</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sivigiri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vadukatchimadil</name>
+    <pinCode>627102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dohnavur</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vagaikulam</name>
+    <pinCode>627202</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukkirankottai</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vagaikulam</name>
+    <pinCode>627754</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuruvikulam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vairavikulam</name>
+    <pinCode>627416</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kallidaikurichi</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Valasai</name>
+    <pinCode>627857</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Serndamangalam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vallam</name>
+    <pinCode>627809</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sengottai</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Tenkasi Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Valliammalpuram</name>
+    <pinCode>627117</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vallioor</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vallioor Perundunilayam</name>
+    <pinCode>627117</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone>0462-22568064</telephone>
+  </office>
+  <office>
+    <name>Vallioor</name>
+    <pinCode>627117</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone>04637-2322817</telephone>
+  </office>
+  <office>
+    <name>Vannarpettai</name>
+    <pinCode>627003</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Palayamkottai Taluk of Tirunelveli District</location>
+    <telephone>0462-2500699</telephone>
+  </office>
+  <office>
+    <name>Vannikonendal</name>
+    <pinCode>627951</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Devarkulam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vasudevanallur</name>
+    <pinCode>627758</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sivigiri Taluk of Tirunelveli District</location>
+    <telephone>04636-241083</telephone>
+  </office>
+  <office>
+    <name>Vavanagaram</name>
+    <pinCode>627812</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vadakarai S.O</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Sengottai Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Veeranam</name>
+    <pinCode>627861</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Virakeralmpudur</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Virakeralampudur Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Veeriruppu</name>
+    <pinCode>627755</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mullikulam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vellakal</name>
+    <pinCode>627806</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kilapavur</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Virakeralampudur Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vellakulam</name>
+    <pinCode>627719</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruvengadam</suboffice>
+    <headoffice>Kovilpatti</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vellalankulam</name>
+    <pinCode>627857</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Serndamangalam</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vellalankulam</name>
+    <pinCode>627012</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manonmaniam Sundaranar Univers</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vellankuli</name>
+    <pinCode>627426</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Viravanallur</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vellapaneri</name>
+    <pinCode>628552</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalugumalai</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vengadampatti</name>
+    <pinCode>627415</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadayam</suboffice>
+    <headoffice>Ambasamudram</headoffice>
+    <location>Alangulam Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Venkatarayapuram</name>
+    <pinCode>627118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vijayanarayanam</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Venkateswarapuram</name>
+    <pinCode>627854</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nettur S.O</suboffice>
+    <headoffice>Tenkasi</headoffice>
+    <location>Virakeralampudur Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Veppankulam</name>
+    <pinCode>627352</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Gangaikondan</suboffice>
+    <headoffice>Tirunelveli</headoffice>
+    <location>Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vickramasingapuram</name>
+    <pinCode>627425</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-220222</telephone>
+  </office>
+  <office>
+    <name>Vijaya Achampadu</name>
+    <pinCode>627652</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ittamozhi</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vijayanarayanam Naval Base</name>
+    <pinCode>627119</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Nanguneri Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Vijayanarayanam</name>
+    <pinCode>627118</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone>0462-2568064</telephone>
+  </office>
+  <office>
+    <name>Vijayapathi</name>
+    <pinCode>627104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idindakarai</suboffice>
+    <headoffice>Palayankottai</headoffice>
+    <location>Radhapuram Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Virakeralmpudur</name>
+    <pinCode>627861</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tenkasi</headoffice>
+    <location>Virakeralampudur Taluk of Tirunelveli District</location>
+    <telephone>04633-277877</telephone>
+  </office>
+  <office>
+    <name>Viraraghavapuram</name>
+    <pinCode>627001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tirunelveli</headoffice>
+    <location>Tirunelveli Taluk of Tirunelveli District</location>
+    <telephone>0462-2322816</telephone>
+  </office>
+  <office>
+    <name>Virasigamani</name>
+    <pinCode>627862</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sankarankovil Taluk of Tirunelveli District</location>
+    <telephone>04636-222313</telephone>
+  </office>
+  <office>
+    <name>Viravanallur</name>
+    <pinCode>627426</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ambasamudram</headoffice>
+    <location>Ambasamudram Taluk of Tirunelveli District</location>
+    <telephone>04634-288410</telephone>
+  </office>
+  <office>
+    <name>Viswanathaperi</name>
+    <pinCode>627757</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sivagiri S.O</suboffice>
+    <headoffice>Sankarankovil</headoffice>
+    <location>Sivagiri Taluk of Tirunelveli District</location>
+    <telephone />
+  </office>
+</offices>
