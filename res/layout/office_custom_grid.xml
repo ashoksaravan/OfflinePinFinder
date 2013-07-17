@@ -4,14 +4,20 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:layout_centerHorizontal="true"
-    android:orientation="vertical" 
-    android:paddingLeft="10dp"
-    android:paddingRight="10dp" >
+    android:background="@drawable/round_corner_grid"
+    android:orientation="vertical"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp" >
 
     <LinearLayout
         android:id="@+id/officeRow"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
 
         <TextView
             android:layout_width="0dp"
@@ -32,7 +38,11 @@
     <LinearLayout
         android:id="@+id/pincodeRow"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:background="@drawable/inner_border"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
 
         <TextView
             android:layout_width="0dp"
@@ -53,7 +63,11 @@
     <LinearLayout
         android:id="@+id/statusRow"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:background="@drawable/inner_border"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
 
         <TextView
             android:layout_width="0dp"
@@ -74,7 +88,11 @@
     <LinearLayout
         android:id="@+id/subofficeRow"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:background="@drawable/inner_border"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
 
         <TextView
             android:id="@+id/subofficeLabel"
@@ -97,7 +115,11 @@
     <LinearLayout
         android:id="@+id/headofficeRow"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:background="@drawable/inner_border"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
 
         <TextView
             android:id="@+id/headofficeLabel"
@@ -119,7 +141,11 @@
     <LinearLayout
         android:id="@+id/locationRow"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:background="@drawable/inner_border"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
 
         <TextView
             android:id="@+id/locationLabel"
@@ -142,7 +168,11 @@
     <LinearLayout
         android:id="@+id/telephoneRow"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:background="@drawable/inner_border"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
 
         <TextView
             android:id="@+id/telephoneLabel"

@@ -3,12 +3,12 @@ package com.ashoksm.offlinepinfinder.adapter;
 import java.util.ArrayList;
 
 import android.content.Context;
-import android.graphics.Color;
 import android.text.util.Linkify;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.ashoksm.offlinepinfinder.R;
@@ -76,27 +76,26 @@ public class CustomOfficeAdapter extends BaseAdapter {
 
 			holder.suboffice.setPadding(2, 2, 2, 2);
 
-			holder.subofficeLabel = (TextView) v.findViewById(R.id.subofficeLabel);
+			holder.subofficeRow = (LinearLayout) v.findViewById(R.id.subofficeRow);
 
 			holder.headoffice = (TextView) v.findViewById(R.id.headofficeName);
 
 			holder.headoffice.setPadding(2, 2, 2, 2);
 
-			holder.headofficeLabel = (TextView) v.findViewById(R.id.headofficeLabel);
+			holder.headofficeRow = (LinearLayout) v.findViewById(R.id.headofficeRow);
 
 			holder.location = (TextView) v.findViewById(R.id.locationName);
 
 			holder.location.setPadding(2, 2, 2, 2);
 
-			holder.locationLabel = (TextView) v.findViewById(R.id.locationLabel);
+			holder.locationRow = (LinearLayout) v.findViewById(R.id.locationRow);
 
 			holder.telephoneNumber = (TextView) v.findViewById(R.id.telephoneNumber);
 
-			holder.telephoneLabel = (TextView) v.findViewById(R.id.telephoneLabel);
+			holder.telephoneRow = (LinearLayout) v.findViewById(R.id.telephoneRow);
 
 			holder.telephoneNumber.setPadding(2, 2, 2, 2);
 			v.setTag(holder);
-			v.setBackgroundColor(Color.rgb(245, 245, 245));
 
 			holder.officeName.setText(offices.get(position).getOfficeName());
 			holder.pincode.setText(offices.get(position).getPinCode());
@@ -104,41 +103,33 @@ public class CustomOfficeAdapter extends BaseAdapter {
 
 			if (offices.get(position).getSuboffice() != null
 					&& offices.get(position).getSuboffice().trim().length() > 0) {
-				holder.suboffice.setVisibility(View.VISIBLE);
-				holder.subofficeLabel.setVisibility(View.VISIBLE);
+				holder.subofficeRow.setVisibility(View.VISIBLE);
 				holder.suboffice.setText(offices.get(position).getSuboffice());
 			} else {
-				holder.suboffice.setVisibility(View.GONE);
-				holder.subofficeLabel.setVisibility(View.GONE);
+				holder.subofficeRow.setVisibility(View.GONE);
 			}
 
 			if (offices.get(position).getHeadoffice() != null
 					&& offices.get(position).getHeadoffice().trim().length() > 0) {
-				holder.headoffice.setVisibility(View.VISIBLE);
-				holder.headofficeLabel.setVisibility(View.VISIBLE);
+				holder.headofficeRow.setVisibility(View.VISIBLE);
 				holder.headoffice.setText(offices.get(position).getHeadoffice());
 			} else {
-				holder.headoffice.setVisibility(View.GONE);
-				holder.headofficeLabel.setVisibility(View.GONE);
+				holder.headofficeRow.setVisibility(View.GONE);
 			}
 
 			if (offices.get(position).getLocation() != null && offices.get(position).getLocation().trim().length() > 0) {
-				holder.location.setVisibility(View.VISIBLE);
-				holder.locationLabel.setVisibility(View.VISIBLE);
+				holder.locationRow.setVisibility(View.VISIBLE);
 				holder.location.setText(offices.get(position).getLocation());
 			} else {
-				holder.location.setVisibility(View.GONE);
-				holder.locationLabel.setVisibility(View.GONE);
+				holder.locationRow.setVisibility(View.GONE);
 			}
 			if (offices.get(position).getTelephone() != null
 					&& offices.get(position).getTelephone().trim().length() > 0) {
-				holder.telephoneNumber.setVisibility(View.VISIBLE);
-				holder.telephoneLabel.setVisibility(View.VISIBLE);
+				holder.telephoneRow.setVisibility(View.VISIBLE);
 				holder.telephoneNumber.setText(offices.get(position).getTelephone());
 				Linkify.addLinks(holder.telephoneNumber, Linkify.ALL);
 			} else {
-				holder.telephoneNumber.setVisibility(View.GONE);
-				holder.telephoneLabel.setVisibility(View.GONE);
+				holder.telephoneRow.setVisibility(View.GONE);
 			}
 		}
 
@@ -150,12 +141,12 @@ public class CustomOfficeAdapter extends BaseAdapter {
 		TextView pincode;
 		TextView stauts;
 		TextView suboffice;
-		TextView subofficeLabel;
+		LinearLayout subofficeRow;
 		TextView headoffice;
-		TextView headofficeLabel;
+		LinearLayout headofficeRow;
 		TextView location;
-		TextView locationLabel;
+		LinearLayout locationRow;
 		TextView telephoneNumber;
-		TextView telephoneLabel;
+		LinearLayout telephoneRow;
 	}
 }

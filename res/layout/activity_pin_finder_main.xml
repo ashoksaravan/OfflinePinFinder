@@ -1,25 +1,25 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-     android:gravity="center"
     android:background="#E5E4E2"
+    android:gravity="center"
+    android:orientation="vertical"
     android:paddingLeft="10dp"
-    android:paddingRight="10dp"
-    android:orientation="vertical" >
+    android:paddingRight="10dp" >
 
     <AutoCompleteTextView
         android:id="@+id/states"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/state"
-        android:layout_marginTop="25dp" />
-    
-     <AutoCompleteTextView
+        android:layout_marginTop="25dp"
+        android:hint="@string/state" />
+
+    <AutoCompleteTextView
         android:id="@+id/districts"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/districts"
-        android:layout_marginTop="25dp" />
+        android:layout_marginTop="25dp"
+        android:hint="@string/districts" />
 
     <EditText
         android:id="@+id/text1"
