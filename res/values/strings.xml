@@ -97,6 +97,23 @@
         <item>Virudhunagar</item>
     </string-array>
 
+    <string-array name="district_kl">
+        <item>Alappuzha</item>
+        <item>Ernakulam</item>
+        <item>Idukki</item>
+        <item>Kannur</item>
+        <item>Kasaragod</item>
+        <item>Kollam</item>
+        <item>Kottayam</item>
+        <item>Kozhikode</item>
+        <item>Malappuram</item>
+        <item>Palakkad</item>
+        <item>Pathanamthitta</item>
+        <item>Thiruvananthapuram </item>
+        <item>Thrissur</item>
+        <item>Wayanad</item>
+    </string-array>
+
     <string name="title_activity_display_result">Result</string>
 
 </resources>

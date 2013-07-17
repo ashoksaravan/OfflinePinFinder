@@ -70,6 +70,10 @@ public class PinFinderMainActivity extends Activity {
 					String[] districtPuducherry = getResources().getStringArray(R.array.district_tn);
 					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
 							android.R.layout.simple_list_item_1, districtPuducherry));
+				} else if (states.getText().toString().equals("Kerala")) {
+					String[] districtPuducherry = getResources().getStringArray(R.array.district_kl);
+					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
+							android.R.layout.simple_list_item_1, districtPuducherry));
 				} else {
 					Toast.makeText(PinFinderMainActivity.this, "Not a valid state", Toast.LENGTH_SHORT).show();
 				}
