@@ -6,13 +6,13 @@
     <suboffice>Nangiarkulangara</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Ala (Alappuzha)</name>
     <pinCode>689126</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Chengannur</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
     <telephone>0479-2145278</telephone>
@@ -21,7 +21,7 @@
     <name>Alappuzha Bazar</name>
     <pinCode>688012</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Ambalapuzha Taluk of Alappuzha District</location>
     <telephone>0477-2243256</telephone>
@@ -30,7 +30,7 @@
     <name>Alappuzha Collectorate</name>
     <pinCode>688001</pinCode>
     <status>Sub Office(Non Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Ambalapuzha Taluk of Alappuzha District</location>
     <telephone>0477-2252205</telephone>
@@ -39,7 +39,7 @@
     <name>Alappuzha District Hospital</name>
     <pinCode>688011</pinCode>
     <status>Sub Office(Non Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Ambalapuzha Taluk of Alappuzha District</location>
     <telephone>0477-2252759</telephone>
@@ -48,8 +48,8 @@
     <name>Alappuzha</name>
     <pinCode>688001</pinCode>
     <status>Head Office(Delivery)</status>
-    <suboffice></suboffice>
-    <headoffice></headoffice>
+    <suboffice />
+    <headoffice />
     <location>Ambalapuzha Taluk of Alappuzha District</location>
     <telephone>0477-2245538</telephone>
   </office>
@@ -57,7 +57,7 @@
     <name>Alappuzha Iron Bridge</name>
     <pinCode>688011</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Ambalapuzha Taluk of Alappuzha District</location>
     <telephone>0477-2251145</telephone>
@@ -66,7 +66,7 @@
     <name>Alappuzha Medical College</name>
     <pinCode>688005</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Ambalappuzha Taluk of Alappuzha District</location>
     <telephone>0477-2282041</telephone>
@@ -75,7 +75,7 @@
     <name>Alappuzha Mullackal</name>
     <pinCode>688011</pinCode>
     <status>Sub Office(Non Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Ambalappuzha Taluk of Alappuzha District</location>
     <telephone>0477-2252494</telephone>
@@ -84,7 +84,7 @@
     <name>Alappuzha North</name>
     <pinCode>688007</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Ambalapuzh A Taluk of Alappuzha District</location>
     <telephone>0477-2245275</telephone>
@@ -96,13 +96,13 @@
     <suboffice>Ambalapuzha</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Ambalappuzha Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Ambalapuzha</name>
     <pinCode>688561</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Ambalapuzha Taluk of Alappuzha District</location>
     <telephone>0477-2272034</telephone>
@@ -114,7 +114,7 @@
     <suboffice>Thalavady</suboffice>
     <headoffice>Tiruvalla</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Anaprambal North</name>
@@ -123,7 +123,7 @@
     <suboffice>Thalavady</suboffice>
     <headoffice>Tiruvalla</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Andhakaranazhy</name>
@@ -132,13 +132,13 @@
     <suboffice>Pattanacaud</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Angadical Chengannur</name>
     <pinCode>689122</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Chengannur</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
     <telephone>0479-2452358</telephone>
@@ -150,7 +150,7 @@
     <suboffice>Kandallur</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Arattupuzha North</name>
@@ -159,7 +159,7 @@
     <suboffice>Thrikkunnapuzha</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Areekara</name>
@@ -168,13 +168,13 @@
     <suboffice>Mulakuzha</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Arookutty</name>
     <pinCode>688535</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
     <telephone>0478-2872107</telephone>
@@ -183,7 +183,7 @@
     <name>Aroor</name>
     <pinCode>688534</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Cherthala</headoffice>
     <location>Cherthla Taluk of Alappuzha District</location>
     <telephone>0478-2872101</telephone>
@@ -192,7 +192,7 @@
     <name>Arthingal</name>
     <pinCode>688530</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
     <telephone>0478-2572112</telephone>
@@ -204,7 +204,7 @@
     <suboffice>Kallumala</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Aryad North EDB.O</name>
@@ -213,7 +213,7 @@
     <suboffice>Mannancherry</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Mararikulam Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Athikattukulangara</name>
@@ -222,13 +222,13 @@
     <suboffice>Nooranad</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Avalukkunnu</name>
     <pinCode>688006</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Ambalapuzha Taluk of Alappuzha District</location>
     <telephone>0477-2235454</telephone>
@@ -240,7 +240,7 @@
     <suboffice>Karuvatta</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Ayiranikudy</name>
@@ -249,7 +249,7 @@
     <suboffice>Mankamkuzhy</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Bharanickavu</name>
@@ -258,7 +258,7 @@
     <suboffice>Pallickal</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Bhudhanoor</name>
@@ -267,7 +267,7 @@
     <suboffice>Puliyoor</suboffice>
     <headoffice>Chengannur</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Champakulam East</name>
@@ -276,13 +276,13 @@
     <suboffice>Champakulam</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Champakulam</name>
     <pinCode>688505</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
     <telephone>0477-2736241</telephone>
@@ -294,7 +294,7 @@
     <suboffice>Eramallur</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Changankary</name>
@@ -303,13 +303,13 @@
     <suboffice>Edathua</suboffice>
     <headoffice>Tiruvalla</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Charumoodu</name>
     <pinCode>690505</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
     <telephone>0479-2382341</telephone>
@@ -321,7 +321,7 @@
     <suboffice>Moncombu</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Chekkidikkadu</name>
@@ -330,7 +330,7 @@
     <suboffice>Edathua</suboffice>
     <headoffice>Tiruvalla</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Chempumpuram</name>
@@ -339,14 +339,14 @@
     <suboffice>Champakulam</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Chengannur</name>
     <pinCode>689121</pinCode>
     <status>Head Office(Delivery)</status>
-    <suboffice></suboffice>
-    <headoffice></headoffice>
+    <suboffice />
+    <headoffice />
     <location>Chengannur Taluk of Alappuzha District</location>
     <telephone>0479-2452695</telephone>
   </office>
@@ -354,7 +354,7 @@
     <name>Chengannur RS</name>
     <pinCode>689121</pinCode>
     <status>Sub Office(Non Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Chengannur</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
     <telephone>0479-2452695</telephone>
@@ -366,7 +366,7 @@
     <suboffice>Kainakary</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Chennamkary East</name>
@@ -375,13 +375,13 @@
     <suboffice>Kavalam</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Chennithala</name>
     <pinCode>690105</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikara Taluk of Alappuzha District</location>
     <telephone>0479-2323523</telephone>
@@ -393,13 +393,13 @@
     <suboffice>Chennithala</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Cheppaud</name>
     <pinCode>690507</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
     <telephone>0479-2473721</telephone>
@@ -408,7 +408,7 @@
     <name>Cheriyanadu</name>
     <pinCode>689511</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Chengannur</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
     <telephone>0479-2360136</telephone>
@@ -417,7 +417,7 @@
     <name>Cherthala Cutcherry</name>
     <pinCode>688524</pinCode>
     <status>Sub Office(Non Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
     <telephone>0478-2813093</telephone>
@@ -426,8 +426,8 @@
     <name>Cherthala</name>
     <pinCode>688524</pinCode>
     <status>Head Office(Delivery)</status>
-    <suboffice></suboffice>
-    <headoffice></headoffice>
+    <suboffice />
+    <headoffice />
     <location>Cherthala Taluk of Alappuzha District</location>
     <telephone>0478-2813008</telephone>
   </office>
@@ -438,7 +438,7 @@
     <suboffice>Mayithara Market</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Cherukara Kuttanad</name>
@@ -447,13 +447,13 @@
     <suboffice>Kavalam</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Cherukole</name>
     <pinCode>690104</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
     <telephone>0479-2325028</telephone>
@@ -465,7 +465,7 @@
     <suboffice>Karuvatta</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Chethy GDB.O</name>
@@ -474,13 +474,13 @@
     <suboffice>Arthingal</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Chettikulangara</name>
     <pinCode>690106</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikara Taluk of Alappuzha District</location>
     <telephone>0479-2349248</telephone>
@@ -489,7 +489,7 @@
     <name>Chingoli</name>
     <pinCode>690532</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
     <telephone>0479-2485731</telephone>
@@ -501,7 +501,7 @@
     <suboffice>Thakazhy</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Choolatheruvu</name>
@@ -510,13 +510,13 @@
     <suboffice>Muthukulam South</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Chunakara</name>
     <pinCode>690534</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikara Taluk of Alappuzha District</location>
     <telephone>0479-2378431</telephone>
@@ -528,7 +528,7 @@
     <suboffice>Alappuzha Iron Bridge</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Ambalappuzha Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Eara North</name>
@@ -537,7 +537,7 @@
     <suboffice>Neelamperoor</suboffice>
     <headoffice>Changanacherry</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Edanad</name>
@@ -546,13 +546,13 @@
     <suboffice>Puthencavu</suboffice>
     <headoffice>Chengannur</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Edathua</name>
     <pinCode>689573</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Tiruvalla</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
     <telephone>0477-2212224</telephone>
@@ -564,13 +564,13 @@
     <suboffice>Cheriyanadu</suboffice>
     <headoffice>Chengannur</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Ennakkad</name>
     <pinCode>689624</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Mavelikara</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
     <telephone>0479-2466284</telephone>
@@ -582,13 +582,13 @@
     <suboffice>Tiruvanvandur</suboffice>
     <headoffice>Tiruvalla</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Eramallur</name>
     <pinCode>688537</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
     <telephone>0478-2872103</telephone>
@@ -600,7 +600,7 @@
     <suboffice>Mannar</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Eravankara</name>
@@ -609,7 +609,7 @@
     <suboffice>Kunnam (Alappuzha)</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Erezha North</name>
@@ -618,7 +618,7 @@
     <suboffice>Chettikulangara</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Erezha South</name>
@@ -627,7 +627,7 @@
     <suboffice>Chettikulangara</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Erickavu</name>
@@ -636,7 +636,7 @@
     <suboffice>Karthikappally</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Eruva</name>
@@ -645,7 +645,7 @@
     <suboffice>Kareelakulangara</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Evur</name>
@@ -654,7 +654,7 @@
     <suboffice>Cheppaud</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Ezhakadavu</name>
@@ -663,7 +663,7 @@
     <suboffice>Cherukole</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Ezhupunna EDB.O</name>
@@ -672,7 +672,7 @@
     <suboffice>Eramallur</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Ezhupunna South EDB.O</name>
@@ -681,7 +681,7 @@
     <suboffice>Eramallur</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Govindamuttom</name>
@@ -690,13 +690,13 @@
     <suboffice>Puthuppally</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Haripad</name>
     <pinCode>690514</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
     <telephone>0479-2412622</telephone>
@@ -708,7 +708,7 @@
     <suboffice>Ambalapuzha</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Ambalappuzha Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Illippakulam</name>
@@ -717,13 +717,13 @@
     <suboffice>Pallickal</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kadakkarapally</name>
     <pinCode>688529</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
     <telephone>0478-2813124</telephone>
@@ -735,7 +735,7 @@
     <suboffice>Vallikunnam</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kainady</name>
@@ -744,7 +744,7 @@
     <suboffice>Neelamperoor</suboffice>
     <headoffice>Changanacherry</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kainakary East</name>
@@ -753,13 +753,13 @@
     <suboffice>Kainakary</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kainakary</name>
     <pinCode>688501</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
     <telephone>0477-2724221</telephone>
@@ -771,22 +771,22 @@
     <suboffice>Alappuzha Medical College</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Ambalappuzha Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kalavamkodam</name>
     <pinCode>688524</pinCode>
     <status>Branch Office(Delivery) directly a/w Head Office</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kalavoor</name>
     <pinCode>688522</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Ambalapuzha Taluk of Alappuzha District</location>
     <telephone>0477-2292345</telephone>
@@ -798,7 +798,7 @@
     <suboffice>Kollakadavu</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kallimel</name>
@@ -807,13 +807,13 @@
     <suboffice>Kollakadavu</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kallumala</name>
     <pinCode>690110</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
     <telephone>0479-2303159</telephone>
@@ -822,7 +822,7 @@
     <name>Kandallur</name>
     <pinCode>690535</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
     <telephone>0479-2431421</telephone>
@@ -834,7 +834,7 @@
     <suboffice>Thattarambalam</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kanichukulangara EDB.O</name>
@@ -843,7 +843,7 @@
     <suboffice>Sreenarayanapuram</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kanjipadom</name>
@@ -852,7 +852,7 @@
     <suboffice>Alappuzha Medical College</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Ambalappuzha Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kanjiramchira</name>
@@ -861,7 +861,7 @@
     <suboffice>Alappuzha North</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Ambalappuzha Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kannady</name>
@@ -870,7 +870,7 @@
     <suboffice>Pulincunnu</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kannady West</name>
@@ -879,7 +879,7 @@
     <suboffice>Pulincunnu</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kannamangalam</name>
@@ -888,7 +888,7 @@
     <suboffice>Chettikulangara</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kannanakuzhy</name>
@@ -897,7 +897,7 @@
     <suboffice>Charumoodu</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kannankara</name>
@@ -906,7 +906,7 @@
     <suboffice>Thanneermukkom</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kappil East</name>
@@ -915,13 +915,13 @@
     <suboffice>Krishnapuram (Alappuzha)</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Karakkad</name>
     <pinCode>689504</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Mavelikara</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
     <telephone>0479-2424730</telephone>
@@ -930,7 +930,7 @@
     <name>Kareelakulangara</name>
     <pinCode>690572</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
     <telephone>0479-2435347</telephone>
@@ -942,7 +942,7 @@
     <suboffice>Thanneermukkom</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Karikuzhy</name>
@@ -951,7 +951,7 @@
     <suboffice>Neerattupuram</suboffice>
     <headoffice>Tiruvalla</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Karipuzha</name>
@@ -960,13 +960,13 @@
     <suboffice>Thattarambalam</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Karthikappally</name>
     <pinCode>690516</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
     <telephone>0479-2485623</telephone>
@@ -978,7 +978,7 @@
     <suboffice>Ambalapuzha</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Ambalapuzha Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Karuvatta North</name>
@@ -987,13 +987,13 @@
     <suboffice>Karuvatta</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Karuvatta</name>
     <pinCode>690517</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
     <telephone>0479-2485623</telephone>
@@ -1005,7 +1005,7 @@
     <suboffice>Pallickal</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kattoor Kalavoor EDB.O</name>
@@ -1014,7 +1014,7 @@
     <suboffice>Kalavoor</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Ambalapuzha Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kavalam North</name>
@@ -1023,13 +1023,13 @@
     <suboffice>Kavalam</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kavalam</name>
     <pinCode>688506</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
     <telephone>0477-2747239</telephone>
@@ -1041,13 +1041,13 @@
     <suboffice>Pulincunnu</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kayangulam College</name>
     <pinCode>690502</pinCode>
     <status>Sub Office(Non Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
     <telephone>0479-2442140</telephone>
@@ -1056,8 +1056,8 @@
     <name>Kayangulam</name>
     <pinCode>690502</pinCode>
     <status>Head Office(Delivery)</status>
-    <suboffice></suboffice>
-    <headoffice></headoffice>
+    <suboffice />
+    <headoffice />
     <location>Karthikappally Taluk of Alappuzha District</location>
     <telephone>0479-2443496</telephone>
   </office>
@@ -1065,7 +1065,7 @@
     <name>Keerikad</name>
     <pinCode>690508</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
     <telephone>0479-2474506</telephone>
@@ -1077,7 +1077,7 @@
     <suboffice>Thakazhy</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kidangara</name>
@@ -1086,7 +1086,7 @@
     <suboffice>Perunna</suboffice>
     <headoffice>Changanacherry</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kochuramapuram EDB.O</name>
@@ -1095,13 +1095,13 @@
     <suboffice>Pallippuram</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kodukulanji</name>
     <pinCode>689508</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Mavelikara</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
     <telephone>0479-2369232</telephone>
@@ -1113,7 +1113,7 @@
     <suboffice>Ramankary</suboffice>
     <headoffice>Tiruvalla</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kokkothamangalam</name>
@@ -1122,13 +1122,13 @@
     <suboffice>Thanneermukkom</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kollakadavu</name>
     <pinCode>690509</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Mavelikara</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
     <telephone>0479-2352235</telephone>
@@ -1140,7 +1140,7 @@
     <suboffice>Avalukkunnu</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Ambalapuzha Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Komallur</name>
@@ -1149,7 +1149,7 @@
     <suboffice>Charumoodu</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kommady Ward</name>
@@ -1158,7 +1158,7 @@
     <suboffice>Alappuzha North</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Ambalappuzha Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kotta</name>
@@ -1167,7 +1167,7 @@
     <suboffice>Karakkad</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kottankulangara</name>
@@ -1176,13 +1176,13 @@
     <suboffice>Avalukkunnu</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Ambalappuzha Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kozhuvallur</name>
     <pinCode>689521</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Mavelikara</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
     <telephone>0479-2369250</telephone>
@@ -1191,7 +1191,7 @@
     <name>Krishnapuram (Alappuzha)</name>
     <pinCode>690533</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
     <telephone>0479-2443652</telephone>
@@ -1200,7 +1200,7 @@
     <name>Kudassanad</name>
     <pinCode>689512</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
     <telephone>0479-2388264</telephone>
@@ -1212,13 +1212,13 @@
     <suboffice>Vazhappally West</suboffice>
     <headoffice>Changanacherry</headoffice>
     <location>Kuttanadu Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kumarapuram (Alappuzha)</name>
     <pinCode>690548</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
     <telephone>0479-2412701</telephone>
@@ -1227,7 +1227,7 @@
     <name>Kunnam (Alappuzha)</name>
     <pinCode>690108</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
     <telephone>0479-2303025</telephone>
@@ -1239,7 +1239,7 @@
     <suboffice>Perunna</suboffice>
     <headoffice>Changanacherry</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kunnumma Thakazhy</name>
@@ -1248,7 +1248,7 @@
     <suboffice>Thakazhy</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kunthirickal</name>
@@ -1257,7 +1257,7 @@
     <suboffice>Thalavady</suboffice>
     <headoffice>Tiruvalla</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kuppappuram</name>
@@ -1266,7 +1266,7 @@
     <suboffice>Alappuzha Iron Bridge</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Ambalapuzha Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kuruppankulangara</name>
@@ -1275,13 +1275,13 @@
     <suboffice>Mayithara Market</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kuthiathode</name>
     <pinCode>688533</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
     <telephone>0478-2562223</telephone>
@@ -1293,13 +1293,13 @@
     <suboffice>Kainakary</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kuttemperur</name>
     <pinCode>689623</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Mavelikara</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
     <telephone>0479-2314285</telephone>
@@ -1311,7 +1311,7 @@
     <suboffice>Karthikappally</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Mampra</name>
@@ -1320,7 +1320,7 @@
     <suboffice>Kodukulanji</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Mampra</name>
@@ -1329,7 +1329,7 @@
     <suboffice>Kodukulanji</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Manappuram EDB.O</name>
@@ -1338,7 +1338,7 @@
     <suboffice>Poochackal</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Mangalam</name>
@@ -1347,13 +1347,13 @@
     <suboffice>Thrikkunnapuzha</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Mankamkuzhy</name>
     <pinCode>690558</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikara Taluk of Alappuzha District</location>
     <telephone>0479-2356057</telephone>
@@ -1362,7 +1362,7 @@
     <name>Mannancherry</name>
     <pinCode>688538</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Ambalappuzha Taluk of Alappuzha District</location>
     <telephone>0477-2292472</telephone>
@@ -1371,7 +1371,7 @@
     <name>Mannar</name>
     <pinCode>689622</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Mavelikara</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
     <telephone>0479-2312230</telephone>
@@ -1383,7 +1383,7 @@
     <suboffice>Haripad</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Mararikulam North EDB.O</name>
@@ -1392,7 +1392,7 @@
     <suboffice>Sethulekshmipuram</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Maruthorvattom EDB.O</name>
@@ -1401,13 +1401,13 @@
     <suboffice>Mayithara Market</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Mavelikara Court</name>
     <pinCode>690101</pinCode>
     <status>Sub Office(Non Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
     <telephone>0479-2342866</telephone>
@@ -1416,7 +1416,7 @@
     <name>Mavelikara Cutcherry</name>
     <pinCode>690101</pinCode>
     <status>Sub Office(Non Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
     <telephone>0479-2302433</telephone>
@@ -1425,8 +1425,8 @@
     <name>Mavelikara</name>
     <pinCode>690101</pinCode>
     <status>Head Office(Delivery)</status>
-    <suboffice></suboffice>
-    <headoffice></headoffice>
+    <suboffice />
+    <headoffice />
     <location>Mavelikara Taluk of Alappuzha District</location>
     <telephone>0479-2302266</telephone>
   </office>
@@ -1434,7 +1434,7 @@
     <name>Mayithara Market</name>
     <pinCode>688539</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
     <telephone>0478-2813074</telephone>
@@ -1443,7 +1443,7 @@
     <name>Melpadom</name>
     <pinCode>689627</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikara Taluk of Alappuzha District</location>
     <telephone>0479-2302266</telephone>
@@ -1455,13 +1455,13 @@
     <suboffice>Ramankary</suboffice>
     <headoffice>Tiruvalla</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Moncombu</name>
     <pinCode>688502</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
     <telephone>0477-2702330</telephone>
@@ -1470,7 +1470,7 @@
     <name>Moncombu Thekkekara</name>
     <pinCode>688503</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
     <telephone>0477-2702321</telephone>
@@ -1479,7 +1479,7 @@
     <name>Muhamma</name>
     <pinCode>688525</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
     <telephone>0478-2862335</telephone>
@@ -1488,7 +1488,7 @@
     <name>Mulakuzha</name>
     <pinCode>689505</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Mavelikara</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
     <telephone>0479-24630380</telephone>
@@ -1500,7 +1500,7 @@
     <suboffice>Kallisserry</suboffice>
     <headoffice>Chengannur</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Muthukulam</name>
@@ -1509,13 +1509,13 @@
     <suboffice>Muthukulam South</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Muthukulam South</name>
     <pinCode>690506</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
     <telephone>0479-2472040</telephone>
@@ -1524,7 +1524,7 @@
     <name>Muttar</name>
     <pinCode>689574</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Tiruvalla</headoffice>
     <location>Kuttanadu Taluk of Alappuzha District</location>
     <telephone>0477-2219255</telephone>
@@ -1536,13 +1536,13 @@
     <suboffice>Thanneermukkom</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Muttom-alleppey</name>
     <pinCode>690511</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
     <telephone>0479-2401624</telephone>
@@ -1554,7 +1554,7 @@
     <suboffice>Poochackal</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Naduvattom</name>
@@ -1563,13 +1563,13 @@
     <suboffice>Pallipad</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Nangiarkulangara</name>
     <pinCode>690513</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
     <telephone>0479-2412698</telephone>
@@ -1581,7 +1581,7 @@
     <suboffice>Kavalam</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Nedumudy EDB.O</name>
@@ -1590,7 +1590,7 @@
     <suboffice>Moncombu Thekkekara</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Neduvaramkodu</name>
@@ -1599,13 +1599,13 @@
     <suboffice>Kodukulanji</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Neelamperoor</name>
     <pinCode>686534</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Changanacherry</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
     <telephone>0481-2424444</telephone>
@@ -1614,7 +1614,7 @@
     <name>Neerattupuram</name>
     <pinCode>689571</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Tiruvalla</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
     <telephone>0469-2632329</telephone>
@@ -1626,13 +1626,13 @@
     <suboffice>Krishnapuram (Alappuzha)</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Nooranad</name>
     <pinCode>690504</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikara Taluk of Alappuzha District</location>
     <telephone>0479-2386321</telephone>
@@ -1641,7 +1641,7 @@
     <name>Nooranad Sanatorium</name>
     <pinCode>690571</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
     <telephone>0479-2382346</telephone>
@@ -1650,7 +1650,7 @@
     <name>Olakettiambalam</name>
     <pinCode>690510</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Mavelikara</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
     <telephone>0479-2302470</telephone>
@@ -1662,13 +1662,13 @@
     <suboffice>Poochackal</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Padanilam</name>
     <pinCode>690529</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikara Taluk of Alappuzha District</location>
     <telephone>0479-2382346</telephone>
@@ -1680,7 +1680,7 @@
     <suboffice>Thrikkunnapuzha</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pallarimangalam</name>
@@ -1689,7 +1689,7 @@
     <suboffice>Thekkekara</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pallickal Naduvilemuri</name>
@@ -1698,13 +1698,13 @@
     <suboffice>Pallickal</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pallickal</name>
     <pinCode>690503</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikara Taluk of Alappuzha District</location>
     <telephone>0479-2332030</telephone>
@@ -1713,7 +1713,7 @@
     <name>Pallipad</name>
     <pinCode>690512</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
     <telephone>0479-2409798</telephone>
@@ -1722,7 +1722,7 @@
     <name>Pallippuram</name>
     <pinCode>688541</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
     <telephone>0478-2552223</telephone>
@@ -1734,7 +1734,7 @@
     <suboffice>Thirumalabhagom</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Panavally EDB.O</name>
@@ -1743,7 +1743,7 @@
     <suboffice>Poochackal</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Panayil</name>
@@ -1752,7 +1752,7 @@
     <suboffice>Nooranad</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pandanad North</name>
@@ -1761,13 +1761,13 @@
     <suboffice>Kallisserry</suboffice>
     <headoffice>Chengannur</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pandanad</name>
     <pinCode>689506</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Chengannur</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
     <telephone>0479-2464221</telephone>
@@ -1779,7 +1779,7 @@
     <suboffice>Pandanad</suboffice>
     <headoffice>Chengannur</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pandankary</name>
@@ -1788,7 +1788,7 @@
     <suboffice>Edathua</suboffice>
     <headoffice>Tiruvalla</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pandarakulam</name>
@@ -1797,7 +1797,7 @@
     <suboffice>Champakulam</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pandy</name>
@@ -1806,7 +1806,7 @@
     <suboffice>Karuvatta</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Parayakad</name>
@@ -1815,13 +1815,13 @@
     <suboffice>Thirumalabhagom</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pathirappally</name>
     <pinCode>688521</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Ambalapuzha Taluk of Alappuzha District</location>
     <telephone>0477-2258376</telephone>
@@ -1833,13 +1833,13 @@
     <suboffice>Keerikad</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pattanacaud</name>
     <pinCode>688531</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
     <telephone>0478-2592221</telephone>
@@ -1848,7 +1848,7 @@
     <name>Pattolimarket</name>
     <pinCode>690531</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
     <telephone>0479-2430216</telephone>
@@ -1860,7 +1860,7 @@
     <suboffice>Padanilam</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pavukara</name>
@@ -1869,7 +1869,7 @@
     <suboffice>Mannar</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Payipad</name>
@@ -1878,7 +1878,7 @@
     <suboffice>Haripad</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Payyanallur</name>
@@ -1887,13 +1887,13 @@
     <suboffice>Nooranad</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pazhaveedu</name>
     <pinCode>688009</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Ambalapuzha Taluk of Alappuzha District</location>
     <telephone>0477-2267290</telephone>
@@ -1905,13 +1905,13 @@
     <suboffice>Thattarambalam</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pennukkara</name>
     <pinCode>689520</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Mavelikara</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
     <telephone>0479-2368330</telephone>
@@ -1923,7 +1923,7 @@
     <suboffice>Mulakuzha</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Peringilipuram</name>
@@ -1932,7 +1932,7 @@
     <suboffice>Ennakkad</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Perisserry</name>
@@ -1941,7 +1941,7 @@
     <suboffice>Ala (Alappuzha)</suboffice>
     <headoffice>Chengannur</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Perisserry</name>
@@ -1950,13 +1950,13 @@
     <suboffice>Ala (Alappuzha)</suboffice>
     <headoffice>Chengannur</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Perungala</name>
     <pinCode>690559</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
     <telephone>0479-2442459</telephone>
@@ -1968,7 +1968,7 @@
     <suboffice>Angadical Chengannur</suboffice>
     <headoffice>Chengannur</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pollethai EDB.O</name>
@@ -1977,7 +1977,7 @@
     <suboffice>Kalavoor</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Ambalappuzha Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pollethai EDB.O</name>
@@ -1986,7 +1986,7 @@
     <suboffice>Kalavoor</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Ambalappuzha Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Ponnad</name>
@@ -1995,13 +1995,13 @@
     <suboffice>Mannancherry</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Ambalappuzha Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Poochackal</name>
     <pinCode>688526</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
     <telephone>0478-2532223</telephone>
@@ -2013,13 +2013,13 @@
     <suboffice>Pennukkara</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Prayar</name>
     <pinCode>690547</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Karunagappaly</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
     <telephone>0476-2690250</telephone>
@@ -2028,7 +2028,7 @@
     <name>Pulincunnu</name>
     <pinCode>688504</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
     <telephone>0477-2702229</telephone>
@@ -2037,7 +2037,7 @@
     <name>Puliyoor</name>
     <pinCode>689510</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Chengannur</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
     <telephone>0479-2464262</telephone>
@@ -2049,13 +2049,13 @@
     <suboffice>Champakulam</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pullikanakku</name>
     <pinCode>690537</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
     <telephone>0479-2442969</telephone>
@@ -2067,7 +2067,7 @@
     <suboffice>Pulincunnu</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Punnakunnathussery South</name>
@@ -2076,7 +2076,7 @@
     <suboffice>Pulincunnu</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Punnamoodu</name>
@@ -2085,13 +2085,13 @@
     <suboffice>Mavelikara Cutcherry</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Punnapra North</name>
     <pinCode>688014</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Ambalapuzha Taluk of Alappuzha District</location>
     <telephone>0477-2268806</telephone>
@@ -2100,7 +2100,7 @@
     <name>Punnapra</name>
     <pinCode>688004</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Ambalapuzha Taluk of Alappuzha District</location>
     <telephone>0477-2287920</telephone>
@@ -2112,7 +2112,7 @@
     <suboffice>Venmony</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Purakad EDB.O</name>
@@ -2121,13 +2121,13 @@
     <suboffice>Ambalapuzha</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Ambalappuzha Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Puthencavu</name>
     <pinCode>689123</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Chengannur</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
     <telephone>0479-2452359</telephone>
@@ -2139,7 +2139,7 @@
     <suboffice>Vallikunnam</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Puthiyacavu</name>
@@ -2148,7 +2148,7 @@
     <suboffice>Thazhakara</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Puthiyavila</name>
@@ -2157,13 +2157,13 @@
     <suboffice>Pattolimarket</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Puthuppally</name>
     <pinCode>690527</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
     <telephone>0479-2442951</telephone>
@@ -2172,7 +2172,7 @@
     <name>Ramankary</name>
     <pinCode>689595</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Tiruvalla</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
     <telephone>0477-2705559</telephone>
@@ -2181,7 +2181,7 @@
     <name>Sanathanapuram</name>
     <pinCode>688003</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Ambalapuzha Taluk of Alappuzha District</location>
     <telephone>0477-2266036</telephone>
@@ -2190,7 +2190,7 @@
     <name>Sethulekshmipuram</name>
     <pinCode>688523</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
     <telephone>0478-2862325</telephone>
@@ -2199,7 +2199,7 @@
     <name>Sreenarayanapuram</name>
     <pinCode>688582</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
     <telephone>0478-2862405</telephone>
@@ -2211,13 +2211,13 @@
     <suboffice>Arthingal</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thakazhy</name>
     <pinCode>688562</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
     <telephone>0477-2274241</telephone>
@@ -2226,7 +2226,7 @@
     <name>Thalavady</name>
     <pinCode>689572</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Tiruvalla</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
     <telephone>0477-2212440</telephone>
@@ -2238,7 +2238,7 @@
     <suboffice>Thalavady</suboffice>
     <headoffice>Tiruvalla</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thamallackal</name>
@@ -2247,7 +2247,7 @@
     <suboffice>Kumarapuram (Alappuzha)</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thamallackal North</name>
@@ -2256,13 +2256,13 @@
     <suboffice>Haripad</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thamarakulam</name>
     <pinCode>690530</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikara Taluk of Alappuzha District</location>
     <telephone>0479-2370023</telephone>
@@ -2271,7 +2271,7 @@
     <name>Thanneermukkom</name>
     <pinCode>688527</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
     <telephone>0478-2582240</telephone>
@@ -2283,13 +2283,13 @@
     <suboffice>Chunakara</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thathampally</name>
     <pinCode>688013</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Ambalappuzha Taluk of Alappuzha District</location>
     <telephone>0477-2254907</telephone>
@@ -2301,13 +2301,13 @@
     <suboffice>Prayar</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thattarambalam</name>
     <pinCode>690103</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
     <telephone>0479-2483523</telephone>
@@ -2319,13 +2319,13 @@
     <suboffice>Edathua</suboffice>
     <headoffice>Tiruvalla</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thazhakara</name>
     <pinCode>690102</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikara Taluk of Alappuzha District</location>
     <telephone>0479-2343634</telephone>
@@ -2334,7 +2334,7 @@
     <name>Thekkekara</name>
     <pinCode>690107</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
     <telephone>0479-2328003</telephone>
@@ -2343,7 +2343,7 @@
     <name>Thirumalabhagom</name>
     <pinCode>688540</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
     <telephone>0478-2562273</telephone>
@@ -2355,13 +2355,13 @@
     <suboffice>Pallippuram</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thiruvampady Junction</name>
     <pinCode>688002</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Ambalapuha Taluk of Alappuzha District</location>
     <telephone>0477-2253423</telephone>
@@ -2373,13 +2373,13 @@
     <suboffice>Cheriyanadu</suboffice>
     <headoffice>Chengannur</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thondankulangara</name>
     <pinCode>688013</pinCode>
     <status>Sub Office(Non Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Ambalappuzha Taluk of Alappuzha District</location>
     <telephone>0477-2252498</telephone>
@@ -2391,7 +2391,7 @@
     <suboffice>Ambalapuzha</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Ambalapuzha Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thottuvathala</name>
@@ -2400,13 +2400,13 @@
     <suboffice>Kainakary</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thrikkunnapuzha</name>
     <pinCode>690515</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
     <telephone>0479-2482021</telephone>
@@ -2418,13 +2418,13 @@
     <suboffice>Chennithala</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thumpoly</name>
     <pinCode>688008</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Alappuzha</headoffice>
     <location>Ambalapuzha Taluk of Alappuzha District</location>
     <telephone>0477-2245226</telephone>
@@ -2433,7 +2433,7 @@
     <name>Thuravoor</name>
     <pinCode>688532</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
     <telephone>0478-2562221</telephone>
@@ -2445,13 +2445,13 @@
     <suboffice>Thuravoor</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thycattussery</name>
     <pinCode>688528</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
     <telephone>0478-2532221</telephone>
@@ -2460,7 +2460,7 @@
     <name>Tiruvanvandur</name>
     <pinCode>689109</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Tiruvalla</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
     <telephone>0479-2427913</telephone>
@@ -2472,7 +2472,7 @@
     <suboffice>Poochackal</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Urukari</name>
@@ -2481,7 +2481,7 @@
     <suboffice>Ramankary</suboffice>
     <headoffice>Tiruvalla</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vadackal</name>
@@ -2490,7 +2490,7 @@
     <suboffice>Sanathanapuram</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Ambalapuzha Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vaduthala Jetty</name>
@@ -2499,7 +2499,7 @@
     <suboffice>Arookutty</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Valamangalam</name>
@@ -2508,7 +2508,7 @@
     <suboffice>Thuravoor</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Valiyakulangara</name>
@@ -2517,7 +2517,7 @@
     <suboffice>Cherukole</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Valiyaparambu</name>
@@ -2526,7 +2526,7 @@
     <suboffice>Karthikappally</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Valiyazheekkal</name>
@@ -2535,13 +2535,13 @@
     <suboffice>Kandallur</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vallikunnam</name>
     <pinCode>690501</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikara Taluk of Alappuzha District</location>
     <telephone>0479-2335230</telephone>
@@ -2550,7 +2550,7 @@
     <name>Vallikunnam</name>
     <pinCode>690501</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikara Taluk of Alappuzha District</location>
     <telephone>0479-2335230</telephone>
@@ -2562,13 +2562,13 @@
     <suboffice>Mayithara Market</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Varanam</name>
     <pinCode>688555</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
     <telephone>0478-2582230</telephone>
@@ -2580,7 +2580,7 @@
     <suboffice>Thekkekara</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vattayal Ward</name>
@@ -2589,13 +2589,13 @@
     <suboffice>Thiruvampady Junction</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Ambalapuzha Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vayalar</name>
     <pinCode>688536</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
     <telephone>0478-2592263</telephone>
@@ -2607,7 +2607,7 @@
     <suboffice>Kallisserry</suboffice>
     <headoffice>Chengannur</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vedaraplavu</name>
@@ -2616,7 +2616,7 @@
     <suboffice>Charumoodu</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Veeyapuram</name>
@@ -2625,7 +2625,7 @@
     <suboffice>Haripad</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Karthikappally Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Veliyanadu North</name>
@@ -2634,13 +2634,13 @@
     <suboffice>Veliyanadu</suboffice>
     <headoffice>Tiruvalla</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Veliyanadu</name>
     <pinCode>689590</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Tiruvalla</headoffice>
     <location>Kuttanadu Taluk of Alappuzha District</location>
     <telephone>0477-2753235</telephone>
@@ -2652,7 +2652,7 @@
     <suboffice>Veliyanadu</suboffice>
     <headoffice>Tiruvalla</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vembanad Kayal</name>
@@ -2661,13 +2661,13 @@
     <suboffice>Avalukkunnu</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Ambalapuzha Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Venmony</name>
     <pinCode>689509</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Mavelikara</headoffice>
     <location>Chengannur Taluk of Alappuzha District</location>
     <telephone>0479-2352231</telephone>
@@ -2679,7 +2679,7 @@
     <suboffice>Kadakkarapally</suboffice>
     <headoffice>Cherthala</headoffice>
     <location>Cherthala Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vetticode</name>
@@ -2688,7 +2688,7 @@
     <suboffice>Pallickal</suboffice>
     <headoffice>Kayangulam</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vettiyar</name>
@@ -2697,7 +2697,7 @@
     <suboffice>Mankamkuzhy</suboffice>
     <headoffice>Mavelikara</headoffice>
     <location>Mavelikkara Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vezhapra</name>
@@ -2706,7 +2706,7 @@
     <suboffice>Ramankary</suboffice>
     <headoffice>Tiruvalla</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vysombhagom</name>
@@ -2715,6 +2715,6 @@
     <suboffice>Alappuzha Medical College</suboffice>
     <headoffice>Alappuzha</headoffice>
     <location>Kuttanad Taluk of Alappuzha District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
 </offices>

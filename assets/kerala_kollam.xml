@@ -6,13 +6,13 @@
     <suboffice>Piravanthur</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Adichanallur</name>
     <pinCode>691573</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Adichanallur Taluk of Kollam District</location>
     <telephone>0474-2593379</telephone>
@@ -24,7 +24,7 @@
     <suboffice>Karamcode</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Akkal</name>
@@ -33,7 +33,7 @@
     <suboffice>Karingannur</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Alayamon</name>
@@ -42,13 +42,13 @@
     <suboffice>Anchal</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Alumkadavu</name>
     <pinCode>690573</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
     <telephone>0476-2632180</telephone>
@@ -60,7 +60,7 @@
     <suboffice>Mukathala</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Alumpeedika</name>
@@ -69,7 +69,7 @@
     <suboffice>Prayar</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Ambalakkara</name>
@@ -78,7 +78,7 @@
     <suboffice>Valakom</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Ambalathinnirappu</name>
@@ -87,7 +87,7 @@
     <suboffice>Kunnicode</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Ambalathumbhagom</name>
@@ -96,7 +96,7 @@
     <suboffice>Poruvazhy</suboffice>
     <headoffice>Adur( Kla)</headoffice>
     <location>Kunnathur Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Ambalathumkala</name>
@@ -105,7 +105,7 @@
     <suboffice>Ezhukone</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Ambanad</name>
@@ -114,7 +114,7 @@
     <suboffice>Kalthuruthy</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Ambipoika</name>
@@ -123,7 +123,7 @@
     <suboffice>Kundara</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Amrithapuri</name>
@@ -132,7 +132,7 @@
     <suboffice>Clappana</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Anakottur</name>
@@ -141,7 +141,7 @@
     <suboffice>Ezhukone</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Anakulam</name>
@@ -150,7 +150,7 @@
     <suboffice>Channapettah</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Anapettakongal</name>
@@ -159,7 +159,7 @@
     <suboffice>Edamon</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Anayadi</name>
@@ -168,13 +168,13 @@
     <suboffice>Sooranad North</suboffice>
     <headoffice>Adur( Kla)</headoffice>
     <location>Kunnathur Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Anchal</name>
     <pinCode>691306</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
     <telephone>0475-2273230</telephone>
@@ -186,7 +186,7 @@
     <suboffice>Valakom</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Areeplachy</name>
@@ -195,13 +195,13 @@
     <suboffice>Tholicode</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Arinallur</name>
     <pinCode>690538</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
     <telephone>03476-2872064</telephone>
@@ -213,7 +213,7 @@
     <suboffice>Arinallur</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Arkannur</name>
@@ -222,7 +222,7 @@
     <suboffice>Ayur</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Aryankavu</name>
@@ -231,7 +231,7 @@
     <suboffice>Kalthuruthy</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Ashtamudi</name>
@@ -240,13 +240,13 @@
     <suboffice>Kanjavely</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Asramom</name>
     <pinCode>691002</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2749080</telephone>
@@ -255,7 +255,7 @@
     <name>Athinad North</name>
     <pinCode>690542</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
     <telephone>0476-2895941</telephone>
@@ -267,7 +267,7 @@
     <suboffice>Kunnicode</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Avaneeswaram RS</name>
@@ -276,7 +276,7 @@
     <suboffice>Kunnicode</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Ayathil</name>
@@ -285,7 +285,7 @@
     <suboffice>Pattathanam</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Ayilara</name>
@@ -294,7 +294,7 @@
     <suboffice>Eroor (Kollam)</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Ayirakuzhy</name>
@@ -303,7 +303,7 @@
     <suboffice>Chithara</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Ayiranallur</name>
@@ -312,13 +312,13 @@
     <suboffice>Edamon</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Ayur</name>
     <pinCode>691533</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
     <telephone>0475-2294060</telephone>
@@ -330,7 +330,7 @@
     <suboffice>Prayar</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Bharatheepuram</name>
@@ -339,13 +339,13 @@
     <suboffice>Eroor (Kollam)</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Bhoothakulam</name>
     <pinCode>691302</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2512320</telephone>
@@ -354,7 +354,7 @@
     <name>Chadayamangalam</name>
     <pinCode>691534</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
     <telephone>0474-2475440</telephone>
@@ -366,13 +366,13 @@
     <suboffice>Kunnicode</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Chandanathope</name>
     <pinCode>691014</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2711443</telephone>
@@ -381,7 +381,7 @@
     <name>Channapettah</name>
     <pinCode>691311</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
     <telephone>0475-2304230</telephone>
@@ -393,7 +393,7 @@
     <suboffice>Kadakkal</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Chariparabu</name>
@@ -402,7 +402,7 @@
     <suboffice>Kadakkal</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Chathakulam</name>
@@ -411,13 +411,13 @@
     <suboffice>Poruvazhy</suboffice>
     <headoffice>Adur( Kla)</headoffice>
     <location>Kunnathur Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Chathannur</name>
     <pinCode>691572</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kolllam Taluk of Kollam District</location>
     <telephone>0474-2593230</telephone>
@@ -426,7 +426,7 @@
     <name>Chavara Bridge</name>
     <pinCode>691583</pinCode>
     <status>Sub Office(Non Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagapally Taluk of Kollam District</location>
     <telephone>0476-2688574</telephone>
@@ -435,7 +435,7 @@
     <name>Chavara</name>
     <pinCode>691583</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
     <telephone>0476-2684261</telephone>
@@ -444,7 +444,7 @@
     <name>Chavara South</name>
     <pinCode>691584</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagapally Taluk of Kollam District</location>
     <telephone>0476-2884478</telephone>
@@ -456,7 +456,7 @@
     <suboffice>Piravanthur</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Chemmakkad</name>
@@ -465,13 +465,13 @@
     <suboffice>Perinad</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Chengamanad Jn</name>
     <pinCode>691557</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakara Taluk of Kollam District</location>
     <telephone>0474-2047700</telephone>
@@ -483,13 +483,13 @@
     <suboffice>Oyur</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Cheppara</name>
     <pinCode>691520</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
     <telephone>0474-2016850</telephone>
@@ -501,7 +501,7 @@
     <suboffice>Karingannur</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Cheriyazheekal</name>
@@ -510,7 +510,7 @@
     <suboffice>Alumkadavu</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Cherukulam</name>
@@ -519,7 +519,7 @@
     <suboffice>Anchal</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Cherupoika</name>
@@ -528,7 +528,7 @@
     <suboffice>Kaithacode</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Cheruvakkal</name>
@@ -537,7 +537,7 @@
     <suboffice>Ayur</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Chirakkara</name>
@@ -546,7 +546,7 @@
     <suboffice>Kalluvathukkal</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Chirakkarathazham</name>
@@ -555,13 +555,13 @@
     <suboffice>Kalluvathukkal</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Chithara</name>
     <pinCode>691559</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakara Taluk of Kollam District</location>
     <telephone>0474-2429400</telephone>
@@ -573,13 +573,13 @@
     <suboffice>Kulathupuzha</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Clappana</name>
     <pinCode>690525</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagapally Taluk of Kollam District</location>
     <telephone>0476-2016850</telephone>
@@ -591,7 +591,7 @@
     <suboffice>Kulathupuzha</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Decent Jn</name>
@@ -600,13 +600,13 @@
     <suboffice>Mukathala</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>East Kallada</name>
     <pinCode>691502</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2585230</telephone>
@@ -618,7 +618,7 @@
     <suboffice>Kadambanad</suboffice>
     <headoffice>Adur( Kla)</headoffice>
     <location>Kunnathur Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Edakulangara</name>
@@ -627,13 +627,13 @@
     <suboffice>Thazhava</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Edamon</name>
     <pinCode>691307</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
     <telephone>0475-2335530</telephone>
@@ -645,7 +645,7 @@
     <suboffice>Anchal</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Edanad</name>
@@ -654,7 +654,7 @@
     <suboffice>Karamcode</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Edapalayam</name>
@@ -663,7 +663,7 @@
     <suboffice>Kalthuruthy</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Edappallycotta</name>
@@ -672,7 +672,7 @@
     <suboffice>Chavara</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Edathara</name>
@@ -681,7 +681,7 @@
     <suboffice>Kadakkal</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Edayam</name>
@@ -690,7 +690,7 @@
     <suboffice>Valakom</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Elamadu</name>
@@ -708,7 +708,7 @@
     <suboffice>Chadayamangalam</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Elicode</name>
@@ -717,7 +717,7 @@
     <suboffice>Elampal</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Elikattoor</name>
@@ -726,13 +726,13 @@
     <suboffice>Piravanthur</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Eravipuram</name>
     <pinCode>691011</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2728025</telephone>
@@ -741,7 +741,7 @@
     <name>Eroor (Kollam)</name>
     <pinCode>691312</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
     <telephone>0475-2273280</telephone>
@@ -753,7 +753,7 @@
     <suboffice>Pulamon</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Ezhiyam Vattathra Mala Mukku</name>
@@ -762,13 +762,13 @@
     <suboffice>Anchal</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Ezhukone</name>
     <pinCode>691505</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakara Taluk of Kollam District</location>
     <telephone>0474-2484411</telephone>
@@ -780,7 +780,7 @@
     <suboffice>Ezhukone</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Inchavila</name>
@@ -789,7 +789,7 @@
     <suboffice>Perinad</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Iverkala East</name>
@@ -798,13 +798,13 @@
     <suboffice>Puthur-kollam</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kadakkal</name>
     <pinCode>691536</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakara Taluk of Kollam District</location>
     <telephone>0474-2422034</telephone>
@@ -816,7 +816,7 @@
     <suboffice>Ezhukone</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kadamancode</name>
@@ -825,13 +825,13 @@
     <suboffice>Eroor (Kollam)</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kadappakada</name>
     <pinCode>691008</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2749126</telephone>
@@ -843,13 +843,13 @@
     <suboffice>Thazhava</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kaithacode</name>
     <pinCode>691543</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
     <telephone>0474-2422034</telephone>
@@ -861,7 +861,7 @@
     <suboffice>Nilamel</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kakkakunnu</name>
@@ -870,7 +870,7 @@
     <suboffice>Sooranad</suboffice>
     <headoffice>Adur( Kla)</headoffice>
     <location>Kunnathur Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kakkode</name>
@@ -879,7 +879,7 @@
     <suboffice>Valacode</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kakkotumoola</name>
@@ -888,7 +888,7 @@
     <suboffice>Mayyanad</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kalakode</name>
@@ -897,13 +897,13 @@
     <suboffice>Bhoothakulam</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kalayapuram</name>
     <pinCode>691560</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakara Taluk of Kollam District</location>
     <telephone>0474-2617840</telephone>
@@ -915,7 +915,7 @@
     <suboffice>Thenmala</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kallelibhagom</name>
@@ -924,7 +924,7 @@
     <suboffice>Mynagappally</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagapally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kallumthazham</name>
@@ -933,13 +933,13 @@
     <suboffice>Kilikollur</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kalluvathukkal</name>
     <pinCode>691578</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2572050</telephone>
@@ -948,7 +948,7 @@
     <name>Kalthuruthy</name>
     <pinCode>691309</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
     <telephone>0475-2344737</telephone>
@@ -960,13 +960,13 @@
     <suboffice>Piravanthur</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kanjavely</name>
     <pinCode>691602</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2703213</telephone>
@@ -978,13 +978,13 @@
     <suboffice>Kundara</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kannanallur</name>
     <pinCode>691576</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2501060</telephone>
@@ -996,13 +996,13 @@
     <suboffice>Sasthamcottah</suboffice>
     <headoffice>Adur( Kla)</headoffice>
     <location>Kunnathur Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Karamcode</name>
     <pinCode>691579</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2593389</telephone>
@@ -1014,7 +1014,7 @@
     <suboffice>Tholicode</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Karavoor</name>
@@ -1023,7 +1023,7 @@
     <suboffice>Piravanthur</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Karikkom</name>
@@ -1032,7 +1032,7 @@
     <suboffice>Pulamon</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Karimpinpuzha</name>
@@ -1041,7 +1041,7 @@
     <suboffice>Puthur-kollam</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Karimthottuva</name>
@@ -1050,13 +1050,13 @@
     <suboffice>Kunnathur East</suboffice>
     <headoffice>Adur( Kla)</headoffice>
     <location>Kunnathur Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Karingannur</name>
     <pinCode>691516</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
     <telephone>0474-2467600</telephone>
@@ -1068,7 +1068,7 @@
     <suboffice>Punalur Paper Mills</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Karukone</name>
@@ -1077,7 +1077,7 @@
     <suboffice>Anchal</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Karunagappally North</name>
@@ -1086,14 +1086,14 @@
     <suboffice>Kulasekharapuram</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Karunagappaly</name>
     <pinCode>690518</pinCode>
     <status>Head Office(Delivery)</status>
-    <suboffice></suboffice>
-    <headoffice></headoffice>
+    <suboffice />
+    <headoffice />
     <location>Karunagappaly Taluk of Kollam District</location>
     <telephone>0476-2630406</telephone>
   </office>
@@ -1104,7 +1104,7 @@
     <suboffice>Ezhukone</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kattadi Jn</name>
@@ -1113,7 +1113,7 @@
     <suboffice>Pooyapally</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kattilkadavu</name>
@@ -1122,13 +1122,13 @@
     <suboffice>Athinad North</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kavanad</name>
     <pinCode>691003</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2770809</telephone>
@@ -1137,7 +1137,7 @@
     <name>Kilikollur East</name>
     <pinCode>691004</pinCode>
     <status>Sub Office(Non Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2711669</telephone>
@@ -1146,7 +1146,7 @@
     <name>Kilikollur</name>
     <pinCode>691004</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2731115</telephone>
@@ -1158,7 +1158,7 @@
     <suboffice>Parippally</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kizhakketheruvu</name>
@@ -1167,7 +1167,7 @@
     <suboffice>Pulamon</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Koduvila</name>
@@ -1176,13 +1176,13 @@
     <suboffice>East Kallada</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Koivila</name>
     <pinCode>691590</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
     <telephone>0476-2872330</telephone>
@@ -1194,7 +1194,7 @@
     <suboffice>Vettikavala</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kollaka</name>
@@ -1203,13 +1203,13 @@
     <suboffice>Vadakkumthala East</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kollam Bazar</name>
     <pinCode>691001</pinCode>
     <status>Sub Office(Non Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2750241</telephone>
@@ -1218,7 +1218,7 @@
     <name>Kollam Cantonment</name>
     <pinCode>691001</pinCode>
     <status>Sub Office(Non Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2748995</telephone>
@@ -1227,7 +1227,7 @@
     <name>Kollam Civil Station</name>
     <pinCode>691013</pinCode>
     <status>Sub Office(Non Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2792908</telephone>
@@ -1236,7 +1236,7 @@
     <name>Kollam Cutchery</name>
     <pinCode>691013</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2745257</telephone>
@@ -1245,8 +1245,8 @@
     <name>Kollam</name>
     <pinCode>691001</pinCode>
     <status>Head Office(Delivery)</status>
-    <suboffice></suboffice>
-    <headoffice></headoffice>
+    <suboffice />
+    <headoffice />
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2751918</telephone>
   </office>
@@ -1254,7 +1254,7 @@
     <name>Kollam Taluk Cutchery</name>
     <pinCode>691001</pinCode>
     <status>Sub Office(Non Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2751023</telephone>
@@ -1266,7 +1266,7 @@
     <suboffice>Madathara</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Koottikada</name>
@@ -1275,7 +1275,7 @@
     <suboffice>Thattamala</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Koovakkad</name>
@@ -1284,14 +1284,14 @@
     <suboffice>Kulathupuzha</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kottarakara</name>
     <pinCode>691506</pinCode>
     <status>Head Office(Delivery)</status>
-    <suboffice></suboffice>
-    <headoffice></headoffice>
+    <suboffice />
+    <headoffice />
     <location>Kottarakara Taluk of Kollam District</location>
     <telephone>0474-2454737</telephone>
   </office>
@@ -1302,7 +1302,7 @@
     <suboffice>Pallickal-kottarakara</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kottavattom</name>
@@ -1311,13 +1311,13 @@
     <suboffice>Elampal</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kottiyam</name>
     <pinCode>691571</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2530040</telephone>
@@ -1329,7 +1329,7 @@
     <suboffice>Anchal</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kudavattur</name>
@@ -1338,13 +1338,13 @@
     <suboffice>Odanavattom</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kulakada</name>
     <pinCode>691521</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakara Taluk of Kollam District</location>
     <telephone>0474-2615030</telephone>
@@ -1356,7 +1356,7 @@
     <suboffice>Kulakada</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kulakkadathazham</name>
@@ -1365,13 +1365,13 @@
     <suboffice>Kulakada</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kulasekharapuram</name>
     <pinCode>690544</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagapally Taluk of Kollam District</location>
     <telephone>0476-2642433</telephone>
@@ -1380,7 +1380,7 @@
     <name>Kulathupuzha</name>
     <pinCode>691310</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
     <telephone>0475-2317530</telephone>
@@ -1392,7 +1392,7 @@
     <suboffice>Piravanthur</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kumbalam</name>
@@ -1401,7 +1401,7 @@
     <suboffice>Mulavana</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kummallur</name>
@@ -1410,7 +1410,7 @@
     <suboffice>Adichanallur</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kummil</name>
@@ -1419,13 +1419,13 @@
     <suboffice>Kadakkal</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kundara East</name>
     <pinCode>691501</pinCode>
     <status>Sub Office(Non Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2520852</telephone>
@@ -1434,7 +1434,7 @@
     <name>Kundara</name>
     <pinCode>691501</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2520824</telephone>
@@ -1446,13 +1446,13 @@
     <suboffice>Pathanapuram</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kunnathur East</name>
     <pinCode>690540</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Adur( Kla)</headoffice>
     <location>Kunnathur Taluk of Kollam District</location>
     <telephone>0476-2856130</telephone>
@@ -1461,7 +1461,7 @@
     <name>Kunnicode</name>
     <pinCode>691508</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
     <telephone>0475-2322030</telephone>
@@ -1473,7 +1473,7 @@
     <suboffice>Chengamanad Jn</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kureepuzha</name>
@@ -1482,7 +1482,7 @@
     <suboffice>Perinad</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kuriyode</name>
@@ -1491,7 +1491,7 @@
     <suboffice>Chadayamangalam</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kuthirapanthy</name>
@@ -1500,7 +1500,7 @@
     <suboffice>Thazhava</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kuttikadu</name>
@@ -1509,13 +1509,13 @@
     <suboffice>Kadakkal</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Kuzhimathicaud</name>
     <pinCode>691509</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakara Taluk of Kollam District</location>
     <telephone>0474-2520867</telephone>
@@ -1527,13 +1527,13 @@
     <suboffice>Athinad North</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Madathara</name>
     <pinCode>691541</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
     <telephone>0474-2442030</telephone>
@@ -1545,7 +1545,7 @@
     <suboffice>Ochira</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Mailode</name>
@@ -1554,7 +1554,7 @@
     <suboffice>Pooyapally</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Mailom</name>
@@ -1563,7 +1563,7 @@
     <suboffice>Kalayapuram</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Maloor</name>
@@ -1572,7 +1572,7 @@
     <suboffice>Pathanapuram</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Maloor College</name>
@@ -1581,7 +1581,7 @@
     <suboffice>Pathanapuram</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Mampazhathara</name>
@@ -1590,7 +1590,7 @@
     <suboffice>Edamon</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Manalil</name>
@@ -1599,7 +1599,7 @@
     <suboffice>Eroor (Kollam)</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Manampuzha</name>
@@ -1608,13 +1608,13 @@
     <suboffice>Kadambanad South</suboffice>
     <headoffice>Adur( Kla)</headoffice>
     <location>Kunnathur Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Manappally North</name>
     <pinCode>690574</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
     <telephone>0476-2862340</telephone>
@@ -1623,7 +1623,7 @@
     <name>Manchallur Pathanapuram</name>
     <pinCode>689695</pinCode>
     <status>Sub Office(Non Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
     <telephone>0475-2352355</telephone>
@@ -1635,13 +1635,13 @@
     <suboffice>Chithara</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Mangad</name>
     <pinCode>691015</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2710210</telephone>
@@ -1653,7 +1653,7 @@
     <suboffice>Tholicode</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Manjakala</name>
@@ -1662,7 +1662,7 @@
     <suboffice>Kunnicode</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Manjappara</name>
@@ -1671,7 +1671,7 @@
     <suboffice>Ayur</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Mannur-anchal</name>
@@ -1680,7 +1680,7 @@
     <suboffice>Channapettah</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Maranad</name>
@@ -1689,7 +1689,7 @@
     <suboffice>Ezhukone</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Marthandankara</name>
@@ -1698,7 +1698,7 @@
     <suboffice>Eroor (Kollam)</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Maruthadi</name>
@@ -1707,7 +1707,7 @@
     <suboffice>Kavanad</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Mathilil</name>
@@ -1716,7 +1716,7 @@
     <suboffice>Perinad</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Mathira</name>
@@ -1725,7 +1725,7 @@
     <suboffice>Kadakkal</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Mathra</name>
@@ -1734,7 +1734,7 @@
     <suboffice>Tholicode</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Mavadi</name>
@@ -1743,13 +1743,13 @@
     <suboffice>Puthur-kollam</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Mayyanad</name>
     <pinCode>691303</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2555230</telephone>
@@ -1761,7 +1761,7 @@
     <suboffice>Oyur</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Meeyannur</name>
@@ -1770,7 +1770,7 @@
     <suboffice>Pooyapally</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Melila</name>
@@ -1779,13 +1779,13 @@
     <suboffice>Kunnicode</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Mukathala</name>
     <pinCode>691577</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2501080</telephone>
@@ -1797,13 +1797,13 @@
     <suboffice>Mulavana</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Mukundapuram</name>
     <pinCode>691585</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
     <telephone>0476-2688576</telephone>
@@ -1812,7 +1812,7 @@
     <name>Mulavana</name>
     <pinCode>691503</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2581178</telephone>
@@ -1824,7 +1824,7 @@
     <suboffice>Vadakkevila</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Munroethuruthu</name>
@@ -1833,7 +1833,7 @@
     <suboffice>East Kallada</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Muthupilakkad</name>
@@ -1842,7 +1842,7 @@
     <suboffice>Poruvazhy</suboffice>
     <headoffice>Adur( Kla)</headoffice>
     <location>Kunnathur Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Muttara</name>
@@ -1851,7 +1851,7 @@
     <suboffice>Odanavattom</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Mylakkadu</name>
@@ -1860,7 +1860,7 @@
     <suboffice>Kottiyam</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Mynagappally North</name>
@@ -1869,13 +1869,13 @@
     <suboffice>Mynagappally</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Kunnathur Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Mynagappally</name>
     <pinCode>690519</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
     <telephone>0476-2847730</telephone>
@@ -1884,7 +1884,7 @@
     <name>Nallila</name>
     <pinCode>691515</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2562040</telephone>
@@ -1896,7 +1896,7 @@
     <suboffice>Elampal</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Nediyara</name>
@@ -1905,7 +1905,7 @@
     <suboffice>Anchal</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Nedumoncavu</name>
@@ -1914,7 +1914,7 @@
     <suboffice>Kuzhimathicaud</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Nedumpaikulam</name>
@@ -1923,7 +1923,7 @@
     <suboffice>Kundara East</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Nedumpana</name>
@@ -1932,13 +1932,13 @@
     <suboffice>Kannanallur</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Nedungolam</name>
     <pinCode>691334</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2512200</telephone>
@@ -1950,13 +1950,13 @@
     <suboffice>Ezhukone</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Neendakara</name>
     <pinCode>691582</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagapally Taluk of Kollam District</location>
     <telephone>0476-2683544</telephone>
@@ -1968,7 +1968,7 @@
     <suboffice>Bhoothakulam</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Nellikunnam</name>
@@ -1977,7 +1977,7 @@
     <suboffice>Cheppara</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Nellimukku</name>
@@ -1986,16 +1986,16 @@
     <suboffice>Kuzhimathicaud</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Nellipally</name>
     <pinCode>691305</pinCode>
     <status>Branch Office(Delivery) directly a/w Head Office</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Nettayam</name>
@@ -2004,13 +2004,13 @@
     <suboffice>Pooyapally</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Nilamel</name>
     <pinCode>691535</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakara Taluk of Kollam District</location>
     <telephone>0474-2433230</telephone>
@@ -2019,7 +2019,7 @@
     <name>Ochira</name>
     <pinCode>690526</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagapally Taluk of Kollam District</location>
     <telephone>0476-2690222</telephone>
@@ -2028,7 +2028,7 @@
     <name>Odanavattom</name>
     <pinCode>691512</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakara Taluk of Kollam District</location>
     <telephone>0474-2462030</telephone>
@@ -2040,13 +2040,13 @@
     <suboffice>Thenmala</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Oyur</name>
     <pinCode>691510</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
     <telephone>0474-2466533</telephone>
@@ -2058,7 +2058,7 @@
     <suboffice>Ayur</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Padappakara</name>
@@ -2067,7 +2067,7 @@
     <suboffice>Mulavana</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Padinjattakkara</name>
@@ -2076,13 +2076,13 @@
     <suboffice>Thevalakkara</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pallickal-kottarakara</name>
     <pinCode>691566</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
     <telephone>0474-2454737</telephone>
@@ -2094,7 +2094,7 @@
     <suboffice>Kannanallur</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pallisserickal</name>
@@ -2103,13 +2103,13 @@
     <suboffice>Sasthamcottah</suboffice>
     <headoffice>Adur( Kla)</headoffice>
     <location>Kunnathur Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pallithottam</name>
     <pinCode>691006</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2751187</telephone>
@@ -2121,7 +2121,7 @@
     <suboffice>Valakom</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Panavely</name>
@@ -2130,7 +2130,7 @@
     <suboffice>Valakom</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Panayam</name>
@@ -2139,7 +2139,7 @@
     <suboffice>Perinad</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Panmana</name>
@@ -2148,7 +2148,7 @@
     <suboffice>Chavara</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagapally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Panmana Puthen Chantha</name>
@@ -2157,7 +2157,7 @@
     <suboffice>Chavara</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Panthaplavu</name>
@@ -2166,7 +2166,7 @@
     <suboffice>Pattazhy</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Parakadavu</name>
@@ -2175,13 +2175,13 @@
     <suboffice>Sooranad North</suboffice>
     <headoffice>Adur( Kla)</headoffice>
     <location>Kunnathur Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Paravur (Kollam)</name>
     <pinCode>691301</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2512240</telephone>
@@ -2190,7 +2190,7 @@
     <name>Parippally</name>
     <pinCode>691574</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2572044</telephone>
@@ -2199,7 +2199,7 @@
     <name>Pathanapuram</name>
     <pinCode>689695</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
     <telephone>0475-2352330</telephone>
@@ -2211,7 +2211,7 @@
     <suboffice>Sooranad</suboffice>
     <headoffice>Adur( Kla)</headoffice>
     <location>Kunnathur Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pathirickal</name>
@@ -2220,7 +2220,7 @@
     <suboffice>Pathanapuram</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pattamthuruth</name>
@@ -2229,13 +2229,13 @@
     <suboffice>Perinad</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pattathanam</name>
     <pinCode>691021</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2749961</telephone>
@@ -2244,7 +2244,7 @@
     <name>Pattazhy</name>
     <pinCode>691522</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
     <telephone>0475-2399430</telephone>
@@ -2256,7 +2256,7 @@
     <suboffice>Puthur-kollam</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pavumba</name>
@@ -2265,13 +2265,13 @@
     <suboffice>Manappally North</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagapally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Perinad</name>
     <pinCode>691601</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2702644</telephone>
@@ -2283,7 +2283,7 @@
     <suboffice>Valakom</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Perumkulam</name>
@@ -2292,7 +2292,7 @@
     <suboffice>Pallickal-kottarakara</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Perumon</name>
@@ -2301,13 +2301,13 @@
     <suboffice>Perinad</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Perumpuzha</name>
     <pinCode>691504</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2520865</telephone>
@@ -2319,7 +2319,7 @@
     <suboffice>Arinallur</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Peruvelikara</name>
@@ -2328,7 +2328,7 @@
     <suboffice>West Kallada</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pidavoor</name>
@@ -2337,13 +2337,13 @@
     <suboffice>Pathanapuram</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Piravanthur</name>
     <pinCode>689696</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
     <telephone>0475-2371079</telephone>
@@ -2355,7 +2355,7 @@
     <suboffice>Valacode</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Plappally</name>
@@ -2364,7 +2364,7 @@
     <suboffice>Pulamon</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Podiyattuvila</name>
@@ -2373,7 +2373,7 @@
     <suboffice>Valakom</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Polachira</name>
@@ -2382,7 +2382,7 @@
     <suboffice>Nedungolam</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Ponmana</name>
@@ -2391,7 +2391,7 @@
     <suboffice>Chavara</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Poonkulanji</name>
@@ -2400,13 +2400,13 @@
     <suboffice>Pathanapuram</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pooyapally</name>
     <pinCode>691537</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakara Taluk of Kollam District</location>
     <telephone>0474-2462030</telephone>
@@ -2418,13 +2418,13 @@
     <suboffice>Chadayamangalam</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Poruvazhy</name>
     <pinCode>690520</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Adur( Kla)</headoffice>
     <location>Kunnathur Taluk of Kollam District</location>
     <telephone>0476-2830333</telephone>
@@ -2436,13 +2436,13 @@
     <suboffice>Kanjavely</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pulamon</name>
     <pinCode>691531</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakara Taluk of Kollam District</location>
     <telephone>0474-2452680</telephone>
@@ -2454,13 +2454,13 @@
     <suboffice>Kadakkal</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Pullichira</name>
     <pinCode>691304</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2530039</telephone>
@@ -2472,14 +2472,14 @@
     <suboffice>Kadakkal</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Punalur</name>
     <pinCode>691305</pinCode>
     <status>Head Office(Delivery)</status>
-    <suboffice></suboffice>
-    <headoffice></headoffice>
+    <suboffice />
+    <headoffice />
     <location>Pathanapuram Taluk of Kollam District</location>
     <telephone>0475-2222494</telephone>
   </office>
@@ -2487,7 +2487,7 @@
     <name>Punalur Paper Mills</name>
     <pinCode>691332</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
     <telephone>0475-2224530</telephone>
@@ -2499,7 +2499,7 @@
     <suboffice>Piravanthur</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Puthenambalam</name>
@@ -2508,7 +2508,7 @@
     <suboffice>Kadambanad South</suboffice>
     <headoffice>Adur( Kla)</headoffice>
     <location>Kunnathur Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Puthenkulam</name>
@@ -2517,7 +2517,7 @@
     <suboffice>Bhoothakulam</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Puthenthura</name>
@@ -2526,7 +2526,7 @@
     <suboffice>Neendakara</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Puthukkadukara</name>
@@ -2535,13 +2535,13 @@
     <suboffice>Mukundapuram</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Puthur-kollam</name>
     <pinCode>691507</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakara Taluk of Kollam District</location>
     <telephone>0474-2415530</telephone>
@@ -2553,13 +2553,13 @@
     <suboffice>Kalthuruthy</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>S R P Market</name>
     <pinCode>690539</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
     <telephone>074-2664215</telephone>
@@ -2571,7 +2571,7 @@
     <suboffice>Alumkadavu</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Sadanandapuram</name>
@@ -2580,13 +2580,13 @@
     <suboffice>Pulamon</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Sakthikulangara</name>
     <pinCode>691581</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2771148</telephone>
@@ -2598,13 +2598,13 @@
     <suboffice>Kulathupuzha</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Sasthamcottah</name>
     <pinCode>690521</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Adur( Kla)</headoffice>
     <location>Kunnathur Taluk of Kollam District</location>
     <telephone>0476-2830230</telephone>
@@ -2613,7 +2613,7 @@
     <name>Sooranad North</name>
     <pinCode>690561</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Adur( Kla)</headoffice>
     <location>Kunnathur Taluk of Kollam District</location>
     <telephone>0476-2851340</telephone>
@@ -2622,7 +2622,7 @@
     <name>Sooranad</name>
     <pinCode>690522</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Adur( Kla)</headoffice>
     <location>Kunnathur Taluk of Kollam District</location>
     <telephone>0476-2851330</telephone>
@@ -2631,7 +2631,7 @@
     <name>T K M College</name>
     <pinCode>691005</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2710028</telephone>
@@ -2643,7 +2643,7 @@
     <suboffice>Anchal</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thalachira</name>
@@ -2652,7 +2652,7 @@
     <suboffice>Vettikavala</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thalavoor</name>
@@ -2661,7 +2661,7 @@
     <suboffice>Kunnicode</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thamarakudy</name>
@@ -2670,13 +2670,13 @@
     <suboffice>Kalayapuram</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thangasserry</name>
     <pinCode>691007</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2796128</telephone>
@@ -2685,7 +2685,7 @@
     <name>Thattamala</name>
     <pinCode>691020</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2728411</telephone>
@@ -2697,7 +2697,7 @@
     <suboffice>T K M College</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thazhathuvadakku</name>
@@ -2706,13 +2706,13 @@
     <suboffice>Enathu</suboffice>
     <headoffice>Adur( Kla)</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thazhava</name>
     <pinCode>690523</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
     <telephone>0476-2664212</telephone>
@@ -2724,13 +2724,13 @@
     <suboffice>Pattazhy</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thekkevila</name>
     <pinCode>691016</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2747891</telephone>
@@ -2739,7 +2739,7 @@
     <name>Thekkumbhagom</name>
     <pinCode>691319</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2512250</telephone>
@@ -2748,7 +2748,7 @@
     <name>Thenmala</name>
     <pinCode>691308</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
     <telephone>0475-2344738</telephone>
@@ -2757,7 +2757,7 @@
     <name>Thevalakkara</name>
     <pinCode>690524</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
     <telephone>0476-2872030</telephone>
@@ -2769,13 +2769,13 @@
     <suboffice>Puthur-kollam</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thevally</name>
     <pinCode>691009</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2794533</telephone>
@@ -2787,7 +2787,7 @@
     <suboffice>Ayur</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thingalkarikom</name>
@@ -2796,13 +2796,13 @@
     <suboffice>Kulathupuzha</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thirumullavaram</name>
     <pinCode>691012</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2794327</telephone>
@@ -2814,7 +2814,7 @@
     <suboffice>Thazhava</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thodiyur North</name>
@@ -2823,13 +2823,13 @@
     <suboffice>Thazhava</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Tholicode</name>
     <pinCode>691333</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
     <telephone>0475-2231150</telephone>
@@ -2841,7 +2841,7 @@
     <suboffice>Mynagappally</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thrikkannamangal</name>
@@ -2850,7 +2850,7 @@
     <suboffice>Pulamon</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thrioppilazhikom</name>
@@ -2859,7 +2859,7 @@
     <suboffice>Kuzhimathicaud</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thudayannur</name>
@@ -2868,7 +2868,7 @@
     <suboffice>Kadakkal</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Thuruthikara</name>
@@ -2877,13 +2877,13 @@
     <suboffice>Kunnathur East</suboffice>
     <headoffice>Adur( Kla)</headoffice>
     <location>Kunnathur Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Uliyakovil</name>
     <pinCode>691019</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2732012</telephone>
@@ -2895,13 +2895,13 @@
     <suboffice>Karamcode</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Umayanallur I E</name>
     <pinCode>691589</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2531844</telephone>
@@ -2913,7 +2913,7 @@
     <suboffice>Cheppara</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Urukunnu</name>
@@ -2922,13 +2922,13 @@
     <suboffice>Edamon</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vadakkevila</name>
     <pinCode>691010</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2729974</telephone>
@@ -2940,13 +2940,13 @@
     <suboffice>Chavara South</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vadakkumthala East</name>
     <pinCode>690536</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
     <telephone>0476-2672737</telephone>
@@ -2958,7 +2958,7 @@
     <suboffice>Anchal</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vakkanad</name>
@@ -2967,13 +2967,13 @@
     <suboffice>Kuzhimathicaud</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Valacode</name>
     <pinCode>691331</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
     <telephone>0475-2224521</telephone>
@@ -2982,7 +2982,7 @@
     <name>Valakom</name>
     <pinCode>691532</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakara Taluk of Kollam District</location>
     <telephone>0474-2470030</telephone>
@@ -2994,7 +2994,7 @@
     <suboffice>Eravipuram</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Valavupacha</name>
@@ -3003,7 +3003,7 @@
     <suboffice>Chithara</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Valiyode</name>
@@ -3012,7 +3012,7 @@
     <suboffice>Cheppara</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Varavila</name>
@@ -3021,7 +3021,7 @@
     <suboffice>Vavvakkavu</suboffice>
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vattathamara</name>
@@ -3030,13 +3030,13 @@
     <suboffice>Kadakkal</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vavvakkavu</name>
     <pinCode>690528</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Karunagappaly</headoffice>
     <location>Karunagappally Taluk of Kollam District</location>
     <telephone>0476-2690262</telephone>
@@ -3048,7 +3048,7 @@
     <suboffice>Valakom</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vayala-anchal</name>
@@ -3057,7 +3057,7 @@
     <suboffice>Anchal</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vayyanam</name>
@@ -3066,7 +3066,7 @@
     <suboffice>Ayur</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Velamannoor</name>
@@ -3075,7 +3075,7 @@
     <suboffice>Parippally</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Velichikala</name>
@@ -3084,13 +3084,13 @@
     <suboffice>Adichanallur</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Veliyam</name>
     <pinCode>691540</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakara Taluk of Kollam District</location>
     <telephone>0474-2462031</telephone>
@@ -3102,13 +3102,13 @@
     <suboffice>Veliyam</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vellimon</name>
     <pinCode>691511</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2547330</telephone>
@@ -3120,7 +3120,7 @@
     <suboffice>Vellimon</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Venchempu</name>
@@ -3129,7 +3129,7 @@
     <suboffice>Tholicode</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vendar</name>
@@ -3138,7 +3138,7 @@
     <suboffice>Puthur-kollam</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Venga</name>
@@ -3147,7 +3147,7 @@
     <suboffice>Sasthamcottah</suboffice>
     <headoffice>Adur( Kla)</headoffice>
     <location>Kunnathur Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vengoor</name>
@@ -3156,7 +3156,7 @@
     <suboffice>Ayur</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Venkolla</name>
@@ -3165,7 +3165,7 @@
     <suboffice>Madathara</suboffice>
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakkara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Venture</name>
@@ -3174,16 +3174,16 @@
     <suboffice>Kalthuruthy</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vettikavala</name>
     <pinCode>691538</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kottarakara</headoffice>
     <location>Kottarakara Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vettithitta</name>
@@ -3192,7 +3192,7 @@
     <suboffice>Piravanthur</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vilakkupara</name>
@@ -3201,16 +3201,16 @@
     <suboffice>Eroor (Kollam)</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vilakkuvattom</name>
     <pinCode>691305</pinCode>
     <status>Branch Office(Delivery) directly a/w Head Office</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vilakudy</name>
@@ -3219,7 +3219,7 @@
     <suboffice>Kunnicode</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vilanthara Jn</name>
@@ -3228,7 +3228,7 @@
     <suboffice>Sasthamcottah</suboffice>
     <headoffice>Adur( Kla)</headoffice>
     <location>Kunnathur Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Vilavoorkonam</name>
@@ -3237,7 +3237,7 @@
     <suboffice>Kalluvathukkal</suboffice>
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>Villumala</name>
@@ -3246,13 +3246,13 @@
     <suboffice>Kulathupuzha</suboffice>
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
-    <telephone></telephone>
+    <telephone />
   </office>
   <office>
     <name>West Kallada</name>
     <pinCode>691500</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice></suboffice>
+    <suboffice />
     <headoffice>Kollam</headoffice>
     <location>Kollam Taluk of Kollam District</location>
     <telephone>0474-2835238</telephone>
