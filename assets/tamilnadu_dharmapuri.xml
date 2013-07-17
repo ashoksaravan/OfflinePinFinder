@@ -1,0 +1,2324 @@
+<offices>
+  <office>
+    <name>A.Gollahalli</name>
+    <pinCode>636704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Annasagaram</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>A.Jettihalli</name>
+    <pinCode>636807</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nallampalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>A.Pallipatti</name>
+    <pinCode>636905</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pappireddipatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>A.Sappanipatti</name>
+    <pinCode>635205</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Periyanahalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Achalvadi</name>
+    <pinCode>636903</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Harur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Adagapadi</name>
+    <pinCode>636803</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Indur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Adikarapatti</name>
+    <pinCode>636905</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pappireddipatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Adiyamankottai</name>
+    <pinCode>636807</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nallampalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Agraharam</name>
+    <pinCode>636903</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Harur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Ajjanahalli</name>
+    <pinCode>636810</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pennagaram</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Akkamanahalli</name>
+    <pinCode>636704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Annasagaram</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Alamelupuram</name>
+    <pinCode>636905</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pappireddipatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Alapuram</name>
+    <pinCode>636904</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Menisi</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Ammanimallapuram</name>
+    <pinCode>636806</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Marandahalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palakkodu Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Andiyur</name>
+    <pinCode>636906</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirtamalai</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Anjehalli</name>
+    <pinCode>636813</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Biliyanur Agraharam</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Annasagaram</name>
+    <pinCode>636704</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone>04342-262253</telephone>
+  </office>
+  <office>
+    <name>Arakasanahalli</name>
+    <pinCode>636811</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perumbalai</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Arasampatti</name>
+    <pinCode>635201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Barur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Krishnagiri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Attornahalli</name>
+    <pinCode>636805</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mallupatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>B Pallipatti</name>
+    <pinCode>635301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bommidi</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Badrahalli</name>
+    <pinCode>636810</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pennagaram</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Bairnaickenpatti</name>
+    <pinCode>636906</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirtamalai</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Bairnatham</name>
+    <pinCode>636905</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pappireddipatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Baisuhalli</name>
+    <pinCode>635205</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Periyanahalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Balajangamanahalli</name>
+    <pinCode>636807</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nallampalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Barur</name>
+    <pinCode>635201</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone>04341-254240</telephone>
+  </office>
+  <office>
+    <name>Batchapet</name>
+    <pinCode>636903</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Harur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Bedrahalli</name>
+    <pinCode>636803</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Indur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Begarahalli</name>
+    <pinCode>636808</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palacode</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Belarahalli</name>
+    <pinCode>636808</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palacode</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palakkodu Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Bendrahalli</name>
+    <pinCode>635201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Barur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Bettamugulalam</name>
+    <pinCode>636806</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Marandahalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Bikkampatti</name>
+    <pinCode>636813</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Biliyanur Agraharam</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Biliyanur Agraharam</name>
+    <pinCode>636813</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone>04342-257238</telephone>
+  </office>
+  <office>
+    <name>Bommahalli</name>
+    <pinCode>635111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karimangalam</suboffice>
+    <headoffice>Krishnagiri</headoffice>
+    <location>Palakkodu Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Bommanur</name>
+    <pinCode>636805</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mallupatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Bommidi</name>
+    <pinCode>635301</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone>04346-244430</telephone>
+  </office>
+  <office>
+    <name>Boodanahalli</name>
+    <pinCode>636804</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Laligam</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Buddireddipatti</name>
+    <pinCode>635302</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone>04346-265331</telephone>
+  </office>
+  <office>
+    <name>Chellampatti</name>
+    <pinCode>636903</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Harur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Chetthalli</name>
+    <pinCode>636809</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Paupparapatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Chikkadornabetta</name>
+    <pinCode>636806</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Marandahalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Chinnampalli</name>
+    <pinCode>636811</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perumbalai</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Chinnankuppam</name>
+    <pinCode>636903</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Harur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Chintalpadi</name>
+    <pinCode>635302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Buddireddipatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>D Thurinjipatti</name>
+    <pinCode>635202</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kambainallore</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Dalavaihalli</name>
+    <pinCode>636803</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Indur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Dandukaranahalli</name>
+    <pinCode>636808</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palacode</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Dasarahalli</name>
+    <pinCode>635305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Morappur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Donnakuttahalli</name>
+    <pinCode>636810</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pennagaram</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Eachambadi</name>
+    <pinCode>636902</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone>04346-257320</telephone>
+  </office>
+  <office>
+    <name>Elagiri</name>
+    <pinCode>636807</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nallampalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Elavadai</name>
+    <pinCode>635305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Morappur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Ellapudayampatti</name>
+    <pinCode>636903</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Harur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Erranahalli</name>
+    <pinCode>636808</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palacode</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Errapayanahalli</name>
+    <pinCode>636813</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Biliyanur Agraharam</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Erupalli</name>
+    <pinCode>636813</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Biliyanur Agraharam</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Esalpatti</name>
+    <pinCode>636807</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nallampalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Gendenahalli</name>
+    <pinCode>636811</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perumbalai</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Devarmukkulam</name>
+    <pinCode>635111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karimangalam</suboffice>
+    <headoffice>Krishnagiri</headoffice>
+    <location>Palakkodu Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Dharmapuri Collectorate</name>
+    <pinCode>636705</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone>04342-230221</telephone>
+  </office>
+  <office>
+    <name>Dharmapuri Fort</name>
+    <pinCode>636701</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Dharmapuri</name>
+    <pinCode>636701</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice></headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone>04342-260143</telephone>
+  </office>
+  <office>
+    <name>Dharmapuri Public Offices</name>
+    <pinCode>636001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Dharmapuri R.S</name>
+    <pinCode>636701</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Dharmapuri South</name>
+    <pinCode>636701</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Dinnabelur</name>
+    <pinCode>636810</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pennagaram</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Doddampatti</name>
+    <pinCode>636903</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Harur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Dokkubothanahalli</name>
+    <pinCode>636807</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nallampalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Gendiganahalli</name>
+    <pinCode>635205</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Periyanahalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palakkodu Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Giddanahalli</name>
+    <pinCode>636809</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Paupparapatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Paupparapatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Gobichettipalayam</name>
+    <pinCode>635305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Morappur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Gobinathampatti</name>
+    <pinCode>635305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Morappur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Gudalur</name>
+    <pinCode>636906</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirtamalai</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Gujjarahalli</name>
+    <pinCode>636806</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Marandahalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Hale Dharmapuri</name>
+    <pinCode>636701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dharmapuri Fort</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Hanumanthapuram</name>
+    <pinCode>636808</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palacode</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Hanumantheertham</name>
+    <pinCode>636902</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Eachambadi</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Harur</name>
+    <pinCode>636903</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone>04346-222022</telephone>
+  </office>
+  <office>
+    <name>Hogenakkal</name>
+    <pinCode>636810</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pennagaram</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Ichambadi</name>
+    <pinCode>635202</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kambainallore</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Ichampatti</name>
+    <pinCode>636807</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nallampalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Indur</name>
+    <pinCode>636803</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone>04342-242430</telephone>
+  </office>
+  <office>
+    <name>Irumathur</name>
+    <pinCode>635201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Barur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Ittiampatti</name>
+    <pinCode>636903</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Harur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Jakkasamudram</name>
+    <pinCode>636805</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mallupatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Jakkupatti</name>
+    <pinCode>635202</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kambainallore</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Jammanahalli</name>
+    <pinCode>636904</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Menisi</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Jertalav</name>
+    <pinCode>636808</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palacode</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Jingalkathirampatti</name>
+    <pinCode>635201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Barur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Jittandahalli</name>
+    <pinCode>636805</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mallupatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>K.Vetrapatti</name>
+    <pinCode>636902</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Eachambadi</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kadagathur</name>
+    <pinCode>636809</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Paupparapatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kadathur</name>
+    <pinCode>635303</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone>04346-265330</telephone>
+  </office>
+  <office>
+    <name>Kalappambadi</name>
+    <pinCode>636811</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perumbalai</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kalasapadi</name>
+    <pinCode>636903</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Harur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kalipettai</name>
+    <pinCode>636905</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pappireddipatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kambainallore</name>
+    <pinCode>635202</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone>04346-267240</telephone>
+  </office>
+  <office>
+    <name>Kammampatti</name>
+    <pinCode>636352</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thoppur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kandagavundanur</name>
+    <pinCode>635301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bommidi</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kandagavundanur</name>
+    <pinCode>635302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Buddireddipatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kandenahalli</name>
+    <pinCode>636806</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Marandahalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kannipatti</name>
+    <pinCode>635205</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Periyanahalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palakkodu Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Karagur</name>
+    <pinCode>635111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karimangalam</suboffice>
+    <headoffice>Krishnagiri</headoffice>
+    <location>Palakkodu Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kathanahalli</name>
+    <pinCode>636808</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palacode</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palakkodu Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kathirinaickenahalli</name>
+    <pinCode>635303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadathur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kathiripatti</name>
+    <pinCode>636906</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirtamalai</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kattampatti</name>
+    <pinCode>636808</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palacode</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Katteri</name>
+    <pinCode>636902</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Eachambadi</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Keeraipatti</name>
+    <pinCode>636903</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Harur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kelavalli</name>
+    <pinCode>635202</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kambainallore</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Keraikodahalli</name>
+    <pinCode>635305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Morappur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kokkarapatti</name>
+    <pinCode>636905</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pappireddipatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kolagampatti</name>
+    <pinCode>636903</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Harur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Komarasamipatti</name>
+    <pinCode>636701</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone>04342-270159</telephone>
+  </office>
+  <office>
+    <name>Kombur</name>
+    <pinCode>636905</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pappireddipatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Konangihalli</name>
+    <pinCode>636813</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Biliyanur Agraharam</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kongarapatti</name>
+    <pinCode>635202</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kambainallore</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kongavembu</name>
+    <pinCode>636902</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Eachambadi</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Koothapadi</name>
+    <pinCode>636810</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pennagaram</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kottapatti</name>
+    <pinCode>636906</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirtamalai</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kottumaranahalli</name>
+    <pinCode>635205</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Periyanahalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kovilur</name>
+    <pinCode>635205</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Periyanahalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palakkodu Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Krishnapuram</name>
+    <pinCode>635202</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kambainallore</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kuppangarai</name>
+    <pinCode>635205</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Periyanahalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palakkodu Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kuppur</name>
+    <pinCode>636704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Annasagaram</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kurubarahalli</name>
+    <pinCode>635302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Buddireddipatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Lakshmapuram</name>
+    <pinCode>636905</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pappireddipatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Laligam</name>
+    <pinCode>636804</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Nallampalli Taluk of Dharmapuri District</location>
+    <telephone>04342-240226</telephone>
+  </office>
+  <office>
+    <name>M Velampatti</name>
+    <pinCode>635305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Morappur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>M.Maravadi</name>
+    <pinCode>636805</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mallupatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Mademangalam</name>
+    <pinCode>636804</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Laligam</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Mahendramangalam</name>
+    <pinCode>636805</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mallupatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Makkanur</name>
+    <pinCode>636803</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Indur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Mallikuttai</name>
+    <pinCode>635205</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Periyanahalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Mallupatti</name>
+    <pinCode>636805</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone>04348-238282</telephone>
+  </office>
+  <office>
+    <name>Mampatti</name>
+    <pinCode>636902</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Eachambadi</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Manchinayakkanahalli</name>
+    <pinCode>636813</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Biliyanur Agraharam</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Mangarai</name>
+    <pinCode>636813</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Biliyanur Agraharam</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Maniyadahalli</name>
+    <pinCode>636807</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nallampalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Maniyambadi</name>
+    <pinCode>635303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadathur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Manjarahalli</name>
+    <pinCode>636810</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pennagaram</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Marandahalli Bazaar</name>
+    <pinCode>636806</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Marandahalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palakkodu Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Marandahalli</name>
+    <pinCode>636806</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone>04348-233331</telephone>
+  </office>
+  <office>
+    <name>Maravadi</name>
+    <pinCode>635205</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Periyanahalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palakkodu Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Maruthipatti</name>
+    <pinCode>635305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Morappur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Mathikonpalayam</name>
+    <pinCode>636701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dharmapuri Fort</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Matlamapatti</name>
+    <pinCode>635205</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Periyanahalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palakkodu Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Menisi</name>
+    <pinCode>636904</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone>04346-255441</telephone>
+  </office>
+  <office>
+    <name>Mittadinnahalli</name>
+    <pinCode>636804</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Laligam</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Mittanoolahalli</name>
+    <pinCode>636704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Annasagaram</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Mobiripatti</name>
+    <pinCode>636902</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Eachambadi</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Modur</name>
+    <pinCode>635205</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Periyanahalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palakkodu Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Molayanur</name>
+    <pinCode>636904</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Menisi</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Moolakadu</name>
+    <pinCode>636352</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thoppur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Morappur</name>
+    <pinCode>635305</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone>04346-263329</telephone>
+  </office>
+  <office>
+    <name>Mottankurichi</name>
+    <pinCode>635302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Buddireddipatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Mukkanahalli</name>
+    <pinCode>635202</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kambainallore</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone>Not Available</telephone>
+  </office>
+  <office>
+    <name>Mullikadu</name>
+    <pinCode>636905</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pappireddipatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Murukkampatti</name>
+    <pinCode>635202</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kambainallore</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Nagamarai</name>
+    <pinCode>636810</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pennagaram</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Nagarkudal</name>
+    <pinCode>636803</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Indur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Nallampalli</name>
+    <pinCode>636807</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Nallampalli Taluk of Dharmapuri District</location>
+    <telephone>04342-244231</telephone>
+  </office>
+  <office>
+    <name>Nallasenahalli</name>
+    <pinCode>636804</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Laligam</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Nammanadahalli</name>
+    <pinCode>636812</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panjapalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Naripalli</name>
+    <pinCode>636906</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirtamalai</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Narthampatti</name>
+    <pinCode>636804</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Laligam</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Navalai</name>
+    <pinCode>635305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Morappur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Nettadahalli</name>
+    <pinCode>636803</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Indur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Nochikuttai</name>
+    <pinCode>636903</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Harur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Noolahalli</name>
+    <pinCode>636813</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Biliyanur Agraharam</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Obilinaickenahalli</name>
+    <pinCode>635303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadathur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Odasahalli</name>
+    <pinCode>635303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadathur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Onnappagoundanahalli</name>
+    <pinCode>636809</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Paupparapatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>P.Agraharam</name>
+    <pinCode>636809</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Paupparapatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>P.Chettihalli</name>
+    <pinCode>636808</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palacode</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Padi</name>
+    <pinCode>636809</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Paupparapatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pagalahalli</name>
+    <pinCode>636807</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nallampalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Palacode</name>
+    <pinCode>636808</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone>04348-222030</telephone>
+  </office>
+  <office>
+    <name>Palavadi</name>
+    <pinCode>636809</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Paupparapatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Palayam</name>
+    <pinCode>636807</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nallampalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Panjapalli</name>
+    <pinCode>636812</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone>04348-237661</telephone>
+  </office>
+  <office>
+    <name>Pappambadi</name>
+    <pinCode>636905</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pappireddipatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pappinaickenpatti</name>
+    <pinCode>636808</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palacode</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pappireddipatti</name>
+    <pinCode>636905</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone>04346-246421</telephone>
+  </office>
+  <office>
+    <name>Parayapatti</name>
+    <pinCode>635305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Morappur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Parayapattipudur</name>
+    <pinCode>636903</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Harur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pattukonampatti</name>
+    <pinCode>636905</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pappireddipatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Paupparapatti</name>
+    <pinCode>636809</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone>04342-245831</telephone>
+  </office>
+  <office>
+    <name>Pennagaram</name>
+    <pinCode>636810</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone>04342-255630</telephone>
+  </office>
+  <office>
+    <name>Pereripudur</name>
+    <pinCode>636903</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Harur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Periyanahalli</name>
+    <pinCode>635205</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone>04348-247240</telephone>
+  </office>
+  <office>
+    <name>Periyapatti</name>
+    <pinCode>636906</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirtamalai</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Perumbalai</name>
+    <pinCode>636811</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone>04342-251453</telephone>
+  </office>
+  <office>
+    <name>Petatampatti</name>
+    <pinCode>636903</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Harur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pikkili</name>
+    <pinCode>636809</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Paupparapatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pilparuthi</name>
+    <pinCode>636808</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palacode</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palakkodu Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Polayampalli</name>
+    <pinCode>635305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Morappur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Poyyapatti</name>
+    <pinCode>636906</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirtamalai</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pudupatti</name>
+    <pinCode>636905</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pappireddipatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pulidikarai</name>
+    <pinCode>635202</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kambainallore</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pulikarai</name>
+    <pinCode>636808</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palacode</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pungunatham</name>
+    <pinCode>636803</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Indur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Rajagollahalli</name>
+    <pinCode>636813</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Biliyanur Agraharam</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Ramagondahalli</name>
+    <pinCode>636810</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pennagaram</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Ramenahalli</name>
+    <pinCode>635302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Buddireddipatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Ranimookanur</name>
+    <pinCode>635303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadathur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Regadahalli</name>
+    <pinCode>635301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bommidi</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Samanur</name>
+    <pinCode>636806</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Marandahalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Samichettipatti</name>
+    <pinCode>636807</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nallampalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sandapatti</name>
+    <pinCode>635305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Morappur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sathiyanathapuram</name>
+    <pinCode>636813</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Biliyanur Agraharam</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Seeriyanahalli</name>
+    <pinCode>636808</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palacode</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Selliampatti</name>
+    <pinCode>636809</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Paupparapatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palakkodu Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Senganur</name>
+    <pinCode>636810</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pennagaram</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Settikarai</name>
+    <pinCode>636704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Annasagaram</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sikkalur</name>
+    <pinCode>636906</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirtamalai</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sillarahalli</name>
+    <pinCode>635303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadathur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sitrapatti</name>
+    <pinCode>635305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Morappur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sitteri</name>
+    <pinCode>636903</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Harur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sittilingi</name>
+    <pinCode>636906</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirtamalai</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sogathur</name>
+    <pinCode>636809</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Paupparapatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Solaikottai</name>
+    <pinCode>636704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Annasagaram</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Somenahalli</name>
+    <pinCode>636803</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Indur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sunchalnatham</name>
+    <pinCode>636810</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pennagaram</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sunnampatti</name>
+    <pinCode>636808</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palacode</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>T.Ganigarahalli</name>
+    <pinCode>636352</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thoppur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Tenkaraikottai</name>
+    <pinCode>636904</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Menisi</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Thalanatham</name>
+    <pinCode>635302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Buddireddipatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Thathampatti</name>
+    <pinCode>635201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Barur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Thippampatti</name>
+    <pinCode>635202</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kambainallore</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Thippireddihalli</name>
+    <pinCode>635301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bommidi</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Thirumalvadi</name>
+    <pinCode>636808</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palacode</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Thokkampatti</name>
+    <pinCode>636705</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dharmapuri Collectorate</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Thoppur</name>
+    <pinCode>636352</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Nallampalli Taluk of Dharmapuri District</location>
+    <telephone>04342-246231</telephone>
+  </office>
+  <office>
+    <name>Thumbalammaepettai</name>
+    <pinCode>636906</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirtamalai</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Thumjepalli</name>
+    <pinCode>636812</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panjapalli</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Thurinjipatti</name>
+    <pinCode>635301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bommidi</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Tirtamalai</name>
+    <pinCode>636906</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone>04346-253321</telephone>
+  </office>
+  <office>
+    <name>Ungaranahalli</name>
+    <pinCode>636704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Annasagaram</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vagurappampatti</name>
+    <pinCode>635202</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kambainallore</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vaguthupatti</name>
+    <pinCode>635302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Buddireddipatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vathalmalai</name>
+    <pinCode>635301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bommidi</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vattuvanahalli</name>
+    <pinCode>636810</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pennagaram</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vedakattumaduvu</name>
+    <pinCode>636906</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirtamalai</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vedarampatti</name>
+    <pinCode>635202</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kambainallore</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Veerappanaickenpatti</name>
+    <pinCode>636906</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirtamalai</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Velanur</name>
+    <pinCode>636906</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirtamalai</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vellalapatti</name>
+    <pinCode>635202</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kambainallore</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Venkatadrihalli</name>
+    <pinCode>635303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadathur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Venkatasamudram</name>
+    <pinCode>636905</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pappireddipatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Venkatenahalli</name>
+    <pinCode>636704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Annasagaram</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vennampatti</name>
+    <pinCode>636705</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Dharmapuri Taluk of Dharmapuri District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Veppalahalli</name>
+    <pinCode>636805</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mallupatti</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pennagaram Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Veppampatti</name>
+    <pinCode>636903</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Harur</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Harur Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Veppilaimuthampatti</name>
+    <pinCode>635301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bommidi</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Pappireddipatti Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Yelangalpatti</name>
+    <pinCode>636808</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palacode</suboffice>
+    <headoffice>Dharmapuri</headoffice>
+    <location>Palacode Taluk of Dharmapuri District</location>
+    <telephone></telephone>
+  </office>
+</offices>

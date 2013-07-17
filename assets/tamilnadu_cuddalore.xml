@@ -1,0 +1,4214 @@
+<offices>
+  <office>
+    <name>A.Kuravankuppam</name>
+    <pinCode>607802</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Neyveli 2</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Virudhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Adari</name>
+    <pinCode>606304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Veppur (SA)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Adinarayananpuram</name>
+    <pinCode>608801</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Alapakkam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Adur Agaram</name>
+    <pinCode>607302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kurinjipadi</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Agara Alambadi</name>
+    <pinCode>608702</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sethiathope</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Agaram</name>
+    <pinCode>608502</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Parangipettai</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Akkadavalli</name>
+    <pinCode>607205</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruthuraiyur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Akkanur</name>
+    <pinCode>606106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tittagudi</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Akkarai Gori</name>
+    <pinCode>607003</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Cuddalore Port</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Alagaperumalkuppam</name>
+    <pinCode>607101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Anathur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Alaginatham</name>
+    <pinCode>607109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Varakalpattu</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Alambadi</name>
+    <pinCode>606108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mangalur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Alapakkam</name>
+    <pinCode>608801</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone>04142-217979</telephone>
+  </office>
+  <office>
+    <name>Alathur</name>
+    <pinCode>606303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Toludur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Alkondanatham</name>
+    <pinCode>608305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>T.Nedunjeri</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Ambalavananpettai</name>
+    <pinCode>607301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kullanchavadi</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Ambapuram</name>
+    <pinCode>608704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pinnalur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Ammapettai</name>
+    <pinCode>608401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vallampadugai</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Ammeri</name>
+    <pinCode>607802</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Neyveli 2</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Andarmullipallam</name>
+    <pinCode>608801</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Alapakkam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Anguchettipalayam</name>
+    <pinCode>607106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panruti</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Annamalai University</name>
+    <pinCode>608002</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone>04144-239496</telephone>
+  </office>
+  <office>
+    <name>Annamalainagar</name>
+    <pinCode>608002</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone>04144-238799</telephone>
+  </office>
+  <office>
+    <name>Annavalli</name>
+    <pinCode>607003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cuddalore Old Town</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Anukkampattu</name>
+    <pinCode>607301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kullanchavadi</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Arangamangalam</name>
+    <pinCode>607302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kurinjipadi</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Arantangi</name>
+    <pinCode>608301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kattumannarkoil</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Arasadikkuppam</name>
+    <pinCode>607103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadambuliyur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Ariyakoshti</name>
+    <pinCode>608502</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Parangipettai</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Athipatu</name>
+    <pinCode>608401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vallampadugai</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidabamram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Avatti</name>
+    <pinCode>606108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mangalur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Avinangudi</name>
+    <pinCode>606111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pennadam R.S.</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittakudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Aviyanur</name>
+    <pinCode>607101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Anathur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Ayangudi</name>
+    <pinCode>608306</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone>04144-264400</telephone>
+  </office>
+  <office>
+    <name>Ayikuppam</name>
+    <pinCode>607301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kullanchavadi</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Ayyanur Akkaramangalam</name>
+    <pinCode>608201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Orathur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Azhisikudi</name>
+    <pinCode>608601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bhuvanagiri</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>B.Adivaraganallur</name>
+    <pinCode>608501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>B.Mutlur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>B.Kolakudi</name>
+    <pinCode>608704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pinnalur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattmannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>B.Mutlur</name>
+    <pinCode>608501</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone>04142-247240</telephone>
+  </office>
+  <office>
+    <name>B.Odaiyur</name>
+    <pinCode>608601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bhuvanagiri</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Badrakottai</name>
+    <pinCode>607102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chinnapanaickenpalayam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Bandarakottai</name>
+    <pinCode>607108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Puthupet (CDL)</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Bhuvanagiri</name>
+    <pinCode>608601</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone>04144-240094</telephone>
+  </office>
+  <office>
+    <name>Block 1, Neyveli</name>
+    <pinCode>607801</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Virudhachalam Taluk of Cuddalore District</location>
+    <telephone>04142-252325</telephone>
+  </office>
+  <office>
+    <name>Block 10,neyveli</name>
+    <pinCode>607801</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Virudhachalam Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Block 18, Neyveli</name>
+    <pinCode>607803</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Virudhachalam Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Block 24, Neyveli</name>
+    <pinCode>607801</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Virudhachalam Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Block 26, Neyveli</name>
+    <pinCode>607803</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Virudhachalam Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Block 29, Neyveli</name>
+    <pinCode>607807</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Virudhachalam Taluk of Cuddalore District</location>
+    <telephone>04142-257253</telephone>
+  </office>
+  <office>
+    <name>Block 3, Neyveli</name>
+    <pinCode>607801</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Virudhachalam Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Block 5, Neyveli</name>
+    <pinCode>607803</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Virudhachalam Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Budamur</name>
+    <pinCode>606003</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone>04143-238824</telephone>
+  </office>
+  <office>
+    <name>Budangudi</name>
+    <pinCode>608702</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sethiathope</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Budavarayanpettai</name>
+    <pinCode>608601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bhuvanagiri</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>C Keeranur</name>
+    <pinCode>606110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karuvepilankurichi</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>C.Arasur</name>
+    <pinCode>608302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Komaratchi</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>C.Mutlur</name>
+    <pinCode>608102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Killai</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>C.Pudupettai</name>
+    <pinCode>608502</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Parangipettai</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>C.Sathamangalam</name>
+    <pinCode>608201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Orathur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>C.Veeracholagam</name>
+    <pinCode>608602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Keerapalayam</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Capperquary</name>
+    <pinCode>607005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sipcot Cuddalore</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Chellanchery</name>
+    <pinCode>605106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nettapakkam</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Chettithangal</name>
+    <pinCode>608304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Reddiyur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Chidambaram Cutcherry</name>
+    <pinCode>608001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Chidambaram East</name>
+    <pinCode>608001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Taluk of Cuddalore District</location>
+    <telephone>04144-223122</telephone>
+  </office>
+  <office>
+    <name>Chidambaram</name>
+    <pinCode>608001</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice></headoffice>
+    <location>Taluk of Cuddalore District</location>
+    <telephone>04144-230500</telephone>
+  </office>
+  <office>
+    <name>Chidambaram West</name>
+    <pinCode>608001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Chinnakannadi</name>
+    <pinCode>607302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kurinjipadi</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Chinnanargunam</name>
+    <pinCode>608704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pinnalur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Chinnapanaickenpalayam</name>
+    <pinCode>607102</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone>04142-275230</telephone>
+  </office>
+  <office>
+    <name>Chinnaparur</name>
+    <pinCode>606104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mangalam (SA)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Cuddalore Court Buildings</name>
+    <pinCode>607001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone>04142-220315</telephone>
+  </office>
+  <office>
+    <name>Cuddalore</name>
+    <pinCode>607001</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice></headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone>04142-222493</telephone>
+  </office>
+  <office>
+    <name>Cuddalore Old Town</name>
+    <pinCode>607003</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone>04142-238500</telephone>
+  </office>
+  <office>
+    <name>Cuddalore Ot Bazaar</name>
+    <pinCode>607003</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Cuddalore Port</name>
+    <pinCode>607003</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Cuddalore Public Offices</name>
+    <pinCode>607001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Deevalur</name>
+    <pinCode>606110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karuvepilankurichi</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Dharmanallur</name>
+    <pinCode>606103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kammapuram</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>E.Keeranur</name>
+    <pinCode>606106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tittagudi</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Edaiyur</name>
+    <pinCode>606302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nallur (Cuddalore)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Edayarkuppam</name>
+    <pinCode>607102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chinnapanaickenpalayam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Elleri</name>
+    <pinCode>608303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lalpet</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Elumedu</name>
+    <pinCode>607104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Melpattambakkam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Eluthur</name>
+    <pinCode>606303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Toludur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Enathirimangalam</name>
+    <pinCode>607108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Puthupet (CDL)</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Ennanagaram</name>
+    <pinCode>608602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Keerapalayam</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Erumanur</name>
+    <pinCode>606003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Budamur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Erumbur</name>
+    <pinCode>608704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pinnalur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Eyyalur</name>
+    <pinCode>608304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Reddiyur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Fort St.David</name>
+    <pinCode>607001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Gandhi Nagar (Cuddalore)</name>
+    <pinCode>607308</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Gavarappattu</name>
+    <pinCode>608002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Annamalainagar</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Gopalapuram</name>
+    <pinCode>606103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kammapuram</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Virudhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Gudalur</name>
+    <pinCode>606111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pennadam R.S.</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Gudithangi</name>
+    <pinCode>607105</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Nellikuppam Bazaar</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Gunamangalam</name>
+    <pinCode>607109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Varakalpattu</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Gundu Uppalavadi</name>
+    <pinCode>607006</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kondur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Guruvappanpettai</name>
+    <pinCode>607302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kurinjipadi</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Idaichittur</name>
+    <pinCode>606104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mangalam (SA)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Iruppu</name>
+    <pinCode>607805</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perperiyankuppam</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Jayankondapattinam</name>
+    <pinCode>608002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Annamalainagar</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>K.Adur</name>
+    <pinCode>608602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Keerapalayam</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>K.Alambadi</name>
+    <pinCode>608602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Keerapalayam</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kadambuliyur</name>
+    <pinCode>607103</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Kalaiyur</name>
+    <pinCode>607109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Varakalpattu</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kalinjikuppam</name>
+    <pinCode>607104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Melpattambakkam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kalkunam</name>
+    <pinCode>607302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kurinjipadi</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kaludur</name>
+    <pinCode>606304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Veppur (SA)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kammapuram</name>
+    <pinCode>606103</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone>04143-267230</telephone>
+  </office>
+  <office>
+    <name>Kandakumaran</name>
+    <pinCode>608305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>T.Nedunjeri</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kandamangalam</name>
+    <pinCode>608301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kattumannarkoil</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kandrakottai</name>
+    <pinCode>607205</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruthuraiyur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kanisapakkam</name>
+    <pinCode>607106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panruti</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kanjankollai</name>
+    <pinCode>608304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Reddiyur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kanur</name>
+    <pinCode>608701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palayamkottai(CDL)</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kargudal</name>
+    <pinCode>606003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Budamur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Karnatham</name>
+    <pinCode>606104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mangalam (SA)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Karumbur</name>
+    <pinCode>607108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Puthupet (CDL)</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Karunakaranallur</name>
+    <pinCode>608301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kattumannarkoil</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Karunguli</name>
+    <pinCode>607303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vadalur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Karuppur</name>
+    <pinCode>608401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vallampadugai</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidabamram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Karuvepilankurichi</name>
+    <pinCode>606110</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone>04143-243230</telephone>
+  </office>
+  <office>
+    <name>Kathazhai</name>
+    <pinCode>606103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kammapuram</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kattamuthupalayam</name>
+    <pinCode>607205</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruthuraiyur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kattugudalur</name>
+    <pinCode>607805</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perperiyankuppam</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kattumailur</name>
+    <pinCode>606304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Veppur (SA)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kattumannarkoil</name>
+    <pinCode>608301</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone>04144-261353</telephone>
+  </office>
+  <office>
+    <name>Kavalakudi</name>
+    <pinCode>608702</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sethiathope</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kavanur</name>
+    <pinCode>608703</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Srimushnam</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Keelamoongiladi</name>
+    <pinCode>608102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Killai</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Keelanuvampattu</name>
+    <pinCode>608102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Killai</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Keerapalayam</name>
+    <pinCode>608602</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone>04144-240072</telephone>
+  </office>
+  <office>
+    <name>Kilacheruvoi</name>
+    <pinCode>606106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tittagudi</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kilakalpoondi</name>
+    <pinCode>606303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Toludur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kilapalaiyur</name>
+    <pinCode>606103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kammapuram</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kilarungunam</name>
+    <pinCode>607105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nellikkuppam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kilimangalam</name>
+    <pinCode>606105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pennadam</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kiliruppu</name>
+    <pinCode>607103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadambuliyur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kilkangeyankuppam</name>
+    <pinCode>607805</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perperiyankuppam</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kilkavarappattu</name>
+    <pinCode>607112</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Killai</name>
+    <pinCode>608102</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone>04144-295545</telephone>
+  </office>
+  <office>
+    <name>Kilmampattu</name>
+    <pinCode>607106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panruti</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kilur</name>
+    <pinCode>607302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kurinjipadi</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Ko Adhanur</name>
+    <pinCode>606003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Budamur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Ko Pavalangudi</name>
+    <pinCode>606104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mangalam (SA)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kodukkanpalayam</name>
+    <pinCode>607003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cuddalore Old Town</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kollimalai Kilpathi</name>
+    <pinCode>608303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lalpet</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kollimalai Melpathi</name>
+    <pinCode>608303</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Lalpet</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kollumedu</name>
+    <pinCode>608303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lalpet</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Komaratchi</name>
+    <pinCode>608302</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone>04144-251755</telephone>
+  </office>
+  <office>
+    <name>Konankuppam</name>
+    <pinCode>606104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mangalam (SA)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Virudhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kondasamudram</name>
+    <pinCode>608701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palayamkottai(CDL)</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattummannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kondur</name>
+    <pinCode>607006</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kongarayanur</name>
+    <pinCode>607104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Melpattambakkam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Konur</name>
+    <pinCode>606105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pennadam</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittakudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Korakkavadi</name>
+    <pinCode>606303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Toludur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kosapallam</name>
+    <pinCode>606105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pennadam</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittakudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kothattai</name>
+    <pinCode>608501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>B.Mutlur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kothattai</name>
+    <pinCode>606111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pennadam R.S.</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kothavacheri</name>
+    <pinCode>608601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bhuvanagiri</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kothavasal</name>
+    <pinCode>608305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>T.Nedunjeri</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kottagam</name>
+    <pinCode>607802</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Neyveli 2</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kotteri</name>
+    <pinCode>607804</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Oomangalam</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kovilampoondi</name>
+    <pinCode>608002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Annamalainagar</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kozhai</name>
+    <pinCode>608703</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Srimushnam</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Krishnankuppam</name>
+    <pinCode>607301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kullanchavadi</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Krishnapuram</name>
+    <pinCode>608602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Keerapalayam</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kudimiyankuppam</name>
+    <pinCode>607101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Anathur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kuduveli</name>
+    <pinCode>608305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>T.Nedunjeri</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kullanchavadi</name>
+    <pinCode>607301</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone>04142-279006</telephone>
+  </office>
+  <office>
+    <name>Kumarakud</name>
+    <pinCode>608702</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sethiathope</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kumaramangalam</name>
+    <pinCode>607205</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruthuraiyur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kummidimulai</name>
+    <pinCode>608601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bhuvanagiri</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kunamangalam</name>
+    <pinCode>608703</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Srimushnam</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kundiyamallur</name>
+    <pinCode>607301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kullanchavadi</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kunjimedu</name>
+    <pinCode>608306</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ayangudi</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kuppanatham</name>
+    <pinCode>606003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Budamur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kuriamangalam</name>
+    <pinCode>608501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>B.Mutlur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Kurinjipadi</name>
+    <pinCode>607302</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone>04142-298230</telephone>
+  </office>
+  <office>
+    <name>Lakkur</name>
+    <pinCode>606303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Toludur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Lakshminarayanapuram</name>
+    <pinCode>607106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panruti</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Lalpet</name>
+    <pinCode>608303</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone>04144-268796</telephone>
+  </office>
+  <office>
+    <name>Lalpuram</name>
+    <pinCode>608602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Keerapalayam</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>M.Adhanur</name>
+    <pinCode>608304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Reddiyur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>M.Kolakudi</name>
+    <pinCode>608301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kattumannarkoil</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>M.Odaiyur</name>
+    <pinCode>608303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lalpet</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>M.Pudur</name>
+    <pinCode>607004</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandipalayam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>M.Puliyangudi</name>
+    <pinCode>608302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Komaratchi</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Ma Podaiyur</name>
+    <pinCode>606108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mangalur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Madanagopalapuram</name>
+    <pinCode>607301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kullanchavadi</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Maduranthaganallur</name>
+    <pinCode>608201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Orathur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Malayanur</name>
+    <pinCode>606108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mangalur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Maligaimedu</name>
+    <pinCode>607112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kilkavarappattu</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Maligampattu</name>
+    <pinCode>607106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panruti</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Mamangalam</name>
+    <pinCode>608701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palayamkottai(CDL)</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Manamthavizhnthaputhur</name>
+    <pinCode>607101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Anathur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Manavalanallur</name>
+    <pinCode>606003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Budamur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Mangalur</name>
+    <pinCode>606108</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone>04143-248230</telephone>
+  </office>
+  <office>
+    <name>Maniadur</name>
+    <pinCode>608303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lalpet</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Manikollai</name>
+    <pinCode>608501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>B.Mutlur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Manjakkuppam</name>
+    <pinCode>607001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone>0142-294426</telephone>
+  </office>
+  <office>
+    <name>Manjakollai</name>
+    <pinCode>608601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bhuvanagiri</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Manjakuli</name>
+    <pinCode>608501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>B.Mutlur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Marudadu</name>
+    <pinCode>607109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Varakalpattu</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Marudur</name>
+    <pinCode>608704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pinnalur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Marungur</name>
+    <pinCode>608703</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Srimushnam</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Marungur</name>
+    <pinCode>607103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadambuliyur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Maruvai</name>
+    <pinCode>607303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vadalur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Mathalapattu</name>
+    <pinCode>605007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ariyankuppam</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Mathur</name>
+    <pinCode>606003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Budamur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Melakadambur</name>
+    <pinCode>608304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Reddiyur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Melakolakudi</name>
+    <pinCode>607802</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Neyveli 2</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Melakuppam</name>
+    <pinCode>607802</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Neyveli 2</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Melamanakudi</name>
+    <pinCode>608601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bhuvanagiri</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Melapalachanallur</name>
+    <pinCode>608301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kattumannarkoil</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Melaparuthikudi</name>
+    <pinCode>608302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Komaratchi</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Melavanniyur</name>
+    <pinCode>608302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Komaratchi</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Melkavrapattu</name>
+    <pinCode>607112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kilkavarappattu</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Melmampattu</name>
+    <pinCode>607103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadambuliyur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Melpathi</name>
+    <pinCode>607105</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Nellikkuppam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Melpattambakkam</name>
+    <pinCode>607104</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone>04142-276100</telephone>
+  </office>
+  <office>
+    <name>Melur</name>
+    <pinCode>606111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pennadam R.S.</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Mettukkuppam</name>
+    <pinCode>607802</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Neyveli 2</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Miralur</name>
+    <pinCode>608601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bhuvanagiri</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Mogaiyur</name>
+    <pinCode>608305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>T.Nedunjeri</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Moolakuppam</name>
+    <pinCode>607303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vadalur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Movur</name>
+    <pinCode>608306</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ayangudi</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Mudanai</name>
+    <pinCode>607804</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Oomangalam</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Mudapuli</name>
+    <pinCode>607805</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perperiyankuppam</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Mudikandanallur</name>
+    <pinCode>608702</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sethiathope</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Mullangudi</name>
+    <pinCode>608302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Komaratchi</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Murugangudi</name>
+    <pinCode>606105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pennadam</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Muttam</name>
+    <pinCode>608306</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ayangudi</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>N. Naraiyur</name>
+    <pinCode>606304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Veppur (SA)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>N.Moolakuppam</name>
+    <pinCode>607102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chinnapanaickenpalayam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Nadukkuppam</name>
+    <pinCode>607103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadambuliyur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Naduveerappattu</name>
+    <pinCode>607102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chinnapanaickenpalayam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Nagar</name>
+    <pinCode>606302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nallur (Cuddalore)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Nagarapadi</name>
+    <pinCode>608703</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Srimushnam</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Nakkaravanthankudi</name>
+    <pinCode>608002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Annamalainagar</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Nallathur</name>
+    <pinCode>605106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nettapakkam</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Nallur (Cuddalore)</name>
+    <pinCode>606302</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone>04143-249230</telephone>
+  </office>
+  <office>
+    <name>Nandesswaramangalam</name>
+    <pinCode>608702</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sethiathope</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Nangudi</name>
+    <pinCode>608702</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sethiathope</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Nanjalur</name>
+    <pinCode>608302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Komaratchi</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Nanjamahathuvazkai</name>
+    <pinCode>608102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Killai</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Natham</name>
+    <pinCode>607101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Anathur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Nathapattu</name>
+    <pinCode>607109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Varakalpattu</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Nattarmangalam</name>
+    <pinCode>608301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kattumannarkoil</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Nellikkuppam</name>
+    <pinCode>607105</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone>04142-272384</telephone>
+  </office>
+  <office>
+    <name>Nellikuppam Bazaar</name>
+    <pinCode>607105</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone>04142-272002</telephone>
+  </office>
+  <office>
+    <name>Neyvasal</name>
+    <pinCode>608303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lalpet</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Neyveli 1</name>
+    <pinCode>607801</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Virudhachalam Taluk of Cuddalore District</location>
+    <telephone>04142-252253</telephone>
+  </office>
+  <office>
+    <name>Neyveli 2</name>
+    <pinCode>607802</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone>04142-262230</telephone>
+  </office>
+  <office>
+    <name>Neyveli 3</name>
+    <pinCode>607803</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Virudhachalam Taluk of Cuddalore District</location>
+    <telephone>04142-228084</telephone>
+  </office>
+  <office>
+    <name>Neyveli Ii Thermal Station</name>
+    <pinCode>607807</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Virudhachalam Taluk of Cuddalore District</location>
+    <telephone>04142-257645</telephone>
+  </office>
+  <office>
+    <name>Neyveli Second Mines</name>
+    <pinCode>607802</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Virudhachalam Taluk of Cuddalore District</location>
+    <telephone>04142-262220</telephone>
+  </office>
+  <office>
+    <name>Neyveli Thermal Bus Stand</name>
+    <pinCode>607807</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Virudhachalam Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Nithinatham</name>
+    <pinCode>606304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Veppur (SA)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Odakkanallur</name>
+    <pinCode>608201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Orathur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Omampuliyur</name>
+    <pinCode>608306</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ayangudi</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Oomangalam</name>
+    <pinCode>607804</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone>04142-218230</telephone>
+  </office>
+  <office>
+    <name>Oraiyur</name>
+    <pinCode>607108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Puthupet (CDL)</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Orangur</name>
+    <pinCode>606108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mangalur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Orathur</name>
+    <pinCode>608201</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone>04144-257202</telephone>
+  </office>
+  <office>
+    <name>Ottimedu</name>
+    <pinCode>606103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kammapuram</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pachayankuppam</name>
+    <pinCode>607003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cuddalore Old Town</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Padirikuppam</name>
+    <pinCode>607401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruvendhipuram</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pagandai</name>
+    <pinCode>607112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kilkavarappattu</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Palayamkottai Melpathy</name>
+    <pinCode>608701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palayamkottai(CDL)</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Palayamkottai(CDL)</name>
+    <pinCode>608701</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Taluk of Cuddalore District</location>
+    <telephone>04144-246230</telephone>
+  </office>
+  <office>
+    <name>Palayapattinam</name>
+    <pinCode>606003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Budamur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pali</name>
+    <pinCode>606104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mangalam (SA)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pallavarayanatham</name>
+    <pinCode>607102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chinnapanaickenpalayam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Palur</name>
+    <pinCode>607102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chinnapanaickenpalayam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Panikuppam</name>
+    <pinCode>607106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panruti</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pannapattu</name>
+    <pinCode>608201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Orathur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Panruti Bazaar</name>
+    <pinCode>607106</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Panruti East</name>
+    <pinCode>607106</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Panruti</name>
+    <pinCode>607106</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone>04142-246644</telephone>
+  </office>
+  <office>
+    <name>Panruti West</name>
+    <pinCode>608201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Orathur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Parangipettai</name>
+    <pinCode>608502</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone>04144-243630</telephone>
+  </office>
+  <office>
+    <name>Paravalur</name>
+    <pinCode>606003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Budamur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pasar</name>
+    <pinCode>606304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Veppur (SA)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pelandurai</name>
+    <pinCode>606105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pennadam</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pennadam R.S.</name>
+    <pinCode>606111</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittakudi Taluk of Cuddalore District</location>
+    <telephone>04143-222248</telephone>
+  </office>
+  <office>
+    <name>Pennadam</name>
+    <pinCode>606105</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittakudi Taluk of Cuddalore District</location>
+    <telephone>04143-222330</telephone>
+  </office>
+  <office>
+    <name>Perambalur</name>
+    <pinCode>606302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nallur (Cuddalore)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Perampattu</name>
+    <pinCode>608002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Annamalainagar</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Periyakappankulam</name>
+    <pinCode>607802</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Neyveli 2</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Periyakomatti</name>
+    <pinCode>608501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>B.Mutlur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Periyakottumulai</name>
+    <pinCode>606103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kammapuram</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Periyakuppam</name>
+    <pinCode>608801</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Alapakkam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Periyanellikkollai</name>
+    <pinCode>608704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pinnalur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Periyanesalur</name>
+    <pinCode>606304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Veppur (SA)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Perperiyankuppam</name>
+    <pinCode>607805</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone>04144-266073</telephone>
+  </office>
+  <office>
+    <name>Perumalnaickenpalayam</name>
+    <pinCode>607104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Melpattambakkam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Perumulai</name>
+    <pinCode>606106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tittagudi</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Perungalur</name>
+    <pinCode>608305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>T.Nedunjeri</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Perur</name>
+    <pinCode>608701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palayamkottai(CDL)</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumanarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pethanaickenkuppam</name>
+    <pinCode>607302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kurinjipadi</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pichavaram</name>
+    <pinCode>608002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Annamalainagar</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pillaiyarthangal</name>
+    <pinCode>608303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lalpet</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pillur</name>
+    <pinCode>606304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Veppur (SA)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pinnalur</name>
+    <pinCode>608704</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone>04144-244247</telephone>
+  </office>
+  <office>
+    <name>Pinnathur</name>
+    <pinCode>608102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Killai</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Ponnanthittu</name>
+    <pinCode>608102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Killai</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Poochimedu</name>
+    <pinCode>608801</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Alapakkam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Poolambadi</name>
+    <pinCode>606304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Veppur (SA)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Poondi</name>
+    <pinCode>608703</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Srimushnam</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Poondiyankuppam</name>
+    <pinCode>607005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sipcot Cuddalore</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Poovanikkuppam</name>
+    <pinCode>608801</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Alapakkam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pothiramangalam</name>
+    <pinCode>606111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pennadam R.S.</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Poynapadi</name>
+    <pinCode>606304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Veppur (SA)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pudaiyur</name>
+    <pinCode>608701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palayamkottai(CDL)</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Puduchatram</name>
+    <pinCode>608501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>B.Mutlur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pulamedu</name>
+    <pinCode>608302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Komaratchi</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pulavanur</name>
+    <pinCode>607205</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruthuraiyur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Puliyur</name>
+    <pinCode>607301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kullanchavadi</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Puthupet (CDL)</name>
+    <pinCode>607108</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone>04142-242739</telephone>
+  </office>
+  <office>
+    <name>Puvalai</name>
+    <pinCode>608601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bhuvanagiri</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Puvanur</name>
+    <pinCode>606104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mangalam (SA)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Pythambadi</name>
+    <pinCode>607101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Anathur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Rajendra Cholagam</name>
+    <pinCode>608301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kattumannarkoil</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Rajendra Pattinam</name>
+    <pinCode>608703</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Srimushnam</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumanarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Ramapuram</name>
+    <pinCode>608701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palayamkottai(CDL)</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkioil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Ramapuram</name>
+    <pinCode>607003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cuddalore Old Town</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Reddichavadi</name>
+    <pinCode>607402</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bahoor</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Reddiyur</name>
+    <pinCode>608304</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone>04144-294426</telephone>
+  </office>
+  <office>
+    <name>Rettakurichi</name>
+    <pinCode>606304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Veppur (SA)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sakkangudi</name>
+    <pinCode>608201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Orathur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Salianthoppu</name>
+    <pinCode>608401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vallampadugai</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidabamram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Samattikuppam</name>
+    <pinCode>607301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kullanchavadi</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Samiyarpettai</name>
+    <pinCode>608502</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Parangipettai</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sangolikuppam</name>
+    <pinCode>607005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sipcot Cuddalore</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sathamangalam</name>
+    <pinCode>606003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Budamur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sathanatham</name>
+    <pinCode>606111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pennadam R.S.</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittakudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sathankuppam</name>
+    <pinCode>607004</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandipalayam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sathapadi</name>
+    <pinCode>608601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bhuvanagiri</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sathapadi</name>
+    <pinCode>606103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kammapuram</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sathipattu</name>
+    <pinCode>607106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panruti</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sathiyam</name>
+    <pinCode>606302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nallur (Cuddalore)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sathiyavadi</name>
+    <pinCode>606110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karuvepilankurichi</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sathukudal</name>
+    <pinCode>606110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karuvepilankurichi</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sedapalayam</name>
+    <pinCode>607003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cuddalore Old Town</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Seemanthottam</name>
+    <pinCode>607003</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Sellankuppam</name>
+    <pinCode>607003</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Cuddalore Port</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Semmandalam</name>
+    <pinCode>607001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Semmedu</name>
+    <pinCode>607106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panruti</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Semokottai</name>
+    <pinCode>607106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panruti</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Seplanatham</name>
+    <pinCode>607802</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Neyveli 2</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Seppakkam</name>
+    <pinCode>606302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nallur (Cuddalore)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Serakuppam</name>
+    <pinCode>607303</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Vadalur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sethiathope</name>
+    <pinCode>608702</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone>04144-250506</telephone>
+  </office>
+  <office>
+    <name>Sevveri</name>
+    <pinCode>606106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tittagudi</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Shandan</name>
+    <pinCode>608304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Reddiyur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sholathiram</name>
+    <pinCode>608701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palayamkottai(CDL)</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattmannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sholavalli</name>
+    <pinCode>607105</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Nellikkuppam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Silambimangalam</name>
+    <pinCode>608801</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Alapakkam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Silambinathanpettai</name>
+    <pinCode>607102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chinnapanaickenpalayam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Singirikoil</name>
+    <pinCode>605007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ariyankuppam</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sipcot Cuddalore</name>
+    <pinCode>607005</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Sirugramam</name>
+    <pinCode>607101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Anathur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sirukattur</name>
+    <pinCode>608304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Reddiyur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sirumangalam</name>
+    <pinCode>606302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nallur (Cuddalore)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sirumulai</name>
+    <pinCode>606106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tittagudi</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sirupakkam</name>
+    <pinCode>606108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mangalur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Siruthondamadevi</name>
+    <pinCode>607103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadambuliyur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Siruvathur</name>
+    <pinCode>607106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panruti</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sithamalli</name>
+    <pinCode>608301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kattumannarkoil</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sivapuri</name>
+    <pinCode>608002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Annamalainagar</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sorathur</name>
+    <pinCode>607805</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perperiyankuppam</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sornavur Melpathi</name>
+    <pinCode>607104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Melpattambakkam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sri Adivaraganallur</name>
+    <pinCode>608703</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Srimushnam</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sri Pudur</name>
+    <pinCode>608703</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Srimushnam</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sri Vakkaramari</name>
+    <pinCode>608703</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Srimushnam</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Srimushnam</name>
+    <pinCode>608703</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone>04144-245989</telephone>
+  </office>
+  <office>
+    <name>Srinedunjeri</name>
+    <pinCode>608703</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Srimushnam</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Suba Uppalavadi</name>
+    <pinCode>607006</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kondur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Subramaniyapuram</name>
+    <pinCode>607301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kullanchavadi</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Sundaravandi</name>
+    <pinCode>607401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruvendhipuram</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Suravilandur</name>
+    <pinCode>608302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Komaratchi</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>T Gopurapuram</name>
+    <pinCode>606003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Budamur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>T.Nedunjeri</name>
+    <pinCode>608305</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone>04144-256250</telephone>
+  </office>
+  <office>
+    <name>T.Palayam</name>
+    <pinCode>607301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kullanchavadi</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Temmur</name>
+    <pinCode>608302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Komaratchi</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Terkuviruthangam</name>
+    <pinCode>608305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>T.Nedunjeri</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Thachur</name>
+    <pinCode>606303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Toludur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Thatchakadu</name>
+    <pinCode>608501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>B.Mutlur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Thattampalayam</name>
+    <pinCode>607205</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruthuraiyur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Theerthanagiri</name>
+    <pinCode>608801</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Alapakkam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Theethampalayam</name>
+    <pinCode>608501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>B.Mutlur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Therku Vadakku Puthur</name>
+    <pinCode>606110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karuvepilankurichi</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Thillaividangan</name>
+    <pinCode>608102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Killai</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Thiyagavalli</name>
+    <pinCode>608801</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Alapakkam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Thokkanambakkam</name>
+    <pinCode>607402</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bahoor</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Tholar</name>
+    <pinCode>606111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pennadam R.S.</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Thondamanatham</name>
+    <pinCode>607301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kullanchavadi</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Thoravalur</name>
+    <pinCode>606003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Budamur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Thottikuppam</name>
+    <pinCode>606003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Budamur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Virudhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Tirukandeeswaram</name>
+    <pinCode>607105</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Nellikuppam Bazaar</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Tirumanikuzhi</name>
+    <pinCode>607401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruvendhipuram</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Tirunaraiyur</name>
+    <pinCode>608303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lalpet</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Tirupadiripuliyur</name>
+    <pinCode>607002</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone>04142-236152</telephone>
+  </office>
+  <office>
+    <name>Tiruppadiripuliyur Bazaar</name>
+    <pinCode>607002</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Tiruppadiripuliyur West</name>
+    <pinCode>607002</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Tiruthuraiyur</name>
+    <pinCode>607205</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone>04142-248391</telephone>
+  </office>
+  <office>
+    <name>Tiruvamur</name>
+    <pinCode>607106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panruti</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Tiruvatigai</name>
+    <pinCode>607106</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Panruti East</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Tiruvattathurai</name>
+    <pinCode>606111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pennadam R.S.</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Tiruvendhipuram</name>
+    <pinCode>607401</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Tittagudi</name>
+    <pinCode>606106</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone>04143-256949</telephone>
+  </office>
+  <office>
+    <name>Toludur</name>
+    <pinCode>606303</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone>04143-257230</telephone>
+  </office>
+  <office>
+    <name>U Agaram</name>
+    <pinCode>607804</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Oomangalam</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Udayargudi</name>
+    <pinCode>608301</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Kattumannarkoil</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Uthamacholamangalam</name>
+    <pinCode>608002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Annamalainagar</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Uttangal</name>
+    <pinCode>607804</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Oomangalam</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vadakkumangudi</name>
+    <pinCode>608401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vallampadugai</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidabamram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vadakkupalayam</name>
+    <pinCode>608701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palayamkottai(CDL)</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vadakkuvelur</name>
+    <pinCode>607802</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Neyveli 2</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vadakuthu</name>
+    <pinCode>607303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vadalur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vadalur</name>
+    <pinCode>607303</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone>04142-259149</telephone>
+  </office>
+  <office>
+    <name>Vadathalaikulam</name>
+    <pinCode>608704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pinnalur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vagaiyur</name>
+    <pinCode>606106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tittagudi</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vaithiyanathapuram</name>
+    <pinCode>606303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Toludur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vaiyur</name>
+    <pinCode>608401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vallampadugai</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidabamram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vakkur</name>
+    <pinCode>608201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Orathur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Valakollai</name>
+    <pinCode>608702</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sethiathope</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattmannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Valasakkadu</name>
+    <pinCode>608701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palayamkottai(CDL)</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Valayamadevi</name>
+    <pinCode>608704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pinnalur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Valisodanaipalayam</name>
+    <pinCode>607003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cuddalore Old Town</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vallam</name>
+    <pinCode>607805</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perperiyankuppam</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vallampadugai</name>
+    <pinCode>608401</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone>04144-242033</telephone>
+  </office>
+  <office>
+    <name>Vallimaduram</name>
+    <pinCode>606108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mangalur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Valudalampattu</name>
+    <pinCode>607301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kullanchavadi</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vanamadevi</name>
+    <pinCode>608701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palayamkottai(CDL)</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vanamadevi</name>
+    <pinCode>607105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nellikkuppam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vanathirayapuram</name>
+    <pinCode>607303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vadalur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vandipalayam</name>
+    <pinCode>607004</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Vannaiyur</name>
+    <pinCode>608302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Komaratchi</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vanpakkam</name>
+    <pinCode>607105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nellikkuppam</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Varakalpattu</name>
+    <pinCode>607109</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone>04142-217972</telephone>
+  </office>
+  <office>
+    <name>Varambanur</name>
+    <pinCode>606302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nallur (Cuddalore)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Varinjipakkam</name>
+    <pinCode>607205</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruthuraiyur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vasanankuppam</name>
+    <pinCode>607301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kullanchavadi</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vasantharayanpalayam</name>
+    <pinCode>607003</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Cuddalore Port</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vattathur</name>
+    <pinCode>608702</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sethiathope</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vayalur</name>
+    <pinCode>608602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Keerapalayam</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Veeramudayanatham</name>
+    <pinCode>608702</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sethiathope</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Veeranandapuram</name>
+    <pinCode>608301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kattumannarkoil</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Veerraperumanallur</name>
+    <pinCode>607101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Anathur</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vehakollai</name>
+    <pinCode>607302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kurinjipadi</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vellakarai</name>
+    <pinCode>607003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cuddalore Old Town</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vellapakkam</name>
+    <pinCode>607109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Varakalpattu</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Venganur</name>
+    <pinCode>606303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Toludur</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Tittagudi Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Venkatampettai</name>
+    <pinCode>607302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kurinjipadi</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Veppur (SA)</name>
+    <pinCode>606304</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone>04143-241230</telephone>
+  </office>
+  <office>
+    <name>Vijayamanagaram</name>
+    <pinCode>606104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mangalam (SA)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vilagam</name>
+    <pinCode>608305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>T.Nedunjeri</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Kattumannarkoil Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vilangattur</name>
+    <pinCode>606302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nallur (Cuddalore)</suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Virudhachalam Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Villiyanallur</name>
+    <pinCode>608501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>B.Mutlur</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Chidambaram Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Virupakshi</name>
+    <pinCode>607302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kurinjipadi</suboffice>
+    <headoffice>Cuddalore</headoffice>
+    <location>Cuddalore Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Visoor</name>
+    <pinCode>607805</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perperiyankuppam</suboffice>
+    <headoffice>Chidambaram</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone></telephone>
+  </office>
+  <office>
+    <name>Vriddhachalam Bazaar</name>
+    <pinCode>606001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Virudhachalam Taluk of Cuddalore District</location>
+    <telephone>04143-231190</telephone>
+  </office>
+  <office>
+    <name>Vriddhachalam Cutchery</name>
+    <pinCode>606001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice>Vriddhachalam</headoffice>
+    <location>Virudhachalam Taluk of Cuddalore District</location>
+    <telephone>04143-262690</telephone>
+  </office>
+  <office>
+    <name>Vriddhachalam</name>
+    <pinCode>606001</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice></suboffice>
+    <headoffice></headoffice>
+    <location>Vriddhachalam Taluk of Cuddalore District</location>
+    <telephone>04143-260293</telephone>
+  </office>
+</offices>
