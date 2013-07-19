@@ -42,7 +42,7 @@
         android:id="@+id/gridview"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:background="#CFCFC4"
+        android:background="#AEC6CF"
         android:cacheColorHint="#00000000"
         android:clipChildren="true"
         android:horizontalSpacing="5dp"

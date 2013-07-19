@@ -11,7 +11,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="text1">Pincode/Officename</string>
     <string name="state">State</string>
-    <string name="districts">Districts</string>
+    <string name="districts">District</string>
     <string name="officename">Office Name</string>
     <string name="pincode">Pincode</string>
     <string name="status">Status</string>

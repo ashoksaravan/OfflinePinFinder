@@ -62,31 +62,19 @@ public class CustomOfficeAdapter extends BaseAdapter {
 		if (holder != null) {
 			holder.officeName = (TextView) v.findViewById(R.id.officeName);
 
-			holder.officeName.setPadding(2, 2, 2, 2);
-
 			holder.pincode = (TextView) v.findViewById(R.id.pincode);
-
-			holder.pincode.setPadding(2, 2, 2, 2);
 
 			holder.stauts = (TextView) v.findViewById(R.id.stauts);
 
-			holder.stauts.setPadding(2, 2, 2, 2);
-
 			holder.suboffice = (TextView) v.findViewById(R.id.subofficeName);
-
-			holder.suboffice.setPadding(2, 2, 2, 2);
 
 			holder.subofficeRow = (LinearLayout) v.findViewById(R.id.subofficeRow);
 
 			holder.headoffice = (TextView) v.findViewById(R.id.headofficeName);
 
-			holder.headoffice.setPadding(2, 2, 2, 2);
-
 			holder.headofficeRow = (LinearLayout) v.findViewById(R.id.headofficeRow);
 
 			holder.location = (TextView) v.findViewById(R.id.locationName);
-
-			holder.location.setPadding(2, 2, 2, 2);
 
 			holder.locationRow = (LinearLayout) v.findViewById(R.id.locationRow);
 
@@ -94,7 +82,6 @@ public class CustomOfficeAdapter extends BaseAdapter {
 
 			holder.telephoneRow = (LinearLayout) v.findViewById(R.id.telephoneRow);
 
-			holder.telephoneNumber.setPadding(2, 2, 2, 2);
 			v.setTag(holder);
 
 			holder.officeName.setText(offices.get(position).getOfficeName());
