@@ -1,0 +1,4304 @@
+<offices>
+  <office>
+    <name>Acharapakk R.S.</name>
+    <pinCode>603301</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Acharapakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Acharapakkam</name>
+    <pinCode>603301</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>044-27523009</telephone>
+  </office>
+  <office>
+    <name>Adambakkam</name>
+    <pinCode>600088</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>St.Thomas Mount</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>044-22451121</telephone>
+  </office>
+  <office>
+    <name>Agaramduli</name>
+    <pinCode>603406</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Uttiramerur</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Uttiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Alandur(Reopened W.E.F.6.6.05)</name>
+    <pinCode>600016</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>St.Thomas Mount</headoffice>
+    <location>Saidapet Taluk of Kanchipuram District</location>
+    <telephone>044-22310097</telephone>
+  </office>
+  <office>
+    <name>Alapakkam</name>
+    <pinCode>600116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Porur</suboffice>
+    <headoffice>Avadi Camp</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Alisoor</name>
+    <pinCode>603402</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kaliyampoondi</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ammanambakkam</name>
+    <pinCode>603002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Natham-chengalpattu</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ammanambakkam</name>
+    <pinCode>603109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirukalikundram</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalikundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Anaicut</name>
+    <pinCode>603312</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pavunjur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Anakaputhur</name>
+    <pinCode>600070</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>044-22481273</telephone>
+  </office>
+  <office>
+    <name>Anambakkam</name>
+    <pinCode>603107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Salavakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Uthiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ananthamangalam</name>
+    <pinCode>603307</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Orathy</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Andarkuppam</name>
+    <pinCode>603401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chunampet</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Anjur</name>
+    <pinCode>603204</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singaperumalkoil</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Annai Anjugam Nagar</name>
+    <pinCode>603211</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>044-27431432</telephone>
+  </office>
+  <office>
+    <name>Anupuram</name>
+    <pinCode>603127</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalikundram Taluk of Kanchipuram District</location>
+    <telephone>044-27482188</telephone>
+  </office>
+  <office>
+    <name>Anur</name>
+    <pinCode>603405</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ponvilainthakalathur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Appur</name>
+    <pinCode>603204</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singaperumalkoil</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Arasanimangalam</name>
+    <pinCode>603402</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kaliyampoondi</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Uttiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Arpakkam</name>
+    <pinCode>631603</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Magaral</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Arumpuliyur</name>
+    <pinCode>603106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Orakattupettai</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Uthiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Arungunam</name>
+    <pinCode>603306</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Madurantakam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Asoor</name>
+    <pinCode>631605</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Walajabad</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Athivakkam</name>
+    <pinCode>601102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Periapalayam</suboffice>
+    <headoffice>Tiruvallur</headoffice>
+    <location>Kancheepuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Athur-chengalpattu</name>
+    <pinCode>603101</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone>044-27431432</telephone>
+  </office>
+  <office>
+    <name>Attuputhur</name>
+    <pinCode>631561</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Enathur</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Avalur</name>
+    <pinCode>631605</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Walajabad</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Uttiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ayakunnam Kolathur</name>
+    <pinCode>603310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thozhupedu</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ayapakkam</name>
+    <pinCode>603102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tiruklalikundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ayyampettai</name>
+    <pinCode>631601</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone>044-27253230</telephone>
+  </office>
+  <office>
+    <name>Ayyankarkulam</name>
+    <pinCode>631502</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Big Kanchipuram</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Balchettychatram</name>
+    <pinCode>631551</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kancheepuram Taluk of Kanchipuram District</location>
+    <telephone>044-27246530</telephone>
+  </office>
+  <office>
+    <name>Bharathinagar</name>
+    <pinCode>600117</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Old Pallavaram</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bharathipuram (Kanchipuram)</name>
+    <pinCode>600044</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>044-22651644</telephone>
+  </office>
+  <office>
+    <name>Big Kanchipuram</name>
+    <pinCode>631502</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kancheepuram Taluk of Kanchipuram District</location>
+    <telephone>044-27222042</telephone>
+  </office>
+  <office>
+    <name>Budur</name>
+    <pinCode>603308</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Padalam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bukkathurai</name>
+    <pinCode>603308</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Padalam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chellampattidai</name>
+    <pinCode>631553</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edayarpakkam</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chengalpattu Bazaar</name>
+    <pinCode>603002</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone>044-27431432</telephone>
+  </office>
+  <office>
+    <name>Chengalpattu Cutcherry</name>
+    <pinCode>603001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone>044-27431432</telephone>
+  </office>
+  <office>
+    <name>Chengalpattu</name>
+    <pinCode>603001</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone>044-27431438</telephone>
+  </office>
+  <office>
+    <name>Chengalpattu Med.College</name>
+    <pinCode>603001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone>044-27431432</telephone>
+  </office>
+  <office>
+    <name>Chengattur</name>
+    <pinCode>603302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cheyur (Kanchipuram)</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chennai Airport</name>
+    <pinCode>600016</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>St.Thomas Mount</headoffice>
+    <location>Saidapet Taluk of Kanchipuram District</location>
+    <telephone>044-22560342</telephone>
+  </office>
+  <office>
+    <name>Chettipunniyam</name>
+    <pinCode>603204</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singaperumalkoil</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpatatu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cheyur (Kanchipuram)</name>
+    <pinCode>603302</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyur Taluk of Kanchipuram District</location>
+    <telephone>044-27531730</telephone>
+  </office>
+  <office>
+    <name>Cheyyur North</name>
+    <pinCode>603302</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Cheyur (Kanchipuram)</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chithamur</name>
+    <pinCode>603313</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyur Taluk of Kanchipuram District</location>
+    <telephone>044-27431432</telephone>
+  </office>
+  <office>
+    <name>Chithanakkavur</name>
+    <pinCode>603107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Salavakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Uthiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chitlapakkam</name>
+    <pinCode>600064</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>044-2230164</telephone>
+  </office>
+  <office>
+    <name>Christian College Tambaram</name>
+    <pinCode>600059</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone>044-22391404</telephone>
+  </office>
+  <office>
+    <name>Chromepet</name>
+    <pinCode>600044</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>044-22415161</telephone>
+  </office>
+  <office>
+    <name>Chunampet</name>
+    <pinCode>603401</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyyur Taluk of Kanchipuram District</location>
+    <telephone>044-27431432</telephone>
+  </office>
+  <office>
+    <name>Damal</name>
+    <pinCode>631551</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Balchettychatram</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Darkash</name>
+    <pinCode>600044</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chromepet</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Desumugipettai</name>
+    <pinCode>603109</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Tirukalikundram</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Echoor</name>
+    <pinCode>631604</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thenneri</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Edaiyur</name>
+    <pinCode>603109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirukalikundram</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalikundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Edayampudur</name>
+    <pinCode>603107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Salavakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalikundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Edayarpakkam</name>
+    <pinCode>631553</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone>044-27222901</telephone>
+  </office>
+  <office>
+    <name>Ekanampet</name>
+    <pinCode>631601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ayyampettai</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ekanapuram</name>
+    <pinCode>631553</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edayarpakkam</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Elaganar</name>
+    <pinCode>603402</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kaliyampoondi</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Uttiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Elapakkam</name>
+    <pinCode>603201</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone>044-27431432</telephone>
+  </office>
+  <office>
+    <name>Elutchur</name>
+    <pinCode>603204</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singaperumalkoil</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Sriperubudur Taluk Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Enathur</name>
+    <pinCode>631561</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone>044-27264100</telephone>
+  </office>
+  <office>
+    <name>Ganapathipuram(CMT)</name>
+    <pinCode>600044</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Gerugambakkam</name>
+    <pinCode>600122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mangadu</suboffice>
+    <headoffice>Avadi Camp</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Govindavadi</name>
+    <pinCode>631502</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Big Kanchipuram</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gowriwakkam</name>
+    <pinCode>600073</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>044-22781655</telephone>
+  </office>
+  <office>
+    <name>Guduvanchery</name>
+    <pinCode>603202</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone>044-27465330</telephone>
+  </office>
+  <office>
+    <name>Gunduperumbedu</name>
+    <pinCode>602105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sriperumbudur</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone>Not Available</telephone>
+  </office>
+  <office>
+    <name>Gundur-chengalpattu</name>
+    <pinCode>603002</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone>044-27431432</telephone>
+  </office>
+  <office>
+    <name>Hanumanthandalam</name>
+    <pinCode>603402</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kaliyampoondi</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Uttiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hanumanthapuram</name>
+    <pinCode>603108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sembakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hasthinapuram</name>
+    <pinCode>600064</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Illalur</name>
+    <pinCode>603110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruporur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Indalur</name>
+    <pinCode>603301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Acharapakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Injambakkam</name>
+    <pinCode>600115</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>St.Thomas Mount</headoffice>
+    <location>Kancheepuram Taluk of Kanchipuram District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Iranya Sidhi</name>
+    <pinCode>603312</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pavunjur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Irumbedu</name>
+    <pinCode>603302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cheyur (Kanchipuram)</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Irumbuli</name>
+    <pinCode>603301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Acharapakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Irumbulichery</name>
+    <pinCode>603109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirukalikundram</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalikundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Irumbuliyur</name>
+    <pinCode>600045</pinCode>
+    <status>Branch Office(Non Delivery) directly a/w Head Office</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Irungattukottai</name>
+    <pinCode>602117</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone>044-27156253</telephone>
+  </office>
+  <office>
+    <name>Isur</name>
+    <pinCode>603308</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Padalam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Isur</name>
+    <pinCode>603310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thozhupedu</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Iyyappanthangal</name>
+    <pinCode>600056</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Avadi Camp</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Janakipuram</name>
+    <pinCode>603303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karunguli</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>K.Nelvoy</name>
+    <pinCode>603312</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pavunjur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kadalur</name>
+    <pinCode>603305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuvathur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kadambadil</name>
+    <pinCode>603104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mamallapuram</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalikundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kadaperi</name>
+    <pinCode>600047</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Tambaram Sanatorium</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kadukkalur</name>
+    <pinCode>603401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chunampet</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kaliyampoondi</name>
+    <pinCode>603402</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kanchipuram</headoffice>
+    <location>Uttiramerur Taluk of Kanchipuram District</location>
+    <telephone>044-27222901</telephone>
+  </office>
+  <office>
+    <name>Kalkulam</name>
+    <pinCode>603312</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pavunjur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kallapiranpuram</name>
+    <pinCode>603308</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Padalam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kalpakkam</name>
+    <pinCode>603102</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalikundram Taluk of Kanchipuram District</location>
+    <telephone>044-27487095</telephone>
+  </office>
+  <office>
+    <name>Kalvoy</name>
+    <pinCode>603108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sembakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kammalampoondi</name>
+    <pinCode>603406</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Uttiramerur</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Uthiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kammavarpalayam</name>
+    <pinCode>631502</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Big Kanchipuram</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kanchipuram Collectorate</name>
+    <pinCode>631501</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kancheepuram Taluk of Kanchipuram District</location>
+    <telephone>044-27228090</telephone>
+  </office>
+  <office>
+    <name>Kanchipuram Cutchery</name>
+    <pinCode>631501</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kancheepuram Taluk of Kanchipuram District</location>
+    <telephone>044-27222901</telephone>
+  </office>
+  <office>
+    <name>Kanchipuram</name>
+    <pinCode>631501</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Kancheepuram Taluk of Kanchipuram District</location>
+    <telephone>044-27222080</telephone>
+  </office>
+  <office>
+    <name>Kandoor</name>
+    <pinCode>602108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pannur (Kanchipuram)</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kannivakkam</name>
+    <pinCode>603202</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Guduvanchery</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kannur</name>
+    <pinCode>602108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pannur (Kanchipuram)</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kappankottur</name>
+    <pinCode>631553</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edayarpakkam</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karai</name>
+    <pinCode>631552</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karaipettai</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karaipettai</name>
+    <pinCode>631552</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kancheepuram Taluk of Kanchipuram District</location>
+    <telephone>044-27222901</telephone>
+  </office>
+  <office>
+    <name>Karanaipuduchery</name>
+    <pinCode>603202</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Guduvanchery</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karapakkam</name>
+    <pinCode>600097</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>St.Thomas Mount</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>044-28342475</telephone>
+  </office>
+  <office>
+    <name>Karasangal</name>
+    <pinCode>603310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thozhupedu</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karumbakkam</name>
+    <pinCode>603108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sembakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karunguli</name>
+    <pinCode>603303</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone>044-27467162</telephone>
+  </office>
+  <office>
+    <name>Karunillam</name>
+    <pinCode>603204</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singaperumalkoil</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengallpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kasthuribainagar</name>
+    <pinCode>600059</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Tambaram East</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kathrichery</name>
+    <pinCode>603303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karunguli</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kattankolathur</name>
+    <pinCode>603203</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone>044-27452238</telephone>
+  </office>
+  <office>
+    <name>Kattiampandal</name>
+    <pinCode>603314</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vedanthangal</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kattu Karanaai</name>
+    <pinCode>603201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Elapakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kattudevadur</name>
+    <pinCode>603313</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chithamur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kattugudalur</name>
+    <pinCode>603301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Acharapakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kavanthandalam</name>
+    <pinCode>631603</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Magaral</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kavanur</name>
+    <pinCode>603203</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kattankolathur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kavanur Pudhucheri</name>
+    <pinCode>603406</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Uttiramerur</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kayapakkam</name>
+    <pinCode>603301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Acharapakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kayar</name>
+    <pinCode>603110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruporur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalikundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kayarambedu</name>
+    <pinCode>603202</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Guduvanchery</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Keelakattalai</name>
+    <pinCode>600117</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Keelavalam</name>
+    <pinCode>603303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karunguli</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kelambakkam</name>
+    <pinCode>603103</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Chingleput Taluk of Kanchipuram District</location>
+    <telephone>044-27475230</telephone>
+  </office>
+  <office>
+    <name>Kilacheri</name>
+    <pinCode>631402</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perambakkam</suboffice>
+    <headoffice>Tiruvallur</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kilakadi</name>
+    <pinCode>603107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Salavakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kilakattur</name>
+    <pinCode>631502</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Big Kanchipuram</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kiliyanagar</name>
+    <pinCode>603406</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Uttiramerur</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Maduranthakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kinar</name>
+    <pinCode>603303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karunguli</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kinar Kandigai Pudur</name>
+    <pinCode>603303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karunguli</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Koduvoor</name>
+    <pinCode>603305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuvathur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kokilamedu</name>
+    <pinCode>603104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mamallapuram</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalilkundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kolapakkam</name>
+    <pinCode>600048</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandalur</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Chinglepet Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kolathur</name>
+    <pinCode>600048</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandalur</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Chinglepet Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kolathur</name>
+    <pinCode>603304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kudapakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Koothavakkam</name>
+    <pinCode>603104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mamallapuram</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kothakuppam</name>
+    <pinCode>631202</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Athimanjeripeta</suboffice>
+    <headoffice>Tiruvallur</headoffice>
+    <location>Kancheepuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kottaikadu</name>
+    <pinCode>603304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kudapakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kottamedu</name>
+    <pinCode>603108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sembakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kovalam (Kanchipuram)</name>
+    <pinCode>603112</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Chinglepet Taluk of Kanchipuram District</location>
+    <telephone>044-27472442</telephone>
+  </office>
+  <office>
+    <name>Kovilambakkam</name>
+    <pinCode>600117</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Old Pallavaram</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kovilambakkam</name>
+    <pinCode>600129</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Sholinganallur Taluk of Kanchipuram District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Krishnapuram</name>
+    <pinCode>631551</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Balchettychatram</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kancheepuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kudapakkam</name>
+    <pinCode>603304</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyyur Taluk of Kanchipuram District</location>
+    <telephone>044-27431432</telephone>
+  </office>
+  <office>
+    <name>Kunnam</name>
+    <pinCode>631604</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thenneri</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kunnathur (Kanchipuram)</name>
+    <pinCode>600069</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Avadi Camp</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone>044-24780855</telephone>
+  </office>
+  <office>
+    <name>Kunnavakkam</name>
+    <pinCode>603002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Natham-chengalpattu</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kunnavakkam</name>
+    <pinCode>603107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Salavakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Uthiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuram</name>
+    <pinCode>631502</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Big Kanchipuram</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuvam</name>
+    <pinCode>631402</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perambakkam</suboffice>
+    <headoffice>Tiruvallur</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuvathur</name>
+    <pinCode>603305</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyyur Taluk of Kanchipuram District</location>
+    <telephone>044-27431432</telephone>
+  </office>
+  <office>
+    <name>Kuzhipanthandalam</name>
+    <pinCode>603105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manambathi</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalikundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>L.Endathur</name>
+    <pinCode>603406</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Uttiramerur</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Uttiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lakshmipuram</name>
+    <pinCode>600044</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Nagalkeni</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lathur</name>
+    <pinCode>603312</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pavunjur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lic Colony Tambaram</name>
+    <pinCode>600059</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Little Kanchipuram</name>
+    <pinCode>631501</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kancheepuram Taluk of Kanchipuram District</location>
+    <telephone>044-27222901</telephone>
+  </office>
+  <office>
+    <name>Madambakkam</name>
+    <pinCode>603202</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Guduvanchery</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalplattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Madambakkam</name>
+    <pinCode>600126</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Madayathur</name>
+    <pinCode>603108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sembakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalikundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Madhur</name>
+    <pinCode>603201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Elapakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Madhur</name>
+    <pinCode>631606</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palayaseevaram</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Madipakkam</name>
+    <pinCode>600091</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>St.Thomas Mount</headoffice>
+    <location>Saidapet Taluk of Kanchipuram District</location>
+    <telephone>044-22423976</telephone>
+  </office>
+  <office>
+    <name>Madipakkam South</name>
+    <pinCode>600091</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>St.Thomas Mount</headoffice>
+    <location>Saidapet Taluk of Kanchipuram District</location>
+    <telephone>044-28342475</telephone>
+  </office>
+  <office>
+    <name>Maduramangalam</name>
+    <pinCode>602108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pannur (Kanchipuram)</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Madurantakam</name>
+    <pinCode>603306</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone>044-27554626</telephone>
+  </office>
+  <office>
+    <name>Magaral</name>
+    <pinCode>631603</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone>044-27240330</telephone>
+  </office>
+  <office>
+    <name>Mahindra World City (Kanchipuram)</name>
+    <pinCode>603002</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone>044-27460027</telephone>
+  </office>
+  <office>
+    <name>Malaipattu</name>
+    <pinCode>601301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Padappai</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Malaivaiyavur</name>
+    <pinCode>603308</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Padalam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Malapalayam</name>
+    <pinCode>603303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karunguli</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Malayalipettai</name>
+    <pinCode>603303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karunguli</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Malayankulam</name>
+    <pinCode>631603</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Magaral</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Malliyankaranai</name>
+    <pinCode>603406</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Uttiramerur</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mamallapuram</name>
+    <pinCode>603104</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalikundram Taluk of Kanchipuram District</location>
+    <telephone>044-27442230</telephone>
+  </office>
+  <office>
+    <name>Mamandur</name>
+    <pinCode>603111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Venpakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mambakkam</name>
+    <pinCode>602106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sunguvarchatram</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mambakkam</name>
+    <pinCode>600048</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandalur</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Chinglepet Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manamai</name>
+    <pinCode>603102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalikundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manambathi</name>
+    <pinCode>603105</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone>044-27431432</telephone>
+  </office>
+  <office>
+    <name>Manampathi</name>
+    <pinCode>603403</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kanchipuram</headoffice>
+    <location>Uttiramerur Taluk of Kanchipuram District</location>
+    <telephone>044-27278630</telephone>
+  </office>
+  <office>
+    <name>Manampathikandigai</name>
+    <pinCode>603403</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manampathi</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Uthiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manapakkam</name>
+    <pinCode>600125</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mugalivakkam</suboffice>
+    <headoffice>Avadi Camp</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manapakkam</name>
+    <pinCode>603111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Venpakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mangadu</name>
+    <pinCode>600122</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Avadi Camp</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone>044-29040201</telephone>
+  </office>
+  <office>
+    <name>Manimangalam</name>
+    <pinCode>601301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Padappai</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mannivakkam</name>
+    <pinCode>600048</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandalur</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Chinglepet Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mappedu</name>
+    <pinCode>631402</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perambakkam</suboffice>
+    <headoffice>Tiruvallur</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mappedu</name>
+    <pinCode>600126</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Madambakkam</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maraimalai Nagar</name>
+    <pinCode>603209</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone>044-27452249</telephone>
+  </office>
+  <office>
+    <name>Maruthuvambadi</name>
+    <pinCode>603406</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Uttiramerur</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Uttiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mathur</name>
+    <pinCode>602105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sriperumbudur</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Medavakkam</name>
+    <pinCode>600100</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone>044-22771696</telephone>
+  </office>
+  <office>
+    <name>Meenambakkam</name>
+    <pinCode>600027</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>St.Thomas Mount</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone>044-22343135</telephone>
+  </office>
+  <office>
+    <name>Melaiyur</name>
+    <pinCode>603108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sembakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Melakkottaiyur</name>
+    <pinCode>600127</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Melavalam</name>
+    <pinCode>603303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karunguli</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Meleripakkam</name>
+    <pinCode>603002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Natham-chengalpattu</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Melkadirpur</name>
+    <pinCode>631502</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Big Kanchipuram</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Melmaduramangalam</name>
+    <pinCode>631553</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edayarpakkam</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Melmaruvathur</name>
+    <pinCode>603319</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyyur Taluk of Kanchipuram District</location>
+    <telephone>044-27529935</telephone>
+  </office>
+  <office>
+    <name>Melprumal Chery</name>
+    <pinCode>603102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Melrosapuram</name>
+    <pinCode>603204</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singaperumalkoil</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>MEPZ Tambaram</name>
+    <pinCode>600045</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Meyyur</name>
+    <pinCode>603111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Venpakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Maduranthakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Minnal Sithamur</name>
+    <pinCode>603307</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Orathy</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Morapakkam</name>
+    <pinCode>603306</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Madurantakam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mudichur</name>
+    <pinCode>600048</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Mugaiyur</name>
+    <pinCode>603305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuvathur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mugalivakkam</name>
+    <pinCode>600125</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Avadi Camp</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Mugundagiri</name>
+    <pinCode>603309</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Polambakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mullikolathur</name>
+    <pinCode>603109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirukalikundram</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirulkalikundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mullipakkam</name>
+    <pinCode>603105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manambathi</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalilkundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Murugampakkam</name>
+    <pinCode>603306</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Madurantakam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Musaravakkam</name>
+    <pinCode>631551</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Balchettychatram</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Muthavedu</name>
+    <pinCode>631551</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Balchettychatram</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Muthialpet</name>
+    <pinCode>631601</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Ayyampettai</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Muttukadu</name>
+    <pinCode>603112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kovalam (Kanchipuram)</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Chinglepet Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nagalkeni</name>
+    <pinCode>600044</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Naickenpet</name>
+    <pinCode>631601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ayyampettai</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nainarkuppam</name>
+    <pinCode>603302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cheyur (Kanchipuram)</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nallambakkam</name>
+    <pinCode>600048</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandalur</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Chinglepet Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nandambakkam</name>
+    <pinCode>600069</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kunnathur (Kanchipuram)</suboffice>
+    <headoffice>Avadi Camp</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nandambakkam Kudiyiruppu</name>
+    <pinCode>600089</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>St.Thomas Mount</headoffice>
+    <location>Saidapet Taluk of Kanchipuram District</location>
+    <telephone>044-22322504</telephone>
+  </office>
+  <office>
+    <name>Nanganallur Bazaar</name>
+    <pinCode>600061</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>St.Thomas Mount</headoffice>
+    <location>Saidapet Taluk of Kanchipuram District</location>
+    <telephone>044-28342475</telephone>
+  </office>
+  <office>
+    <name>Nanganallur</name>
+    <pinCode>600061</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>St.Thomas Mount</headoffice>
+    <location>Saidapet Taluk of Kanchipuram District</location>
+    <telephone>044-22241425</telephone>
+  </office>
+  <office>
+    <name>Narasingapuram</name>
+    <pinCode>631402</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perambakkam</suboffice>
+    <headoffice>Tiruvallur</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Natham-chengalpattu</name>
+    <pinCode>603002</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone>044-27423535</telephone>
+  </office>
+  <office>
+    <name>Nathanallur</name>
+    <pinCode>631605</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Walajabad</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Navalur</name>
+    <pinCode>603103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kelambakkam</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Chinglepet Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nedumaram</name>
+    <pinCode>603305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuvathur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Neelankarai</name>
+    <pinCode>600041</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Tiruvanmiyur</suboffice>
+    <headoffice>St.Thomas Mount</headoffice>
+    <location>Chennai City Corporation Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Neerpair</name>
+    <pinCode>603313</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chithamur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nehrunagar</name>
+    <pinCode>600044</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Radhanagar (Kanchipuram)</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nellikuppam</name>
+    <pinCode>603108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sembakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nelvoy</name>
+    <pinCode>603107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Salavakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Maduranthakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nemilichery</name>
+    <pinCode>600044</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Bharathipuram (Kanchipuram)</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nenmeli</name>
+    <pinCode>603002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Natham-chengalpattu</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nerkunam</name>
+    <pinCode>603310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thozhupedu</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nerkunappattu</name>
+    <pinCode>603305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuvathur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>New Mambakkam</name>
+    <pinCode>603306</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Madurantakam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Neyyadupakkam</name>
+    <pinCode>631603</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Magaral</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nilamangai Nagar</name>
+    <pinCode>600088</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>St.Thomas Mount</headoffice>
+    <location>Saidapet Taluk of Kanchipuram District</location>
+    <telephone>044-22601033</telephone>
+  </office>
+  <office>
+    <name>Ninnakarai</name>
+    <pinCode>603203</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kattankolathur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nirvalur</name>
+    <pinCode>631561</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Enathur</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nugumbal</name>
+    <pinCode>603313</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chithamur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Oggiamthoraipakkam</name>
+    <pinCode>600097</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>St.Thomas Mount</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>044-24962055</telephone>
+  </office>
+  <office>
+    <name>Olaiyur</name>
+    <pinCode>603107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Salavakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Uthiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Old Pallavaram</name>
+    <pinCode>600117</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>044-22471060</telephone>
+  </office>
+  <office>
+    <name>Old Perungalathur</name>
+    <pinCode>600063</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Srinivasanagar (Kanchipuram)</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Olimohamedpet</name>
+    <pinCode>631502</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Big Kanchipuram</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kancheepuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Olugarai</name>
+    <pinCode>631603</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Magaral</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Onambakkam</name>
+    <pinCode>603313</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chithamur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Oragadam</name>
+    <pinCode>603109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirukalikundram</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Orakattupettai</name>
+    <pinCode>603106</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone>044-27431432</telephone>
+  </office>
+  <office>
+    <name>Orathy</name>
+    <pinCode>603307</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Maduranthakam Taluk of Kanchipuram District</location>
+    <telephone>044-27431432</telephone>
+  </office>
+  <office>
+    <name>Orikkai</name>
+    <pinCode>631502</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Big Kanchipuram</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Otteri Extension</name>
+    <pinCode>600048</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Vandalur</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ozhalur</name>
+    <pinCode>603111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Venpakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalikundram` Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ozhavetti</name>
+    <pinCode>603311</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zamin Endathur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Padalam</name>
+    <pinCode>603308</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Maduranthakam Taluk of Kanchipuram District</location>
+    <telephone>044-27431432</telephone>
+  </office>
+  <office>
+    <name>Padappai</name>
+    <pinCode>601301</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone>044-27175014</telephone>
+  </office>
+  <office>
+    <name>Padiri</name>
+    <pinCode>603201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Elapakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Maduranthakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Padur</name>
+    <pinCode>603103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kelambakkam</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Chinglepet Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Padur</name>
+    <pinCode>631606</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palayaseevaram</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Uttiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Paiyambadi</name>
+    <pinCode>603309</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Polambakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pakkam</name>
+    <pinCode>603306</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Madurantakam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Palaiyur</name>
+    <pinCode>603302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cheyur (Kanchipuram)</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Palavakkam (Kanchipuram)</name>
+    <pinCode>600041</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>St.Thomas Mount</headoffice>
+    <location>Saidapet Taluk of Kanchipuram District</location>
+    <telephone>044-24512303</telephone>
+  </office>
+  <office>
+    <name>Palayanur</name>
+    <pinCode>603308</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Padalam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Palayaseevaram</name>
+    <pinCode>631606</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kanchipuram</headoffice>
+    <location>Uttiramerur Taluk of Kanchipuram District</location>
+    <telephone>044-27222901</telephone>
+  </office>
+  <office>
+    <name>Pallavaram</name>
+    <pinCode>600043</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>044-22641688</telephone>
+  </office>
+  <office>
+    <name>Palliagaram</name>
+    <pinCode>603107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Salavakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pallikaranai</name>
+    <pinCode>600100</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Palur</name>
+    <pinCode>603101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Athur-chengalpattu</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Palur</name>
+    <pinCode>603312</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pavunjur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pammal East</name>
+    <pinCode>600075</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Pammal</name>
+    <pinCode>600075</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>044-22484572</telephone>
+  </office>
+  <office>
+    <name>Panaiyur</name>
+    <pinCode>603302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cheyur (Kanchipuram)</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Panangottur</name>
+    <pinCode>603209</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Maraimalai Nagar</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pandur</name>
+    <pinCode>603109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirukalikundram</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalikundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pannur (Kanchipuram)</name>
+    <pinCode>602108</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kanchipuram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>044-27222901</telephone>
+  </office>
+  <office>
+    <name>Panruti</name>
+    <pinCode>631604</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thenneri</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperubudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Parandur</name>
+    <pinCode>631552</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karaipettai</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Paraniputhur</name>
+    <pinCode>600122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mangadu</suboffice>
+    <headoffice>Avadi Camp</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Paranur</name>
+    <pinCode>603002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Natham-chengalpattu</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Parukkal</name>
+    <pinCode>603301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Acharapakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pattaraikalani</name>
+    <pinCode>603102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pattipulam</name>
+    <pinCode>603104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mamallapuram</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalikundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pattunoolchatram</name>
+    <pinCode>602105</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kanchipuram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>044-27222901</telephone>
+  </office>
+  <office>
+    <name>Pavunjur</name>
+    <pinCode>603312</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyyur Taluk of Kanchipuram District</location>
+    <telephone>044-27539606</telephone>
+  </office>
+  <office>
+    <name>Pazhamathur</name>
+    <pinCode>603111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Venpakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pazhavanthangal</name>
+    <pinCode>600114</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>St.Thomas Mount</headoffice>
+    <location>Saidapet Taluk of Kanchipuram District</location>
+    <telephone>044-22311632</telephone>
+  </office>
+  <office>
+    <name>Pennalur</name>
+    <pinCode>602105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sriperumbudur</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Peria Irumbedu</name>
+    <pinCode>603105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manambathi</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Peria Venmeni</name>
+    <pinCode>603311</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zamin Endathur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Perukkaranai</name>
+    <pinCode>603309</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Polambakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Perumanallur</name>
+    <pinCode>631502</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Big Kanchipuram</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Perumbakkam</name>
+    <pinCode>603306</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Madurantakam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Perumbakkam</name>
+    <pinCode>603302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cheyur (Kanchipuram)</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Perumber Kandigai</name>
+    <pinCode>603310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thozhupedu</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Perunagar</name>
+    <pinCode>603403</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manampathi</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Uttiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Perungozhi</name>
+    <pinCode>603314</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vedanthangal</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Uttiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Perungudi</name>
+    <pinCode>600096</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>St.Thomas Mount</headoffice>
+    <location>Saidapet Taluk of Kanchipuram District</location>
+    <telephone>044-24960535</telephone>
+  </office>
+  <office>
+    <name>Perur</name>
+    <pinCode>603104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mamallapuram</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pichivakkam</name>
+    <pinCode>631553</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edayarpakkam</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pillaipakkam</name>
+    <pinCode>602105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sriperumbudur</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pillayarpalayam</name>
+    <pinCode>631501</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kancheepuram Taluk of Kanchipuram District</location>
+    <telephone>044-27222901</telephone>
+  </office>
+  <office>
+    <name>Polambakkam</name>
+    <pinCode>603309</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyyur Taluk of Kanchipuram District</location>
+    <telephone>044-27431432</telephone>
+  </office>
+  <office>
+    <name>Polichalur</name>
+    <pinCode>600074</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone>044-22632409</telephone>
+  </office>
+  <office>
+    <name>Pondur</name>
+    <pinCode>602105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sriperumbudur</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ponmar</name>
+    <pinCode>600048</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandalur</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Chinglepet Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ponpathirkoodam</name>
+    <pinCode>603405</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ponvilainthakalathur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ponvilainthakalathur</name>
+    <pinCode>603405</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone>044-27431432</telephone>
+  </office>
+  <office>
+    <name>Poonjeri</name>
+    <pinCode>603104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mamallapuram</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Porpandal</name>
+    <pinCode>603107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Salavakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Uttiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Porur</name>
+    <pinCode>600116</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Avadi Camp</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone>044-24767807</telephone>
+  </office>
+  <office>
+    <name>Pudupakkam</name>
+    <pinCode>603103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kelambakkam</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Chinglepet Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pudupattinam</name>
+    <pinCode>603102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pudupattinam Colony</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalukundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pudupattinam Colony</name>
+    <pinCode>603102</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalukundram Taluk of Kanchipuram District</location>
+    <telephone>044-27431432</telephone>
+  </office>
+  <office>
+    <name>Pudupattu</name>
+    <pinCode>603303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karunguli</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puliambakkam</name>
+    <pinCode>631605</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Walajabad</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pulipakkam</name>
+    <pinCode>603002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Natham-chengalpattu</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pulithivakkam</name>
+    <pinCode>603314</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vedanthangal</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Uttiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puliyur</name>
+    <pinCode>603109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirukalikundram</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalikundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pullalur</name>
+    <pinCode>631553</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edayarpakkam</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone>Not Available</telephone>
+  </office>
+  <office>
+    <name>Purisai</name>
+    <pinCode>631553</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edayarpakkam</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puthali</name>
+    <pinCode>631603</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Magaral</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puthirankottai</name>
+    <pinCode>603401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chunampet</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>R.N.Kandigai</name>
+    <pinCode>603403</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manampathi</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Radhanagar (Kanchipuram)</name>
+    <pinCode>600044</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>044-22651303</telephone>
+  </office>
+  <office>
+    <name>Rajajinagar (Kanchipuram)</name>
+    <pinCode>600043</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Rajakilpakkam</name>
+    <pinCode>600073</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Selaiyur</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rajakulam</name>
+    <pinCode>631561</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Enathur</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ramapuram</name>
+    <pinCode>603201</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Elapakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ramapuram (Kanchipuram)</name>
+    <pinCode>600089</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>St.Thomas Mount</headoffice>
+    <location>Saidapet Taluk of Kanchipuram District</location>
+    <telephone>044-28342475</telephone>
+  </office>
+  <office>
+    <name>Reddipalayam</name>
+    <pinCode>603101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Athur-chengalpattu</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>RRC</name>
+    <pinCode>603102</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Kalpakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalukundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Salavakkam</name>
+    <pinCode>603107</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Utiramerur Taluk of Kanchipuram District</location>
+    <telephone>044-27275030</telephone>
+  </office>
+  <office>
+    <name>Salur</name>
+    <pinCode>603405</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ponvilainthakalathur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sankaramutt</name>
+    <pinCode>631502</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kancheepuram Taluk of Kanchipuram District</location>
+    <telephone>044-27232338</telephone>
+  </office>
+  <office>
+    <name>Sathanjeri</name>
+    <pinCode>603106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Orakattupettai</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Uttiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sathyabama University</name>
+    <pinCode>600119</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>St.Thomas Mount</headoffice>
+    <location>Saidapet Taluk of Kanchipuram District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Seekanankuppam</name>
+    <pinCode>603305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuvathur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Seethananjeri</name>
+    <pinCode>603106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Orakattupettai</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Uttiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Seethapuram</name>
+    <pinCode>603301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Acharapakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Seevadi</name>
+    <pinCode>603312</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pavunjur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Selaiyur</name>
+    <pinCode>600073</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>044-22275793</telephone>
+  </office>
+  <office>
+    <name>Sembakkam</name>
+    <pinCode>603108</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalikundram Taluk of Kanchipuram District</location>
+    <telephone>044-27497766</telephone>
+  </office>
+  <office>
+    <name>Sembulipuram</name>
+    <pinCode>603304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kudapakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sendamangalam</name>
+    <pinCode>602106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sunguvarchatram</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sendivakkam</name>
+    <pinCode>603319</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Melmaruvathur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Senguntharpettai</name>
+    <pinCode>603306</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Maduranthakam Taluk of Kanchipuram District</location>
+    <telephone>044-27431432</telephone>
+  </office>
+  <office>
+    <name>Senneri</name>
+    <pinCode>603108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sembakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Serkadu</name>
+    <pinCode>631605</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Walajabad</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Serpananchery</name>
+    <pinCode>601301</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Padappai</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sevilimedu</name>
+    <pinCode>631502</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Big Kanchipuram</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sholinganallur</name>
+    <pinCode>600119</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>St.Thomas Mount</headoffice>
+    <location>Saidapet Taluk of Kanchipuram District</location>
+    <telephone>044-24502127</telephone>
+  </office>
+  <office>
+    <name>Singadivakkam</name>
+    <pinCode>631561</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Enathur</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Singaperumalkoil</name>
+    <pinCode>603204</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>044-27465300</telephone>
+  </office>
+  <office>
+    <name>Sinnivakkam</name>
+    <pinCode>631604</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thenneri</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sirudamur</name>
+    <pinCode>603307</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Orathy</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sirudavur</name>
+    <pinCode>603105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manambathi</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sirukalathur</name>
+    <pinCode>600069</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kunnathur (Kanchipuram)</suboffice>
+    <headoffice>Avadi Camp</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sirukaveripakkam</name>
+    <pinCode>631502</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Big Kanchipuram</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sirumailur</name>
+    <pinCode>603310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thozhupedu</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sirunagalur</name>
+    <pinCode>603319</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Melmaruvathur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sirunagar</name>
+    <pinCode>603310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thozhupedu</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sirungoli</name>
+    <pinCode>603406</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Uttiramerur</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sirunkundram</name>
+    <pinCode>603108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sembakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Siruvakkam</name>
+    <pinCode>631552</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karaipettai</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Siruvallur</name>
+    <pinCode>631552</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karaipettai</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sithalapakkam</name>
+    <pinCode>600126</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Madambakkam</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sogandi</name>
+    <pinCode>603405</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ponvilainthakalathur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Somangalam</name>
+    <pinCode>602109</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Avadi Camp</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>South Malayambakkam</name>
+    <pinCode>600069</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kunnathur (Kanchipuram)</suboffice>
+    <headoffice>Avadi Camp</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Srinivasanagar East</name>
+    <pinCode>600063</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Srinivasanagar (Kanchipuram)</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Srinivasanagar (Kanchipuram)</name>
+    <pinCode>600063</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone>044-22742397</telephone>
+  </office>
+  <office>
+    <name>Sriperumbudur</name>
+    <pinCode>602105</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone>044-27162116</telephone>
+  </office>
+  <office>
+    <name>Sriramachandra Deemed Uty</name>
+    <pinCode>600116</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Avadi Camp</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>St.Thomas Mount</name>
+    <pinCode>600016</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Saidapet Taluk of Kanchipuram District</location>
+    <telephone>044-22320694</telephone>
+  </office>
+  <office>
+    <name>State Bank Colony</name>
+    <pinCode>600059</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Tambaram East</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sundaram Colony</name>
+    <pinCode>600059</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Tambaram East</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sunguvarchatram</name>
+    <pinCode>602106</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kanchipuram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>044-27222901</telephone>
+  </office>
+  <office>
+    <name>Suradimangalam</name>
+    <pinCode>603102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalikundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tambaram East</name>
+    <pinCode>600059</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone>044-22390479</telephone>
+  </office>
+  <office>
+    <name>Tambaram</name>
+    <pinCode>600045</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone>044-22266203</telephone>
+  </office>
+  <office>
+    <name>Tambaram IAF</name>
+    <pinCode>600046</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone>044-22396433</telephone>
+  </office>
+  <office>
+    <name>Tambaram Sanatorium</name>
+    <pinCode>600047</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone>044-22382472</telephone>
+  </office>
+  <office>
+    <name>Tambaram West</name>
+    <pinCode>600045</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Thaiyur</name>
+    <pinCode>603103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kelambakkam</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Chinglepet Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thammanur</name>
+    <pinCode>631605</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Walajabad</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Uttiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thandalam</name>
+    <pinCode>602105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sriperumbudur</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thandalam</name>
+    <pinCode>600128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kovur</suboffice>
+    <headoffice>Avadi Camp</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thandarai</name>
+    <pinCode>603403</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manampathi</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thatchur</name>
+    <pinCode>603306</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Madurantakam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thathalur</name>
+    <pinCode>603109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirukalikundram</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalikundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thenambakkam</name>
+    <pinCode>631601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ayyampettai</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thenneri</name>
+    <pinCode>631604</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone>044-27222901</telephone>
+  </office>
+  <office>
+    <name>Thimamsamudram</name>
+    <pinCode>631502</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Big Kanchipuram</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thimmarajampettai</name>
+    <pinCode>631601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ayyampettai</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thimmavaram</name>
+    <pinCode>603101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Athur-chengalpattu</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thirumukkudal</name>
+    <pinCode>631606</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palayaseevaram</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thiruvidanthai</name>
+    <pinCode>603112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kovalam (Kanchipuram)</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Chingelpet Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thoopul</name>
+    <pinCode>631501</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kancheepuram Taluk of Kanchipuram District</location>
+    <telephone>044-27222901</telephone>
+  </office>
+  <office>
+    <name>Thozhupedu</name>
+    <pinCode>603310</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone>044-27431432</telephone>
+  </office>
+  <office>
+    <name>Tirukachinambi Street</name>
+    <pinCode>631501</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kancheepuram Taluk of Kanchipuram District</location>
+    <telephone>044-27222901</telephone>
+  </office>
+  <office>
+    <name>Tirukalikundram Bazaar</name>
+    <pinCode>603109</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalukundram Taluk of Kanchipuram District</location>
+    <telephone>044-27431432</telephone>
+  </office>
+  <office>
+    <name>Tirukalikundram</name>
+    <pinCode>603109</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalikundram Taluk of Kanchipuram District</location>
+    <telephone>044-27447128</telephone>
+  </office>
+  <office>
+    <name>Tirukatchur</name>
+    <pinCode>603204</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singaperumalkoil</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tirumani</name>
+    <pinCode>603111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Venpakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tirumudivakkam</name>
+    <pinCode>600044</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chromepet</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tiruneermalai</name>
+    <pinCode>600044</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chromepet</suboffice>
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tirupandiyur</name>
+    <pinCode>602108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pannur (Kanchipuram)</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tiruporur</name>
+    <pinCode>603110</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>044-2744530</telephone>
+  </office>
+  <office>
+    <name>Tirupulivanam</name>
+    <pinCode>603406</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Uttiramerur</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Uttiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tirusulam</name>
+    <pinCode>600043</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Tiruvadisoolam</name>
+    <pinCode>603108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sembakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tiruvadur</name>
+    <pinCode>603312</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pavunjur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tiruvanaikoil</name>
+    <pinCode>603106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Orakattupettai</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Uttiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tiruvandavar</name>
+    <pinCode>603308</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Padalam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tittalam</name>
+    <pinCode>603406</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Uttiramerur</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Uttiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ullavur</name>
+    <pinCode>631606</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palayaseevaram</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Unamalai</name>
+    <pinCode>603306</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Madurantakam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Urapakkam</name>
+    <pinCode>603210</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone>044-27431432</telephone>
+  </office>
+  <office>
+    <name>Uttiramerur</name>
+    <pinCode>603406</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kanchipuram</headoffice>
+    <location>Uthiramerur Taluk of Kanchipuram District</location>
+    <telephone>044-27272300</telephone>
+  </office>
+  <office>
+    <name>Uttukadu</name>
+    <pinCode>631605</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Walajabad</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vadakadambadi</name>
+    <pinCode>603104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mamallapuram</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalikundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vadakkupattu</name>
+    <pinCode>603204</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singaperumalkoil</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vadamanipakkam</name>
+    <pinCode>603307</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Orathy</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vadanallur</name>
+    <pinCode>603406</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Uttiramerur</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Uthiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vaiyavur</name>
+    <pinCode>631561</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Enathur</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Valarpuram</name>
+    <pinCode>602105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sriperumbudur</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Valathodu</name>
+    <pinCode>603107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Salavakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Uttiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Valathur</name>
+    <pinCode>631553</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edayarpakkam</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vallam</name>
+    <pinCode>603002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Natham-chengalpattu</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vallam</name>
+    <pinCode>603003</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone>044-27423535</telephone>
+  </office>
+  <office>
+    <name>Vallipuram</name>
+    <pinCode>603405</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ponvilainthakalathur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vandalur</name>
+    <pinCode>600048</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tambaram</headoffice>
+    <location>Tambaram Taluk of Kanchipuram District</location>
+    <telephone>044-22750800</telephone>
+  </office>
+  <office>
+    <name>Vannianallur</name>
+    <pinCode>603401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chunampet</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vanniarpettai</name>
+    <pinCode>603306</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Madurantakam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Maduranthakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Varanavasi</name>
+    <pinCode>631604</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thenneri</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vayalakkavur</name>
+    <pinCode>631603</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Magaral</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vayalur</name>
+    <pinCode>602105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sriperumbudur</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Sriperumbudur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vayalur</name>
+    <pinCode>603102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalikundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vazhuvadur</name>
+    <pinCode>603102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalikundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vedal</name>
+    <pinCode>631561</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Enathur</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vedal</name>
+    <pinCode>603304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kudapakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vedanthangal</name>
+    <pinCode>603314</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Uttiramerur Taluk of Kanchipuram District</location>
+    <telephone>044-27431432</telephone>
+  </office>
+  <office>
+    <name>Vedavakkam</name>
+    <pinCode>603303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karunguli</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Veeranakunnam</name>
+    <pinCode>603306</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Madurantakam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Veerapuram</name>
+    <pinCode>603109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirukalikundram</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalikundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Veliyur</name>
+    <pinCode>631502</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Big Kanchipuram</suboffice>
+    <headoffice>Kanchipuram</headoffice>
+    <location>Kanchipuram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vellaputhur</name>
+    <pinCode>603314</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vedanthangal</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Uttiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Velur</name>
+    <pinCode>603401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chunampet</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Venbedu</name>
+    <pinCode>603110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruporur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vengapakkam</name>
+    <pinCode>603102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalikundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Venkatapuram</name>
+    <pinCode>603204</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singaperumalkoil</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Venpakkam</name>
+    <pinCode>603111</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone>044-27431432</telephone>
+  </office>
+  <office>
+    <name>Vepancheri</name>
+    <pinCode>603305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuvathur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vilambur</name>
+    <pinCode>603304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kudapakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vilanganur</name>
+    <pinCode>603313</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chithamur</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Villiambakkam</name>
+    <pinCode>603101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Athur-chengalpattu</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vitchur</name>
+    <pinCode>603106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Orakattupettai</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Uttiramerur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vittilapuram</name>
+    <pinCode>603102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpakkam</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Tirukalukundram Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Walajabad</name>
+    <pinCode>631605</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kanchipuram</headoffice>
+    <location>Taluk of Kanchipuram District</location>
+    <telephone>044-27256010</telephone>
+  </office>
+  <office>
+    <name>Zamin Budur</name>
+    <pinCode>603302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cheyur (Kanchipuram)</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Cheyur Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zamin Endathur</name>
+    <pinCode>603311</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chengalpattu</headoffice>
+    <location>Madurantakam Taluk of Kanchipuram District</location>
+    <telephone>044-27431432</telephone>
+  </office>
+  <office>
+    <name>Zamin Paiyanur</name>
+    <pinCode>603104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mamallapuram</suboffice>
+    <headoffice>Chengalpattu</headoffice>
+    <location>Chengalpattu Taluk of Kanchipuram District</location>
+    <telephone />
+  </office>
+</offices>
