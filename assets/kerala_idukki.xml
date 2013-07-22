@@ -1,0 +1,2693 @@
+<offices>
+  <office>
+    <name>Adimali</name>
+    <pinCode>685561</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone>04864-222130</telephone>
+  </office>
+  <office>
+    <name>Adoormala</name>
+    <pinCode>685590</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kudayathur</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Alakode</name>
+    <pinCode>685588</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Kalayanthani</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Alpara</name>
+    <pinCode>685606</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kanjikuzhi - Idukki</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Amaravathy</name>
+    <pinCode>685509</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kumily</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Amayapra</name>
+    <pinCode>685595</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Udumbannur</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Anakkara (Idukki)</name>
+    <pinCode>685512</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone>04868-282221</telephone>
+  </office>
+  <office>
+    <name>Anakulam</name>
+    <pinCode>685565</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chithirapuram</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Anavilasam</name>
+    <pinCode>685535</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Murukady</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Anaviratty</name>
+    <pinCode>685561</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Adimali</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Anayirankal</name>
+    <pinCode>685613</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Devikulam</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Anchiri</name>
+    <pinCode>685585</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thodupuzha East</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Anniyartholu</name>
+    <pinCode>685515</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kattappana South</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Arakulam</name>
+    <pinCode>685591</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone>04862-252035</telephone>
+  </office>
+  <office>
+    <name>Arnakal</name>
+    <pinCode>685533</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandiperiyar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Arikuzha</name>
+    <pinCode>685608</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vengallur</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Aruvilanchal</name>
+    <pinCode>685619</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Santhanpara</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Attapallam</name>
+    <pinCode>685509</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kumily</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ayyappancoil</name>
+    <pinCode>685507</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone>04869-244244</telephone>
+  </office>
+  <office>
+    <name>Balagram</name>
+    <pinCode>685552</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kallar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bethel</name>
+    <pinCode>685514</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Erattayar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bisonvalley</name>
+    <pinCode>685565</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chithirapuram</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>C. Kuthumkal</name>
+    <pinCode>685566</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Rajakad</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Calvari Mount</name>
+    <pinCode>685515</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kattappana South</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chakkupallam</name>
+    <pinCode>685509</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kumily</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chathurangapara</name>
+    <pinCode>685554</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Udumbanchola</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chattamannar</name>
+    <pinCode>685614</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Talliar</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cheenikuzhi</name>
+    <pinCode>685595</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Udumbannur</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cheenthalar</name>
+    <pinCode>685501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Elappara</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chelachuvadu</name>
+    <pinCode>685606</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kanjikuzhi - Idukki</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chellarcoil</name>
+    <pinCode>685512</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Anakkara (Idukki)</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chembalam</name>
+    <pinCode>685553</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nedumkandam</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chemmannar</name>
+    <pinCode>685554</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Udumbanchola</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chempakapara</name>
+    <pinCode>685514</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Erattayar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chenkara</name>
+    <pinCode>685533</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandiperiyar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cheppukulam</name>
+    <pinCode>685581</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karimannoor</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chilavu</name>
+    <pinCode>685588</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalayanthani</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chinnakanal</name>
+    <pinCode>685618</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Surianalle</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chinnar</name>
+    <pinCode>685501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Elappara</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chithirapuram</name>
+    <pinCode>685565</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone>04865-263230</telephone>
+  </office>
+  <office>
+    <name>Chottupara</name>
+    <pinCode>685552</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kallar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chottupara Periyar</name>
+    <pinCode>685533</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandiperiyar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Combayar</name>
+    <pinCode>685552</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kallar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cumbumbettu</name>
+    <pinCode>685551</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandanmettu</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Devarupara</name>
+    <pinCode>685588</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalayanthani</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Devikulam</name>
+    <pinCode>685613</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone>04865-264230</telephone>
+  </office>
+  <office>
+    <name>Dymock</name>
+    <pinCode>685533</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandiperiyar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Edad-idukki</name>
+    <pinCode>685589</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moolamattom</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Edavetty</name>
+    <pinCode>685588</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalayanthani</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Elamdesom</name>
+    <pinCode>685588</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalayanthani</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Elappara</name>
+    <pinCode>685501</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kattappana</headoffice>
+    <location>Peermade Taluk of Idukki District</location>
+    <telephone>04869-242240</telephone>
+  </office>
+  <office>
+    <name>Ellakallu</name>
+    <pinCode>685565</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chithirapuram</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ellapatti</name>
+    <pinCode>685615</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone>04865-230280</telephone>
+  </office>
+  <office>
+    <name>Ellumpuram</name>
+    <pinCode>685587</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Muttom EK</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Erattayar North</name>
+    <pinCode>685514</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Erattayar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Erattayar</name>
+    <pinCode>685514</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone>04868-276247</telephone>
+  </office>
+  <office>
+    <name>Ettithope</name>
+    <pinCode>685514</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Erattayar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ezhallur</name>
+    <pinCode>685605</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Muthalakodam</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ezhukunvayal</name>
+    <pinCode>685553</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nedumkandam</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ezhumuttom</name>
+    <pinCode>685605</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Muthalakodam</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Fair Field</name>
+    <pinCode>685501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Elappara</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Glenmary</name>
+    <pinCode>685531</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Peermade</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gramby</name>
+    <pinCode>685533</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandiperiyar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gudarle</name>
+    <pinCode>685612</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Munnar</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Haileyburia</name>
+    <pinCode>685501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Elappara</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Idinjamala</name>
+    <pinCode>685514</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Erattayar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Idukki Colony</name>
+    <pinCode>685602</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kattappana</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone>04862-235210</telephone>
+  </office>
+  <office>
+    <name>Idukki Painavu</name>
+    <pinCode>685603</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kattappana</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone>04862-232556</telephone>
+  </office>
+  <office>
+    <name>Ilappally</name>
+    <pinCode>685589</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moolamattom</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Josegiri</name>
+    <pinCode>685565</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chithirapuram</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kadamakuzhy</name>
+    <pinCode>685515</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kattappana South</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kailasanadu</name>
+    <pinCode>685553</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nedumkandam</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kalayanthani</name>
+    <pinCode>685588</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone>04862-276508</telephone>
+  </office>
+  <office>
+    <name>Kaliyar</name>
+    <pinCode>685607</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vannapuram</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kallar</name>
+    <pinCode>685552</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone>04868-236240</telephone>
+  </office>
+  <office>
+    <name>Kallarkutty</name>
+    <pinCode>685562</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone>04864-274238</telephone>
+  </office>
+  <office>
+    <name>Kaloor East</name>
+    <pinCode>685608</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vengallur</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kalthotty</name>
+    <pinCode>685507</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ayyappancoil</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kamakshy</name>
+    <pinCode>685515</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kattappana South</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kanayankavayal</name>
+    <pinCode>685532</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Peruvanthanam</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kanchiyar</name>
+    <pinCode>685511</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone>04868-271305</telephone>
+  </office>
+  <office>
+    <name>Kanjar</name>
+    <pinCode>685590</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kudayathur</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kanjikuzhi - Idukki</name>
+    <pinCode>685606</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kattappana</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone>04862-238020</telephone>
+  </office>
+  <office>
+    <name>Kannickal</name>
+    <pinCode>685589</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moolamattom</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kanthallur</name>
+    <pinCode>685620</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Maraiyur</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karadikuzhy</name>
+    <pinCode>685531</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Peermade</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karimannoor</name>
+    <pinCode>685581</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone>04862-262060</telephone>
+  </office>
+  <office>
+    <name>Karimkulam Chappath</name>
+    <pinCode>685505</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Upputhara</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karimkunnam</name>
+    <pinCode>685586</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone>04862-242330</telephone>
+  </office>
+  <office>
+    <name>Karippalangad</name>
+    <pinCode>685601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kulamavu</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karunapuram</name>
+    <pinCode>685552</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kallar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kattappana</name>
+    <pinCode>685508</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone>04868-272392</telephone>
+  </office>
+  <office>
+    <name>Kattappana South</name>
+    <pinCode>685515</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone>04868-272354</telephone>
+  </office>
+  <office>
+    <name>Keerikara</name>
+    <pinCode>685533</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandiperiyar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Keerithode</name>
+    <pinCode>685606</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kanjikuzhi - Idukki</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khajanapara</name>
+    <pinCode>685619</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Santhanpara</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kochara</name>
+    <pinCode>685551</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandanmettu</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kochukarimtharuvi</name>
+    <pinCode>685501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Elappara</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kochuthovala</name>
+    <pinCode>685514</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Erattayar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kodikulam</name>
+    <pinCode>685582</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone>04862-264330</telephone>
+  </office>
+  <office>
+    <name>Koduveli</name>
+    <pinCode>685581</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karimannoor</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kolahalamedu</name>
+    <pinCode>685501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Elappara</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kolani</name>
+    <pinCode>685608</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vengallur</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Konnackamali</name>
+    <pinCode>685604</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Murickassery</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Konnathady</name>
+    <pinCode>685563</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vellathooval</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Koompanpara</name>
+    <pinCode>685561</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Adimali</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Koottar</name>
+    <pinCode>685552</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kallar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Koovakandam</name>
+    <pinCode>685588</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalayanthani</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Koovakandam</name>
+    <pinCode>685588</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalayanthani</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Koovappally-kudayathur</name>
+    <pinCode>685590</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kudayathur</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Korangatti</name>
+    <pinCode>685561</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Adimali</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kottakomboor</name>
+    <pinCode>685615</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ellapatti</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kottamala</name>
+    <pinCode>685503</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vagamon</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Koviloor</name>
+    <pinCode>685615</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ellapatti</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kozhimala</name>
+    <pinCode>685511</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kanchiyar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kudayathur</name>
+    <pinCode>685590</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone>04862-255040</telephone>
+  </office>
+  <office>
+    <name>Kulamavu</name>
+    <pinCode>685601</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kattappana</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone>04862-259910</telephone>
+  </office>
+  <office>
+    <name>Kulaparachal</name>
+    <pinCode>685619</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Santhanpara</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kumaramangala</name>
+    <pinCode>685608</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vengallur</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kumily</name>
+    <pinCode>685509</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kattappana</headoffice>
+    <location>Peermade Taluk of Idukki District</location>
+    <telephone>04869-222031</telephone>
+  </office>
+  <office>
+    <name>Kunchithanni</name>
+    <pinCode>685565</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chithirapuram</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuninji</name>
+    <pinCode>685583</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vazhithala</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuppakkayam</name>
+    <pinCode>686513</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mundakayam</suboffice>
+    <headoffice>Kanjirapally</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuttikanam</name>
+    <pinCode>685531</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Peermade</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuzhithozhu</name>
+    <pinCode>685551</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandanmettu</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lakshmi Coil</name>
+    <pinCode>685531</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Peermade</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lonetree</name>
+    <pinCode>685505</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Upputhara</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Machiplavu</name>
+    <pinCode>685561</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Adimali</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mailacombu</name>
+    <pinCode>685608</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vengallur</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Malayinchi</name>
+    <pinCode>685595</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Udumbannur</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mali</name>
+    <pinCode>685551</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandanmettu</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mammattikanam</name>
+    <pinCode>685566</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Rajakad</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manakkad</name>
+    <pinCode>685608</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vengallur</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manipara</name>
+    <pinCode>685602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idukki Colony</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maniyaramkudy</name>
+    <pinCode>685602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idukki Colony</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manjappara</name>
+    <pinCode>685553</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nedumkandam</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mankulam</name>
+    <pinCode>685565</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chithirapuram</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mankuva</name>
+    <pinCode>685604</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Murickassery</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mannamkandam</name>
+    <pinCode>685561</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Adimali</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maraiyur</name>
+    <pinCode>685620</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone>04865-252230</telephone>
+  </office>
+  <office>
+    <name>Marigiri</name>
+    <pinCode>685609</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thankamany</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mariyapuram</name>
+    <pinCode>685602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idukki Colony</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mathaipara</name>
+    <pinCode>685505</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Upputhara</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mattupatty ISP</name>
+    <pinCode>685616</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mattuppatti</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mattuppatti</name>
+    <pinCode>685616</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone>04865-230280</telephone>
+  </office>
+  <office>
+    <name>Mattuthavalam</name>
+    <pinCode>685505</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Upputhara</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mavady</name>
+    <pinCode>685553</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nedumkandam</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Meencut</name>
+    <pinCode>685565</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chithirapuram</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Melekuppachampady</name>
+    <pinCode>685514</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Erattayar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Meloram</name>
+    <pinCode>685532</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Peruvanthanam</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peermade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Michaelgiri</name>
+    <pinCode>685620</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Maraiyur</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Moolakad</name>
+    <pinCode>685595</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Udumbannur</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Moolamattom East</name>
+    <pinCode>685589</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moolamattom</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Moolamattom</name>
+    <pinCode>685589</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone>04862-252021</telephone>
+  </office>
+  <office>
+    <name>Moongalar</name>
+    <pinCode>685533</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandiperiyar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mount</name>
+    <pinCode>685533</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandiperiyar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mrala</name>
+    <pinCode>685587</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Muttom EK</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mukkudam</name>
+    <pinCode>685562</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kallarkutty</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mukkudil</name>
+    <pinCode>685566</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Rajakad</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mukkulam</name>
+    <pinCode>686514</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Koottickal</suboffice>
+    <headoffice>Kanjirapally</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mukkulam East</name>
+    <pinCode>686514</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Koottickal</suboffice>
+    <headoffice>Kanjirapally</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mulakaramedu</name>
+    <pinCode>685515</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kattappana South</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mulakuvally</name>
+    <pinCode>685602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idukki Colony</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mulappuram</name>
+    <pinCode>685581</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karimannoor</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mullarikudy</name>
+    <pinCode>685571</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Parathode (Idukki)</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mullaringadu</name>
+    <pinCode>685607</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vannapuram</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mundakayam East</name>
+    <pinCode>686513</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mundakayam</suboffice>
+    <headoffice>Kanjirapally</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mundanmudy</name>
+    <pinCode>685607</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vannapuram</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Muniyara</name>
+    <pinCode>685571</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Parathode (Idukki)</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Munnar Colony</name>
+    <pinCode>685612</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Munnar</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Munnar</name>
+    <pinCode>685612</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone>04869-222031</telephone>
+  </office>
+  <office>
+    <name>Murickassery</name>
+    <pinCode>685604</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone>04868-263230</telephone>
+  </office>
+  <office>
+    <name>Murinjapuzha</name>
+    <pinCode>685532</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Peruvanthanam</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Murukady</name>
+    <pinCode>685535</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone>04869-222032</telephone>
+  </office>
+  <office>
+    <name>Muthalakodam</name>
+    <pinCode>685605</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone>04862-222715</telephone>
+  </office>
+  <office>
+    <name>Muttom EK</name>
+    <pinCode>685587</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone>04862-255030</telephone>
+  </office>
+  <office>
+    <name>N R City</name>
+    <pinCode>685566</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Rajakad</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Narakakanam</name>
+    <pinCode>685602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idukki Colony</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nariampara</name>
+    <pinCode>685511</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kanchiyar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nayarupara</name>
+    <pinCode>685602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idukki Colony</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nediyasala</name>
+    <pinCode>685608</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vengallur</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nedumkandam</name>
+    <pinCode>685553</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone>04868-232280</telephone>
+  </office>
+  <office>
+    <name>Nellipara</name>
+    <pinCode>685515</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kattappana South</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nettithozhu</name>
+    <pinCode>685551</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandanmettu</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Neyyassery</name>
+    <pinCode>685581</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karimannoor</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ottalloor</name>
+    <pinCode>685586</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karimkunnam</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pachady</name>
+    <pinCode>685553</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nedumkandam</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pachakanam</name>
+    <pinCode>685533</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandiperiyar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Padamugham</name>
+    <pinCode>685604</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Murickassery</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Padicap</name>
+    <pinCode>685561</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Adimali</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pallikunnu</name>
+    <pinCode>685531</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Peermade</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pallivasal</name>
+    <pinCode>685565</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chithirapuram</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pallivasal Estate</name>
+    <pinCode>685612</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Munnar</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Paloorkavu</name>
+    <pinCode>685532</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Peruvanthanam</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Paloorkavu Central</name>
+    <pinCode>685532</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Peruvanthanam</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pambanar</name>
+    <pinCode>685531</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Peermade</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pampa Dam</name>
+    <pinCode>685533</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandiperiyar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pampadumpara</name>
+    <pinCode>685553</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nedumkandam</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pampupara</name>
+    <pinCode>685551</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandanmettu</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Panamkutty</name>
+    <pinCode>685562</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kallarkutty</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pandipara</name>
+    <pinCode>685609</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thankamany</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Panickankudy</name>
+    <pinCode>685571</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Parathode (Idukki)</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Panniar Estate</name>
+    <pinCode>685613</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Devikulam</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pannimattom</name>
+    <pinCode>685588</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalayanthani</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pannoor</name>
+    <pinCode>685581</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karimannoor</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Parapuzha</name>
+    <pinCode>685582</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kodikulam</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Parathode (Idukki)</name>
+    <pinCode>685571</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone>04864-276767</telephone>
+  </office>
+  <office>
+    <name>Pasupara</name>
+    <pinCode>685501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Elappara</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pathippally</name>
+    <pinCode>685589</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moolamattom</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pazhayarikandam</name>
+    <pinCode>685606</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kanjikuzhi - Idukki</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Peermade</name>
+    <pinCode>685531</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kattappana</headoffice>
+    <location>Peermade Taluk of Idukki District</location>
+    <telephone>04869-232073</telephone>
+  </office>
+  <office>
+    <name>Perinchankutty</name>
+    <pinCode>685604</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Murickassery</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Peringassery</name>
+    <pinCode>685595</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Udumbannur</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Periyar Lake</name>
+    <pinCode>685509</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Kumily</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Perumpillichira</name>
+    <pinCode>685605</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Muthalakodam</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Perumthotty</name>
+    <pinCode>685609</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thankamany</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Peruvanthanam</name>
+    <pinCode>685532</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kattappana</headoffice>
+    <location>Peermade Taluk of Idukki District</location>
+    <telephone>04869-280039</telephone>
+  </office>
+  <office>
+    <name>Pethotty</name>
+    <pinCode>685619</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Santhanpara</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pius Nagar</name>
+    <pinCode>685620</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Maraiyur</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ponmudi</name>
+    <pinCode>685563</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vellathooval</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Poopara</name>
+    <pinCode>685619</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Santhanpara</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pothamedu</name>
+    <pinCode>685612</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Munnar</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pottenkad</name>
+    <pinCode>685565</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chithirapuram</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Prakash</name>
+    <pinCode>685609</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thankamany</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pulickathotty</name>
+    <pinCode>685607</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vannapuram</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puliyanmala</name>
+    <pinCode>685515</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kattappana South</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pullikkanam</name>
+    <pinCode>685503</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vagamon</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Purapuzha</name>
+    <pinCode>685583</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vazhithala</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pushpakandam</name>
+    <pinCode>685552</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kallar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puthady</name>
+    <pinCode>685619</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Santhanpara</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puttady</name>
+    <pinCode>685551</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandanmettu</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rajakad</name>
+    <pinCode>685566</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone>04868-242330</telephone>
+  </office>
+  <office>
+    <name>Rajakandam</name>
+    <pinCode>685551</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandanmettu</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rajakumari</name>
+    <pinCode>685619</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Santhanpara</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rajakumari South</name>
+    <pinCode>685619</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Santhanpara</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rajamudi</name>
+    <pinCode>685604</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Murickassery</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rajapuram</name>
+    <pinCode>685604</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Murickassery</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ramakkal Mettu</name>
+    <pinCode>685552</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kallar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sahayagiri</name>
+    <pinCode>685620</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Maraiyur</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sahayagiri</name>
+    <pinCode>685620</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Maraiyur</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sanniasioda</name>
+    <pinCode>685552</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kallar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Santhanpara</name>
+    <pinCode>685619</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone>04868-247024</telephone>
+  </office>
+  <office>
+    <name>Santhigram</name>
+    <pinCode>685514</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Erattayar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sasthanoda</name>
+    <pinCode>685535</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Murukady</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Selliampara</name>
+    <pinCode>685563</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vellathooval</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Senapathy</name>
+    <pinCode>685619</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Santhanpara</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sengulam</name>
+    <pinCode>685565</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chithirapuram</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sethuparvathipuram</name>
+    <pinCode>685615</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ellapatti</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sinkukandam</name>
+    <pinCode>685618</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Surianalle</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>South Kathipara</name>
+    <pinCode>685562</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kallarkutty</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Springvalley</name>
+    <pinCode>685509</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kumily</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peermade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Surianalle</name>
+    <pinCode>685618</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone>04868-249629</telephone>
+  </office>
+  <office>
+    <name>Talliar</name>
+    <pinCode>685614</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone>04865-257202</telephone>
+  </office>
+  <office>
+    <name>Thadiampadu</name>
+    <pinCode>685602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idukki Colony</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thankamany</name>
+    <pinCode>685609</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone>04868-226300</telephone>
+  </office>
+  <office>
+    <name>Thattakuzha</name>
+    <pinCode>685581</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karimannoor</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thattarathatta</name>
+    <pinCode>685586</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karimkunnam</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thattekanni</name>
+    <pinCode>685606</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kanjikuzhi - Idukki</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thekkady</name>
+    <pinCode>685509</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kumily</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thekkumbhagam</name>
+    <pinCode>685585</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thodupuzha East</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thengakal</name>
+    <pinCode>685533</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandiperiyar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thodupuzha East</name>
+    <pinCode>685585</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone>04862-222560</telephone>
+  </office>
+  <office>
+    <name>Thodupuzha</name>
+    <pinCode>685584</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone>04862-222286</telephone>
+  </office>
+  <office>
+    <name>Thodupuzha -puthuperiyaram</name>
+    <pinCode>685608</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vengallur</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thodupuzha West</name>
+    <pinCode>685584</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone>0486-2220550</telephone>
+  </office>
+  <office>
+    <name>Thokkupara</name>
+    <pinCode>685565</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chithirapuram</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thommankuthu</name>
+    <pinCode>685581</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karimannoor</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thoppipala</name>
+    <pinCode>685511</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kanchiyar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thopramkduy</name>
+    <pinCode>685609</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thankamany</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thovarayar</name>
+    <pinCode>685511</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kanchiyar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thudanganad</name>
+    <pinCode>685587</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Muttom EK</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Udumbanchola</name>
+    <pinCode>685554</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone>04868-237214</telephone>
+  </office>
+  <office>
+    <name>Udumbannur</name>
+    <pinCode>685595</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone>04862-270600</telephone>
+  </office>
+  <office>
+    <name>Uppukandam</name>
+    <pinCode>685514</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Erattayar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Upputhara</name>
+    <pinCode>685505</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kattappana</headoffice>
+    <location>Peermade Taluk of Idukki District</location>
+    <telephone>04869-244230</telephone>
+  </office>
+  <office>
+    <name>Upputhode</name>
+    <pinCode>685604</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Murickassery</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vadakkummury</name>
+    <pinCode>685586</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karimkunnam</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vagamon</name>
+    <pinCode>685503</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kattappana</headoffice>
+    <location>Peermade Taluk of Idukki District</location>
+    <telephone>04869-248230</telephone>
+  </office>
+  <office>
+    <name>Valara</name>
+    <pinCode>685561</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Adimali</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Valiyathovala</name>
+    <pinCode>685514</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Erattayar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vallakadavu Periyar</name>
+    <pinCode>685533</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandiperiyar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vandamattom</name>
+    <pinCode>685582</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kodikulam</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vandanmettu</name>
+    <pinCode>685551</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone>04868-277021</telephone>
+  </office>
+  <office>
+    <name>Vandiperiyar</name>
+    <pinCode>685533</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kattappana</headoffice>
+    <location>Peermade Taluk of Idukki District</location>
+    <telephone>04869-252213</telephone>
+  </office>
+  <office>
+    <name>Vannapuram</name>
+    <pinCode>685607</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone>04862-685607</telephone>
+  </office>
+  <office>
+    <name>Vattappara (UBC)</name>
+    <pinCode>685619</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Santhanpara</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vattiar</name>
+    <pinCode>685565</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chithirapuram</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Devikulam Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vazhavara</name>
+    <pinCode>685515</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kattappana South</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vazhithala</name>
+    <pinCode>685583</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone>04862-273040</telephone>
+  </office>
+  <office>
+    <name>Vellaramkunnu</name>
+    <pinCode>685535</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Murukady</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vellathooval</name>
+    <pinCode>685563</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone>04862-685607</telephone>
+  </office>
+  <office>
+    <name>Vellayamkudy</name>
+    <pinCode>685515</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kattappana South</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Velliyamattom</name>
+    <pinCode>685588</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalayanthani</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vengallur</name>
+    <pinCode>685608</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone>04862-229171</telephone>
+  </office>
+  <office>
+    <name>Venmony</name>
+    <pinCode>685606</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kanjikuzhi - Idukki</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vimalagiri</name>
+    <pinCode>685602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Idukki Colony</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Udumbanchola Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wallardie</name>
+    <pinCode>685533</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vandiperiyar</suboffice>
+    <headoffice>Kattappana</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wembly</name>
+    <pinCode>686514</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Koottickal</suboffice>
+    <headoffice>Kanjirapally</headoffice>
+    <location>Peerumade Taluk of Idukki District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>West Kodikulam</name>
+    <pinCode>685582</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kodikulam</suboffice>
+    <headoffice>Thodupuzha</headoffice>
+    <location>Thodupuzha Taluk of Idukki District</location>
+    <telephone />
+  </office>
+</offices>
