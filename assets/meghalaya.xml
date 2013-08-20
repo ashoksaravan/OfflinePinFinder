@@ -1,0 +1,4277 @@
+<offices>
+  <office>
+    <name>Adakgiri</name>
+    <pinCode>783123</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dhupdhara</suboffice>
+    <headoffice>Dhubri</headoffice>
+    <location>Dambo Rongjeng Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Balkinigiri</name>
+    <pinCode>794111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Williamnagar</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Williamnagar Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dabu</name>
+    <pinCode>794110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Rongjeng</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Rongjeng Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dagal</name>
+    <pinCode>794108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Resubelpara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Resubelpara Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dainadubi</name>
+    <pinCode>794110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Rongjeng</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Rongjeng Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dajongpara</name>
+    <pinCode>794002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lower Chandmari</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Lower Chandmari Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Daram</name>
+    <pinCode>794108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Resubelpara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Resubelpara Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Darugiri</name>
+    <pinCode>794110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Rongjeng</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Rongjeng Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dokangsi</name>
+    <pinCode>794110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Rongjeng</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Ronjeng Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gairong</name>
+    <pinCode>794110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Rongjeng</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Rongjeng Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gambil</name>
+    <pinCode>794110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Rongjeng</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Ronjeng Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Haluapara</name>
+    <pinCode>794108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Resubelpara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Resubelpara Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jadigitim</name>
+    <pinCode>794107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nangwalbibra</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Nangwalbibra Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kharkutta</name>
+    <pinCode>783134</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Darragiri</suboffice>
+    <headoffice>Dhubri</headoffice>
+    <location>Dudnai Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mangsang</name>
+    <pinCode>794110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Rongjeng</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Rongjeng Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongcharan</name>
+    <pinCode>794110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Rongjeng</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Rongjeng Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Raja Apal</name>
+    <pinCode>794002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lower Chandmari</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Lower Chandmari Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rajapara</name>
+    <pinCode>793106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Balat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rombagiri</name>
+    <pinCode>794111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Williamnagar</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Williamnagar Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ronga Agal</name>
+    <pinCode>794110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Rongjeng</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Rongjeng Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rongchek Akhong</name>
+    <pinCode>794110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Rongjeng</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Rongjeng Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rongjeng</name>
+    <pinCode>794110</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tura</headoffice>
+    <location>Rongjeng Taluk of East Garo Hills District</location>
+    <telephone>03658-261230</telephone>
+  </office>
+  <office>
+    <name>Rongmil</name>
+    <pinCode>794110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Rongjeng</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Rongjeng Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rongrengiri</name>
+    <pinCode>794111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Williamnagar</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Williamnagar Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rongrong</name>
+    <pinCode>794108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Resubelpara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Resubelpara Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rongsakgiri</name>
+    <pinCode>794111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Williamnagar</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Williamnagar Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sakhadongiri</name>
+    <pinCode>794111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Williamnagar</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Williamnagar Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Samanda</name>
+    <pinCode>794111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Williamnagar</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Williamnagar Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Songsak</name>
+    <pinCode>794111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Williamnagar</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Williamnagar Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thapa</name>
+    <pinCode>794108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Resubelpara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Resubelpara Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wagachi</name>
+    <pinCode>794110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Rongjeng</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Rongjeng Taluk of East Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Williamnagar</name>
+    <pinCode>794111</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tura</headoffice>
+    <location>Williamnagar Taluk of East Garo Hills District</location>
+    <telephone>03658-220680</telephone>
+  </office>
+  <office>
+    <name>Assam Rifles</name>
+    <pinCode>793011</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Shillong Taluk of East Khasi Hills District</location>
+    <telephone>0364-2230024</telephone>
+  </office>
+  <office>
+    <name>Balat</name>
+    <pinCode>793106</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Balat Taluk of East Khasi Hills District</location>
+    <telephone>0364-2260304</telephone>
+  </office>
+  <office>
+    <name>Bholaganj Bazar</name>
+    <pinCode>793107</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Bholaganj Bazar Taluk of East Khasi Hills District</location>
+    <telephone>0364-2222325</telephone>
+  </office>
+  <office>
+    <name>Bishnupur</name>
+    <pinCode>793004</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Laban</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Shillong Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cherrabazar</name>
+    <pinCode>793111</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Cherrabazar Taluk of East Khasi Hills District</location>
+    <telephone>03637-235230</telephone>
+  </office>
+  <office>
+    <name>Cherrapunjee</name>
+    <pinCode>793108</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Cherrapunjee Taluk of East Khasi Hills District</location>
+    <telephone>03637-235228</telephone>
+  </office>
+  <office>
+    <name>Dalia</name>
+    <pinCode>793112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Shella</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Shella Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dawki</name>
+    <pinCode>793109</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Dawki Taluk of East Khasi Hills District</location>
+    <telephone>03653-222221</telephone>
+  </office>
+  <office>
+    <name>Dholai</name>
+    <pinCode>793106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Balat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Balat Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Diengiei</name>
+    <pinCode>793005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Upper Shillong</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Upper Shillong Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Diengpasoh</name>
+    <pinCode>793012</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawpat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawpat Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Disong</name>
+    <pinCode>793112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Shella</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Shella Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gumaghat</name>
+    <pinCode>793106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Balat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Happy Valley</name>
+    <pinCode>793007</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Shillong Taluk of East Khasi Hills District</location>
+    <telephone>0364-2585346</telephone>
+  </office>
+  <office>
+    <name>Ichamati</name>
+    <pinCode>793112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Shella</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Shella Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Iewduh</name>
+    <pinCode>793002</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Shillong Taluk of East Khasi Hills District</location>
+    <telephone>0364-2544853</telephone>
+  </office>
+  <office>
+    <name>Iewmawiong</name>
+    <pinCode>793110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pynursla</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Pynursla Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jaiaw</name>
+    <pinCode>793002</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Shillong Taluk of East Khasi Hills District</location>
+    <telephone>0364-2221708</telephone>
+  </office>
+  <office>
+    <name>Jongksha</name>
+    <pinCode>793015</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Smit</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Smit Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kalatak</name>
+    <pinCode>793112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Shella</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Shella Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kharang</name>
+    <pinCode>793015</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Smit</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Smit Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khonjoy</name>
+    <pinCode>793106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Balat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kynton - U - Mon</name>
+    <pinCode>793021</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Madanriting</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Madanriting Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kynton Massar</name>
+    <pinCode>793022</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nehu</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawlai Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Laban</name>
+    <pinCode>793004</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Shillong Taluk of East Khasi Hills District</location>
+    <telephone>0364-2227900</telephone>
+  </office>
+  <office>
+    <name>Ladmawphlang</name>
+    <pinCode>793111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cherrabazar</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Cherrabazar Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Laitduh</name>
+    <pinCode>793111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cherrabazar</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Cherrabazar Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Laitkor</name>
+    <pinCode>793010</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Laitkor Peak</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Laitkor Peak Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Laitkor Peak</name>
+    <pinCode>793010</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Shillong Taluk of East Khasi Hills District</location>
+    <telephone>0364-2580502</telephone>
+  </office>
+  <office>
+    <name>Laitkynsew</name>
+    <pinCode>793108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cherrapunjee</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Cherrapunjee Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Laitlyngkot</name>
+    <pinCode>793110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pynursla</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Pynursla Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Laitryngew</name>
+    <pinCode>793111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cherrabazar</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Cherrabazar Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Laitumkhrah</name>
+    <pinCode>793003</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Shillong Taluk of East Khasi Hills District</location>
+    <telephone>0364-2221914</telephone>
+  </office>
+  <office>
+    <name>Langkyrdem</name>
+    <pinCode>793110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pynursla</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Pynursla Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lawbah</name>
+    <pinCode>793113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawsynram</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawsynram Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lawsohtun</name>
+    <pinCode>793004</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Laban</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Laban Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lyngiong</name>
+    <pinCode>793121</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawphlang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawphlang Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lynshing</name>
+    <pinCode>793015</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Smit</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Smit Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Madan Bitaw</name>
+    <pinCode>793121</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawphlang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawphlang Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Madanriting</name>
+    <pinCode>793021</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Shillong Taluk of East Khasi Hills District</location>
+    <telephone>0364-2231346</telephone>
+  </office>
+  <office>
+    <name>Mahadeo</name>
+    <pinCode>793108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cherrapunjee</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Cherrapunjee Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Makali</name>
+    <pinCode>793106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Balat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Marbisu</name>
+    <pinCode>793121</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawphlang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawphlang Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawbeh</name>
+    <pinCode>793110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pynursla</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Pynursla Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawblang</name>
+    <pinCode>793108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cherrapunjee</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Cherrapunjee Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawdongbazar</name>
+    <pinCode>793113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawsynram</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawsynram Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawhiang</name>
+    <pinCode>793113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawsynram</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawsynram Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawiong</name>
+    <pinCode>793016</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Shillong Taluk of East Khasi Hills District</location>
+    <telephone>0364-2575117</telephone>
+  </office>
+  <office>
+    <name>Mawkdok</name>
+    <pinCode>793111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cherrabazar</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Cherrabazar Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawkhanu</name>
+    <pinCode>793012</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawpat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawpat Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mahadeo</name>
+    <pinCode>793108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cherrapunjee</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Cherrapunjee Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Makali</name>
+    <pinCode>793106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Balat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Marbisu</name>
+    <pinCode>793121</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawphlang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawphlang Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawbeh</name>
+    <pinCode>793110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pynursla</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Pynursla Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawblang</name>
+    <pinCode>793108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cherrapunjee</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Cherrapunjee Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawdongbazar</name>
+    <pinCode>793113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawsynram</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawsynram Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawhiang</name>
+    <pinCode>793113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawsynram</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawsynram Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawiong</name>
+    <pinCode>793016</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Shillong Taluk of East Khasi Hills District</location>
+    <telephone>0364-2575117</telephone>
+  </office>
+  <office>
+    <name>Mawkdok</name>
+    <pinCode>793111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cherrabazar</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Cherrabazar Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawkhanu</name>
+    <pinCode>793012</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawpat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawpat Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawpat</name>
+    <pinCode>793012</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Shillong Taluk of East Khasi Hills District</location>
+    <telephone>0364-2233573</telephone>
+  </office>
+  <office>
+    <name>Mawphlang</name>
+    <pinCode>793121</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Mawphlang Taluk of East Khasi Hills District</location>
+    <telephone>0364-2567221</telephone>
+  </office>
+  <office>
+    <name>Mawpun</name>
+    <pinCode>793121</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawphlang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawphlang Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawput</name>
+    <pinCode>793106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Balat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawreng</name>
+    <pinCode>793121</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawphlang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawphlang Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawroh</name>
+    <pinCode>793008</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Phudmawri</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawlai Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawryngkneng</name>
+    <pinCode>793021</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Madanriting</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Madanriting Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawsynram</name>
+    <pinCode>793113</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Mawsynram Taluk of East Khasi Hills District</location>
+    <telephone>0364-242373</telephone>
+  </office>
+  <office>
+    <name>Mawtawar</name>
+    <pinCode>793022</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nehu</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawlai Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Meghalaya Secretariat</name>
+    <pinCode>793001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Shillong Taluk of East Khasi Hills District</location>
+    <telephone>03642-2222982</telephone>
+  </office>
+  <office>
+    <name>Munai</name>
+    <pinCode>793106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Balat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Myllat</name>
+    <pinCode>793110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pynursla</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Pynursla Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mylliem Syllai U Lar</name>
+    <pinCode>793009</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nonglyer</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nonglyer Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nehu</name>
+    <pinCode>793022</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Shillong Taluk of East Khasi Hills District</location>
+    <telephone>0364-2551934</telephone>
+  </office>
+  <office>
+    <name>Neigrihms</name>
+    <pinCode>793018</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Taluk of East Khasi Hills District</location>
+    <telephone>0364-2538037</telephone>
+  </office>
+  <office>
+    <name>Nongjri</name>
+    <pinCode>793110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pynursla</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Pynursla Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongkrem</name>
+    <pinCode>793015</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Smit</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Smit Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongkynrih</name>
+    <pinCode>793110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pynursla</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Pynursla Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nonglyer</name>
+    <pinCode>793009</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Shillong Taluk of East Khasi Hills District</location>
+    <telephone>0364-2561631</telephone>
+  </office>
+  <office>
+    <name>Nongmynsong</name>
+    <pinCode>793019</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Shillong Taluk of East Khasi Hills District</location>
+    <telephone>0364-2222325</telephone>
+  </office>
+  <office>
+    <name>Nongspung</name>
+    <pinCode>793121</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawphlang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawphlang Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongthymmai</name>
+    <pinCode>793014</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Shillong Taluk of East Khasi Hills District</location>
+    <telephone>0364-2233509</telephone>
+  </office>
+  <office>
+    <name>Nongumlong</name>
+    <pinCode>793005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Upper Shillong</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Upper Shillong Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Oakland</name>
+    <pinCode>793001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Shillong Taluk of East Khasi Hills District</location>
+    <telephone>0364-2222993</telephone>
+  </office>
+  <office>
+    <name>Pamora</name>
+    <pinCode>793021</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Madanriting</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Madanriting Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phlang Mawsyrpat</name>
+    <pinCode>793113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawsynram</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawsynram Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phlangwanbroi</name>
+    <pinCode>793113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawsynram</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawsynram Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phudmawri</name>
+    <pinCode>793008</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Shillong Taluk of East Khasi Hills District</location>
+    <telephone>0364-2550184</telephone>
+  </office>
+  <office>
+    <name>Pomlakrai</name>
+    <pinCode>793010</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Laitkor Peak</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Laitkor Peak Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pongkung</name>
+    <pinCode>793121</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawphlang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawphlang Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puriang</name>
+    <pinCode>793021</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Madanriting</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Madanriting Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pyndeng Sohsaw</name>
+    <pinCode>793106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Balat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pynursla</name>
+    <pinCode>793110</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Pynursla Taluk of East Khasi Hills District</location>
+    <telephone>0364-2269410</telephone>
+  </office>
+  <office>
+    <name>Ramdait</name>
+    <pinCode>793111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cherrabazar</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Cherrabazar Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rangshken</name>
+    <pinCode>793121</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawphlang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawphlang Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rilbong</name>
+    <pinCode>793004</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Shillong Taluk of East Khasi Hills District</location>
+    <telephone>0364-2222932</telephone>
+  </office>
+  <office>
+    <name>Ryngibah</name>
+    <pinCode>793015</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Smit</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Smit Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ryngkubazar</name>
+    <pinCode>793113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawsynram</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawsynram Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rynjah</name>
+    <pinCode>793006</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Shillong Taluk of East Khasi Hills District</location>
+    <telephone>0364-2534128</telephone>
+  </office>
+  <office>
+    <name>Shella</name>
+    <pinCode>793112</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Shella Taluk of East Khasi Hills District</location>
+    <telephone>03637-248864</telephone>
+  </office>
+  <office>
+    <name>Shillong.</name>
+    <pinCode>793001</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Shillong Taluk of East Khasi Hills District</location>
+    <telephone>0364-2222179</telephone>
+  </office>
+  <office>
+    <name>Smit</name>
+    <pinCode>793015</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Mawkynrew Taluk of East Khasi Hills District</location>
+    <telephone>0364-2588208</telephone>
+  </office>
+  <office>
+    <name>Sohbarpunjee</name>
+    <pinCode>793108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cherrapunjee</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Cherrapunjee Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sohiong</name>
+    <pinCode>793121</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawphlang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawphlang Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sohkmie</name>
+    <pinCode>793108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cherrapunjee</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Cherrapunjee Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sohpian</name>
+    <pinCode>793121</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawphlang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawphlang Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sohryngkham</name>
+    <pinCode>793015</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Smit</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Smit Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sonatola</name>
+    <pinCode>793106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Balat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sumer</name>
+    <pinCode>793104</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Sumer Taluk of East Khasi Hills District</location>
+    <telephone>0364-266444</telephone>
+  </office>
+  <office>
+    <name>Syntein</name>
+    <pinCode>793113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawsynram</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawsynram Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Telsora</name>
+    <pinCode>793106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Balat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thangsning</name>
+    <pinCode>793015</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Smit</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Smit Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thyllaw</name>
+    <pinCode>793113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawsynram</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawsynram Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thynroit</name>
+    <pinCode>793015</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Smit</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Smit Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Trangpleng</name>
+    <pinCode>793106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Balat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tynger</name>
+    <pinCode>793113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawsynram</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawsynram Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tynring</name>
+    <pinCode>793012</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawpat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawpat Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tynrong</name>
+    <pinCode>793111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cherrabazar</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Cherrabazar Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tyrna</name>
+    <pinCode>793108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cherrapunjee</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Cherrapunjee Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tyrsad</name>
+    <pinCode>793121</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawphlang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawphlang Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Umkdait</name>
+    <pinCode>793006</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Rynjah</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Rynjah Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Umniuh - Tmar</name>
+    <pinCode>793110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pynursla</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Pynursla Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Umphyrnai</name>
+    <pinCode>793015</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Smit</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Smit Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Umsning</name>
+    <pinCode>793015</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Smit</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Smit Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Umsyiem</name>
+    <pinCode>793109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dawki</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Dawki Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Upper Shillong</name>
+    <pinCode>793005</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Shillong Taluk of East Khasi Hills District</location>
+    <telephone>0364-2561750</telephone>
+  </office>
+  <office>
+    <name>Wahkdait</name>
+    <pinCode>793109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dawki</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wahlong</name>
+    <pinCode>793108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cherrapunjee</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Cherrapunjee Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wahshiarkhmut</name>
+    <pinCode>793110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pynursla</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Pynursla Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Weiloi</name>
+    <pinCode>793121</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawphlang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawphlang Taluk of East Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Amlarem</name>
+    <pinCode>793150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jowai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Jowai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Amlari</name>
+    <pinCode>793109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dawki</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Amlarem Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Barato</name>
+    <pinCode>793150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jowai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Jowai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bataw</name>
+    <pinCode>793160</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ladrymbai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Ladrymbai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Darrang</name>
+    <pinCode>793109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dawki</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Dawki Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Huroi</name>
+    <pinCode>793200</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khliehriat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Khliehriat Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Iawthymmai</name>
+    <pinCode>793150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jowai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Jowai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jarain</name>
+    <pinCode>793150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jowai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Jowai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jowai</name>
+    <pinCode>793150</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Jowai Taluk of Jaintia Hills District</location>
+    <telephone>03652-220888</telephone>
+  </office>
+  <office>
+    <name>Khanduli</name>
+    <pinCode>793151</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thadlaskein</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Thadlaskein Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khatum</name>
+    <pinCode>793200</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khliehriat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khliehriat</name>
+    <pinCode>793200</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Khliehriat Taluk of Jaintia Hills District</location>
+    <telephone>03655-231081</telephone>
+  </office>
+  <office>
+    <name>Kyndong Tuber</name>
+    <pinCode>793150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jowai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Jowai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ladrymbai</name>
+    <pinCode>793160</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Ladrymbai Taluk of Jaintia Hills District</location>
+    <telephone>03655-263641</telephone>
+  </office>
+  <office>
+    <name>Lamin</name>
+    <pinCode>793109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dawki</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Dawki Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Laskein</name>
+    <pinCode>793150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jowai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Jowai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lumshnong</name>
+    <pinCode>793200</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khliehriat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Khliehriat Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lumshnong</name>
+    <pinCode>793210</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Taluk of Jaintia Hills District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Lyngkhat</name>
+    <pinCode>793109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dawki</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Dawki Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawbakhon</name>
+    <pinCode>793151</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thadlaskein</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Thadlaskein Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawdymmai</name>
+    <pinCode>793151</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thadlaskein</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Thadlaskein Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawkaiaw</name>
+    <pinCode>793150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jowai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Jowai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawkyndeng</name>
+    <pinCode>793150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jowai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Jowai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mihmyntdu</name>
+    <pinCode>793150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jowai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Jowai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mookynniang</name>
+    <pinCode>793151</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thadlaskein</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Thadlaskein Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mualsei</name>
+    <pinCode>793200</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khliehriat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Khliehriat Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mukhialong</name>
+    <pinCode>793160</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ladrymbai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Ladrymbai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Muktapur</name>
+    <pinCode>793109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dawki</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Dawki Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mupyut</name>
+    <pinCode>793150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jowai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Jowai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Musniang</name>
+    <pinCode>793160</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ladrymbai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Ladrymbai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mustem</name>
+    <pinCode>793150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jowai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Jowai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Myndihati</name>
+    <pinCode>793200</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khliehriat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Khliehriat Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mynso</name>
+    <pinCode>793150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jowai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Jowai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Naljuri</name>
+    <pinCode>793109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dawki</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Dawki Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Namdong</name>
+    <pinCode>793151</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thadlaskein</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Thadlaskein Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nartiang</name>
+    <pinCode>793151</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thadlaskein</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Thadlaskein Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongbah</name>
+    <pinCode>793150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jowai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Jowai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongbareh</name>
+    <pinCode>793109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dawki</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Dawki Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongjngi</name>
+    <pinCode>793151</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thadlaskein</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Thadlaskein Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongryngkoh</name>
+    <pinCode>793150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jowai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Jowai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongtalang</name>
+    <pinCode>793109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dawki</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Dawki Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongtyngur</name>
+    <pinCode>793109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dawki</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Dawki Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Padu</name>
+    <pinCode>793109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dawki</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Dawki Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pala</name>
+    <pinCode>793200</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khliehriat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Khliehriat Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pamshutia</name>
+    <pinCode>793109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dawki</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Dawki Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Passadwar</name>
+    <pinCode>793109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dawki</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Dawki Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pdengshakap</name>
+    <pinCode>793150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jowai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Jowai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pongtung</name>
+    <pinCode>793109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dawki</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Dawki Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Raliang</name>
+    <pinCode>793150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jowai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Jowai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rata Cherra</name>
+    <pinCode>793200</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khliehriat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Khliehriat Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rongkhum</name>
+    <pinCode>793109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dawki</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Dawki Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rymbai</name>
+    <pinCode>793160</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ladrymbai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Ladrymbai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sahsniang</name>
+    <pinCode>793150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jowai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Jowai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Saipung</name>
+    <pinCode>793200</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khliehriat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Khliehriat Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Saitsama</name>
+    <pinCode>793151</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thadlaskein</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Thadlaskein Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sham Sham</name>
+    <pinCode>793160</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ladrymbai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Ladrymbai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Shangpung</name>
+    <pinCode>793150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jowai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Jowai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sheruphie</name>
+    <pinCode>793200</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khliehriat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Khliehriat Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Shnongrim</name>
+    <pinCode>793200</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khliehriat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Khliehriat Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sohkha</name>
+    <pinCode>793109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dawki</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Dawki Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sohkymphor</name>
+    <pinCode>793160</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ladrymbai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Ladrymbai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sohmynting</name>
+    <pinCode>793150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jowai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Jowai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sonapur</name>
+    <pinCode>793200</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khliehriat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Khliehriat Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sutnga</name>
+    <pinCode>793200</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khliehriat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Khliehriat Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Syndai</name>
+    <pinCode>793109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dawki</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Dawki Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thadlaskein</name>
+    <pinCode>793151</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Thadlaskein Taluk of Jaintia Hills District</location>
+    <telephone>03651-2221708</telephone>
+  </office>
+  <office>
+    <name>Thadmuthlong</name>
+    <pinCode>793150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jowai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Jowai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thangbuli</name>
+    <pinCode>793150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jowai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Jowai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thangrain</name>
+    <pinCode>793150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jowai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Jowai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Trangblang</name>
+    <pinCode>793150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jowai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Jowai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tuber Kmaishnong</name>
+    <pinCode>793160</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ladrymbai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>L;adrymbai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Umkiang</name>
+    <pinCode>793200</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khliehriat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Umladang</name>
+    <pinCode>793151</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thadlaskein</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Thadlasken Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ummulong</name>
+    <pinCode>793151</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thadlaskein</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Thadlaskein Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wahiajer</name>
+    <pinCode>793151</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thadlaskein</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Thadlaskein Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wapung</name>
+    <pinCode>793160</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ladrymbai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Ladrymbai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yalang</name>
+    <pinCode>793150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jowai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yooksi</name>
+    <pinCode>793150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jowai</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Jowai Taluk of Jaintia Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Barua Basti</name>
+    <pinCode>793104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sumer</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Sumer Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bhoilymbong</name>
+    <pinCode>793103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Umiam</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Umiam Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Byrnihat</name>
+    <pinCode>793101</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Byrnihat Taluk of Ri Bhoi District</location>
+    <telephone>03638-263233</telephone>
+  </office>
+  <office>
+    <name>Epip Byrnihat</name>
+    <pinCode>793101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Byrnihat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Byrnihat Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hatumling</name>
+    <pinCode>793102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongpoh</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongpoh Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jorabat</name>
+    <pinCode>793101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Byrnihat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Byrnihat Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Killing Centre</name>
+    <pinCode>793101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Byrnihat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Byrnihat Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kynjoin Umran</name>
+    <pinCode>793102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongpoh</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongpoh Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kyrdem</name>
+    <pinCode>793103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Umiam</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Umiam Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kyrdem Kulai</name>
+    <pinCode>793105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Umsning</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Umsning Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lailad</name>
+    <pinCode>793102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongpoh</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongpoh Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Marmain</name>
+    <pinCode>793102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongpoh</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongpoh Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Marngar</name>
+    <pinCode>793102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongpoh</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongpoh Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawbri</name>
+    <pinCode>793103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Umiam</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Umiam Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawhati</name>
+    <pinCode>793105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Umsning</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Umsning Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawlasnai</name>
+    <pinCode>793103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Umiam</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Umiam Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawlong</name>
+    <pinCode>793102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongpoh</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongpoh Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawrong</name>
+    <pinCode>793105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Umsning</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Umsning Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Niangbari</name>
+    <pinCode>793102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongpoh</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongpoh Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongladew</name>
+    <pinCode>793102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongpoh</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongpoh Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongpoh</name>
+    <pinCode>793102</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Nongpoh Taluk of Ri Bhoi District</location>
+    <telephone>03638-232547</telephone>
+  </office>
+  <office>
+    <name>Rongmen</name>
+    <pinCode>793103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Umiam</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Umiam Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Saiden</name>
+    <pinCode>793102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongpoh</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongpoh Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sanidon</name>
+    <pinCode>793105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Umsning</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Umsning Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tamul Kuchi Gaon</name>
+    <pinCode>793101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Byrnihat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Byrnihat Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ucc</name>
+    <pinCode>793122</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Ucc Taluk of Ri Bhoi District</location>
+    <telephone>0364-2570340</telephone>
+  </office>
+  <office>
+    <name>Umden</name>
+    <pinCode>793102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongpoh</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongpoh Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Umdihar</name>
+    <pinCode>793102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongpoh</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongpoh Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Umiam</name>
+    <pinCode>793103</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Umiam Taluk of Ri Bhoi District</location>
+    <telephone>0364-2570315</telephone>
+  </office>
+  <office>
+    <name>Umktieh</name>
+    <pinCode>793103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Umiam</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Umiam Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Umran</name>
+    <pinCode>793105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Umsning</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Umsning Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Umrit</name>
+    <pinCode>793102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongpoh</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongpoh Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Umroi</name>
+    <pinCode>793103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Umiam</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Umiam Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Umsaw</name>
+    <pinCode>793123</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Umsaw Taluk of Ri Bhoi District</location>
+    <telephone>0364-2570283</telephone>
+  </office>
+  <office>
+    <name>Umsawnongbri</name>
+    <pinCode>793102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongpoh</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongpoh Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Umshakhon Mathon</name>
+    <pinCode>793102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongpoh</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongpoh Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Umsning</name>
+    <pinCode>793105</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Umsning Taluk of Ri Bhoi District</location>
+    <telephone>03638-262588</telephone>
+  </office>
+  <office>
+    <name>Umsohlait</name>
+    <pinCode>793105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Umsning</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Umsning Taluk of Ri Bhoi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Baghmara</name>
+    <pinCode>794102</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tura</headoffice>
+    <location>Baghmara Taluk of South Garo Hills District</location>
+    <telephone>03639-222230</telephone>
+  </office>
+  <office>
+    <name>Balkhalbazar</name>
+    <pinCode>794102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Baghmara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Baghmara Taluk of South Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Balsalgiri</name>
+    <pinCode>794102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Baghmara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Baghmara Taluk of South Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dambuk Agal</name>
+    <pinCode>794114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Rongra</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Taluk of South Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Emangiri</name>
+    <pinCode>794102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Baghmara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Baghmara Taluk of South Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mahesh Khola</name>
+    <pinCode>794114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Rongra</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Rongra Taluk of South Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mendikgiri</name>
+    <pinCode>794102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Baghmara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Baghmara Taluk of South Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nilwalgiri</name>
+    <pinCode>794102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Baghmara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Baghmara Taluk of South Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Panda</name>
+    <pinCode>794102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Baghmara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Baghmara Taluk of South Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rongra</name>
+    <pinCode>794114</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tura</headoffice>
+    <location>Rongra Taluk of South Garo Hills District</location>
+    <telephone>0364-2221708</telephone>
+  </office>
+  <office>
+    <name>Siju</name>
+    <pinCode>794102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Baghmara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Baghmara Taluk of South Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Warimagiri</name>
+    <pinCode>794114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Rongra</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Rongra Taluk of South Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Achigchonggiri</name>
+    <pinCode>794002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lower Chandmari</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Lower Chandmari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ampati</name>
+    <pinCode>794115</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tura</headoffice>
+    <location>Ampati Taluk of West Garo Hills District</location>
+    <telephone>03651-261223</telephone>
+  </office>
+  <office>
+    <name>Anugiri</name>
+    <pinCode>794002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lower Chandmari</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Lower Chandmari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Araimile</name>
+    <pinCode>794101</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tura</headoffice>
+    <location>Araimile Taluk of West Garo Hills District</location>
+    <telephone>03651-232598</telephone>
+  </office>
+  <office>
+    <name>Bajengdoba</name>
+    <pinCode>794002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lower Chandmari</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Lower Chandmari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Balunghat</name>
+    <pinCode>794106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mahendraganj (West Garo Hills)</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Mahendraganj Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bandelkona</name>
+    <pinCode>794115</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ampati</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Ampati Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Barengapara</name>
+    <pinCode>794103</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tura</headoffice>
+    <location>Barengapara Taluk of West Garo Hills District</location>
+    <telephone>03651-263426</telephone>
+  </office>
+  <office>
+    <name>Batabari</name>
+    <pinCode>794104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Fulbari (West Garo Hills)</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Fulbari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Belguri</name>
+    <pinCode>794109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tikrikilla</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Tikrikilla Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Betsing</name>
+    <pinCode>794115</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ampati</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Ampati Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bhaitbari</name>
+    <pinCode>794104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Fulbari (West Garo Hills)</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Fulbari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bhajamara</name>
+    <pinCode>794104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Fulbari (West Garo Hills)</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Fulbari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bholarbhita</name>
+    <pinCode>794104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Fulbari (West Garo Hills)</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Fulbari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bolangitak</name>
+    <pinCode>794109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tikrikilla</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Tikrikilla Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bolchugre</name>
+    <pinCode>794005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dobasipara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Dobasipara Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bolsong</name>
+    <pinCode>794002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lower Chandmari</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Lower Chandmari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Borjhora</name>
+    <pinCode>794109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tikrikilla</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Tikrikilla Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Captain Reserve</name>
+    <pinCode>794101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Araimile</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Araimile Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chandabhui</name>
+    <pinCode>794103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Barengapara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Barengapara Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chapahati</name>
+    <pinCode>794106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mahendraganj (West Garo Hills)</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Mahendraganj Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chati</name>
+    <pinCode>794103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Barengapara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Barengapara Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chengapara</name>
+    <pinCode>794103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Barengapara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Barengapara Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chokpotgiri</name>
+    <pinCode>794005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dobasipara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Dobasipara Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dadengiri</name>
+    <pinCode>794104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Fulbari (West Garo Hills)</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Fulbari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dakopgiri</name>
+    <pinCode>794101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Araimile</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Araimile Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Damalgiri</name>
+    <pinCode>794105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Garobadha</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Garobadha Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dekubazar</name>
+    <pinCode>794005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dobasipara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Dobasipara Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dhopgiri</name>
+    <pinCode>794005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dobasipara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Dobasipara Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dimapara</name>
+    <pinCode>794103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Barengapara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Barengapara Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dobasipara</name>
+    <pinCode>794005</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tura</headoffice>
+    <location>Dobasipara Taluk of West Garo Hills District</location>
+    <telephone>03651-220454</telephone>
+  </office>
+  <office>
+    <name>Edenbari Rongkhon</name>
+    <pinCode>794002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lower Chandmari</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Lower Chandmari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Fulbari (West Garo Hills)</name>
+    <pinCode>794104</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tura</headoffice>
+    <location>Fulbari Taluk of West Garo Hills District</location>
+    <telephone>03650-223228</telephone>
+  </office>
+  <office>
+    <name>Gabil</name>
+    <pinCode>794002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lower Chandmari</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Lower Chandmari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gachuapara</name>
+    <pinCode>794103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Barengapara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Barengapara Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gambigre</name>
+    <pinCode>794005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dobasipara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Dobasipara Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ganchudari</name>
+    <pinCode>794103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Barengapara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Barengapara Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Garobadha</name>
+    <pinCode>794105</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tura</headoffice>
+    <location>Grobadha Taluk of West Garo Hills District</location>
+    <telephone>03651-264220</telephone>
+  </office>
+  <office>
+    <name>Garodoba</name>
+    <pinCode>794105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Garobadha</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Garobadha Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gatsingbazar</name>
+    <pinCode>794104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Fulbari (West Garo Hills)</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Fulbari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gongrengiri</name>
+    <pinCode>794005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dobasipara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Dobasipara Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gopinath Killa</name>
+    <pinCode>794106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mahendraganj (West Garo Hills)</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Mahendraganj Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Grenggandi Agal</name>
+    <pinCode>794105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Garobadha</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Garobadha Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gumaijhora</name>
+    <pinCode>794104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Fulbari (West Garo Hills)</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Fulbari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Haldibari</name>
+    <pinCode>794105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Garobadha</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Garobadha Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Halloidanga</name>
+    <pinCode>794109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tikrikilla</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Tikrikilla Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Haripur</name>
+    <pinCode>794104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Fulbari (West Garo Hills)</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Fulbari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hatugaon</name>
+    <pinCode>794109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tikrikilla</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Tikrikilla Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Holidayganj</name>
+    <pinCode>794104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Fulbari (West Garo Hills)</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Fulbari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jengrapara</name>
+    <pinCode>794109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tikrikilla</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Tikrikilla Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jingjal</name>
+    <pinCode>794002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lower Chandmari</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Lower Chandmari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Joshipara</name>
+    <pinCode>794103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Barengapara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Barengapara Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kalaichar</name>
+    <pinCode>794115</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ampati</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Ampati Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kalaipara</name>
+    <pinCode>794106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mahendraganj (West Garo Hills)</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Mahendraganj Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kalchengapara</name>
+    <pinCode>794105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Garobadha</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Garobadha Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kapasipara</name>
+    <pinCode>794103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Barengapara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Barengapara Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Katuli</name>
+    <pinCode>794115</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ampati</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Ampati Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kawahagra</name>
+    <pinCode>794106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mahendraganj (West Garo Hills)</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Mahendraganj Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kharapara</name>
+    <pinCode>794103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Barengapara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Barengapara Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Killapara</name>
+    <pinCode>794103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Barengapara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Barengapara Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lower Chandmari</name>
+    <pinCode>794002</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tura</headoffice>
+    <location>Lower Chandmari Taluk of West Garo Hills District</location>
+    <telephone>03651-224334</telephone>
+  </office>
+  <office>
+    <name>Mahendraganj (West Garo Hills)</name>
+    <pinCode>794106</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tura</headoffice>
+    <location>Mahendraganj Taluk of West Garo Hills District</location>
+    <telephone>03651-265229</telephone>
+  </office>
+  <office>
+    <name>Majerchar</name>
+    <pinCode>794106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mahendraganj (West Garo Hills)</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Mahendraganjj Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manlakandi</name>
+    <pinCode>794104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Fulbari (West Garo Hills)</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Fulbari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Matchakgiri</name>
+    <pinCode>794002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lower Chandmari</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Lower Chandmari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mechanpani</name>
+    <pinCode>794104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Fulbari (West Garo Hills)</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Fulbari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Melliam</name>
+    <pinCode>794105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Garobadha</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Garobadha Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mendal</name>
+    <pinCode>794002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lower Chandmari</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Lower Chandmari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mendipathar</name>
+    <pinCode>794112</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tura</headoffice>
+    <location>Mendipathar Taluk of West Garo Hills District</location>
+    <telephone>03659-222230</telephone>
+  </office>
+  <office>
+    <name>Mihanpara</name>
+    <pinCode>794103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Barengapara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Barengapara Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Monobari</name>
+    <pinCode>794105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Garobadha</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Garobadha Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mukhdangra</name>
+    <pinCode>794105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Garobadha</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Garobadha Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nangwalbibra</name>
+    <pinCode>794107</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tura</headoffice>
+    <location>Nangwalbibra Taluk of West Garo Hills District</location>
+    <telephone>03658-263209</telephone>
+  </office>
+  <office>
+    <name>New Bhaitbari</name>
+    <pinCode>794104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Fulbari (West Garo Hills)</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Fulbari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nogorpara</name>
+    <pinCode>794106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mahendraganj (West Garo Hills)</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Mahendraganj Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Okkapara</name>
+    <pinCode>794105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Garobadha</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Garobadha Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Paham</name>
+    <pinCode>794104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Fulbari (West Garo Hills)</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Fulbari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pedaldoba</name>
+    <pinCode>794109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tikrikilla</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Tikrikilla Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Photamati</name>
+    <pinCode>794109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tikrikilla</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Tikrikilla Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Purakhasia</name>
+    <pinCode>794103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Barengapara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Barengapara Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rajabala</name>
+    <pinCode>794104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Fulbari (West Garo Hills)</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Fulbari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Raksamgiri</name>
+    <pinCode>794109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tikrikilla</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Tikrikilla Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Raribazar</name>
+    <pinCode>794002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lower Chandmari</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Lower Chandmari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Resubelpara</name>
+    <pinCode>794108</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tura</headoffice>
+    <location>Resubelpara Taluk of West Garo Hills District</location>
+    <telephone>03659-222234</telephone>
+  </office>
+  <office>
+    <name>Rimrangapara</name>
+    <pinCode>794103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Barengapara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Barengapara Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rombazar</name>
+    <pinCode>794104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Fulbari (West Garo Hills)</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Fulbari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rongkhon</name>
+    <pinCode>794002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lower Chandmari</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Lower Chandmari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rongmatchokgiri</name>
+    <pinCode>794104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Fulbari (West Garo Hills)</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Fulbari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rongram</name>
+    <pinCode>794002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lower Chandmari</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Lower Chandmari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rongsakhona</name>
+    <pinCode>794105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Garobadha</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Garobadha Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sabribari</name>
+    <pinCode>794104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Fulbari (West Garo Hills)</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Fulbari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Salmanpara</name>
+    <pinCode>794115</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ampati</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Ampati Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sasengpara</name>
+    <pinCode>794103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Barengapara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Barengapara Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Selsella</name>
+    <pinCode>794105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Garobadha</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Garobadha Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Shankinigiri</name>
+    <pinCode>794005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dobasipara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Dobasipara Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Shyamnagar</name>
+    <pinCode>794104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Fulbari (West Garo Hills)</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Fulbari Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sibbari</name>
+    <pinCode>794103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Barengapara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Barengapara Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Silkhigiri</name>
+    <pinCode>794103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Barengapara</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Barengapara Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sulgre</name>
+    <pinCode>794115</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ampati</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Ampati Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Teporpara</name>
+    <pinCode>794105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Garobadha</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Garobadha Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tikrikilla</name>
+    <pinCode>794109</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tura</headoffice>
+    <location>Tikrikilla Taluk of West Garo Hills District</location>
+    <telephone>03650-225223</telephone>
+  </office>
+  <office>
+    <name>Tura</name>
+    <pinCode>794001</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Tura Taluk of West Garo Hills District</location>
+    <telephone>03651-223790</telephone>
+  </office>
+  <office>
+    <name>Zekabari</name>
+    <pinCode>794105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Garobadha</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Garobadha Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zigzak</name>
+    <pinCode>794115</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ampati</suboffice>
+    <headoffice>Tura</headoffice>
+    <location>Ampati Taluk of West Garo Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Borsora</name>
+    <pinCode>793106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Balat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Balat Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Byrki</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dungki - Ingdong</name>
+    <pinCode>793120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mairang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mairang Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Iewmaroid</name>
+    <pinCode>793120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mairang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mairang Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jaidoh</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jakrem</name>
+    <pinCode>793114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawkyrwat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawkyrwat Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jashier</name>
+    <pinCode>793114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawkyrwat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawkyrwat Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khlieh Lyngkhoi</name>
+    <pinCode>793120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mairang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mairang Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khliehmawlieh</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kynrut</name>
+    <pinCode>793120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mairang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mairang Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kynshi</name>
+    <pinCode>793120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mairang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mairang Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Laitdombah</name>
+    <pinCode>793120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mairang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mairang Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Laitkseh</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Laitnongrim</name>
+    <pinCode>793114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawkyrwat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawkyrwat Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Langdongdai</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Langtor</name>
+    <pinCode>793120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mairang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mairang Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lawbyrtun</name>
+    <pinCode>793120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mairang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mairang Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lyngkhoi</name>
+    <pinCode>793120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mairang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mairang Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Madanbynther</name>
+    <pinCode>793120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mairang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mairang Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mairang</name>
+    <pinCode>793120</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Mairang Taluk of West Khasi Hills District</location>
+    <telephone>03657-222221</telephone>
+  </office>
+  <office>
+    <name>Manai</name>
+    <pinCode>793120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mairang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mairang Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Marskuin</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maweitlyngngam</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawkarah</name>
+    <pinCode>793120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mairang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mairang Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawkohngei</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawkyrwat</name>
+    <pinCode>793114</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Mawkyrwat Taluk of West Khasi Hills District</location>
+    <telephone>0364-2221708</telephone>
+  </office>
+  <office>
+    <name>Mawlieh</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawlyngwir</name>
+    <pinCode>793114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawkyrwat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawkyrwat Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawsaw</name>
+    <pinCode>793114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawkyrwat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawkyrwat Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawshut</name>
+    <pinCode>793120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mairang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mairang Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawten</name>
+    <pinCode>793114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawkyrwat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawkyrwat Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawthapdoh</name>
+    <pinCode>793114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawkyrwat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawkyrwat Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawthengkut</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawthungkper</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mawtiehbah</name>
+    <pinCode>793121</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawphlang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawphlang Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Myriaw</name>
+    <pinCode>793120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mairang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mairang Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ngunraw</name>
+    <pinCode>793114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawkyrwat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawkyrwat Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongbah</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongkasen</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongkhlaw</name>
+    <pinCode>793120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mairang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mairang Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nonglang</name>
+    <pinCode>793114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawkyrwat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawkyrwat Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nonglang</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongnah</name>
+    <pinCode>793106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Balat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongpyndeng</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongsdad Dkhar</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongshyrkon</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongstoin</name>
+    <pinCode>793119</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone>03654-280738</telephone>
+  </office>
+  <office>
+    <name>Nongsynrih</name>
+    <pinCode>793114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawkyrwat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawkyrwat Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongthliew</name>
+    <pinCode>793120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mairang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mairang Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongthynniew</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongum</name>
+    <pinCode>793120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mairang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mairang Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pam Briew</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pariong</name>
+    <pinCode>793120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mairang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mairang Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phlang Kynshi</name>
+    <pinCode>793114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawkyrwat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawkyrwat Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phlangdiloin</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phudjaud</name>
+    <pinCode>793114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawkyrwat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawkyrwat Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puksora</name>
+    <pinCode>793106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Balat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pyndemsakwang</name>
+    <pinCode>793114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawkyrwat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawkyrwat Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pyndengrei</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rambrai</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rangblang</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rangmaw</name>
+    <pinCode>793114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawkyrwat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawkyrwat Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rangthong</name>
+    <pinCode>793114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawkyrwat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawkyrwat Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ranikor</name>
+    <pinCode>793106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Balat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Riangdo Bazar</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rongasora</name>
+    <pinCode>793106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Balat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sarin</name>
+    <pinCode>793106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Balat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Seinduli Bazar</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Shallang</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sngimawlein</name>
+    <pinCode>793114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawkyrwat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawkyrwat Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sohiong</name>
+    <pinCode>793115</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Shillong.</headoffice>
+    <location>. Taluk of West Khasi Hills District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Thangpylleng Pyndemkseh</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tihnongbah</name>
+    <pinCode>793120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mairang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mairang Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Umdohlun</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Umjarain</name>
+    <pinCode>793114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mawkyrwat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mawkyrwat Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Umkrem</name>
+    <pinCode>793120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mairang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mairang Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Umpung</name>
+    <pinCode>793106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Balat</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Umsohpieng</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Umthlong</name>
+    <pinCode>793120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mairang</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Mairang Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Umyap</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wahkaji</name>
+    <pinCode>793119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nongstoin</suboffice>
+    <headoffice>Shillong.</headoffice>
+    <location>Nongstoin Taluk of West Khasi Hills District</location>
+    <telephone />
+  </office>
+</offices>

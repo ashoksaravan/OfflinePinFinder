@@ -29,13 +29,21 @@ public class XMLParser {
 						office.setOfficeName(parser.nextText());
 					} else if (name.equalsIgnoreCase("pincode")) {
 						office.setPinCode(parser.nextText());
-					} else if(name.equalsIgnoreCase("location")){
-						office.setLocation(parser.nextText());
-					} else if(name.equalsIgnoreCase("status")) {
+					} else if (name.equalsIgnoreCase("location")) {
+						String location = parser.nextText();
+						office.setLocation(location);
+						try {
+						String district = location.substring(location.toLowerCase().indexOf("taluk of ") + 9,
+								location.toLowerCase().indexOf("district"));
+						office.setDistrict(district.toLowerCase());
+						} catch (Exception ex){
+							System.out.println(location);
+						}
+					} else if (name.equalsIgnoreCase("status")) {
 						office.setStatus(parser.nextText());
-					} else if(name.equalsIgnoreCase("suboffice")) {
+					} else if (name.equalsIgnoreCase("suboffice")) {
 						office.setSuboffice(parser.nextText());
-					} else if(name.equalsIgnoreCase("headoffice")) {
+					} else if (name.equalsIgnoreCase("headoffice")) {
 						office.setHeadoffice(parser.nextText());
 					} else if (name.equalsIgnoreCase("telephone")) {
 						office.setTelephone(parser.nextText());

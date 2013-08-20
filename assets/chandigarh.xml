@@ -1,0 +1,461 @@
+<offices>
+  <office>
+    <name>Abiana</name>
+    <pinCode>140119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Takhatgarh</suboffice>
+    <headoffice>Ropar</headoffice>
+    <location>Ropar Taluk of Chandigarh District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Aerodrome</name>
+    <pinCode>160003</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2641150</telephone>
+  </office>
+  <office>
+    <name>Airforce Highground</name>
+    <pinCode>160004</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2641335</telephone>
+  </office>
+  <office>
+    <name>Ajauli</name>
+    <pinCode>140125</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pratap Nagar Nangal</suboffice>
+    <headoffice>Ropar</headoffice>
+    <location>Ropar Taluk of Chandigarh District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Badheri</name>
+    <pinCode>160036</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sector 36 (Chandigarh)</suboffice>
+    <headoffice>Chandigarh.</headoffice>
+    <location>Taluk of Chandigarh District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Behlana</name>
+    <pinCode>160003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Aerodrome</suboffice>
+    <headoffice>Chandigarh.</headoffice>
+    <location>Taluk of Chandigarh District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chandigarh.</name>
+    <pinCode>160017</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2703716</telephone>
+  </office>
+  <office>
+    <name>Dadu Majra Colony</name>
+    <pinCode>160014</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2649563</telephone>
+  </office>
+  <office>
+    <name>Daria</name>
+    <pinCode>160101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manimajra</suboffice>
+    <headoffice>Chandigarh.</headoffice>
+    <location>Taluk of Chandigarh District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dhanas</name>
+    <pinCode>160014</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sector 14 (Chandigarh)</suboffice>
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Engg College</name>
+    <pinCode>160012</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2745497</telephone>
+  </office>
+  <office>
+    <name>Govt Press Chandigarh</name>
+    <pinCode>160018</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2774986</telephone>
+  </office>
+  <office>
+    <name>Hallomajra</name>
+    <pinCode>160002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ind Area Chandigarh</suboffice>
+    <headoffice>Chandigarh.</headoffice>
+    <location>Taluk of Chandigarh District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>High Court (Chandigarh)</name>
+    <pinCode>160001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2749838</telephone>
+  </office>
+  <office>
+    <name>Ind Area Chandigarh</name>
+    <pinCode>160002</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2650182</telephone>
+  </office>
+  <office>
+    <name>Kalitran</name>
+    <pinCode>140133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bhanupali</suboffice>
+    <headoffice>Ropar</headoffice>
+    <location>Ropar Taluk of Chandigarh District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kishangarh</name>
+    <pinCode>160101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manimajra</suboffice>
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maloya Colony</name>
+    <pinCode>160025</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Taluk of Chandigarh District</location>
+    <telephone>0172-2644842</telephone>
+  </office>
+  <office>
+    <name>Manimajra</name>
+    <pinCode>160101</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2734382</telephone>
+  </office>
+  <office>
+    <name>Mauli Jagran</name>
+    <pinCode>160102</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Taluk of Chandigarh District</location>
+    <telephone>0172-2738937</telephone>
+  </office>
+  <office>
+    <name>Mhc Manimajra</name>
+    <pinCode>160101</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2737864</telephone>
+  </office>
+  <office>
+    <name>New Sectt Chandigarh</name>
+    <pinCode>160001</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2740805</telephone>
+  </office>
+  <office>
+    <name>Raipur Kalan</name>
+    <pinCode>160102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mauli Jagran</suboffice>
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Raj Bhawan (Chandigarh)</name>
+    <pinCode>160019</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2794361</telephone>
+  </office>
+  <office>
+    <name>Ram Darbar</name>
+    <pinCode>160002</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2654164</telephone>
+  </office>
+  <office>
+    <name>Sector 10 (Chandigarh)</name>
+    <pinCode>160011</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2741894</telephone>
+  </office>
+  <office>
+    <name>Sector 11( Chandigarh)</name>
+    <pinCode>160011</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2746846</telephone>
+  </office>
+  <office>
+    <name>Sector 12 (Chandigarh)</name>
+    <pinCode>160012</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2745540</telephone>
+  </office>
+  <office>
+    <name>Sector 14 (Chandigarh)</name>
+    <pinCode>160014</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2770488</telephone>
+  </office>
+  <office>
+    <name>Sector 15 Chandigarh</name>
+    <pinCode>160015</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2772061</telephone>
+  </office>
+  <office>
+    <name>Sector 16 (Chandigarh)</name>
+    <pinCode>160015</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2770981</telephone>
+  </office>
+  <office>
+    <name>Sector 18 (Chandigarh)</name>
+    <pinCode>160018</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2774064</telephone>
+  </office>
+  <office>
+    <name>Sector 19 (Chandigarh)</name>
+    <pinCode>160019</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2775895</telephone>
+  </office>
+  <office>
+    <name>Sector 20 (Chandigarh)</name>
+    <pinCode>160020</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2708752</telephone>
+  </office>
+  <office>
+    <name>Sector 21 (Chandigarh)</name>
+    <pinCode>160022</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2704983</telephone>
+  </office>
+  <office>
+    <name>Sector 22 (Chandigarh)</name>
+    <pinCode>160022</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2700925</telephone>
+  </office>
+  <office>
+    <name>Sector 23 ( Chandigarh)</name>
+    <pinCode>160023</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2704983</telephone>
+  </office>
+  <office>
+    <name>Sector 26 (Chandigarh)</name>
+    <pinCode>160019</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2790342</telephone>
+  </office>
+  <office>
+    <name>Sector 27(Chandigarh)S.O</name>
+    <pinCode>160019</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2651184</telephone>
+  </office>
+  <office>
+    <name>Sector 29 (Chandigarh)</name>
+    <pinCode>160030</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2651245</telephone>
+  </office>
+  <office>
+    <name>Sector 30 (Chandigarh)</name>
+    <pinCode>160030</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2650749</telephone>
+  </office>
+  <office>
+    <name>Sector 31 (Chandigarh)</name>
+    <pinCode>160030</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2651245</telephone>
+  </office>
+  <office>
+    <name>Sector 34(Chandigarh)</name>
+    <pinCode>160022</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2646396</telephone>
+  </office>
+  <office>
+    <name>Sector 35 (Chandigarh)</name>
+    <pinCode>160022</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2601092</telephone>
+  </office>
+  <office>
+    <name>Sector 36 (Chandigarh)</name>
+    <pinCode>160036</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2650749</telephone>
+  </office>
+  <office>
+    <name>Sector 40 (Chandigarh)</name>
+    <pinCode>160036</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2602340</telephone>
+  </office>
+  <office>
+    <name>Sector 44 (Chandigarh)</name>
+    <pinCode>160047</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2646257</telephone>
+  </office>
+  <office>
+    <name>Sector 47 Chandigarh</name>
+    <pinCode>160047</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2630719</telephone>
+  </office>
+  <office>
+    <name>Sector 8(Chandgarh)</name>
+    <pinCode>160009</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2781599</telephone>
+  </office>
+  <office>
+    <name>Sector 9 (Chandigarh)</name>
+    <pinCode>160009</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2749828</telephone>
+  </office>
+  <office>
+    <name>Vidhansadan</name>
+    <pinCode>160001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Chandigarh.</headoffice>
+    <location>Chandigarh Taluk of Chandigarh District</location>
+    <telephone>0172-2749801</telephone>
+  </office>
+</offices>

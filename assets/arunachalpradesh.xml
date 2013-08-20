@@ -1,0 +1,2621 @@
+<offices>
+  <office>
+    <name>Bordumsa</name>
+    <pinCode>792056</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Bordumsa Taluk of Changlang District</location>
+    <telephone>03800-244126</telephone>
+  </office>
+  <office>
+    <name>Bubang</name>
+    <pinCode>792120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Changlang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Bubang Taluk of Changlang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Changlang</name>
+    <pinCode>792120</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Changlang Taluk of Changlang District</location>
+    <telephone>03808-222423</telephone>
+  </office>
+  <office>
+    <name>Chopelling</name>
+    <pinCode>792122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Miao</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Miao Taluk of Changlang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Deban</name>
+    <pinCode>792122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Miao</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Miao Taluk of Changlang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dharampur</name>
+    <pinCode>792122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Miao</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Miao Taluk of Changlang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gandhigram</name>
+    <pinCode>792055</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vijoynagar</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Vijoynagar Taluk of Changlang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Innao</name>
+    <pinCode>792103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Namsai</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Namsai Taluk of Changlang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jairampur (Changlang)</name>
+    <pinCode>792121</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Jairampur Taluk of Changlang District</location>
+    <telephone>03800-222234</telephone>
+  </office>
+  <office>
+    <name>Kharsang</name>
+    <pinCode>792122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Miao</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Miao Taluk of Changlang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khemiyong</name>
+    <pinCode>792120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Changlang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Khemiyong Taluk of Changlang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kherem Bisa</name>
+    <pinCode>792056</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bordumsa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Kherem Bisa Taluk of Changlang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kutum Basti</name>
+    <pinCode>792122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Miao</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Miao Taluk of Changlang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lallung</name>
+    <pinCode>792056</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bordumsa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Lallung Taluk of Changlang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manabhum</name>
+    <pinCode>792122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Miao</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Miao Taluk of Changlang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manmao</name>
+    <pinCode>792121</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jairampur (Changlang)</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Jairampur Taluk of Changlang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Miao</name>
+    <pinCode>792122</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Miao Taluk of Changlang District</location>
+    <telephone>03780-222235</telephone>
+  </office>
+  <office>
+    <name>Namchik</name>
+    <pinCode>792122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Miao</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Miao Taluk of Changlang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Namdang</name>
+    <pinCode>792120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Changlang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Namdang Taluk of Changlang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Namphai</name>
+    <pinCode>792122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Miao</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Miao Taluk of Changlang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nampong</name>
+    <pinCode>792123</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Nampong Taluk of Changlang District</location>
+    <telephone>03800-364347</telephone>
+  </office>
+  <office>
+    <name>Namtok</name>
+    <pinCode>792120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Changlang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Namtok Taluk of Changlang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>New Mohang</name>
+    <pinCode>792056</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bordumsa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>New Mohang Taluk of Changlang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rajanagar</name>
+    <pinCode>792056</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bordumsa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Rajanagar Taluk of Changlang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rangfrah Covt College</name>
+    <pinCode>792120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Changlang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Changlang Taluk of Changlang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ranglum</name>
+    <pinCode>792120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Changlang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Ranglum Taluk of Changlang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Two-hat</name>
+    <pinCode>792055</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vijoynagar</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Vijoynagar Taluk of Changlang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Udaipur</name>
+    <pinCode>792103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Namsai</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Namsai Taluk of Changlang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vijoynagar</name>
+    <pinCode>792055</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Vijoynagar Taluk of Changlang District</location>
+    <telephone>03800-220000</telephone>
+  </office>
+  <office>
+    <name>Vijoypur</name>
+    <pinCode>792056</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bordumsa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Vijoypur Taluk of Changlang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yangkang</name>
+    <pinCode>792120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Changlang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Yangkang Taluk of Changlang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bameng</name>
+    <pinCode>790102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Seppa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Seppa Taluk of East Kameng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bana</name>
+    <pinCode>790102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Seppa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Seppa Taluk of East Kameng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chyangtajo</name>
+    <pinCode>790102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Seppa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Seppa Taluk of East Kameng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khenewa</name>
+    <pinCode>790102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Seppa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Seppa Taluk of East Kameng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lada</name>
+    <pinCode>790102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Seppa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Seppa Taluk of East Kameng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>P.Kessang</name>
+    <pinCode>790102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Seppa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Seppa Taluk of East Kameng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pipu-dipu</name>
+    <pinCode>790102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Seppa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Seppa Taluk of East Kameng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Seijosa</name>
+    <pinCode>790103</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Seijosa Taluk of East Kameng District</location>
+    <telephone>03778-222207</telephone>
+  </office>
+  <office>
+    <name>Seppa</name>
+    <pinCode>790102</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Seppa Taluk of East Kameng District</location>
+    <telephone>03787-222223</telephone>
+  </office>
+  <office>
+    <name>Veo</name>
+    <pinCode>790102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Seppa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Seppa Taluk of East Kameng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Adipasi</name>
+    <pinCode>791102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pasighat</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Pasighat Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ayeng</name>
+    <pinCode>791104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mebo</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Mebo Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Balek</name>
+    <pinCode>791102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pasighat</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Pasighat Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bilat</name>
+    <pinCode>791102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pasighat</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Pasighat Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Boleng</name>
+    <pinCode>791102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pasighat</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Pasighat Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Borguli</name>
+    <pinCode>791104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mebo</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Mebo Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Damro</name>
+    <pinCode>791102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pasighat</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Pasighat Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Debing</name>
+    <pinCode>791102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pasighat</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Pasighat Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>GTC</name>
+    <pinCode>791102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pasighat</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Pasight Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hill Top</name>
+    <pinCode>791103</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Pasighat Taluk of East Siang District</location>
+    <telephone>0368-94362527</telephone>
+  </office>
+  <office>
+    <name>Kebang</name>
+    <pinCode>791102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pasighat</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Pasighat Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Korang</name>
+    <pinCode>791102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pasighat</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Pasighat Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Koyu</name>
+    <pinCode>791102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pasighat</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Pasighat Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ledum</name>
+    <pinCode>791102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pasighat</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Pasighat Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mebo</name>
+    <pinCode>791104</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Mebo Taluk of East Siang District</location>
+    <telephone>0368-2262211</telephone>
+  </office>
+  <office>
+    <name>Namsing</name>
+    <pinCode>791104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mebo</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Mebo Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nari</name>
+    <pinCode>791102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pasighat</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Pasighat Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ngopok</name>
+    <pinCode>791104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mebo</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Mebo Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Oyan</name>
+    <pinCode>791102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pasighat</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Pasighat Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pangin</name>
+    <pinCode>791102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pasighat</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Pasighat Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pasighat</name>
+    <pinCode>791102</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Pasighat Taluk of East Siang District</location>
+    <telephone>0368-2222341</telephone>
+  </office>
+  <office>
+    <name>Rani</name>
+    <pinCode>791102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pasighat</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Pasighat Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Renging</name>
+    <pinCode>791102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pasighat</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Pasighat Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Riga</name>
+    <pinCode>791102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pasighat</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Pasighat Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ruksin</name>
+    <pinCode>791102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pasighat</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Pasighat Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sille</name>
+    <pinCode>791102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pasighat</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Pasighat Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Silluk</name>
+    <pinCode>791104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mebo</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Mebo Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sirem</name>
+    <pinCode>791104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mebo</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Mebo Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yagrung</name>
+    <pinCode>791102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pasighat</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Pasighat Taluk of East Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chambang</name>
+    <pinCode>791118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palin</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Chambang Taluk of Kurung Kumey District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Damin</name>
+    <pinCode>791118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palin</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Damin Taluk of Kurung Kumey District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hiya</name>
+    <pinCode>791118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palin</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Nyapin Taluk of Kurung Kumey District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Koloriang</name>
+    <pinCode>791118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palin</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Koloriang Taluk of Kurung Kumey District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nyapin</name>
+    <pinCode>791118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palin</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Nyapin Taluk of Kurung Kumey District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Palin</name>
+    <pinCode>791118</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Palin Taluk of Kurung Kumey District</location>
+    <telephone>03788-244234</telephone>
+  </office>
+  <office>
+    <name>Sangram</name>
+    <pinCode>791118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palin</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Koloriang Taluk of Kurung Kumey District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sarli</name>
+    <pinCode>791118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palin</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Koloriang Taluk of Kurung Kumey District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tali</name>
+    <pinCode>791118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Palin</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Tali Taluk of Kurung Kumey District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Alubari</name>
+    <pinCode>792102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chowkham</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Chowkham Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chakma</name>
+    <pinCode>792102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chowkham</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Chowkham Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Changliang</name>
+    <pinCode>792001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tezu</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Tezu Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chowkham</name>
+    <pinCode>792102</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Chowkham Taluk of Lohit District</location>
+    <telephone>03806-222025</telephone>
+  </office>
+  <office>
+    <name>Danglat</name>
+    <pinCode>792001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tezu</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Tezu Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Diyun</name>
+    <pinCode>792103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Namsai</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Namsai Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gohaingaon</name>
+    <pinCode>792001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tezu</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Tezu Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hayuliang</name>
+    <pinCode>792104</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Hayuliang Taluk of Lohit District</location>
+    <telephone>03805-266223</telephone>
+  </office>
+  <office>
+    <name>Jaipur</name>
+    <pinCode>792103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Namsai</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Namsai Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kamlang Nagar</name>
+    <pinCode>792102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chowkham</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Kamlang Nagar Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kherem</name>
+    <pinCode>792102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chowkham</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Chowkham Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kumari Kachari</name>
+    <pinCode>792105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mahadevpur (Lohit)</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Mahadevpur Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kumsai</name>
+    <pinCode>792103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Namsai</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Namsai Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lathao</name>
+    <pinCode>792103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Namsai</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Namsai Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lohitpur</name>
+    <pinCode>792001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tezu</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Tezu Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Loiliang</name>
+    <pinCode>792001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tezu</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Tezu Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mahadevpur (Lohit)</name>
+    <pinCode>792105</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Mahadevpur Taluk of Lohit District</location>
+    <telephone>03806-244440</telephone>
+  </office>
+  <office>
+    <name>Manmao</name>
+    <pinCode>792103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Namsai</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Namsai Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Medo</name>
+    <pinCode>792102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chowkham</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Medo Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Momong</name>
+    <pinCode>792102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chowkham</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Momong Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nampong</name>
+    <pinCode>792103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Namsai</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Namsai Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Namsai</name>
+    <pinCode>792103</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Namsai Taluk of Lohit District</location>
+    <telephone>03806-262340</telephone>
+  </office>
+  <office>
+    <name>Nanam</name>
+    <pinCode>792103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Namsai</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Namsai Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Peyong</name>
+    <pinCode>792103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Namsai</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Namsai Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Podumani</name>
+    <pinCode>792105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mahadevpur (Lohit)</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Mahadevpur Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sunpura</name>
+    <pinCode>792111</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Sunpura Taluk of Lohit District</location>
+    <telephone>03804-233225</telephone>
+  </office>
+  <office>
+    <name>Tafragram</name>
+    <pinCode>792001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tezu</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Tezu Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tezu Govt.College</name>
+    <pinCode>792001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tezu</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Tezu Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tezu</name>
+    <pinCode>792001</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Tezu Taluk of Lohit District</location>
+    <telephone>03804-222208</telephone>
+  </office>
+  <office>
+    <name>Tindolong</name>
+    <pinCode>792001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tezu</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Tezu Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wakro</name>
+    <pinCode>792102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chowkham</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Wakro Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wingko</name>
+    <pinCode>792103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Namsai</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Namsai Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yealing</name>
+    <pinCode>792111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sunpura</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Sunpura Taluk of Lohit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Abango</name>
+    <pinCode>792110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Roing</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Roing Taluk of Lower Dibang Valley District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Anupam</name>
+    <pinCode>792110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Roing</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Roing Taluk of Lower Dibang Valley District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bijari</name>
+    <pinCode>792110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Roing</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Roing Taluk of Lower Dibang Valley District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bolung</name>
+    <pinCode>792110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Roing</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Roing Taluk of Lower Dibang Valley District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bomjir</name>
+    <pinCode>792110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Roing</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Roing Taluk of Lower Dibang Valley District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dambuk</name>
+    <pinCode>792110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Roing</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Roing Taluk of Lower Dibang Valley District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Desali</name>
+    <pinCode>792110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Roing</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Roing Taluk of Lower Dibang Valley District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Elopa</name>
+    <pinCode>792110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Roing</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Roing Taluk of Lower Dibang Valley District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Etalin</name>
+    <pinCode>792110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Roing</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Roing Taluk of Lower Dibang Valley District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hunli</name>
+    <pinCode>792110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Roing</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Roing Taluk of Lower Dibang Valley District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Iduli</name>
+    <pinCode>792110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Roing</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Roing Taluk of Lower Dibang Valley District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jia</name>
+    <pinCode>792110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Roing</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Roing Taluk of Lower Dibang Valley District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Koranu</name>
+    <pinCode>792110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Roing</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Roing Taluk of Lower Dibang Valley District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kronli</name>
+    <pinCode>792110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Roing</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Roing Taluk of Lower Dibang Valley District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Meka</name>
+    <pinCode>792110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Roing</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Roing Taluk of Lower Dibang Valley District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Paglam</name>
+    <pinCode>792110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Roing</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Roing Taluk of Lower Dibang Valley District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Parbuk</name>
+    <pinCode>792110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Roing</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Roing Taluk of Lower Dibang Valley District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Santipur</name>
+    <pinCode>792110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Roing</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Roing Taluk of Lower Dibang Valley District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Boasimla</name>
+    <pinCode>791120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ziro</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Ziro Taluk of Lower Subansiri District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chimpu</name>
+    <pinCode>791113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ram Krishna Mission</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Itanagar Taluk of Lower Subansiri District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Deed</name>
+    <pinCode>791120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ziro</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Ziro Taluk of Lower Subansiri District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Godak</name>
+    <pinCode>791120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ziro</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Ziro Taluk of Lower Subansiri District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hija</name>
+    <pinCode>791120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ziro</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Ziro Taluk of Lower Subansiri District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Joram</name>
+    <pinCode>791120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ziro</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Ziro Taluk of Lower Subansiri District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Old Ziro</name>
+    <pinCode>791120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ziro</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Ziro Taluk of Lower Subansiri District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Raga</name>
+    <pinCode>791120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ziro</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Ziro Taluk of Lower Subansiri District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ranga Nadi Project</name>
+    <pinCode>791119</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>R N Project Taluk of Lower Subansiri District</location>
+    <telephone>03809-222226</telephone>
+  </office>
+  <office>
+    <name>Talo</name>
+    <pinCode>791120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ziro</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Ziro Taluk of Lower Subansiri District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yachuli</name>
+    <pinCode>791120</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ziro</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Ziro Taluk of Lower Subansiri District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yazali</name>
+    <pinCode>791119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ranga Nadi Project</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Ziro Taluk of Lower Subansiri District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ziro</name>
+    <pinCode>791120</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Ziro Taluk of Lower Subansiri District</location>
+    <telephone>03782-224658</telephone>
+  </office>
+  <office>
+    <name>Arunachal Pradesh Secretariat</name>
+    <pinCode>791111</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Itanagar Taluk of Papum Pare District</location>
+    <telephone>0360-2291902</telephone>
+  </office>
+  <office>
+    <name>Arunachal University</name>
+    <pinCode>791112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Doimukh</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Yupia Taluk of Papum Pare District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Balijan</name>
+    <pinCode>791123</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Banderdewa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Balijan Taluk of Papum Pare District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Banderdewa</name>
+    <pinCode>791123</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Banderdewa Taluk of Papum Pare District</location>
+    <telephone>0360-2266234</telephone>
+  </office>
+  <office>
+    <name>Chaglagam</name>
+    <pinCode>792104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Hayuliang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Hayuliang Taluk of Papum Pare District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Doimukh</name>
+    <pinCode>791112</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Diomukh Taluk of Papum Pare District</location>
+    <telephone>0360-2277249</telephone>
+  </office>
+  <office>
+    <name>Donyi Polo</name>
+    <pinCode>791113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ram Krishna Mission</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Itanagar Taluk of Papum Pare District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Goiliang</name>
+    <pinCode>792104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Hayuliang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Hayuliang Taluk of Papum Pare District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hawa Camp</name>
+    <pinCode>791121</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kimin</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Kimin Taluk of Papum Pare District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hawai</name>
+    <pinCode>792104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Hayuliang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Hayuliang Taluk of Papum Pare District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Itanagar</name>
+    <pinCode>791111</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Itanagar Taluk of Papum Pare District</location>
+    <telephone>0360-2291407</telephone>
+  </office>
+  <office>
+    <name>Kheel</name>
+    <pinCode>791112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Doimukh</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Doimukh Taluk of Papum Pare District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khopa</name>
+    <pinCode>792104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Hayuliang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Hayulinag Taluk of Papum Pare District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kibitho</name>
+    <pinCode>792104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Hayuliang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Hayuliang Taluk of Papum Pare District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kimin</name>
+    <pinCode>791121</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Kimin Taluk of Papum Pare District</location>
+    <telephone>0360-2255222</telephone>
+  </office>
+  <office>
+    <name>Kokila</name>
+    <pinCode>791123</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Banderdewa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Kokila Taluk of Papum Pare District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mengio</name>
+    <pinCode>791119</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ranga Nadi Project</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Ziro Taluk of Papum Pare District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Meteliang</name>
+    <pinCode>792104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Hayuliang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Hayuliang Taluk of Papum Pare District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Midpu</name>
+    <pinCode>791112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Doimukh</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Doimukh Taluk of Papum Pare District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Model Village</name>
+    <pinCode>791110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Naharlagun</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Naharlagun Taluk of Papum Pare District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Naharlagun</name>
+    <pinCode>791110</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Naharlagun Taluk of Papum Pare District</location>
+    <telephone>0360-2350158</telephone>
+  </office>
+  <office>
+    <name>Nirjuli</name>
+    <pinCode>791109</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Nirjuli Taluk of Papum Pare District</location>
+    <telephone>0360-2257417</telephone>
+  </office>
+  <office>
+    <name>Pessing</name>
+    <pinCode>791001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Along</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Taluk of Papum Pare District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rahung</name>
+    <pinCode>790001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bomdila</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Taluk of Papum Pare District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ram Krishna Mission</name>
+    <pinCode>791113</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Itanagar Taluk of Papum Pare District</location>
+    <telephone>0360-2291160</telephone>
+  </office>
+  <office>
+    <name>Saglee</name>
+    <pinCode>791112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Doimukh</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Saglee Taluk of Papum Pare District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sonajuli</name>
+    <pinCode>791123</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Banderdewa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Sonajuli Taluk of Papum Pare District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Suchana Nagar</name>
+    <pinCode>791113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ram Krishna Mission</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Taluk of Papum Pare District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vivek Vihar</name>
+    <pinCode>791113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ram Krishna Mission</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Itanagar Taluk of Papum Pare District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wallong</name>
+    <pinCode>792104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Hayuliang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Hayuliang Taluk of Papum Pare District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yatong</name>
+    <pinCode>792104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Hayuliang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Hayuliang Taluk of Papum Pare District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yupia</name>
+    <pinCode>791110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Naharlagun</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Yupia Taluk of Papum Pare District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>B.Supply</name>
+    <pinCode>790104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tawang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Tawang Taluk of Tawang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gispu</name>
+    <pinCode>790106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lumla</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Lumla Taluk of Tawang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jang</name>
+    <pinCode>790105</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Tang Taluk of Tawang District</location>
+    <telephone>03794-254875</telephone>
+  </office>
+  <office>
+    <name>Kitpi</name>
+    <pinCode>790104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tawang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Tawang Taluk of Tawang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lhou</name>
+    <pinCode>790105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Jang Taluk of Tawang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lumberdung</name>
+    <pinCode>790104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tawang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Tawang Taluk of Tawang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lumla</name>
+    <pinCode>790106</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Lumla Taluk of Tawang District</location>
+    <telephone>03794-264398</telephone>
+  </office>
+  <office>
+    <name>Mukto</name>
+    <pinCode>790105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Jang Taluk of Tawang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sakpret</name>
+    <pinCode>790104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tawang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Tawang Taluk of Tawang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tawang</name>
+    <pinCode>790104</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Tawang Taluk of Tawang District</location>
+    <telephone>03794-222280</telephone>
+  </office>
+  <office>
+    <name>Temple Gompa</name>
+    <pinCode>790104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tawang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Tawang Taluk of Tawang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thingbu</name>
+    <pinCode>790105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Jang Taluk of Tawang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zimithang</name>
+    <pinCode>790106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lumla</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Lumla Taluk of Tawang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Borduria</name>
+    <pinCode>792130</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khonsa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Khonsa Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dadam</name>
+    <pinCode>792130</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khonsa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Khonsa Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Deomali</name>
+    <pinCode>792129</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Deomali Taluk of Tirap District</location>
+    <telephone>03786-255314</telephone>
+  </office>
+  <office>
+    <name>Hukanjuri</name>
+    <pinCode>792129</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Deomali</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Deomali Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>K/nokno</name>
+    <pinCode>792131</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Longding</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Longding Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kaimai</name>
+    <pinCode>792130</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khonsa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Khonsa Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kanubari</name>
+    <pinCode>792130</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khonsa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Kanubari Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kapu</name>
+    <pinCode>792130</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khonsa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Khonsa Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khela</name>
+    <pinCode>792130</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khonsa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Khonsa Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kheti</name>
+    <pinCode>792130</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khonsa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Khonsa Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khonsa Basti</name>
+    <pinCode>792130</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khonsa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Khonsa Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khonsa</name>
+    <pinCode>792130</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Khonsa Taluk of Tirap District</location>
+    <telephone>03786-222239</telephone>
+  </office>
+  <office>
+    <name>Khotnu</name>
+    <pinCode>792131</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Longding</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Longding Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lazu</name>
+    <pinCode>792130</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khonsa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Khonsa Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Longding</name>
+    <pinCode>792131</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Longding Taluk of Tirap District</location>
+    <telephone>03786-233250</telephone>
+  </office>
+  <office>
+    <name>Longfong</name>
+    <pinCode>792131</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Longding</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Longding Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Minthong</name>
+    <pinCode>792131</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Longding</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Longding Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Namsang</name>
+    <pinCode>792129</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Deomali</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Namsang Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Namsang Mukh</name>
+    <pinCode>792129</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Deomali</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Namsang Mukh Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Narottam Nagar</name>
+    <pinCode>792129</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Deomali</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Narottam Nagar Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nginu</name>
+    <pinCode>792131</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Longding</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Longding Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Niausa</name>
+    <pinCode>792131</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Longding</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Longding Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Panchou</name>
+    <pinCode>792131</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Longding</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Longding Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Senewa</name>
+    <pinCode>792131</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Longding</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Longding Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Soha</name>
+    <pinCode>792129</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Deomali</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Soha Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thinsa</name>
+    <pinCode>792130</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khonsa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Khonsa Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tissa</name>
+    <pinCode>792131</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Longding</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Longding Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tupi</name>
+    <pinCode>792130</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khonsa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Khonsa Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vally View</name>
+    <pinCode>792130</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khonsa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Khonsa Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wakka</name>
+    <pinCode>792131</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Longding</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Longding Taluk of Tirap District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dalbing</name>
+    <pinCode>791102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pasighat</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Pasighat Taluk of Upper Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Geku</name>
+    <pinCode>791002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yingkiong</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Yingkiong Taluk of Upper Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gelling</name>
+    <pinCode>791105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuting</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Tuting Taluk of Upper Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karko</name>
+    <pinCode>791002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yingkiong</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Yingkiong Taluk of Upper Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mariyang</name>
+    <pinCode>791002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yingkiong</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Yingkiong Taluk of Upper Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Migging</name>
+    <pinCode>791105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuting</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Tuting Taluk of Upper Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Shimong</name>
+    <pinCode>791002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yingkiong</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Yingkiong Taluk of Upper Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Singa</name>
+    <pinCode>791105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuting</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Tuting Taluk of Upper Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tuting</name>
+    <pinCode>791105</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Tuting Taluk of Upper Siang District</location>
+    <telephone>03799-222335</telephone>
+  </office>
+  <office>
+    <name>Yingkiong</name>
+    <pinCode>791002</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Yingkiong Taluk of Upper Siang District</location>
+    <telephone>03777-222240</telephone>
+  </office>
+  <office>
+    <name>Daporijo</name>
+    <pinCode>791122</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Daporijo Taluk of Upper Subansiri District</location>
+    <telephone>03792-223221</telephone>
+  </office>
+  <office>
+    <name>Dumporijo</name>
+    <pinCode>791122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Daporijo</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Dumporijo Taluk of Upper Subansiri District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Giba</name>
+    <pinCode>791122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Daporijo</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Giba Taluk of Upper Subansiri District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lemiking</name>
+    <pinCode>791122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Daporijo</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Lemiking Taluk of Upper Subansiri District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lepajaring</name>
+    <pinCode>791122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Daporijo</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Lepajaring Taluk of Upper Subansiri District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maro</name>
+    <pinCode>791122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Daporijo</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Maro Taluk of Upper Subansiri District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Muri</name>
+    <pinCode>791122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Daporijo</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Muri Taluk of Upper Subansiri District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nacho</name>
+    <pinCode>791122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Daporijo</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Nacho Taluk of Upper Subansiri District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sippi</name>
+    <pinCode>791122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Daporijo</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Sippi Taluk of Upper Subansiri District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Siyum</name>
+    <pinCode>791122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Daporijo</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Siyum Taluk of Upper Subansiri District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tabarijo</name>
+    <pinCode>791122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Daporijo</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Tabarijo Taluk of Upper Subansiri District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Taksing</name>
+    <pinCode>791122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Daporijo</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Taksing Taluk of Upper Subansiri District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Taliha</name>
+    <pinCode>791122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Daporijo</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Taliha Taluk of Upper Subansiri District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Balemu</name>
+    <pinCode>790002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalaktang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Kalaktang Taluk of West Kameng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bhalukpong</name>
+    <pinCode>790114</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Bhalukpong Taluk of West Kameng District</location>
+    <telephone>03780-234433</telephone>
+  </office>
+  <office>
+    <name>Bomdila</name>
+    <pinCode>790001</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Bomdila Taluk of West Kameng District</location>
+    <telephone>03782-222423</telephone>
+  </office>
+  <office>
+    <name>Dahung</name>
+    <pinCode>790116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tenga Market</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Tenga Market Taluk of West Kameng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dedza</name>
+    <pinCode>790116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tenga Market</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Tenga Market Taluk of West Kameng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dirang Basti</name>
+    <pinCode>790101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dirang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Dirang Basti Taluk of West Kameng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dirang</name>
+    <pinCode>790101</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Dirang Taluk of West Kameng District</location>
+    <telephone>08780-242238</telephone>
+  </office>
+  <office>
+    <name>Kalaktang</name>
+    <pinCode>790002</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Kalaktang Taluk of West Kameng District</location>
+    <telephone>03782-266410</telephone>
+  </office>
+  <office>
+    <name>Khellong</name>
+    <pinCode>790114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bhalukpong</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Khellong Taluk of West Kameng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lish</name>
+    <pinCode>790101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dirang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Lish Taluk of West Kameng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Munna Camp</name>
+    <pinCode>790101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dirang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Munna Camp Taluk of West Kameng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nafra</name>
+    <pinCode>790001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bomdila</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Nafra Taluk of West Kameng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Palizi</name>
+    <pinCode>790102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Seppa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Seppa Taluk of West Kameng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rupa</name>
+    <pinCode>790003</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Rupa Taluk of West Kameng District</location>
+    <telephone>03782-232240</telephone>
+  </office>
+  <office>
+    <name>Salari</name>
+    <pinCode>790001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bomdila</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Salari Taluk of West Kameng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sangti</name>
+    <pinCode>790101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dirang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Sangti Taluk of West Kameng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Senge</name>
+    <pinCode>790101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dirang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Senge Taluk of West Kameng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Shergaon</name>
+    <pinCode>790003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Rupa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Rupa Taluk of West Kameng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Singchung</name>
+    <pinCode>790116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tenga Market</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Tenga Market Taluk of West Kameng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tenga Market</name>
+    <pinCode>790116</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Tengaf Market Taluk of West Kameng District</location>
+    <telephone>03782-222208</telephone>
+  </office>
+  <office>
+    <name>Tenzingaon</name>
+    <pinCode>790002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalaktang</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Kalaktang Taluk of West Kameng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thrizino</name>
+    <pinCode>790102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Seppa</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Seppa Taluk of West Kameng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tippi</name>
+    <pinCode>790114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bhalukpong</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Tippi Taluk of West Kameng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Along</name>
+    <pinCode>791001</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Bordumsa Circle Taluk of West Siang District</location>
+    <telephone>03783-222234</telephone>
+  </office>
+  <office>
+    <name>Bagra</name>
+    <pinCode>791001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Along</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Bagra Taluk of West Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bame</name>
+    <pinCode>791101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Basar (West Siang)</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Bame Taluk of West Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Basar (West Siang)</name>
+    <pinCode>791101</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Basar Taluk of West Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bene</name>
+    <pinCode>791001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Along</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Bene Taluk of West Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dali</name>
+    <pinCode>791101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Basar (West Siang)</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Dali Taluk of West Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Darak</name>
+    <pinCode>791001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Along</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Darak Taluk of West Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Daring</name>
+    <pinCode>791101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Basar (West Siang)</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Daring Taluk of West Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Darka</name>
+    <pinCode>791001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Along</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Darka Taluk of West Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Garu</name>
+    <pinCode>791125</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Likabali</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Likabali Taluk of West Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gensi</name>
+    <pinCode>791125</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Likabali</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Likabali Taluk of West Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kambang</name>
+    <pinCode>791001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Along</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Kambang Taluk of West Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kaying</name>
+    <pinCode>791001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Along</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Kaying Taluk of West Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kombo</name>
+    <pinCode>791001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Along</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Kombo Taluk of West Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Likabali</name>
+    <pinCode>791125</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Likabali Taluk of West Siang District</location>
+    <telephone>03795-265708</telephone>
+  </office>
+  <office>
+    <name>Liromoba</name>
+    <pinCode>791101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Basar (West Siang)</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Liromoba Taluk of West Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Logum Jining</name>
+    <pinCode>791001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Along</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Logum Jining Taluk of West Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mechuka</name>
+    <pinCode>791003</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Itanagar</headoffice>
+    <location>Mechuka Taluk of West Siang District</location>
+    <telephone>03793-222283</telephone>
+  </office>
+  <office>
+    <name>Monigong</name>
+    <pinCode>791001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Along</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Monigong Taluk of West Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nikte</name>
+    <pinCode>791001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Along</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Nikte Taluk of West Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Payum</name>
+    <pinCode>791001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Along</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Payum Taluk of West Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rumgong</name>
+    <pinCode>791001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Along</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Gumgong Taluk of West Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tato</name>
+    <pinCode>791001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Along</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Tato Taluk of West Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tirbin</name>
+    <pinCode>791101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Basar (West Siang)</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Tirbin Taluk of West Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vivek Nagar</name>
+    <pinCode>791001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Along</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Vivek Nagar Taluk of West Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yoji Yora</name>
+    <pinCode>791001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Along</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Yoji Yora Taluk of West Siang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yomcha</name>
+    <pinCode>791001</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Along</suboffice>
+    <headoffice>Itanagar</headoffice>
+    <location>Yomcha Taluk of West Siang District</location>
+    <telephone />
+  </office>
+</offices>

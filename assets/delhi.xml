@@ -1,0 +1,4808 @@
+<offices>
+  <office>
+    <name>A.G.C.R.</name>
+    <pinCode>110002</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Indraprastha</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23702285</telephone>
+  </office>
+  <office>
+    <name>A.K.Market</name>
+    <pinCode>110055</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>New Delhi.</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23588870</telephone>
+  </office>
+  <office>
+    <name>Ajmeri Gate Extn.</name>
+    <pinCode>110002</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Indraprastha</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23230869</telephone>
+  </office>
+  <office>
+    <name>Anand Parbat Indl. Area</name>
+    <pinCode>110005</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>New Delhi.</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-28762297</telephone>
+  </office>
+  <office>
+    <name>Anand Parbat</name>
+    <pinCode>110005</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>New Delhi.</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-28763724</telephone>
+  </office>
+  <office>
+    <name>Bank Street (Central Delhi)</name>
+    <pinCode>110005</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>New Delhi.</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-28751331</telephone>
+  </office>
+  <office>
+    <name>Baroda House</name>
+    <pinCode>110001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Indraprastha</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23388895</telephone>
+  </office>
+  <office>
+    <name>Bengali Market</name>
+    <pinCode>110001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sansad Marg</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23715746</telephone>
+  </office>
+  <office>
+    <name>Bhagat Singh Market</name>
+    <pinCode>110001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>New Delhi.</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23364908</telephone>
+  </office>
+  <office>
+    <name>Connaught Place</name>
+    <pinCode>110001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sansad Marg</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23324214</telephone>
+  </office>
+  <office>
+    <name>Constitution House</name>
+    <pinCode>110001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sansad Marg</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23385596</telephone>
+  </office>
+  <office>
+    <name>Dada Ghosh Bhawan</name>
+    <pinCode>110008</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>New Delhi.</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-25708621</telephone>
+  </office>
+  <office>
+    <name>Darya Ganj</name>
+    <pinCode>110002</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Indraprastha</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23270881</telephone>
+  </office>
+  <office>
+    <name>Delhi High Court</name>
+    <pinCode>110003</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Indraprastha</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23388728</telephone>
+  </office>
+  <office>
+    <name>Desh Bandhu Gupta Road</name>
+    <pinCode>110005</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>New Delhi.</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-28723522</telephone>
+  </office>
+  <office>
+    <name>Election Commission</name>
+    <pinCode>110001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sansad Marg</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23718166</telephone>
+  </office>
+  <office>
+    <name>Gandhi Smarak Nidhi</name>
+    <pinCode>110002</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Indraprastha</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23312369</telephone>
+  </office>
+  <office>
+    <name>Guru Gobind Singh Marg</name>
+    <pinCode>110005</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>New Delhi.</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-28713522</telephone>
+  </office>
+  <office>
+    <name>Hauz Qazi</name>
+    <pinCode>110006</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Indraprastha</headoffice>
+    <location>Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23278976</telephone>
+  </office>
+  <office>
+    <name>I.A.R.I.</name>
+    <pinCode>110012</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>New Delhi.</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-25849036</telephone>
+  </office>
+  <office>
+    <name>I.P.Estate</name>
+    <pinCode>110002</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Indraprastha</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23370279</telephone>
+  </office>
+  <office>
+    <name>Inderpuri</name>
+    <pinCode>110012</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>New Delhi.</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-25833606</telephone>
+  </office>
+  <office>
+    <name>Indraprastha</name>
+    <pinCode>110002</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23236795</telephone>
+  </office>
+  <office>
+    <name>Jama Masjid</name>
+    <pinCode>110006</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Indraprastha</headoffice>
+    <location>Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23278981</telephone>
+  </office>
+  <office>
+    <name>Janpath</name>
+    <pinCode>110001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sansad Marg</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23314430</telephone>
+  </office>
+  <office>
+    <name>Karol Bagh</name>
+    <pinCode>110005</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>New Delhi.</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-28752040</telephone>
+  </office>
+  <office>
+    <name>Krishi Bhawan</name>
+    <pinCode>110001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sansad Marg</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23385584</telephone>
+  </office>
+  <office>
+    <name>Lady Harding Medical College</name>
+    <pinCode>110001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sansad Marg</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23745547</telephone>
+  </office>
+  <office>
+    <name>Master Prithvi Nath Marg</name>
+    <pinCode>110005</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>New Delhi.</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23524128</telephone>
+  </office>
+  <office>
+    <name>Minto Road</name>
+    <pinCode>110002</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Indraprastha</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23235048</telephone>
+  </office>
+  <office>
+    <name>Constitution House</name>
+    <pinCode>110001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sansad Marg</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23385596</telephone>
+  </office>
+  <office>
+    <name>Dada Ghosh Bhawan</name>
+    <pinCode>110008</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>New Delhi.</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-25708621</telephone>
+  </office>
+  <office>
+    <name>Darya Ganj</name>
+    <pinCode>110002</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Indraprastha</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23270881</telephone>
+  </office>
+  <office>
+    <name>Delhi High Court</name>
+    <pinCode>110003</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Indraprastha</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23388728</telephone>
+  </office>
+  <office>
+    <name>Desh Bandhu Gupta Road</name>
+    <pinCode>110005</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>New Delhi.</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-28723522</telephone>
+  </office>
+  <office>
+    <name>Election Commission</name>
+    <pinCode>110001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sansad Marg</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23718166</telephone>
+  </office>
+  <office>
+    <name>Gandhi Smarak Nidhi</name>
+    <pinCode>110002</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Indraprastha</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23312369</telephone>
+  </office>
+  <office>
+    <name>Guru Gobind Singh Marg</name>
+    <pinCode>110005</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>New Delhi.</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-28713522</telephone>
+  </office>
+  <office>
+    <name>Hauz Qazi</name>
+    <pinCode>110006</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Indraprastha</headoffice>
+    <location>Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23278976</telephone>
+  </office>
+  <office>
+    <name>I.A.R.I.</name>
+    <pinCode>110012</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>New Delhi.</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-25849036</telephone>
+  </office>
+  <office>
+    <name>Patel Nagar West</name>
+    <pinCode>110008</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>New Delhi.</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-25888386</telephone>
+  </office>
+  <office>
+    <name>Patiala House</name>
+    <pinCode>110001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Indraprastha</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23385547</telephone>
+  </office>
+  <office>
+    <name>Pragati Maidan Camp</name>
+    <pinCode>110001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Indraprastha</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Pragati Maidan</name>
+    <pinCode>110001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Indraprastha</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23371549</telephone>
+  </office>
+  <office>
+    <name>Rail Bhawan</name>
+    <pinCode>110001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sansad Marg</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23385565</telephone>
+  </office>
+  <office>
+    <name>Rajender Nagar</name>
+    <pinCode>110060</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>New Delhi.</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-28741804</telephone>
+  </office>
+  <office>
+    <name>Rashtrapati Bhawan</name>
+    <pinCode>110004</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sansad Marg</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23012991</telephone>
+  </office>
+  <office>
+    <name>Sansad Marg</name>
+    <pinCode>110001</pinCode>
+    <status>Head Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23096070</telephone>
+  </office>
+  <office>
+    <name>Sansadiya Soudh</name>
+    <pinCode>110001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sansad Marg</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23014121</telephone>
+  </office>
+  <office>
+    <name>Sat Nagar</name>
+    <pinCode>110005</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>New Delhi.</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-25728878</telephone>
+  </office>
+  <office>
+    <name>Secretariat North</name>
+    <pinCode>110001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sansad Marg</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23092160</telephone>
+  </office>
+  <office>
+    <name>Shastri Bhawan</name>
+    <pinCode>110001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sansad Marg</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23385582</telephone>
+  </office>
+  <office>
+    <name>South Avenue</name>
+    <pinCode>110011</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sansad Marg</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23016041</telephone>
+  </office>
+  <office>
+    <name>Supreme Court</name>
+    <pinCode>110001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Indraprastha</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23389015</telephone>
+  </office>
+  <office>
+    <name>Swami Ram Tirth Nagar</name>
+    <pinCode>110055</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>New Delhi.</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23522097</telephone>
+  </office>
+  <office>
+    <name>Udyog Bhawan</name>
+    <pinCode>110011</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sansad Marg</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23062092</telephone>
+  </office>
+  <office>
+    <name>Union Public Service Commission</name>
+    <pinCode>110069</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sansad Marg</headoffice>
+    <location>New Delhi Taluk of Central Delhi District</location>
+    <telephone>011-23385123</telephone>
+  </office>
+  <office>
+    <name>Anand Vihar</name>
+    <pinCode>110092</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22157472</telephone>
+  </office>
+  <office>
+    <name>Azad Nagar (East Delhi)</name>
+    <pinCode>110051</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22093521</telephone>
+  </office>
+  <office>
+    <name>Balbir Nagar</name>
+    <pinCode>110032</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22320223</telephone>
+  </office>
+  <office>
+    <name>Bhola Nath Nagar</name>
+    <pinCode>110032</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22307447</telephone>
+  </office>
+  <office>
+    <name>Brahampuri</name>
+    <pinCode>110053</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22564937</telephone>
+  </office>
+  <office>
+    <name>Chilla</name>
+    <pinCode>110091</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Patparganj</suboffice>
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dilshad Garden</name>
+    <pinCode>110095</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22583440</telephone>
+  </office>
+  <office>
+    <name>Distt. Court (KKD)</name>
+    <pinCode>110032</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22306086</telephone>
+  </office>
+  <office>
+    <name>G.T.B. Hospital</name>
+    <pinCode>110095</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22125079</telephone>
+  </office>
+  <office>
+    <name>Gandhi Nagar Bazar</name>
+    <pinCode>110031</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22083305</telephone>
+  </office>
+  <office>
+    <name>Gandhi Nagar (East Delhi)</name>
+    <pinCode>110031</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22077543</telephone>
+  </office>
+  <office>
+    <name>Geeta Colony</name>
+    <pinCode>110031</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22541451</telephone>
+  </office>
+  <office>
+    <name>Ghazipur</name>
+    <pinCode>110096</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Vasundhra Enclave</suboffice>
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ghonda</name>
+    <pinCode>110053</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Seelampur</suboffice>
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gokal Puri</name>
+    <pinCode>110094</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22564727</telephone>
+  </office>
+  <office>
+    <name>Goverdhan Bihari Colony</name>
+    <pinCode>110032</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22304127</telephone>
+  </office>
+  <office>
+    <name>Govind Pura</name>
+    <pinCode>110051</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22541654</telephone>
+  </office>
+  <office>
+    <name>Harsh Vihar</name>
+    <pinCode>110093</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22342433</telephone>
+  </office>
+  <office>
+    <name>Himmatpuri</name>
+    <pinCode>110091</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22782284</telephone>
+  </office>
+  <office>
+    <name>IP Extension</name>
+    <pinCode>110092</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22235751</telephone>
+  </office>
+  <office>
+    <name>Jafrabad (East Delhi)</name>
+    <pinCode>110053</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22866828</telephone>
+  </office>
+  <office>
+    <name>Jagjit Nagar</name>
+    <pinCode>110053</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22942641</telephone>
+  </office>
+  <office>
+    <name>Jhilmil</name>
+    <pinCode>110095</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22129379</telephone>
+  </office>
+  <office>
+    <name>Jhilmil Tahirpur</name>
+    <pinCode>110095</pinCode>
+    <status>Branch Office(Non Delivery) directly a/w Head Office</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Johripur</name>
+    <pinCode>110094</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Gokal Puri</suboffice>
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kailash Nagar</name>
+    <pinCode>110031</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22071557</telephone>
+  </office>
+  <office>
+    <name>Kalyanpuri</name>
+    <pinCode>110091</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22770349</telephone>
+  </office>
+  <office>
+    <name>Kalyanvas</name>
+    <pinCode>110091</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22788972</telephone>
+  </office>
+  <office>
+    <name>Karawal Nagar</name>
+    <pinCode>110094</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22933784</telephone>
+  </office>
+  <office>
+    <name>Khazuri Khas</name>
+    <pinCode>110094</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Gokal Puri</suboffice>
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Krishna Nagar</name>
+    <pinCode>110051</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22373250</telephone>
+  </office>
+  <office>
+    <name>Laxmi Nagar (East Delhi)</name>
+    <pinCode>110092</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22374567</telephone>
+  </office>
+  <office>
+    <name>Loni Road Housing Complex</name>
+    <pinCode>110093</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22818108</telephone>
+  </office>
+  <office>
+    <name>Loni Road</name>
+    <pinCode>110032</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22580417</telephone>
+  </office>
+  <office>
+    <name>Man Sarovar Park</name>
+    <pinCode>110032</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22581141</telephone>
+  </office>
+  <office>
+    <name>Mandawali Fazalpur</name>
+    <pinCode>110092</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22476529</telephone>
+  </office>
+  <office>
+    <name>Maujpur</name>
+    <pinCode>110053</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22560272</telephone>
+  </office>
+  <office>
+    <name>Mayur Vihar Ph-I</name>
+    <pinCode>110091</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22713926</telephone>
+  </office>
+  <office>
+    <name>Mayur Vihar Ph-III</name>
+    <pinCode>110096</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22614042</telephone>
+  </office>
+  <office>
+    <name>Nand Nagri &quot;A&quot;</name>
+    <pinCode>110093</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22127822</telephone>
+  </office>
+  <office>
+    <name>Nand Nagri &quot;C&quot;</name>
+    <pinCode>110093</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22581550</telephone>
+  </office>
+  <office>
+    <name>New Seemapuri</name>
+    <pinCode>110095</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22355364</telephone>
+  </office>
+  <office>
+    <name>New Usmanpur</name>
+    <pinCode>110053</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Seelampur</suboffice>
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nirman Vihar</name>
+    <pinCode>110092</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22054430</telephone>
+  </office>
+  <office>
+    <name>Old Seemapuri</name>
+    <pinCode>110095</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22355825</telephone>
+  </office>
+  <office>
+    <name>Patparganj</name>
+    <pinCode>110091</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22756629</telephone>
+  </office>
+  <office>
+    <name>Raghubar Pura</name>
+    <pinCode>110031</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22081628</telephone>
+  </office>
+  <office>
+    <name>Rajgarh Colony</name>
+    <pinCode>110031</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22541361</telephone>
+  </office>
+  <office>
+    <name>Ram Nagar (East Delhi)</name>
+    <pinCode>110051</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22541373</telephone>
+  </office>
+  <office>
+    <name>Rohtash Nagar</name>
+    <pinCode>110032</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22821395</telephone>
+  </office>
+  <office>
+    <name>Seelampur</name>
+    <pinCode>110053</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22825889</telephone>
+  </office>
+  <office>
+    <name>Shahdara Mandi</name>
+    <pinCode>110032</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22382207</telephone>
+  </office>
+  <office>
+    <name>Shahdara</name>
+    <pinCode>110032</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22322139</telephone>
+  </office>
+  <office>
+    <name>Shakarpur</name>
+    <pinCode>110092</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22050155</telephone>
+  </office>
+  <office>
+    <name>Shastri Nagar (East Delhi)</name>
+    <pinCode>110031</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22541561</telephone>
+  </office>
+  <office>
+    <name>Shivaji Park (East Delhi)</name>
+    <pinCode>110032</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22320339</telephone>
+  </office>
+  <office>
+    <name>Sonia Vihar</name>
+    <pinCode>110094</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22962345</telephone>
+  </office>
+  <office>
+    <name>Surajmal Vihar</name>
+    <pinCode>110092</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22156539</telephone>
+  </office>
+  <office>
+    <name>Telewara</name>
+    <pinCode>110032</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22391641</telephone>
+  </office>
+  <office>
+    <name>Trilok Puri</name>
+    <pinCode>110091</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22771645</telephone>
+  </office>
+  <office>
+    <name>V.K. Nagar</name>
+    <pinCode>110095</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22153919</telephone>
+  </office>
+  <office>
+    <name>Vasundhra Enclave</name>
+    <pinCode>110096</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22771203</telephone>
+  </office>
+  <office>
+    <name>Vishwas Nagar</name>
+    <pinCode>110032</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22381505</telephone>
+  </office>
+  <office>
+    <name>Vivek Vihar</name>
+    <pinCode>110095</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22151164</telephone>
+  </office>
+  <office>
+    <name>Yamuna Vihar</name>
+    <pinCode>110053</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22913801</telephone>
+  </office>
+  <office>
+    <name>Yozna Vihar</name>
+    <pinCode>110092</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Krishna Nagar</headoffice>
+    <location>Taluk of East Delhi District</location>
+    <telephone>011-22163842</telephone>
+  </office>
+  <office>
+    <name>F F C Okhla</name>
+    <pinCode>110020</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of New Delhi District</location>
+    <telephone>011-26844738</telephone>
+  </office>
+  <office>
+    <name>Nauroji Nagar</name>
+    <pinCode>110029</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>New Delhi Taluk of New Delhi District</location>
+    <telephone>011-26108049</telephone>
+  </office>
+  <office>
+    <name>New Delhi.</name>
+    <pinCode>110001</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>New Delhi Taluk of New Delhi District</location>
+    <telephone>011-23743602</telephone>
+  </office>
+  <office>
+    <name>Aruna Nagar</name>
+    <pinCode>110054</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Delhi.</headoffice>
+    <location>North Taluk of North Delhi District</location>
+    <telephone>011-23814272</telephone>
+  </office>
+  <office>
+    <name>Avantika</name>
+    <pinCode>110085</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>. Taluk of North Delhi District</location>
+    <telephone>011-23814630</telephone>
+  </office>
+  <office>
+    <name>Baratooti</name>
+    <pinCode>110006</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Indraprastha</headoffice>
+    <location>Taluk of North Delhi District</location>
+    <telephone>011-23613352</telephone>
+  </office>
+  <office>
+    <name>Burari</name>
+    <pinCode>110084</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Delhi.</headoffice>
+    <location>Delhi Taluk of North Delhi District</location>
+    <telephone>011-27611023</telephone>
+  </office>
+  <office>
+    <name>C.C.I.</name>
+    <pinCode>110007</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Delhi.</headoffice>
+    <location>Delhi Taluk of North Delhi District</location>
+    <telephone>011-27662624</telephone>
+  </office>
+  <office>
+    <name>Chandni Chowk</name>
+    <pinCode>110006</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Indraprastha</headoffice>
+    <location>Delhi Taluk of North Delhi District</location>
+    <telephone>011-23957594</telephone>
+  </office>
+  <office>
+    <name>Chawri Bazar</name>
+    <pinCode>110006</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Indraprastha</headoffice>
+    <location>Delhi Taluk of North Delhi District</location>
+    <telephone>011-23918940</telephone>
+  </office>
+  <office>
+    <name>Civil Lines (North Delhi)</name>
+    <pinCode>110054</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Delhi.</headoffice>
+    <location>Delhi Taluk of North Delhi District</location>
+    <telephone>011-23810061</telephone>
+  </office>
+  <office>
+    <name>Dareeba</name>
+    <pinCode>110006</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Indraprastha</headoffice>
+    <location>Delhi Taluk of North Delhi District</location>
+    <telephone>011-23270871</telephone>
+  </office>
+  <office>
+    <name>Delhi.</name>
+    <pinCode>110006</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Delhi Taluk of North Delhi District</location>
+    <telephone>011-23869771</telephone>
+  </office>
+  <office>
+    <name>Delhi Sadar Bazar</name>
+    <pinCode>110006</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Delhi.</headoffice>
+    <location>Delhi Taluk of North Delhi District</location>
+    <telephone>011-23541409</telephone>
+  </office>
+  <office>
+    <name>Delhi University</name>
+    <pinCode>110007</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Delhi.</headoffice>
+    <location>Delhi Taluk of North Delhi District</location>
+    <telephone>011-27667690</telephone>
+  </office>
+  <office>
+    <name>District Courts (North Delhi)</name>
+    <pinCode>110054</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Delhi.</headoffice>
+    <location>Delhi Taluk of North Delhi District</location>
+    <telephone>011-23956041</telephone>
+  </office>
+  <office>
+    <name>Gulabi Bagh</name>
+    <pinCode>110007</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Delhi.</headoffice>
+    <location>Delhi Taluk of North Delhi District</location>
+    <telephone>011-23653912</telephone>
+  </office>
+  <office>
+    <name>Jagatpur</name>
+    <pinCode>110084</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Burari</suboffice>
+    <headoffice>Delhi.</headoffice>
+    <location>Delhi Taluk of North Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jawahar Nagar (North Delhi)</name>
+    <pinCode>110007</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Delhi.</headoffice>
+    <location>Taluk of North Delhi District</location>
+    <telephone>011-23853928</telephone>
+  </office>
+  <office>
+    <name>Jharoda Majraa</name>
+    <pinCode>110084</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Burari</suboffice>
+    <headoffice>Delhi.</headoffice>
+    <location>Delhi Taluk of North Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kamla Nagar (North Delhi)</name>
+    <pinCode>110007</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Delhi.</headoffice>
+    <location>Delhi Taluk of North Delhi District</location>
+    <telephone>011-23844644</telephone>
+  </office>
+  <office>
+    <name>Malka Ganj</name>
+    <pinCode>110007</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Delhi.</headoffice>
+    <location>Delhi Taluk of North Delhi District</location>
+    <telephone>011-23851125</telephone>
+  </office>
+  <office>
+    <name>Padam Nagar (North Delhi)</name>
+    <pinCode>110007</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Delhi.</headoffice>
+    <location>Delhi Taluk of North Delhi District</location>
+    <telephone>011-23690441</telephone>
+  </office>
+  <office>
+    <name>Padam Nagar (North Delhi)</name>
+    <pinCode>110007</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Delhi.</headoffice>
+    <location>Delhi Taluk of North Delhi District</location>
+    <telephone>011-23690441</telephone>
+  </office>
+  <office>
+    <name>R.C.A.O.</name>
+    <pinCode>110007</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Delhi.</headoffice>
+    <location>Delhi Taluk of North Delhi District</location>
+    <telephone>011-23695447</telephone>
+  </office>
+  <office>
+    <name>Rana Pratap Bagh</name>
+    <pinCode>110007</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Delhi.</headoffice>
+    <location>Taluk of North Delhi District</location>
+    <telephone>011-27110607</telephone>
+  </office>
+  <office>
+    <name>Roop Nagar</name>
+    <pinCode>110007</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Delhi.</headoffice>
+    <location>Delhi Taluk of North Delhi District</location>
+    <telephone>011-23848023</telephone>
+  </office>
+  <office>
+    <name>Roshan Ara Road</name>
+    <pinCode>110007</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Delhi.</headoffice>
+    <location>Delhi Taluk of North Delhi District</location>
+    <telephone>011-23826718</telephone>
+  </office>
+  <office>
+    <name>S.T. Road</name>
+    <pinCode>110006</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Delhi.</headoffice>
+    <location>Delhi Taluk of North Delhi District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Shakti Nagar (North Delhi)</name>
+    <pinCode>110007</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Delhi.</headoffice>
+    <location>Delhi Taluk of North Delhi District</location>
+    <telephone>011-23841294</telephone>
+  </office>
+  <office>
+    <name>Timarpur</name>
+    <pinCode>110054</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Delhi.</headoffice>
+    <location>Delhi Taluk of North Delhi District</location>
+    <telephone>011-23815077</telephone>
+  </office>
+  <office>
+    <name>Wazirabad Village</name>
+    <pinCode>110084</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Delhi.</headoffice>
+    <location>North Taluk of North Delhi District</location>
+    <telephone>011-27651565</telephone>
+  </office>
+  <office>
+    <name>Babarpur (North East Delhi)</name>
+    <pinCode>110032</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of North East Delhi District</location>
+    <telephone>011-22829634</telephone>
+  </office>
+  <office>
+    <name>Bhajan Pura</name>
+    <pinCode>110053</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of North East Delhi District</location>
+    <telephone>011-22562781</telephone>
+  </office>
+  <office>
+    <name>Dayalpur</name>
+    <pinCode>110094</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Gokal Puri</suboffice>
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of North East Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mandoli Saboli</name>
+    <pinCode>110093</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Nand Nagri &quot;C&quot;</suboffice>
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of North East Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Shaheed Bhagat Singh Colony</name>
+    <pinCode>110094</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>. Taluk of North East Delhi District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Sunder Nagari</name>
+    <pinCode>110093</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Jhilmil</headoffice>
+    <location>Taluk of North East Delhi District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Adrash Nagar</name>
+    <pinCode>110033</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27682253</telephone>
+  </office>
+  <office>
+    <name>Alipur</name>
+    <pinCode>110036</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27204837</telephone>
+  </office>
+  <office>
+    <name>Anandvas Shakurpur</name>
+    <pinCode>110034</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27153856</telephone>
+  </office>
+  <office>
+    <name>Ashok Vihar</name>
+    <pinCode>110052</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27249661</telephone>
+  </office>
+  <office>
+    <name>Auchandi</name>
+    <pinCode>110039</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bawana</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Badli (North West Delhi)</name>
+    <pinCode>110042</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-23818182</telephone>
+  </office>
+  <office>
+    <name>Bakhtawar Pur</name>
+    <pinCode>110036</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Alipur</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bakoli</name>
+    <pinCode>110036</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Alipur</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bankner</name>
+    <pinCode>110040</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Narela</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Barwala</name>
+    <pinCode>110039</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bawana</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bawana</name>
+    <pinCode>110039</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27752021</telephone>
+  </office>
+  <office>
+    <name>Begumpur</name>
+    <pinCode>110086</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sultanpuri C Block</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bhalaswa</name>
+    <pinCode>110033</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Jahangir Puri A Block</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bhorgarh</name>
+    <pinCode>110040</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Narela</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Budh Vihar</name>
+    <pinCode>110086</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Sultanpuri C Block</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chand Pur</name>
+    <pinCode>110081</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kanjhawla</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Delhi Engg. College</name>
+    <pinCode>110042</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27871260</telephone>
+  </office>
+  <office>
+    <name>Dr.Mukerjee Nagar</name>
+    <pinCode>110009</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Taluk of North West Delhi District</location>
+    <telephone>011-27653760</telephone>
+  </office>
+  <office>
+    <name>G.T.B.Nagar</name>
+    <pinCode>110009</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27434229</telephone>
+  </office>
+  <office>
+    <name>Ganeshpura</name>
+    <pinCode>110035</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27386208</telephone>
+  </office>
+  <office>
+    <name>Gheora</name>
+    <pinCode>110081</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kanjhawla</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ghoga</name>
+    <pinCode>110039</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bawana</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gujranwala Colony</name>
+    <pinCode>110009</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27242621</telephone>
+  </office>
+  <office>
+    <name>H.S.Sangh</name>
+    <pinCode>110009</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27426118</telephone>
+  </office>
+  <office>
+    <name>Haiderpur</name>
+    <pinCode>110088</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27496417</telephone>
+  </office>
+  <office>
+    <name>Hareveli</name>
+    <pinCode>110039</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bawana</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hiranki</name>
+    <pinCode>110036</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Alipur</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Holambi Kalan</name>
+    <pinCode>110082</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khera Kalan</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jahangir Puri A Block</name>
+    <pinCode>110033</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27637286</telephone>
+  </office>
+  <office>
+    <name>Jahangir Puri D Block</name>
+    <pinCode>110033</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27638684</telephone>
+  </office>
+  <office>
+    <name>Jahangir Puri H Block</name>
+    <pinCode>110033</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27638267</telephone>
+  </office>
+  <office>
+    <name>Jat Khore</name>
+    <pinCode>110039</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bawana</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jaunti</name>
+    <pinCode>110081</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kanjhawla</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kadipur</name>
+    <pinCode>110036</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Alipur</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kanjhawla</name>
+    <pinCode>110081</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-23953477</telephone>
+  </office>
+  <office>
+    <name>Kanya Gurukul</name>
+    <pinCode>110040</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Narela</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karala</name>
+    <pinCode>110081</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kanjhawla</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Katewara</name>
+    <pinCode>110039</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bawana</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Keshav Puram (North West Delhi)</name>
+    <pinCode>110035</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27151947</telephone>
+  </office>
+  <office>
+    <name>Khampur</name>
+    <pinCode>110036</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Alipur</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khera Kalan</name>
+    <pinCode>110082</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27843252</telephone>
+  </office>
+  <office>
+    <name>Khera Khurd</name>
+    <pinCode>110082</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khera Kalan</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lad Pur</name>
+    <pinCode>110081</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kanjhawla</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lampur</name>
+    <pinCode>110040</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Narela</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Majra Dabas</name>
+    <pinCode>110081</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kanjhawla</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mangolpuri A Block</name>
+    <pinCode>110083</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27918548</telephone>
+  </office>
+  <office>
+    <name>Mangolpuri I Block</name>
+    <pinCode>110083</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27911299</telephone>
+  </office>
+  <office>
+    <name>Mangolpuri S Block</name>
+    <pinCode>110083</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Taluk of North West Delhi District</location>
+    <telephone>011-27918657</telephone>
+  </office>
+  <office>
+    <name>Maurya Enclave</name>
+    <pinCode>110034</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27324060</telephone>
+  </office>
+  <office>
+    <name>Mangolpuri N Block</name>
+    <pinCode>110083</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27916753</telephone>
+  </office>
+  <office>
+    <name>Model Town II</name>
+    <pinCode>110009</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27242545</telephone>
+  </office>
+  <office>
+    <name>Model Town III</name>
+    <pinCode>110009</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27134972</telephone>
+  </office>
+  <office>
+    <name>Mubarak Pur Dabas</name>
+    <pinCode>110081</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kanjhawla</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mukhmelpur</name>
+    <pinCode>110036</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Alipur</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>N.S.Mandi</name>
+    <pinCode>110033</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27676792</telephone>
+  </office>
+  <office>
+    <name>Nangal Poona</name>
+    <pinCode>110036</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Alipur</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nangal Thakran</name>
+    <pinCode>110039</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bawana</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Narela</name>
+    <pinCode>110040</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27787444</telephone>
+  </office>
+  <office>
+    <name>Naya Bans</name>
+    <pinCode>110082</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khera Kalan</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nimri</name>
+    <pinCode>110052</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-23657279</telephone>
+  </office>
+  <office>
+    <name>Nirankari Colony</name>
+    <pinCode>110009</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27128514</telephone>
+  </office>
+  <office>
+    <name>Nizampur</name>
+    <pinCode>110081</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kanjhawla</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Onkar Nagar</name>
+    <pinCode>110035</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27107618</telephone>
+  </office>
+  <office>
+    <name>Palla</name>
+    <pinCode>110036</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Alipur</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pehlad Pur</name>
+    <pinCode>110042</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Samai Pur</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pooth Kalan</name>
+    <pinCode>110086</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sultanpuri C Block</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pooth Kalan Resettlement</name>
+    <pinCode>110086</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Taluk of North West Delhi District</location>
+    <telephone>011-25482518</telephone>
+  </office>
+  <office>
+    <name>Pooth Khurd</name>
+    <pinCode>110039</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bawana</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Power House</name>
+    <pinCode>110035</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-25178534</telephone>
+  </office>
+  <office>
+    <name>Prashant Vihar</name>
+    <pinCode>110085</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27868764</telephone>
+  </office>
+  <office>
+    <name>Punjab Khor</name>
+    <pinCode>110081</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kanjhawla</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Qutabagarh</name>
+    <pinCode>110039</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bawana</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rampura</name>
+    <pinCode>110035</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Onkar Nagar</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rani Bagh</name>
+    <pinCode>110034</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27024553</telephone>
+  </office>
+  <office>
+    <name>Rani Khera</name>
+    <pinCode>110081</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kanjhawla</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rithala</name>
+    <pinCode>110085</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Rohini Sector 5</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rohini Courts</name>
+    <pinCode>110085</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Taluk of North West Delhi District</location>
+    <telephone>011-27553151</telephone>
+  </office>
+  <office>
+    <name>Rohini sec-11</name>
+    <pinCode>110085</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Rohini Sector 15</name>
+    <pinCode>110089</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Taluk of North West Delhi District</location>
+    <telephone>011-27296939</telephone>
+  </office>
+  <office>
+    <name>Rohini Sector 5</name>
+    <pinCode>110085</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27057686</telephone>
+  </office>
+  <office>
+    <name>Rohini Sector-7</name>
+    <pinCode>110085</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Taluk of North West Delhi District</location>
+    <telephone>011-27045682</telephone>
+  </office>
+  <office>
+    <name>Sabhapur</name>
+    <pinCode>110094</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Gokal Puri</suboffice>
+    <headoffice>Jhilmil</headoffice>
+    <location>Delhi North East Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Samai Pur</name>
+    <pinCode>110042</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27834323</telephone>
+  </office>
+  <office>
+    <name>Sarai Rohilla</name>
+    <pinCode>110035</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-23652631</telephone>
+  </office>
+  <office>
+    <name>Saraswati Vihar</name>
+    <pinCode>110034</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27021361</telephone>
+  </office>
+  <office>
+    <name>Satyawati Nagar</name>
+    <pinCode>110052</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27254051</telephone>
+  </office>
+  <office>
+    <name>Shakur Basti Depot</name>
+    <pinCode>110056</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-25291919</telephone>
+  </office>
+  <office>
+    <name>Shakur Pur I Block</name>
+    <pinCode>110034</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27187495</telephone>
+  </office>
+  <office>
+    <name>Shakurbasti Rs</name>
+    <pinCode>110034</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27020885</telephone>
+  </office>
+  <office>
+    <name>Shalamar</name>
+    <pinCode>110088</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Shalimar Bagh (North West Delhi)</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Shalimar Bagh (North West Delhi)</name>
+    <pinCode>110088</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27484652</telephone>
+  </office>
+  <office>
+    <name>Shastri Nagar (North West Delhi)</name>
+    <pinCode>110052</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-23640955</telephone>
+  </office>
+  <office>
+    <name>Singhu</name>
+    <pinCode>110040</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Narela</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Siraspur</name>
+    <pinCode>110042</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Samai Pur</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sri Nagar Colony</name>
+    <pinCode>110034</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27199835</telephone>
+  </office>
+  <office>
+    <name>Sultanpuri B Block</name>
+    <pinCode>110086</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-25482008</telephone>
+  </office>
+  <office>
+    <name>Sultanpuri C Block</name>
+    <pinCode>110086</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-25482296</telephone>
+  </office>
+  <office>
+    <name>Sultanpuri F Block</name>
+    <pinCode>110086</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-25186845</telephone>
+  </office>
+  <office>
+    <name>Tajpur Kalan</name>
+    <pinCode>110036</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Alipur</suboffice>
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wazir Pur III</name>
+    <pinCode>110052</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ashok Vihar</headoffice>
+    <location>Delhi Taluk of North West Delhi District</location>
+    <telephone>011-27305457</telephone>
+  </office>
+  <office>
+    <name>Abul Fazal Enclave-I</name>
+    <pinCode>110025</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>Taluk of South Delhi District</location>
+    <telephone>011-26844043</telephone>
+  </office>
+  <office>
+    <name>Air Force Station Tugalkabad</name>
+    <pinCode>110062</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-29968305</telephone>
+  </office>
+  <office>
+    <name>Alaknanda</name>
+    <pinCode>110019</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26034381</telephone>
+  </office>
+  <office>
+    <name>Ali</name>
+    <pinCode>110019</pinCode>
+    <status>Branch Office(Non Delivery) directly a/w Head Office</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Aliganj (South Delhi)</name>
+    <pinCode>110003</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-24628565</telephone>
+  </office>
+  <office>
+    <name>Amar Colony</name>
+    <pinCode>110024</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-29832389</telephone>
+  </office>
+  <office>
+    <name>Andrewsganj</name>
+    <pinCode>110049</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26254551</telephone>
+  </office>
+  <office>
+    <name>Badarpur (South Delhi)</name>
+    <pinCode>110044</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26945141</telephone>
+  </office>
+  <office>
+    <name>BSF Camp Tigri</name>
+    <pinCode>110062</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26079549</telephone>
+  </office>
+  <office>
+    <name>BTPS (South Delhi)</name>
+    <pinCode>110044</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26943725</telephone>
+  </office>
+  <office>
+    <name>C G O Complex</name>
+    <pinCode>110003</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-24362502</telephone>
+  </office>
+  <office>
+    <name>C R R I (South Delhi)</name>
+    <pinCode>110020</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26931765</telephone>
+  </office>
+  <office>
+    <name>Chittranjan Park</name>
+    <pinCode>110019</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26274722</telephone>
+  </office>
+  <office>
+    <name>Dakshinpuri Phase-I</name>
+    <pinCode>110062</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26059448</telephone>
+  </office>
+  <office>
+    <name>Dakshinpuri Phase-II</name>
+    <pinCode>110062</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-29958982</telephone>
+  </office>
+  <office>
+    <name>Dakshinpuri Phase-III</name>
+    <pinCode>110062</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26058682</telephone>
+  </office>
+  <office>
+    <name>Dargah Sharif</name>
+    <pinCode>110013</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-24359704</telephone>
+  </office>
+  <office>
+    <name>Defence Colony (South Delhi)</name>
+    <pinCode>110024</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-24333841</telephone>
+  </office>
+  <office>
+    <name>Deoli</name>
+    <pinCode>110062</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Dr. Ambedkar Nagar (South Delhi)</suboffice>
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Distt. Court Complex, Saket</name>
+    <pinCode>110017</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>. Taluk of South Delhi District</location>
+    <telephone>011-26215317</telephone>
+  </office>
+  <office>
+    <name>Dr. Ambedkar Nagar (South Delhi)</name>
+    <pinCode>110062</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-29956704</telephone>
+  </office>
+  <office>
+    <name>East Of Kailash Phase-I</name>
+    <pinCode>110065</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26931743</telephone>
+  </office>
+  <office>
+    <name>East Of Kailash</name>
+    <pinCode>110065</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26447002</telephone>
+  </office>
+  <office>
+    <name>Gautam Nagar</name>
+    <pinCode>110049</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26528068</telephone>
+  </office>
+  <office>
+    <name>Golf Links</name>
+    <pinCode>110003</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-24369705</telephone>
+  </office>
+  <office>
+    <name>Greater Kailash</name>
+    <pinCode>110048</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-29222279</telephone>
+  </office>
+  <office>
+    <name>Gulmohar Park</name>
+    <pinCode>110049</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26569102</telephone>
+  </office>
+  <office>
+    <name>Hamdard Nagar</name>
+    <pinCode>110062</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-29956623</telephone>
+  </office>
+  <office>
+    <name>Hari Nagar Ashram</name>
+    <pinCode>110014</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26344183</telephone>
+  </office>
+  <office>
+    <name>Hazrat Nizamuddin</name>
+    <pinCode>110013</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-24358212</telephone>
+  </office>
+  <office>
+    <name>Jaitpur</name>
+    <pinCode>110044</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Badarpur (South Delhi)</suboffice>
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jaitpur (South Delhi)</name>
+    <pinCode>110044</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>Taluk of South Delhi District</location>
+    <telephone>011-26945141</telephone>
+  </office>
+  <office>
+    <name>Jamia Nagar</name>
+    <pinCode>110025</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26980066</telephone>
+  </office>
+  <office>
+    <name>Jeevan Nagar</name>
+    <pinCode>110014</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Hari Nagar Ashram</suboffice>
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jungpura</name>
+    <pinCode>110014</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-24313511</telephone>
+  </office>
+  <office>
+    <name>Kailash Colony</name>
+    <pinCode>110048</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26432267</telephone>
+  </office>
+  <office>
+    <name>Kalkaji</name>
+    <pinCode>110019</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26433693</telephone>
+  </office>
+  <office>
+    <name>Kasturba Nagar (South Delhi)</name>
+    <pinCode>110003</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-24651501</telephone>
+  </office>
+  <office>
+    <name>Khanpur (South Delhi)</name>
+    <pinCode>110062</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26074994</telephone>
+  </office>
+  <office>
+    <name>Krishna Market</name>
+    <pinCode>110024</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-29813410</telephone>
+  </office>
+  <office>
+    <name>Lajpat Nagar (South Delhi)</name>
+    <pinCode>110024</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-29832389</telephone>
+  </office>
+  <office>
+    <name>Lal Kuan</name>
+    <pinCode>110019</pinCode>
+    <status>Branch Office(Non Delivery) directly a/w Head Office</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lodi Road</name>
+    <pinCode>110003</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-24692329</telephone>
+  </office>
+  <office>
+    <name>Madanpur Khadar</name>
+    <pinCode>110076</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Sarita Vihar</suboffice>
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Malviya Nagar (South Delhi)</name>
+    <pinCode>110017</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26680354</telephone>
+  </office>
+  <office>
+    <name>Masjid Moth</name>
+    <pinCode>110048</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-29223500</telephone>
+  </office>
+  <office>
+    <name>MMTC/STC Colony</name>
+    <pinCode>110017</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26966252</telephone>
+  </office>
+  <office>
+    <name>Molarband</name>
+    <pinCode>110044</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Badarpur (South Delhi)</suboffice>
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nehru Nagar (South Delhi)</name>
+    <pinCode>110065</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26318088</telephone>
+  </office>
+  <office>
+    <name>Nehru Place</name>
+    <pinCode>110019</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26418239</telephone>
+  </office>
+  <office>
+    <name>New Delhi South Ext-II</name>
+    <pinCode>110049</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26259768</telephone>
+  </office>
+  <office>
+    <name>New Friends Colony</name>
+    <pinCode>110025</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26844043</telephone>
+  </office>
+  <office>
+    <name>Okhla Industrial Area Phase-i</name>
+    <pinCode>110020</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26810292</telephone>
+  </office>
+  <office>
+    <name>Okhla Industrial Estate</name>
+    <pinCode>110020</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26840251</telephone>
+  </office>
+  <office>
+    <name>Panchsheel Enclave</name>
+    <pinCode>110017</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26490248</telephone>
+  </office>
+  <office>
+    <name>Pragati Vihar</name>
+    <pinCode>110003</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-24369589</telephone>
+  </office>
+  <office>
+    <name>Pratap Market</name>
+    <pinCode>110014</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-24371544</telephone>
+  </office>
+  <office>
+    <name>Pul Pahladpur</name>
+    <pinCode>110044</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Tugalkabad Railway Colony</suboffice>
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pushp Vihar</name>
+    <pinCode>110017</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-29565324</telephone>
+  </office>
+  <office>
+    <name>Pushpa Bhawan</name>
+    <pinCode>110062</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-29053816</telephone>
+  </office>
+  <office>
+    <name>Sadiq Nagar</name>
+    <pinCode>110049</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26256660</telephone>
+  </office>
+  <office>
+    <name>Safdarjung Air Port</name>
+    <pinCode>110003</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-24644113</telephone>
+  </office>
+  <office>
+    <name>Sahpurjat</name>
+    <pinCode>110049</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Gulmohar Park</suboffice>
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Saket (South Delhi)</name>
+    <pinCode>110017</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-29562650</telephone>
+  </office>
+  <office>
+    <name>Sangam Vihar</name>
+    <pinCode>110080</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>South Delhi Taluk of South Delhi District</location>
+    <telephone>011-29912154</telephone>
+  </office>
+  <office>
+    <name>Sant Nagar (South Delhi)</name>
+    <pinCode>110065</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26437116</telephone>
+  </office>
+  <office>
+    <name>Sarita Vihar</name>
+    <pinCode>110076</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26954052</telephone>
+  </office>
+  <office>
+    <name>Sarvodya Enclave</name>
+    <pinCode>110017</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26528685</telephone>
+  </office>
+  <office>
+    <name>South Malviya Nagar</name>
+    <pinCode>110017</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-29562650</telephone>
+  </office>
+  <office>
+    <name>Sriniwaspuri</name>
+    <pinCode>110065</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Lodi Road</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26913696</telephone>
+  </office>
+  <office>
+    <name>Sukhdev Vihar</name>
+    <pinCode>110025</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26931618</telephone>
+  </office>
+  <office>
+    <name>Talimabad</name>
+    <pinCode>110062</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26099113</telephone>
+  </office>
+  <office>
+    <name>Tehkhand</name>
+    <pinCode>110019</pinCode>
+    <status>Branch Office(Non Delivery) directly a/w Head Office</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tugalkabad</name>
+    <pinCode>110019</pinCode>
+    <status>Branch Office(Non Delivery) directly a/w Head Office</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tugalkabad Railway Colony</name>
+    <pinCode>110044</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26360578</telephone>
+  </office>
+  <office>
+    <name>Zakir Nagar</name>
+    <pinCode>110025</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kalkaji</headoffice>
+    <location>New Delhi Taluk of South Delhi District</location>
+    <telephone>011-26983304</telephone>
+  </office>
+  <office>
+    <name>505 A B Workshop</name>
+    <pinCode>110010</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-25693314</telephone>
+  </office>
+  <office>
+    <name>A F Palam</name>
+    <pinCode>110010</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-25675084</telephone>
+  </office>
+  <office>
+    <name>A F Rajokari</name>
+    <pinCode>110038</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-25066427</telephone>
+  </office>
+  <office>
+    <name>Amberhai</name>
+    <pinCode>110075</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dwarka Sec-6</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Anand Niketan</name>
+    <pinCode>110021</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-24114549</telephone>
+  </office>
+  <office>
+    <name>Ansari Nagar</name>
+    <pinCode>110029</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26193978</telephone>
+  </office>
+  <office>
+    <name>Aps Colony</name>
+    <pinCode>110010</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Delhi Cantt</suboffice>
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Arjungarh</name>
+    <pinCode>110047</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26502032</telephone>
+  </office>
+  <office>
+    <name>Aya Nagar</name>
+    <pinCode>110047</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Arjungarh</suboffice>
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Badusarai</name>
+    <pinCode>110071</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Chhawla</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bagdola</name>
+    <pinCode>110077</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Raj Nagar - II</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Baprola</name>
+    <pinCode>110043</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Najafgarh</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Barthal</name>
+    <pinCode>110077</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Raj Nagar - II</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bazar Road</name>
+    <pinCode>110010</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Bijwasan</name>
+    <pinCode>110061</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-28061469</telephone>
+  </office>
+  <office>
+    <name>C.S.K.M. School</name>
+    <pinCode>110074</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Chattarpur</suboffice>
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>C.V.D.</name>
+    <pinCode>110010</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-25695292</telephone>
+  </office>
+  <office>
+    <name>Chanakya Puri</name>
+    <pinCode>110021</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-24673645</telephone>
+  </office>
+  <office>
+    <name>Chandanhoola</name>
+    <pinCode>110074</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Chattarpur</suboffice>
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chattarpur</name>
+    <pinCode>110074</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26303145</telephone>
+  </office>
+  <office>
+    <name>Chhawla</name>
+    <pinCode>110071</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone>011-25316571</telephone>
+  </office>
+  <office>
+    <name>COD (South West Delhi)</name>
+    <pinCode>110010</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-25693361</telephone>
+  </office>
+  <office>
+    <name>CRPF Jharoda Kalan</name>
+    <pinCode>110072</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-25315424</telephone>
+  </office>
+  <office>
+    <name>D C Goyla</name>
+    <pinCode>110071</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chhawla</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>D C Nangli Sakravati</name>
+    <pinCode>110043</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Najafgarh</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dabri</name>
+    <pinCode>110045</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Palam Village</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Daulatpur</name>
+    <pinCode>110043</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Najafgarh</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Delhi Cantt</name>
+    <pinCode>110010</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-25692664</telephone>
+  </office>
+  <office>
+    <name>Dera</name>
+    <pinCode>110074</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Chattarpur</suboffice>
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dhansa</name>
+    <pinCode>110073</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Ujwa</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dhaula Kuan</name>
+    <pinCode>110010</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-25698544</telephone>
+  </office>
+  <office>
+    <name>Dhulsiras</name>
+    <pinCode>110077</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Raj Nagar - II</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dichaun Kalan</name>
+    <pinCode>110043</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Najafgarh</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dindarpur</name>
+    <pinCode>110043</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Najafgarh</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>District Court Complex Dwarka</name>
+    <pinCode>110075</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>Delhi Taluk of South West Delhi District</location>
+    <telephone>011-28042185</telephone>
+  </office>
+  <office>
+    <name>Dwarka Sec-6</name>
+    <pinCode>110075</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone>011-25082423</telephone>
+  </office>
+  <office>
+    <name>Fatehpur Beri</name>
+    <pinCode>110074</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Chattarpur</suboffice>
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gadaipur</name>
+    <pinCode>110030</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Mehrauli</suboffice>
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Galib Pur</name>
+    <pinCode>110073</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Ujwa</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ghitorni</name>
+    <pinCode>110030</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Mehrauli</suboffice>
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ghuman Hera</name>
+    <pinCode>110073</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Ujwa</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Green Park Market</name>
+    <pinCode>110016</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26528299</telephone>
+  </office>
+  <office>
+    <name>Gurgaon Road</name>
+    <pinCode>110037</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-25656454</telephone>
+  </office>
+  <office>
+    <name>Hauz Khas Market</name>
+    <pinCode>110016</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26568402</telephone>
+  </office>
+  <office>
+    <name>Hauz Khas</name>
+    <pinCode>110016</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26514725</telephone>
+  </office>
+  <office>
+    <name>IGI Airport</name>
+    <pinCode>110037</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-25654882</telephone>
+  </office>
+  <office>
+    <name>Ignou</name>
+    <pinCode>110068</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-29535582</telephone>
+  </office>
+  <office>
+    <name>Indira Park</name>
+    <pinCode>110045</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Palam Village</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Issapur</name>
+    <pinCode>110073</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Ujwa</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>IT Hauz Khas</name>
+    <pinCode>110016</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26560473</telephone>
+  </office>
+  <office>
+    <name>J.N.U.</name>
+    <pinCode>110067</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26101740</telephone>
+  </office>
+  <office>
+    <name>Jafarpur</name>
+    <pinCode>110073</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ujwa</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jaunapur</name>
+    <pinCode>110047</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Arjungarh</suboffice>
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jharoda Kalan</name>
+    <pinCode>110072</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>CRPF Jharoda Kalan</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jhatikara</name>
+    <pinCode>110043</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Najafgarh</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>JNU New Campus</name>
+    <pinCode>110067</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26704561</telephone>
+  </office>
+  <office>
+    <name>Kair</name>
+    <pinCode>110028</pinCode>
+    <status>Branch Office(Non Delivery) directly a/w Head Office</status>
+    <suboffice />
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kakrola</name>
+    <pinCode>110078</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>N.S.I.T. Dwarka</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kangan Heri</name>
+    <pinCode>110071</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Chhawla</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kapashera</name>
+    <pinCode>110037</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Gurgaon Road</suboffice>
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khaira</name>
+    <pinCode>110028</pinCode>
+    <status>Branch Office(Non Delivery) directly a/w Head Office</status>
+    <suboffice />
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khera Dabur</name>
+    <pinCode>110073</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Ujwa</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kidwai Nagar East</name>
+    <pinCode>110023</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-24621322</telephone>
+  </office>
+  <office>
+    <name>Kidwai Nagar West</name>
+    <pinCode>110023</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-24102985</telephone>
+  </office>
+  <office>
+    <name>Kirby Place</name>
+    <pinCode>110010</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-25695063</telephone>
+  </office>
+  <office>
+    <name>Lado Sarai</name>
+    <pinCode>110030</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Mehrauli</suboffice>
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Laxmi Bai Nagar</name>
+    <pinCode>110023</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26870250</telephone>
+  </office>
+  <office>
+    <name>Mahipalpur</name>
+    <pinCode>110037</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Gurgaon Road</suboffice>
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maidan Garhi</name>
+    <pinCode>110068</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Ignou</suboffice>
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Malcha Marg</name>
+    <pinCode>110021</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26111883</telephone>
+  </office>
+  <office>
+    <name>Malik Pur</name>
+    <pinCode>110073</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Ujwa</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mandi</name>
+    <pinCode>110047</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Arjungarh</suboffice>
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Masood Pur</name>
+    <pinCode>110070</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Vasant Kunj</suboffice>
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maya Puri</name>
+    <pinCode>110064</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone>011-28111153</telephone>
+  </office>
+  <office>
+    <name>Mayapuri Shopping Centre</name>
+    <pinCode>110064</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone>011-25134695</telephone>
+  </office>
+  <office>
+    <name>Mehrauli</name>
+    <pinCode>110030</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26641517</telephone>
+  </office>
+  <office>
+    <name>Mitraon</name>
+    <pinCode>110043</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Najafgarh</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Moti Bagh</name>
+    <pinCode>110021</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-24673393</telephone>
+  </office>
+  <office>
+    <name>Mundela Kalan</name>
+    <pinCode>110073</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ujwa</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Munirka</name>
+    <pinCode>110067</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26107991</telephone>
+  </office>
+  <office>
+    <name>N.S.I.T. Dwarka</name>
+    <pinCode>110078</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone>011-25099117</telephone>
+  </office>
+  <office>
+    <name>Najafgarh</name>
+    <pinCode>110043</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone>011-25016221</telephone>
+  </office>
+  <office>
+    <name>Nanak Pura</name>
+    <pinCode>110021</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26870296</telephone>
+  </office>
+  <office>
+    <name>Nangal Dewat</name>
+    <pinCode>110037</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Gurgaon Road</suboffice>
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nangal Raya</name>
+    <pinCode>110046</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone>011-28520760</telephone>
+  </office>
+  <office>
+    <name>Naraina Industrial Estate</name>
+    <pinCode>110028</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone>011-25896286</telephone>
+  </office>
+  <office>
+    <name>Naraina Village</name>
+    <pinCode>110028</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone>011-25776371</telephone>
+  </office>
+  <office>
+    <name>Nasirpur</name>
+    <pinCode>110045</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Palam Village</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nauroji Nagar</name>
+    <pinCode>110023</pinCode>
+    <status>Branch Office(Non Delivery) directly a/w Head Office</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Neb Sarai</name>
+    <pinCode>110068</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Ignou</suboffice>
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Netaji Nagar (South West Delhi)</name>
+    <pinCode>110023</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-24670933</telephone>
+  </office>
+  <office>
+    <name>NIE Campus</name>
+    <pinCode>110016</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26965788</telephone>
+  </office>
+  <office>
+    <name>Palam Airport</name>
+    <pinCode>110037</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-25696115</telephone>
+  </office>
+  <office>
+    <name>Palam Village</name>
+    <pinCode>110045</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone>011-25051003</telephone>
+  </office>
+  <office>
+    <name>Pandwala Kalan</name>
+    <pinCode>110043</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Najafgarh</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Papravat</name>
+    <pinCode>110043</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Najafgarh</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Paryavaran Complex</name>
+    <pinCode>110030</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-29533040</telephone>
+  </office>
+  <office>
+    <name>Pinto Park</name>
+    <pinCode>110010</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-25672948</telephone>
+  </office>
+  <office>
+    <name>Quazipur</name>
+    <pinCode>110073</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Ujwa</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>R K Puram (Main)</name>
+    <pinCode>110066</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26103039</telephone>
+  </office>
+  <office>
+    <name>R K Puram Sect-1</name>
+    <pinCode>110022</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26192635</telephone>
+  </office>
+  <office>
+    <name>R K Puram Sect-12</name>
+    <pinCode>110022</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26173959</telephone>
+  </office>
+  <office>
+    <name>R K Puram Sect-3</name>
+    <pinCode>110022</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26192017</telephone>
+  </office>
+  <office>
+    <name>R K Puram Sect-4</name>
+    <pinCode>110022</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26174247</telephone>
+  </office>
+  <office>
+    <name>R K Puram Sect-5</name>
+    <pinCode>110022</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26176237</telephone>
+  </office>
+  <office>
+    <name>R K Puram Sect7</name>
+    <pinCode>110022</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26193343</telephone>
+  </office>
+  <office>
+    <name>R K Puram Sect-8</name>
+    <pinCode>110022</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26192624</telephone>
+  </office>
+  <office>
+    <name>R K Puram Sector - 6 Postal SB</name>
+    <pinCode>110022</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26169579</telephone>
+  </office>
+  <office>
+    <name>R K Puram West</name>
+    <pinCode>110066</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26101969</telephone>
+  </office>
+  <office>
+    <name>R R Hospital</name>
+    <pinCode>110010</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-25695087</telephone>
+  </office>
+  <office>
+    <name>Raj Nagar - II</name>
+    <pinCode>110077</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone>011-25366443</telephone>
+  </office>
+  <office>
+    <name>Rajokari</name>
+    <pinCode>110038</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>A F Rajokari</suboffice>
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Raota</name>
+    <pinCode>110073</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Ujwa</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rewla Khanpur</name>
+    <pinCode>110043</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Najafgarh</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Safdarjung Enclave</name>
+    <pinCode>110029</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26103201</telephone>
+  </office>
+  <office>
+    <name>Sagarpur</name>
+    <pinCode>110046</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone>011-25394686</telephone>
+  </office>
+  <office>
+    <name>Samalkha</name>
+    <pinCode>110037</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Gurgaon Road</suboffice>
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sardar Patel School</name>
+    <pinCode>110074</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Chattarpur</suboffice>
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sarojini Nagar</name>
+    <pinCode>110023</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Delhi Taluk of South West Delhi District</location>
+    <telephone>011-24670081</telephone>
+  </office>
+  <office>
+    <name>Satbari</name>
+    <pinCode>110074</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Chattarpur</suboffice>
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Shahbad Mohammadpur</name>
+    <pinCode>110061</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Bijwasan</suboffice>
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Signal Enclave</name>
+    <pinCode>110010</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26192017</telephone>
+  </office>
+  <office>
+    <name>South Delhi Campus</name>
+    <pinCode>110021</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-24113559</telephone>
+  </office>
+  <office>
+    <name>Station Road (South West Delhi)</name>
+    <pinCode>110010</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-25692896</telephone>
+  </office>
+  <office>
+    <name>Subroto Park</name>
+    <pinCode>110010</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-25693353</telephone>
+  </office>
+  <office>
+    <name>Sultanpur</name>
+    <pinCode>110030</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Mehrauli</suboffice>
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Surehra</name>
+    <pinCode>110043</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Najafgarh</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>T B Hospital</name>
+    <pinCode>110030</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26966945</telephone>
+  </office>
+  <office>
+    <name>Technology Bhawan</name>
+    <pinCode>110016</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26561088</telephone>
+  </office>
+  <office>
+    <name>Tilangpur Kotla</name>
+    <pinCode>110043</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Najafgarh</suboffice>
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ujwa</name>
+    <pinCode>110073</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>New Delhi Taluk of South West Delhi District</location>
+    <telephone>011-24914146</telephone>
+  </office>
+  <office>
+    <name>Vasant Kunj Pkt-A</name>
+    <pinCode>110070</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26124991</telephone>
+  </office>
+  <office>
+    <name>Vasant Kunj</name>
+    <pinCode>110070</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26132017</telephone>
+  </office>
+  <office>
+    <name>Vasant Vihar-1</name>
+    <pinCode>110057</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26143406</telephone>
+  </office>
+  <office>
+    <name>Vasant Vihar-2</name>
+    <pinCode>110057</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Sarojini Nagar</headoffice>
+    <location>Taluk of South West Delhi District</location>
+    <telephone>011-26101969</telephone>
+  </office>
+  <office>
+    <name>Ashok Nagar (West Delhi)</name>
+    <pinCode>110018</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25145693</telephone>
+  </office>
+  <office>
+    <name>Ashoka Park Extn.</name>
+    <pinCode>110026</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-28311765</telephone>
+  </office>
+  <office>
+    <name>Bakkarwala</name>
+    <pinCode>110041</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nangloi</suboffice>
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chand Nagar</name>
+    <pinCode>110018</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-259848</telephone>
+  </office>
+  <office>
+    <name>Chaukhandi</name>
+    <pinCode>110018</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Tilak Nagar (West Delhi)</suboffice>
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>D. K. Mohan Garden</name>
+    <pinCode>110059</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25351810</telephone>
+  </office>
+  <office>
+    <name>D.E.S.U. Colony</name>
+    <pinCode>110058</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-2553241</telephone>
+  </office>
+  <office>
+    <name>Delhi Industrial Area</name>
+    <pinCode>110015</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25930899</telephone>
+  </office>
+  <office>
+    <name>Delhi Industrial Area</name>
+    <pinCode>110015</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25930899</telephone>
+  </office>
+  <office>
+    <name>ESI</name>
+    <pinCode>110015</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25939323</telephone>
+  </office>
+  <office>
+    <name>Fateh Nagar</name>
+    <pinCode>110018</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25148830</telephone>
+  </office>
+  <office>
+    <name>Hari Nagar BE Block</name>
+    <pinCode>110064</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25126360</telephone>
+  </office>
+  <office>
+    <name>Hari Nagar Dadb Block</name>
+    <pinCode>110064</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-28122884</telephone>
+  </office>
+  <office>
+    <name>Hari Nagar (West Delhi)</name>
+    <pinCode>110064</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25128992</telephone>
+  </office>
+  <office>
+    <name>Hastal Village</name>
+    <pinCode>110059</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Uttam Nagar</suboffice>
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hirankudna</name>
+    <pinCode>110041</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nangloi</suboffice>
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jail Road (West Delhi)</name>
+    <pinCode>110058</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25620515</telephone>
+  </office>
+  <office>
+    <name>Janakpuri A-3</name>
+    <pinCode>110058</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25505835</telephone>
+  </office>
+  <office>
+    <name>Janakpuri B-1</name>
+    <pinCode>110058</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25517046</telephone>
+  </office>
+  <office>
+    <name>Janakpuri C-4</name>
+    <pinCode>110058</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25526247</telephone>
+  </office>
+  <office>
+    <name>Janta Market</name>
+    <pinCode>110027</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25453799</telephone>
+  </office>
+  <office>
+    <name>Jawala Heri</name>
+    <pinCode>110063</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Paschim Vihar</suboffice>
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jeevan Park</name>
+    <pinCode>110059</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Uttam Nagar</suboffice>
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jwala Puri</name>
+    <pinCode>110087</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25253612</telephone>
+  </office>
+  <office>
+    <name>Karam Pura</name>
+    <pinCode>110015</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25462422</telephone>
+  </office>
+  <office>
+    <name>Khyala Phase - I</name>
+    <pinCode>110018</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25988386</telephone>
+  </office>
+  <office>
+    <name>Khyala Phase - II</name>
+    <pinCode>110018</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-28331473</telephone>
+  </office>
+  <office>
+    <name>L. M. Nagar Indl. Area</name>
+    <pinCode>110015</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25165729</telephone>
+  </office>
+  <office>
+    <name>M.B.S. Nagar</name>
+    <pinCode>110018</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-28333481</telephone>
+  </office>
+  <office>
+    <name>Madipur Slum Quarter</name>
+    <pinCode>110063</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25218366</telephone>
+  </office>
+  <office>
+    <name>Madipur Village</name>
+    <pinCode>110063</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25217006</telephone>
+  </office>
+  <office>
+    <name>Mahabir Nagar</name>
+    <pinCode>110018</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25995669</telephone>
+  </office>
+  <office>
+    <name>Mansarover Garden</name>
+    <pinCode>110015</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25911245</telephone>
+  </office>
+  <office>
+    <name>Matiala</name>
+    <pinCode>110059</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>D. K. Mohan Garden</suboffice>
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mundka</name>
+    <pinCode>110041</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Nangloi</suboffice>
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>N.I.Area</name>
+    <pinCode>110015</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25462422</telephone>
+  </office>
+  <office>
+    <name>Nangloi - II</name>
+    <pinCode>110041</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Nangloi - III</suboffice>
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nangloi - III</name>
+    <pinCode>110041</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25483404</telephone>
+  </office>
+  <office>
+    <name>Nangloi</name>
+    <pinCode>110041</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-2543994</telephone>
+  </office>
+  <office>
+    <name>Nilothi</name>
+    <pinCode>110041</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Nangloi</suboffice>
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Palam Extn (Harijan Basti)</name>
+    <pinCode>110077</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Naraina Industrial Estate</headoffice>
+    <location>. Taluk of West Delhi District</location>
+    <telephone>011-25799134</telephone>
+  </office>
+  <office>
+    <name>Paschim Vihar B Block</name>
+    <pinCode>110063</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25256522</telephone>
+  </office>
+  <office>
+    <name>Paschim Vihar</name>
+    <pinCode>110063</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25260120</telephone>
+  </office>
+  <office>
+    <name>Peeragarhi</name>
+    <pinCode>110063</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Madipur Village</suboffice>
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Punjabi Bagh</name>
+    <pinCode>110026</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>Taluk of West Delhi District</location>
+    <telephone>011-28311506</telephone>
+  </office>
+  <office>
+    <name>Punjabi Bagh Sec - III</name>
+    <pinCode>110026</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25226661</telephone>
+  </office>
+  <office>
+    <name>Rajouri Garden J-6</name>
+    <pinCode>110027</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25931193</telephone>
+  </office>
+  <office>
+    <name>Rajouri Market</name>
+    <pinCode>110027</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25100881</telephone>
+  </office>
+  <office>
+    <name>Ramesh Nagar</name>
+    <pinCode>110015</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25932736</telephone>
+  </office>
+  <office>
+    <name>Ranhola</name>
+    <pinCode>110041</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Nangloi</suboffice>
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Shivaji Park (West Delhi)</name>
+    <pinCode>110026</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25226626</telephone>
+  </office>
+  <office>
+    <name>Subhash Nagar (West Delhi)</name>
+    <pinCode>110027</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25146725</telephone>
+  </office>
+  <office>
+    <name>Subhash Nagar West</name>
+    <pinCode>110027</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25136282</telephone>
+  </office>
+  <office>
+    <name>Sunder Vihar</name>
+    <pinCode>110087</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25254434</telephone>
+  </office>
+  <office>
+    <name>Tagore Garden</name>
+    <pinCode>110027</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25100850</telephone>
+  </office>
+  <office>
+    <name>Tikri Kalan</name>
+    <pinCode>110041</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Nangloi</suboffice>
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tilak Nagar East</name>
+    <pinCode>110018</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25997370</telephone>
+  </office>
+  <office>
+    <name>Tilak Nagar (West Delhi)</name>
+    <pinCode>110018</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25990930</telephone>
+  </office>
+  <office>
+    <name>Uttam Nagar</name>
+    <pinCode>110059</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-28563854</telephone>
+  </office>
+  <office>
+    <name>Vikas Puri</name>
+    <pinCode>110018</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-28547882</telephone>
+  </office>
+  <office>
+    <name>Vishnu Garden</name>
+    <pinCode>110018</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25986367</telephone>
+  </office>
+  <office>
+    <name>Zakhira</name>
+    <pinCode>110015</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Ramesh Nagar</headoffice>
+    <location>New Delhi Taluk of West Delhi District</location>
+    <telephone>011-25178487</telephone>
+  </office>
+</offices>

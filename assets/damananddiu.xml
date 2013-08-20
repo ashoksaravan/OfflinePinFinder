@@ -1,0 +1,182 @@
+<offices>
+  <office>
+    <name>Bhimpore</name>
+    <pinCode>396210</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Daman</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Daman Taluk of Daman District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dabhel</name>
+    <pinCode>396215</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Daman I.E.</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Daman Taluk of Daman District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Daman I.E.</name>
+    <pinCode>396215</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Valsad</headoffice>
+    <location>Daman Taluk of Daman District</location>
+    <telephone>0260-2244001</telephone>
+  </office>
+  <office>
+    <name>Daman</name>
+    <pinCode>396210</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Valsad</headoffice>
+    <location>Daman Taluk of Daman District</location>
+    <telephone>0260-2254353</telephone>
+  </office>
+  <office>
+    <name>Dholar</name>
+    <pinCode>396220</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moti Daman</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Daman Taluk of Daman District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dunetha</name>
+    <pinCode>396210</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Daman</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Daman Taluk of Daman District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kachigam</name>
+    <pinCode>396215</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Daman I.E.</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Daman Taluk of Daman District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kadaiya</name>
+    <pinCode>396210</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Daman</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Daman Taluk of Daman District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kunta</name>
+    <pinCode>396215</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Daman I.E.</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Daman Taluk of Daman District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Magarwada</name>
+    <pinCode>396220</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moti Daman</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Daman Taluk of Daman District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Marvad</name>
+    <pinCode>396210</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Daman</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Daman Taluk of Daman District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Moti Daman</name>
+    <pinCode>396220</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Valsad</headoffice>
+    <location>Daman Taluk of Daman District</location>
+    <telephone>0260-2230453</telephone>
+  </office>
+  <office>
+    <name>Nani Vankad</name>
+    <pinCode>396210</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Daman</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Daman Taluk of Daman District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Varkund</name>
+    <pinCode>396210</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Daman</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Daman Taluk of Daman District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bucharvada</name>
+    <pinCode>362570</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wanakbara</suboffice>
+    <headoffice>Junagadh</headoffice>
+    <location>Diu Taluk of Diu District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Diu</name>
+    <pinCode>362520</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Junagadh</headoffice>
+    <location>Diu Taluk of Diu District</location>
+    <telephone>02875-253200</telephone>
+  </office>
+  <office>
+    <name>Diu Zampa</name>
+    <pinCode>362520</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Junagadh</headoffice>
+    <location>Diu Taluk of Diu District</location>
+    <telephone>02875-252167</telephone>
+  </office>
+  <office>
+    <name>Fudam</name>
+    <pinCode>362520</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Diu</suboffice>
+    <headoffice>Junagadh</headoffice>
+    <location>Diu Taluk of Diu District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ghoghla</name>
+    <pinCode>362540</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Junagadh</headoffice>
+    <location>Diu U.T. Taluk of Diu District</location>
+    <telephone>02875-252127</telephone>
+  </office>
+  <office>
+    <name>Wanakbara</name>
+    <pinCode>362570</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Junagadh</headoffice>
+    <location>Taluk of Diu District</location>
+    <telephone>02876-220311</telephone>
+  </office>
+</offices>

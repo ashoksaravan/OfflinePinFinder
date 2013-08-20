@@ -23,11 +23,16 @@
     <string name="noMatchingTxt">No matching records found</string>
 
     <string-array name="states_array">
+        <item>Andaman and Nicobar Islands</item>
         <item>Andhra Pradesh</item>
         <item>Arunachal Pradesh</item>
         <item>Assam</item>
         <item>Bihar</item>
+        <item>Chandigarh</item>
         <item>Chhattisgarh</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Delhi</item>
         <item>Goa</item>
         <item>Gujarat</item>
         <item>Haryana</item>
@@ -37,6 +42,7 @@
         <item>Karnataka</item>
         <item>Kerala</item>
         <item>Madhya Pradesh</item>
+        <item>Lakshadweep</item>
         <item>Maharashtra</item>
         <item>Manipur</item>
         <item>Meghalaya</item>
@@ -88,9 +94,9 @@
         <item>Thiruvallur</item>
         <item>Thiruvarur</item>
         <item>Thoothukudi</item>
-        <item>Tiruchirappalli </item>
+        <item>Tiruchirappalli</item>
         <item>Tirunelveli</item>
-        <item>Tiruppur </item>
+        <item>Tiruppur</item>
         <item>Tiruvannamalai</item>
         <item>Vellore</item>
         <item>Villupuram</item>
@@ -112,6 +118,127 @@
         <item>Thiruvananthapuram</item>
         <item>Thrissur</item>
         <item>Wayanad</item>
+    </string-array>
+
+    <string-array name="district_an">
+        <item>Nicobar</item>
+        <item>North And Middle Andaman</item>
+        <item>South Andaman</item>
+    </string-array>
+
+    <string-array name="district_ap">
+        <item>Changlang</item>
+        <item>East Kameng</item>
+        <item>East Siang</item>
+        <item>Kurung Kumey</item>
+        <item>Lohit</item>
+        <item>Lower Dibang Valley</item>
+        <item>Lower Subansiri</item>
+        <item>Papum Pare</item>
+        <item>Tawang</item>
+        <item>Tirap</item>
+        <item>Upper Siang</item>
+        <item>Upper Subansiri</item>
+        <item>West Kameng</item>
+        <item>West Siang</item>
+    </string-array>
+
+    <string-array name="district_ch">
+        <item>Chandigarh</item>
+    </string-array>
+
+    <string-array name="district_dn">
+        <item>Dadra &amp; Nagar Haveli</item>
+    </string-array>
+
+    <string-array name="district_dd">
+        <item>Daman</item>
+        <item>Diu</item>
+    </string-array>
+
+    <string-array name="district_dl">
+        <item>Central Delhi</item>
+        <item>East Delhi</item>
+        <item>New Delhi</item>
+        <item>North Delhi</item>
+        <item>North East Delhi</item>
+        <item>North West Delhi</item>
+        <item>South Delhi</item>
+        <item>South West Delhi</item>
+        <item>West Delhi</item>
+    </string-array>
+
+    <string-array name="district_go">
+        <item>North Goa</item>
+        <item>South Goa</item>
+    </string-array>
+
+    <string-array name="district_la">
+        <item>Lakshadweep</item>
+    </string-array>
+
+    <string-array name="district_ma">
+        <item>Bishnupur</item>
+        <item>Chandel</item>
+        <item>New Delhi</item>
+        <item>Churachandpur</item>
+        <item>Imphal East</item>
+        <item>Imphal West</item>
+        <item>Senapati</item>
+        <item>Tamenglong</item>
+        <item>Thoubal</item>
+        <item>Ukhrul</item>
+    </string-array>
+
+    <string-array name="district_me">
+        <item>East Garo Hills</item>
+        <item>East Khasi Hills</item>
+        <item>Jaintia Hills</item>
+        <item>Ri Bhoi</item>
+        <item>Imphal East</item>
+        <item>Imphal West</item>
+        <item>South Garo Hills</item>
+        <item>West Garo Hills</item>
+        <item>West Khasi Hills</item>
+    </string-array>
+
+    <string-array name="district_mi">
+        <item>Aizawl</item>
+        <item>Champhai</item>
+        <item>Kolasib</item>
+        <item>Lawngtlai</item>
+        <item>Lunglei</item>
+        <item>Mammit</item>
+        <item>Saiha</item>
+        <item>Serchhip</item>
+    </string-array>
+
+    <string-array name="district_na">
+        <item>Dimapur</item>
+        <item>Kiphire</item>
+        <item>Kohima</item>
+        <item>Longleng</item>
+        <item>Mokokchung</item>
+        <item>Mon</item>
+        <item>Peren</item>
+        <item>Phek</item>
+        <item>Tuensang</item>
+        <item>Wokha</item>
+        <item>Zunhebotto</item>
+    </string-array>
+
+    <string-array name="district_si">
+        <item>East Sikkim</item>
+        <item>North Sikkim</item>
+        <item>South Sikkim</item>
+        <item>West Sikkim</item>
+    </string-array>
+
+    <string-array name="district_tr">
+        <item>Dhalai</item>
+        <item>North Tripura</item>
+        <item>South Tripura</item>
+        <item>West Tripura</item>
     </string-array>
 
     <string name="title_activity_display_result">Result</string>

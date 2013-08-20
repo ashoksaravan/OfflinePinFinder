@@ -1,0 +1,839 @@
+<offices>
+  <office>
+    <name>Akkaraivattam</name>
+    <pinCode>609604</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Neravy</suboffice>
+    <headoffice>Nagapattinam</headoffice>
+    <location>Neravy Commune Panchayat Taluk of Karaikal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ambagarathur</name>
+    <pinCode>609601</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagapattinam</headoffice>
+    <location>Karaikal Taluk of Karaikal District</location>
+    <telephone>04368-251534</telephone>
+  </office>
+  <office>
+    <name>Dharmapuram</name>
+    <pinCode>609602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karaikal South</suboffice>
+    <headoffice>Nagapattinam</headoffice>
+    <location>Taluk of Karaikal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karaikal Bazaar</name>
+    <pinCode>609602</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Nagapattinam</headoffice>
+    <location>Taluk of Karaikal District</location>
+    <telephone>04365-242055</telephone>
+  </office>
+  <office>
+    <name>Karaikal</name>
+    <pinCode>609602</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagapattinam</headoffice>
+    <location>Karaikal Taluk of Karaikal District</location>
+    <telephone>04368-222419</telephone>
+  </office>
+  <office>
+    <name>Karaikal South</name>
+    <pinCode>609602</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Nagapattinam</headoffice>
+    <location>Taluk of Karaikal District</location>
+    <telephone>04365-242055</telephone>
+  </office>
+  <office>
+    <name>Karaikalmedu</name>
+    <pinCode>609605</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Thalatheru</suboffice>
+    <headoffice>Nagapattinam</headoffice>
+    <location>Taluk of Karaikal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karaikoilpathu</name>
+    <pinCode>609605</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Thalatheru</suboffice>
+    <headoffice>Nagapattinam</headoffice>
+    <location>Karaikal Taluk of Karaikal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karukkangudi</name>
+    <pinCode>609607</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirunallar</suboffice>
+    <headoffice>Nagapattinam</headoffice>
+    <location>Thirunallar Commune Panchayat Taluk of Karaikal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kottuchery</name>
+    <pinCode>609609</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagapattinam</headoffice>
+    <location>Kottucherry Commune Panchayat Taluk of Karaikal District</location>
+    <telephone>04365-242055</telephone>
+  </office>
+  <office>
+    <name>Kurumbagaram</name>
+    <pinCode>609603</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nedungadu</suboffice>
+    <headoffice>Nagapattinam</headoffice>
+    <location>Nedungadu Commune Panchayat Taluk of Karaikal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Madagadi</name>
+    <pinCode>609602</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Karaikal South</suboffice>
+    <headoffice>Nagapattinam</headoffice>
+    <location>Taluk of Karaikal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Melakasakudi</name>
+    <pinCode>609603</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nedungadu</suboffice>
+    <headoffice>Nagapattinam</headoffice>
+    <location>Nedungadu Commune Panchayat Taluk of Karaikal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nallambal</name>
+    <pinCode>609601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ambagarathur</suboffice>
+    <headoffice>Nagapattinam</headoffice>
+    <location>Thirunallar Commune Panchayat Taluk of Karaikal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nallathur</name>
+    <pinCode>609603</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nedungadu</suboffice>
+    <headoffice>Nagapattinam</headoffice>
+    <location>Nedungadu Commune Panchayat Taluk of Karaikal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nedungadu</name>
+    <pinCode>609603</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagapattinam</headoffice>
+    <location>Taluk of Karaikal District</location>
+    <telephone>04368-291071</telephone>
+  </office>
+  <office>
+    <name>Neravy</name>
+    <pinCode>609602</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagapattinam</headoffice>
+    <location>Neravy Commune Panchayat Taluk of Karaikal District</location>
+    <telephone>04368-238206</telephone>
+  </office>
+  <office>
+    <name>Seithur</name>
+    <pinCode>609601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ambagarathur</suboffice>
+    <headoffice>Nagapattinam</headoffice>
+    <location>Taluk of Karaikal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sellur</name>
+    <pinCode>609607</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirunallar</suboffice>
+    <headoffice>Nagapattinam</headoffice>
+    <location>Thirunallar Commune Panchayat Taluk of Karaikal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Surakudi</name>
+    <pinCode>609607</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirunallar</suboffice>
+    <headoffice>Nagapattinam</headoffice>
+    <location>Thirunallar Commune Panchayat Taluk of Karaikal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>T.R.Pattinam South</name>
+    <pinCode>609606</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Tirumalairayanpattinam</suboffice>
+    <headoffice>Nagapattinam</headoffice>
+    <location>Thirumalairayan Pattinam Commune Panchayat Taluk of Karaikal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thalatheru</name>
+    <pinCode>609605</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagapattinam</headoffice>
+    <location>Taluk of Karaikal District</location>
+    <telephone>04365-230300</telephone>
+  </office>
+  <office>
+    <name>Tirumalairayanpattinam</name>
+    <pinCode>609606</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagapattinam</headoffice>
+    <location>Karaikal Taluk of Karaikal District </location>
+    <telephone>04368-234493</telephone>
+  </office>
+  <office>
+    <name>Tirunallar</name>
+    <pinCode>609607</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Nagapattinam</headoffice>
+    <location>Taluk of Karaikal District</location>
+    <telephone>04368-236505</telephone>
+  </office>
+  <office>
+    <name>Tiruvettakudi</name>
+    <pinCode>609609</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kottuchery</suboffice>
+    <headoffice>Nagapattinam</headoffice>
+    <location>Kottucherry Commune Panchayat Taluk of Karaikal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Varichikudi</name>
+    <pinCode>609609</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kottuchery</suboffice>
+    <headoffice>Nagapattinam</headoffice>
+    <location>Kottucherry Commune Panchayat Taluk of Karaikal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vizhithiyur</name>
+    <pinCode>609607</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirunallar</suboffice>
+    <headoffice>Nagapattinam</headoffice>
+    <location>Neravy Commune Panchayat Taluk of Karaikal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Naluthara</name>
+    <pinCode>673310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mahe</suboffice>
+    <headoffice>Vadakara</headoffice>
+    <location>Mahe Ut Taluk of Mahe District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pallur</name>
+    <pinCode>673310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mahe</suboffice>
+    <headoffice>Vadakara</headoffice>
+    <location>Mahe Ut Taluk of Mahe District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mahe</name>
+    <pinCode>673310</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Vadakara</headoffice>
+    <location>Vadakara Taluk of Kozhikode District</location>
+    <telephone>0490-2332230</telephone>
+  </office>
+  <office>
+    <name>Abishegapakkam</name>
+    <pinCode>605007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ariyankuppam</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ariyankuppam</name>
+    <pinCode>605007</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District</location>
+    <telephone>0413-2600105</telephone>
+  </office>
+  <office>
+    <name>Arumbarthapuram</name>
+    <pinCode>605110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Villiyanur</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Villianur Commune Panchayat Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bahoor</name>
+    <pinCode>607402</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District</location>
+    <telephone>0413-2633680</telephone>
+  </office>
+  <office>
+    <name>Bommayarpalayam</name>
+    <pinCode>605104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kottakuppam</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Calapet</name>
+    <pinCode>605014</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Ariyankuppam</suboffice>
+    <headoffice>Pondicherry University</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Courivinatham</name>
+    <pinCode>607402</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bahoor</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dhanvantry Nagar</name>
+    <pinCode>605006</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone>0413-2275453</telephone>
+  </office>
+  <office>
+    <name>Embalam</name>
+    <pinCode>605106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nettapakkam</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Irumbai</name>
+    <pinCode>605111</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Tiruchitambalam</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karayamputhur</name>
+    <pinCode>605106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nettapakkam</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karikalambakkam</name>
+    <pinCode>605007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ariyankuppam</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kariyamanikam</name>
+    <pinCode>605106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nettapakkam</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kijour</name>
+    <pinCode>605106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nettapakkam</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kilpudupattu</name>
+    <pinCode>605014</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pondicherry University</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kirumambakkam</name>
+    <pinCode>607402</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bahoor</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Korkadu</name>
+    <pinCode>605110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Villiyanur</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kottakuppam</name>
+    <pinCode>605104</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuilapalayam</name>
+    <pinCode>605101</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Auroville</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lawspet</name>
+    <pinCode>605008</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone>0413-2254222</telephone>
+  </office>
+  <office>
+    <name>Maducore</name>
+    <pinCode>605105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mokshakulam</suboffice>
+    <headoffice>Villupuram</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manamedu</name>
+    <pinCode>607402</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bahoor</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manapeth</name>
+    <pinCode>607402</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bahoor</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mandagapet</name>
+    <pinCode>605106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nettapakkam</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mangalam</name>
+    <pinCode>605110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Villiyanur</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mannadipattu</name>
+    <pinCode>605501</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Tirukkanur</suboffice>
+    <headoffice>Pondicherry University</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Morattandi</name>
+    <pinCode>605101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Auroville</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mottoupalayam</name>
+    <pinCode>605009</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Thattanchavady</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mouroungapakkam</name>
+    <pinCode>605004</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Mudaliarpet</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pillayarkuppam</name>
+    <pinCode>607402</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bahoor</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Moutrepaleam</name>
+    <pinCode>605009</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Thattanchavady</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mudaliarpet</name>
+    <pinCode>605004</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District</location>
+    <telephone>0413-2354422</telephone>
+  </office>
+  <office>
+    <name>Muthialpet</name>
+    <pinCode>605003</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District</location>
+    <telephone>0413-2234966</telephone>
+  </office>
+  <office>
+    <name>Nallavadu</name>
+    <pinCode>605007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ariyankuppam</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nellithoppe</name>
+    <pinCode>605005</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone>0413-2204633</telephone>
+  </office>
+  <office>
+    <name>Nettapakkam</name>
+    <pinCode>605106</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Pondicherry University</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District</location>
+    <telephone>0413-2699964</telephone>
+  </office>
+  <office>
+    <name>Odiampet</name>
+    <pinCode>605110</pinCode>
+    <status>Villiyanur Office(Delivery)</status>
+    <suboffice>Villiyanur</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Villianur Commune Panchayat Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ozhugarai</name>
+    <pinCode>605010</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Reddiyarpalayam</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pandakkal</name>
+    <pinCode>673310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mahe</suboffice>
+    <headoffice>Vadakara</headoffice>
+    <location>Ut Of Pondichery Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pondicherry</name>
+    <pinCode>605001</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone>0413-2336532</telephone>
+  </office>
+  <office>
+    <name>Pondicherry University</name>
+    <pinCode>605014</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone>0413-2655155</telephone>
+  </office>
+  <office>
+    <name>Pooranankuppam</name>
+    <pinCode>605007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ariyankuppam</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Poothurai</name>
+    <pinCode>605111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruchitambalam</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rayapudupakkam</name>
+    <pinCode>605111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tiruchitambalam</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Reddiyarpalayam</name>
+    <pinCode>605010</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District</location>
+    <telephone>0413-2291044</telephone>
+  </office>
+  <office>
+    <name>Saram(Py)</name>
+    <pinCode>605013</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone>04132-2241600</telephone>
+  </office>
+  <office>
+    <name>Sedarapet</name>
+    <pinCode>605111</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Tiruchitambalam</suboffice>
+    <headoffice>Pondicherry University</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Seliamedu</name>
+    <pinCode>607402</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bahoor</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sellipet</name>
+    <pinCode>605501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirukkanur</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sri Aurobindo Ashram</name>
+    <pinCode>605002</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone>0413-2222124</telephone>
+  </office>
+  <office>
+    <name>Sulthanpet</name>
+    <pinCode>605110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Villiyanur</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone>Villianur Commune Panchayat Taluk of Pondicherry District</telephone>
+  </office>
+  <office>
+    <name>Thattanchavady</name>
+    <pinCode>605009</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District</location>
+    <telephone>0413-2275350</telephone>
+  </office>
+  <office>
+    <name>Thengaithittu</name>
+    <pinCode>605004</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Mudaliarpet</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone>04132-2241600</telephone>
+  </office>
+  <office>
+    <name>Thimmanaickenpalayam</name>
+    <pinCode>605007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ariyankuppam</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tirukkanur</name>
+    <pinCode>605501</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone>0413-2680185</telephone>
+  </office>
+  <office>
+    <name>Vadhanur</name>
+    <pinCode>605501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirukkanur</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Veerampattinam</name>
+    <pinCode>605007</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Ariyankuppam</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Venkata Nagar</name>
+    <pinCode>605011</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone>0413-2211866</telephone>
+  </office>
+  <office>
+    <name>Villiyanur</name>
+    <pinCode>605110</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Pondicherry</headoffice>
+    <location>Villianur Commune Panchayat Taluk of Pondicherry District</location>
+    <telephone>0413-2661616</telephone>
+  </office>
+  <office>
+    <name>Vimacoundinpaleam</name>
+    <pinCode>605009</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Thattanchavady</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Viranam</name>
+    <pinCode>605106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nettapakkam</suboffice>
+    <headoffice>Pondicherry</headoffice>
+    <location>Pondichery Taluk of Pondicherry District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yanam</name>
+    <pinCode>533464</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kakinada</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District </location>
+    <telephone>0884-2321120</telephone>
+  </office>
+  <office>
+    <name>Yanam</name>
+    <pinCode>533464</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kakinada</headoffice>
+    <location>Pondicherry Taluk of Pondicherry District </location>
+    <telephone>0884-2321120</telephone>
+  </office>
+</offices>

@@ -1,0 +1,92 @@
+<offices>
+  <office>
+    <name>Agathi</name>
+    <pinCode>682553</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kochi</headoffice>
+    <location>Lakshadweep Taluk of Lakshadweep District</location>
+    <telephone>04894-242230</telephone>
+  </office>
+  <office>
+    <name>Amini</name>
+    <pinCode>682552</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kochi</headoffice>
+    <location>Amini Taluk of Lakshadweep District</location>
+    <telephone>04897-272230</telephone>
+  </office>
+  <office>
+    <name>Androth</name>
+    <pinCode>682551</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kochi</headoffice>
+    <location>Lakshadweep Taluk of Lakshadweep District</location>
+    <telephone>04893-232320</telephone>
+  </office>
+  <office>
+    <name>Bithra</name>
+    <pinCode>682555</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kavaratti</suboffice>
+    <headoffice>Kochi</headoffice>
+    <location>Amini Taluk of Lakshadweep District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chetlat</name>
+    <pinCode>682554</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kochi</headoffice>
+    <location>Lakshadweep Taluk of Lakshadweep District</location>
+    <telephone>04899-276230</telephone>
+  </office>
+  <office>
+    <name>Kadamat</name>
+    <pinCode>682556</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kochi</headoffice>
+    <location>Lakshadweep Taluk of Lakshadweep District</location>
+    <telephone>04897-274224</telephone>
+  </office>
+  <office>
+    <name>Kalpeni</name>
+    <pinCode>682557</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kochi</headoffice>
+    <location>Lakshadweep Taluk of Lakshadweep District</location>
+    <telephone>04895-252230</telephone>
+  </office>
+  <office>
+    <name>Kavaratti</name>
+    <pinCode>682555</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kochi</headoffice>
+    <location>Lakshadweep Taluk of Lakshadweep District</location>
+    <telephone>04896-262220</telephone>
+  </office>
+  <office>
+    <name>Kiltan</name>
+    <pinCode>682558</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kochi</headoffice>
+    <location>Lakshadweep Taluk of Lakshadweep District</location>
+    <telephone>04898-272260</telephone>
+  </office>
+  <office>
+    <name>Minicoy</name>
+    <pinCode>682559</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kochi</headoffice>
+    <location>Lakshadweep Taluk of Lakshadweep District</location>
+    <telephone>04892-222220</telephone>
+  </office>
+</offices>

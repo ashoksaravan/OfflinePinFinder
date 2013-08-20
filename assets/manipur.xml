@@ -1,0 +1,6275 @@
+<offices>
+  <office>
+    <name>Awangjiri</name>
+    <pinCode>795134</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nambol</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bishnupur (Bishnupur)</name>
+    <pinCode>795126</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone>03879-222542</telephone>
+  </office>
+  <office>
+    <name>Boroyangbi</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bunglon</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bungte Chiru</name>
+    <pinCode>795134</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nambol</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Charoi Khullel</name>
+    <pinCode>795124</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Loktak Project</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dolang</name>
+    <pinCode>795118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saikul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dolang</name>
+    <pinCode>795126</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bishnupur (Bishnupur)</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dolang Khunou</name>
+    <pinCode>795126</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bishnupur (Bishnupur)</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dopkon</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ethai Bazar</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gelmol</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Haotak Khullen</name>
+    <pinCode>795126</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bishnupur (Bishnupur)</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Haotakphailen</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Heikrujam</name>
+    <pinCode>795134</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nambol</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Irengbam</name>
+    <pinCode>795134</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nambol</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Isok</name>
+    <pinCode>795134</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nambol</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jiban Nager</name>
+    <pinCode>795124</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Loktak Project</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kabowakching</name>
+    <pinCode>795134</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nambol</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kamong</name>
+    <pinCode>795134</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nambol</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kangathei</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Keinou</name>
+    <pinCode>795134</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nambol</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khabi</name>
+    <pinCode>795134</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nambol</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khathinunggei</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khoijuman</name>
+    <pinCode>795126</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bishnupur (Bishnupur)</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khoirentak</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khongbung</name>
+    <pinCode>795126</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bishnupur (Bishnupur)</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khordak Ichin</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khousabung</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khunpi Naosem</name>
+    <pinCode>795126</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bishnupur (Bishnupur)</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kumbi (P)</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kwakta</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lamdangmei</name>
+    <pinCode>795126</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bishnupur (Bishnupur)</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Langpok</name>
+    <pinCode>795134</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nambol</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Leimapokpam</name>
+    <pinCode>795134</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nambol</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Leimatak</name>
+    <pinCode>795124</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Loktak Project</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Leimram</name>
+    <pinCode>795134</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nambol</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Loktak Project</name>
+    <pinCode>795124</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone>03879-261206</telephone>
+  </office>
+  <office>
+    <name>Maibam</name>
+    <pinCode>795134</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nambol</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manamayang</name>
+    <pinCode>795134</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nambol</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mayuran</name>
+    <pinCode>795124</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Loktak Project</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Moirang</name>
+    <pinCode>795133</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone>03879-262227</telephone>
+  </office>
+  <office>
+    <name>Molphei Tampak</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nabil (P)</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nambol</name>
+    <pinCode>795134</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone>0385-2453227</telephone>
+  </office>
+  <office>
+    <name>Naorem</name>
+    <pinCode>795134</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nambol</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Naransena</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ngaikhong Khullen</name>
+    <pinCode>795126</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bishnupur (Bishnupur)</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ngangkha Lawi</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ngarian</name>
+    <pinCode>795126</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bishnupur (Bishnupur)</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ningthoukhong</name>
+    <pinCode>795126</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bishnupur (Bishnupur)</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nungsai Chiru</name>
+    <pinCode>795126</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bishnupur (Bishnupur)</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nungthangtampak</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Oinam</name>
+    <pinCode>795134</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nambol</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phousabung</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phubala</name>
+    <pinCode>795126</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bishnupur (Bishnupur)</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Potsangbam</name>
+    <pinCode>795126</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bishnupur (Bishnupur)</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pukhrambam</name>
+    <pinCode>795134</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nambol</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sadukhoiroi</name>
+    <pinCode>795124</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Loktak Project</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sagang</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Saiton</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Terakhongshangbi</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thanga Karang</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thanga(P)</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thangal</name>
+    <pinCode>795126</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bishnupur (Bishnupur)</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tharoi Bomdiar</name>
+    <pinCode>795134</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nambol</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thinkai Khullen</name>
+    <pinCode>795134</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nambol</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thinungei</name>
+    <pinCode>795126</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bishnupur (Bishnupur)</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thumkhonglok</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tokpalamdan</name>
+    <pinCode>795124</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Loktak Project</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Torbung</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Toubul</name>
+    <pinCode>795126</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bishnupur (Bishnupur)</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tronglaobi</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tuisangthei</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Utlou</name>
+    <pinCode>795134</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nambol</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wangoo</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wangoo Tera</name>
+    <pinCode>795133</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moirang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zouzangtek</name>
+    <pinCode>795126</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bishnupur (Bishnupur)</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Bishnupur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Aigejang</name>
+    <pinCode>795102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chakpikarong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Anal Khullen</name>
+    <pinCode>795102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chakpikarong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bongajang</name>
+    <pinCode>795131</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moreh</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bongjoi</name>
+    <pinCode>795131</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moreh</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chakpikarong</name>
+    <pinCode>795102</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Chandel</name>
+    <pinCode>795127</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone>03872-222227</telephone>
+  </office>
+  <office>
+    <name>Chenpal</name>
+    <pinCode>795131</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moreh</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Duthang</name>
+    <pinCode>795127</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chandel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gamphajal</name>
+    <pinCode>795131</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moreh</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gobok</name>
+    <pinCode>795102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chakpikarong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khengjoi</name>
+    <pinCode>795102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chakpikarong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khubungh Khullen</name>
+    <pinCode>795102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chakpikarong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khudengthabi</name>
+    <pinCode>795131</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moreh</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Larong</name>
+    <pinCode>795127</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chandel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Liwasari</name>
+    <pinCode>795127</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chandel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maojam</name>
+    <pinCode>795131</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moreh</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mittong</name>
+    <pinCode>795127</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chandel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Molchamedbo</name>
+    <pinCode>795131</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moreh</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Monbi</name>
+    <pinCode>795102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chakpikarong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Moreh</name>
+    <pinCode>795131</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone>0387-226422</telephone>
+  </office>
+  <office>
+    <name>New Somtal</name>
+    <pinCode>795131</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moreh</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pallel</name>
+    <pinCode>795135</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone>03848-261244</telephone>
+  </office>
+  <office>
+    <name>Phiran Machet</name>
+    <pinCode>795102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chakpikarong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sajik Tampak</name>
+    <pinCode>795102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chakpikarong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sehao</name>
+    <pinCode>795102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chakpikarong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Semol</name>
+    <pinCode>795102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chakpikarong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sugnu</name>
+    <pinCode>795101</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone>0385-2450652</telephone>
+  </office>
+  <office>
+    <name>T- Bongmun</name>
+    <pinCode>795131</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moreh</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tengnoupal</name>
+    <pinCode>795131</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moreh</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thorchom</name>
+    <pinCode>795102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chakpikarong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>T-minou</name>
+    <pinCode>795131</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moreh</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Toupokpi</name>
+    <pinCode>795102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chakpikarong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yangoulen</name>
+    <pinCode>795131</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Moreh</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zoupi</name>
+    <pinCode>795102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chakpikarong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil; Taluk of Chandel District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Aibulon</name>
+    <pinCode>795143</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thanlon</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Aina</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Behiang</name>
+    <pinCode>795139</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singhat</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bukpi</name>
+    <pinCode>795143</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thanlon</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bungmual</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bungpilon</name>
+    <pinCode>795143</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thanlon</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chehjang</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chingkonpang</name>
+    <pinCode>795128</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone>03874-234380</telephone>
+  </office>
+  <office>
+    <name>Chothemunpi</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Churachandpur</name>
+    <pinCode>795128</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone>03874-234227</telephone>
+  </office>
+  <office>
+    <name>Geljaing</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hamkeilon</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hanship</name>
+    <pinCode>795143</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thanlon</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Henglep</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hengtam</name>
+    <pinCode>795139</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singhat</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kangkap</name>
+    <pinCode>795139</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singhat</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kangvai Bazar</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khajang</name>
+    <pinCode>795143</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thanlon</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khanpi</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khouwpuibung</name>
+    <pinCode>795117</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saikot</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kolhen</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kumbipukhri</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kwanpui</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lailong</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lama Camp</name>
+    <pinCode>795139</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singhat</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Leijangphai</name>
+    <pinCode>795143</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thanlon</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Leison</name>
+    <pinCode>795143</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thanlon</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lingshiphai</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lungchin</name>
+    <pinCode>795139</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singhat</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lungsai</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lungshung</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lungthul</name>
+    <pinCode>795139</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singhat</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Millongmun</name>
+    <pinCode>795143</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thanlon</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mission Compound</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mual Vaiphei</name>
+    <pinCode>795117</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saikot</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mualkoi</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mualmun</name>
+    <pinCode>795139</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singhat</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Munpi</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Panglian</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Parbung</name>
+    <pinCode>795143</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thanlon</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pearsonmun</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phaijang</name>
+    <pinCode>795143</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thanlon</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phaipheng</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pherazol</name>
+    <pinCode>795143</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thanlon</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pmzol</name>
+    <pinCode>795143</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thanlon</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Saiden</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Saikhul Village</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Saikot</name>
+    <pinCode>795117</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone>0385-2450652</telephone>
+  </office>
+  <office>
+    <name>Saikul</name>
+    <pinCode>795118</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone>0385-2450652</telephone>
+  </office>
+  <office>
+    <name>Sangphou</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Santing</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sawaiphaih (T/C/D)</name>
+    <pinCode>795143</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thanlon</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Semon</name>
+    <pinCode>795143</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thanlon</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Siabu</name>
+    <pinCode>795139</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singhat</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sielmet</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Singhat</name>
+    <pinCode>795139</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone>0385-2450652</telephone>
+  </office>
+  <office>
+    <name>Singjawl</name>
+    <pinCode>795143</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thanlon</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Songdoh</name>
+    <pinCode>795139</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singhat</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Songtal</name>
+    <pinCode>795139</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singhat</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>South Kotlein</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Taithu</name>
+    <pinCode>795143</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thanlon</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Takvam</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Teiyong</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thangshi</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thanlon</name>
+    <pinCode>795143</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone>0385-2450652</telephone>
+  </office>
+  <office>
+    <name>Thinkew</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tingsong</name>
+    <pinCode>795143</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thanlon</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tipaimukh (P)</name>
+    <pinCode>795143</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thanlon</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tollen</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tolphei</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tuabung</name>
+    <pinCode>795143</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thanlon</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tuikham</name>
+    <pinCode>795117</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saikot</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tuining</name>
+    <pinCode>795117</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saikot</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tuinom</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tuitengphai</name>
+    <pinCode>795117</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saikot</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tulaphei</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ukha</name>
+    <pinCode>795128</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Churachandpur</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vokbual</name>
+    <pinCode>795139</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singhat</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Churachandpur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Awang Konmgpal</name>
+    <pinCode>795005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Porompat</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chingmang</name>
+    <pinCode>795010</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamlong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dolaithabi</name>
+    <pinCode>795114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pngaei Yangdong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Haraorou</name>
+    <pinCode>795114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pngaei Yangdong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Heinoumakhong</name>
+    <pinCode>795010</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamlong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Huidrom</name>
+    <pinCode>795010</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamlong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Irilbung</name>
+    <pinCode>795008</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singjamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kairang Litan Makhong</name>
+    <pinCode>795114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pngaei Yangdong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kameng Kakching</name>
+    <pinCode>795010</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamlong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Keirao Bitra Salam</name>
+    <pinCode>795008</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singjamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Keirao Makting</name>
+    <pinCode>795008</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singjamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Keirao Wangkhem</name>
+    <pinCode>795008</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singjamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khongangpheidekpi</name>
+    <pinCode>795008</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singjamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khongbal Tangkhul</name>
+    <pinCode>795114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pngaei Yangdong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khumidok (P)</name>
+    <pinCode>795114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pngaei Yangdong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khurai Khongnang Makhong</name>
+    <pinCode>795005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Porompat</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kitnapanung</name>
+    <pinCode>795008</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singjamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kongba Bazar</name>
+    <pinCode>795008</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singjamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kshetribangoon</name>
+    <pinCode>795008</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singjamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kshetrigao</name>
+    <pinCode>795008</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singjamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Laikoiching</name>
+    <pinCode>795010</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamlong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Laiphrak Maring</name>
+    <pinCode>795008</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singjamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lamlai</name>
+    <pinCode>795010</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamlong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lamlong</name>
+    <pinCode>795010</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone>0385-2321150</telephone>
+  </office>
+  <office>
+    <name>Latingkhal</name>
+    <pinCode>795116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jiribam Bazar</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Liklikhong Bazar</name>
+    <pinCode>795114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pngaei Yangdong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manipur University</name>
+    <pinCode>795003</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone>0385-2451975</telephone>
+  </office>
+  <office>
+    <name>Mapao Keithelmanbi</name>
+    <pinCode>795114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pngaei Yangdong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Moirang Kampu</name>
+    <pinCode>795005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Porompat</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Moirang Purel</name>
+    <pinCode>795010</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamlong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mongkhang Lambi</name>
+    <pinCode>795008</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singjamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ningthemchakhul</name>
+    <pinCode>795010</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamlong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongdam Tangkhul</name>
+    <pinCode>795010</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamlong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongoda</name>
+    <pinCode>795010</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamlong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Oinam Thingel</name>
+    <pinCode>795008</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singjamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phaknung</name>
+    <pinCode>795010</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamlong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pngaei Yangdong</name>
+    <pinCode>795114</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone>0385-2450652</telephone>
+  </office>
+  <office>
+    <name>Porompat</name>
+    <pinCode>795005</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone>0385-2450652</telephone>
+  </office>
+  <office>
+    <name>Pukhao Ahallup</name>
+    <pinCode>795114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pngaei Yangdong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sagolmang</name>
+    <pinCode>795114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pngaei Yangdong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Satang</name>
+    <pinCode>795114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pngaei Yangdong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sawombung</name>
+    <pinCode>795010</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamlong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sekmai</name>
+    <pinCode>795136</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone>03875-265229</telephone>
+  </office>
+  <office>
+    <name>Singjamei</name>
+    <pinCode>795008</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone>0385-2450068</telephone>
+  </office>
+  <office>
+    <name>Takhel</name>
+    <pinCode>795005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Porompat</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tangkhul Hungdung</name>
+    <pinCode>795010</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamlong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Taretkhul</name>
+    <pinCode>795010</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamlong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thangal Surung</name>
+    <pinCode>795114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pngaei Yangdong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tulihal</name>
+    <pinCode>795140</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone>0385-245101</telephone>
+  </office>
+  <office>
+    <name>Uchekon</name>
+    <pinCode>795008</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Singjamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Uyumpok</name>
+    <pinCode>795114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pngaei Yangdong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Waiton</name>
+    <pinCode>795114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pngaei Yangdong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wakhen Phai</name>
+    <pinCode>795114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pngaei Yangdong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yourbung</name>
+    <pinCode>795010</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamlong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yumnam Khunou</name>
+    <pinCode>795114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pngaei Yangdong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal East District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ahallup</name>
+    <pinCode>795002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mantripukhri</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Arong</name>
+    <pinCode>795132</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mayang Imphal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Awang Leikinthabi</name>
+    <pinCode>795136</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sekmai</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Awangpotshangbam</name>
+    <pinCode>795002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mantripukhri</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bengoon Maning Leikai</name>
+    <pinCode>795132</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mayang Imphal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bidyanagar</name>
+    <pinCode>795115</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Gularthol</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bitrarakhong</name>
+    <pinCode>795009</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wangoi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil; Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bongmun</name>
+    <pinCode>795116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jiribam Bazar</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Borobekra</name>
+    <pinCode>795116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jiribam Bazar</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>BR Colony</name>
+    <pinCode>795115</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Gularthol</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Canchipur (T/C/D)</name>
+    <pinCode>795003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manipur University</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Central Agriculture University</name>
+    <pinCode>795004</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamphelpat</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ch. Khongnangpokpi</name>
+    <pinCode>795136</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sekmai</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chabung Company</name>
+    <pinCode>795132</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mayang Imphal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Champanagar</name>
+    <pinCode>795116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jiribam Bazar</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chingmun</name>
+    <pinCode>795116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jiribam Bazar</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chirai Muslim</name>
+    <pinCode>795132</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mayang Imphal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Christan Centre Haochong</name>
+    <pinCode>795146</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamsang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>CRPF Camp Langjing</name>
+    <pinCode>795113</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone>0385-2436139</telephone>
+  </office>
+  <office>
+    <name>D.M College</name>
+    <pinCode>795001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone>0385-2450572</telephone>
+  </office>
+  <office>
+    <name>Gularthol</name>
+    <pinCode>795115</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone>0385-2450652</telephone>
+  </office>
+  <office>
+    <name>Haorang Kairel</name>
+    <pinCode>795113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>CRPF Camp Langjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Haoreibi</name>
+    <pinCode>795009</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wangoi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Heibong Makhong</name>
+    <pinCode>795132</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mayang Imphal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Heibongpokpi</name>
+    <pinCode>795146</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamsang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Heingang</name>
+    <pinCode>795002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mantripukhri</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hiyangthang</name>
+    <pinCode>795009</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wangoi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ijairong</name>
+    <pinCode>795146</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamsang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Imphal Bazar</name>
+    <pinCode>795001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone>0385-2450017</telephone>
+  </office>
+  <office>
+    <name>Imphal</name>
+    <pinCode>795001</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone>0385-2450146</telephone>
+  </office>
+  <office>
+    <name>Irengnaga</name>
+    <pinCode>795146</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamsang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Iroisemaba</name>
+    <pinCode>795004</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamphelpat</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Irom Meijrao</name>
+    <pinCode>795009</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wangoi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Irong Chessabal</name>
+    <pinCode>795132</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mayang Imphal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Irong Umang Khunou</name>
+    <pinCode>795132</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mayang Imphal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jakurdhar</name>
+    <pinCode>795116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jiribam Bazar</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jiribam Bazar</name>
+    <pinCode>795116</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone>03876-221220</telephone>
+  </office>
+  <office>
+    <name>Kangchup Chiru</name>
+    <pinCode>795146</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamsang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kangchup Hill (P)</name>
+    <pinCode>795146</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamsang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kangchup Makhong</name>
+    <pinCode>795146</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamsang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kanglatongbi</name>
+    <pinCode>795136</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sekmai</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karakhul</name>
+    <pinCode>795002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mantripukhri</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karam Vaiphei</name>
+    <pinCode>795146</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamsang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kashimpur</name>
+    <pinCode>795115</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Gularthol</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Keimai</name>
+    <pinCode>795115</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Gularthol</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kh Jaikhan</name>
+    <pinCode>795116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jiribam Bazar</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khamnam Bazar</name>
+    <pinCode>795113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>CRPF Camp Langjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khangakhul</name>
+    <pinCode>795113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>CRPF Camp Langjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khelakhong</name>
+    <pinCode>795132</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mayang Imphal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khonghampat</name>
+    <pinCode>795002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mantripukhri</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khoyathong</name>
+    <pinCode>795001</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>D.M College</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khumbong Bazar</name>
+    <pinCode>795113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>CRPF Camp Langjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khundong Khukhaiba</name>
+    <pinCode>795146</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamsang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khurukhul</name>
+    <pinCode>795002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mantripukhri</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kodompokpi</name>
+    <pinCode>795009</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wangoi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Komlakhong</name>
+    <pinCode>795132</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mayang Imphal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Konthakhabam</name>
+    <pinCode>795002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mantripukhri</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Konthoujam</name>
+    <pinCode>795113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>CRPF Camp Langjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kunja (P)</name>
+    <pinCode>795003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manipur University</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kyamgei</name>
+    <pinCode>795003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manipur University</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Laiphrakom</name>
+    <pinCode>795140</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tulihal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lairen Sajik</name>
+    <pinCode>795146</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamsang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lalkhai</name>
+    <pinCode>795116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jiribam Bazar</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lamboi Khongnagkhong</name>
+    <pinCode>795004</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamphelpat</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lamdeng</name>
+    <pinCode>795146</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamsang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lamphelpat</name>
+    <pinCode>795004</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone>0385-2414482</telephone>
+  </office>
+  <office>
+    <name>Lamsang</name>
+    <pinCode>795146</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone>0385-2451633</telephone>
+  </office>
+  <office>
+    <name>Langjing Achouba</name>
+    <pinCode>795113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>CRPF Camp Langjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Langol Housing Complex</name>
+    <pinCode>795004</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamphelpat</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Langthabal</name>
+    <pinCode>795003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manipur University</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Laphupat</name>
+    <pinCode>795132</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mayang Imphal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Loitang Leikinthabi</name>
+    <pinCode>795002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mantripukhri</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Longa Koireng</name>
+    <pinCode>795113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>CRPF Camp Langjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Longpi</name>
+    <pinCode>795116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jiribam Bazar</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Loukok Mayai Leikai</name>
+    <pinCode>795132</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mayang Imphal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Luwangsangbam</name>
+    <pinCode>795002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mantripukhri</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Luwangsangol</name>
+    <pinCode>795136</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sekmai</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maibam Konjil</name>
+    <pinCode>795132</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mayang Imphal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Makhan</name>
+    <pinCode>795136</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sekmai</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maklang Bazar</name>
+    <pinCode>795113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>CRPF Camp Langjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mantripukhri</name>
+    <pinCode>795002</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone>0385-2427366</telephone>
+  </office>
+  <office>
+    <name>Mayang Impahl Bengoon</name>
+    <pinCode>795132</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mayang Imphal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mayang Langjing</name>
+    <pinCode>795146</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamsang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mongsangei</name>
+    <pinCode>795003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manipur University</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mutum Phibou</name>
+    <pinCode>795132</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mayang Imphal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Natok Kabui</name>
+    <pinCode>795113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>CRPF Camp Langjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>New Keiphundai</name>
+    <pinCode>795115</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Gularthol</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>New Keithelmanbi</name>
+    <pinCode>795113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>CRPF Camp Langjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ngairangbam</name>
+    <pinCode>795113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>CRPF Camp Langjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ngaphabung</name>
+    <pinCode>795116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jiribam Bazar</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ningombam</name>
+    <pinCode>795003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manipur University</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Noremthong Bazar</name>
+    <pinCode>795004</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamphelpat</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Oktan</name>
+    <pinCode>795146</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamsang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Paobitek</name>
+    <pinCode>795009</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wangoi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Patpuimun</name>
+    <pinCode>795116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jiribam Bazar</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Patsoi Part II</name>
+    <pinCode>795113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>CRPF Camp Langjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phaibok Mullen</name>
+    <pinCode>795116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jiribam Bazar</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phayeng</name>
+    <pinCode>795146</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamsang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phoubakchao</name>
+    <pinCode>795132</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mayang Imphal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ponlian</name>
+    <pinCode>795146</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamsang</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Potsangbam Khoirou</name>
+    <pinCode>795136</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sekmai</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sagolband Thingom Leikai</name>
+    <pinCode>795004</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamphelpat</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sagoltongba Bazar</name>
+    <pinCode>795113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>CRPF Camp Langjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Samurou</name>
+    <pinCode>795009</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wangoi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sangaiprou</name>
+    <pinCode>795140</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tulihal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Santhel</name>
+    <pinCode>795132</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mayang Imphal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sayang Kuraomakhong</name>
+    <pinCode>795004</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamphelpat</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sekmaijin Khunou Konuma</name>
+    <pinCode>795132</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mayang Imphal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sekmaijin</name>
+    <pinCode>795132</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mayang Imphal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sekmaijin Khunou Litan Makhong</name>
+    <pinCode>795132</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mayang Imphal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Soibam Leikai</name>
+    <pinCode>795001</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>D.M College</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sonapur</name>
+    <pinCode>795116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jiribam Bazar</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Suangpuimun</name>
+    <pinCode>795116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jiribam Bazar</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tairenpokpi</name>
+    <pinCode>795113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>CRPF Camp Langjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Takyel Khongbal</name>
+    <pinCode>795113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>CRPF Camp Langjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tendongyang (P)</name>
+    <pinCode>795002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mantripukhri</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tera Bazar</name>
+    <pinCode>795004</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lamphelpat</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tera Khoidum Mayai Leikai</name>
+    <pinCode>795132</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mayang Imphal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tharoijam</name>
+    <pinCode>795113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>CRPF Camp Langjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tuitengmun</name>
+    <pinCode>795116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Jiribam Bazar</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Uchiwa</name>
+    <pinCode>795132</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mayang Imphal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Uchiwa Wangban</name>
+    <pinCode>795132</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mayang Imphal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wangoi</name>
+    <pinCode>795009</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone>0385-2450652</telephone>
+  </office>
+  <office>
+    <name>Yarrow Meitram</name>
+    <pinCode>795140</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tulihal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yumnam Khunou</name>
+    <pinCode>795009</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wangoi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yurembam</name>
+    <pinCode>795113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>CRPF Camp Langjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Imphal West District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bunglong</name>
+    <pinCode>795118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saikul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chalwa (P)</name>
+    <pinCode>795112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>T Waichong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chandraman</name>
+    <pinCode>795122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalapahar</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chawanamei</name>
+    <pinCode>795104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tadubi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cheljang</name>
+    <pinCode>795112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>T Waichong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chingai Khullen</name>
+    <pinCode>795104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tadubi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Galam</name>
+    <pinCode>795118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saikul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ganel</name>
+    <pinCode>795112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>T Waichong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gangpijang</name>
+    <pinCode>795118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saikul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Haipi</name>
+    <pinCode>795122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalapahar</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hengbung</name>
+    <pinCode>795129</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kangpokpi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ichaigojang</name>
+    <pinCode>795118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saikul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Irang</name>
+    <pinCode>795112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>T Waichong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>J Phaijang</name>
+    <pinCode>795107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Motbung</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jangnoi</name>
+    <pinCode>795118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saikul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kaibi</name>
+    <pinCode>795104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tadubi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kalapahar</name>
+    <pinCode>795122</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone>0385-2450652</telephone>
+  </office>
+  <office>
+    <name>Kangpokpi Mission</name>
+    <pinCode>795129</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kangpokpi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kangpokpi</name>
+    <pinCode>795129</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone>03889-233307</telephone>
+  </office>
+  <office>
+    <name>Karong</name>
+    <pinCode>795007</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone>0385-2450652</telephone>
+  </office>
+  <office>
+    <name>Keithelmanbi</name>
+    <pinCode>795122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalapahar</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kheijang</name>
+    <pinCode>795122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalapahar</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Koide</name>
+    <pinCode>795015</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Maram</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kolhen</name>
+    <pinCode>795112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>T Waichong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Laii</name>
+    <pinCode>795104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tadubi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lairouching</name>
+    <pinCode>795007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lakhamei</name>
+    <pinCode>795015</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Maram</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Liyai</name>
+    <pinCode>795104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tadubi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Liyal Khunou</name>
+    <pinCode>795104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tadubi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maiba</name>
+    <pinCode>795015</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Maram</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Makeng Ngarolu</name>
+    <pinCode>795118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saikul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Makhan Bazar</name>
+    <pinCode>795015</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Maram</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Makokchung</name>
+    <pinCode>795118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saikul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mao</name>
+    <pinCode>795150</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone>03871-231206</telephone>
+  </office>
+  <office>
+    <name>Maohiing</name>
+    <pinCode>795129</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kangpokpi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maohing</name>
+    <pinCode>795129</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kangpokpi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maram</name>
+    <pinCode>795015</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone>0385-2450652</telephone>
+  </office>
+  <office>
+    <name>Molkon</name>
+    <pinCode>795118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saikul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Motbung</name>
+    <pinCode>795107</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone>0385-2450652</telephone>
+  </office>
+  <office>
+    <name>Mutukhong</name>
+    <pinCode>795118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saikul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>N. Khenjang</name>
+    <pinCode>795107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Motbung</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nurathel</name>
+    <pinCode>795107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Motbung</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Oinam</name>
+    <pinCode>795007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Oklong</name>
+    <pinCode>795106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Senapati</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pangjang</name>
+    <pinCode>795118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saikul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Paomata Centre</name>
+    <pinCode>795104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tadubi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Persian</name>
+    <pinCode>795122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalapahar</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pfukhro</name>
+    <pinCode>795150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mao</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phaibung Khullen</name>
+    <pinCode>795104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tadubi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phaikon</name>
+    <pinCode>795118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saikul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phuba</name>
+    <pinCode>795015</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Maram</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phunanamei</name>
+    <pinCode>795150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mao</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pudunamei</name>
+    <pinCode>795150</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mao</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Purul</name>
+    <pinCode>795015</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Maram</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rajamei</name>
+    <pinCode>795007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>S.Bolkot</name>
+    <pinCode>795107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Motbung</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Saitu</name>
+    <pinCode>795107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Motbung</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sangpei Khullen</name>
+    <pinCode>795118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saikul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sapermeina</name>
+    <pinCode>795107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Motbung</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Saranamei</name>
+    <pinCode>795104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tadubi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Senapati</name>
+    <pinCode>795106</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone>03878-222227</telephone>
+  </office>
+  <office>
+    <name>Siraffi</name>
+    <pinCode>795104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tadubi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>T Waichong</name>
+    <pinCode>795112</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone>0385-2450652</telephone>
+  </office>
+  <office>
+    <name>T. Awkhumbung</name>
+    <pinCode>795118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saikul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tadubi</name>
+    <pinCode>795104</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone>03871-261224</telephone>
+  </office>
+  <office>
+    <name>Tamei</name>
+    <pinCode>795125</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone>0385-2450652</telephone>
+  </office>
+  <office>
+    <name>Taphou</name>
+    <pinCode>795129</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kangpokpi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thanamba</name>
+    <pinCode>795122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalapahar</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thengjang</name>
+    <pinCode>795112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>T Waichong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thingba Khullen</name>
+    <pinCode>795007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thingba Khunou</name>
+    <pinCode>795007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thingsat</name>
+    <pinCode>795107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Motbung</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thonglang</name>
+    <pinCode>795129</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kangpokpi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tingpibung</name>
+    <pinCode>795118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saikul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tokpa</name>
+    <pinCode>795122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalapahar</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Toribari</name>
+    <pinCode>795129</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kangpokpi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tumuyan Khullen</name>
+    <pinCode>795106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Senapati</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tungjoy</name>
+    <pinCode>795104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tadubi</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Willang</name>
+    <pinCode>795007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yangkhullen</name>
+    <pinCode>795007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zelengphai</name>
+    <pinCode>795118</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saikul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Senapati District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Akhui</name>
+    <pinCode>795141</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamenglong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Atang Khunou</name>
+    <pinCode>795125</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Atengba</name>
+    <pinCode>795141</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamenglong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Awangkhul</name>
+    <pinCode>795159</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>None</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bhalok</name>
+    <pinCode>795141</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamenglong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bongoijang</name>
+    <pinCode>795141</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamenglong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chaiton</name>
+    <pinCode>795125</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Charoi Tupul</name>
+    <pinCode>795159</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>None</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chongmun</name>
+    <pinCode>795147</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nungba</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dailong</name>
+    <pinCode>795141</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamenglong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dullen (T/C/D)</name>
+    <pinCode>795125</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Haochong</name>
+    <pinCode>795159</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>None</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Illong</name>
+    <pinCode>795125</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jampii (T/C/D)</name>
+    <pinCode>795125</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kadi</name>
+    <pinCode>795125</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kahulong</name>
+    <pinCode>795141</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamenglong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kambiron</name>
+    <pinCode>795147</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nungba</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kasanlong</name>
+    <pinCode>795125</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Keikao</name>
+    <pinCode>795141</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamenglong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khongjaron</name>
+    <pinCode>795141</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamenglong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khongjaron Khunthak</name>
+    <pinCode>795141</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamenglong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khongsang</name>
+    <pinCode>795159</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>None</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khoupum</name>
+    <pinCode>795147</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nungba</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khumphung</name>
+    <pinCode>795125</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuilong</name>
+    <pinCode>795125</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lemta</name>
+    <pinCode>795125</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lenglong</name>
+    <pinCode>795125</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Longpram</name>
+    <pinCode>795141</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamenglong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lukhambi</name>
+    <pinCode>795159</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>None</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Magulong</name>
+    <pinCode>795125</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mukti Khullen</name>
+    <pinCode>795147</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nungba</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nagaching</name>
+    <pinCode>795159</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>None</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Namtiram</name>
+    <pinCode>795141</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamenglong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>New Kabui Khullen</name>
+    <pinCode>795159</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>None</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>New Lambala</name>
+    <pinCode>795125</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>New Pallong</name>
+    <pinCode>795141</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamenglong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>None</name>
+    <pinCode>795159</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone>0385-2450652</telephone>
+  </office>
+  <office>
+    <name>Nungba</name>
+    <pinCode>795147</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone>0385-2450652</telephone>
+  </office>
+  <office>
+    <name>Nungnang</name>
+    <pinCode>795147</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nungba</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nungtek</name>
+    <pinCode>795159</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>None</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rengpang</name>
+    <pinCode>795147</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nungba</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sibilong</name>
+    <pinCode>795147</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nungba</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Songpram</name>
+    <pinCode>795141</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamenglong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Takou</name>
+    <pinCode>795125</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tamenglong Khunjao</name>
+    <pinCode>795141</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamenglong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tamenglong</name>
+    <pinCode>795141</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone>03877-222006</telephone>
+  </office>
+  <office>
+    <name>Tharon</name>
+    <pinCode>795141</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamenglong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thingra</name>
+    <pinCode>795159</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>None</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thuilon</name>
+    <pinCode>795141</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamenglong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tousem</name>
+    <pinCode>795141</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamenglong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Upper Selsi (T/c/d)</name>
+    <pinCode>795125</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamei</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wairengba</name>
+    <pinCode>795141</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tamenglong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Tamenglong District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Aimol Kodamphai</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Andro</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil; Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Angbrashu</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Angtha</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Arapyi</name>
+    <pinCode>795130</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lilong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Arong Nongmaikhong</name>
+    <pinCode>795103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kakching</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Athokpam</name>
+    <pinCode>795138</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thoubal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Athokpam Khunou</name>
+    <pinCode>795138</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thoubal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bongbal Khullen</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bongli</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chairen</name>
+    <pinCode>795101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sugnu</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chajing Pt II</name>
+    <pinCode>795130</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lilong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Changamdabi</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Charangpat</name>
+    <pinCode>795138</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thoubal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chaton</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chelhep</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cherapur</name>
+    <pinCode>795148</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wangjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Elangkhangpokpi</name>
+    <pinCode>795103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kakching</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Haokha</name>
+    <pinCode>795138</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thoubal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Haokhongching</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Haoreibi Mayai Leikai</name>
+    <pinCode>795130</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lilong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Heinganglok</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Heinoumakhong</name>
+    <pinCode>795130</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lilong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Heirok Part 2</name>
+    <pinCode>795148</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wangjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Herok Part 1</name>
+    <pinCode>795148</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wangjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hivanalam</name>
+    <pinCode>795103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kakching</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hulkap</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Irong Tangkhul</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Irong Thokchom (T/C/D)</name>
+    <pinCode>795138</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thoubal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Irong Thokchom (T/C/D)</name>
+    <pinCode>795138</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thoubal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>K M College</name>
+    <pinCode>795103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kakching</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>K. Molnam</name>
+    <pinCode>795101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sugnu</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kakching Khunou</name>
+    <pinCode>795103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kakching</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kakching</name>
+    <pinCode>795103</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone>03848-261230</telephone>
+  </office>
+  <office>
+    <name>Kalikalok</name>
+    <pinCode>795103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kakching</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kambang Khunou</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kamu Tampak</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kamu Tongam</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kamuching</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kamuching</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kasom Khullen</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Keibung Mamang</name>
+    <pinCode>795138</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thoubal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Keirak</name>
+    <pinCode>795103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kakching</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khambathel</name>
+    <pinCode>795101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sugnu</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khangabok</name>
+    <pinCode>795138</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thoubal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khangbaram</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kharou Khullen</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khekmanedbo</name>
+    <pinCode>795138</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thoubal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khoibu</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khoirom</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khongjom</name>
+    <pinCode>795148</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wangjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khonglou Vaiphei (T/C/D)</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khongnangpheisani</name>
+    <pinCode>795101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sugnu</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khousat (T/C/D)</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khudei Khunou</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khudei Khunou</name>
+    <pinCode>795103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kakching</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khunbi</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kiyam Shiphai</name>
+    <pinCode>795138</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thoubal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kshetri Leikai</name>
+    <pinCode>795138</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thoubal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Laiching Khongsang</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lairabokhong</name>
+    <pinCode>795130</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lilong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lamkang Khunou</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lamlong Khullen</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lamlong Khunou</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Langmeidon</name>
+    <pinCode>795103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kakching</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Leibi</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Leingangching</name>
+    <pinCode>795103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kakching</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lembakhul</name>
+    <pinCode>795138</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thoubal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lilong</name>
+    <pinCode>795130</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone>0385-2432227</telephone>
+  </office>
+  <office>
+    <name>Liwachangning</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Longja</name>
+    <pinCode>795101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sugnu</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Louremba</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lungthar</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>M Bongmol</name>
+    <pinCode>795101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sugnu</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Machi</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mahou Tera</name>
+    <pinCode>795101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sugnu</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mairembam</name>
+    <pinCode>795103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kakching</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mantak</name>
+    <pinCode>795103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kakching</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mayang Imphal</name>
+    <pinCode>795132</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone>0385-265238</telephone>
+  </office>
+  <office>
+    <name>Minou Khunjao</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Moijing</name>
+    <pinCode>795138</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thoubal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Molhang</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mollen (T/C/D)</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mollen (T/C/D)</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nambasi</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Narum</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nodoom Bazar</name>
+    <pinCode>795103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kakching</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nongpok Sekmai</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nungei</name>
+    <pinCode>795130</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lilong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Okram Wangmataba</name>
+    <pinCode>795138</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thoubal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pangaltabi</name>
+    <pinCode>795103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kakching</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phoudel</name>
+    <pinCode>795138</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thoubal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phouoibi</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phunalmaring</name>
+    <pinCode>795130</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lilong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phundrei</name>
+    <pinCode>795148</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wangjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Poirou Khongjil</name>
+    <pinCode>795138</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thoubal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puleilokpi</name>
+    <pinCode>795148</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wangjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Purum Pantha</name>
+    <pinCode>795103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kakching</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sabaltongba</name>
+    <pinCode>795138</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thoubal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Saibhom</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Salungpham</name>
+    <pinCode>795148</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wangjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Samaram</name>
+    <pinCode>795148</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wangjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sangaikot</name>
+    <pinCode>795101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sugnu</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sangaiyumpham</name>
+    <pinCode>795148</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wangjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sapam Salai</name>
+    <pinCode>795148</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wangjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Saram Patong</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Serou</name>
+    <pinCode>795101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sugnu</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Shahumphai</name>
+    <pinCode>795101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sugnu</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sita</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Soichang</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Songjang</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sora</name>
+    <pinCode>795103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kakching</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tekcham</name>
+    <pinCode>795148</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wangjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tentha</name>
+    <pinCode>795148</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wangjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thamnapokpi</name>
+    <pinCode>795135</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pallel</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thiyamkonjil</name>
+    <pinCode>795130</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lilong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thoubal Block (T/C/D)</name>
+    <pinCode>795138</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thoubal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thoubal Khunou</name>
+    <pinCode>795138</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thoubal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thoubal Leisangthem</name>
+    <pinCode>795138</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thoubal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thoubal Ningombam</name>
+    <pinCode>795138</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thoubal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thoubal</name>
+    <pinCode>795138</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone>03848-222221</telephone>
+  </office>
+  <office>
+    <name>Tokpaching</name>
+    <pinCode>795103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kakching</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tollen</name>
+    <pinCode>795148</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wangjing</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Top Chingtha</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Turelahnabi</name>
+    <pinCode>795130</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lilong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Urup</name>
+    <pinCode>795130</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lilong</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wabagai</name>
+    <pinCode>795103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kakching</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Waikhong</name>
+    <pinCode>795103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kakching</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wangbal</name>
+    <pinCode>795138</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thoubal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wangjing</name>
+    <pinCode>795148</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone>0385-2450652</telephone>
+  </office>
+  <office>
+    <name>Wangoo Laipham</name>
+    <pinCode>795103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kakching</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yairipok</name>
+    <pinCode>795149</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone>03848-263224</telephone>
+  </office>
+  <office>
+    <name>Yairipok Tulihal</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yambem Laxmi Bazar</name>
+    <pinCode>795149</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Yairipok</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Thoubal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ashi</name>
+    <pinCode>795145</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Litan</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chadong</name>
+    <pinCode>795145</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Litan</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chamu</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chassad</name>
+    <pinCode>795145</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Litan</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chingai (P)</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chingjaroiedbo</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chither (P)</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Grihang</name>
+    <pinCode>795145</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Litan</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Huime</name>
+    <pinCode>795144</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Somdal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Huining</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hundung</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jessami Edno</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kachal</name>
+    <pinCode>795144</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Somdal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kagai</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khamasom</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kharasom</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khayang</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khongdei Simphung</name>
+    <pinCode>795144</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Somdal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kongpat Khunou</name>
+    <pinCode>795145</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Litan</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>L Tangkhul</name>
+    <pinCode>795145</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Litan</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lambui</name>
+    <pinCode>795145</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Litan</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lamlang Gate</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Leisan</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Leiting</name>
+    <pinCode>795145</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Litan</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Litan</name>
+    <pinCode>795145</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone>0385-2450652</telephone>
+  </office>
+  <office>
+    <name>Lungphu</name>
+    <pinCode>795145</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Litan</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maku</name>
+    <pinCode>795145</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Litan</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maokot</name>
+    <pinCode>795145</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Litan</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mapum</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ngairou</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ngari Khullen</name>
+    <pinCode>795144</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Somdal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nungbi Khunou</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nungshang</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Paorei</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Paoyii</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phadang</name>
+    <pinCode>795144</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Somdal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phungcham</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phungyar</name>
+    <pinCode>795145</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Litan</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Poii</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pushing</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rajai Khunou</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sanakeithel</name>
+    <pinCode>795145</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Litan</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Semol</name>
+    <pinCode>795145</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Litan</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Shongshak</name>
+    <pinCode>795145</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Litan</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sirarakhong</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Siroi</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Siyamongjam</name>
+    <pinCode>795145</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Litan</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Somdal</name>
+    <pinCode>795144</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone>0385-2450652</telephone>
+  </office>
+  <office>
+    <name>Sorang Phung</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sorde</name>
+    <pinCode>795145</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Litan</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>T.C. Ground</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thawai</name>
+    <pinCode>795145</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Litan</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thiwa</name>
+    <pinCode>795144</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Somdal</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tolloi</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tuinem</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tungou</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tushem</name>
+    <pinCode>795142</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ukhrul</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ukhrul</name>
+    <pinCode>795142</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone>03870-222027</telephone>
+  </office>
+  <office>
+    <name>Yangangpokpi</name>
+    <pinCode>795145</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Litan</suboffice>
+    <headoffice>Imphal</headoffice>
+    <location>Nil Taluk of Ukhrul District</location>
+    <telephone />
+  </office>
+</offices>

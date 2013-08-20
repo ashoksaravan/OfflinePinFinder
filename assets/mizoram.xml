@@ -1,0 +1,3683 @@
+<offices>
+  <office>
+    <name>Aibawk</name>
+    <pinCode>796190</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Aibawk Taluk of Aizawl District</location>
+    <telephone>0389-2578377</telephone>
+  </office>
+  <office>
+    <name>Aiduzawl</name>
+    <pinCode>796261</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saitual</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saitual Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Aizawl</name>
+    <pinCode>796001</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone>0389-2328023</telephone>
+  </office>
+  <office>
+    <name>Armed Veng</name>
+    <pinCode>796007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chandmary</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Armed Veng</name>
+    <pinCode>796008</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam Taluk of Aizawl District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Baktawng</name>
+    <pinCode>796161</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thingsulthliah</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Thingsulthliah Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bawngkawn</name>
+    <pinCode>796014</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone>0389-2346115</telephone>
+  </office>
+  <office>
+    <name>Bethlehem</name>
+    <pinCode>796007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chandmary</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Buhban</name>
+    <pinCode>796261</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saitual</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saitual Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bukpui</name>
+    <pinCode>796007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chandmary</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Chandmary Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bungkawn</name>
+    <pinCode>796005</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Kulikawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chaltlang</name>
+    <pinCode>796012</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Ramhlun</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chandmary</name>
+    <pinCode>796007</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone>0389-2341204</telephone>
+  </office>
+  <office>
+    <name>Changzawl</name>
+    <pinCode>796261</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saitual</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saitual Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chawlhhmun</name>
+    <pinCode>796009</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vaivakawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chhingchhip</name>
+    <pinCode>796161</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thingsulthliah</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Thingsulthliah Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>College Veng</name>
+    <pinCode>796005</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Kulikawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cti Sesawng</name>
+    <pinCode>796017</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zemabawk</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Thingsulthliah (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Daido</name>
+    <pinCode>796261</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saitual</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saitual Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Darlawn</name>
+    <pinCode>796111</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Darlawn Taluk of Aizawl District</location>
+    <telephone>0389-2569338</telephone>
+  </office>
+  <office>
+    <name>Dawrpui</name>
+    <pinCode>796001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone>0389-2317488</telephone>
+  </office>
+  <office>
+    <name>Dinthar</name>
+    <pinCode>796009</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Vaivakawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Durtlang</name>
+    <pinCode>796025</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone>0389-2361197</telephone>
+  </office>
+  <office>
+    <name>Electric Veng</name>
+    <pinCode>796007</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Chandmary</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Govt. Complex</name>
+    <pinCode>796009</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vaivakawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hmuifang</name>
+    <pinCode>796190</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Aibawk</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Aibawk Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hmuntha</name>
+    <pinCode>796161</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thingsulthliah</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Thingsulthliah Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hriphaw</name>
+    <pinCode>796471</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zawlnuam</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Zawlnuam Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hualngohmun</name>
+    <pinCode>796005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kulikawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hualtu</name>
+    <pinCode>796161</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thingsulthliah</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Thingsulthliah Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Keifang</name>
+    <pinCode>796261</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saitual</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Phullen Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kelsih</name>
+    <pinCode>796005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kulikawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Kulikawn Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kepran</name>
+    <pinCode>796017</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zemabawk</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Zemabawk Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khanpui</name>
+    <pinCode>796017</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zemabawk</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Zemabawk Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khawbel</name>
+    <pinCode>796161</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thingsulthliah</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Thingsulthliah Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khawchhete</name>
+    <pinCode>796005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kulikawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Kulikawn Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khawlian</name>
+    <pinCode>796261</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saitual</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saitual Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khawpuar</name>
+    <pinCode>796111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Darlawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Darlawn Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khawruhlian</name>
+    <pinCode>796017</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zemabawk</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Zemabawk Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khumtung</name>
+    <pinCode>796161</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thingsulthliah</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Thingsulthliah Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kulikawn</name>
+    <pinCode>796005</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Kulikawn Taluk of Aizawl District</location>
+    <telephone>0389-2322866</telephone>
+  </office>
+  <office>
+    <name>Lamchhip</name>
+    <pinCode>796190</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Aibawk</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Aibawk Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lengpui Airport</name>
+    <pinCode>796421</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Lengpui Taluk of Aizawl District</location>
+    <telephone>0389-2573380</telephone>
+  </office>
+  <office>
+    <name>Lengpui</name>
+    <pinCode>796410</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sairang</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Luangmual</name>
+    <pinCode>796009</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vaivakawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Luangpawn</name>
+    <pinCode>796261</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saitual</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saitual Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lungdai</name>
+    <pinCode>796014</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bawngkawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Bawngkawn Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lungmuat</name>
+    <pinCode>796007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chandmary</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Chandmary Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lungpher &apos;N&apos;</name>
+    <pinCode>796261</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saitual</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saitual Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lungsum</name>
+    <pinCode>796111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Darlawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Darlawn Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lushaicherra</name>
+    <pinCode>796471</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zawlnuam</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Zawlnuam Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maite</name>
+    <pinCode>796261</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saitual</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saitual Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maubawk</name>
+    <pinCode>796005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kulikawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maubuang</name>
+    <pinCode>796190</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Aibawk</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Aibawk Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mauchar</name>
+    <pinCode>796111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Darlawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Darlawn Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Missionvengthlang</name>
+    <pinCode>796005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kulikawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mizoram University</name>
+    <pinCode>796004</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Muallungthu</name>
+    <pinCode>796005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kulikawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Kulikawn Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mualmawi</name>
+    <pinCode>796005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kulikawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mualpheng</name>
+    <pinCode>796261</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saitual</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saitual Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mualpui</name>
+    <pinCode>796005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kulikawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Muthi</name>
+    <pinCode>796014</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bawngkawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Bawngkawn Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>N.Chaltlang</name>
+    <pinCode>796007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chandmary</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Chandmary Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>N.E.Bualpui</name>
+    <pinCode>796261</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saitual</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Phullen Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>N.Hlimen</name>
+    <pinCode>796007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chandmary</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Chandmary Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>N.Khawlek</name>
+    <pinCode>796261</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saitual</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saitual Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>N.Lungleng</name>
+    <pinCode>796005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kulikawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Kulikawn Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>N.Serzawl</name>
+    <pinCode>796111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Darlawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Darlawn Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>N.Tinghmun</name>
+    <pinCode>796111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Darlawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Darlawn Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>New Vervek</name>
+    <pinCode>796111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Darlawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Darlawn Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nisapui</name>
+    <pinCode>796007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chandmary</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Chanmary Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Palsang</name>
+    <pinCode>796111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Darlawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Darlawn Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pawlrang</name>
+    <pinCode>796261</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saitual</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saitual Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phaileng &apos;E&apos;</name>
+    <pinCode>796017</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zemabawk</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Zemabawk Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phuaibuang</name>
+    <pinCode>796261</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saitual</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saitual Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phullen</name>
+    <pinCode>796261</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saitual</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saitual Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phulpui</name>
+    <pinCode>796190</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Aibawk</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Aibawk Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ptc Lungverh</name>
+    <pinCode>796410</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sairang</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ramhlun</name>
+    <pinCode>796012</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone>0389-2341081</telephone>
+  </office>
+  <office>
+    <name>Ramthar</name>
+    <pinCode>796007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chandmary</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rangvamual</name>
+    <pinCode>796009</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vaivakawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ratu</name>
+    <pinCode>796111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Darlawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Darlawn Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Republic Veng</name>
+    <pinCode>796005</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Kulikawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ruallung</name>
+    <pinCode>796261</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saitual</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Phullen Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>S,hlimen</name>
+    <pinCode>796005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kulikawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sabualkawn</name>
+    <pinCode>796005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kulikawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Saichal</name>
+    <pinCode>796261</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saitual</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saitual Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sailam</name>
+    <pinCode>796190</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Aibawk</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Aibawk Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sailutar</name>
+    <pinCode>796111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Darlawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Darlawn Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Saitual</name>
+    <pinCode>796261</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Phullen Taluk of Aizawl District</location>
+    <telephone>0389-2562299</telephone>
+  </office>
+  <office>
+    <name>Sakawrdai</name>
+    <pinCode>796111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Darlawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Darlawn Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sakawrtuichhun</name>
+    <pinCode>796009</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vaivakawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Samlukhai</name>
+    <pinCode>796190</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Aibawk</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Aibawk Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sateek</name>
+    <pinCode>796190</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Aibawk</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Aibawk Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sawleng</name>
+    <pinCode>796017</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zemabawk</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Zemabawk Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Selesih</name>
+    <pinCode>796014</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bawngkawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Seling</name>
+    <pinCode>796161</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thingsulthliah</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Thingsulthliah Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Serkhan</name>
+    <pinCode>796007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chandmary</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Chandmary Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sesawng</name>
+    <pinCode>796017</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zemabawk</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Zemabawk Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sialsuk</name>
+    <pinCode>796230</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Sialsuk Taluk of Aizawl District</location>
+    <telephone>0389-2571212</telephone>
+  </office>
+  <office>
+    <name>Sihfa</name>
+    <pinCode>796261</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saitual</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saitual Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sihphir</name>
+    <pinCode>796036</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Sihphir Taluk of Aizawl District</location>
+    <telephone>0389-2364239</telephone>
+  </office>
+  <office>
+    <name>Suangpuilawn</name>
+    <pinCode>796261</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saitual</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saitual Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sumsuih</name>
+    <pinCode>796190</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Aibawk</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Aibawk Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tachhip</name>
+    <pinCode>796190</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Aibawk</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Aibawk Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tanhril</name>
+    <pinCode>796009</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vaivakawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thakthingbazar</name>
+    <pinCode>796005</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Kulikawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thentlang</name>
+    <pinCode>796161</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thingsulthliah</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Thingsulthliah Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thiak</name>
+    <pinCode>796190</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Aibawk</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Aibawk Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thingdawlmelriat</name>
+    <pinCode>796005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kulikawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Kulikawn Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thingsat</name>
+    <pinCode>796111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Darlawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Darlawn Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thingsulthliah</name>
+    <pinCode>796161</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Thingsulthliah Taluk of Aizawl District</location>
+    <telephone>0389-2370422</telephone>
+  </office>
+  <office>
+    <name>Thingthelh</name>
+    <pinCode>796007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chandmary</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Chandmary Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tlangnuam</name>
+    <pinCode>796015</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone>0389-2310904</telephone>
+  </office>
+  <office>
+    <name>Tlungvel</name>
+    <pinCode>796161</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thingsulthliah</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Thingsulthliah Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tualbung</name>
+    <pinCode>796261</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saitual</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saitual Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tuirial H.E.P</name>
+    <pinCode>796101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vairengte</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tuithiang</name>
+    <pinCode>796007</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chandmary</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vaitin</name>
+    <pinCode>796111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Darlawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Darlawn Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vaivakawn</name>
+    <pinCode>796009</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone>0389-2340050</telephone>
+  </office>
+  <office>
+    <name>Vanbawng</name>
+    <pinCode>796261</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saitual</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saitual Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vervek</name>
+    <pinCode>796111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Darlawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Darlawn Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zamuang</name>
+    <pinCode>796471</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zawlnuam</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Zawlnuam Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zanlawn</name>
+    <pinCode>796014</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bawngkawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Bawngkawn Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zawlnuam</name>
+    <pinCode>796471</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Zawlnuam Taluk of Aizawl District</location>
+    <telephone>0389-269291</telephone>
+  </office>
+  <office>
+    <name>Zawngin</name>
+    <pinCode>796261</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saitual</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saitual Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zemabawk</name>
+    <pinCode>796017</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone>0389-2350930</telephone>
+  </office>
+  <office>
+    <name>Zohmun</name>
+    <pinCode>796111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Darlawn</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Darlawn Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zuangtui</name>
+    <pinCode>796017</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zemabawk</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tlangnuam (Part) Taluk of Aizawl District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bethel</name>
+    <pinCode>796321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champhai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Khawbung Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Biate</name>
+    <pinCode>796370</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lungdar</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>East Lungdar (Part) Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bungzung</name>
+    <pinCode>796320</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>S.Khawbung</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>S.khawbung Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chalrang</name>
+    <pinCode>796310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khawzawl</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Khawzawl Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Champhai</name>
+    <pinCode>796321</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Khawbung Taluk of Champhai District</location>
+    <telephone>03831-234323</telephone>
+  </office>
+  <office>
+    <name>Chawngtlai</name>
+    <pinCode>796310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khawzawl</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Khawzawl Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chhawkhlei</name>
+    <pinCode>796321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champhai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Khawbung Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chhawrtui</name>
+    <pinCode>796310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khawzawl</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Khawzawl Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dulte</name>
+    <pinCode>796310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khawzawl</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Khawzawl Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dungtlang</name>
+    <pinCode>796320</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>S.Khawbung</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>S.khawbung Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Farkawn</name>
+    <pinCode>796320</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>S.Khawbung</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>S.khawbung Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hmunhmeltha</name>
+    <pinCode>796321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champhai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Khawbung Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hnahlan</name>
+    <pinCode>796321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champhai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Champhai Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hrianghmun</name>
+    <pinCode>796290</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ngopa</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Ngopa Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hruaikawn</name>
+    <pinCode>796321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champhai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Champhai Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kawlbem</name>
+    <pinCode>796290</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ngopa</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Ngopa Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kawlkulh</name>
+    <pinCode>796310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khawzawl</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Khawzawl Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kelkang</name>
+    <pinCode>796321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champhai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Champhai Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khawhai</name>
+    <pinCode>796310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khawzawl</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Khawzawl Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khawkawn</name>
+    <pinCode>796290</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ngopa</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Ngopa Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khawnuam</name>
+    <pinCode>796321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champhai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Khawbung Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khawzawl</name>
+    <pinCode>796310</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Khawzawl Taluk of Champhai District</location>
+    <telephone>03831-261006</telephone>
+  </office>
+  <office>
+    <name>Khuangleng</name>
+    <pinCode>796321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champhai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Champhai Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khuangphah</name>
+    <pinCode>796321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champhai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Champhai Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khuangthing</name>
+    <pinCode>796320</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>S.Khawbung</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>S.khawbung Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lamzawl</name>
+    <pinCode>796290</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ngopa</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Ngopa Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Leisenzo</name>
+    <pinCode>796321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champhai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Champhai Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Leithum</name>
+    <pinCode>796320</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>S.Khawbung</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>S.khawbung Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lungphunlian</name>
+    <pinCode>796321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champhai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Champhai Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lungtan</name>
+    <pinCode>796310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khawzawl</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Khawzawl Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maulkawi</name>
+    <pinCode>796321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champhai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Champhai Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mimbung</name>
+    <pinCode>796290</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ngopa</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Ngopa Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mualcheng</name>
+    <pinCode>796370</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lungdar</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>East Lungdar (Part) Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Muallung</name>
+    <pinCode>796320</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>S.Khawbung</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>S.khawbung Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Murlen</name>
+    <pinCode>796321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champhai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Champhai Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>N.Chalrang</name>
+    <pinCode>796310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khawzawl</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Khawzawl Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>N.Khawbung</name>
+    <pinCode>796321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champhai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Champhai Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ne Khawdungsei</name>
+    <pinCode>796290</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ngopa</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Ngopa Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Neihdawn</name>
+    <pinCode>796310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khawzawl</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Khawzawl Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ngopa</name>
+    <pinCode>796290</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Ngopa Taluk of Champhai District</location>
+    <telephone>03830-261491</telephone>
+  </office>
+  <office>
+    <name>Ngur</name>
+    <pinCode>796321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champhai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Champhai Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puilo</name>
+    <pinCode>796310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khawzawl</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Khawzawl Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Riangtlei</name>
+    <pinCode>796310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khawzawl</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Khawzawl Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ruantlang</name>
+    <pinCode>796321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champhai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Khawbung Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rullam</name>
+    <pinCode>796310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khawzawl</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Khawzawl Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>S.Khawbung</name>
+    <pinCode>796320</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>S.khawbung Taluk of Champhai District</location>
+    <telephone>03831-265282</telephone>
+  </office>
+  <office>
+    <name>Samthang</name>
+    <pinCode>796320</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>S.Khawbung</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>S.khawbung Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sazep</name>
+    <pinCode>796320</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>S.Khawbung</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>S.khawbung Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Selam</name>
+    <pinCode>796290</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ngopa</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Ngopa Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sesih</name>
+    <pinCode>796321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champhai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Champhai Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Teikhang</name>
+    <pinCode>796290</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ngopa</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Ngopa Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tlangsam</name>
+    <pinCode>796321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champhai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Khawbung Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tualcheng</name>
+    <pinCode>796321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champhai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Champhai Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tualpui</name>
+    <pinCode>796310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khawzawl</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Khawzawl Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tualte</name>
+    <pinCode>796310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khawzawl</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Khawzawl Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vaikhawtlang</name>
+    <pinCode>796290</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ngopa</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Ngopa Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vanchengpui</name>
+    <pinCode>796310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khawzawl</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Khawzawl Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vangchhia</name>
+    <pinCode>796320</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>S.Khawbung</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>S.khawbung Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vangtlang</name>
+    <pinCode>796310</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Khawzawl</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Khawzawl Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vanzau</name>
+    <pinCode>796320</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>S.Khawbung</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>S.khawbung Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vapar</name>
+    <pinCode>796321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champhai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Champhai Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vaphai</name>
+    <pinCode>796320</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>S.Khawbung</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>S.khawbung Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vengthlang</name>
+    <pinCode>796321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champhai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Khawbung Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zote &apos;e&apos;</name>
+    <pinCode>796321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champhai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Khawbung Taluk of Champhai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bairabi</name>
+    <pinCode>796081</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kolasib</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>North Thingdawl Taluk of Kolasib District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bilkhawthlir</name>
+    <pinCode>796091</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Bilkhawthlir Taluk of Kolasib District</location>
+    <telephone>03837-265187</telephone>
+  </office>
+  <office>
+    <name>Bualpui</name>
+    <pinCode>796070</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kawnpui</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>North Thingdawl Taluk of Kolasib District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Buhchang</name>
+    <pinCode>796091</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bilkhawthlir</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Bilkhawthlir Taluk of Kolasib District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Builum</name>
+    <pinCode>796081</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kolasib</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Kolasib Taluk of Kolasib District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chuhvel</name>
+    <pinCode>796081</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kolasib</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Kolasib Taluk of Kolasib District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Diakkawn</name>
+    <pinCode>796081</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kolasib</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>North Thingdawl Taluk of Kolasib District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Diakkawn</name>
+    <pinCode>796081</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Kolasib</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>North Thingdawl Taluk of Kolasib District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Diakkawn</name>
+    <pinCode>796082</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Kolasib Taluk of Kolasib District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Hortoki</name>
+    <pinCode>796070</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kawnpui</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Kawnpui Taluk of Kolasib District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kawnpui</name>
+    <pinCode>796070</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>North Thingdawl Taluk of Kolasib District</location>
+    <telephone>03837-266647</telephone>
+  </office>
+  <office>
+    <name>Kolasib</name>
+    <pinCode>796081</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>North Thingdawl Taluk of Kolasib District</location>
+    <telephone>03837-220030</telephone>
+  </office>
+  <office>
+    <name>Mualvum</name>
+    <pinCode>796070</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kawnpui</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Kawnpui Taluk of Kolasib District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>N.Chawnpui</name>
+    <pinCode>796101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vairengte</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Vairengte Taluk of Kolasib District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phainuam</name>
+    <pinCode>796101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vairengte</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Vairengte Taluk of Kolasib District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phaisen</name>
+    <pinCode>796091</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bilkhawthlir</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Bilkhawthlir Taluk of Kolasib District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Saihapui &apos;K&apos;</name>
+    <pinCode>796081</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kolasib</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Kolasib Taluk of Kolasib District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Saikhawthlir</name>
+    <pinCode>796081</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kolasib</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Kolasib Taluk of Kolasib District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Saiphai</name>
+    <pinCode>796101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vairengte</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Vairengte Taluk of Kolasib District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Saipum</name>
+    <pinCode>796101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vairengte</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Vairengte Taluk of Kolasib District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Suarhliap</name>
+    <pinCode>796081</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kolasib</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Kolasib Taluk of Kolasib District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thingdawl</name>
+    <pinCode>796075</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>North Thingdawl Taluk of Kolasib District</location>
+    <telephone>03837-268525</telephone>
+  </office>
+  <office>
+    <name>Vairengte</name>
+    <pinCode>796101</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>North Thingdawl Taluk of Kolasib District</location>
+    <telephone>03837-261079</telephone>
+  </office>
+  <office>
+    <name>Vengthar</name>
+    <pinCode>796081</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kolasib</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>North Thingdawl Taluk of Kolasib District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Balhlakawn</name>
+    <pinCode>796891</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lawngtlai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lawngtlai Taluk of Lawngtlai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bungtlang &apos;S&apos;</name>
+    <pinCode>796891</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lawngtlai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lawngtlai Taluk of Lawngtlai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chamdur</name>
+    <pinCode>796891</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lawngtlai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lawngtlai Taluk of Lawngtlai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cheural</name>
+    <pinCode>796810</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sangau</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Sangau Taluk of Lawngtlai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Diltlang</name>
+    <pinCode>796891</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lawngtlai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lawngtlai Taluk of Lawngtlai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kamalanagar (Lawngtlai)</name>
+    <pinCode>796772</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Chawngte Taluk of Lawngtlai District</location>
+    <telephone>0372-2563800</telephone>
+  </office>
+  <office>
+    <name>Karlui</name>
+    <pinCode>796891</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lawngtlai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lawngtlai Taluk of Lawngtlai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kawlchaw &apos;W&apos;</name>
+    <pinCode>796891</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lawngtlai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lawngtlai Taluk of Lawngtlai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lawngtlai</name>
+    <pinCode>796891</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Lawngtlai Taluk of Lawngtlai District</location>
+    <telephone>03835-232244</telephone>
+  </office>
+  <office>
+    <name>Lungtian</name>
+    <pinCode>796810</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sangau</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Sangau Taluk of Lawngtlai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mampui</name>
+    <pinCode>796891</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lawngtlai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lawngtlai Taluk of Lawngtlai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mualbukawn</name>
+    <pinCode>796891</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lawngtlai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lawngtlai Taluk of Lawngtlai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>New Jagnasury</name>
+    <pinCode>796891</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lawngtlai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lawngtlai Taluk of Lawngtlai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ngengpuikai</name>
+    <pinCode>796891</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lawngtlai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lawngtlai Taluk of Lawngtlai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Paithar</name>
+    <pinCode>796891</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lawngtlai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lawngtlai Taluk of Lawngtlai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pangkhua</name>
+    <pinCode>796810</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sangau</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Sangau Taluk of Lawngtlai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Parva</name>
+    <pinCode>796891</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lawngtlai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lawngtlai Taluk of Lawngtlai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rulkual</name>
+    <pinCode>796891</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lawngtlai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lawngtlai Taluk of Lawngtlai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sabualtlang</name>
+    <pinCode>796891</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lawngtlai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lawngtlai Taluk of Lawngtlai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Saizawh</name>
+    <pinCode>796770</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chawngte</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lawngtlai Taluk of Lawngtlai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sangau</name>
+    <pinCode>796810</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Sangau Taluk of Lawngtlai District</location>
+    <telephone>0372-2553184</telephone>
+  </office>
+  <office>
+    <name>Tuisentlang</name>
+    <pinCode>796891</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lawngtlai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lawngtlai Taluk of Lawngtlai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tuithumhnar</name>
+    <pinCode>796891</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lawngtlai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lawngtlai Taluk of Lawngtlai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Udaisury</name>
+    <pinCode>796770</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chawngte</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Chawngte Taluk of Lawngtlai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Udalthana</name>
+    <pinCode>796770</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chawngte</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Chawngte Taluk of Lawngtlai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vaseitlang</name>
+    <pinCode>796891</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lawngtlai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lawngtlai Taluk of Lawngtlai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vathuampui</name>
+    <pinCode>796891</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lawngtlai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lawngtlai Taluk of Lawngtlai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Aithur</name>
+    <pinCode>796571</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Hnahthial</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Hnahthial Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ajasora</name>
+    <pinCode>796770</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chawngte</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Chawngte Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Belthei</name>
+    <pinCode>796730</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lungsen</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lungsen Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Borapansury</name>
+    <pinCode>796770</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chawngte</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Chawngte Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bualpui H</name>
+    <pinCode>796581</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thingsai</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Hnahthial Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bualte</name>
+    <pinCode>796701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lunglei</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Buarpui</name>
+    <pinCode>796701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lunglei</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bunghmun</name>
+    <pinCode>796710</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>West Bunghmun Taluk of Lunglei District</location>
+    <telephone>0372-2565092</telephone>
+  </office>
+  <office>
+    <name>Chandmary</name>
+    <pinCode>796701</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Lunglei</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Changpui</name>
+    <pinCode>796701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lunglei</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chawngte</name>
+    <pinCode>796770</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Chawngte Taluk of Lunglei District</location>
+    <telephone>0372-2563251</telephone>
+  </office>
+  <office>
+    <name>Chawngtui</name>
+    <pinCode>796571</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Hnahthial</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Hnahthial Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cherhlun</name>
+    <pinCode>796571</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Hnahthial</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Hanhthial Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Darngawn &apos;W&apos;</name>
+    <pinCode>796710</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bunghmun</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>West Bunghmun Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Darzo</name>
+    <pinCode>796571</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Hnahthial</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Hnahthial Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Demagiri</name>
+    <pinCode>796751</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone>03834-222031</telephone>
+  </office>
+  <office>
+    <name>Diblibagh</name>
+    <pinCode>796751</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Demagiri</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Demagiri Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Haulawng</name>
+    <pinCode>796691</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zotlang</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Zotlang Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hauruang</name>
+    <pinCode>796701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lunglei</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hnahchang</name>
+    <pinCode>796691</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zotlang</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hnahthial</name>
+    <pinCode>796571</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Hnahthial Taluk of Lunglei District</location>
+    <telephone>0372-2332101</telephone>
+  </office>
+  <office>
+    <name>Hrangchalkawn</name>
+    <pinCode>796701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lunglei</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jarulsury</name>
+    <pinCode>796770</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chawngte</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Chawngte Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kajoisury</name>
+    <pinCode>796751</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Demagiri</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Demagiri Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kawnpui &apos;W&apos;</name>
+    <pinCode>796710</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bunghmun</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Bunghmun Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kikawn</name>
+    <pinCode>796701</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Lunglei</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Laisawral</name>
+    <pinCode>796710</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bunghmun</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Bunghmun Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Leite</name>
+    <pinCode>796571</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Hnahthial</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Hnahthial Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lungchem</name>
+    <pinCode>796701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lunglei</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lunglawn</name>
+    <pinCode>796701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lunglei</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lunglei</name>
+    <pinCode>796701</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone>0372-2324035</telephone>
+  </office>
+  <office>
+    <name>Lungleng &apos;s&apos;</name>
+    <pinCode>796571</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Hnahthial</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Hnahthial Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lungrang &apos;S&apos;</name>
+    <pinCode>796730</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lungsen</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lungsen Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lungsen</name>
+    <pinCode>796730</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Lungsen Taluk of Lunglei District</location>
+    <telephone>03834-261016</telephone>
+  </office>
+  <office>
+    <name>Mualcheng &apos;S&apos;</name>
+    <pinCode>796701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lunglei</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Muallianpui</name>
+    <pinCode>796571</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Hnahthial</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Hnahthial Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mualthuam &apos;N&apos;</name>
+    <pinCode>796691</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zotlang</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Zotlang Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nunsury</name>
+    <pinCode>796751</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Demagiri</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Demagiri Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pangzawl</name>
+    <pinCode>796571</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Hnahthial</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Hnahthial Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phairuangkai</name>
+    <pinCode>796730</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lungsen</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lungsen Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puankhai</name>
+    <pinCode>796751</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Demagiri</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Demagiri Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pukpui</name>
+    <pinCode>796691</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zotlang</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Putlungasih</name>
+    <pinCode>796730</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lungsen</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lungsen Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ralvawng</name>
+    <pinCode>796701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lunglei</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ramlaitui</name>
+    <pinCode>796691</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zotlang</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rangte</name>
+    <pinCode>796730</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lungsen</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lungsen Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rawpui</name>
+    <pinCode>796571</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Hnahthial</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Hnahthial Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rualalung</name>
+    <pinCode>796730</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lungsen</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lungsen Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>S.Chawilung</name>
+    <pinCode>796751</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Demagiri</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Demagiri Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>S.Vanlaiphai</name>
+    <pinCode>796571</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Hnahthial</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Hnahthial Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sachan</name>
+    <pinCode>796710</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bunghmun</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Bunghmun Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sazaikawn</name>
+    <pinCode>796701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lunglei</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Serkawn</name>
+    <pinCode>796691</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zotlang</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sertlangpui</name>
+    <pinCode>796701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lunglei</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sesawm</name>
+    <pinCode>796710</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bunghmun</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Bunghmun Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sumsilui</name>
+    <pinCode>796770</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chawngte</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Chawngte Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tarpho</name>
+    <pinCode>796571</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Hnahthial</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Hnahthial Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tawipui &apos;N&apos;</name>
+    <pinCode>796701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lunglei</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tawipui &apos;S&apos;</name>
+    <pinCode>796701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lunglei</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Theiriat</name>
+    <pinCode>796701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lunglei</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thenhlum</name>
+    <pinCode>796701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lunglei</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thiltlang</name>
+    <pinCode>796571</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Hnahthial</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Hnahthial Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thingfal</name>
+    <pinCode>796701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lunglei</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thingsai</name>
+    <pinCode>796581</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Thingsai Taluk of Lunglei District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Thualthu</name>
+    <pinCode>796701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lunglei</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thuampui</name>
+    <pinCode>796701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lunglei</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tiperaghat</name>
+    <pinCode>796751</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Demagiri</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Demagiri Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tuichawng</name>
+    <pinCode>796730</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lungsen</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lungsen Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tuikawi</name>
+    <pinCode>796751</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Demagiri</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tuipui &apos;D&apos;</name>
+    <pinCode>796571</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Hnahthial</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Hnahthial Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vaisam</name>
+    <pinCode>796701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lunglei</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vanhne</name>
+    <pinCode>796701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lunglei</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zawlpui</name>
+    <pinCode>796730</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lungsen</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lungsen Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zobawk</name>
+    <pinCode>796701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lunglei</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zodin</name>
+    <pinCode>796751</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Demagiri</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zohnuai</name>
+    <pinCode>796701</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lunglei</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Lunglei Taluk of Lunglei District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zotlang</name>
+    <pinCode>796691</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Zotlang Taluk of Lunglei District</location>
+    <telephone>0372-2342280</telephone>
+  </office>
+  <office>
+    <name>Ailawng</name>
+    <pinCode>796501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Reiek</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Reiek Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Boraibazar</name>
+    <pinCode>796471</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zawlnuam</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Zawlnuam Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Damparengpui</name>
+    <pinCode>796431</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Phaileng</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Phaileng Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dampui</name>
+    <pinCode>796441</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mamit</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Mamit Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dapchhuah</name>
+    <pinCode>796410</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sairang</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Sairang Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Darlak</name>
+    <pinCode>796441</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mamit</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Mamit Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Darlung</name>
+    <pinCode>796501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Reiek</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Reiek Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hmunpui</name>
+    <pinCode>796410</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sairang</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Sairang Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hnahva</name>
+    <pinCode>796431</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Phaileng</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Phaileng Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kanghmun</name>
+    <pinCode>796501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Reiek</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Reiek Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kanhmunbazar</name>
+    <pinCode>796471</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zawlnuam</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Zawlnuam Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kawrtethawveng</name>
+    <pinCode>796441</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mamit</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Mamit Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kawrthah</name>
+    <pinCode>796441</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mamit</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Mamit Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khawhnai</name>
+    <pinCode>796431</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Phaileng</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Phaileng Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khawrihnim</name>
+    <pinCode>796501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Reiek</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Reiek Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lallen</name>
+    <pinCode>796431</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Phaileng</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Phaileng Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lungdar &apos;W&apos;</name>
+    <pinCode>796501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Reiek</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Reiek Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mamit</name>
+    <pinCode>796441</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>West Phaileng Taluk of Mammit District</location>
+    <telephone>0372-2563251</telephone>
+  </office>
+  <office>
+    <name>Marpara</name>
+    <pinCode>796431</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Phaileng</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>West Phaileng Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Momcherra</name>
+    <pinCode>796471</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zawlnuam</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Zawlnuam Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mualkhang</name>
+    <pinCode>796410</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sairang</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Sairang Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>N.Chhippui</name>
+    <pinCode>796431</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Phaileng</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Phaileng Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>N.Sabual</name>
+    <pinCode>796441</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mamit</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Mamit Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Parvatui</name>
+    <pinCode>796431</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Phaileng</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Phaileng Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phaileng</name>
+    <pinCode>796431</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Phaileng Taluk of Mammit District</location>
+    <telephone>0389-2566400</telephone>
+  </office>
+  <office>
+    <name>Phuldungsei</name>
+    <pinCode>796431</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Phaileng</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Phaileng Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pukzing</name>
+    <pinCode>796431</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Phaileng</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Phaileng Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rawpuichhip</name>
+    <pinCode>796410</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sairang</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Sairang Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Reiek</name>
+    <pinCode>796501</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Reiek Taluk of Mammit District</location>
+    <telephone>0389-2567335</telephone>
+  </office>
+  <office>
+    <name>Rengdil</name>
+    <pinCode>796441</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mamit</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Mamit Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rulpuihlim</name>
+    <pinCode>796501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Reiek</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Reiek Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>S.Sabual</name>
+    <pinCode>796501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Reiek</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Reiek Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sairang</name>
+    <pinCode>796410</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Sairang Taluk of Mammit District</location>
+    <telephone>0389-2568215</telephone>
+  </office>
+  <office>
+    <name>Saithah</name>
+    <pinCode>796431</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Phaileng</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Phaileng Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Serhmun</name>
+    <pinCode>796441</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mamit</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>West Phaileng Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Silsury</name>
+    <pinCode>796431</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Phaileng</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Phaileng Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tlangkhang</name>
+    <pinCode>796441</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mamit</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>West Phaileng Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tuidam</name>
+    <pinCode>796441</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mamit</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Mamit Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tuipuibari</name>
+    <pinCode>796431</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Phaileng</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Phaileng Taluk of Mammit District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bualpui &apos;ng&apos;</name>
+    <pinCode>796901</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saiha</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tuipang Taluk of Saiha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chakhang</name>
+    <pinCode>796901</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saiha</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saiha Taluk of Saiha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chapui</name>
+    <pinCode>796901</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saiha</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saiha Taluk of Saiha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chhuarlung</name>
+    <pinCode>796901</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saiha</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saiha Taluk of Saiha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Fungkah</name>
+    <pinCode>796901</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saiha</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saiha Taluk of Saiha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khopai</name>
+    <pinCode>796911</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuipang</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tuipang Taluk of Saiha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Laki</name>
+    <pinCode>796911</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuipang</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tuipang Taluk of Saiha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Latawh</name>
+    <pinCode>796911</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuipang</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tuipang Taluk of Saiha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lawngban</name>
+    <pinCode>796911</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuipang</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tuipang Taluk of Saiha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lungbun</name>
+    <pinCode>796901</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saiha</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saiha Taluk of Saiha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lungpher &apos;S&apos;</name>
+    <pinCode>796901</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saiha</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saiha Taluk of Saiha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>New Maubawk</name>
+    <pinCode>796901</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saiha</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tuipang Taluk of Saiha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Niawhtlang</name>
+    <pinCode>796901</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saiha</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Siaha Taluk of Saiha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phura</name>
+    <pinCode>796911</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuipang</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tuipang Taluk of Saiha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rawmibawk</name>
+    <pinCode>796901</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saiha</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saiha Taluk of Saiha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Saiha</name>
+    <pinCode>796901</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Tuipang Taluk of Saiha District</location>
+    <telephone>03835-226200</telephone>
+  </office>
+  <office>
+    <name>Serkawr</name>
+    <pinCode>796911</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuipang</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tuipang Taluk of Saiha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Siata</name>
+    <pinCode>796901</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saiha</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Siaha Taluk of Saiha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Theiva</name>
+    <pinCode>796901</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saiha</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tuipang Taluk of Saiha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tongkolong</name>
+    <pinCode>796911</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuipang</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tuipang Taluk of Saiha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tuipang</name>
+    <pinCode>796911</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Tuipang Taluk of Saiha District</location>
+    <telephone>03835-280023</telephone>
+  </office>
+  <office>
+    <name>Tuipuiferry</name>
+    <pinCode>796901</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saiha</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saiha Taluk of Saiha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tuisih</name>
+    <pinCode>796911</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuipang</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tuipang Taluk of Saiha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vahai</name>
+    <pinCode>796911</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuipang</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tuipang Taluk of Saiha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vawmbuk</name>
+    <pinCode>796901</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saiha</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Saiha Taluk of Saiha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zawngling</name>
+    <pinCode>796911</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuipang</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Tuipang Taluk of Saiha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bungtlang &apos;N&apos;</name>
+    <pinCode>796181</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Serchhip</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Serchhip Taluk of Serchhip District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chekawn</name>
+    <pinCode>796181</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Serchhip</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Serchhip Taluk of Serchhip District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chhiahtlang</name>
+    <pinCode>796181</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Serchhip</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Serchhip Taluk of Serchhip District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chhipphir</name>
+    <pinCode>796181</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Serchhip</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Serchhip Taluk of Serchhip District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kanghmun &apos;S&apos;</name>
+    <pinCode>796181</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Serchhip</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Serchhip Taluk of Serchhip District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Keitum</name>
+    <pinCode>796181</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Serchhip</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Serchhip Taluk of Serchhip District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khawlailung</name>
+    <pinCode>796181</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Serchhip</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Serchhip Taluk of Serchhip District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Leng</name>
+    <pinCode>796370</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lungdar</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Serchhip Taluk of Serchhip District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lungchhuan</name>
+    <pinCode>796181</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Serchhip</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Serchhip Taluk of Serchhip District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lungdar</name>
+    <pinCode>796370</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Lungdar Taluk of Serchhip District</location>
+    <telephone>03831-262432</telephone>
+  </office>
+  <office>
+    <name>Lungkawlh</name>
+    <pinCode>796181</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Serchhip</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Serchhip Taluk of Serchhip District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lungpho</name>
+    <pinCode>796181</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Serchhip</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Serchhip Taluk of Serchhip District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>N.Vanlaiphai</name>
+    <pinCode>796181</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Serchhip</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Serchhip Taluk of Serchhip District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>New Serchhip</name>
+    <pinCode>796181</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Serchhip</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Serchhip Taluk of Serchhip District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sailulak</name>
+    <pinCode>796370</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lungdar</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Serchhip Taluk of Serchhip District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Serchhip</name>
+    <pinCode>796181</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Serchhip Taluk of Serchhip District</location>
+    <telephone>03838-222019</telephone>
+  </office>
+  <office>
+    <name>Sialhau</name>
+    <pinCode>796181</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Serchhip</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Serchhip Taluk of Serchhip District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sialhawk</name>
+    <pinCode>796370</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lungdar</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Serchhip Taluk of Serchhip District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sialsir</name>
+    <pinCode>796181</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Serchhip</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Serchhip Taluk of Serchhip District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thenzawl</name>
+    <pinCode>796186</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Aizawl</headoffice>
+    <location>Serchhip Taluk of Serchhip District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Thinglian</name>
+    <pinCode>796181</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Serchhip</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Serchhip Taluk of Serchhip District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tlangpui</name>
+    <pinCode>796370</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Lungdar</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Serchhip Taluk of Serchhip District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zote &apos;S&apos;</name>
+    <pinCode>796181</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Serchhip</suboffice>
+    <headoffice>Aizawl</headoffice>
+    <location>Serchhip Taluk of Serchhip District</location>
+    <telephone />
+  </office>
+</offices>

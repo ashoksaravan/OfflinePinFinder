@@ -1,0 +1,2954 @@
+<offices>
+  <office>
+    <name>Agri College</name>
+    <pinCode>797106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Medziphema</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Medziphema Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Aoyimti</name>
+    <pinCode>797115</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Artc</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Artc Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Artc</name>
+    <pinCode>797115</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Taluk of Dimapur District</location>
+    <telephone>03862-243389</telephone>
+  </office>
+  <office>
+    <name>Chumukedima</name>
+    <pinCode>797103</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Taluk of Dimapur District</location>
+    <telephone>03862-240450</telephone>
+  </office>
+  <office>
+    <name>Circular Road</name>
+    <pinCode>797117</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Sadar Taluk of Dimapur District</location>
+    <telephone>03862-230919</telephone>
+  </office>
+  <office>
+    <name>Daroga Pathar</name>
+    <pinCode>797115</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Artc</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Artc Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dimapur Bazar</name>
+    <pinCode>797116</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Chumukedima Taluk of Dimapur District</location>
+    <telephone>03862-230413</telephone>
+  </office>
+  <office>
+    <name>Dimapur</name>
+    <pinCode>797112</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Taluk of Dimapur District</location>
+    <telephone>03862-229193</telephone>
+  </office>
+  <office>
+    <name>Diphupar</name>
+    <pinCode>797115</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Artc</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Artc Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Doyapur</name>
+    <pinCode>797112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dimapur</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Mdg Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Duncan Basti</name>
+    <pinCode>797113</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>New Nepaligaon</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Sadar Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Eralibill</name>
+    <pinCode>797115</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Artc</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Artc Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hening Kunglwa</name>
+    <pinCode>797112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dimapur</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Mdg Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Industrial Estate</name>
+    <pinCode>797113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>New Nepaligaon</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>New Nepaligaon Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jalukiekam</name>
+    <pinCode>797112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dimapur</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Mdg Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jharnapani</name>
+    <pinCode>797106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Medziphema</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Medziphema Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khaibung</name>
+    <pinCode>797106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Medziphema</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Medziphema Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khehekhu</name>
+    <pinCode>797116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dimapur Bazar</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Bazar Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khermahal</name>
+    <pinCode>797112</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Dimapur</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Sadar Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khopoanaula</name>
+    <pinCode>797103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chumukedima</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chumukedima Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuda</name>
+    <pinCode>797112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dimapur</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Mdg Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuhuboto</name>
+    <pinCode>797116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dimapur Bazar</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Bazar Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kushiabill</name>
+    <pinCode>797116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dimapur Bazar</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Bazar Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lengrijan</name>
+    <pinCode>797113</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>New Nepaligaon</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Sadar Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maova</name>
+    <pinCode>797106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Medziphema</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Medziphema Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Medziphema</name>
+    <pinCode>797106</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Taluk of Dimapur District</location>
+    <telephone>03862-247262</telephone>
+  </office>
+  <office>
+    <name>Moaikam</name>
+    <pinCode>797103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chumukedima</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chumukedima Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Molvom</name>
+    <pinCode>797106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Medziphema</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Medziphema Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>New Nepaligaon</name>
+    <pinCode>797113</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Sadar Taluk of Dimapur District</location>
+    <telephone>03862-234807</telephone>
+  </office>
+  <office>
+    <name>Nihekhu</name>
+    <pinCode>797103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chumukedima</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chumukedima Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nst Colony</name>
+    <pinCode>797113</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>New Nepaligaon</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Sadar Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nuiland</name>
+    <pinCode>797112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dimapur</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Mdg Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>P C College</name>
+    <pinCode>797103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chumukedima</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chumukedima Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Padampukhuri</name>
+    <pinCode>797116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dimapur Bazar</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Bazar Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phaipijan</name>
+    <pinCode>797112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dimapur</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Mdg Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pherima</name>
+    <pinCode>797106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Medziphema</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Medziphema Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pimla</name>
+    <pinCode>797103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chumukedima</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chumukedima Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Piphima</name>
+    <pinCode>797106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Medziphema</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Medziphema Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Punglwa</name>
+    <pinCode>797106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Medziphema</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Medziphema Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pwd Colony</name>
+    <pinCode>797117</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Circular Road</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Sadar Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ralan</name>
+    <pinCode>797112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dimapur</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Mdg Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rangapahar</name>
+    <pinCode>797117</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Circular Road</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Mdg Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Razaphima</name>
+    <pinCode>797112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dimapur</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Mdg Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Showba Old</name>
+    <pinCode>797115</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Artc</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Artc Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Singal Village</name>
+    <pinCode>797117</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Circular Road</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Mdg Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Singrijan</name>
+    <pinCode>797112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dimapur</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Mdg Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sirhima</name>
+    <pinCode>797106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Medziphema</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Medziphema Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Suger Mill</name>
+    <pinCode>797115</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Artc</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Artc Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sukhovi</name>
+    <pinCode>797115</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Artc</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Artc Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tenyiphe</name>
+    <pinCode>797103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chumukedima</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chumukedima Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thahekhu</name>
+    <pinCode>797117</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Circular Road</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Mdg Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vihokhu</name>
+    <pinCode>797116</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dimapur Bazar</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Bazar Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yampha</name>
+    <pinCode>797112</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dimapur</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Mdg Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zeliangrong</name>
+    <pinCode>797117</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Circular Road</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Dimapur Sadar Taluk of Dimapur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Amahatore</name>
+    <pinCode>798611</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kiphire</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kiphire Taluk of Kiphire District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Anatongere</name>
+    <pinCode>798611</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kiphire</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kiphire Taluk of Kiphire District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kiphire</name>
+    <pinCode>798611</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Kiphire Taluk of Kiphire District</location>
+    <telephone>03863-225554</telephone>
+  </office>
+  <office>
+    <name>Kisethong</name>
+    <pinCode>798611</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kiphire</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kiphire Taluk of Kiphire District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Longmatra</name>
+    <pinCode>798611</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kiphire</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kiphire Taluk of Kiphire District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Moya</name>
+    <pinCode>798611</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kiphire</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kiphire Taluk of Kiphire District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phalonger</name>
+    <pinCode>798611</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kiphire</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kiphire Taluk of Kiphire District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pokhpur</name>
+    <pinCode>798611</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kiphire</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kiphire Taluk of Kiphire District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pungro</name>
+    <pinCode>798611</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kiphire</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kiphire Taluk of Kiphire District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Seyochang</name>
+    <pinCode>798611</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kiphire</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kiphire Taluk of Kiphire District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sikur</name>
+    <pinCode>798611</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kiphire</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kiphire Taluk of Kiphire District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Singrup</name>
+    <pinCode>798611</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kiphire</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kiphire Taluk of Kiphire District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sitimi</name>
+    <pinCode>798611</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kiphire</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kiphire Taluk of Kiphire District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Asukika</name>
+    <pinCode>797109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tseminyu</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tseminyu Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Botsa</name>
+    <pinCode>797105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chiechama</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chiechama Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chakhabama</name>
+    <pinCode>797003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kohima Village</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Village Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chatashi</name>
+    <pinCode>797109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tseminyu</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tseminyu Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chedema</name>
+    <pinCode>797003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kohima Village</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Village Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chiechama</name>
+    <pinCode>797105</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Taluk of Kohima District</location>
+    <telephone>0370-2800671</telephone>
+  </office>
+  <office>
+    <name>Chiephobozou</name>
+    <pinCode>797105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chiechama</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chiechama Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ciesema</name>
+    <pinCode>797003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kohima Village</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Village Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dihoma</name>
+    <pinCode>797003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kohima Village</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Village Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>High School Junction</name>
+    <pinCode>797121</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Sadar Taluk of Kohima District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Jakhama</name>
+    <pinCode>797005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kohima PWD</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jotsoma</name>
+    <pinCode>797002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kohima Science College</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Science College Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kedima</name>
+    <pinCode>797003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kohima Village</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Village Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khonoma</name>
+    <pinCode>797002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kohima Science College</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Science College Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khuzama</name>
+    <pinCode>797005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kohima PWD</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kigwema</name>
+    <pinCode>797005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kohima PWD</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kizocha</name>
+    <pinCode>797003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kohima Village</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Village Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kohima</name>
+    <pinCode>797001</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Kohima Taluk of Kohima District</location>
+    <telephone>0370-2290929</telephone>
+  </office>
+  <office>
+    <name>Kohima PWD</name>
+    <pinCode>797005</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Sadar Taluk of Kohima District</location>
+    <telephone>0370-2242404</telephone>
+  </office>
+  <office>
+    <name>Kohima Science College</name>
+    <pinCode>797002</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Taluk of Kohima District</location>
+    <telephone>0370-2245807</telephone>
+  </office>
+  <office>
+    <name>Kohima Village</name>
+    <pinCode>797003</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Taluk of Kohima District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Kontsunyu</name>
+    <pinCode>797109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tseminyu</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tseminyu Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lalmati</name>
+    <pinCode>797005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kohima PWD</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lazami</name>
+    <pinCode>797109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tseminyu</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tseminyu Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mezoma</name>
+    <pinCode>797002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kohima Science College</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Science College Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mima</name>
+    <pinCode>797005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kohima PWD</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mishilimi</name>
+    <pinCode>797105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chiechama</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chiechama Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>N.E.H.U.</name>
+    <pinCode>797004</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>New Sectt Complex</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>New Sectt Complex Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>New Sectt Complex</name>
+    <pinCode>797004</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Sadar Taluk of Kohima District</location>
+    <telephone>0370-2270949</telephone>
+  </office>
+  <office>
+    <name>Nisenyu</name>
+    <pinCode>797109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tseminyu</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tseminyu Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nyishunyu</name>
+    <pinCode>797109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tseminyu</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tseminyu Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Peren</name>
+    <pinCode>797101</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Peren Taluk of Kohima District</location>
+    <telephone>03862-223056</telephone>
+  </office>
+  <office>
+    <name>Phenshunyu</name>
+    <pinCode>797109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tseminyu</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tseminyu Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phenwhenyu</name>
+    <pinCode>797109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tseminyu</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tseminyu Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phesama</name>
+    <pinCode>797005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kohima PWD</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Poilwa</name>
+    <pinCode>797002</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kohima Science College</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Science College Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pughoboto</name>
+    <pinCode>797109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tseminyu</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rusoma</name>
+    <pinCode>797003</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kohima Village</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Village Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sendenyu</name>
+    <pinCode>797109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tseminyu</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tseminyu Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tesophenyu</name>
+    <pinCode>797109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tseminyu</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tseminyu Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thizama</name>
+    <pinCode>797004</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>New Sectt Complex</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>New Sectt. Complex Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tseminyu Old Town</name>
+    <pinCode>797109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tseminyu</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tseminyu Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tseminyu</name>
+    <pinCode>797109</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Taluk of Kohima District</location>
+    <telephone>0370-2235422</telephone>
+  </office>
+  <office>
+    <name>Tsosesunyu</name>
+    <pinCode>797109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tseminyu</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tseminyu Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tuophema</name>
+    <pinCode>797105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chiechama</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chiechama Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Viswema</name>
+    <pinCode>797005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kohima PWD</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zephenyu</name>
+    <pinCode>797109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tseminyu</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tseminyu Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zhadima</name>
+    <pinCode>797105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chiechama</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chiechama Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zubza</name>
+    <pinCode>797005</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kohima PWD</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Kohima Taluk of Kohima District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hukpang</name>
+    <pinCode>798625</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Longleng</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Longleng Taluk of Longleng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Longleng</name>
+    <pinCode>798625</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Longleng Taluk of Longleng District</location>
+    <telephone>03869-236264</telephone>
+  </office>
+  <office>
+    <name>Nian</name>
+    <pinCode>798625</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Longleng</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Longleng Taluk of Longleng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phomching</name>
+    <pinCode>798625</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Longleng</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Longleng Taluk of Longleng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sakchi</name>
+    <pinCode>798625</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Longleng</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Longleng Taluk of Longleng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yachem</name>
+    <pinCode>798625</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Longleng</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Longleng Taluk of Longleng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yongyak</name>
+    <pinCode>798625</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Longleng</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Longleng Taluk of Longleng District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Alichen</name>
+    <pinCode>798601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mokokchung</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mokokchung Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Alungkima</name>
+    <pinCode>798604</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mongkholemba</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mongkholemba Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Alungtaki</name>
+    <pinCode>798604</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mongkholemba</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mongkholemba Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Aolijen</name>
+    <pinCode>798601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mokokchung</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mokokchung Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Arree Old</name>
+    <pinCode>798601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mokokchung</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mokokchung Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Asangma</name>
+    <pinCode>798618</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuli</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Changtongya Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Barakangtsung</name>
+    <pinCode>798618</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuli</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tuli Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Changki</name>
+    <pinCode>798601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mokokchung</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mokokchung Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chantongia</name>
+    <pinCode>798613</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Changtongya Taluk of Mokokchung District</location>
+    <telephone>0369-263203</telephone>
+  </office>
+  <office>
+    <name>Chare</name>
+    <pinCode>798601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mokokchung</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mokokchung Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chuchuyimlang</name>
+    <pinCode>798614</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Mokokchung Taluk of Mokokchung District</location>
+    <telephone>0369-261222</telephone>
+  </office>
+  <office>
+    <name>Chungtia</name>
+    <pinCode>798601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mokokchung</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mokokchung Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chungtia Yimsen</name>
+    <pinCode>798604</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mongkholemba</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mongkholemba Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Fazl Ali College</name>
+    <pinCode>798601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mokokchung</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Ongpangkong Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Impur</name>
+    <pinCode>798615</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Mokokchung Taluk of Mokokchung District</location>
+    <telephone>0369-262218</telephone>
+  </office>
+  <office>
+    <name>Khari</name>
+    <pinCode>798604</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mongkholemba</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mongkholemba Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khensa</name>
+    <pinCode>798617</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Opangkong</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Ongpang Kong Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kubulong</name>
+    <pinCode>798615</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Impur</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Impur Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kubza</name>
+    <pinCode>798601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mokokchung</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mokokchung Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Longchang</name>
+    <pinCode>798615</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Impur</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Impur Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Longchem</name>
+    <pinCode>798604</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mongkholemba</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mongkholemba Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Longkhum</name>
+    <pinCode>798601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mokokchung</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mokokchung Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Longkhum</name>
+    <pinCode>798601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mokokchung</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mokokchung Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Longmisa</name>
+    <pinCode>798601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mokokchung</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mokokchung Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Longnak</name>
+    <pinCode>798604</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mongkholemba</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mongkholemba Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Longsa</name>
+    <pinCode>798601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mokokchung</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mokokchung Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Luyang Valley</name>
+    <pinCode>798618</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuli</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tuli Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mangmentong</name>
+    <pinCode>798601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mokokchung</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mokokchung Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Merangkong</name>
+    <pinCode>798613</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chantongia</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Changtogia Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mokokchung</name>
+    <pinCode>798601</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Mokokchung Taluk of Mokokchung District</location>
+    <telephone>0369-2226265</telephone>
+  </office>
+  <office>
+    <name>Molungkhimong</name>
+    <pinCode>798618</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuli</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tuli Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Molungyimsen</name>
+    <pinCode>798618</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuli</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tuli Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mongchen</name>
+    <pinCode>798604</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mongkholemba</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mongkholemba Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mongkholemba</name>
+    <pinCode>798604</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Mokokchung Taluk of Mokokchung District</location>
+    <telephone>03695-264203</telephone>
+  </office>
+  <office>
+    <name>Mongsenyimti</name>
+    <pinCode>798614</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chuchuyimlang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chuchuyimlang Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nst Colony</name>
+    <pinCode>798601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mokokchung</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mokokchung Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Opangkong</name>
+    <pinCode>798617</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Mokokchung Taluk of Mokokchung District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Paper Nagar</name>
+    <pinCode>798623</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Tuli Taluk of Mokokchung District</location>
+    <telephone>03691-266226</telephone>
+  </office>
+  <office>
+    <name>Phangsang</name>
+    <pinCode>798613</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chantongia</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chuchuyimlang Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>S. E. Colony</name>
+    <pinCode>798601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mokokchung</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mokokchung Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Salulamang</name>
+    <pinCode>798614</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chuchuyimlang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chuchuyimlang Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sungratsu</name>
+    <pinCode>798615</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Impur</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Impur Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tamlu</name>
+    <pinCode>798618</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuli</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tuli Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tronger</name>
+    <pinCode>798601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mokokchung</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mokokchung Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tuli</name>
+    <pinCode>798618</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Mokokchung Taluk of Mokokchung District</location>
+    <telephone>03864-236779</telephone>
+  </office>
+  <office>
+    <name>Ungar</name>
+    <pinCode>798614</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chuchuyimlang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chuchulang Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ungma</name>
+    <pinCode>798601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mokokchung</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mokokchung Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>V. K. Town</name>
+    <pinCode>798601</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mokokchung</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mokokchung Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wamaken</name>
+    <pinCode>798618</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuli</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tuli Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Waromung</name>
+    <pinCode>798604</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mongkholemba</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mongkholemba Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yaongyimsen</name>
+    <pinCode>798613</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chantongia</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Changtogia Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yisemyong</name>
+    <pinCode>798614</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chuchuyimlang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chuchuyimlang Taluk of Mokokchung District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Angphang</name>
+    <pinCode>798603</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Champang Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Baranamsang</name>
+    <pinCode>798622</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Naginimora</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Naginimora Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Champang</name>
+    <pinCode>798603</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Mon Taluk of Mon District</location>
+    <telephone>03862-273274</telephone>
+  </office>
+  <office>
+    <name>Chengloisho</name>
+    <pinCode>798603</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Champang Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chenwetnyu</name>
+    <pinCode>798603</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Champang Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chingkao</name>
+    <pinCode>798603</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Champang Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chinglong</name>
+    <pinCode>798603</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Champang Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chui</name>
+    <pinCode>798621</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mon</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mon Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jakpang</name>
+    <pinCode>798603</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Champang Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kongon</name>
+    <pinCode>798622</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Naginimora</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Naginimora Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Longching</name>
+    <pinCode>798603</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Champang Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Longpong Senghe</name>
+    <pinCode>798621</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mon</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mon Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Longwa</name>
+    <pinCode>798621</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mon</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mon Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mon</name>
+    <pinCode>798621</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Mon Taluk of Mon District</location>
+    <telephone>03869-221243</telephone>
+  </office>
+  <office>
+    <name>Monyakshu</name>
+    <pinCode>798603</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Champang Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Naginimora</name>
+    <pinCode>798622</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Mon Taluk of Mon District</location>
+    <telephone>03869-272221</telephone>
+  </office>
+  <office>
+    <name>Namsa</name>
+    <pinCode>798602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tizit</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tizit Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pessao</name>
+    <pinCode>798603</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Champang Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pongkong</name>
+    <pinCode>798621</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mon</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mon Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Singha Chingnyu</name>
+    <pinCode>798621</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mon</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mon Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tang</name>
+    <pinCode>798621</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mon</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mon Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tizit</name>
+    <pinCode>798602</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Mon Taluk of Mon District</location>
+    <telephone>03862-272221</telephone>
+  </office>
+  <office>
+    <name>Tobu</name>
+    <pinCode>798603</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Champang Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Totak</name>
+    <pinCode>798621</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mon</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mon Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ukha</name>
+    <pinCode>798603</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Champang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Champang Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wakching</name>
+    <pinCode>798622</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Naginimora</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Naginimora Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Waunching</name>
+    <pinCode>798621</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mon</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Mon Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yannu</name>
+    <pinCode>798602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tizit</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tizit Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zaboka</name>
+    <pinCode>798602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tizit</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tizit Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zangkham</name>
+    <pinCode>798602</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tizit</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tizit Taluk of Mon District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Athibung</name>
+    <pinCode>797110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zalukie</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Zalukie Taluk of Peren District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bongkholong</name>
+    <pinCode>797110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zalukie</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Zalukie Taluk of Peren District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gaili</name>
+    <pinCode>797110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zalukie</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Zalukie Taluk of Peren District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Jalukie &apos;B&apos;</name>
+    <pinCode>797110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zalukie</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Zalukie Taluk of Peren District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khelma</name>
+    <pinCode>797110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zalukie</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Zalukie Taluk of Peren District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lilen</name>
+    <pinCode>797110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zalukie</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Zalukie Taluk of Peren District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mbaulwa</name>
+    <pinCode>797101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Peren</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Peren Taluk of Peren District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mhainamtsi</name>
+    <pinCode>797110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zalukie</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Zalukie Taluk of Peren District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>N.Song</name>
+    <pinCode>797101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Peren</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Peren Taluk of Peren District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nchongram</name>
+    <pinCode>797101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Peren</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Peren Taluk of Peren District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>New Jalukie</name>
+    <pinCode>797110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zalukie</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Zalukie Taluk of Peren District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Samjiuram</name>
+    <pinCode>797110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zalukie</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Zalukie Taluk of Peren District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tening</name>
+    <pinCode>797101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Peren</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Peren Taluk of Peren District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zalukie</name>
+    <pinCode>797110</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Peren Taluk of Peren District</location>
+    <telephone>03838-220220</telephone>
+  </office>
+  <office>
+    <name>Akhegwo</name>
+    <pinCode>797114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Meluri</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Meluri Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chetheba</name>
+    <pinCode>797104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chozuba</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chozuba Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chizami</name>
+    <pinCode>797102</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Phek Taluk of Phek District</location>
+    <telephone>03865-264225</telephone>
+  </office>
+  <office>
+    <name>Chizami Village</name>
+    <pinCode>797102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chizami</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chizami Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chozuba</name>
+    <pinCode>797104</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Phek Taluk of Phek District</location>
+    <telephone>03865-263125</telephone>
+  </office>
+  <office>
+    <name>Dzulhami</name>
+    <pinCode>797104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chozuba</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chozuba Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hutsu</name>
+    <pinCode>797114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Meluri</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Meluri Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ketsapo</name>
+    <pinCode>797108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Phek</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Phek Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khezhakeno</name>
+    <pinCode>797107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pfutsero</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Pfutsero Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khuzami</name>
+    <pinCode>797108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Phek</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Phek Sadar Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kikruma</name>
+    <pinCode>797107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pfutsero</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Pfutsero Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kilomi</name>
+    <pinCode>797104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chozuba</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chozuba Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lephori</name>
+    <pinCode>797114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Meluri</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Meluri Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Losami</name>
+    <pinCode>797108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Phek</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Phek Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Luzaphuhu</name>
+    <pinCode>797108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Phek</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Phek Sadar Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Meluri</name>
+    <pinCode>797114</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Phek Taluk of Phek District</location>
+    <telephone>03865-261240</telephone>
+  </office>
+  <office>
+    <name>Mesolumi</name>
+    <pinCode>797107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pfutsero</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Pfutsero Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Middle Khomi</name>
+    <pinCode>797102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chizami</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chizami Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Old Phek</name>
+    <pinCode>797108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Phek</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Phek Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pfutsero</name>
+    <pinCode>797107</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Phek Taluk of Phek District</location>
+    <telephone>03865-262485</telephone>
+  </office>
+  <office>
+    <name>Phek</name>
+    <pinCode>797108</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Phek Taluk of Phek District</location>
+    <telephone>03865-223056</telephone>
+  </office>
+  <office>
+    <name>Phesachuduma</name>
+    <pinCode>797107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pfutsero</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Pfutsero Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phugwu</name>
+    <pinCode>797104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chozuba</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chozuba Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Porba</name>
+    <pinCode>797107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pfutsero</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Pfutsero Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pungkhuri</name>
+    <pinCode>797114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Meluri</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Meluri Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Runguzumi</name>
+    <pinCode>797104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chozuba</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chozoba Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sakraba</name>
+    <pinCode>797107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pfutsero</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Pfutsero Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tekhouba</name>
+    <pinCode>797107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pfutsero</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Pfutsero Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thechulumi</name>
+    <pinCode>797102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chizami</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chizami Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thenizumi</name>
+    <pinCode>797104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chozuba</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chozuba Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thipuzumi</name>
+    <pinCode>797107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pfutsero</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Pfutsero Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thvophisumi</name>
+    <pinCode>797104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chozuba</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chozuba Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wazhiho</name>
+    <pinCode>797114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Meluri</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Meluri Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yaribami</name>
+    <pinCode>797104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chozuba</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Chozuba Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zaketsa</name>
+    <pinCode>797107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pfutsero</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Pfutsero Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zavame</name>
+    <pinCode>797107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pfutsero</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Phek Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zhamai</name>
+    <pinCode>797107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pfutsero</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Pfutsero Taluk of Phek District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Angangba</name>
+    <pinCode>798616</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Longkhim</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Longkhim Taluk of Tuensang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chessore</name>
+    <pinCode>798612</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuensang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tuensang Taluk of Tuensang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chimonger</name>
+    <pinCode>798616</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Longkhim</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Lonkhim Taluk of Tuensang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chingmei</name>
+    <pinCode>798612</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuensang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tuensang Taluk of Tuensang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Choklangan</name>
+    <pinCode>798626</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Noklak</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Noklak Taluk of Tuensang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chungtore</name>
+    <pinCode>798616</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Longkhim</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Longkhim Taluk of Tuensang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Huker</name>
+    <pinCode>798612</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuensang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tuensang Taluk of Tuensang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kongsang</name>
+    <pinCode>798616</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Longkhim</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Longkhim Taluk of Tuensang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuthur</name>
+    <pinCode>798612</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuensang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tuensang Taluk of Tuensang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Longkhim</name>
+    <pinCode>798616</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Tuensang Taluk of Tuensang District</location>
+    <telephone>03861-2230235</telephone>
+  </office>
+  <office>
+    <name>Nokhu</name>
+    <pinCode>798626</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Noklak</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Noklak Taluk of Tuensang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Noklak</name>
+    <pinCode>798626</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Tuensang Taluk of Tuensang District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Noksen</name>
+    <pinCode>798616</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Longkhim</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Longkhim Taluk of Tuensang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pangsha</name>
+    <pinCode>798626</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Noklak</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Noklak Taluk of Tuensang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Panso</name>
+    <pinCode>798612</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuensang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tuensang Taluk of Tuensang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pessu</name>
+    <pinCode>798626</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Noklak</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Noklak Taluk of Tuensang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sanglao</name>
+    <pinCode>798626</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Noklak</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Noklak Taluk of Tuensang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sangsanyu</name>
+    <pinCode>798612</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuensang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tuensang Taluk of Tuensang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Saramati</name>
+    <pinCode>798612</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuensang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tuensang Taluk of Tuensang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Shamator</name>
+    <pinCode>798612</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuensang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tuensang Taluk of Tuensang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Shampur</name>
+    <pinCode>798612</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuensang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tuensang Taluk of Tuensang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Shiponger</name>
+    <pinCode>798612</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuensang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tuensang Taluk of Tuensang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sotokur</name>
+    <pinCode>798612</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuensang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tuensang Taluk of Tuensang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thonokhunyu</name>
+    <pinCode>798612</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuensang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tuensang Taluk of Tuensang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tuensang</name>
+    <pinCode>798612</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Tuensang Taluk of Tuensang District</location>
+    <telephone>03861-220235</telephone>
+  </office>
+  <office>
+    <name>Tuensang Village</name>
+    <pinCode>798612</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuensang</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Tuensang Taluk of Tuensang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yangli</name>
+    <pinCode>798616</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Longkhim</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Longkhim Taluk of Tuensang District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Aitepyong</name>
+    <pinCode>797100</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Doyang Hydel Project</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Doyang H Project Taluk of Wokha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Baghty</name>
+    <pinCode>797111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wokha</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Doyang H Project Taluk of Wokha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bhandari</name>
+    <pinCode>797111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wokha</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Doyang H. Project Taluk of Wokha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chukitong</name>
+    <pinCode>797111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wokha</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Wokha Taluk of Wokha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Doyang Hydel Project</name>
+    <pinCode>797100</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Wokha Taluk of Wokha District</location>
+    <telephone>03860-222022</telephone>
+  </office>
+  <office>
+    <name>Elumnyu</name>
+    <pinCode>797111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wokha</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Wokha Taluk of Wokha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Englan</name>
+    <pinCode>797111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wokha</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Doyang H Project Taluk of Wokha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Humtsu</name>
+    <pinCode>797111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wokha</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Wokha Taluk of Wokha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Longtsung</name>
+    <pinCode>797100</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Doyang Hydel Project</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Doyang H Project Taluk of Wokha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lotsu</name>
+    <pinCode>797100</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Doyang Hydel Project</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Doyang H Project Taluk of Wokha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mekhukla</name>
+    <pinCode>797111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wokha</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Wokha Taluk of Wokha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Moilan</name>
+    <pinCode>797100</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Doyang Hydel Project</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Doyang H Project Taluk of Wokha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>N. Longidong</name>
+    <pinCode>797111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wokha</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Wokha Taluk of Wokha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nyiro</name>
+    <pinCode>797111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wokha</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Wokha Taluk of Wokha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pangti</name>
+    <pinCode>797100</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Doyang Hydel Project</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Wokha Taluk of Wokha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pongitong</name>
+    <pinCode>797111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wokha</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Wokha Taluk of Wokha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sanis</name>
+    <pinCode>797100</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Doyang Hydel Project</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Doyang H Project Taluk of Wokha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sungro</name>
+    <pinCode>797100</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Doyang Hydel Project</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Wokha Taluk of Wokha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tsungtsutong</name>
+    <pinCode>797111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wokha</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Wokha Taluk of Wokha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wokha</name>
+    <pinCode>797111</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Wokha Taluk of Wokha District</location>
+    <telephone>03860-222022</telephone>
+  </office>
+  <office>
+    <name>Wokha Village</name>
+    <pinCode>797111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wokha</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Wokha Taluk of Wokha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wozhru</name>
+    <pinCode>797111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wokha</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Wokha Taluk of Wokha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yamhon</name>
+    <pinCode>797100</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Doyang Hydel Project</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Doyang H Project Taluk of Wokha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Yikhum</name>
+    <pinCode>797111</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wokha</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Wokha Taluk of Wokha District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Aghunato</name>
+    <pinCode>798620</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zunheboto</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Aghunato Taluk of Zunhebotto District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Aizuto</name>
+    <pinCode>798619</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Akuluto</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Akuluto Taluk of Zunhebotto District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Akuhaito</name>
+    <pinCode>798619</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Akuluto</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Atoizu Taluk of Zunhebotto District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Akuluto</name>
+    <pinCode>798619</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Zunheboto Taluk of Zunhebotto District</location>
+    <telephone>0369-260242</telephone>
+  </office>
+  <office>
+    <name>Asukhomi</name>
+    <pinCode>798620</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zunheboto</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Zunheboto Taluk of Zunhebotto District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Asukuto</name>
+    <pinCode>798619</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Akuluto</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Akuluto Taluk of Zunhebotto District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Asuto</name>
+    <pinCode>798620</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zunheboto</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Zunheboto Taluk of Zunhebotto District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Atoizu</name>
+    <pinCode>798620</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zunheboto</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Atoizu Taluk of Zunhebotto District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ghathashi</name>
+    <pinCode>797109</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tseminyu</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Ghathashi Taluk of Zunhebotto District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hosephu</name>
+    <pinCode>798620</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zunheboto</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Zunheboto Taluk of Zunhebotto District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kichilimi</name>
+    <pinCode>798620</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zunheboto</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Ghathashi Taluk of Zunhebotto District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lumami</name>
+    <pinCode>798627</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Akuluto Taluk of Zunhebotto District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Phisami</name>
+    <pinCode>798620</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zunheboto</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Zunheboto Taluk of Zunhebotto District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Saghemi</name>
+    <pinCode>798620</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zunheboto</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Zunheboto Taluk of Zunhebotto District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Satakha</name>
+    <pinCode>798620</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zunheboto</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Zunheboto Taluk of Zunhebotto District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Satami</name>
+    <pinCode>798620</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zunheboto</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Zunheboto Taluk of Zunhebotto District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Satoi</name>
+    <pinCode>798620</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zunheboto</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Zunheboto Taluk of Zunhebotto District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Suruhuto</name>
+    <pinCode>798620</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zunheboto</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Zunheboto Taluk of Zunhebotto District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Surumi</name>
+    <pinCode>798620</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zunheboto</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Zunheboto Taluk of Zunhebotto District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tokiye</name>
+    <pinCode>798620</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Zunheboto</suboffice>
+    <headoffice>Kohima</headoffice>
+    <location>Zunheboto Taluk of Zunhebotto District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zunheboto</name>
+    <pinCode>798620</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kohima</headoffice>
+    <location>Zunheboto Taluk of Zunhebotto District</location>
+    <telephone>03867-220290</telephone>
+  </office>
+</offices>

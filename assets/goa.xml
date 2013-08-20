@@ -1,0 +1,2369 @@
+<offices>
+  <office>
+    <name>Advalpal</name>
+    <pinCode>403503</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Assonora</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bicholim Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Advoi</name>
+    <pinCode>403530</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Onda I.E.</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Sattari Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Agarwada</name>
+    <pinCode>403512</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pernem</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Pernem Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Aldona</name>
+    <pinCode>403508</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone>0832-2289622</telephone>
+  </office>
+  <office>
+    <name>Alto Betim</name>
+    <pinCode>403521</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone>0832-2410025</telephone>
+  </office>
+  <office>
+    <name>Alto-porvorim</name>
+    <pinCode>403521</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone>0832-2147707</telephone>
+  </office>
+  <office>
+    <name>Anjuna</name>
+    <pinCode>403509</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone>0832-2274728</telephone>
+  </office>
+  <office>
+    <name>Arambol</name>
+    <pinCode>403524</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone>0832-2242965</telephone>
+  </office>
+  <office>
+    <name>Arpora</name>
+    <pinCode>403516</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Calangute</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Assagao</name>
+    <pinCode>403507</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mapusa</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Assonora</name>
+    <pinCode>403503</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone>0832-2215221</telephone>
+  </office>
+  <office>
+    <name>Baga</name>
+    <pinCode>403516</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Calangute</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bambolim Camp</name>
+    <pinCode>403201</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone>0832-2458435</telephone>
+  </office>
+  <office>
+    <name>Bambolim Complex</name>
+    <pinCode>403202</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone>0832-2458483</telephone>
+  </office>
+  <office>
+    <name>Bastora</name>
+    <pinCode>403507</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Mapusa</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Batim</name>
+    <pinCode>403108</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Goa -velha</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Betim</name>
+    <pinCode>403101</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone>0832-2417706</telephone>
+  </office>
+  <office>
+    <name>Betki</name>
+    <pinCode>403107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Marcela</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Betki</name>
+    <pinCode>403107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Marcela</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bicholim</name>
+    <pinCode>403504</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Bicholim Taluk of North Goa District</location>
+    <telephone>0832-2363739</telephone>
+  </office>
+  <office>
+    <name>Birondam</name>
+    <pinCode>403506</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Valpoi</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Sattari Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>C.C.Altinho</name>
+    <pinCode>403001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone>0832-2434434</telephone>
+  </office>
+  <office>
+    <name>Caisua</name>
+    <pinCode>403509</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Anjuna</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Calangute</name>
+    <pinCode>403516</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone>0832-2276030</telephone>
+  </office>
+  <office>
+    <name>Calvim</name>
+    <pinCode>403523</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Carona</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Camurlim</name>
+    <pinCode>403507</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mapusa</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Canca</name>
+    <pinCode>403510</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Parra</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Candepar</name>
+    <pinCode>403406</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tisca</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Candolim</name>
+    <pinCode>403515</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone>0832-2489298</telephone>
+  </office>
+  <office>
+    <name>Cansarvornem</name>
+    <pinCode>403512</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pernem</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Pernem Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Carambolim</name>
+    <pinCode>403110</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Corlim IE</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Caranzalem</name>
+    <pinCode>403002</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone>0832-2464314</telephone>
+  </office>
+  <office>
+    <name>Carapur</name>
+    <pinCode>403505</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Sanquelim</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bicholim Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Carona</name>
+    <pinCode>403523</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone>0832-2293230</telephone>
+  </office>
+  <office>
+    <name>Chimbel</name>
+    <pinCode>403006</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ribandar</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chorao</name>
+    <pinCode>403102</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone>0832-2239980</telephone>
+  </office>
+  <office>
+    <name>Colvale</name>
+    <pinCode>403513</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone>0832-2299834</telephone>
+  </office>
+  <office>
+    <name>Corgao</name>
+    <pinCode>403512</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pernem</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Pernem Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Corjuim</name>
+    <pinCode>403508</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Aldona</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Corlim IE</name>
+    <pinCode>403110</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone>0832-2285360</telephone>
+  </office>
+  <office>
+    <name>Cotorem</name>
+    <pinCode>403506</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Valpoi</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Sattari Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cudne</name>
+    <pinCode>403505</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Sanquelim</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bicholim Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cumbharjua</name>
+    <pinCode>403107</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Marcela</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Curca</name>
+    <pinCode>403108</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Goa -velha</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Darbandora</name>
+    <pinCode>403406</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tisca</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dhagalim</name>
+    <pinCode>403513</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Colvale</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dodamarg</name>
+    <pinCode>403503</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Assonora</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bicholim Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Fontainhas</name>
+    <pinCode>403001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Tiswaddi Taluk of North Goa District</location>
+    <telephone>0832-2222145</telephone>
+  </office>
+  <office>
+    <name>Goa University</name>
+    <pinCode>403206</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone>0832-2451948</telephone>
+  </office>
+  <office>
+    <name>Goa -velha</name>
+    <pinCode>403108</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone>0832-2218540</telephone>
+  </office>
+  <office>
+    <name>Guleli</name>
+    <pinCode>403506</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Valpoi</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Sattari Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gurim</name>
+    <pinCode>403507</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mapusa</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ibrampur</name>
+    <pinCode>403503</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Assonora</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Pernem Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kerim</name>
+    <pinCode>403505</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sanquelim</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Sattari Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Malar</name>
+    <pinCode>403403</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Piedade</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mandrem</name>
+    <pinCode>403527</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Pernem Taluk of North Goa District</location>
+    <telephone>0832-2247221</telephone>
+  </office>
+  <office>
+    <name>Mandur</name>
+    <pinCode>403104</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Neura</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mapusa I.E.</name>
+    <pinCode>403507</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone>0832-2262639</telephone>
+  </office>
+  <office>
+    <name>Mapusa</name>
+    <pinCode>403507</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone>0832-2262235</telephone>
+  </office>
+  <office>
+    <name>Marcaim</name>
+    <pinCode>403404</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mardol</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Matri Indian Antartic Station</name>
+    <pinCode>403001</pinCode>
+    <status>Branch Office(Non Delivery) directly a/w Head Office</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>*** Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maulinge</name>
+    <pinCode>403504</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bicholim</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bicholim Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mauzi</name>
+    <pinCode>403506</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Valpoi</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Sattari Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mayem</name>
+    <pinCode>403504</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bicholim</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bicholim Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Menkurim</name>
+    <pinCode>403513</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Colvale</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Moira</name>
+    <pinCode>403507</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mapusa</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Morjim</name>
+    <pinCode>403512</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pernem</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Pernem Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Morlem</name>
+    <pinCode>403505</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sanquelim</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bicholim Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mulgao</name>
+    <pinCode>403503</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Assonora</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bicholim Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>N B Verem</name>
+    <pinCode>403109</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone>0832-2402666</telephone>
+  </office>
+  <office>
+    <name>Nachinola</name>
+    <pinCode>403508</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Aldona</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nagargaon</name>
+    <pinCode>403506</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Valpoi</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Sattari Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nagzar</name>
+    <pinCode>403512</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pernem</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Pernem Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nanora</name>
+    <pinCode>403503</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Assonora</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bicholim Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nanorem</name>
+    <pinCode>403506</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Valpoi</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Sattari Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Navelim</name>
+    <pinCode>403505</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sanquelim</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bicholim Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nerul</name>
+    <pinCode>403114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Reis Magos</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Neura</name>
+    <pinCode>403104</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone>0832-2208586</telephone>
+  </office>
+  <office>
+    <name>Nio Dona Paula</name>
+    <pinCode>403004</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone>0832-2453152</telephone>
+  </office>
+  <office>
+    <name>Onda</name>
+    <pinCode>403530</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Onda I.E.</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Sattari Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Onda I.E.</name>
+    <pinCode>403530</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Sattari Taluk of North Goa District</location>
+    <telephone>0832-2370507</telephone>
+  </office>
+  <office>
+    <name>Oxel</name>
+    <pinCode>403517</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Siolim</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ozari</name>
+    <pinCode>403513</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Colvale</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Pernem Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pale</name>
+    <pinCode>403105</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Sattari Taluk of North Goa District</location>
+    <telephone>0832-2372264</telephone>
+  </office>
+  <office>
+    <name>Panaji</name>
+    <pinCode>403001</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone>0832-2223704</telephone>
+  </office>
+  <office>
+    <name>Parra</name>
+    <pinCode>403510</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone>0832-2472398</telephone>
+  </office>
+  <office>
+    <name>Parxem</name>
+    <pinCode>403512</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pernem</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Pernem Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Penha De France</name>
+    <pinCode>403101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Betim</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pernem</name>
+    <pinCode>403512</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone>0832-2201230</telephone>
+  </office>
+  <office>
+    <name>Piedade</name>
+    <pinCode>403403</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Pilar (North Goa)</name>
+    <pinCode>403203</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone>0832-2218520</telephone>
+  </office>
+  <office>
+    <name>Pilerne</name>
+    <pinCode>403114</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Reis Magos</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pilgao</name>
+    <pinCode>403504</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bicholim</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bicholim Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pillem</name>
+    <pinCode>403406</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tisca</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pirna</name>
+    <pinCode>403513</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Colvale</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pissurlem</name>
+    <pinCode>403530</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Onda I.E.</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Sattari Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pomburpa</name>
+    <pinCode>403523</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Carona</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ponda</name>
+    <pinCode>403401</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of North Goa District</location>
+    <telephone>0832-2315327</telephone>
+  </office>
+  <office>
+    <name>Poriem</name>
+    <pinCode>403505</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Sanquelim</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Sattari Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Poroscodem</name>
+    <pinCode>403512</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Pernem</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Pernem Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Porvorim</name>
+    <pinCode>403501</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone>0832-2417891</telephone>
+  </office>
+  <office>
+    <name>Pratapnagar Harvale</name>
+    <pinCode>403505</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sanquelim</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bicholim Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Querim</name>
+    <pinCode>403524</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Arambol</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Pernem Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Qurinpani</name>
+    <pinCode>403524</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Arambol</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Pernem Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Reis Magos</name>
+    <pinCode>403114</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone>0832-2402667</telephone>
+  </office>
+  <office>
+    <name>Revora</name>
+    <pinCode>403513</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Colvale</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ribandar</name>
+    <pinCode>403006</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone>0832-2444471</telephone>
+  </office>
+  <office>
+    <name>Saipem</name>
+    <pinCode>403515</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Candolim</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Salem</name>
+    <pinCode>403503</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Assonora</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bicholim Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Saligao</name>
+    <pinCode>403511</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone>0832-2278362</telephone>
+  </office>
+  <office>
+    <name>Salvador De Mond</name>
+    <pinCode>403101</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Betim</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sancordem</name>
+    <pinCode>403406</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tisca</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sangolda</name>
+    <pinCode>403511</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Saligao</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sanquelim</name>
+    <pinCode>403505</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Sattari Taluk of North Goa District</location>
+    <telephone>0832-2364249</telephone>
+  </office>
+  <office>
+    <name>Santa Cruz</name>
+    <pinCode>403005</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone>0832-2449146</telephone>
+  </office>
+  <office>
+    <name>Sanvordem</name>
+    <pinCode>403506</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Valpoi</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Sattari Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Secretariat (North Goa)</name>
+    <pinCode>403521</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone>0832-2415645</telephone>
+  </office>
+  <office>
+    <name>Sem Saligao</name>
+    <pinCode>403511</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Saligao</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Shiroda (North Goa)</name>
+    <pinCode>403103</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of North Goa District</location>
+    <telephone>0832-2306221</telephone>
+  </office>
+  <office>
+    <name>Sinquerim</name>
+    <pinCode>403515</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone>0832-2479733</telephone>
+  </office>
+  <office>
+    <name>Siolim</name>
+    <pinCode>403517</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone>0832-2272221</telephone>
+  </office>
+  <office>
+    <name>Sirgao</name>
+    <pinCode>403503</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Assonora</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bicholim Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Siridao</name>
+    <pinCode>403108</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Goa -velha</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sirsaim</name>
+    <pinCode>403502</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Tivim</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bicholim Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>St Inez</name>
+    <pinCode>403001</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone>0832-2222148</telephone>
+  </office>
+  <office>
+    <name>St. Lourence</name>
+    <pinCode>403204</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone>0832-2218557</telephone>
+  </office>
+  <office>
+    <name>Surla</name>
+    <pinCode>403505</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sanquelim</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bicholim Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tamboxem</name>
+    <pinCode>403512</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pernem</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Pernem Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tarvalem</name>
+    <pinCode>403103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Shiroda (North Goa)</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tarvalem</name>
+    <pinCode>403103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Shiroda (North Goa)</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tivim Ie</name>
+    <pinCode>403526</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone>0832-2257210</telephone>
+  </office>
+  <office>
+    <name>Tivim</name>
+    <pinCode>403502</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone>0832-2298587</telephone>
+  </office>
+  <office>
+    <name>Torxem</name>
+    <pinCode>403512</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pernem</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Pernem Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tuem</name>
+    <pinCode>403512</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pernem</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Pernem Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tuem I E</name>
+    <pinCode>403512</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pernem</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Pernem Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ucassiam</name>
+    <pinCode>403507</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mapusa</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Bardez Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Usgao</name>
+    <pinCode>403406</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tisca</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Valpoi</name>
+    <pinCode>403506</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Sattari Taluk of North Goa District</location>
+    <telephone>0832-2374221</telephone>
+  </office>
+  <office>
+    <name>Varconda</name>
+    <pinCode>403512</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pernem</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Pernem Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Velguem O</name>
+    <pinCode>403506</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Valpoi</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Sattari Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Velha-goa</name>
+    <pinCode>403402</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of North Goa District</location>
+    <telephone>-</telephone>
+  </office>
+  <office>
+    <name>Virnora</name>
+    <pinCode>403512</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pernem</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Pernem Taluk of North Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>A.P.Dabolim</name>
+    <pinCode>403801</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Taluk of South Goa District</location>
+    <telephone>0832-2538366</telephone>
+  </office>
+  <office>
+    <name>A.P.Terminal</name>
+    <pinCode>403801</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Mormugao Taluk of South Goa District</location>
+    <telephone>0832-2540723</telephone>
+  </office>
+  <office>
+    <name>Agapur Adpoi</name>
+    <pinCode>403401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ponda</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Agonda</name>
+    <pinCode>403702</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Canacona</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Canacona Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ambaulim</name>
+    <pinCode>403705</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Quepem</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Quepem Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ambelim</name>
+    <pinCode>403723</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Velim</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Salcate Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Amona</name>
+    <pinCode>403107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Marcela</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Sanquelim Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Aquem</name>
+    <pinCode>403601</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-2735372</telephone>
+  </office>
+  <office>
+    <name>Assolda</name>
+    <pinCode>403714</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Chandor</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Assolna</name>
+    <pinCode>403701</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-2773212</telephone>
+  </office>
+  <office>
+    <name>Avedem</name>
+    <pinCode>403705</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Quepem</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Quepem Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Baina</name>
+    <pinCode>403802</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Mormugao Taluk of South Goa District</location>
+    <telephone>0832-2513767</telephone>
+  </office>
+  <office>
+    <name>Balli</name>
+    <pinCode>403703</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cuncolim</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Banastrim</name>
+    <pinCode>403107</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Marcela</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bandora</name>
+    <pinCode>403401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ponda</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Barcem</name>
+    <pinCode>403703</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cuncolim</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Quepem Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bati</name>
+    <pinCode>403704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sanguem</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Sangaum Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Benaulim</name>
+    <pinCode>403716</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-2770173</telephone>
+  </office>
+  <office>
+    <name>Betalbhatim</name>
+    <pinCode>403713</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Majorda</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Betora</name>
+    <pinCode>403401</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Ponda</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Betora I.E.</name>
+    <pinCode>403409</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of South Goa District</location>
+    <telephone>0832-2330800</telephone>
+  </office>
+  <office>
+    <name>Betul</name>
+    <pinCode>403723</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Velim</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Salsate Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Betul</name>
+    <pinCode>403723</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Velim</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bhatpal</name>
+    <pinCode>403702</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Canacona</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Canacona Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bogmalo</name>
+    <pinCode>403806</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Mormugao Taluk of South Goa District</location>
+    <telephone>0832-2538104</telephone>
+  </office>
+  <office>
+    <name>Borim</name>
+    <pinCode>403401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ponda</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cacora</name>
+    <pinCode>403706</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Curchorem</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Quepem Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Calem</name>
+    <pinCode>403704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sanguem</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Sangaum Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Camurlim</name>
+    <pinCode>403718</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Loutolim</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Canacona</name>
+    <pinCode>403702</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Canacona Taluk of South Goa District</location>
+    <telephone>0832-2644983</telephone>
+  </office>
+  <office>
+    <name>Cananguinim</name>
+    <pinCode>403703</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cuncolim</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Quepem Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cansaulim</name>
+    <pinCode>403712</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-2754022</telephone>
+  </office>
+  <office>
+    <name>Carmona</name>
+    <pinCode>403717</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-2745340</telephone>
+  </office>
+  <office>
+    <name>Cavelossim</name>
+    <pinCode>403731</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-2871444</telephone>
+  </office>
+  <office>
+    <name>Cavorim</name>
+    <pinCode>403714</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Chandor</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chandor</name>
+    <pinCode>403714</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-2784221</telephone>
+  </office>
+  <office>
+    <name>Chicalim</name>
+    <pinCode>403711</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Mormugao Taluk of South Goa District</location>
+    <telephone>0832-2541746</telephone>
+  </office>
+  <office>
+    <name>Chinchinim</name>
+    <pinCode>403715</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-2863213</telephone>
+  </office>
+  <office>
+    <name>Cola</name>
+    <pinCode>403702</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Canacona</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Canacona Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Collem</name>
+    <pinCode>403410</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Quepem Taluk of South Goa District</location>
+    <telephone>0832-2600240</telephone>
+  </office>
+  <office>
+    <name>Colva</name>
+    <pinCode>403708</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-2788505</telephone>
+  </office>
+  <office>
+    <name>Cortalim</name>
+    <pinCode>403710</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-2550239</telephone>
+  </office>
+  <office>
+    <name>Cotigaon</name>
+    <pinCode>403702</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Canacona</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Canacona Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cuncolim</name>
+    <pinCode>403703</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Quepem Taluk of South Goa District</location>
+    <telephone>0832-2763233</telephone>
+  </office>
+  <office>
+    <name>Cundaim I.E.</name>
+    <pinCode>403115</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of South Goa District</location>
+    <telephone>0832-2395500</telephone>
+  </office>
+  <office>
+    <name>Cundiam</name>
+    <pinCode>403115</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cundaim I.E.</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Tiswadi Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Curchorem</name>
+    <pinCode>403706</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Quepem Taluk of South Goa District</location>
+    <telephone>0832-2650599</telephone>
+  </office>
+  <office>
+    <name>Curdi</name>
+    <pinCode>403704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sanguem</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Sangaum Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Curti</name>
+    <pinCode>403401</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Ponda</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Curtorim</name>
+    <pinCode>403709</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-2786213</telephone>
+  </office>
+  <office>
+    <name>Davorlim</name>
+    <pinCode>403707</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Navelim</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dramapur</name>
+    <pinCode>403725</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-2766074</telephone>
+  </office>
+  <office>
+    <name>Durbhat</name>
+    <pinCode>403401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ponda</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Farmagudi</name>
+    <pinCode>403401</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Ponda</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Fatorda</name>
+    <pinCode>403602</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-2741021</telephone>
+  </office>
+  <office>
+    <name>Fatorpa</name>
+    <pinCode>403703</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cuncolim</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Quepem Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gandhi Market Complex Margao</name>
+    <pinCode>403601</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-2726810</telephone>
+  </office>
+  <office>
+    <name>Gaodongarim</name>
+    <pinCode>403702</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Canacona</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Cancona Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gogol</name>
+    <pinCode>403601</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-274689</telephone>
+  </office>
+  <office>
+    <name>Loliem Polem</name>
+    <pinCode>403728</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Loliem</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Canacona Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Loliem</name>
+    <pinCode>403728</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Canacona Taluk of South Goa District</location>
+    <telephone>0832-2640221</telephone>
+  </office>
+  <office>
+    <name>Loutolim</name>
+    <pinCode>403718</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-2777021</telephone>
+  </office>
+  <office>
+    <name>Macazana</name>
+    <pinCode>403709</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Curtorim</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Majorda</name>
+    <pinCode>403713</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-2715791</telephone>
+  </office>
+  <office>
+    <name>Mangor Hill</name>
+    <pinCode>403802</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Baina</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Marmugao Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Marcela</name>
+    <pinCode>403107</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of South Goa District</location>
+    <telephone>0832-2399111</telephone>
+  </office>
+  <office>
+    <name>Mardol</name>
+    <pinCode>403404</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of South Goa District</location>
+    <telephone>0832-2343423</telephone>
+  </office>
+  <office>
+    <name>Margao</name>
+    <pinCode>403601</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Salcette Taluk of South Goa District</location>
+    <telephone>0832-2715791</telephone>
+  </office>
+  <office>
+    <name>Molcarnem</name>
+    <pinCode>403704</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Sanguem</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Sangaum Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mollem</name>
+    <pinCode>403410</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Collem</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Sanguem Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mormugao</name>
+    <pinCode>403803</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Mormugao Taluk of South Goa District</location>
+    <telephone>0832-2522100</telephone>
+  </office>
+  <office>
+    <name>Morpirla</name>
+    <pinCode>403703</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cuncolim</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nagao</name>
+    <pinCode>403722</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Verna</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Navelim Camp</name>
+    <pinCode>403729</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-2766202</telephone>
+  </office>
+  <office>
+    <name>Navelim</name>
+    <pinCode>403707</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-2725532</telephone>
+  </office>
+  <office>
+    <name>Netorlim</name>
+    <pinCode>403704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sanguem</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Sangaum Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nirankal</name>
+    <pinCode>403401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ponda</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nuvem</name>
+    <pinCode>403601</pinCode>
+    <status>Branch Office(Delivery) directly a/w Head Office</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Orlim</name>
+    <pinCode>403724</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-2745140</telephone>
+  </office>
+  <office>
+    <name>Palolem</name>
+    <pinCode>403702</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Canacona</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Canacona Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Panchwadi</name>
+    <pinCode>403706</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Curchorem</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Ponda Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pirla</name>
+    <pinCode>403705</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Quepem</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Quepem Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Poinguinim</name>
+    <pinCode>403702</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Canacona</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Cancona Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ponda Camp</name>
+    <pinCode>403401</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of South Goa District</location>
+    <telephone>0832-2980608</telephone>
+  </office>
+  <office>
+    <name>Priol</name>
+    <pinCode>403404</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mardol</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Quela</name>
+    <pinCode>403401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ponda</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Quepem</name>
+    <pinCode>403705</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Quepem Taluk of South Goa District</location>
+    <telephone>0832-2662240</telephone>
+  </office>
+  <office>
+    <name>Querim</name>
+    <pinCode>403401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ponda</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Quirlapale</name>
+    <pinCode>403706</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Curchorem</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Curchorem Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Raia</name>
+    <pinCode>403720</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-2776108</telephone>
+  </office>
+  <office>
+    <name>Rivona</name>
+    <pinCode>403705</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Quepem</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Sangaum Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sada</name>
+    <pinCode>403804</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Mormugao Taluk of South Goa District</location>
+    <telephone>0832-2520350</telephone>
+  </office>
+  <office>
+    <name>Sadolxem</name>
+    <pinCode>403702</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Canacona</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Canacona Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sancoale</name>
+    <pinCode>403710</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cortalim</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Marmugao Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sanguem</name>
+    <pinCode>403704</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Sanguem Taluk of South Goa District</location>
+    <telephone>0832-2604244</telephone>
+  </office>
+  <office>
+    <name>Sant Estevam</name>
+    <pinCode>403106</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of South Goa District</location>
+    <telephone>0832-2399700</telephone>
+  </office>
+  <office>
+    <name>Sem-rachol Soso</name>
+    <pinCode>403719</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-2758716</telephone>
+  </office>
+  <office>
+    <name>Seraulim</name>
+    <pinCode>403708</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Colva</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sigao</name>
+    <pinCode>403410</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Collem</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Sanguem Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sirvoi</name>
+    <pinCode>403705</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Quepem</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Quepem Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>St. Jose De Areal</name>
+    <pinCode>403709</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-2861342</telephone>
+  </office>
+  <office>
+    <name>Talaulim</name>
+    <pinCode>403707</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Navelim</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thana</name>
+    <pinCode>403710</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Cortalim</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Mormugao Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tisca</name>
+    <pinCode>403406</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of South Goa District</location>
+    <telephone>0832-2348537</telephone>
+  </office>
+  <office>
+    <name>Ugvem</name>
+    <pinCode>403704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sanguem</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Sangaum Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Utorda</name>
+    <pinCode>403713</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Majorda</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vaddem</name>
+    <pinCode>403802</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Mormugao Taluk of South Goa District</location>
+    <telephone>0832-2513759</telephone>
+  </office>
+  <office>
+    <name>Vademnagar</name>
+    <pinCode>403802</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Mormugao Taluk of South Goa District</location>
+    <telephone>0832-2513730</telephone>
+  </office>
+  <office>
+    <name>Valkini</name>
+    <pinCode>403704</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sanguem</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Sangaum Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vanelim</name>
+    <pinCode>403708</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Colva</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Varca</name>
+    <pinCode>403721</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-2745105</telephone>
+  </office>
+  <office>
+    <name>Vasco-Da-Gama</name>
+    <pinCode>403802</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Mormugao Taluk of South Goa District</location>
+    <telephone>0832-2512264</telephone>
+  </office>
+  <office>
+    <name>Velguem</name>
+    <pinCode>403105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pale</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Velim</name>
+    <pinCode>403723</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-2773202</telephone>
+  </office>
+  <office>
+    <name>Velsao PSSK</name>
+    <pinCode>403712</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Cansaulim</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Verem De Ponda</name>
+    <pinCode>403401</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ponda</suboffice>
+    <headoffice>Panaji</headoffice>
+    <location>Ponda Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Verna</name>
+    <pinCode>403722</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone>0832-2782382</telephone>
+  </office>
+  <office>
+    <name>Veroda</name>
+    <pinCode>403703</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cuncolim</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Salcete Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Xeldem</name>
+    <pinCode>403705</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Quepem</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Quepem Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Xelvona</name>
+    <pinCode>403706</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Curchorem</suboffice>
+    <headoffice>Margao</headoffice>
+    <location>Quepem Taluk of South Goa District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Zuarinagar</name>
+    <pinCode>403726</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Margao</headoffice>
+    <location>Mormugao Taluk of South Goa District</location>
+    <telephone>0832-2556100</telephone>
+  </office>
+</offices>

@@ -48,10 +48,9 @@ public class DisplayResultActivity extends Activity {
 				Intent intent = getIntent();
 				String stateName = intent.getStringExtra(PinFinderMainActivity.EXTRA_STATE).toLowerCase()
 						.replaceAll(" ", "");
-				String districtName = intent.getStringExtra(PinFinderMainActivity.EXTRA_DISTRICT).toLowerCase()
-						.replaceAll(" ", "");
+				String districtName = intent.getStringExtra(PinFinderMainActivity.EXTRA_DISTRICT).toLowerCase();
 				String officeName = intent.getStringExtra(PinFinderMainActivity.EXTRA_OFFICE).toLowerCase();
-				String fileName = stateName + "_" + districtName + ".xml";
+				String fileName = stateName + ".xml";
 				try {
 					ArrayList<Office> offices = null;
 					if (!OFFICEHOLDER.containsKey(fileName)) {
@@ -66,7 +65,7 @@ public class DisplayResultActivity extends Activity {
 					} else {
 						offices = OFFICEHOLDER.get(fileName);
 					}
-					ArrayList<Office> matchingOffices = findMatchingOffices(offices, officeName);
+					ArrayList<Office> matchingOffices = findMatchingOffices(offices, officeName, districtName);
 					if (matchingOffices.size() > 0) {
 						adapter = new CustomOfficeAdapter(DisplayResultActivity.this, matchingOffices);
 					}
@@ -94,11 +93,12 @@ public class DisplayResultActivity extends Activity {
 		setProgressBarIndeterminateVisibility(false);
 	}
 
-	private ArrayList<Office> findMatchingOffices(ArrayList<Office> offices, String officeName) {
+	private ArrayList<Office> findMatchingOffices(ArrayList<Office> offices, String officeName, String districtName) {
 		ArrayList<Office> matchingOffices = new ArrayList<Office>();
 		for (Office office : offices) {
-			String name = office.getOfficeName().toLowerCase();
-			if (name.indexOf(officeName) >= 0 || officeName.equals(office.getPinCode())) {
+			if (office.getDistrict().indexOf(districtName) >= 0
+					&& (office.getOfficeName().toLowerCase().indexOf(officeName) >= 0 || officeName.equals(office
+							.getPinCode()))) {
 				matchingOffices.add(office);
 			}
 		}

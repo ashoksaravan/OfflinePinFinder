@@ -1,0 +1,353 @@
+<offices>
+  <office>
+    <name>Amli</name>
+    <pinCode>396230</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Silvassa</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Athal</name>
+    <pinCode>396235</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Naroli</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Athola</name>
+    <pinCode>396230</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Silvassa</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bedpa</name>
+    <pinCode>396230</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Silvassa</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bonta</name>
+    <pinCode>396230</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Silvassa</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chibhadkutch</name>
+    <pinCode>396230</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Silvassa</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chikhli</name>
+    <pinCode>396240</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karad Daman Project</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chinchpada</name>
+    <pinCode>396240</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karad Daman Project</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chisda</name>
+    <pinCode>396230</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Silvassa</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dadra</name>
+    <pinCode>396193</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone>0260-2668800</telephone>
+  </office>
+  <office>
+    <name>Dahikhed</name>
+    <pinCode>396230</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Silvassa</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dapada</name>
+    <pinCode>396240</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karad Daman Project</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Dudhani</name>
+    <pinCode>396230</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Silvassa</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karachgam</name>
+    <pinCode>396230</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Silvassa</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karad Daman Project</name>
+    <pinCode>396240</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone>0260-2642533</telephone>
+  </office>
+  <office>
+    <name>Karchond</name>
+    <pinCode>396230</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Silvassa</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karvad</name>
+    <pinCode>396193</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Dadra</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Pardi Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khanvel</name>
+    <pinCode>396230</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Silvassa</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kharadpada</name>
+    <pinCode>396235</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Naroli</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kherdi</name>
+    <pinCode>396230</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Silvassa</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Khutli</name>
+    <pinCode>396230</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Silvassa</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kilvani</name>
+    <pinCode>396230</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Silvassa</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mandoni</name>
+    <pinCode>396230</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Silvassa</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Masat</name>
+    <pinCode>396230</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Silvassa</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mota Randha</name>
+    <pinCode>396230</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Silvassa</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Naroli</name>
+    <pinCode>396235</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone>0260-2650530</telephone>
+  </office>
+  <office>
+    <name>Parzai</name>
+    <pinCode>396230</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Silvassa</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rakholi</name>
+    <pinCode>396240</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karad Daman Project</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Rudana</name>
+    <pinCode>396230</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Silvassa</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Saily</name>
+    <pinCode>396240</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karad Daman Project</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Samarvarni</name>
+    <pinCode>396230</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Silvassa</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Selti</name>
+    <pinCode>396230</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Silvassa</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sili</name>
+    <pinCode>396230</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Silvassa</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Silvassa</name>
+    <pinCode>396230</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone>0260-2640950</telephone>
+  </office>
+  <office>
+    <name>Sindoni</name>
+    <pinCode>396230</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Silvassa</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Surangi</name>
+    <pinCode>396240</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karad Daman Project</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Umarkui</name>
+    <pinCode>396230</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Silvassa</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vasona</name>
+    <pinCode>396240</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karad Daman Project</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Velugam</name>
+    <pinCode>396230</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Silvassa</suboffice>
+    <headoffice>Valsad</headoffice>
+    <location>Dadra &amp; Nagar Haveli Taluk of Dadra &amp; Nagar Haveli District</location>
+    <telephone />
+  </office>
+</offices>

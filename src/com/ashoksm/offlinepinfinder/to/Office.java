@@ -16,6 +16,8 @@ public class Office {
 
 	private String telephone;
 
+	private String district;
+
 	public String getOfficeName() {
 		return officeName;
 	}
@@ -70,5 +72,13 @@ public class Office {
 
 	public void setTelephone(String telephone) {
 		this.telephone = telephone;
+	}
+
+	public String getDistrict() {
+		return district;
+	}
+
+	public void setDistrict(String district) {
+		this.district = district;
 	}
 }
