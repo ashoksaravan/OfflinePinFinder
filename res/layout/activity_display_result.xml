@@ -42,7 +42,7 @@
         android:id="@+id/gridview"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:background="#C0C0C0"
+        android:background="#CFCFC4"
         android:cacheColorHint="#00000000"
         android:clipChildren="true"
         android:horizontalSpacing="5dp"
@@ -52,7 +52,7 @@
         android:paddingRight="5dp"
         android:paddingTop="10dp"
         android:stretchMode="columnWidth"
-        android:verticalSpacing="4dp" >
+        android:verticalSpacing="8dp" >
     </GridView>
 
 </LinearLayout>
