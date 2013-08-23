@@ -151,9 +151,9 @@ public class PinFinderMainActivity extends Activity {
 				String districtName = districts.getText().toString();
 				String officeName = text.getText().toString();
 				Intent intent = new Intent(PinFinderMainActivity.this, DisplayResultActivity.class);
-				intent.putExtra(EXTRA_STATE, stateName);
-				intent.putExtra(EXTRA_DISTRICT, districtName);
-				intent.putExtra(EXTRA_OFFICE, officeName);
+				intent.putExtra(EXTRA_STATE, stateName.trim());
+				intent.putExtra(EXTRA_DISTRICT, districtName.trim());
+				intent.putExtra(EXTRA_OFFICE, officeName.trim());
 				startActivity(intent);
 			}
 
