@@ -15049,9 +15049,18 @@
   </office>
   <office>
     <name>Elamadu</name>
+    <pinCode>691533</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ayur</suboffice>
+    <headoffice>Punalur</headoffice>
+    <location>Kottarakkara Taluk of Kollam District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Elampal</name>
     <pinCode>691322</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice>Ayur</suboffice>
+    <suboffice />
     <headoffice>Punalur</headoffice>
     <location>Pathanapuram Taluk of Kollam District</location>
     <telephone>0475-2224520</telephone>
@@ -24894,6 +24903,4029 @@
     <telephone>0495-2381515</telephone>
   </office>
   <office>
+    <name>Abdurahiman Nagar</name>
+    <pinCode>676305</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone>0494-2490340</telephone>
+  </office>
+  <office>
+    <name>Adakkakundu</name>
+    <pinCode>676525</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalikavu</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Akkaparamba</name>
+    <pinCode>673641</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuzhimanna</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Alankode</name>
+    <pinCode>679585</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ponani</headoffice>
+    <location>Ponani Taluk of Malappuram District</location>
+    <telephone>0494-2650440</telephone>
+  </office>
+  <office>
+    <name>Alathiyur</name>
+    <pinCode>676102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bettath Pudiangadi</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Aliparamba</name>
+    <pinCode>679357</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Anamangad</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perintalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Amarambalam</name>
+    <pinCode>679332</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pookkottumpadam</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Amarambalam South</name>
+    <pinCode>679339</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vaniyambalam</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Amayur</name>
+    <pinCode>676123</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karuvambram</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ambalakkadavu</name>
+    <pinCode>676525</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalikavu</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Amminikkad</name>
+    <pinCode>679322</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perintalmanna</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Anakkayam</name>
+    <pinCode>676509</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Munduparmba</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Anamangad</name>
+    <pinCode>679357</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Malappuram</headoffice>
+    <location>Perintalmanna Taluk of Malappuram District</location>
+    <telephone>04933-205211</telephone>
+  </office>
+  <office>
+    <name>Anchachavady</name>
+    <pinCode>676525</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalikavu</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Andiyoorkunnu</name>
+    <pinCode>673637</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pulikkal</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Angadipuram</name>
+    <pinCode>679321</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone>04933-257361</telephone>
+  </office>
+  <office>
+    <name>Anjapura</name>
+    <pinCode>676303</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Parpanangadi</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Areacode</name>
+    <pinCode>673639</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone>0483-2850220</telephone>
+  </office>
+  <office>
+    <name>Arimanal</name>
+    <pinCode>676525</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalikavu</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Arimbra</name>
+    <pinCode>673638</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kondotti</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Aripra</name>
+    <pinCode>679321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Angadipuram</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ariyallur</name>
+    <pinCode>676312</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone>0494-2473202</telephone>
+  </office>
+  <office>
+    <name>Arkkuparamba</name>
+    <pinCode>679322</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perintalmanna</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Athalur</name>
+    <pinCode>679573</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tavanur</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Athavanad</name>
+    <pinCode>676301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirunavaya</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Athrisseri</name>
+    <pinCode>676106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ponmundam</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Aurvacode</name>
+    <pinCode>679329</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Nilambur</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ayankalam</name>
+    <pinCode>679573</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tavanur</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ayikkarapadi</name>
+    <pinCode>673637</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pulikkal</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ayilakkad</name>
+    <pinCode>679576</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edapal</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ayirur</name>
+    <pinCode>679580</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perumbadappu</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Azhinjilam</name>
+    <pinCode>673632</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Farook College</suboffice>
+    <headoffice>Calicut</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bettath Pudiangadi</name>
+    <pinCode>676102</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0494-2422020</telephone>
+  </office>
+  <office>
+    <name>Bhoodan Colony</name>
+    <pinCode>679334</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chungathara</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Biyyam</name>
+    <pinCode>679576</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edapal</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Ponani Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Calicut Airport</name>
+    <pinCode>673647</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone>0483-2712404</telephone>
+  </office>
+  <office>
+    <name>Calicut University</name>
+    <pinCode>673635</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone>0494-2400240</telephone>
+  </office>
+  <office>
+    <name>Chamravattom</name>
+    <pinCode>676102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bettath Pudiangadi</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chandakkunnu</name>
+    <pinCode>679329</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nilambur</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chappanangadi</name>
+    <pinCode>676503</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kottakkal</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chathallur</name>
+    <pinCode>676541</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edavanna</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chathangottupuram</name>
+    <pinCode>679328</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wandoor</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chattipparamba</name>
+    <pinCode>676504</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kodur-malabar</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chelakkad</name>
+    <pinCode>679323</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pulamanthole</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chelembra</name>
+    <pinCode>673634</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone>0483-2891380</telephone>
+  </office>
+  <office>
+    <name>Chembrassei</name>
+    <pinCode>676521</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pandikkad</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chembrasseri East</name>
+    <pinCode>679327</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuvvur</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chemmalasseri</name>
+    <pinCode>679323</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pulamanthole</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chemmaniyode</name>
+    <pinCode>679325</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pattikkad</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chemmarakkattur</name>
+    <pinCode>673639</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Areacode</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chenakkalangadi</name>
+    <pinCode>673636</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tenhipalam</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chengottur</name>
+    <pinCode>676503</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kottakkal</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chennara</name>
+    <pinCode>676561</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mangalam-MLP</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cherakkaparamba</name>
+    <pinCode>679321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Angadipuram</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cheriyamundam</name>
+    <pinCode>676106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ponmundam</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cherukara</name>
+    <pinCode>679340</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Malappuram</headoffice>
+    <location>Perintalmanna Taluk of Malappuram District</location>
+    <telephone>04933-230470</telephone>
+  </office>
+  <office>
+    <name>Cherumukku</name>
+    <pinCode>676306</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirurangadi</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cherur</name>
+    <pinCode>676304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vengara MLP</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cherushola</name>
+    <pinCode>676510</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Randathani</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cheruvallur</name>
+    <pinCode>679575</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nannamukku</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cheruvayur</name>
+    <pinCode>673645</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone>0483-2725240</telephone>
+  </office>
+  <office>
+    <name>Chettipadi</name>
+    <pinCode>676319</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone>0494-2410693</telephone>
+  </office>
+  <office>
+    <name>Chettippadam</name>
+    <pinCode>679332</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pookkottumpadam</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chikkode</name>
+    <pinCode>673645</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cheruvayur</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chirayil</name>
+    <pinCode>673638</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kondotti</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chokkad</name>
+    <pinCode>679332</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pookkottumpadam</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chullippara</name>
+    <pinCode>676508</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Valakolam</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chulliyode</name>
+    <pinCode>679332</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pookkottumpadam</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chungathara</name>
+    <pinCode>679334</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone>04931-230230</telephone>
+  </office>
+  <office>
+    <name>Codacal</name>
+    <pinCode>676108</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Triprangode</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Downhill</name>
+    <pinCode>676519</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Malappuram</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone>0483-2734940</telephone>
+  </office>
+  <office>
+    <name>Edakkara-nilambur</name>
+    <pinCode>679331</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone>04931-275220</telephone>
+  </office>
+  <office>
+    <name>Edapal</name>
+    <pinCode>679576</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ponani</headoffice>
+    <location>Ponani Taluk of Malappuram District</location>
+    <telephone>0494-2680204</telephone>
+  </office>
+  <office>
+    <name>Edapatta</name>
+    <pinCode>679326</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Melattur (Malappuram)</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perintalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Edarikode</name>
+    <pinCode>676501</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone>0483-2744042</telephone>
+  </office>
+  <office>
+    <name>Edavanna</name>
+    <pinCode>676541</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone>0483-2700220</telephone>
+  </office>
+  <office>
+    <name>Edayattur</name>
+    <pinCode>679326</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Melattur (Malappuram)</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Edayur</name>
+    <pinCode>676552</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Valancheri</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Edayur North</name>
+    <pinCode>676552</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Valancheri</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Edivanna</name>
+    <pinCode>679329</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nilambur</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Elad</name>
+    <pinCode>679340</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cherukara</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Elankur</name>
+    <pinCode>676122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manjeri College</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Eramangalam</name>
+    <pinCode>679587</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone>0494-2670205</telephone>
+  </office>
+  <office>
+    <name>Eranhikode</name>
+    <pinCode>676541</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edavanna</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Eranhimangad</name>
+    <pinCode>679329</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nilambur</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Eravimangalam</name>
+    <pinCode>679340</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cherukara</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Erumamunda</name>
+    <pinCode>679334</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chungathara</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ezhupathekkar</name>
+    <pinCode>676525</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalikavu</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gramam</name>
+    <pinCode>679579</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Veliankode</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Hajiarpalli</name>
+    <pinCode>676519</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Downhill</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Indianur</name>
+    <pinCode>676503</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kottakkal</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Irimbiliyam</name>
+    <pinCode>679572</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0494-2620226</telephone>
+  </office>
+  <office>
+    <name>Iringallur</name>
+    <pinCode>676304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vengara MLP</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Iringattiri</name>
+    <pinCode>676523</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karuvarakundu</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Iringavur</name>
+    <pinCode>676103</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thalakkadathur</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Irumbuzhi</name>
+    <pinCode>676509</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Munduparmba</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Iruvetti</name>
+    <pinCode>673639</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Areacode</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Iswaramangalam</name>
+    <pinCode>679573</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tavanur</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Ponani Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kadalundinagaram</name>
+    <pinCode>673314</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone>0494-2470204</telephone>
+  </office>
+  <office>
+    <name>Kadambode</name>
+    <pinCode>676521</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pandikkad</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kadampuzha</name>
+    <pinCode>676553</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0494-2615640</telephone>
+  </office>
+  <office>
+    <name>Kadancheri</name>
+    <pinCode>679582</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kaladi-MLP</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kadannamanna</name>
+    <pinCode>679324</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mankada</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kadavanad</name>
+    <pinCode>679586</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ponani South</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Ponani Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kadungapurm</name>
+    <pinCode>679321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Angadipuram</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kakkad</name>
+    <pinCode>676306</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirurangadi</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kaladi-MLP</name>
+    <pinCode>679582</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ponani</headoffice>
+    <location>Ponani Taluk of Malappuram District</location>
+    <telephone>0494-2699302</telephone>
+  </office>
+  <office>
+    <name>Kalikavu</name>
+    <pinCode>676525</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone>04931-257230</telephone>
+  </office>
+  <office>
+    <name>Kalkundu</name>
+    <pinCode>676523</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karuvarakundu</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kallarmangalam</name>
+    <pinCode>676553</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadampuzha</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kalpakancheri</name>
+    <pinCode>676551</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0494-2547030</telephone>
+  </office>
+  <office>
+    <name>Kambalakallu</name>
+    <pinCode>679333</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manimooly</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kanhiramukku</name>
+    <pinCode>679584</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone>0494-2670203</telephone>
+  </office>
+  <office>
+    <name>Kanmanam</name>
+    <pinCode>676551</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpakancheri</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kanmanam-thekkummuri</name>
+    <pinCode>676551</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpakancheri</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kannamangalam</name>
+    <pinCode>676304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vengara MLP</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kannamangalam West</name>
+    <pinCode>676305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Abdurahiman Nagar</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kannamvettikavu</name>
+    <pinCode>673637</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pulikkal</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kannattipadi</name>
+    <pinCode>676304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vengara MLP</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kappil</name>
+    <pinCode>679328</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wandoor</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karad</name>
+    <pinCode>679339</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vaniyambalam</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karad Paramba</name>
+    <pinCode>673632</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Farook College</suboffice>
+    <headoffice>Calicut</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karakkode</name>
+    <pinCode>679333</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manimooly</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karakkunnu</name>
+    <pinCode>676123</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karuvambram</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karapuram</name>
+    <pinCode>679331</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edakkara-nilambur</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karekkad</name>
+    <pinCode>676553</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadampuzha</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karippol</name>
+    <pinCode>676552</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Valancheri</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karippur</name>
+    <pinCode>673638</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kondotti</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karthala</name>
+    <pinCode>679571</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuttippuram</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karukathiruthy</name>
+    <pinCode>679584</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Kanhiramukku</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Ponani Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karulai</name>
+    <pinCode>679330</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nilambur RS</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karumarakkad</name>
+    <pinCode>673640</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vazhakkad</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karuvambram</name>
+    <pinCode>676123</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Manjeri Taluk of Malappuram District</location>
+    <telephone>0483-2766160</telephone>
+  </office>
+  <office>
+    <name>Karuvambram West</name>
+    <pinCode>676123</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karuvambram</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karuvarakundu</name>
+    <pinCode>676523</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone>04931-280220</telephone>
+  </office>
+  <office>
+    <name>Kavalamukkatta</name>
+    <pinCode>679332</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pookkottumpadam</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kavancheri</name>
+    <pinCode>676561</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mangalam-MLP</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kavanur</name>
+    <pinCode>673639</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Areacode</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kerala Estate</name>
+    <pinCode>676525</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalikavu</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Keraladheeswarapuram</name>
+    <pinCode>676307</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tanalur</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kizhakkumpadam</name>
+    <pinCode>679326</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Melattur (Malappuram)</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kizhattur</name>
+    <pinCode>679325</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pattikkad</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perintalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kizhuparamba</name>
+    <pinCode>673639</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Areacode</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Klari</name>
+    <pinCode>676501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edarikode</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kodinhi</name>
+    <pinCode>676309</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone>0494-2480562</telephone>
+  </office>
+  <office>
+    <name>Kodur-malabar</name>
+    <pinCode>676504</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Malappuram</headoffice>
+    <location>Perintalmanna Taluk of Malappuram District</location>
+    <telephone>0483-2868730</telephone>
+  </office>
+  <office>
+    <name>Kokkur</name>
+    <pinCode>679591</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone>0494-2650820</telephone>
+  </office>
+  <office>
+    <name>Kolakkattuchali</name>
+    <pinCode>673634</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chelembra</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kolaparamba</name>
+    <pinCode>676522</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone>0483-2783240</telephone>
+  </office>
+  <office>
+    <name>Kolathur-MLP</name>
+    <pinCode>679338</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone>04933-203230</telephone>
+  </office>
+  <office>
+    <name>Kololamba</name>
+    <pinCode>679576</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edapal</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kondotti</name>
+    <pinCode>673638</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone>0483-2712020</telephone>
+  </office>
+  <office>
+    <name>Koomankulam</name>
+    <pinCode>676123</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karuvambram</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Koorad</name>
+    <pinCode>679339</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vaniyambalam</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kooriyad</name>
+    <pinCode>676306</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirurangadi</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Koottil</name>
+    <pinCode>679324</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mankada</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kotakkad</name>
+    <pinCode>676319</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chettipadi</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kottakkal</name>
+    <pinCode>676503</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0483-2744041</telephone>
+  </office>
+  <office>
+    <name>Kottilangadi</name>
+    <pinCode>676506</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Malappuram</headoffice>
+    <location>Perintalmanna Taluk of Malappuram District</location>
+    <telephone>04933-282290</telephone>
+  </office>
+  <office>
+    <name>Kumminiparamba</name>
+    <pinCode>673638</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kondotti</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kunnakkavu</name>
+    <pinCode>679340</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cherukara</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kunnappally</name>
+    <pinCode>679322</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perintalmanna</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perintalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kunnummalpotti</name>
+    <pinCode>679331</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edakkara-nilambur</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuruga</name>
+    <pinCode>676551</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpakancheri</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kurumbalangode</name>
+    <pinCode>679334</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chungathara</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kurumbathur</name>
+    <pinCode>676301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirunavaya</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuruvambalam</name>
+    <pinCode>679338</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kolathur-MLP</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perintalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuttathy</name>
+    <pinCode>676523</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karuvarakundu</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuttayi</name>
+    <pinCode>676562</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0494-2630060</telephone>
+  </office>
+  <office>
+    <name>Kuttippala</name>
+    <pinCode>676501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edarikode</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuttippuram</name>
+    <pinCode>679571</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ponani</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0494-2608302</telephone>
+  </office>
+  <office>
+    <name>Kuttippuram-kottakkal</name>
+    <pinCode>676503</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kottakkal</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuttur North</name>
+    <pinCode>676305</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Abdurahiman Nagar</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuzhimanna</name>
+    <pinCode>673641</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone>0483-2756133</telephone>
+  </office>
+  <office>
+    <name>Maithra</name>
+    <pinCode>673639</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Areacode</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Makkaraparamba</name>
+    <pinCode>676507</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone>04933-282030</telephone>
+  </office>
+  <office>
+    <name>Malappuram Civil Station</name>
+    <pinCode>676505</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Malappuram</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone>0483-2734905</telephone>
+  </office>
+  <office>
+    <name>Malappuram</name>
+    <pinCode>676505</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone>0483-2734880</telephone>
+  </office>
+  <office>
+    <name>Mampad College</name>
+    <pinCode>676542</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mampad</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mampad</name>
+    <pinCode>676542</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone>04931-200470</telephone>
+  </office>
+  <office>
+    <name>Mampattumoola</name>
+    <pinCode>679332</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pookkottumpadam</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mampuram</name>
+    <pinCode>676306</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirurangadi</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manalaya</name>
+    <pinCode>679357</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Anamangad</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mangalam-MLP</name>
+    <pinCode>676561</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0494-2566030</telephone>
+  </office>
+  <office>
+    <name>Mangattiri</name>
+    <pinCode>676105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thekkummuri</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manhappatta</name>
+    <pinCode>676123</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karuvambram</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manimooly</name>
+    <pinCode>679333</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone>04931-275240</telephone>
+  </office>
+  <office>
+    <name>Manjeri Bazar</name>
+    <pinCode>676121</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone>0483-2766860</telephone>
+  </office>
+  <office>
+    <name>Manjeri College</name>
+    <pinCode>676122</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone>0483-2766820</telephone>
+  </office>
+  <office>
+    <name>Manjeri-kla</name>
+    <pinCode>676121</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone>0483-2766856</telephone>
+  </office>
+  <office>
+    <name>Mankada Pallippuram</name>
+    <pinCode>679324</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mankada</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mankada</name>
+    <pinCode>679324</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Malappuram</headoffice>
+    <location>Perintalmanna Taluk of Malappuram District</location>
+    <telephone>04933-239230</telephone>
+  </office>
+  <office>
+    <name>Mannarmala</name>
+    <pinCode>679325</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pattikkad</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mannathipoyil</name>
+    <pinCode>679332</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pookkottumpadam</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Marakkara</name>
+    <pinCode>676553</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadampuzha</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Marancheri</name>
+    <pinCode>679581</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ponani</headoffice>
+    <location>Ponani Taluk of Malappuram District</location>
+    <telephone>0494-2670204</telephone>
+  </office>
+  <office>
+    <name>Mariyad</name>
+    <pinCode>676122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manjeri College</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Marutha</name>
+    <pinCode>679333</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manimooly</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mattarakkal</name>
+    <pinCode>679322</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perintalmanna</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perintalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mattathur</name>
+    <pinCode>676528</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Othukkungal</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Meenadathur</name>
+    <pinCode>676307</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tanalur</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Melangadi</name>
+    <pinCode>673638</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kondotti</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Melattur (Malappuram)</name>
+    <pinCode>679326</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Malappuram</headoffice>
+    <location>Perintalmanna Taluk of Malappuram District</location>
+    <telephone>04933-278230</telephone>
+  </office>
+  <office>
+    <name>Melmuri</name>
+    <pinCode>676517</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pookkottur</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Meppadam</name>
+    <pinCode>676542</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mampad</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Modapoika</name>
+    <pinCode>679331</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edakkara-nilambur</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mongam</name>
+    <pinCode>673642</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Malappuram</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone>0483-2772020</telephone>
+  </office>
+  <office>
+    <name>Mookkuthala</name>
+    <pinCode>679574</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone>0494-2650420</telephone>
+  </office>
+  <office>
+    <name>Mooniyur</name>
+    <pinCode>676311</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone>0494-2478563</telephone>
+  </office>
+  <office>
+    <name>Moonniyur South</name>
+    <pinCode>676311</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mooniyur</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Moorkkanad</name>
+    <pinCode>679338</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kolathur-MLP</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perintalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Moothedam</name>
+    <pinCode>679331</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edakkara-nilambur</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Morayur</name>
+    <pinCode>673642</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mongam</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mudur</name>
+    <pinCode>679578</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vattamkulam</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Munda</name>
+    <pinCode>679331</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edakkara-nilambur</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mundakkal</name>
+    <pinCode>673645</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cheruvayur</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Munderi</name>
+    <pinCode>679334</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chungathara</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Munduparmba</name>
+    <pinCode>676509</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Malappuram</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone>0483-2734920</telephone>
+  </office>
+  <office>
+    <name>Muthuparamba</name>
+    <pinCode>673638</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kondotti</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Muthuvallur</name>
+    <pinCode>673638</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kondotti</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Muttanur</name>
+    <pinCode>676561</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mangalam-MLP</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Naduvath</name>
+    <pinCode>679328</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wandoor</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Naduvattom</name>
+    <pinCode>679571</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuttippuram</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nallanthanni</name>
+    <pinCode>679330</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nilambur RS</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nambooripotty</name>
+    <pinCode>679333</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manimooly</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nannambra</name>
+    <pinCode>676320</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tayyalingal</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nannamukku</name>
+    <pinCode>679575</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ponani</headoffice>
+    <location>Ponani Taluk of Malappuram District</location>
+    <telephone>0494-2650460</telephone>
+  </office>
+  <office>
+    <name>Nannamukku South</name>
+    <pinCode>679575</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nannamukku</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nariparamba</name>
+    <pinCode>679573</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tavanur</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Narukara</name>
+    <pinCode>676122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manjeri College</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nediyirippu</name>
+    <pinCode>673638</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kondotti</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Neduva</name>
+    <pinCode>676303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Parpanangadi</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Neelancheri</name>
+    <pinCode>676525</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalikavu</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nellikuth</name>
+    <pinCode>676122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manjeri College</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nilambur RS</name>
+    <pinCode>679330</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone>04931-220360</telephone>
+  </office>
+  <office>
+    <name>Nilambur</name>
+    <pinCode>679329</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone>04931-220377</telephone>
+  </office>
+  <office>
+    <name>Niramaruthur</name>
+    <pinCode>676109</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0494-2422040</telephone>
+  </office>
+  <office>
+    <name>Olakara</name>
+    <pinCode>676306</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirurangadi</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Olamathil</name>
+    <pinCode>673642</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mongam</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Olavattur</name>
+    <pinCode>673638</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kondotti</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Olukur</name>
+    <pinCode>673642</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mongam</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Omachapuzha</name>
+    <pinCode>676320</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tayyalingal</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Omanur</name>
+    <pinCode>673645</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cheruvayur</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Oorakam Kizhumuri</name>
+    <pinCode>676519</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Downhill</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Oorakam Melmuri</name>
+    <pinCode>676519</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Downhill</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Othalur West</name>
+    <pinCode>679591</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kokkur</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Othukkungal</name>
+    <pinCode>676528</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0483-2839400</telephone>
+  </office>
+  <office>
+    <name>Ozhur</name>
+    <pinCode>676307</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tanalur</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pachattiri</name>
+    <pinCode>676105</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thekkummuri</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Padinharekkara</name>
+    <pinCode>676562</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuttayi</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Padinhattumuri</name>
+    <pinCode>676506</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kottilangadi</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Padirikode</name>
+    <pinCode>679326</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Melattur (Malappuram)</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Padiripadam</name>
+    <pinCode>679334</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chungathara</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Palachode</name>
+    <pinCode>679338</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kolathur-MLP</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Palakkad(MLP)</name>
+    <pinCode>673641</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuzhimanna</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Palakkalvetta</name>
+    <pinCode>679327</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuvvur</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Palapetty</name>
+    <pinCode>679579</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Veliankode</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Palathole</name>
+    <pinCode>679340</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cherukara</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Palemad</name>
+    <pinCode>679331</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edakkara-nilambur</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Palengara</name>
+    <pinCode>679330</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nilambur RS</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pallikkal</name>
+    <pinCode>673634</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chelembra</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pallikuth</name>
+    <pinCode>679334</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chungathara</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Panampilavu</name>
+    <pinCode>673639</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Areacode</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Panangattur</name>
+    <pinCode>676302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tanur-MBR</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pandallur</name>
+    <pinCode>676521</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pandikkad</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pandallur Hills</name>
+    <pinCode>676521</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pandikkad</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pandamangalam</name>
+    <pinCode>676503</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Kottakkal</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pandikkad</name>
+    <pinCode>676521</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone>0483-2783230</telephone>
+  </office>
+  <office>
+    <name>Panga</name>
+    <pinCode>679338</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kolathur-MLP</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perintalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Panga Chendy</name>
+    <pinCode>679338</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kolathur-MLP</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Panga South</name>
+    <pinCode>679338</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kolathur-MLP</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pannippara</name>
+    <pinCode>676541</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edavanna</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pantarangadi</name>
+    <pinCode>676306</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirurangadi</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pappinippara</name>
+    <pinCode>676122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manjeri College</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Parambilpeedika</name>
+    <pinCode>676317</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Velimukku</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Parammalangadi</name>
+    <pinCode>676551</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpakancheri</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Parappur</name>
+    <pinCode>676503</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kottakkal</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Paravanna</name>
+    <pinCode>676502</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0494-2422034</telephone>
+  </office>
+  <office>
+    <name>Pariyapuram</name>
+    <pinCode>679321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Angadipuram</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pariyapuram</name>
+    <pinCode>676302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tanur-MBR</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Parpanangadi</name>
+    <pinCode>676303</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone>0494-2410201</telephone>
+  </office>
+  <office>
+    <name>Pathaikara</name>
+    <pinCode>679322</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perintalmanna</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perintalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pathappiriyam</name>
+    <pinCode>676123</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karuvambram</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pathar</name>
+    <pinCode>679334</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chungathara</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pathayakallu</name>
+    <pinCode>676553</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadampuzha</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pathiriyal</name>
+    <pinCode>676123</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karuvambram</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pattarkadavu</name>
+    <pinCode>676519</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Downhill</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pattikkad</name>
+    <pinCode>679325</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Malappuram</headoffice>
+    <location>Perintalmanna Taluk of Malappuram District</location>
+    <telephone>04933-235660</telephone>
+  </office>
+  <office>
+    <name>Payinkanniyur</name>
+    <pinCode>679571</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuttippuram</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Payyanad</name>
+    <pinCode>676122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manjeri College</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pazhamallur</name>
+    <pinCode>676506</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kottilangadi</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pazhanji-mlp</name>
+    <pinCode>679579</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Veliankode</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pazhur</name>
+    <pinCode>679571</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuttippuram</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Perakamanna</name>
+    <pinCode>676541</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edavanna</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Perasannur</name>
+    <pinCode>679571</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuttippuram</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Perimbalam</name>
+    <pinCode>676509</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Munduparmba</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Perintalmanna Bazar</name>
+    <pinCode>679322</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone>04933-227420</telephone>
+  </office>
+  <office>
+    <name>Perintalmanna</name>
+    <pinCode>679322</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone>04933-227340</telephone>
+  </office>
+  <office>
+    <name>Perinthattiri</name>
+    <pinCode>676507</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Makkaraparamba</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Perumbadappu</name>
+    <pinCode>679580</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ponani</headoffice>
+    <location>Ponani Taluk of Malappuram District</location>
+    <telephone>0494-2670201</telephone>
+  </office>
+  <office>
+    <name>Perumparamba</name>
+    <pinCode>679576</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edapal</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Peruparamba-ugrapuram</name>
+    <pinCode>673639</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Areacode</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Peruvallur</name>
+    <pinCode>673638</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kondotti</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pidavannur</name>
+    <pinCode>679574</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mookkuthala</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Polpakara</name>
+    <pinCode>679576</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edapal</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ponani</name>
+    <pinCode>679577</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone>0494-2666020</telephone>
+  </office>
+  <office>
+    <name>Ponani Nagaram</name>
+    <pinCode>679583</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone>0494-2666008</telephone>
+  </office>
+  <office>
+    <name>Ponani South</name>
+    <pinCode>679586</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone>0494-2666009</telephone>
+  </office>
+  <office>
+    <name>Ponmala</name>
+    <pinCode>676528</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Othukkungal</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ponmundam</name>
+    <pinCode>676106</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0494-2586090</telephone>
+  </office>
+  <office>
+    <name>Ponniyakurissi</name>
+    <pinCode>679322</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perintalmanna</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pookayil Bazar</name>
+    <pinCode>676107</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0494-2422041</telephone>
+  </office>
+  <office>
+    <name>Pookkottumpadam</name>
+    <pinCode>679332</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone>04931-260228</telephone>
+  </office>
+  <office>
+    <name>Pookkottur</name>
+    <pinCode>676517</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Malappuram</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone>0483-2772040</telephone>
+  </office>
+  <office>
+    <name>Pookottumanna</name>
+    <pinCode>679334</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chungathara</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Poolamanna</name>
+    <pinCode>679327</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuvvur</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Poongode</name>
+    <pinCode>679327</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuvvur</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Poonthavanam</name>
+    <pinCode>679325</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pattikkad</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Poovathikkal</name>
+    <pinCode>673639</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Areacode</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Porur</name>
+    <pinCode>679339</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vaniyambalam</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Poyilisseri</name>
+    <pinCode>676102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bettath Pudiangadi</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puducode - Feroke</name>
+    <pinCode>673633</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ramanattukara</suboffice>
+    <headoffice>Calicut</headoffice>
+    <location>Eranad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puduppalli</name>
+    <pinCode>676102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bettath Pudiangadi</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pulamanthole</name>
+    <pinCode>679323</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Malappuram</headoffice>
+    <location>Perintalmanna Taluk of Malappuram District</location>
+    <telephone>04933-267230</telephone>
+  </office>
+  <office>
+    <name>Pulikkal</name>
+    <pinCode>673637</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone>0483-2790100</telephone>
+  </office>
+  <office>
+    <name>Puliyakkode</name>
+    <pinCode>673641</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuzhimanna</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pullancheri</name>
+    <pinCode>676122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manjeri College</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pullengode</name>
+    <pinCode>676525</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalikavu</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pulliparamba</name>
+    <pinCode>673634</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chelembra</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pullippadam</name>
+    <pinCode>676542</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mampad</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pulpatta</name>
+    <pinCode>676123</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karuvambram</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pulvetta</name>
+    <pinCode>676523</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karuvarakundu</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Punnappala</name>
+    <pinCode>679328</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Wandoor</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Punnathala</name>
+    <pinCode>676552</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Valancheri</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puramannur</name>
+    <pinCode>676552</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Valancheri</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puranga</name>
+    <pinCode>679584</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kanhiramukku</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Purathur</name>
+    <pinCode>676102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bettath Pudiangadi</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puthanangadi</name>
+    <pinCode>679321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Angadipuram</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puthiyakadappuram</name>
+    <pinCode>676302</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tanur-MBR</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puthuparamba</name>
+    <pinCode>676501</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edarikode</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puthur -kottakkal</name>
+    <pinCode>676503</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kottakkal</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puthur-pallikkal</name>
+    <pinCode>673636</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tenhipalam</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puzhakkattiri</name>
+    <pinCode>679321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Angadipuram</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perintalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ramankuth</name>
+    <pinCode>679330</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nilambur RS</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ramapuram</name>
+    <pinCode>679321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Angadipuram</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Randathani</name>
+    <pinCode>676510</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0494-2610201</telephone>
+  </office>
+  <office>
+    <name>Sugapuram</name>
+    <pinCode>679576</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edapal</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>T.K.Colony</name>
+    <pinCode>679332</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pookkottumpadam</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Talekode</name>
+    <pinCode>679322</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perintalmanna</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perintalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Talekode West</name>
+    <pinCode>679322</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Perintalmanna</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tanalur</name>
+    <pinCode>676307</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0494-2582347</telephone>
+  </office>
+  <office>
+    <name>Tanur Nagaram</name>
+    <pinCode>676302</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Tanur-MBR</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tanur-MBR</name>
+    <pinCode>676302</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0494-2440300</telephone>
+  </office>
+  <office>
+    <name>Tavanur</name>
+    <pinCode>679573</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ponani</headoffice>
+    <location>Ponani Taluk of Malappuram District</location>
+    <telephone>0494-2686230</telephone>
+  </office>
+  <office>
+    <name>Tavanur-feroke</name>
+    <pinCode>673641</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuzhimanna</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tayyalingal</name>
+    <pinCode>676320</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone>0494-2480555</telephone>
+  </office>
+  <office>
+    <name>Tenhipalam</name>
+    <pinCode>673636</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone>0494-2400230</telephone>
+  </office>
+  <office>
+    <name>Thachinganadam</name>
+    <pinCode>679325</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pattikkad</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perintalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thalakkadathur</name>
+    <pinCode>676103</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0494-2586160</telephone>
+  </office>
+  <office>
+    <name>Tharis</name>
+    <pinCode>676523</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karuvarakundu</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thekkankuttur</name>
+    <pinCode>676551</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpakancheri</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thekkummuri</name>
+    <pinCode>676105</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0494-2422080</telephone>
+  </office>
+  <office>
+    <name>Thelakkad</name>
+    <pinCode>679325</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pattikkad</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thennala</name>
+    <pinCode>676508</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Valakolam</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Theyyathumpadam</name>
+    <pinCode>679331</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Edakkara-nilambur</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thootha</name>
+    <pinCode>679357</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Anamangad</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thottilangadi</name>
+    <pinCode>673639</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Areacode</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thottumukkam</name>
+    <pinCode>673639</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Areacode</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thurakkal</name>
+    <pinCode>673638</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kondotti</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tirunavaya</name>
+    <pinCode>676301</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0494-2602002</telephone>
+  </office>
+  <office>
+    <name>Tirur East Bazar</name>
+    <pinCode>676101</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0494-2422003</telephone>
+  </office>
+  <office>
+    <name>Tirur(kerala)</name>
+    <pinCode>676101</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0494-2422025</telephone>
+  </office>
+  <office>
+    <name>Tirurangadi Bazar</name>
+    <pinCode>676306</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone>0494-2460320</telephone>
+  </office>
+  <office>
+    <name>Tirurangadi</name>
+    <pinCode>676306</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone>0494-2460330</telephone>
+  </office>
+  <office>
+    <name>Tirurkad</name>
+    <pinCode>679321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Angadipuram</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tiruvali</name>
+    <pinCode>676123</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karuvambram</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tolavanur</name>
+    <pinCode>676552</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Valancheri</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Trikkalangode</name>
+    <pinCode>676123</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karuvambram</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Trikkanapuram</name>
+    <pinCode>679573</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tavanur</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tirunavaya</name>
+    <pinCode>676301</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0494-2602002</telephone>
+  </office>
+  <office>
+    <name>Tirur East Bazar</name>
+    <pinCode>676101</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0494-2422003</telephone>
+  </office>
+  <office>
+    <name>Tirur(kerala)</name>
+    <pinCode>676101</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0494-2422025</telephone>
+  </office>
+  <office>
+    <name>Tirurangadi Bazar</name>
+    <pinCode>676306</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone>0494-2460320</telephone>
+  </office>
+  <office>
+    <name>Tirurangadi</name>
+    <pinCode>676306</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone>0494-2460330</telephone>
+  </office>
+  <office>
+    <name>Tirurkad</name>
+    <pinCode>679321</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Angadipuram</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tiruvali</name>
+    <pinCode>676123</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karuvambram</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tolavanur</name>
+    <pinCode>676552</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Valancheri</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Trikkalangode</name>
+    <pinCode>676123</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Karuvambram</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Trikkanapuram</name>
+    <pinCode>679573</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tavanur</suboffice>
+    <headoffice>Ponani</headoffice>
+    <location>Ponnani Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Trikkandiyur</name>
+    <pinCode>676104</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Taluk of Malappuram District</location>
+    <telephone>0494-2422070</telephone>
+  </office>
+  <office>
+    <name>Trippanachi</name>
+    <pinCode>673641</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuzhimanna</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Triprangode</name>
+    <pinCode>676108</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0494-2566040</telephone>
+  </office>
+  <office>
+    <name>Tuvvur</name>
+    <pinCode>679327</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone>04931-284140</telephone>
+  </office>
+  <office>
+    <name>Ullanam</name>
+    <pinCode>676303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Parpanangadi</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ullanam North</name>
+    <pinCode>676303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Parpanangadi</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Uppada</name>
+    <pinCode>679334</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chungathara</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Urangattiri</name>
+    <pinCode>673639</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Areacode</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vadakkangara</name>
+    <pinCode>679324</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mankada</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perintalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vadakkumbram</name>
+    <pinCode>676552</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Valancheri</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vadakkumpadam</name>
+    <pinCode>679339</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vaniyambalam</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vadapuram</name>
+    <pinCode>676542</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mampad</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vakkad</name>
+    <pinCode>676502</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Paravanna</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vakkethodi</name>
+    <pinCode>676122</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Manjeri College</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Valakolam</name>
+    <pinCode>676508</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone>0494-2495040</telephone>
+  </office>
+  <office>
+    <name>Valambur</name>
+    <pinCode>679325</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pattikkad</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perintalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Valamkulam</name>
+    <pinCode>679357</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Anamangad</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Valancheri</name>
+    <pinCode>676552</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone>0494-2644302</telephone>
+  </office>
+  <office>
+    <name>Valapuram</name>
+    <pinCode>679323</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pulamanthole</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Valavannur</name>
+    <pinCode>676551</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpakancheri</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Valillapuzha</name>
+    <pinCode>673639</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Areacode</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Valiyakunnu</name>
+    <pinCode>676552</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Valancheri</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Valiyaparamba</name>
+    <pinCode>673637</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pulikkal</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Valiyora</name>
+    <pinCode>676304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vengara MLP</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vallikkapatta</name>
+    <pinCode>679324</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mankada</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vallikkunnu</name>
+    <pinCode>673314</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadalundinagaram</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vallikkunnu North</name>
+    <pinCode>673314</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kadalundinagaram</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Valluvambram</name>
+    <pinCode>673642</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mongam</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Valluvangad</name>
+    <pinCode>676521</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pandikkad</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Valluvangad South</name>
+    <pinCode>676521</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pandikkad</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vaniyambalam</name>
+    <pinCode>679339</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone>04931-236061</telephone>
+  </office>
+  <office>
+    <name>Vattalur</name>
+    <pinCode>676507</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Makkaraparamba</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vattamkulam</name>
+    <pinCode>679578</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ponani</headoffice>
+    <location>Ponani Taluk of Malappuram District</location>
+    <telephone>0494-2680203</telephone>
+  </office>
+  <office>
+    <name>Vazhakkad</name>
+    <pinCode>673640</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone>0483-2725230</telephone>
+  </office>
+  <office>
+    <name>Vazhayur</name>
+    <pinCode>673633</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ramanattukara</suboffice>
+    <headoffice>Calicut</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vazhayur East</name>
+    <pinCode>673633</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ramanattukara</suboffice>
+    <headoffice>Calicut</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vazhenkada</name>
+    <pinCode>679357</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Anamangad</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vazhikkadavu</name>
+    <pinCode>679333</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Manimooly</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Veliankode</name>
+    <pinCode>679579</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Ponani</headoffice>
+    <location>Ponani Taluk of Malappuram District</location>
+    <telephone>0494-2677330</telephone>
+  </office>
+  <office>
+    <name>Velimukku</name>
+    <pinCode>676317</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone>0494-2477290</telephone>
+  </office>
+  <office>
+    <name>Velimukku South</name>
+    <pinCode>676317</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Velimukku</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vellachal</name>
+    <pinCode>676106</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ponmundam</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vellayur</name>
+    <pinCode>679327</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tuvvur</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vellila</name>
+    <pinCode>679324</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mankada</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Velliyanchery</name>
+    <pinCode>679326</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Melattur (Malappuram)</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vellur</name>
+    <pinCode>676517</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pookkottur</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vengad</name>
+    <pinCode>679338</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kolathur-MLP</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vengalur</name>
+    <pinCode>676102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bettath Pudiangadi</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vengara MLP</name>
+    <pinCode>676304</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone>0494-2450201</telephone>
+  </office>
+  <office>
+    <name>Vengoor</name>
+    <pinCode>679325</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pattikkad</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perinthalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Venniyur</name>
+    <pinCode>676508</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Valakolam</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirurangadi Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vettathur</name>
+    <pinCode>679326</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Melattur (Malappuram)</suboffice>
+    <headoffice>Malappuram</headoffice>
+    <location>Perintalmanna Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vettilappara</name>
+    <pinCode>673639</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Areacode</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vettom</name>
+    <pinCode>676102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bettath Pudiangadi</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vettom-pallippuram</name>
+    <pinCode>676102</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bettath Pudiangadi</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vilayil</name>
+    <pinCode>673641</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuzhimanna</suboffice>
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Ernad Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vyrancode</name>
+    <pinCode>676301</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tirunavaya</suboffice>
+    <headoffice>Tirur(kerala)</headoffice>
+    <location>Tirur Taluk of Malappuram District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Wandoor</name>
+    <pinCode>679328</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Manjeri-kla</headoffice>
+    <location>Nilambur Taluk of Malappuram District</location>
+    <telephone>04931-247030</telephone>
+  </office>
+  <office>
     <name>Adayamon</name>
     <pinCode>695614</pinCode>
     <status>Branch Office(Delivery)</status>
@@ -28618,5 +32650,1481 @@
     <headoffice>Neyyattinkara</headoffice>
     <location>Neyyattinkara Taluk of Thiruvananthapuram District</location>
     <telephone />
+  </office>
+  <office>
+    <name>Achooranam</name>
+    <pinCode>673575</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pozhuthana</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Alattil</name>
+    <pinCode>670644</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thalappuzha</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Amara Kuni</name>
+    <pinCode>673579</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pulpalli</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ambalavayal</name>
+    <pinCode>673593</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone>04936-260420</telephone>
+  </office>
+  <office>
+    <name>Anjukunnu</name>
+    <pinCode>670645</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mananthavady</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Arambatta Kunnu</name>
+    <pinCode>673575</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pozhuthana</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Arattuthara</name>
+    <pinCode>670645</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mananthavady</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Arinjerummal</name>
+    <pinCode>670721</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panamaram</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Athirattu Kunnu</name>
+    <pinCode>673596</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kenichira</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bavali</name>
+    <pinCode>670646</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kartikulam</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Beenachi</name>
+    <pinCode>673592</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sulthan Bathery</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bhoodanam Colony</name>
+    <pinCode>673579</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pulpalli</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Bibleland</name>
+    <pinCode>673575</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pozhuthana</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chedalath</name>
+    <pinCode>673592</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sulthan Bathery</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cheengeri</name>
+    <pinCode>673593</pinCode>
+    <status>Branch Office(Non Delivery)</status>
+    <suboffice>Ambalavayal</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cheeral</name>
+    <pinCode>673595</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthan Batheri Taluk of Wayanad District</location>
+    <telephone>04936-262740</telephone>
+  </office>
+  <office>
+    <name>Cheeyambam</name>
+    <pinCode>673579</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pulpalli</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chellangode</name>
+    <pinCode>673581</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vatuvanchal</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chembra</name>
+    <pinCode>673577</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Meppadi</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chennalode</name>
+    <pinCode>673121</pinCode>
+    <status>Branch Office(Delivery) directly a/w Head Office</status>
+    <suboffice />
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cherakkara(wayanad)</name>
+    <pinCode>670644</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thalappuzha</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Cherukattoor</name>
+    <pinCode>670721</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panamaram</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chettapalam</name>
+    <pinCode>673579</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pulpalli</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Choothupara</name>
+    <pinCode>673596</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kenichira</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chulliote</name>
+    <pinCode>673592</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sulthan Bathery</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Chundale</name>
+    <pinCode>673123</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone>04936-202370</telephone>
+  </office>
+  <office>
+    <name>Cottanad</name>
+    <pinCode>673577</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Meppadi</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Echchome</name>
+    <pinCode>670721</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panamaram</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Edavaka</name>
+    <pinCode>670645</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mananthavady</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ellumannam</name>
+    <pinCode>670645</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mananthavady</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kabanigiri</name>
+    <pinCode>673579</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pulpalli</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kadalmat</name>
+    <pinCode>673581</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vatuvanchal</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthan Batheri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kakka Vayal</name>
+    <pinCode>673122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpetta North</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kalanadi Kolli</name>
+    <pinCode>673579</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pulpalli</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kalathu Vayal</name>
+    <pinCode>673593</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ambalavayal</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kalpetta</name>
+    <pinCode>673121</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone>04936-203411</telephone>
+  </office>
+  <office>
+    <name>Kalpetta North</name>
+    <pinCode>673122</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone>04936-202270</telephone>
+  </office>
+  <office>
+    <name>Kambalakkad</name>
+    <pinCode>673122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpetta North</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiti Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kammana</name>
+    <pinCode>670645</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mananthavady</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kampatti</name>
+    <pinCode>670644</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thalappuzha</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kaniyambetta</name>
+    <pinCode>673122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpetta North</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kaniyambetta</name>
+    <pinCode>673121</pinCode>
+    <status>Branch Office(Delivery) directly a/w Head Office</status>
+    <suboffice />
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kappattumala</name>
+    <pinCode>670644</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thalappuzha</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karachal</name>
+    <pinCode>673591</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Meenangadi</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karadipara</name>
+    <pinCode>673593</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ambalavayal</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karakkamala</name>
+    <pinCode>670645</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mananthavady</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karani</name>
+    <pinCode>673591</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Meenangadi</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karinkutty</name>
+    <pinCode>673122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpetta North</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kariyambadi</name>
+    <pinCode>673591</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Meenangadi</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kartikulam</name>
+    <pinCode>670646</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone>04935-250420</telephone>
+  </office>
+  <office>
+    <name>Kattayad</name>
+    <pinCode>670731</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vellamunda</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kavumannam</name>
+    <pinCode>673121</pinCode>
+    <status>Branch Office(Delivery) directly a/w Head Office</status>
+    <suboffice />
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kayakunnu</name>
+    <pinCode>670721</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panamaram</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kellur</name>
+    <pinCode>670645</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mananthavady</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kenichira</name>
+    <pinCode>673596</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone>04936-211550</telephone>
+  </office>
+  <office>
+    <name>Kidanganad</name>
+    <pinCode>673592</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sulthan Bathery</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthan Batheri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kolagapara</name>
+    <pinCode>673591</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Meenangadi</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Koleri</name>
+    <pinCode>673596</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kenichira</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kottarakunnu</name>
+    <pinCode>670731</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vellamunda</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kottathara</name>
+    <pinCode>673122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpetta North</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Krishna Giri</name>
+    <pinCode>673591</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Meenangadi</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthan Batheri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kumbaleri</name>
+    <pinCode>673591</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Meenangadi</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kunhome</name>
+    <pinCode>670731</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vellamunda</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kunnamangalam Wayanad</name>
+    <pinCode>670645</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mananthavady</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kunnambetta</name>
+    <pinCode>673123</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chundale</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kuppadi</name>
+    <pinCode>673592</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sulthan Bathery</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthan Batheri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Lakkidi</name>
+    <pinCode>673576</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vythiri</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Madakkimala</name>
+    <pinCode>673122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpetta North</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Madakunnu</name>
+    <pinCode>673121</pinCode>
+    <status>Branch Office(Delivery) directly a/w Head Office</status>
+    <suboffice />
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Makkiad</name>
+    <pinCode>670731</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vellamunda</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manal Vayal</name>
+    <pinCode>673579</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pulpalli</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mananthavady</name>
+    <pinCode>670645</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone>04935-240320</telephone>
+  </office>
+  <office>
+    <name>Mandad</name>
+    <pinCode>673122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpetta North</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Maniyangode</name>
+    <pinCode>673122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpetta North</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Manjoora</name>
+    <pinCode>673575</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pozhuthana</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Marakadavu</name>
+    <pinCode>673579</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pulpalli</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mattilayam</name>
+    <pinCode>670731</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vellamunda</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Meenangadi</name>
+    <pinCode>673591</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthan Bathery Taluk of Wayanad District</location>
+    <telephone>04936-247220</telephone>
+  </office>
+  <office>
+    <name>Meppadi</name>
+    <pinCode>673577</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthan Bathery Taluk of Wayanad District</location>
+    <telephone>04936-282420</telephone>
+  </office>
+  <office>
+    <name>Moodakolli</name>
+    <pinCode>673592</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sulthan Bathery</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mookuthi Kunnu</name>
+    <pinCode>673595</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cheeral</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Moolan Kavu</name>
+    <pinCode>673592</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sulthan Bathery</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mullankolli</name>
+    <pinCode>673579</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pulpalli</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mundakai</name>
+    <pinCode>673577</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Meppadi</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mundakutty</name>
+    <pinCode>670645</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mananthavady</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Muthanga</name>
+    <pinCode>673592</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sulthan Bathery</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthan Batheri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Muttil</name>
+    <pinCode>673122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpetta North</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mylambadi</name>
+    <pinCode>673591</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Meenangadi</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nadavayal</name>
+    <pinCode>670721</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panamaram</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Naiketty</name>
+    <pinCode>673592</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sulthan Bathery</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nallara Chal</name>
+    <pinCode>673593</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ambalavayal</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nallurnad</name>
+    <pinCode>670645</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mananthavady</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nambiar Kunnu</name>
+    <pinCode>673595</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cheeral</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Narikkundu</name>
+    <pinCode>673593</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ambalavayal</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nathamkuni</name>
+    <pinCode>673577</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Meppadi</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nenmeni</name>
+    <pinCode>673592</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sulthan Bathery</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthan Batheri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nenmeni Kunnu</name>
+    <pinCode>673595</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cheeral</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nirvaram</name>
+    <pinCode>670721</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Panamaram</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Nulpuzha</name>
+    <pinCode>673592</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sulthan Bathery</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Padichira</name>
+    <pinCode>673579</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pulpalli</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthan Batheri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Padinhara Thara</name>
+    <pinCode>673575</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pozhuthana</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pakkom</name>
+    <pinCode>673579</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pulpalli</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Palakolli</name>
+    <pinCode>673579</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pulpalli</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pallikunnu Wynad</name>
+    <pinCode>673122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpetta North</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pambra</name>
+    <pinCode>673592</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sulthan Bathery</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Panamaram</name>
+    <pinCode>670721</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone>04935-220720</telephone>
+  </office>
+  <office>
+    <name>Panavally</name>
+    <pinCode>670646</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kartikulam</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pariyaram - Wynad</name>
+    <pinCode>673122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpetta North</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Payyampalli</name>
+    <pinCode>670646</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kartikulam</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pazhupathur</name>
+    <pinCode>673592</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sulthan Bathery</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Perikallur</name>
+    <pinCode>673579</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pulpalli</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Periya</name>
+    <pinCode>670644</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thalappuzha</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pilakavu</name>
+    <pinCode>670645</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mananthavady</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pinangode</name>
+    <pinCode>673121</pinCode>
+    <status>Branch Office(Delivery) directly a/w Head Office</status>
+    <suboffice />
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Poomulla</name>
+    <pinCode>673592</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sulthan Bathery</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Poothadi</name>
+    <pinCode>673596</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kenichira</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthan Batheri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Porur(wayanad)</name>
+    <pinCode>670644</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thalappuzha</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pozhuthana</name>
+    <pinCode>673575</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone>04936-255240</telephone>
+  </office>
+  <office>
+    <name>Pudusseri</name>
+    <pinCode>670645</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mananthavady</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pudusserikadavu</name>
+    <pinCode>670645</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mananthavady</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pulpalli</name>
+    <pinCode>673579</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthan Bathery Taluk of Wayanad District</location>
+    <telephone>04936-240220</telephone>
+  </office>
+  <office>
+    <name>Puthan Kunnu</name>
+    <pinCode>673595</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cheeral</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puthumala</name>
+    <pinCode>673577</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Meppadi</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puthur Vayal</name>
+    <pinCode>673577</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Meppadi</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Puzhamutti</name>
+    <pinCode>673121</pinCode>
+    <status>Branch Office(Delivery) directly a/w Head Office</status>
+    <suboffice />
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Ripon Wynad</name>
+    <pinCode>673577</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Meppadi</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sasimala</name>
+    <pinCode>673579</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pulpalli</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Seetha Mount</name>
+    <pinCode>673579</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pulpalli</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sugandhagiri</name>
+    <pinCode>673576</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vythiri</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Sulthan Bathery East</name>
+    <pinCode>673592</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone>04936-220220</telephone>
+  </office>
+  <office>
+    <name>Sulthan Bathery</name>
+    <pinCode>673592</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthan Bathery Taluk of Wayanad District</location>
+    <telephone>04936-220220</telephone>
+  </office>
+  <office>
+    <name>Tavinhal</name>
+    <pinCode>670644</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thalappuzha</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thalappuzha</name>
+    <pinCode>670644</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone>04935-256240</telephone>
+  </office>
+  <office>
+    <name>Thariote</name>
+    <pinCode>673575</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pozhuthana</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thariote North</name>
+    <pinCode>673575</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pozhuthana</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tharuvana</name>
+    <pinCode>670645</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mananthavady</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thazha Munda</name>
+    <pinCode>673596</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kenichira</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thazhathur</name>
+    <pinCode>673595</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Cheeral</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thekkumthara</name>
+    <pinCode>673121</pinCode>
+    <status>Branch Office(Delivery) directly a/w Head Office</status>
+    <suboffice />
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thettamala</name>
+    <pinCode>670731</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vellamunda</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tholpetty</name>
+    <pinCode>670646</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kartikulam</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thondernadu</name>
+    <pinCode>670731</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vellamunda</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Manantahvady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thovari Mala</name>
+    <pinCode>673592</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sulthan Bathery</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Thrissileri</name>
+    <pinCode>670646</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kartikulam</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tirunelli</name>
+    <pinCode>670646</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kartikulam</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Manantahvady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Tirunelli Temple</name>
+    <pinCode>670646</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kartikulam</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Trikai Petta</name>
+    <pinCode>673577</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Meppadi</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthan Batheri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vakeri</name>
+    <pinCode>673592</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sulthan Bathery</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthan Batheri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vala Vayal</name>
+    <pinCode>673596</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kenichira</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Valery</name>
+    <pinCode>670645</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mananthavady</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vallarmala</name>
+    <pinCode>673577</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Meppadi</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthan Bathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vallat</name>
+    <pinCode>670644</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thalappuzha</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Valluvadi</name>
+    <pinCode>673592</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sulthan Bathery</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vanhode</name>
+    <pinCode>670731</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Vellamunda</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Varadoor</name>
+    <pinCode>673591</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Meenangadi</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Varambetta</name>
+    <pinCode>673575</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pozhuthana</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Varayal</name>
+    <pinCode>670644</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Thalappuzha</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vatuvanchal</name>
+    <pinCode>673581</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthan Bathery Taluk of Wayanad District</location>
+    <telephone>04936-217240</telephone>
+  </office>
+  <office>
+    <name>Vazhu Vatta</name>
+    <pinCode>673122</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kalpetta North</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Veliyambam</name>
+    <pinCode>673579</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Pulpalli</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Sulthanbathery Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vellamunda</name>
+    <pinCode>670731</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone>04935-230340</telephone>
+  </office>
+  <office>
+    <name>Vemom</name>
+    <pinCode>670645</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mananthavady</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vimalanagar</name>
+    <pinCode>670645</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Mananthavady</suboffice>
+    <headoffice>Kalpetta</headoffice>
+    <location>Mananthavady Taluk of Wayanad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vythiri</name>
+    <pinCode>673576</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Kalpetta</headoffice>
+    <location>Vythiri Taluk of Wayanad District</location>
+    <telephone>04936-255230</telephone>
   </office>
 </offices>

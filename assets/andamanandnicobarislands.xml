@@ -91,6 +91,15 @@
   </office>
   <office>
     <name>Mildera</name>
+    <pinCode>744304</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kapanga</suboffice>
+    <headoffice>Port Blair</headoffice>
+    <location>Nancowrie Taluk of Nicobar District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Mus</name>
     <pinCode>744301</pinCode>
     <status>Branch Office(Delivery)</status>
     <suboffice>Carnicobar</suboffice>
@@ -145,6 +154,15 @@
   </office>
   <office>
     <name>Teressa</name>
+    <pinCode>744303</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nancowrie</suboffice>
+    <headoffice>Port Blair</headoffice>
+    <location>Carnicobar Taluk of Nicobar District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Trinket</name>
     <pinCode>744303</pinCode>
     <status>Branch Office(Delivery)</status>
     <suboffice>Nancowrie</suboffice>

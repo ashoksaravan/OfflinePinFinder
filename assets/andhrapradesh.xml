@@ -118,12 +118,21 @@
   </office>
   <office>
     <name>Allaparru</name>
+    <pinCode>522262</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kuchinapudi</suboffice>
+    <headoffice>Bapatla</headoffice>
+    <location>Kuchinapudi Taluk of Guntur District</location>
+    <telephone>Not Available</telephone>
+  </office>
+  <office>
+    <name>Allavaripalem</name>
     <pinCode>522259</pinCode>
     <status>Branch Office(Delivery)</status>
     <suboffice>Kanagala (Guntur)</suboffice>
     <headoffice>Bapatla</headoffice>
     <location>Cherukupalli Taluk of Guntur District</location>
-    <telephone>Not Available</telephone>
+    <telephone />
   </office>
   <office>
     <name>Alluru</name>
@@ -1954,6 +1963,15 @@
   </office>
   <office>
     <name>Gopalamvaripalem</name>
+    <pinCode>522626</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Murikipudi</suboffice>
+    <headoffice>Narasaraopet</headoffice>
+    <location>Chilakaluripet Taluk of Guntur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gopapuram</name>
     <pinCode>522310</pinCode>
     <status>Branch Office(Delivery)</status>
     <suboffice>Appikatla</suboffice>
@@ -2989,6 +3007,15 @@
   </office>
   <office>
     <name>Kazipeta</name>
+    <pinCode>522307</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kolakaluru</suboffice>
+    <headoffice>Tenali</headoffice>
+    <location>Tenali Taluk of Guntur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kesanapalle</name>
     <pinCode>522414</pinCode>
     <status>Branch Office(Delivery)</status>
     <suboffice>Dachpalle</suboffice>
@@ -4600,12 +4627,21 @@
   </office>
   <office>
     <name>Nandivelugu</name>
+    <pinCode>522306</pinCode>
+    <status>Sub Office(Delivery)</status>
+    <suboffice />
+    <headoffice>Tenali</headoffice>
+    <location>Nandivelugu Taluk of Guntur District</location>
+    <telephone>08644-241222</telephone>
+  </office>
+  <office>
+    <name>Nanduru</name>
     <pinCode>522315</pinCode>
     <status>Branch Office(Delivery)</status>
     <suboffice>Machavaram (Tenali)</suboffice>
     <headoffice>Bapatla</headoffice>
     <location>Machavaram Taluk of Guntur District</location>
-    <telephone>08644-241222</telephone>
+    <telephone />
   </office>
   <office>
     <name>Narakoduru</name>
@@ -4897,6 +4933,15 @@
   </office>
   <office>
     <name>Pakalapadu</name>
+    <pinCode>522403</pinCode>
+    <status>Branch Office(Delivery) directly a/w Head Office</status>
+    <suboffice />
+    <headoffice>Sattenapalle</headoffice>
+    <location>Sattenapalle Taluk of Guntur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Paladugu</name>
     <pinCode>522401</pinCode>
     <status>Branch Office(Delivery)</status>
     <suboffice>Siripuram (Guntur)</suboffice>
@@ -5257,9 +5302,18 @@
   </office>
   <office>
     <name>Pedamatlapudi</name>
+    <pinCode>522314</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Nizampatnam</suboffice>
+    <headoffice>Bapatla</headoffice>
+    <location>Nizampatnam Taluk of Guntur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Pedanandipadu</name>
     <pinCode>522235</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice>Nizampatnam</suboffice>
+    <suboffice />
     <headoffice>Guntur</headoffice>
     <location>Guntur Taluk of Guntur District</location>
     <telephone>0863-276689</telephone>
@@ -5518,6 +5572,15 @@
   </office>
   <office>
     <name>Petlurivaripalem</name>
+    <pinCode>522601</pinCode>
+    <status>Branch Office(Delivery) directly a/w Head Office</status>
+    <suboffice />
+    <headoffice>Narasaraopet</headoffice>
+    <location>Narasaraopet Taluk of Guntur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Phirangipuram</name>
     <pinCode>522529</pinCode>
     <status>Sub Office(Delivery)</status>
     <suboffice />
@@ -6526,6 +6589,15 @@
   </office>
   <office>
     <name>Taduvai</name>
+    <pinCode>522409</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Atchampet</suboffice>
+    <headoffice>Sattenapalle</headoffice>
+    <location>Atchampet Taluk of Guntur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Takkellapadu</name>
     <pinCode>522509</pinCode>
     <status>Branch Office(Delivery)</status>
     <suboffice>Pedakakani</suboffice>
@@ -7120,6 +7192,15 @@
   </office>
   <office>
     <name>Vanikunta</name>
+    <pinCode>522658</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Ipuru</suboffice>
+    <headoffice>Narasaraopet</headoffice>
+    <location>Ipuru Taluk of Guntur District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Vankayalapadu</name>
     <pinCode>522233</pinCode>
     <status>Branch Office(Delivery)</status>
     <suboffice>Edlapadu</suboffice>
@@ -8722,12 +8803,21 @@
   </office>
   <office>
     <name>Kulsumpura</name>
+    <pinCode>500006</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Hyderabad.</headoffice>
+    <location>Asifnagar Taluk of Hyderabad District</location>
+    <telephone>040-24826385</telephone>
+  </office>
+  <office>
+    <name>Kushaiguda</name>
     <pinCode>500062</pinCode>
     <status>Branch Office(Non Delivery)</status>
     <suboffice>Jai Jawan Colony</suboffice>
     <headoffice>Secunderabad</headoffice>
     <location>Secunderabad Taluk of Hyderabad District</location>
-    <telephone>040-24826385</telephone>
+    <telephone />
   </office>
   <office>
     <name>Kutbullapur</name>
@@ -8830,6 +8920,15 @@
   </office>
   <office>
     <name>Mangalhat</name>
+    <pinCode>500006</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Hyderabad.</headoffice>
+    <location>Asifnagar Taluk of Hyderabad District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>MG Road</name>
     <pinCode>500003</pinCode>
     <status>Sub Office(Non Delivery)</status>
     <suboffice />
@@ -9649,6 +9748,15 @@
   </office>
   <office>
     <name>A.Gokavaram</name>
+    <pinCode>534416</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kaikaram</suboffice>
+    <headoffice>Jangareddygudem</headoffice>
+    <location>Kaikaram Taluk of West Godavari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>A.Gopavaram</name>
     <pinCode>534197</pinCode>
     <status>Branch Office(Delivery)</status>
     <suboffice>Pippara</suboffice>
@@ -11476,6 +11584,15 @@
   </office>
   <office>
     <name>Gumparru</name>
+    <pinCode>534266</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Doddipatla</suboffice>
+    <headoffice>Palakol</headoffice>
+    <location>Taluk of West Godavari District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Gundepalli</name>
     <pinCode>534111</pinCode>
     <status>Branch Office(Delivery)</status>
     <suboffice>Ananthapallli</suboffice>
@@ -11710,12 +11827,21 @@
   </office>
   <office>
     <name>Jangareddygudem</name>
+    <pinCode>534447</pinCode>
+    <status>Head Office(Delivery)</status>
+    <suboffice />
+    <headoffice />
+    <location>J.r.gudem Taluk of West Godavari District</location>
+    <telephone>08821-225330</telephone>
+  </office>
+  <office>
+    <name>Jeedigunta</name>
     <pinCode>534302</pinCode>
     <status>Branch Office(Delivery)</status>
     <suboffice>Samisragudem</suboffice>
     <headoffice>Kovvur</headoffice>
     <location>Nidadavole Mandalam Taluk of West Godavari District</location>
-    <telephone>08821-225330</telephone>
+    <telephone />
   </office>
   <office>
     <name>Jeelakarragudem</name>

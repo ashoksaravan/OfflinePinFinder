@@ -4636,9 +4636,18 @@
   </office>
   <office>
     <name>Karavalimadapur</name>
+    <pinCode>641668</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Somanur</suboffice>
+    <headoffice>Mettupalayam</headoffice>
+    <location>Palladam Taluk of Coimbatore District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Karavalur</name>
     <pinCode>641670</pinCode>
     <status>Sub Office(Delivery)</status>
-    <suboffice>Somanur</suboffice>
+    <suboffice />
     <headoffice>Mettupalayam</headoffice>
     <location>Taluk of Coimbatore District</location>
     <telephone>-</telephone>
@@ -4858,6 +4867,15 @@
     <headoffice>Udamalpet</headoffice>
     <location>Udamalpet Taluk of Coimbatore District</location>
     <telephone>04252-278361</telephone>
+  </office>
+  <office>
+    <name>Komarapalayam</name>
+    <pinCode>641669</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Sultanpet</suboffice>
+    <headoffice>Tirupur</headoffice>
+    <location>Palladam Taluk of Coimbatore District</location>
+    <telephone />
   </office>
   <office>
     <name>Komarapalayam</name>
@@ -11053,12 +11071,21 @@
   </office>
   <office>
     <name>Panruti West</name>
+    <pinCode>607106</pinCode>
+    <status>Sub Office(Non Delivery)</status>
+    <suboffice />
+    <headoffice>Cuddalore</headoffice>
+    <location>Panruti Taluk of Cuddalore District</location>
+    <telephone>04142-294426</telephone>
+  </office>
+  <office>
+    <name>Paradur</name>
     <pinCode>608201</pinCode>
     <status>Branch Office(Delivery)</status>
     <suboffice>Orathur</suboffice>
     <headoffice>Chidambaram</headoffice>
     <location>Chidambaram Taluk of Cuddalore District</location>
-    <telephone>04142-294426</telephone>
+    <telephone />
   </office>
   <office>
     <name>Parangipettai</name>
@@ -17722,6 +17749,15 @@
   </office>
   <office>
     <name>Perumalnaickenvalasu</name>
+    <pinCode>624614</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Chatrapatti (Dindigul)</suboffice>
+    <headoffice>Palani</headoffice>
+    <location>Oddanchatram Taluk of Dindigul District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Perumalpudur</name>
     <pinCode>624615</pinCode>
     <status>Branch Office(Delivery)</status>
     <suboffice>Kalayamputhur</suboffice>
@@ -21142,6 +21178,15 @@
   </office>
   <office>
     <name>Kothamangalam</name>
+    <pinCode>638451</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Bhavanisagar</suboffice>
+    <headoffice>Mettupalayam</headoffice>
+    <location>Sathy Taluk of Erode District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Kottaimulanur</name>
     <pinCode>638106</pinCode>
     <status>Branch Office(Delivery)</status>
     <suboffice>Mulanur</suboffice>
@@ -45784,6 +45829,15 @@
   </office>
   <office>
     <name>Unjanaigoundampalayam</name>
+    <pinCode>637205</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Kumaramangalam</suboffice>
+    <headoffice>Tiruchengodu</headoffice>
+    <location>Tiruchengode Taluk of Namakkal District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Unjapalayam</name>
     <pinCode>638182</pinCode>
     <status>Branch Office(Delivery)</status>
     <suboffice>Velur (Namakkal)</suboffice>
@@ -90397,6 +90451,15 @@
   </office>
   <office>
     <name>Narayanakuppam</name>
+    <pinCode>606708</pinCode>
+    <status>Branch Office(Delivery)</status>
+    <suboffice>Tanipadi</suboffice>
+    <headoffice>Tiruvannamalai</headoffice>
+    <location>Chengam Taluk of Tiruvannamalai District</location>
+    <telephone />
+  </office>
+  <office>
+    <name>Narayanamangalam</name>
     <pinCode>632313</pinCode>
     <status>Branch Office(Delivery)</status>
     <suboffice>Kolappalur (Tiruvannamalai)</suboffice>
