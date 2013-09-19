@@ -48,31 +48,32 @@ public final class R {
     }
     public static final class id {
         public static final int Search=0x7f090007;
-        public static final int action_settings=0x7f09001a;
+        public static final int action_settings=0x7f09001b;
+        public static final int ad=0x7f090008;
         public static final int districts=0x7f090005;
         public static final int gridview=0x7f090003;
-        public static final int headofficeLabel=0x7f090012;
-        public static final int headofficeName=0x7f090013;
-        public static final int headofficeRow=0x7f090011;
+        public static final int headofficeLabel=0x7f090013;
+        public static final int headofficeName=0x7f090014;
+        public static final int headofficeRow=0x7f090012;
         public static final int linlaHeaderProgress=0x7f090000;
-        public static final int locationLabel=0x7f090015;
-        public static final int locationName=0x7f090016;
-        public static final int locationRow=0x7f090014;
+        public static final int locationLabel=0x7f090016;
+        public static final int locationName=0x7f090017;
+        public static final int locationRow=0x7f090015;
         public static final int noMatchingLayout=0x7f090002;
-        public static final int officeName=0x7f090009;
-        public static final int officeRow=0x7f090008;
+        public static final int officeName=0x7f09000a;
+        public static final int officeRow=0x7f090009;
         public static final int pbHeaderProgress=0x7f090001;
-        public static final int pincode=0x7f09000b;
-        public static final int pincodeRow=0x7f09000a;
+        public static final int pincode=0x7f09000c;
+        public static final int pincodeRow=0x7f09000b;
         public static final int states=0x7f090004;
-        public static final int statusRow=0x7f09000c;
-        public static final int stauts=0x7f09000d;
-        public static final int subofficeLabel=0x7f09000f;
-        public static final int subofficeName=0x7f090010;
-        public static final int subofficeRow=0x7f09000e;
-        public static final int telephoneLabel=0x7f090018;
-        public static final int telephoneNumber=0x7f090019;
-        public static final int telephoneRow=0x7f090017;
+        public static final int statusRow=0x7f09000d;
+        public static final int stauts=0x7f09000e;
+        public static final int subofficeLabel=0x7f090010;
+        public static final int subofficeName=0x7f090011;
+        public static final int subofficeRow=0x7f09000f;
+        public static final int telephoneLabel=0x7f090019;
+        public static final int telephoneNumber=0x7f09001a;
+        public static final int telephoneRow=0x7f090018;
         public static final int text1=0x7f090006;
     }
     public static final class layout {
@@ -87,6 +88,7 @@ public final class R {
     public static final class string {
         public static final int NA=0x7f050012;
         public static final int action_settings=0x7f050001;
+        public static final int admob_id=0x7f050014;
         public static final int app_name=0x7f050000;
         public static final int button_search=0x7f050003;
         public static final int districts=0x7f05000a;
@@ -104,7 +106,7 @@ public final class R {
         public static final int telephone=0x7f050011;
         public static final int text1=0x7f050008;
         public static final int title_activity_display_message=0x7f050006;
-        public static final int title_activity_display_result=0x7f050014;
+        public static final int title_activity_display_result=0x7f050015;
         public static final int title_activity_main=0x7f050005;
     }
     public static final class style {

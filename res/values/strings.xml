@@ -21,6 +21,7 @@
     <string name="telephone">Telephone</string>
     <string name="NA">N/A</string>
     <string name="noMatchingTxt">No matching records found</string>
+    <string name="admob_id">a1523a98479fcc9</string>
 
     <string-array name="states_array">
         <item>Andaman and Nicobar Islands</item>

@@ -13,6 +13,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.ads.AdRequest;
+import com.google.ads.AdView;
+
 public class PinFinderMainActivity extends Activity {
 
 	public final static String EXTRA_STATE = "com.ashoksm.offlinepinfinder.STATE";
@@ -46,6 +49,9 @@ public class PinFinderMainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_pin_finder_main);
 
+		AdView adView = (AdView)this.findViewById(R.id.ad);
+	    adView.loadAd(new AdRequest());
+	    
 		states = (AutoCompleteTextView) findViewById(R.id.states);
 		// Get the string array
 		String[] statesArr = getResources().getStringArray(R.array.states_array);

@@ -20,6 +20,8 @@ import android.widget.LinearLayout;
 import com.ashoksm.offlinepinfinder.adapter.CustomOfficeAdapter;
 import com.ashoksm.offlinepinfinder.logic.XMLParser;
 import com.ashoksm.offlinepinfinder.to.Office;
+import com.google.ads.AdRequest;
+import com.google.ads.AdView;
 
 public class DisplayResultActivity extends Activity {
 
@@ -31,7 +33,6 @@ public class DisplayResultActivity extends Activity {
 		requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
 		setProgressBarIndeterminateVisibility(true);
 		setContentView(R.layout.activity_display_result);
-
 		new AsyncTask<Void, Void, Void>() {
 			LinearLayout linlaHeaderProgress = (LinearLayout) findViewById(R.id.linlaHeaderProgress);
 			CustomOfficeAdapter adapter;

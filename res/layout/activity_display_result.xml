@@ -7,7 +7,7 @@
     <LinearLayout
         android:id="@+id/linlaHeaderProgress"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
         android:visibility="gone" >
@@ -54,5 +54,5 @@
         android:stretchMode="columnWidth"
         android:verticalSpacing="10dp" >
     </GridView>
-
+    
 </LinearLayout>

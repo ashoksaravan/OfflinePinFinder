@@ -3,24 +3,22 @@
     android:layout_height="fill_parent"
     android:background="#E5E4E2"
     android:gravity="center"
-    android:orientation="vertical"
-    android:paddingLeft="10dp"
-    android:paddingRight="10dp" >
+    android:orientation="vertical" >
 
     <AutoCompleteTextView
         android:id="@+id/states"
-        android:textColor="#000000"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/state" />
+        android:hint="@string/state"
+        android:textColor="#000000" />
 
     <AutoCompleteTextView
         android:id="@+id/districts"
-        android:textColor="#000000"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:hint="@string/districts" />
+        android:hint="@string/districts"
+        android:textColor="#000000" />
 
     <EditText
         android:id="@+id/text1"
@@ -36,5 +34,15 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="@string/button_search" />
+
+    <com.google.ads.AdView
+        xmlns:googleads="http://schemas.android.com/apk/lib/com.google.ads"
+        android:id="@+id/ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        googleads:adSize="BANNER"
+        googleads:loadAdOnCreate="true"
+        googleads:adUnitId="@string/admob_id" />
 
 </LinearLayout>
