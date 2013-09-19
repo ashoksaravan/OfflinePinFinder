@@ -12,6 +12,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.GridView;
@@ -20,8 +21,6 @@ import android.widget.LinearLayout;
 import com.ashoksm.offlinepinfinder.adapter.CustomOfficeAdapter;
 import com.ashoksm.offlinepinfinder.logic.XMLParser;
 import com.ashoksm.offlinepinfinder.to.Office;
-import com.google.ads.AdRequest;
-import com.google.ads.AdView;
 
 public class DisplayResultActivity extends Activity {
 
@@ -97,10 +96,14 @@ public class DisplayResultActivity extends Activity {
 	private ArrayList<Office> findMatchingOffices(ArrayList<Office> offices, String officeName, String districtName) {
 		ArrayList<Office> matchingOffices = new ArrayList<Office>();
 		for (Office office : offices) {
-			if (office.getDistrict().indexOf(districtName) >= 0
-					&& (office.getOfficeName().toLowerCase().indexOf(officeName) >= 0 || officeName.equals(office
-							.getPinCode()))) {
-				matchingOffices.add(office);
+			try {
+				if (office.getDistrict().indexOf(districtName) >= 0
+						&& (office.getOfficeName().toLowerCase().indexOf(officeName) >= 0 || officeName.equals(office
+								.getPinCode()))) {
+					matchingOffices.add(office);
+				}
+			} catch (Exception ex) {
+				Log.e("Failed Office", "Office Name :" + office.getOfficeName());
 			}
 		}
 		return matchingOffices;

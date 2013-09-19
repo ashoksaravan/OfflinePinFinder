@@ -11,12 +11,14 @@ public final class R {
     public static final class array {
         public static final int default_array=0x7f060001;
         public static final int district_an=0x7f060005;
-        public static final int district_ap=0x7f060006;
+        public static final int district_ap=0x7f060014;
+        public static final int district_ar=0x7f060006;
         public static final int district_ch=0x7f060007;
         public static final int district_dd=0x7f060009;
         public static final int district_dl=0x7f06000a;
         public static final int district_dn=0x7f060008;
         public static final int district_go=0x7f06000b;
+        public static final int district_ka=0x7f060013;
         public static final int district_kl=0x7f060004;
         public static final int district_la=0x7f06000c;
         public static final int district_ma=0x7f06000d;

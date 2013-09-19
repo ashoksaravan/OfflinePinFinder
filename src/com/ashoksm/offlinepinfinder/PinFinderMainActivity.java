@@ -49,9 +49,9 @@ public class PinFinderMainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_pin_finder_main);
 
-		AdView adView = (AdView)this.findViewById(R.id.ad);
-	    adView.loadAd(new AdRequest());
-	    
+		AdView adView = (AdView) this.findViewById(R.id.ad);
+		adView.loadAd(new AdRequest());
+
 		states = (AutoCompleteTextView) findViewById(R.id.states);
 		// Get the string array
 		String[] statesArr = getResources().getStringArray(R.array.states_array);
@@ -85,7 +85,7 @@ public class PinFinderMainActivity extends Activity {
 					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
 							android.R.layout.simple_list_item_1, districtPuducherry));
 				} else if (states.getText().toString().equals("Arunachal Pradesh")) {
-					String[] districtPuducherry = getResources().getStringArray(R.array.district_ap);
+					String[] districtPuducherry = getResources().getStringArray(R.array.district_ar);
 					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
 							android.R.layout.simple_list_item_1, districtPuducherry));
 				} else if (states.getText().toString().equals("Chandigarh")) {
@@ -134,6 +134,14 @@ public class PinFinderMainActivity extends Activity {
 							android.R.layout.simple_list_item_1, districtPuducherry));
 				} else if (states.getText().toString().equals("Tripura")) {
 					String[] districtPuducherry = getResources().getStringArray(R.array.district_tr);
+					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
+							android.R.layout.simple_list_item_1, districtPuducherry));
+				} else if (states.getText().toString().equals("Karnataka")) {
+					String[] districtPuducherry = getResources().getStringArray(R.array.district_ka);
+					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
+							android.R.layout.simple_list_item_1, districtPuducherry));
+				} else if (states.getText().toString().equals("Andhra Pradesh")) {
+					String[] districtPuducherry = getResources().getStringArray(R.array.district_ap);
 					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
 							android.R.layout.simple_list_item_1, districtPuducherry));
 				} else {
