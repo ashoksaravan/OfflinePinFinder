@@ -1,4 +1,4 @@
-package com.ashoksm.offlinepinfinder.to;
+package com.ashoksm.pinfinder.to;
 
 public class Office {
 

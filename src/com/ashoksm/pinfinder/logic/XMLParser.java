@@ -1,4 +1,4 @@
-package com.ashoksm.offlinepinfinder.logic;
+package com.ashoksm.pinfinder.logic;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
-import com.ashoksm.offlinepinfinder.to.Office;
+import com.ashoksm.pinfinder.to.Office;
 
 public class XMLParser {
 

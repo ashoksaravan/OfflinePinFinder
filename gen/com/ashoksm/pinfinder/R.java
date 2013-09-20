@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.ashoksm.offlinepinfinder;
+package com.ashoksm.pinfinder;
 
 public final class R {
     public static final class array {

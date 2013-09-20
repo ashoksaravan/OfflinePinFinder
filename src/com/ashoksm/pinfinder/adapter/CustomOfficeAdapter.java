@@ -1,4 +1,4 @@
-package com.ashoksm.offlinepinfinder.adapter;
+package com.ashoksm.pinfinder.adapter;
 
 import java.util.ArrayList;
 
@@ -11,8 +11,8 @@ import android.widget.BaseAdapter;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.ashoksm.offlinepinfinder.R;
-import com.ashoksm.offlinepinfinder.to.Office;
+import com.ashoksm.pinfinder.R;
+import com.ashoksm.pinfinder.to.Office;
 
 public class CustomOfficeAdapter extends BaseAdapter {
 

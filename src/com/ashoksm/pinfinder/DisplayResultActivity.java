@@ -1,4 +1,4 @@
-package com.ashoksm.offlinepinfinder;
+package com.ashoksm.pinfinder;
 
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -18,9 +18,9 @@ import android.view.Window;
 import android.widget.GridView;
 import android.widget.LinearLayout;
 
-import com.ashoksm.offlinepinfinder.adapter.CustomOfficeAdapter;
-import com.ashoksm.offlinepinfinder.logic.XMLParser;
-import com.ashoksm.offlinepinfinder.to.Office;
+import com.ashoksm.pinfinder.adapter.CustomOfficeAdapter;
+import com.ashoksm.pinfinder.logic.XMLParser;
+import com.ashoksm.pinfinder.to.Office;
 
 public class DisplayResultActivity extends Activity {
 
