@@ -1,7 +1,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="fill_parent"
-    android:background="#E5E4E2"
+    android:background="#FFFFFF"
     android:gravity="center"
     android:orientation="vertical" >
 
@@ -19,7 +19,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:hint="@string/state"
-            android:textColor="#000000" />
+            android:textColor="#BB0000" />
 
         <AutoCompleteTextView
             android:id="@+id/districts"
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:hint="@string/districts"
-            android:textColor="#000000" />
+            android:textColor="#BB0000" />
 
         <EditText
             android:id="@+id/text1"
@@ -35,6 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:hint="@string/text1"
+            android:textColor="#BB0000"
             android:inputType="text" />
 
         <Button
@@ -42,7 +43,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:clickable="false"
+            android:background="#BB0000"
+            android:textColor="#FFFFFF"
             android:text="@string/button_search" />
     </LinearLayout>
 

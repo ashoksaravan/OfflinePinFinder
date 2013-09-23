@@ -3,10 +3,9 @@ package com.ashoksm.pinfinder;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
-
-import org.xmlpull.v1.XmlPullParser;
-import org.xmlpull.v1.XmlPullParserFactory;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -19,12 +18,14 @@ import android.widget.GridView;
 import android.widget.LinearLayout;
 
 import com.ashoksm.pinfinder.adapter.CustomOfficeAdapter;
-import com.ashoksm.pinfinder.logic.XMLParser;
+import com.ashoksm.pinfinder.logic.SAXXMLParser;
 import com.ashoksm.pinfinder.to.Office;
+import com.google.ads.AdRequest;
+import com.google.ads.AdView;
 
 public class DisplayResultActivity extends Activity {
 
-	private static final Map<String, ArrayList<Office>> OFFICEHOLDER = new HashMap<String, ArrayList<Office>>();
+	private static final Map<String, List<Office>> OFFICEHOLDER = new HashMap<String, List<Office>>();
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +33,8 @@ public class DisplayResultActivity extends Activity {
 		requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
 		setProgressBarIndeterminateVisibility(true);
 		setContentView(R.layout.activity_display_result);
+		AdView adView = (AdView) this.findViewById(R.id.ad_1);
+		adView.loadAd(new AdRequest());
 		new AsyncTask<Void, Void, Void>() {
 			LinearLayout linlaHeaderProgress = (LinearLayout) findViewById(R.id.linlaHeaderProgress);
 			CustomOfficeAdapter adapter;
@@ -50,22 +53,30 @@ public class DisplayResultActivity extends Activity {
 						.replaceAll(" ", "");
 				String districtName = intent.getStringExtra(PinFinderMainActivity.EXTRA_DISTRICT).toLowerCase();
 				String officeName = intent.getStringExtra(PinFinderMainActivity.EXTRA_OFFICE).toLowerCase();
-				String fileName = stateName + ".xml";
 				try {
-					ArrayList<Office> offices = null;
-					if (!OFFICEHOLDER.containsKey(fileName)) {
-						XmlPullParserFactory pullParserFactory = XmlPullParserFactory.newInstance();
-						XmlPullParser parser = pullParserFactory.newPullParser();
-						InputStream in_s = getApplicationContext().getAssets().open(fileName);
-						parser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, false);
-						parser.setInput(in_s, null);
-						XMLParser xmlParser = new XMLParser();
-						offices = xmlParser.parseXML(parser);
-						OFFICEHOLDER.put(fileName, offices);
+					List<Office> state = new ArrayList<Office>();
+					if (!containsKey(stateName)) {
+						String[] fileNames = getAssets().list("");
+						for (String name : fileNames) {
+							if (name.endsWith(".xml") && name.indexOf(stateName) >= 0
+									&& !OFFICEHOLDER.containsKey(name)) {
+								InputStream in_s = getApplicationContext().getAssets().open(name);
+								List<Office> offices = SAXXMLParser.parse(in_s);
+								state.addAll(offices);
+								OFFICEHOLDER.put(name, offices);
+							} else if (OFFICEHOLDER.containsKey(name)) {
+								state.addAll(OFFICEHOLDER.get(name));
+							}
+						}
 					} else {
-						offices = OFFICEHOLDER.get(fileName);
+						for (Iterator<?> iterator = OFFICEHOLDER.entrySet().iterator(); iterator.hasNext();) {
+							Map.Entry<String, List<Office>> entry = (Map.Entry<String, List<Office>>) iterator.next();
+							if (entry.getKey().indexOf(stateName) >= 0) {
+								state.addAll(entry.getValue());
+							}
+						}
 					}
-					ArrayList<Office> matchingOffices = findMatchingOffices(offices, officeName, districtName);
+					ArrayList<Office> matchingOffices = findMatchingOffices(state, officeName, districtName);
 					if (matchingOffices.size() > 0) {
 						adapter = new CustomOfficeAdapter(DisplayResultActivity.this, matchingOffices);
 					}
@@ -73,6 +84,16 @@ public class DisplayResultActivity extends Activity {
 					e.printStackTrace();
 				}
 				return null;
+			}
+
+			private boolean containsKey(String fileName) {
+				for (Iterator<?> iterator = OFFICEHOLDER.entrySet().iterator(); iterator.hasNext();) {
+					Map.Entry<String, List<Office>> entry = (Map.Entry<String, List<Office>>) iterator.next();
+					if (entry.getKey().indexOf(fileName) >= 0) {
+						return true;
+					}
+				}
+				return false;
 			}
 
 			@Override
@@ -93,7 +114,7 @@ public class DisplayResultActivity extends Activity {
 		setProgressBarIndeterminateVisibility(false);
 	}
 
-	private ArrayList<Office> findMatchingOffices(ArrayList<Office> offices, String officeName, String districtName) {
+	private ArrayList<Office> findMatchingOffices(List<Office> offices, String officeName, String districtName) {
 		ArrayList<Office> matchingOffices = new ArrayList<Office>();
 		for (Office office : offices) {
 			try {
@@ -103,7 +124,7 @@ public class DisplayResultActivity extends Activity {
 					matchingOffices.add(office);
 				}
 			} catch (Exception ex) {
-				Log.e("Failed Office", "Office Name :" + office.getOfficeName());
+				Log.e("Failed Office", "Office Name :" + office.getPinCode());
 			}
 		}
 		return matchingOffices;

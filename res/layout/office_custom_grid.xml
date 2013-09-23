@@ -24,6 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".4"
             android:text="@string/officename"
+            android:textColor="#B31B1B"
             android:textIsSelectable="false"
             android:textStyle="bold" />
 
@@ -49,6 +50,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".4"
             android:text="@string/pincode"
+            android:textColor="#B31B1B"
             android:textIsSelectable="false"
             android:textStyle="bold" />
 
@@ -74,6 +76,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".4"
             android:text="@string/status"
+            android:textColor="#B31B1B"
             android:textIsSelectable="false"
             android:textStyle="bold" />
 
@@ -100,6 +103,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".4"
             android:text="@string/suboffice"
+            android:textColor="#B31B1B"
             android:textIsSelectable="false"
             android:textStyle="bold" />
 
@@ -127,6 +131,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".4"
             android:text="@string/headoffice"
+            android:textColor="#B31B1B"
             android:textIsSelectable="false"
             android:textStyle="bold" />
 
@@ -153,6 +158,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".4"
             android:text="@string/location"
+            android:textColor="#B31B1B"
             android:textIsSelectable="false"
             android:textStyle="bold" />
 
@@ -180,6 +186,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".4"
             android:text="@string/telephone"
+            android:textColor="#B31B1B"
             android:textIsSelectable="false"
             android:textStyle="bold" />
 
