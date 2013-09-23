@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.TreeMap;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -23,9 +24,14 @@ import com.ashoksm.pinfinder.to.Office;
 import com.google.ads.AdRequest;
 import com.google.ads.AdView;
 
+/**
+ * @author AshokSM
+ *
+ */
 public class DisplayResultActivity extends Activity {
 
-	private static final Map<String, List<Office>> OFFICEHOLDER = new HashMap<String, List<Office>>();
+	/** OFFICEHOLDER. */
+	private static final Map<String, List<Office>> OFFICEHOLDER = new TreeMap<String, List<Office>>();
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -55,7 +61,7 @@ public class DisplayResultActivity extends Activity {
 				String officeName = intent.getStringExtra(PinFinderMainActivity.EXTRA_OFFICE).toLowerCase();
 				try {
 					List<Office> state = new ArrayList<Office>();
-					if (!containsKey(stateName)) {
+					if (stateName.trim().length() == 0 || !containsKey(stateName)) {
 						String[] fileNames = getAssets().list("");
 						for (String name : fileNames) {
 							if (name.endsWith(".xml") && name.indexOf(stateName) >= 0
@@ -64,7 +70,7 @@ public class DisplayResultActivity extends Activity {
 								List<Office> offices = SAXXMLParser.parse(in_s);
 								state.addAll(offices);
 								OFFICEHOLDER.put(name, offices);
-							} else if (OFFICEHOLDER.containsKey(name)) {
+							} else if (name.indexOf(stateName) >= 0 && OFFICEHOLDER.containsKey(name)) {
 								state.addAll(OFFICEHOLDER.get(name));
 							}
 						}
@@ -81,7 +87,7 @@ public class DisplayResultActivity extends Activity {
 						adapter = new CustomOfficeAdapter(DisplayResultActivity.this, matchingOffices);
 					}
 				} catch (Exception e) {
-					e.printStackTrace();
+					Log.e("Error while searching office : ", e.getMessage());
 				}
 				return null;
 			}
@@ -114,6 +120,12 @@ public class DisplayResultActivity extends Activity {
 		setProgressBarIndeterminateVisibility(false);
 	}
 
+	/**
+	 * @param offices
+	 * @param officeName
+	 * @param districtName
+	 * @return
+	 */
 	private ArrayList<Office> findMatchingOffices(List<Office> offices, String officeName, String districtName) {
 		ArrayList<Office> matchingOffices = new ArrayList<Office>();
 		for (Office office : offices) {
