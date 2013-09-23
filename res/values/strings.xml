@@ -282,6 +282,189 @@
         <item>Warangal</item>
         <item>West Godavari</item>
     </string-array>
+    <string-array name="district_all">
+        <item>Karaikal</item>
+        <item>Mahe</item>
+        <item>Pondicherry</item>
+        <item>Yanam</item>
+        <item>Ariyalur</item>
+        <item>Chennai</item>
+        <item>Coimbatore</item>
+        <item>Cuddalore</item>
+        <item>Dharmapuri</item>
+        <item>Dindigul</item>
+        <item>Erode</item>
+        <item>Kanchipuram</item>
+        <item>Kanyakumari</item>
+        <item>Karur</item>
+        <item>Krishnagiri</item>
+        <item>Madurai</item>
+        <item>Nagapattinam </item>
+        <item>Namakkal</item>
+        <item>Nilgiris</item>
+        <item>Perambalur</item>
+        <item>Pudukkottai</item>
+        <item>Ramanathapuram</item>
+        <item>Salem</item>
+        <item>Sivaganga</item>
+        <item>Thanjavur</item>
+        <item>Theni</item>
+        <item>Tiruchirappalli</item>
+        <item>Tirunelveli</item>
+        <item>Tiruppur</item>
+        <item>Tiruvallur</item>
+        <item>Tiruvannamalai</item>
+        <item>Tiruvarur</item>
+        <item>Tuticorin</item>
+        <item>Vellore</item>
+        <item>Villupuram</item>
+        <item>Virudhunagar</item>
+        <item>Alappuzha</item>
+        <item>Ernakulam</item>
+        <item>Idukki</item>
+        <item>Kannur</item>
+        <item>Kasaragod</item>
+        <item>Kollam</item>
+        <item>Kottayam</item>
+        <item>Kozhikode</item>
+        <item>Malappuram</item>
+        <item>Palakkad</item>
+        <item>Pathanamthitta</item>
+        <item>Thiruvananthapuram</item>
+        <item>Thrissur</item>
+        <item>Wayanad</item>
+        <item>Nicobar</item>
+        <item>North And Middle Andaman</item>
+        <item>South Andaman</item>
+        <item>Changlang</item>
+        <item>East Kameng</item>
+        <item>East Siang</item>
+        <item>Kurung Kumey</item>
+        <item>Lohit</item>
+        <item>Lower Dibang Valley</item>
+        <item>Lower Subansiri</item>
+        <item>Papum Pare</item>
+        <item>Tawang</item>
+        <item>Tirap</item>
+        <item>Upper Siang</item>
+        <item>Upper Subansiri</item>
+        <item>West Kameng</item>
+        <item>West Siang</item>
+        <item>Chandigarh</item>
+        <item>Dadra &amp; Nagar Haveli</item>
+        <item>Daman</item>
+        <item>Diu</item>
+        <item>Central Delhi</item>
+        <item>East Delhi</item>
+        <item>New Delhi</item>
+        <item>North Delhi</item>
+        <item>North East Delhi</item>
+        <item>North West Delhi</item>
+        <item>South Delhi</item>
+        <item>South West Delhi</item>
+        <item>West Delhi</item>
+        <item>North Goa</item>
+        <item>South Goa</item>
+        <item>Lakshadweep</item>
+        <item>Bishnupur</item>
+        <item>Chandel</item>
+        <item>New Delhi</item>
+        <item>Churachandpur</item>
+        <item>Imphal East</item>
+        <item>Imphal West</item>
+        <item>Senapati</item>
+        <item>Tamenglong</item>
+        <item>Thoubal</item>
+        <item>Ukhrul</item>
+        <item>East Garo Hills</item>
+        <item>East Khasi Hills</item>
+        <item>Jaintia Hills</item>
+        <item>Ri Bhoi</item>
+        <item>Imphal East</item>
+        <item>Imphal West</item>
+        <item>South Garo Hills</item>
+        <item>West Garo Hills</item>
+        <item>West Khasi Hills</item>
+        <item>Aizawl</item>
+        <item>Champhai</item>
+        <item>Kolasib</item>
+        <item>Lawngtlai</item>
+        <item>Lunglei</item>
+        <item>Mammit</item>
+        <item>Saiha</item>
+        <item>Serchhip</item>
+        <item>Dimapur</item>
+        <item>Kiphire</item>
+        <item>Kohima</item>
+        <item>Longleng</item>
+        <item>Mokokchung</item>
+        <item>Mon</item>
+        <item>Peren</item>
+        <item>Phek</item>
+        <item>Tuensang</item>
+        <item>Wokha</item>
+        <item>Zunhebotto</item>
+        <item>East Sikkim</item>
+        <item>North Sikkim</item>
+        <item>South Sikkim</item>
+        <item>West Sikkim</item>
+        <item>Dhalai</item>
+        <item>North Tripura</item>
+        <item>South Tripura</item>
+        <item>West Tripura</item>
+        <item>Bagalkot</item>
+        <item>Bangalore</item>
+        <item>Bangalore Rural</item>
+        <item>Belgaum</item>
+        <item>Bellary</item>
+        <item>Bidar</item>
+        <item>Bijapur(KAR)</item>
+        <item>Chamrajnagar</item>
+        <item>Chickmagalur</item>
+        <item>Chikkaballapur</item>
+        <item>Chitradurga</item>
+        <item>Dakshina Kannada</item>
+        <item>Davangere</item>
+        <item>Gadag</item>
+        <item>Gulbarga</item>
+        <item>Hassan</item>
+        <item>Haveri</item>
+        <item>Kodagu</item>
+        <item>Kolar</item>
+        <item>Koppal</item>
+        <item>Mandya</item>
+        <item>Mysore</item>
+        <item>Raichur</item>
+        <item>Ramanagar</item>
+        <item>Shimoga</item>
+        <item>Tumkur</item>
+        <item>Udupi</item>
+        <item>UttaraKannada</item>
+        <item>Yadgir</item>
+        <item>Adilabad</item>
+        <item>Ananthapur</item>
+        <item>Chittoor</item>
+        <item>Cuddapah</item>
+        <item>East Godavari</item>
+        <item>Guntur</item>
+        <item>Hyderabad</item>
+        <item>K.V.Rangareddy</item>
+        <item>Karim Nagar</item>
+        <item>Khammam</item>
+        <item>Krishna</item>
+        <item>Kurnool</item>
+        <item>Mahabub Nagar</item>
+        <item>Medak</item>
+        <item>Nalgonda</item>
+        <item>Nellore</item>
+        <item>Nizamabad</item>
+        <item>Prakasam</item>
+        <item>Srikakulam</item>
+        <item>Visakhapatnam</item>
+        <item>Vizianagaram</item>
+        <item>Warangal</item>
+        <item>West Godavari</item>
+    </string-array>
 
     <string name="title_activity_display_result">Result</string>
 

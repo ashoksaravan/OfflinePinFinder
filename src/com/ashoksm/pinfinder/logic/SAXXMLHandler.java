@@ -7,6 +7,7 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
+import android.os.Build;
 import android.util.Log;
 
 import com.ashoksm.pinfinder.to.Office;
@@ -29,7 +30,8 @@ public class SAXXMLHandler extends DefaultHandler {
 	public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
 		// reset
 		sb = new StringBuilder();
-		if (qName.equalsIgnoreCase("office")) {
+		String corretcName = getCorrectName(qName, localName);
+		if (corretcName.equalsIgnoreCase("office")) {
 			// create a new instance of employee
 			office = new Office();
 		}
@@ -44,32 +46,43 @@ public class SAXXMLHandler extends DefaultHandler {
 	}
 
 	public void endElement(String uri, String localName, String qName) throws SAXException {
+		String corretcName = getCorrectName(qName, localName);
 		String value = sb.toString();
-		if (qName.equalsIgnoreCase("office")) {
+		if (corretcName.equalsIgnoreCase("office")) {
 			// add it to the list
 			offices.add(office);
-		} else if (qName.equalsIgnoreCase("name")) {
+		} else if (corretcName.equalsIgnoreCase("name")) {
 			office.setOfficeName(value);
-		} else if (qName.equalsIgnoreCase("pincode")) {
+		} else if (corretcName.equalsIgnoreCase("pincode")) {
 			office.setPinCode(value);
-		} else if (qName.equalsIgnoreCase("location")) {
+		} else if (corretcName.equalsIgnoreCase("location")) {
 			office.setLocation(value);
 			try {
-				String district = value.substring(value.toLowerCase().indexOf("taluk of ") + 9, value
-						.toLowerCase().indexOf("district"));
+				String district = value.substring(value.toLowerCase().indexOf("taluk of ") + 9, value.toLowerCase()
+						.indexOf("district"));
 				office.setDistrict(district.toLowerCase());
 			} catch (Exception ex) {
 				Log.e("Failed for the location : ", value);
 				Log.e("Unable to fetch the districts : ", office.getOfficeName());
 			}
-		} else if (qName.equalsIgnoreCase("status")) {
+		} else if (corretcName.equalsIgnoreCase("status")) {
 			office.setStatus(value);
-		} else if (qName.equalsIgnoreCase("suboffice")) {
+		} else if (corretcName.equalsIgnoreCase("suboffice")) {
 			office.setSuboffice(value);
-		} else if (qName.equalsIgnoreCase("headoffice")) {
+		} else if (corretcName.equalsIgnoreCase("headoffice")) {
 			office.setHeadoffice(value);
-		} else if (qName.equalsIgnoreCase("telephone")) {
+		} else if (corretcName.equalsIgnoreCase("telephone")) {
 			office.setTelephone(value);
 		}
+	}
+
+	private static String getCorrectName(String qName, String name) {
+		String retValue = null;
+		if (Build.VERSION.SDK_INT <= 7) {
+			retValue = name;
+		} else {
+			retValue = qName;
+		}
+		return retValue;
 	}
 }

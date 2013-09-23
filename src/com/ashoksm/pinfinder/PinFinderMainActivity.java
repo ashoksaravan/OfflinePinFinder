@@ -11,6 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.google.ads.AdRequest;
 import com.google.ads.AdView;
@@ -56,6 +57,10 @@ public class PinFinderMainActivity extends Activity {
 		// Create the adapter and set it to the AutoCompleteTextView
 		statesAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, statesArr);
 		states.setAdapter(statesAdapter);
+		// populate all districts
+		districts = (AutoCompleteTextView) findViewById(R.id.districts);
+		String[] allDistricts = getResources().getStringArray(R.array.district_all);
+		districts.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, allDistricts));
 		addStateChangeListener();
 		addListenerOnButton();
 	}
@@ -66,6 +71,7 @@ public class PinFinderMainActivity extends Activity {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position, long rowId) {
 				districts = (AutoCompleteTextView) findViewById(R.id.districts);
+				districts.setText("");
 				if (states.getText().toString().equals("Puducherry")) {
 					String[] districtPuducherry = getResources().getStringArray(R.array.district_puducherry);
 					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
@@ -142,6 +148,9 @@ public class PinFinderMainActivity extends Activity {
 					String[] districtPuducherry = getResources().getStringArray(R.array.district_ap);
 					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
 							android.R.layout.simple_list_item_1, districtPuducherry));
+				} else {
+					// supported
+					Toast.makeText(getApplicationContext(), "State not supported yet!!!", Toast.LENGTH_LONG).show();
 				}
 			}
 		});

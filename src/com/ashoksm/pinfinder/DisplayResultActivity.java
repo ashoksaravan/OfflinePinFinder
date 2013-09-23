@@ -2,7 +2,6 @@ package com.ashoksm.pinfinder;
 
 import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -24,13 +23,8 @@ import com.ashoksm.pinfinder.to.Office;
 import com.google.ads.AdRequest;
 import com.google.ads.AdView;
 
-/**
- * @author AshokSM
- *
- */
 public class DisplayResultActivity extends Activity {
 
-	/** OFFICEHOLDER. */
 	private static final Map<String, List<Office>> OFFICEHOLDER = new TreeMap<String, List<Office>>();
 
 	@Override
@@ -70,7 +64,7 @@ public class DisplayResultActivity extends Activity {
 								List<Office> offices = SAXXMLParser.parse(in_s);
 								state.addAll(offices);
 								OFFICEHOLDER.put(name, offices);
-							} else if (name.indexOf(stateName) >= 0 && OFFICEHOLDER.containsKey(name)) {
+							} else if (OFFICEHOLDER.containsKey(name) && name.indexOf(stateName) >= 0) {
 								state.addAll(OFFICEHOLDER.get(name));
 							}
 						}
@@ -86,8 +80,8 @@ public class DisplayResultActivity extends Activity {
 					if (matchingOffices.size() > 0) {
 						adapter = new CustomOfficeAdapter(DisplayResultActivity.this, matchingOffices);
 					}
-				} catch (Exception e) {
-					Log.e("Error while searching office : ", e.getMessage());
+				} catch (Exception ex) {
+					Log.e("Failed to parse the office : ", ex.getMessage());
 				}
 				return null;
 			}
@@ -120,12 +114,6 @@ public class DisplayResultActivity extends Activity {
 		setProgressBarIndeterminateVisibility(false);
 	}
 
-	/**
-	 * @param offices
-	 * @param officeName
-	 * @param districtName
-	 * @return
-	 */
 	private ArrayList<Office> findMatchingOffices(List<Office> offices, String officeName, String districtName) {
 		ArrayList<Office> matchingOffices = new ArrayList<Office>();
 		for (Office office : offices) {
