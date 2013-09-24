@@ -61,7 +61,7 @@ public class DisplayResultActivity extends Activity {
 							if (name.endsWith(".xml") && name.indexOf(stateName) >= 0
 									&& !OFFICEHOLDER.containsKey(name)) {
 								InputStream in_s = getApplicationContext().getAssets().open(name);
-								List<Office> offices = SAXXMLParser.parse(in_s);
+								List<Office> offices = SAXXMLParser.parse(in_s, name);
 								state.addAll(offices);
 								OFFICEHOLDER.put(name, offices);
 							} else if (OFFICEHOLDER.containsKey(name) && name.indexOf(stateName) >= 0) {

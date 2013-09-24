@@ -15,9 +15,9 @@
         android:id="@+id/officeRow"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="2dp"
+        android:paddingBottom="4dp"
         android:paddingLeft="5dp"
-        android:paddingTop="2dp" >
+        android:paddingTop="4dp" >
 
         <TextView
             android:layout_width="0dp"
@@ -41,9 +41,9 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/inner_border"
-        android:paddingBottom="2dp"
+        android:paddingBottom="4dp"
         android:paddingLeft="5dp"
-        android:paddingTop="2dp" >
+        android:paddingTop="4dp" >
 
         <TextView
             android:layout_width="0dp"
@@ -67,9 +67,9 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/inner_border"
-        android:paddingBottom="2dp"
+        android:paddingBottom="4dp"
         android:paddingLeft="5dp"
-        android:paddingTop="2dp" >
+        android:paddingTop="4dp" >
 
         <TextView
             android:layout_width="0dp"
@@ -93,9 +93,9 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/inner_border"
-        android:paddingBottom="2dp"
+        android:paddingBottom="4dp"
         android:paddingLeft="5dp"
-        android:paddingTop="2dp" >
+        android:paddingTop="4dp" >
 
         <TextView
             android:id="@+id/subofficeLabel"
@@ -121,9 +121,9 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/inner_border"
-        android:paddingBottom="2dp"
+        android:paddingBottom="4dp"
         android:paddingLeft="5dp"
-        android:paddingTop="2dp" >
+        android:paddingTop="4dp" >
 
         <TextView
             android:id="@+id/headofficeLabel"
@@ -148,9 +148,9 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/inner_border"
-        android:paddingBottom="2dp"
+        android:paddingBottom="4dp"
         android:paddingLeft="5dp"
-        android:paddingTop="2dp" >
+        android:paddingTop="4dp" >
 
         <TextView
             android:id="@+id/locationLabel"
@@ -172,13 +172,40 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/stateRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/inner_border"
+        android:paddingBottom="4dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="4dp" >
+
+        <TextView
+            android:id="@+id/stateLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:text="@string/state"
+            android:textColor="#B31B1B"
+            android:textIsSelectable="false"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stateName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".6"
+            android:textIsSelectable="true" />
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/telephoneRow"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/inner_border"
-        android:paddingBottom="2dp"
+        android:paddingBottom="4dp"
         android:paddingLeft="5dp"
-        android:paddingTop="2dp" >
+        android:paddingTop="4dp" >
 
         <TextView
             android:id="@+id/telephoneLabel"

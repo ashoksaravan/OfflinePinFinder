@@ -17,6 +17,7 @@ public class SAXXMLHandler extends DefaultHandler {
 	private List<Office> offices;
 	private StringBuilder sb;
 	private Office office;
+	private String stateName;
 
 	public SAXXMLHandler() {
 		offices = new ArrayList<Office>();
@@ -34,6 +35,7 @@ public class SAXXMLHandler extends DefaultHandler {
 		if (corretcName.equalsIgnoreCase("office")) {
 			// create a new instance of employee
 			office = new Office();
+			office.setStateName(getStateName());
 		}
 	}
 
@@ -84,5 +86,13 @@ public class SAXXMLHandler extends DefaultHandler {
 			retValue = qName;
 		}
 		return retValue;
+	}
+
+	public String getStateName() {
+		return stateName;
+	}
+
+	public void setStateName(String stateName) {
+		this.stateName = stateName;
 	}
 }

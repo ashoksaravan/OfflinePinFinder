@@ -18,6 +18,8 @@ public class Office {
 
 	private String district;
 
+	private String stateName;
+
 	public String getOfficeName() {
 		return officeName;
 	}
@@ -80,5 +82,13 @@ public class Office {
 
 	public void setDistrict(String district) {
 		this.district = district;
+	}
+
+	public String getStateName() {
+		return stateName;
+	}
+
+	public void setStateName(String stateName) {
+		this.stateName = stateName;
 	}
 }

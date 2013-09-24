@@ -82,11 +82,14 @@ public class CustomOfficeAdapter extends BaseAdapter {
 
 			holder.telephoneRow = (LinearLayout) v.findViewById(R.id.telephoneRow);
 
+			holder.state = (TextView) v.findViewById(R.id.stateName);
+
 			v.setTag(holder);
 
 			holder.officeName.setText(offices.get(position).getOfficeName());
 			holder.pincode.setText(offices.get(position).getPinCode());
 			holder.stauts.setText(offices.get(position).getStatus());
+			holder.state.setText(offices.get(position).getStateName());
 
 			if (offices.get(position).getSuboffice() != null
 					&& offices.get(position).getSuboffice().trim().length() > 0) {
@@ -135,5 +138,6 @@ public class CustomOfficeAdapter extends BaseAdapter {
 		LinearLayout locationRow;
 		TextView telephoneNumber;
 		LinearLayout telephoneRow;
+		TextView state;
 	}
 }
