@@ -1,6 +1,5 @@
 package com.ashoksm.pinfinder;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -13,10 +12,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.actionbarsherlock.app.SherlockActivity;
 import com.google.ads.AdRequest;
 import com.google.ads.AdView;
 
-public class PinFinderMainActivity extends Activity {
+public class PinFinderMainActivity extends SherlockActivity {
 
 	public final static String EXTRA_STATE = "com.ashoksm.offlinepinfinder.STATE";
 

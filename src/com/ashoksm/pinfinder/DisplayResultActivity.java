@@ -7,7 +7,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -17,13 +16,14 @@ import android.view.Window;
 import android.widget.GridView;
 import android.widget.LinearLayout;
 
+import com.actionbarsherlock.app.SherlockActivity;
 import com.ashoksm.pinfinder.adapter.CustomOfficeAdapter;
 import com.ashoksm.pinfinder.logic.SAXXMLParser;
 import com.ashoksm.pinfinder.to.Office;
 import com.google.ads.AdRequest;
 import com.google.ads.AdView;
 
-public class DisplayResultActivity extends Activity {
+public class DisplayResultActivity extends SherlockActivity {
 
 	private static final Map<String, List<Office>> OFFICEHOLDER = new TreeMap<String, List<Office>>();
 

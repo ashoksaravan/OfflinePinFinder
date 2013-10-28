@@ -15,7 +15,7 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppBaseTheme" >
+        android:theme="@style/Theme.Postoffice" >
         <activity
             android:name="com.ashoksm.pinfinder.PinFinderMainActivity"
             android:label="@string/app_name" >
