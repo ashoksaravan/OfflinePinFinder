@@ -107,22 +107,22 @@ public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
 		String where = "";
 
 		if (stateName.trim().length() > 0) {
-			where = " WHERE LOWER(" + STATE + ") LIKE '%" + stateName + "%'";
+			where = " WHERE LOWER(REPLACE(" + STATE + ",' ','')) LIKE '%" + stateName + "%'";
 		}
 		if (districtIn.trim().length() > 0) {
 			if (where.length() > 0) {
-				where = where + " AND LOWER(" + DISTRICT + ") LIKE '%" + districtIn + "%'";
+				where = where + " AND LOWER(REPLACE(" + DISTRICT + ",' ','')) LIKE '%" + districtIn + "%'";
 			} else {
-				where = " WHERE LOWER(" + DISTRICT + ") LIKE '%" + districtIn + "%'";
+				where = " WHERE LOWER(REPLACE(" + DISTRICT + ",' ','')) LIKE '%" + districtIn + "%'";
 			}
 		}
 		if (nameOrCode.trim().length() > 0) {
 			if (where.length() > 0) {
-				where = where + " AND (LOWER(" + NAME + ") LIKE '%" + nameOrCode + "%' OR LOWER(" + PIN_CODE
+				where = where + " AND (LOWER(REPLACE(" + NAME + ",' ','')) LIKE '%" + nameOrCode + "%' OR LOWER(" + PIN_CODE
 						+ ") LIKE '%" + nameOrCode + "%')";
 			} else {
-				where = " WHERE (LOWER(" + NAME + ") LIKE '%" + nameOrCode + "%' OR LOWER(" + PIN_CODE + ") LIKE '%"
-						+ nameOrCode + "%')";
+				where = " WHERE LOWER(REPLACE(" + NAME + ",' ','')) LIKE '%" + nameOrCode + "%' OR LOWER(" + PIN_CODE + ") LIKE '%"
+						+ nameOrCode + "%'";
 			}
 		}
 		String selectQuery = select + where;

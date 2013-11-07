@@ -40,9 +40,9 @@ public class DisplayResultActivity extends SherlockActivity {
 			protected Void doInBackground(Void... params) {
 				// Get the message from the intent
 				Intent intent = getIntent();
-				String stateName = intent.getStringExtra(PinFinderMainActivity.EXTRA_STATE).toLowerCase();
-				String districtName = intent.getStringExtra(PinFinderMainActivity.EXTRA_DISTRICT).toLowerCase();
-				String officeName = intent.getStringExtra(PinFinderMainActivity.EXTRA_OFFICE).toLowerCase();
+				String stateName = intent.getStringExtra(PinFinderMainActivity.EXTRA_STATE).toLowerCase().replaceAll(" ", "");
+				String districtName = intent.getStringExtra(PinFinderMainActivity.EXTRA_DISTRICT).toLowerCase().replaceAll(" ", "");;
+				String officeName = intent.getStringExtra(PinFinderMainActivity.EXTRA_OFFICE).toLowerCase().replaceAll(" ", "");;
 				try {
 					sqLiteHelper = new PinFinderSQLiteHelper(getApplicationContext());
 					List<Office> matchingOffices = sqLiteHelper.findMatchingOffices(stateName, districtName, officeName);
