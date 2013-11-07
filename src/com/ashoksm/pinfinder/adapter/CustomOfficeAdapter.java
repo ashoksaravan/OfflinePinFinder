@@ -1,6 +1,6 @@
 package com.ashoksm.pinfinder.adapter;
 
-import java.util.ArrayList;
+import java.util.List;
 
 import android.content.Context;
 import android.text.util.Linkify;
@@ -20,9 +20,9 @@ public class CustomOfficeAdapter extends BaseAdapter {
 
 	private LayoutInflater mInflater;
 
-	ArrayList<Office> offices;
+	List<Office> offices;
 
-	public CustomOfficeAdapter(Context context, ArrayList<Office> officesIn) {
+	public CustomOfficeAdapter(Context context, List<Office> officesIn) {
 		mContext = context;
 		offices = officesIn;
 		mInflater = LayoutInflater.from(context);

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ashoksm.pinfinder"
+    android:installLocation="auto"
     android:versionCode="3"
     android:versionName="1.2" >
 
@@ -9,7 +10,7 @@
 
     <uses-sdk
         android:minSdkVersion="7"
-        android:targetSdkVersion="18" />
+        android:targetSdkVersion="19" />
 
     <application
         android:allowBackup="true"
