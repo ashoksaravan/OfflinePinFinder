@@ -72,11 +72,11 @@ public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
 
 	private void insertFromFile(SQLiteDatabase db) {
 		try {
-			String[] fileNames = context.getAssets().list("");
+			String[] fileNames = context.getAssets().list("sql");
 			for (String name : fileNames) {
 				if (name.endsWith(".sql")) {
 					// Open the resource
-					InputStream insertsStream = context.getAssets().open(name);
+					InputStream insertsStream = context.getAssets().open("sql/"+name);
 					BufferedReader insertReader = new BufferedReader(new InputStreamReader(insertsStream));
 
 					while (insertReader.ready()) {
