@@ -317,6 +317,26 @@
         <item>Washim</item>
         <item>Yavatmal</item>
     </string-array>
+    <string-array name="district_jk">
+        <item>Ananthnag</item>
+        <item>Bandipur</item>
+        <item>Baramulla</item>
+        <item>Budgam</item>
+        <item>Doda</item>
+        <item>Jammu</item>
+        <item>Kargil</item>
+        <item>Kathua</item>
+        <item>Kulgam</item>
+        <item>Kupwara</item>
+        <item>Leh</item>
+        <item>Poonch</item>
+        <item>Pulwama</item>
+        <item>Rajauri</item>
+        <item>Reasi</item>
+        <item>Shopian</item>
+        <item>Srinagar</item>
+        <item>Udhampur</item>
+    </string-array>
     <string-array name="district_all">
         <item>Karaikal</item>
         <item>Mahe</item>
@@ -532,6 +552,24 @@
         <item>Wardha</item>
         <item>Washim</item>
         <item>Yavatmal</item>
+        <item>Ananthnag</item>
+        <item>Bandipur</item>
+        <item>Baramulla</item>
+        <item>Budgam</item>
+        <item>Doda</item>
+        <item>Jammu</item>
+        <item>Kargil</item>
+        <item>Kathua</item>
+        <item>Kulgam</item>
+        <item>Kupwara</item>
+        <item>Leh</item>
+        <item>Poonch</item>
+        <item>Pulwama</item>
+        <item>Rajauri</item>
+        <item>Reasi</item>
+        <item>Shopian</item>
+        <item>Srinagar</item>
+        <item>Udhampur</item>
     </string-array>
 
     <string name="title_activity_display_result">Result</string>

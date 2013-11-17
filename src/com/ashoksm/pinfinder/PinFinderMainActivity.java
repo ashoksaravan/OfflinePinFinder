@@ -152,6 +152,10 @@ public class PinFinderMainActivity extends SherlockActivity {
 					String[] districtPuducherry = getResources().getStringArray(R.array.district_mh);
 					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
 							android.R.layout.simple_list_item_1, districtPuducherry));
+				} else if (states.getText().toString().equals("Jammu and Kashmir")) {
+					String[] districtPuducherry = getResources().getStringArray(R.array.district_jk);
+					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
+							android.R.layout.simple_list_item_1, districtPuducherry));
 				} else {
 					// not supported
 					Toast.makeText(getApplicationContext(), "State not supported yet!!!", Toast.LENGTH_LONG).show();

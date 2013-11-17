@@ -23,7 +23,7 @@ public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
 	private static final String LOG = PinFinderSQLiteHelper.class.getName();
 
 	// Database Version
-	private static final int DATABASE_VERSION = 1;
+	private static final int DATABASE_VERSION = 2;
 
 	// Database Name
 	private static final String DATABASE_NAME = "ashoksm.pinfinder";
@@ -102,7 +102,7 @@ public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
 		List<Office> offices = new ArrayList<Office>();
 		SQLiteDatabase db = this.getReadableDatabase();
 
-		String select = "SELECT  " + NAME + ", " + PIN_CODE + ", " + STATUS + ", " + SUB_OFFICE + ", " + HEAD_OFFICE
+		String select = "SELECT  DISTINCT " + NAME + ", " + PIN_CODE + ", " + STATUS + ", " + SUB_OFFICE + ", " + HEAD_OFFICE
 				+ ", " + LOCATION + ", " + DISTRICT + ", " + STATE + ", " + TELEPHONE + " FROM " + TABLE_POST_OFFICE;
 		String where = "";
 
