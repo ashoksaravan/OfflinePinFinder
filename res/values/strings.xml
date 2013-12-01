@@ -337,6 +337,27 @@
         <item>Srinagar</item>
         <item>Udhampur</item>
     </string-array>
+    <string-array name="district_wb">
+        <item>Bankura</item>
+        <item>Bardhaman</item>
+        <item>Birbhum</item>
+        <item>CoochBehar</item>
+        <item>Darjiling</item>
+        <item>East Midnapore</item>
+        <item>Hooghly</item>
+        <item>Howrah</item>
+        <item>Jalpaiguri</item>
+        <item>Kolkata</item>
+        <item>Malda</item>
+        <item>Murshidabad</item>
+        <item>Nadia</item>
+        <item>North 24 Parganas</item>
+        <item>North Dinajpur</item>
+        <item>Puruliya</item>
+        <item>South 24 Parganas</item>
+        <item>South Dinajpur</item>
+        <item>West Midnapore</item>
+    </string-array>
     <string-array name="district_all">
         <item>Karaikal</item>
         <item>Mahe</item>
@@ -570,6 +591,25 @@
         <item>Shopian</item>
         <item>Srinagar</item>
         <item>Udhampur</item>
+         <item>Bankura</item>
+        <item>Bardhaman</item>
+        <item>Birbhum</item>
+        <item>CoochBehar</item>
+        <item>Darjiling</item>
+        <item>East Midnapore</item>
+        <item>Hooghly</item>
+        <item>Howrah</item>
+        <item>Jalpaiguri</item>
+        <item>Kolkata</item>
+        <item>Malda</item>
+        <item>Murshidabad</item>
+        <item>Nadia</item>
+        <item>North 24 Parganas</item>
+        <item>North Dinajpur</item>
+        <item>Puruliya</item>
+        <item>South 24 Parganas</item>
+        <item>South Dinajpur</item>
+        <item>West Midnapore</item>
     </string-array>
 
     <string name="title_activity_display_result">Result</string>

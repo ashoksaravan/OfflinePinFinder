@@ -10,7 +10,7 @@ package com.ashoksm.pinfinder;
 public final class R {
     public static final class array {
         public static final int default_array=0x7f0b0001;
-        public static final int district_all=0x7f0b0017;
+        public static final int district_all=0x7f0b0018;
         public static final int district_an=0x7f0b0005;
         public static final int district_ap=0x7f0b0014;
         public static final int district_ar=0x7f0b0006;
@@ -32,6 +32,7 @@ public final class R {
         public static final int district_si=0x7f0b0011;
         public static final int district_tn=0x7f0b0003;
         public static final int district_tr=0x7f0b0012;
+        public static final int district_wb=0x7f0b0017;
         public static final int states_array=0x7f0b0000;
     }
     public static final class attr {

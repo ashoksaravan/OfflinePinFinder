@@ -70,7 +70,6 @@ public class DisplayResultActivity extends SherlockActivity {
 			}
 
 		}.execute();
-
 		setProgressBarIndeterminateVisibility(false);
 	}
 }
