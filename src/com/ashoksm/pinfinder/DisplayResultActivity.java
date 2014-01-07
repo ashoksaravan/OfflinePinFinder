@@ -1,6 +1,7 @@
 package com.ashoksm.pinfinder;
 
 import java.util.List;
+import java.util.Locale;
 
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -40,12 +41,16 @@ public class DisplayResultActivity extends SherlockActivity {
 			protected Void doInBackground(Void... params) {
 				// Get the message from the intent
 				Intent intent = getIntent();
-				String stateName = intent.getStringExtra(PinFinderMainActivity.EXTRA_STATE).toLowerCase().replaceAll(" ", "");
-				String districtName = intent.getStringExtra(PinFinderMainActivity.EXTRA_DISTRICT).toLowerCase().replaceAll(" ", "");;
-				String officeName = intent.getStringExtra(PinFinderMainActivity.EXTRA_OFFICE).toLowerCase().replaceAll(" ", "");;
+				String stateName = intent.getStringExtra(PinFinderMainActivity.EXTRA_STATE).toLowerCase()
+						.replaceAll(" ", "").replaceAll("'", "''");
+				String districtName = intent.getStringExtra(PinFinderMainActivity.EXTRA_DISTRICT).toLowerCase()
+						.replaceAll(" ", "").replaceAll("'", "''");
+				String officeName = intent.getStringExtra(PinFinderMainActivity.EXTRA_OFFICE).toLowerCase()
+						.replaceAll(" ", "").replaceAll("'", "''");
 				try {
 					sqLiteHelper = new PinFinderSQLiteHelper(getApplicationContext());
-					List<Office> matchingOffices = sqLiteHelper.findMatchingOffices(stateName, districtName, officeName);
+					List<Office> matchingOffices = sqLiteHelper
+							.findMatchingOffices(stateName, districtName, officeName);
 					sqLiteHelper.closeDB();
 					if (matchingOffices.size() > 0) {
 						adapter = new CustomOfficeAdapter(DisplayResultActivity.this, matchingOffices);

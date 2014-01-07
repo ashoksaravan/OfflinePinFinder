@@ -160,6 +160,18 @@ public class PinFinderMainActivity extends SherlockActivity {
 					String[] districtPuducherry = getResources().getStringArray(R.array.district_wb);
 					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
 							android.R.layout.simple_list_item_1, districtPuducherry));
+				} else if (states.getText().toString().equals("Haryana")) {
+					String[] districtPuducherry = getResources().getStringArray(R.array.district_hr);
+					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
+							android.R.layout.simple_list_item_1, districtPuducherry));
+				} else if (states.getText().toString().equals("Assam")) {
+					String[] districtPuducherry = getResources().getStringArray(R.array.district_as);
+					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
+							android.R.layout.simple_list_item_1, districtPuducherry));
+				} else if (states.getText().toString().equals("Himachal Pradesh")) {
+					String[] districtPuducherry = getResources().getStringArray(R.array.district_hp);
+					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
+							android.R.layout.simple_list_item_1, districtPuducherry));
 				} else {
 					// not supported
 					Toast.makeText(getApplicationContext(), "State not supported yet!!!", Toast.LENGTH_LONG).show();

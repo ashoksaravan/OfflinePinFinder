@@ -10,15 +10,18 @@ package com.ashoksm.pinfinder;
 public final class R {
     public static final class array {
         public static final int default_array=0x7f0b0001;
-        public static final int district_all=0x7f0b0018;
+        public static final int district_all=0x7f0b001b;
         public static final int district_an=0x7f0b0005;
         public static final int district_ap=0x7f0b0014;
         public static final int district_ar=0x7f0b0006;
+        public static final int district_as=0x7f0b001a;
         public static final int district_ch=0x7f0b0007;
         public static final int district_dd=0x7f0b0009;
         public static final int district_dl=0x7f0b000a;
         public static final int district_dn=0x7f0b0008;
         public static final int district_go=0x7f0b000b;
+        public static final int district_hp=0x7f0b0018;
+        public static final int district_hr=0x7f0b0019;
         public static final int district_jk=0x7f0b0016;
         public static final int district_ka=0x7f0b0013;
         public static final int district_kl=0x7f0b0004;
@@ -943,8 +946,9 @@ containing a value of this type.
         public static final int abs__toast_frame=0x7f020073;
         public static final int button_border=0x7f020074;
         public static final int ic_launcher=0x7f020075;
-        public static final int inner_border=0x7f020076;
-        public static final int round_corner_grid=0x7f020077;
+        public static final int ic_location_place=0x7f020076;
+        public static final int inner_border=0x7f020077;
+        public static final int round_corner_grid=0x7f020078;
     }
     public static final class id {
         public static final int Search=0x7f04003a;
@@ -987,45 +991,46 @@ containing a value of this type.
         public static final int abs__textButton=0x7f040013;
         public static final int abs__title=0x7f04001b;
         public static final int abs__up=0x7f04000b;
-        public static final int action_settings=0x7f040051;
+        public static final int action_settings=0x7f040052;
         public static final int ad=0x7f04003b;
         public static final int ad_1=0x7f040036;
         public static final int disableHome=0x7f040009;
         public static final int districts=0x7f040038;
         public static final int edit_query=0x7f040026;
         public static final int gridview=0x7f040035;
-        public static final int headofficeLabel=0x7f040046;
-        public static final int headofficeName=0x7f040047;
-        public static final int headofficeRow=0x7f040045;
+        public static final int headofficeLabel=0x7f040047;
+        public static final int headofficeName=0x7f040048;
+        public static final int headofficeRow=0x7f040046;
         public static final int homeAsUp=0x7f040006;
         public static final int linlaHeaderProgress=0x7f040032;
         public static final int listMode=0x7f040002;
-        public static final int locationLabel=0x7f040049;
-        public static final int locationName=0x7f04004a;
-        public static final int locationRow=0x7f040048;
+        public static final int locationLabel=0x7f04004a;
+        public static final int locationName=0x7f04004b;
+        public static final int locationRow=0x7f040049;
+        public static final int mapButton=0x7f04003e;
         public static final int noMatchingLayout=0x7f040034;
         public static final int normal=0x7f040001;
         public static final int officeName=0x7f04003d;
         public static final int officeRow=0x7f04003c;
         public static final int pbHeaderProgress=0x7f040033;
-        public static final int pincode=0x7f04003f;
-        public static final int pincodeRow=0x7f04003e;
+        public static final int pincode=0x7f040040;
+        public static final int pincodeRow=0x7f04003f;
         public static final int showCustom=0x7f040008;
         public static final int showHome=0x7f040005;
         public static final int showTitle=0x7f040007;
-        public static final int stateLabel=0x7f04004c;
-        public static final int stateName=0x7f04004d;
-        public static final int stateRow=0x7f04004b;
+        public static final int stateLabel=0x7f04004d;
+        public static final int stateName=0x7f04004e;
+        public static final int stateRow=0x7f04004c;
         public static final int states=0x7f040037;
-        public static final int statusRow=0x7f040040;
-        public static final int stauts=0x7f040041;
-        public static final int subofficeLabel=0x7f040043;
-        public static final int subofficeName=0x7f040044;
-        public static final int subofficeRow=0x7f040042;
+        public static final int statusRow=0x7f040041;
+        public static final int stauts=0x7f040042;
+        public static final int subofficeLabel=0x7f040044;
+        public static final int subofficeName=0x7f040045;
+        public static final int subofficeRow=0x7f040043;
         public static final int tabMode=0x7f040003;
-        public static final int telephoneLabel=0x7f04004f;
-        public static final int telephoneNumber=0x7f040050;
-        public static final int telephoneRow=0x7f04004e;
+        public static final int telephoneLabel=0x7f040050;
+        public static final int telephoneNumber=0x7f040051;
+        public static final int telephoneRow=0x7f04004f;
         public static final int text1=0x7f040039;
         public static final int useLogo=0x7f040004;
         public static final int wrap_content=0x7f040000;
@@ -1107,7 +1112,7 @@ containing a value of this type.
          */
         public static final int abs__shareactionprovider_share_with_application=0x7f090007;
         public static final int action_settings=0x7f09000e;
-        public static final int admob_id=0x7f090021;
+        public static final int admob_id=0x7f090022;
         public static final int app_name=0x7f09000d;
         public static final int button_search=0x7f090010;
         public static final int districts=0x7f090017;
@@ -1115,8 +1120,9 @@ containing a value of this type.
         public static final int headoffice=0x7f09001c;
         public static final int hello_world=0x7f090014;
         public static final int location=0x7f09001d;
+        public static final int map_nav=0x7f090020;
         public static final int menu_settings=0x7f090011;
-        public static final int noMatchingTxt=0x7f090020;
+        public static final int noMatchingTxt=0x7f090021;
         public static final int officename=0x7f090018;
         public static final int pincode=0x7f090019;
         public static final int state=0x7f090016;
@@ -1125,7 +1131,7 @@ containing a value of this type.
         public static final int telephone=0x7f09001e;
         public static final int text1=0x7f090015;
         public static final int title_activity_display_message=0x7f090013;
-        public static final int title_activity_display_result=0x7f090022;
+        public static final int title_activity_display_result=0x7f090023;
         public static final int title_activity_main=0x7f090012;
     }
     public static final class style {

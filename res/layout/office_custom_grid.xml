@@ -32,8 +32,17 @@
             android:id="@+id/officeName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight=".6"
+            android:layout_weight=".5"
             android:textIsSelectable="true" />
+
+        <ImageView
+            android:id="@+id/mapButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"
+            android:contentDescription="@string/map_nav"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_location_place" />
     </LinearLayout>
 
     <LinearLayout

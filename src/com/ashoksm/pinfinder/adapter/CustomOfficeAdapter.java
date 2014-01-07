@@ -3,11 +3,15 @@ package com.ashoksm.pinfinder.adapter;
 import java.util.List;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.text.util.Linkify;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -62,6 +66,8 @@ public class CustomOfficeAdapter extends BaseAdapter {
 		if (holder != null) {
 			holder.officeName = (TextView) v.findViewById(R.id.officeName);
 
+			holder.mapButton = (ImageView) v.findViewById(R.id.mapButton);
+
 			holder.pincode = (TextView) v.findViewById(R.id.pincode);
 
 			holder.stauts = (TextView) v.findViewById(R.id.stauts);
@@ -85,6 +91,22 @@ public class CustomOfficeAdapter extends BaseAdapter {
 			holder.state = (TextView) v.findViewById(R.id.stateName);
 
 			v.setTag(holder);
+
+			holder.mapButton.setTag(position);
+
+			holder.mapButton.setOnClickListener(new OnClickListener() {
+
+				@Override
+				public void onClick(View v) {
+					int pos = (Integer) v.getTag();
+					String uri = "http://maps.google.com/maps?q=" + offices.get(pos).getStateName() + " "
+							+ offices.get(pos).getPinCode();
+					Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(uri));
+					intent.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
+					mContext.startActivity(intent);
+				}
+
+			});
 
 			holder.officeName.setText(offices.get(position).getOfficeName());
 			holder.pincode.setText(offices.get(position).getPinCode());
@@ -128,6 +150,7 @@ public class CustomOfficeAdapter extends BaseAdapter {
 
 	static class ViewHolder {
 		TextView officeName;
+		ImageView mapButton;
 		TextView pincode;
 		TextView stauts;
 		TextView suboffice;

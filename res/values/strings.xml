@@ -20,6 +20,7 @@
     <string name="location">Location</string>
     <string name="telephone">Telephone</string>
     <string name="NA">N/A</string>
+    <string name="map_nav">Show on Map</string>
     <string name="noMatchingTxt">No matching records found</string>
     <string name="admob_id">a1523a98479fcc9</string>
 
@@ -337,6 +338,7 @@
         <item>Srinagar</item>
         <item>Udhampur</item>
     </string-array>
+
     <string-array name="district_wb">
         <item>Bankura</item>
         <item>Bardhaman</item>
@@ -358,6 +360,71 @@
         <item>South Dinajpur</item>
         <item>West Midnapore</item>
     </string-array>
+    
+    <string-array name="district_hp">
+        <item>Bilaspur(HP)</item>
+        <item>Chamba</item>
+        <item>Hamirpur(HP)</item>
+        <item>Kangra</item>
+        <item>Kinnaur</item>
+        <item>Kullu</item>
+        <item>Lahaul &amp; Spiti</item>
+        <item>Mandi</item>
+        <item>Shimla</item>
+        <item>Sirmaur</item>
+        <item>Solan</item>
+        <item>Una</item>
+    </string-array>
+    
+    <string-array name="district_hr">
+        <item>Ambala</item>
+        <item>Bhiwani</item>
+        <item>Faridabad</item>
+        <item>Fatehabad</item>
+        <item>Gurgaon</item>
+        <item>Hisar</item>
+        <item>Jhajjar</item>
+        <item>Jind</item>
+        <item>Kaithal</item>
+        <item>Karnal</item>
+        <item>Kurukshetra</item>
+        <item>Mahendragarh</item>
+        <item>Mewat</item>
+        <item>Panchkula</item>
+        <item>Panipat</item>
+        <item>Rewari</item>
+        <item>Rohtak</item>
+        <item>Sirsa</item>
+        <item>Sonipat</item>
+        <item>Yamuna Nagar</item>
+    </string-array>
+    
+    <string-array name="district_as">
+        <item>Barpeta</item>
+        <item>Bongaigaon</item>
+        <item>Cachar</item>
+        <item>Darrang</item>
+        <item>Dhemaji</item>
+        <item>Dhubri</item>
+        <item>Dibrugarh</item>
+        <item>Goalpara</item>
+        <item>Golaghat</item>
+        <item>Hailakandi</item>
+        <item>Jorhat</item>
+        <item>Kamrup</item>
+        <item>Karbi Anglong</item>
+        <item>Karimganj</item>
+        <item>Kokrajhar</item>
+        <item>Lakhimpur</item>
+        <item>Morigaon</item>
+        <item>Nagaon</item>
+        <item>Nalbari</item>
+        <item>North Cachar Hills</item>
+        <item>Sibsagar</item>
+        <item>Sonitpur</item>
+        <item>Tinsukia</item>
+    </string-array>
+
     <string-array name="district_all">
         <item>Karaikal</item>
         <item>Mahe</item>
@@ -610,6 +677,61 @@
         <item>South 24 Parganas</item>
         <item>South Dinajpur</item>
         <item>West Midnapore</item>
+        <item>Bilaspur</item>
+        <item>Chamba</item>
+        <item>Hamirpur</item>
+        <item>Kangra</item>
+        <item>Kinnaur</item>
+        <item>Kullu</item>
+        <item>Lahaul &amp; Spiti</item>
+        <item>Mandi</item>
+        <item>Shimla</item>
+        <item>Sirmaur</item>
+        <item>Solan</item>
+        <item>Una</item>
+        <item>Ambala</item>
+        <item>Bhiwani</item>
+        <item>Faridabad</item>
+        <item>Fatehabad</item>
+        <item>Gurgaon</item>
+        <item>Hisar</item>
+        <item>Jhajjar</item>
+        <item>Jind</item>
+        <item>Kaithal</item>
+        <item>Karnal</item>
+        <item>Kurukshetra</item>
+        <item>Mahendragarh</item>
+        <item>Mewat</item>
+        <item>Panchkula</item>
+        <item>Panipat</item>
+        <item>Rewari</item>
+        <item>Rohtak</item>
+        <item>Sirsa</item>
+        <item>Sonipat</item>
+        <item>Yamuna Nagar</item>
+        <item>Barpeta</item>
+        <item>Bongaigaon</item>
+        <item>Cachar</item>
+        <item>Darrang</item>
+        <item>Dhemaji</item>
+        <item>Dhubri</item>
+        <item>Dibrugarh</item>
+        <item>Goalpara</item>
+        <item>Golaghat</item>
+        <item>Hailakandi</item>
+        <item>Jorhat</item>
+        <item>Kamrup</item>
+        <item>Karbi Anglong</item>
+        <item>Karimganj</item>
+        <item>Kokrajhar</item>
+        <item>Lakhimpur</item>
+        <item>Morigaon</item>
+        <item>Nagaon</item>
+        <item>Nalbari</item>
+        <item>North Cachar Hills</item>
+        <item>Sibsagar</item>
+        <item>Sonitpur</item>
+        <item>Tinsukia</item>
     </string-array>
 
     <string name="title_activity_display_result">Result</string>
