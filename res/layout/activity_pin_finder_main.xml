@@ -19,6 +19,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:hint="@string/state"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
             android:textColor="#BB0000" />
 
         <AutoCompleteTextView
@@ -26,6 +28,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
             android:hint="@string/districts"
             android:textColor="#BB0000" />
 
@@ -35,6 +39,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:hint="@string/text1"
+            android:singleLine="true"
+            android:imeOptions="actionSearch"
             android:textColor="#BB0000"
             android:inputType="text" />
 

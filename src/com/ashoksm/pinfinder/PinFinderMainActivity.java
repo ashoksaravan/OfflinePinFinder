@@ -2,14 +2,17 @@ package com.ashoksm.pinfinder;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.inputmethod.EditorInfo;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.actionbarsherlock.app.SherlockActivity;
@@ -185,20 +188,35 @@ public class PinFinderMainActivity extends SherlockActivity {
 		districts = (AutoCompleteTextView) findViewById(R.id.districts);
 		text = (EditText) findViewById(R.id.text1);
 		Button btnSubmit = (Button) findViewById(R.id.Search);
+		
+		text.setOnEditorActionListener(new EditText.OnEditorActionListener() {
+		    @Override
+		    public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+		        if (actionId == EditorInfo.IME_ACTION_SEARCH) {
+		        	performSearch();
+		            return true;
+		        }
+		        return false;
+		    }
+		});
+	
 		btnSubmit.setOnClickListener(new OnClickListener() {
-
 			@Override
 			public void onClick(View v) {
-				String stateName = states.getText().toString();
-				String districtName = districts.getText().toString();
-				String officeName = text.getText().toString();
-				Intent intent = new Intent(PinFinderMainActivity.this, DisplayResultActivity.class);
-				intent.putExtra(EXTRA_STATE, stateName.trim());
-				intent.putExtra(EXTRA_DISTRICT, districtName.trim());
-				intent.putExtra(EXTRA_OFFICE, officeName.trim());
-				startActivity(intent);
+				performSearch();
 			}
 
 		});
+	}
+
+	private void performSearch() {
+		String stateName = states.getText().toString();
+		String districtName = districts.getText().toString();
+		String officeName = text.getText().toString();
+		Intent intent = new Intent(PinFinderMainActivity.this, DisplayResultActivity.class);
+		intent.putExtra(EXTRA_STATE, stateName.trim());
+		intent.putExtra(EXTRA_DISTRICT, districtName.trim());
+		intent.putExtra(EXTRA_OFFICE, officeName.trim());
+		startActivity(intent);
 	}
 }
