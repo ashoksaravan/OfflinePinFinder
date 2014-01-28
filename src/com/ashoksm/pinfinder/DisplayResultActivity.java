@@ -1,7 +1,6 @@
 package com.ashoksm.pinfinder;
 
 import java.util.List;
-import java.util.Locale;
 
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -65,6 +64,7 @@ public class DisplayResultActivity extends SherlockActivity {
 			protected void onPostExecute(Void result) {
 				if (adapter != null) {
 					GridView gridview = (GridView) findViewById(R.id.gridview);
+					gridview.setVisibility(View.VISIBLE);
 					gridview.setAdapter(adapter);
 				} else {
 					LinearLayout noMatchingLayout = (LinearLayout) findViewById(R.id.noMatchingLayout);
