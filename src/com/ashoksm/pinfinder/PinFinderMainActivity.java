@@ -175,6 +175,22 @@ public class PinFinderMainActivity extends SherlockActivity {
 					String[] districtPuducherry = getResources().getStringArray(R.array.district_hp);
 					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
 							android.R.layout.simple_list_item_1, districtPuducherry));
+				} else if (states.getText().toString().equals("Chhattisgarh")) {
+					String[] districtPuducherry = getResources().getStringArray(R.array.district_ct);
+					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
+							android.R.layout.simple_list_item_1, districtPuducherry));
+				} else if (states.getText().toString().equals("Jharkhand")) {
+					String[] districtPuducherry = getResources().getStringArray(R.array.district_jh);
+					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
+							android.R.layout.simple_list_item_1, districtPuducherry));
+				} else if (states.getText().toString().equals("Punjab")) {
+					String[] districtPuducherry = getResources().getStringArray(R.array.district_pu);
+					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
+							android.R.layout.simple_list_item_1, districtPuducherry));
+				} else if (states.getText().toString().equals("Uttarakhand")) {
+					String[] districtPuducherry = getResources().getStringArray(R.array.district_uk);
+					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
+							android.R.layout.simple_list_item_1, districtPuducherry));
 				} else {
 					// not supported
 					Toast.makeText(getApplicationContext(), "State not supported yet!!!", Toast.LENGTH_LONG).show();
@@ -188,18 +204,18 @@ public class PinFinderMainActivity extends SherlockActivity {
 		districts = (AutoCompleteTextView) findViewById(R.id.districts);
 		text = (EditText) findViewById(R.id.text1);
 		Button btnSubmit = (Button) findViewById(R.id.Search);
-		
+
 		text.setOnEditorActionListener(new EditText.OnEditorActionListener() {
-		    @Override
-		    public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-		        if (actionId == EditorInfo.IME_ACTION_SEARCH) {
-		        	performSearch();
-		            return true;
-		        }
-		        return false;
-		    }
+			@Override
+			public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+				if (actionId == EditorInfo.IME_ACTION_SEARCH) {
+					performSearch();
+					return true;
+				}
+				return false;
+			}
 		});
-	
+
 		btnSubmit.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {

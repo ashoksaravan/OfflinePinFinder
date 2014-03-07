@@ -424,7 +424,98 @@
         <item>Sonitpur</item>
         <item>Tinsukia</item>
     </string-array>
-
+    
+    <string-array name="district_ct">
+        <item>Bastar</item>
+        <item>Bijapur(CGH)</item>
+        <item>Bilaspur(CGH)</item>
+        <item>Dantewada</item>
+        <item>Dhamtari</item>
+        <item>Durg</item>
+        <item>Gariaband</item>
+        <item>Janjgir-champa</item>
+        <item>Jashpur</item>
+        <item>Kanker</item>
+        <item>Kawardha</item>
+        <item>Korba</item>
+        <item>Koriya</item>
+        <item>Mahasamund</item>
+        <item>Narayanpur</item>
+        <item>Raigarh</item>
+        <item>Raipur</item>
+        <item>Rajnandgaon</item>
+        <item>Surguja</item>
+    </string-array>
+	
+    <string-array name="district_jh">
+        <item>Bokaro</item>
+        <item>Chatra</item>
+        <item>Deoghar</item>
+        <item>Dhanbad</item>
+        <item>Dumka</item>
+        <item>East Singhbhum</item>
+        <item>Garhwa</item>
+        <item>Giridh</item>
+        <item>Godda</item>
+        <item>Gumla</item>
+        <item>Hazaribag</item>
+        <item>Jamtara</item>
+        <item>Khunti</item>
+        <item>Koderma</item>
+        <item>Latehar</item>
+        <item>Lohardaga</item>
+        <item>Pakur</item>
+        <item>Palamau</item>
+        <item>Ramgarh</item>
+        <item>Ranchi</item>
+        <item>Sahibganj</item>
+        <item>Seraikela-kharsawan</item>
+        <item>Simdega</item>
+        <item>West Singhbhum</item>
+    </string-array>
+    
+    <string-array name="district_pu">
+        <item>Amritsar</item>
+        <item>Barnala</item>
+        <item>Bathinda</item>
+        <item>Faridkot</item>
+        <item>Fatehgarh Sahib</item>
+        <item>Fazilka</item>
+        <item>Firozpur</item>
+        <item>Gurdaspur</item>
+        <item>Hoshiarpur</item>
+        <item>Jalandhar</item>
+        <item>Kapurthala</item>
+        <item>Ludhiana</item>
+        <item>Mansa</item>
+        <item>Moga</item>
+        <item>Mohali</item>
+        <item>Muktsar</item>
+        <item>Nawanshahr</item>
+        <item>Pathankot</item>
+        <item>Patiala</item>
+        <item>Ropar</item>
+        <item>Rupnagar</item>
+        <item>Sangrur</item>
+        <item>Tarn Taran</item>
+    </string-array>
+    
+    <string-array name="district_uk">
+        <item>Almora</item>
+        <item>Bageshwar</item>
+        <item>Chamoli</item>
+        <item>Champawat</item>
+        <item>Dehradun</item>
+        <item>Haridwar</item>
+        <item>Nainital</item>
+        <item>Pauri Garhwal</item>
+        <item>Pithoragarh</item>
+        <item>Rudraprayag</item>
+        <item>Tehri Garhwal</item>
+        <item>Udham Singh Nagar</item>
+        <item>Uttarkashi</item>
+    </string-array>
+    
     <string-array name="district_all">
         <item>Karaikal</item>
         <item>Mahe</item>
@@ -732,6 +823,85 @@
         <item>Sibsagar</item>
         <item>Sonitpur</item>
         <item>Tinsukia</item>
+        <item>Bastar</item>
+        <item>Bijapur(CGH)</item>
+        <item>Bilaspur(CGH)</item>
+        <item>Dantewada</item>
+        <item>Dhamtari</item>
+        <item>Durg</item>
+        <item>Gariaband</item>
+        <item>Janjgir-champa</item>
+        <item>Jashpur</item>
+        <item>Kanker</item>
+        <item>Kawardha</item>
+        <item>Korba</item>
+        <item>Koriya</item>
+        <item>Mahasamund</item>
+        <item>Narayanpur</item>
+        <item>Raigarh</item>
+        <item>Raipur</item>
+        <item>Rajnandgaon</item>
+        <item>Surguja</item>
+        <item>Bokaro</item>
+        <item>Chatra</item>
+        <item>Deoghar</item>
+        <item>Dhanbad</item>
+        <item>Dumka</item>
+        <item>East Singhbhum</item>
+        <item>Garhwa</item>
+        <item>Giridh</item>
+        <item>Godda</item>
+        <item>Gumla</item>
+        <item>Hazaribag</item>
+        <item>Jamtara</item>
+        <item>Khunti</item>
+        <item>Koderma</item>
+        <item>Latehar</item>
+        <item>Lohardaga</item>
+        <item>Pakur</item>
+        <item>Palamau</item>
+        <item>Ramgarh</item>
+        <item>Ranchi</item>
+        <item>Sahibganj</item>
+        <item>Seraikela-kharsawan</item>
+        <item>Simdega</item>
+        <item>West Singhbhum</item>
+        <item>Amritsar</item>
+        <item>Barnala</item>
+        <item>Bathinda</item>
+        <item>Faridkot</item>
+        <item>Fatehgarh Sahib</item>
+        <item>Fazilka</item>
+        <item>Firozpur</item>
+        <item>Gurdaspur</item>
+        <item>Hoshiarpur</item>
+        <item>Jalandhar</item>
+        <item>Kapurthala</item>
+        <item>Ludhiana</item>
+        <item>Mansa</item>
+        <item>Moga</item>
+        <item>Mohali</item>
+        <item>Muktsar</item>
+        <item>Nawanshahr</item>
+        <item>Pathankot</item>
+        <item>Patiala</item>
+        <item>Ropar</item>
+        <item>Rupnagar</item>
+        <item>Sangrur</item>
+        <item>Tarn Taran</item>
+        <item>Almora</item>
+        <item>Bageshwar</item>
+        <item>Chamoli</item>
+        <item>Champawat</item>
+        <item>Dehradun</item>
+        <item>Haridwar</item>
+        <item>Nainital</item>
+        <item>Pauri Garhwal</item>
+        <item>Pithoragarh</item>
+        <item>Rudraprayag</item>
+        <item>Tehri Garhwal</item>
+        <item>Udham Singh Nagar</item>
+        <item>Uttarkashi</item>
     </string-array>
 
     <string name="title_activity_display_result">Result</string>

@@ -23,7 +23,7 @@ public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
 	private static final String LOG = PinFinderSQLiteHelper.class.getName();
 
 	// Database Version
-	private static final int DATABASE_VERSION = 4;
+	private static final int DATABASE_VERSION = 5;
 
 	// Database Name
 	private static final String DATABASE_NAME = "ashoksm.pinfinder";
