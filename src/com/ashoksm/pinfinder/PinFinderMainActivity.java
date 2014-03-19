@@ -191,6 +191,30 @@ public class PinFinderMainActivity extends SherlockActivity {
 					String[] districtPuducherry = getResources().getStringArray(R.array.district_uk);
 					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
 							android.R.layout.simple_list_item_1, districtPuducherry));
+				}  else if (states.getText().toString().equals("Bihar")) {
+					String[] districtPuducherry = getResources().getStringArray(R.array.district_bh);
+					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
+							android.R.layout.simple_list_item_1, districtPuducherry));
+				} else if (states.getText().toString().equals("Gujarat")) {
+					String[] districtPuducherry = getResources().getStringArray(R.array.district_gu);
+					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
+							android.R.layout.simple_list_item_1, districtPuducherry));
+				} else if (states.getText().toString().equals("Madhya Pradesh")) {
+					String[] districtPuducherry = getResources().getStringArray(R.array.district_mp);
+					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
+							android.R.layout.simple_list_item_1, districtPuducherry));
+				} else if (states.getText().toString().equals("Odisha")) {
+					String[] districtPuducherry = getResources().getStringArray(R.array.district_od);
+					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
+							android.R.layout.simple_list_item_1, districtPuducherry));
+				} else if (states.getText().toString().equals("Rajasthan")) {
+					String[] districtPuducherry = getResources().getStringArray(R.array.district_ra);
+					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
+							android.R.layout.simple_list_item_1, districtPuducherry));
+				} else if (states.getText().toString().equals("Uttar Pradesh")) {
+					String[] districtPuducherry = getResources().getStringArray(R.array.district_up);
+					districts.setAdapter(new ArrayAdapter<String>(PinFinderMainActivity.this,
+							android.R.layout.simple_list_item_1, districtPuducherry));
 				} else {
 					// not supported
 					Toast.makeText(getApplicationContext(), "State not supported yet!!!", Toast.LENGTH_LONG).show();

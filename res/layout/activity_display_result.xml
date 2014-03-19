@@ -52,6 +52,7 @@
         android:paddingRight="8dp"
         android:layout_above="@+id/ad_1"
         android:paddingTop="10dp"
+        android:paddingBottom="5dp"
         android:stretchMode="columnWidth"
         android:verticalSpacing="10dp" >
     </GridView>

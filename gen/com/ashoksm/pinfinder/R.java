@@ -10,17 +10,19 @@ package com.ashoksm.pinfinder;
 public final class R {
     public static final class array {
         public static final int default_array=0x7f0b0001;
-        public static final int district_all=0x7f0b001f;
+        public static final int district_all=0x7f0b0025;
         public static final int district_an=0x7f0b0005;
         public static final int district_ap=0x7f0b0014;
         public static final int district_ar=0x7f0b0006;
         public static final int district_as=0x7f0b001a;
+        public static final int district_bh=0x7f0b001f;
         public static final int district_ch=0x7f0b0007;
         public static final int district_ct=0x7f0b001b;
         public static final int district_dd=0x7f0b0009;
         public static final int district_dl=0x7f0b000a;
         public static final int district_dn=0x7f0b0008;
         public static final int district_go=0x7f0b000b;
+        public static final int district_gu=0x7f0b0020;
         public static final int district_hp=0x7f0b0018;
         public static final int district_hr=0x7f0b0019;
         public static final int district_jh=0x7f0b001c;
@@ -32,13 +34,17 @@ public final class R {
         public static final int district_me=0x7f0b000e;
         public static final int district_mh=0x7f0b0015;
         public static final int district_mi=0x7f0b000f;
+        public static final int district_mp=0x7f0b0021;
         public static final int district_na=0x7f0b0010;
+        public static final int district_od=0x7f0b0022;
         public static final int district_pu=0x7f0b001d;
         public static final int district_puducherry=0x7f0b0002;
+        public static final int district_ra=0x7f0b0024;
         public static final int district_si=0x7f0b0011;
         public static final int district_tn=0x7f0b0003;
         public static final int district_tr=0x7f0b0012;
         public static final int district_uk=0x7f0b001e;
+        public static final int district_up=0x7f0b0023;
         public static final int district_wb=0x7f0b0017;
         public static final int states_array=0x7f0b0000;
     }
