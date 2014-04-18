@@ -20,10 +20,10 @@ public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
 	private Context context;
 
 	// Logcat tag
-	private static final String LOG = PinFinderSQLiteHelper.class.getName();
+	private static final String CLASS_NAME = PinFinderSQLiteHelper.class.getName();
 
 	// Database Version
-	private static final int DATABASE_VERSION = 6;
+	private static final int DATABASE_VERSION = 7;
 
 	// Database Name
 	private static final String DATABASE_NAME = "ashoksm.pinfinder";
@@ -43,9 +43,17 @@ public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
 	private static final String TELEPHONE = "telephone";
 
 	// post_office_t table create statement
-	private static final String CREATE_TABLE_TODO = "CREATE TABLE " + TABLE_POST_OFFICE + "(" + NAME + " TEXT,"
-			+ PIN_CODE + " INTEGER," + STATUS + " TEXT," + SUB_OFFICE + " TEXT," + HEAD_OFFICE + " TEXT," + LOCATION
-			+ " TEXT," + DISTRICT + " TEXT," + STATE + " TEXT," + TELEPHONE + " TEXT" + ")";
+	private static final String CREATE_TABLE = "CREATE TABLE " + TABLE_POST_OFFICE + "(" +
+														NAME + " TEXT," +
+													    PIN_CODE + " INTEGER, " + 
+													    DISTRICT + " TEXT, " + 
+													    STATE + " TEXT, " + 
+														STATUS + " TEXT, " + 
+													    SUB_OFFICE + " TEXT, " + 
+														HEAD_OFFICE + " TEXT, " + 
+													    LOCATION + " TEXT, " + 
+														TELEPHONE + " TEXT, " + 
+														"PRIMARY KEY (" + NAME + "," + PIN_CODE + "," + DISTRICT + "," + STATE +") )";
 
 	public PinFinderSQLiteHelper(Context contextIn) {
 		super(contextIn, DATABASE_NAME, null, DATABASE_VERSION);
@@ -55,8 +63,8 @@ public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
 	@Override
 	public void onCreate(SQLiteDatabase db) {
 		// creating required tables
-		Log.d(LOG, CREATE_TABLE_TODO);
-		db.execSQL(CREATE_TABLE_TODO);
+		Log.d(CLASS_NAME, CREATE_TABLE);
+		db.execSQL(CREATE_TABLE);
 		// insert data
 		insertFromFile(db);
 	}
@@ -90,13 +98,16 @@ public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
 			}
 
 		} catch (IOException ioEx) {
-			Log.e(LOG, ioEx.getMessage());
+			Log.e(CLASS_NAME, ioEx.getMessage());
 		}
 
 	}
 
 	/**
-	 * get single todo
+	 * @param stateName
+	 * @param districtIn
+	 * @param nameOrCode
+	 * @return List<Office>
 	 */
 	public List<Office> findMatchingOffices(final String stateName, final String districtIn, final String nameOrCode) {
 		List<Office> offices = new ArrayList<Office>();
@@ -126,7 +137,7 @@ public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
 			}
 		}
 		String selectQuery = select + where;
-		Log.d(LOG, selectQuery);
+		Log.d(CLASS_NAME, selectQuery);
 
 		Cursor c = db.rawQuery(selectQuery, null);
 
@@ -137,15 +148,15 @@ public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
 		if (c.moveToFirst()) {
 			do {
 				Office office = new Office();
-				office.setOfficeName(c.getString(c.getColumnIndex(NAME)));
-				office.setPinCode(c.getString(c.getColumnIndex(PIN_CODE)));
-				office.setStatus(c.getString(c.getColumnIndex(STATUS)));
-				office.setSuboffice(c.getString(c.getColumnIndex(SUB_OFFICE)));
-				office.setHeadoffice(c.getString(c.getColumnIndex(HEAD_OFFICE)));
-				office.setLocation(c.getString(c.getColumnIndex(LOCATION)));
-				office.setDistrict(c.getString(c.getColumnIndex(DISTRICT)));
-				office.setStateName(c.getString(c.getColumnIndex(STATE)));
-				office.setTelephone(c.getString(c.getColumnIndex(TELEPHONE)));
+				office.setOfficeName(c.getString(c.getColumnIndex(NAME)).trim());
+				office.setPinCode(c.getString(c.getColumnIndex(PIN_CODE)).trim());
+				office.setStatus(c.getString(c.getColumnIndex(STATUS)).trim());
+				office.setSuboffice(c.getString(c.getColumnIndex(SUB_OFFICE)).trim());
+				office.setHeadoffice(c.getString(c.getColumnIndex(HEAD_OFFICE)).trim());
+				office.setLocation(c.getString(c.getColumnIndex(LOCATION)).trim());
+				office.setDistrict(c.getString(c.getColumnIndex(DISTRICT)).trim());
+				office.setStateName(c.getString(c.getColumnIndex(STATE)).trim());
+				office.setTelephone(c.getString(c.getColumnIndex(TELEPHONE)).trim());
 				// adding to office list
 				offices.add(office);
 			} while (c.moveToNext());

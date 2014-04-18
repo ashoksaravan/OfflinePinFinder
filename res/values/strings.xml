@@ -129,6 +129,7 @@
         <item>Changlang</item>
         <item>East Kameng</item>
         <item>East Siang</item>
+        <item>Dibang Valley</item>
         <item>Kurung Kumey</item>
         <item>Lohit</item>
         <item>Lower Dibang Valley</item>
@@ -351,6 +352,7 @@
         <item>Jalpaiguri</item>
         <item>Kolkata</item>
         <item>Malda</item>
+        <item>Medinipur</item>
         <item>Murshidabad</item>
         <item>Nadia</item>
         <item>North 24 Parganas</item>
@@ -1416,6 +1418,8 @@
         <item>Sirohi</item>
         <item>Tonk</item>
         <item>Udaipur</item>
+        <item>Dibang Valley</item>
+        <item>Medinipur</item>
     </string-array>
 
     <string name="title_activity_display_result">Result</string>

@@ -253,10 +253,14 @@ public class PinFinderMainActivity extends SherlockActivity {
 		String stateName = states.getText().toString();
 		String districtName = districts.getText().toString();
 		String officeName = text.getText().toString();
-		Intent intent = new Intent(PinFinderMainActivity.this, DisplayResultActivity.class);
-		intent.putExtra(EXTRA_STATE, stateName.trim());
-		intent.putExtra(EXTRA_DISTRICT, districtName.trim());
-		intent.putExtra(EXTRA_OFFICE, officeName.trim());
-		startActivity(intent);
+		if (stateName.trim().length() == 0 && districtName.trim().length() == 0 && officeName.trim().length() == 0) {
+			Toast.makeText(getApplicationContext(), "All search fields can't be empty!!!", Toast.LENGTH_LONG).show();
+		} else {
+			Intent intent = new Intent(PinFinderMainActivity.this, DisplayResultActivity.class);
+			intent.putExtra(EXTRA_STATE, stateName.trim());
+			intent.putExtra(EXTRA_DISTRICT, districtName.trim());
+			intent.putExtra(EXTRA_OFFICE, officeName.trim());
+			startActivity(intent);
+		}
 	}
 }
