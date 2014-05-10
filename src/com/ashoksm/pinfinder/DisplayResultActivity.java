@@ -19,6 +19,8 @@ import com.ashoksm.pinfinder.to.Office;
 public class DisplayResultActivity extends SherlockActivity {
 
 	private PinFinderSQLiteHelper sqLiteHelper;
+	
+	private List<Office> matchingOffices;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -48,11 +50,16 @@ public class DisplayResultActivity extends SherlockActivity {
 						.replaceAll(" ", "").replaceAll("'", "''");
 				try {
 					sqLiteHelper = new PinFinderSQLiteHelper(getApplicationContext());
-					List<Office> matchingOffices = sqLiteHelper
+					matchingOffices = sqLiteHelper
 							.findMatchingOffices(stateName, districtName, officeName);
 					sqLiteHelper.closeDB();
 					if (matchingOffices.size() > 0) {
 						adapter = new CustomOfficeAdapter(DisplayResultActivity.this, matchingOffices);
+						runOnUiThread(new Runnable() {
+							public void run() {
+								getSupportActionBar().setTitle(matchingOffices.size() + " Results found");
+							}
+						});
 					}
 				} catch (Exception ex) {
 					Log.e("Failed to parse the office : ", ex.getMessage());

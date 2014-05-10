@@ -21,8 +21,10 @@
     <string name="telephone">Telephone</string>
     <string name="NA">N/A</string>
     <string name="map_nav">Show on Map</string>
+    <string name="share">Show on Map</string>
     <string name="noMatchingTxt">No matching records found</string>
-    <string name="admob_id">a1523a98479fcc9</string>
+    <string name="admob_id">ca-app-pub-1841174173430884/1569279852</string>
+    <string name="send_to">Share Via</string>
 
     <string-array name="states_array">
         <item>Andaman and Nicobar Islands</item>
@@ -583,7 +585,7 @@
         <item>Surat</item>
         <item>Surendra Nagar</item>
         <item>Tapi</item>
-        <item>TheDangs</item>
+        <item>The Dangs</item>
         <item>Vadodara</item>
         <item>Valsad</item>
     </string-array>
@@ -777,7 +779,7 @@
         <item>Nagaur</item>
         <item>Pali</item>
         <item>Rajsamand</item>
-        <item>SawaiMadhopur</item>
+        <item>Sawai Madhopur</item>
         <item>Sikar</item>
         <item>Sirohi</item>
         <item>Tonk</item>

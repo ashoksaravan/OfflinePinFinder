@@ -68,6 +68,8 @@ public class CustomOfficeAdapter extends BaseAdapter {
 
 			holder.mapButton = (ImageView) v.findViewById(R.id.mapButton);
 
+			holder.shareButton = (ImageView) v.findViewById(R.id.shareButton);
+
 			holder.pincode = (TextView) v.findViewById(R.id.pincode);
 
 			holder.stauts = (TextView) v.findViewById(R.id.stauts);
@@ -104,6 +106,39 @@ public class CustomOfficeAdapter extends BaseAdapter {
 					Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(uri));
 					intent.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
 					mContext.startActivity(intent);
+				}
+
+			});
+
+			holder.shareButton.setTag(position);
+
+			holder.shareButton.setOnClickListener(new OnClickListener() {
+
+				@Override
+				public void onClick(View v) {
+					int pos = (Integer) v.getTag();
+					Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+					sharingIntent.setType("text/plain");
+					String shareSubject = "Pincode";
+					String shareContent = "Office Name : " + offices.get(pos).getOfficeName() + "\n";
+					shareContent = shareContent + "Pincode : " + offices.get(pos).getPinCode() + "\n";
+					shareContent = shareContent + "Status : " + offices.get(pos).getStatus() + "\n";
+					if (offices.get(pos).getSuboffice() != null && offices.get(pos).getSuboffice().trim().length() > 0) {
+						shareContent = shareContent + "Sub Office : " + offices.get(pos).getSuboffice() + "\n";
+					}
+					if (offices.get(pos).getHeadoffice() != null
+							&& offices.get(pos).getHeadoffice().trim().length() > 0) {
+						shareContent = shareContent + "Head Office : " + offices.get(pos).getHeadoffice() + "\n";
+					}
+					shareContent = shareContent + "Location : " + offices.get(pos).getLocation() + "\n";
+					shareContent = shareContent + "State : " + offices.get(pos).getStateName() + "\n";
+					if (offices.get(pos).getTelephone() != null && offices.get(pos).getTelephone().trim().length() > 0) {
+						shareContent = shareContent + "Telephone : " + offices.get(pos).getTelephone() + "\n";
+					}
+					sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, shareSubject);
+					sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareContent);
+					mContext.startActivity(Intent.createChooser(sharingIntent,
+							mContext.getResources().getText(R.string.send_to)));
 				}
 
 			});
@@ -151,6 +186,7 @@ public class CustomOfficeAdapter extends BaseAdapter {
 	static class ViewHolder {
 		TextView officeName;
 		ImageView mapButton;
+		ImageView shareButton;
 		TextView pincode;
 		TextView stauts;
 		TextView suboffice;

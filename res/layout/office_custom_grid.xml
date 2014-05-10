@@ -38,11 +38,20 @@
         <ImageView
             android:id="@+id/mapButton"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight=".1"
+            android:layout_height="wrap_content"
+            android:layout_weight=".05"
             android:contentDescription="@string/map_nav"
             android:scaleType="fitCenter"
             android:src="@drawable/ic_location_place" />
+        
+        <ImageView
+            android:id="@+id/shareButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".05"
+            android:contentDescription="@string/share"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_share" />
     </LinearLayout>
 
     <LinearLayout
