@@ -16,9 +16,9 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/Theme.Postoffice" >
+        android:theme="@style/Theme.Codefinder" >
         <activity
-            android:name="com.ashoksm.pinfinder.PinFinderMainActivity"
+            android:name="com.ashoksm.pinfinder.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,12 +27,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.ashoksm.pinfinder.DisplayResultActivity"
+            android:name="com.ashoksm.pinfinder.DisplayPinCodeResultActivity"
             android:label="@string/title_activity_display_result"
-            android:parentActivityName="com.ashoksm.pinfinder.PinFinderMainActivity" >
+            android:parentActivityName="com.ashoksm.pinfinder.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.ashoksm.offlinepinfinder.PinFinderMainActivity" />
+                android:value="com.ashoksm.pinfinder.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.ashoksm.pinfinder.DisplayBankBranchResultActivity"
+            android:label="@string/title_activity_display_result"
+            android:parentActivityName="com.ashoksm.pinfinder.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ashoksm.pinfinder.MainActivity" />
         </activity>
         <activity
             android:name="com.google.ads.AdActivity"

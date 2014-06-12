@@ -1,0 +1,2 @@
+INSERT INTO bank_branch_t VALUES('Head Office', 'Rajgurunagar', '319,320 Pune-Nashik Highway, Rajgurunagar Tal. Khed Dist Pune 410505', 'Mrs. Kakade Jyotsna, Mr. Amrut Takalakar', '- NA -', 'RSBL0000001', 11512);
+INSERT INTO bank_branch_t VALUES('Bajar Peth', 'Rajgurunagar', '319,320 Pune-Nashik Highway, Rajgurunagar Tal. Khed Dist Pune 410505', 'Mr. Ashok Oswal', '411164301', 'RSBL0000003', 11512);

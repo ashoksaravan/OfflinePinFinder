@@ -8,60 +8,1734 @@
 package com.ashoksm.pinfinder;
 
 public final class R {
+    public static final class anim {
+        public static final int abc_fade_in=0x7f040000;
+        public static final int abc_fade_out=0x7f040001;
+        public static final int abc_slide_in_bottom=0x7f040002;
+        public static final int abc_slide_in_top=0x7f040003;
+        public static final int abc_slide_out_bottom=0x7f040004;
+        public static final int abc_slide_out_top=0x7f040005;
+    }
     public static final class array {
-        public static final int default_array=0x7f0b0001;
-        public static final int district_all=0x7f0b0025;
-        public static final int district_an=0x7f0b0005;
-        public static final int district_ap=0x7f0b0014;
-        public static final int district_ar=0x7f0b0006;
-        public static final int district_as=0x7f0b001a;
-        public static final int district_bh=0x7f0b001f;
-        public static final int district_ch=0x7f0b0007;
-        public static final int district_ct=0x7f0b001b;
-        public static final int district_dd=0x7f0b0009;
-        public static final int district_dl=0x7f0b000a;
-        public static final int district_dn=0x7f0b0008;
-        public static final int district_go=0x7f0b000b;
-        public static final int district_gu=0x7f0b0020;
-        public static final int district_hp=0x7f0b0018;
-        public static final int district_hr=0x7f0b0019;
-        public static final int district_jh=0x7f0b001c;
-        public static final int district_jk=0x7f0b0016;
-        public static final int district_ka=0x7f0b0013;
-        public static final int district_kl=0x7f0b0004;
-        public static final int district_la=0x7f0b000c;
-        public static final int district_ma=0x7f0b000d;
-        public static final int district_me=0x7f0b000e;
-        public static final int district_mh=0x7f0b0015;
-        public static final int district_mi=0x7f0b000f;
-        public static final int district_mp=0x7f0b0021;
-        public static final int district_na=0x7f0b0010;
-        public static final int district_od=0x7f0b0022;
-        public static final int district_pu=0x7f0b001d;
-        public static final int district_puducherry=0x7f0b0002;
-        public static final int district_ra=0x7f0b0024;
-        public static final int district_si=0x7f0b0011;
-        public static final int district_tn=0x7f0b0003;
-        public static final int district_tr=0x7f0b0012;
-        public static final int district_uk=0x7f0b001e;
-        public static final int district_up=0x7f0b0023;
-        public static final int district_wb=0x7f0b0017;
-        public static final int states_array=0x7f0b0000;
+        public static final int abhyudayaco_opbankltd_gujarat_districts=0x7f0c0027;
+        public static final int abhyudayaco_opbankltd_karnataka_districts=0x7f0c0028;
+        public static final int abhyudayaco_opbankltd_maharashtra_districts=0x7f0c0029;
+        public static final int abhyudayaco_opbankltd_states=0x7f0c002a;
+        public static final int abudhabicommercialbank_karnataka_districts=0x7f0c002b;
+        public static final int abudhabicommercialbank_maharashtra_districts=0x7f0c002c;
+        public static final int abudhabicommercialbank_states=0x7f0c002d;
+        public static final int ahmedabadmercantileco_opbankltd_gujarat_districts=0x7f0c002e;
+        public static final int ahmedabadmercantileco_opbankltd_maharashtra_districts=0x7f0c002f;
+        public static final int ahmedabadmercantileco_opbankltd_states=0x7f0c0030;
+        public static final int allahabadbank_andamanandnicobar_districts=0x7f0c0031;
+        public static final int allahabadbank_andhrapradesh_districts=0x7f0c0032;
+        public static final int allahabadbank_arunachalpradesh_districts=0x7f0c0033;
+        public static final int allahabadbank_assam_districts=0x7f0c0034;
+        public static final int allahabadbank_bihar_districts=0x7f0c0035;
+        public static final int allahabadbank_chandigarh_districts=0x7f0c0036;
+        public static final int allahabadbank_chhattisgarh_districts=0x7f0c0037;
+        public static final int allahabadbank_goa_districts=0x7f0c0038;
+        public static final int allahabadbank_gujarat_districts=0x7f0c0039;
+        public static final int allahabadbank_haryana_districts=0x7f0c003a;
+        public static final int allahabadbank_himachalpradesh_districts=0x7f0c003b;
+        public static final int allahabadbank_jammuandkashmir_districts=0x7f0c003c;
+        public static final int allahabadbank_jharkhand_districts=0x7f0c003d;
+        public static final int allahabadbank_karnataka_districts=0x7f0c003e;
+        public static final int allahabadbank_kerala_districts=0x7f0c003f;
+        public static final int allahabadbank_madhyapradesh_districts=0x7f0c0040;
+        public static final int allahabadbank_maharashtra_districts=0x7f0c0041;
+        public static final int allahabadbank_manipur_districts=0x7f0c0042;
+        public static final int allahabadbank_meghalaya_districts=0x7f0c0043;
+        public static final int allahabadbank_nagaland_districts=0x7f0c0044;
+        public static final int allahabadbank_newdelhi_districts=0x7f0c0045;
+        public static final int allahabadbank_orissa_districts=0x7f0c0046;
+        public static final int allahabadbank_pondicherry_districts=0x7f0c0047;
+        public static final int allahabadbank_punjab_districts=0x7f0c0048;
+        public static final int allahabadbank_rajasthan_districts=0x7f0c0049;
+        public static final int allahabadbank_sikkim_districts=0x7f0c004a;
+        public static final int allahabadbank_states=0x7f0c0050;
+        public static final int allahabadbank_tamilnadu_districts=0x7f0c004b;
+        public static final int allahabadbank_tripura_districts=0x7f0c004c;
+        public static final int allahabadbank_uttarpradesh_districts=0x7f0c004d;
+        public static final int allahabadbank_uttrakhand_districts=0x7f0c004e;
+        public static final int allahabadbank_westbengal_districts=0x7f0c004f;
+        public static final int almoraurbanco_operativebankltd_states=0x7f0c0052;
+        public static final int almoraurbanco_operativebankltd_uttrakhand_districts=0x7f0c0051;
+        public static final int andhrabank_andhrapradesh_districts=0x7f0c0053;
+        public static final int andhrabank_assam_districts=0x7f0c0054;
+        public static final int andhrabank_bihar_districts=0x7f0c0055;
+        public static final int andhrabank_chandigarh_districts=0x7f0c0056;
+        public static final int andhrabank_chhattisgarh_districts=0x7f0c0057;
+        public static final int andhrabank_dadraandnagarhaveli_districts=0x7f0c0058;
+        public static final int andhrabank_goa_districts=0x7f0c0059;
+        public static final int andhrabank_gujarat_districts=0x7f0c005a;
+        public static final int andhrabank_haryana_districts=0x7f0c005b;
+        public static final int andhrabank_himachalpradesh_districts=0x7f0c005c;
+        public static final int andhrabank_jammuandkashmir_districts=0x7f0c005d;
+        public static final int andhrabank_jharkhand_districts=0x7f0c005e;
+        public static final int andhrabank_karnataka_districts=0x7f0c005f;
+        public static final int andhrabank_kerala_districts=0x7f0c0060;
+        public static final int andhrabank_madhyapradesh_districts=0x7f0c0061;
+        public static final int andhrabank_maharashtra_districts=0x7f0c0062;
+        public static final int andhrabank_meghalaya_districts=0x7f0c0063;
+        public static final int andhrabank_newdelhi_districts=0x7f0c0064;
+        public static final int andhrabank_orissa_districts=0x7f0c0065;
+        public static final int andhrabank_pondicherry_districts=0x7f0c0066;
+        public static final int andhrabank_punjab_districts=0x7f0c0067;
+        public static final int andhrabank_rajasthan_districts=0x7f0c0068;
+        public static final int andhrabank_sikkim_districts=0x7f0c0069;
+        public static final int andhrabank_states=0x7f0c006f;
+        public static final int andhrabank_tamilnadu_districts=0x7f0c006a;
+        public static final int andhrabank_tripura_districts=0x7f0c006b;
+        public static final int andhrabank_uttarpradesh_districts=0x7f0c006c;
+        public static final int andhrabank_uttrakhand_districts=0x7f0c006d;
+        public static final int andhrabank_westbengal_districts=0x7f0c006e;
+        public static final int andhrapragathigrameenabank_andhrapradesh_districts=0x7f0c0070;
+        public static final int andhrapragathigrameenabank_states=0x7f0c0071;
+        public static final int apnasahakaribankltd_goa_districts=0x7f0c0072;
+        public static final int apnasahakaribankltd_maharashtra_districts=0x7f0c0073;
+        public static final int apnasahakaribankltd_states=0x7f0c0074;
+        public static final int austarliaandnewzealandbankinggorupltd_maharashtra_districts=0x7f0c0075;
+        public static final int austarliaandnewzealandbankinggorupltd_states=0x7f0c0076;
+        public static final int axisbank_andamanandnicobar_districts=0x7f0c0077;
+        public static final int axisbank_andhrapradesh_districts=0x7f0c0078;
+        public static final int axisbank_arunachalpradesh_districts=0x7f0c0079;
+        public static final int axisbank_assam_districts=0x7f0c007a;
+        public static final int axisbank_bihar_districts=0x7f0c007b;
+        public static final int axisbank_chandigarh_districts=0x7f0c007c;
+        public static final int axisbank_chhattisgarh_districts=0x7f0c007d;
+        public static final int axisbank_dadraandnagarhaveli_districts=0x7f0c007e;
+        public static final int axisbank_damananddiu_districts=0x7f0c007f;
+        public static final int axisbank_goa_districts=0x7f0c0080;
+        public static final int axisbank_gujarat_districts=0x7f0c0081;
+        public static final int axisbank_haryana_districts=0x7f0c0082;
+        public static final int axisbank_himachalpradesh_districts=0x7f0c0083;
+        public static final int axisbank_jammuandkashmir_districts=0x7f0c0084;
+        public static final int axisbank_jharkhand_districts=0x7f0c0085;
+        public static final int axisbank_karnataka_districts=0x7f0c0086;
+        public static final int axisbank_kerala_districts=0x7f0c0087;
+        public static final int axisbank_madhyapradesh_districts=0x7f0c0088;
+        public static final int axisbank_maharashtra_districts=0x7f0c0089;
+        public static final int axisbank_manipur_districts=0x7f0c008a;
+        public static final int axisbank_meghalaya_districts=0x7f0c008b;
+        public static final int axisbank_mizoram_districts=0x7f0c008c;
+        public static final int axisbank_nagaland_districts=0x7f0c008d;
+        public static final int axisbank_newdelhi_districts=0x7f0c008e;
+        public static final int axisbank_orissa_districts=0x7f0c008f;
+        public static final int axisbank_pondicherry_districts=0x7f0c0090;
+        public static final int axisbank_punjab_districts=0x7f0c0091;
+        public static final int axisbank_rajasthan_districts=0x7f0c0092;
+        public static final int axisbank_sikkim_districts=0x7f0c0093;
+        public static final int axisbank_states=0x7f0c0099;
+        public static final int axisbank_tamilnadu_districts=0x7f0c0094;
+        public static final int axisbank_tripura_districts=0x7f0c0095;
+        public static final int axisbank_uttarpradesh_districts=0x7f0c0096;
+        public static final int axisbank_uttrakhand_districts=0x7f0c0097;
+        public static final int axisbank_westbengal_districts=0x7f0c0098;
+        public static final int bank_names=0x7f0c0026;
+        public static final int bankinternasionalindonesia_maharashtra_districts=0x7f0c009a;
+        public static final int bankinternasionalindonesia_states=0x7f0c009b;
+        public static final int bankofamerica_karnataka_districts=0x7f0c009c;
+        public static final int bankofamerica_maharashtra_districts=0x7f0c009d;
+        public static final int bankofamerica_newdelhi_districts=0x7f0c009e;
+        public static final int bankofamerica_states=0x7f0c00a1;
+        public static final int bankofamerica_tamilnadu_districts=0x7f0c009f;
+        public static final int bankofamerica_westbengal_districts=0x7f0c00a0;
+        public static final int bankofbahrainandkuwait_andhrapradesh_districts=0x7f0c00a2;
+        public static final int bankofbahrainandkuwait_kerala_districts=0x7f0c00a3;
+        public static final int bankofbahrainandkuwait_maharashtra_districts=0x7f0c00a4;
+        public static final int bankofbahrainandkuwait_states=0x7f0c00a5;
+        public static final int bankofbaroda_andamanandnicobar_districts=0x7f0c00a6;
+        public static final int bankofbaroda_andhrapradesh_districts=0x7f0c00a7;
+        public static final int bankofbaroda_arunachalpradesh_districts=0x7f0c00a8;
+        public static final int bankofbaroda_assam_districts=0x7f0c00a9;
+        public static final int bankofbaroda_bihar_districts=0x7f0c00aa;
+        public static final int bankofbaroda_chandigarh_districts=0x7f0c00ab;
+        public static final int bankofbaroda_chhattisgarh_districts=0x7f0c00ac;
+        public static final int bankofbaroda_dadraandnagarhaveli_districts=0x7f0c00ad;
+        public static final int bankofbaroda_damananddiu_districts=0x7f0c00ae;
+        public static final int bankofbaroda_goa_districts=0x7f0c00af;
+        public static final int bankofbaroda_gujarat_districts=0x7f0c00b0;
+        public static final int bankofbaroda_haryana_districts=0x7f0c00b1;
+        public static final int bankofbaroda_himachalpradesh_districts=0x7f0c00b2;
+        public static final int bankofbaroda_jammuandkashmir_districts=0x7f0c00b3;
+        public static final int bankofbaroda_jharkhand_districts=0x7f0c00b4;
+        public static final int bankofbaroda_karnataka_districts=0x7f0c00b5;
+        public static final int bankofbaroda_kerala_districts=0x7f0c00b6;
+        public static final int bankofbaroda_madhyapradesh_districts=0x7f0c00b7;
+        public static final int bankofbaroda_maharashtra_districts=0x7f0c00b8;
+        public static final int bankofbaroda_manipur_districts=0x7f0c00b9;
+        public static final int bankofbaroda_meghalaya_districts=0x7f0c00ba;
+        public static final int bankofbaroda_mizoram_districts=0x7f0c00bb;
+        public static final int bankofbaroda_nagaland_districts=0x7f0c00bc;
+        public static final int bankofbaroda_newdelhi_districts=0x7f0c00bd;
+        public static final int bankofbaroda_orissa_districts=0x7f0c00be;
+        public static final int bankofbaroda_pondicherry_districts=0x7f0c00bf;
+        public static final int bankofbaroda_punjab_districts=0x7f0c00c0;
+        public static final int bankofbaroda_rajasthan_districts=0x7f0c00c1;
+        public static final int bankofbaroda_sikkim_districts=0x7f0c00c2;
+        public static final int bankofbaroda_states=0x7f0c00c8;
+        public static final int bankofbaroda_tamilnadu_districts=0x7f0c00c3;
+        public static final int bankofbaroda_tripura_districts=0x7f0c00c4;
+        public static final int bankofbaroda_uttarpradesh_districts=0x7f0c00c5;
+        public static final int bankofbaroda_uttrakhand_districts=0x7f0c00c6;
+        public static final int bankofbaroda_westbengal_districts=0x7f0c00c7;
+        public static final int bankofceylon_states=0x7f0c00ca;
+        public static final int bankofceylon_tamilnadu_districts=0x7f0c00c9;
+        public static final int bankofindia_andamanandnicobar_districts=0x7f0c00cb;
+        public static final int bankofindia_andhrapradesh_districts=0x7f0c00cc;
+        public static final int bankofindia_arunachalpradesh_districts=0x7f0c00cd;
+        public static final int bankofindia_assam_districts=0x7f0c00ce;
+        public static final int bankofindia_bihar_districts=0x7f0c00cf;
+        public static final int bankofindia_chandigarh_districts=0x7f0c00d0;
+        public static final int bankofindia_chhattisgarh_districts=0x7f0c00d1;
+        public static final int bankofindia_damananddiu_districts=0x7f0c00d2;
+        public static final int bankofindia_goa_districts=0x7f0c00d3;
+        public static final int bankofindia_gujarat_districts=0x7f0c00d4;
+        public static final int bankofindia_haryana_districts=0x7f0c00d5;
+        public static final int bankofindia_himachalpradesh_districts=0x7f0c00d6;
+        public static final int bankofindia_jammuandkashmir_districts=0x7f0c00d7;
+        public static final int bankofindia_jharkhand_districts=0x7f0c00d8;
+        public static final int bankofindia_karnataka_districts=0x7f0c00d9;
+        public static final int bankofindia_kerala_districts=0x7f0c00da;
+        public static final int bankofindia_madhyapradesh_districts=0x7f0c00db;
+        public static final int bankofindia_maharashtra_districts=0x7f0c00dc;
+        public static final int bankofindia_manipur_districts=0x7f0c00dd;
+        public static final int bankofindia_meghalaya_districts=0x7f0c00de;
+        public static final int bankofindia_mizoram_districts=0x7f0c00df;
+        public static final int bankofindia_nagaland_districts=0x7f0c00e0;
+        public static final int bankofindia_newdelhi_districts=0x7f0c00e1;
+        public static final int bankofindia_orissa_districts=0x7f0c00e2;
+        public static final int bankofindia_pondicherry_districts=0x7f0c00e3;
+        public static final int bankofindia_punjab_districts=0x7f0c00e4;
+        public static final int bankofindia_rajasthan_districts=0x7f0c00e5;
+        public static final int bankofindia_sikkim_districts=0x7f0c00e6;
+        public static final int bankofindia_states=0x7f0c00ec;
+        public static final int bankofindia_tamilnadu_districts=0x7f0c00e7;
+        public static final int bankofindia_tripura_districts=0x7f0c00e8;
+        public static final int bankofindia_uttarpradesh_districts=0x7f0c00e9;
+        public static final int bankofindia_uttrakhand_districts=0x7f0c00ea;
+        public static final int bankofindia_westbengal_districts=0x7f0c00eb;
+        public static final int bankofmaharashtra_andhrapradesh_districts=0x7f0c00ed;
+        public static final int bankofmaharashtra_arunachalpradesh_districts=0x7f0c00ee;
+        public static final int bankofmaharashtra_assam_districts=0x7f0c00ef;
+        public static final int bankofmaharashtra_bihar_districts=0x7f0c00f0;
+        public static final int bankofmaharashtra_chandigarh_districts=0x7f0c00f1;
+        public static final int bankofmaharashtra_chhattisgarh_districts=0x7f0c00f2;
+        public static final int bankofmaharashtra_dadraandnagarhaveli_districts=0x7f0c00f3;
+        public static final int bankofmaharashtra_damananddiu_districts=0x7f0c00f4;
+        public static final int bankofmaharashtra_goa_districts=0x7f0c00f5;
+        public static final int bankofmaharashtra_gujarat_districts=0x7f0c00f6;
+        public static final int bankofmaharashtra_haryana_districts=0x7f0c00f7;
+        public static final int bankofmaharashtra_himachalpradesh_districts=0x7f0c00f8;
+        public static final int bankofmaharashtra_jammuandkashmir_districts=0x7f0c00f9;
+        public static final int bankofmaharashtra_jharkhand_districts=0x7f0c00fa;
+        public static final int bankofmaharashtra_karnataka_districts=0x7f0c00fb;
+        public static final int bankofmaharashtra_kerala_districts=0x7f0c00fc;
+        public static final int bankofmaharashtra_madhyapradesh_districts=0x7f0c00fd;
+        public static final int bankofmaharashtra_maharashtra_districts=0x7f0c00fe;
+        public static final int bankofmaharashtra_manipur_districts=0x7f0c00ff;
+        public static final int bankofmaharashtra_meghalaya_districts=0x7f0c0100;
+        public static final int bankofmaharashtra_mizoram_districts=0x7f0c0101;
+        public static final int bankofmaharashtra_nagaland_districts=0x7f0c0102;
+        public static final int bankofmaharashtra_newdelhi_districts=0x7f0c0103;
+        public static final int bankofmaharashtra_orissa_districts=0x7f0c0104;
+        public static final int bankofmaharashtra_pondicherry_districts=0x7f0c0105;
+        public static final int bankofmaharashtra_punjab_districts=0x7f0c0106;
+        public static final int bankofmaharashtra_rajasthan_districts=0x7f0c0107;
+        public static final int bankofmaharashtra_sikkim_districts=0x7f0c0108;
+        public static final int bankofmaharashtra_states=0x7f0c010e;
+        public static final int bankofmaharashtra_tamilnadu_districts=0x7f0c0109;
+        public static final int bankofmaharashtra_tripura_districts=0x7f0c010a;
+        public static final int bankofmaharashtra_uttarpradesh_districts=0x7f0c010b;
+        public static final int bankofmaharashtra_uttrakhand_districts=0x7f0c010c;
+        public static final int bankofmaharashtra_westbengal_districts=0x7f0c010d;
+        public static final int bankofnovascotia_andhrapradesh_districts=0x7f0c010f;
+        public static final int bankofnovascotia_karnataka_districts=0x7f0c0110;
+        public static final int bankofnovascotia_maharashtra_districts=0x7f0c0111;
+        public static final int bankofnovascotia_newdelhi_districts=0x7f0c0112;
+        public static final int bankofnovascotia_states=0x7f0c0114;
+        public static final int bankofnovascotia_tamilnadu_districts=0x7f0c0113;
+        public static final int bankoftokyo_mitsubishiufjltd_maharashtra_districts=0x7f0c0115;
+        public static final int bankoftokyo_mitsubishiufjltd_newdelhi_districts=0x7f0c0116;
+        public static final int bankoftokyo_mitsubishiufjltd_rajasthan_districts=0x7f0c0117;
+        public static final int bankoftokyo_mitsubishiufjltd_states=0x7f0c0119;
+        public static final int bankoftokyo_mitsubishiufjltd_tamilnadu_districts=0x7f0c0118;
+        public static final int barclaysbankplc_maharashtra_districts=0x7f0c011a;
+        public static final int barclaysbankplc_states=0x7f0c011b;
+        public static final int basseincatholicco_opbankltd_maharashtra_districts=0x7f0c011c;
+        public static final int basseincatholicco_opbankltd_states=0x7f0c011d;
+        public static final int bharatco_opbankmumbailtd_karnataka_districts=0x7f0c011e;
+        public static final int bharatco_opbankmumbailtd_maharashtra_districts=0x7f0c011f;
+        public static final int bharatco_opbankmumbailtd_states=0x7f0c0120;
+        public static final int bnpparibas_andhrapradesh_districts=0x7f0c0121;
+        public static final int bnpparibas_gujarat_districts=0x7f0c0122;
+        public static final int bnpparibas_karnataka_districts=0x7f0c0123;
+        public static final int bnpparibas_maharashtra_districts=0x7f0c0124;
+        public static final int bnpparibas_newdelhi_districts=0x7f0c0125;
+        public static final int bnpparibas_states=0x7f0c0128;
+        public static final int bnpparibas_tamilnadu_districts=0x7f0c0126;
+        public static final int bnpparibas_westbengal_districts=0x7f0c0127;
+        public static final int canarabank_andamanandnicobar_districts=0x7f0c0129;
+        public static final int canarabank_andhrapradesh_districts=0x7f0c012a;
+        public static final int canarabank_arunachalpradesh_districts=0x7f0c012b;
+        public static final int canarabank_assam_districts=0x7f0c012c;
+        public static final int canarabank_bihar_districts=0x7f0c012d;
+        public static final int canarabank_chandigarh_districts=0x7f0c012e;
+        public static final int canarabank_chhattisgarh_districts=0x7f0c012f;
+        public static final int canarabank_dadraandnagarhaveli_districts=0x7f0c0130;
+        public static final int canarabank_goa_districts=0x7f0c0131;
+        public static final int canarabank_gujarat_districts=0x7f0c0132;
+        public static final int canarabank_haryana_districts=0x7f0c0133;
+        public static final int canarabank_himachalpradesh_districts=0x7f0c0134;
+        public static final int canarabank_jammuandkashmir_districts=0x7f0c0135;
+        public static final int canarabank_jharkhand_districts=0x7f0c0136;
+        public static final int canarabank_karnataka_districts=0x7f0c0137;
+        public static final int canarabank_kerala_districts=0x7f0c0138;
+        public static final int canarabank_madhyapradesh_districts=0x7f0c0139;
+        public static final int canarabank_maharashtra_districts=0x7f0c013a;
+        public static final int canarabank_manipur_districts=0x7f0c013b;
+        public static final int canarabank_meghalaya_districts=0x7f0c013c;
+        public static final int canarabank_mizoram_districts=0x7f0c013d;
+        public static final int canarabank_nagaland_districts=0x7f0c013e;
+        public static final int canarabank_newdelhi_districts=0x7f0c013f;
+        public static final int canarabank_orissa_districts=0x7f0c0140;
+        public static final int canarabank_pondicherry_districts=0x7f0c0141;
+        public static final int canarabank_punjab_districts=0x7f0c0142;
+        public static final int canarabank_rajasthan_districts=0x7f0c0143;
+        public static final int canarabank_sikkim_districts=0x7f0c0144;
+        public static final int canarabank_states=0x7f0c014a;
+        public static final int canarabank_tamilnadu_districts=0x7f0c0145;
+        public static final int canarabank_tripura_districts=0x7f0c0146;
+        public static final int canarabank_uttarpradesh_districts=0x7f0c0147;
+        public static final int canarabank_uttrakhand_districts=0x7f0c0148;
+        public static final int canarabank_westbengal_districts=0x7f0c0149;
+        public static final int capitallocalareabankltd_punjab_districts=0x7f0c014b;
+        public static final int capitallocalareabankltd_states=0x7f0c014c;
+        public static final int catholicsyrianbankltd_andhrapradesh_districts=0x7f0c014d;
+        public static final int catholicsyrianbankltd_chandigarh_districts=0x7f0c014e;
+        public static final int catholicsyrianbankltd_dadraandnagarhaveli_districts=0x7f0c014f;
+        public static final int catholicsyrianbankltd_goa_districts=0x7f0c0150;
+        public static final int catholicsyrianbankltd_gujarat_districts=0x7f0c0151;
+        public static final int catholicsyrianbankltd_haryana_districts=0x7f0c0152;
+        public static final int catholicsyrianbankltd_himachalpradesh_districts=0x7f0c0153;
+        public static final int catholicsyrianbankltd_karnataka_districts=0x7f0c0154;
+        public static final int catholicsyrianbankltd_kerala_districts=0x7f0c0155;
+        public static final int catholicsyrianbankltd_madhyapradesh_districts=0x7f0c0156;
+        public static final int catholicsyrianbankltd_maharashtra_districts=0x7f0c0157;
+        public static final int catholicsyrianbankltd_newdelhi_districts=0x7f0c0158;
+        public static final int catholicsyrianbankltd_orissa_districts=0x7f0c0159;
+        public static final int catholicsyrianbankltd_pondicherry_districts=0x7f0c015a;
+        public static final int catholicsyrianbankltd_punjab_districts=0x7f0c015b;
+        public static final int catholicsyrianbankltd_rajasthan_districts=0x7f0c015c;
+        public static final int catholicsyrianbankltd_states=0x7f0c0160;
+        public static final int catholicsyrianbankltd_tamilnadu_districts=0x7f0c015d;
+        public static final int catholicsyrianbankltd_uttarpradesh_districts=0x7f0c015e;
+        public static final int catholicsyrianbankltd_westbengal_districts=0x7f0c015f;
+        public static final int centralbankofindia_andamanandnicobar_districts=0x7f0c0161;
+        public static final int centralbankofindia_andhrapradesh_districts=0x7f0c0162;
+        public static final int centralbankofindia_arunachalpradesh_districts=0x7f0c0163;
+        public static final int centralbankofindia_assam_districts=0x7f0c0164;
+        public static final int centralbankofindia_bihar_districts=0x7f0c0165;
+        public static final int centralbankofindia_chandigarh_districts=0x7f0c0166;
+        public static final int centralbankofindia_chhattisgarh_districts=0x7f0c0167;
+        public static final int centralbankofindia_dadraandnagarhaveli_districts=0x7f0c0168;
+        public static final int centralbankofindia_damananddiu_districts=0x7f0c0169;
+        public static final int centralbankofindia_goa_districts=0x7f0c016a;
+        public static final int centralbankofindia_gujarat_districts=0x7f0c016b;
+        public static final int centralbankofindia_haryana_districts=0x7f0c016c;
+        public static final int centralbankofindia_himachalpradesh_districts=0x7f0c016d;
+        public static final int centralbankofindia_jammuandkashmir_districts=0x7f0c016e;
+        public static final int centralbankofindia_jharkhand_districts=0x7f0c016f;
+        public static final int centralbankofindia_karnataka_districts=0x7f0c0170;
+        public static final int centralbankofindia_kerala_districts=0x7f0c0171;
+        public static final int centralbankofindia_madhyapradesh_districts=0x7f0c0172;
+        public static final int centralbankofindia_maharashtra_districts=0x7f0c0173;
+        public static final int centralbankofindia_manipur_districts=0x7f0c0174;
+        public static final int centralbankofindia_meghalaya_districts=0x7f0c0175;
+        public static final int centralbankofindia_mizoram_districts=0x7f0c0176;
+        public static final int centralbankofindia_nagaland_districts=0x7f0c0177;
+        public static final int centralbankofindia_newdelhi_districts=0x7f0c0178;
+        public static final int centralbankofindia_orissa_districts=0x7f0c0179;
+        public static final int centralbankofindia_pondicherry_districts=0x7f0c017a;
+        public static final int centralbankofindia_punjab_districts=0x7f0c017b;
+        public static final int centralbankofindia_rajasthan_districts=0x7f0c017c;
+        public static final int centralbankofindia_sikkim_districts=0x7f0c017d;
+        public static final int centralbankofindia_states=0x7f0c0183;
+        public static final int centralbankofindia_tamilnadu_districts=0x7f0c017e;
+        public static final int centralbankofindia_tripura_districts=0x7f0c017f;
+        public static final int centralbankofindia_uttarpradesh_districts=0x7f0c0180;
+        public static final int centralbankofindia_uttrakhand_districts=0x7f0c0181;
+        public static final int centralbankofindia_westbengal_districts=0x7f0c0182;
+        public static final int chinatrustcommercialbank_newdelhi_districts=0x7f0c0184;
+        public static final int chinatrustcommercialbank_states=0x7f0c0185;
+        public static final int citibank_andhrapradesh_districts=0x7f0c0186;
+        public static final int citibank_chandigarh_districts=0x7f0c0187;
+        public static final int citibank_gujarat_districts=0x7f0c0188;
+        public static final int citibank_haryana_districts=0x7f0c0189;
+        public static final int citibank_karnataka_districts=0x7f0c018a;
+        public static final int citibank_kerala_districts=0x7f0c018b;
+        public static final int citibank_madhyapradesh_districts=0x7f0c018c;
+        public static final int citibank_maharashtra_districts=0x7f0c018d;
+        public static final int citibank_newdelhi_districts=0x7f0c018e;
+        public static final int citibank_orissa_districts=0x7f0c018f;
+        public static final int citibank_pondicherry_districts=0x7f0c0190;
+        public static final int citibank_punjab_districts=0x7f0c0191;
+        public static final int citibank_rajasthan_districts=0x7f0c0192;
+        public static final int citibank_states=0x7f0c0196;
+        public static final int citibank_tamilnadu_districts=0x7f0c0193;
+        public static final int citibank_uttarpradesh_districts=0x7f0c0194;
+        public static final int citibank_westbengal_districts=0x7f0c0195;
+        public static final int citizencreditco_opbankltd_damananddiu_districts=0x7f0c0197;
+        public static final int citizencreditco_opbankltd_goa_districts=0x7f0c0198;
+        public static final int citizencreditco_opbankltd_maharashtra_districts=0x7f0c0199;
+        public static final int citizencreditco_opbankltd_states=0x7f0c019a;
+        public static final int cityunionbankltd_andhrapradesh_districts=0x7f0c019b;
+        public static final int cityunionbankltd_chandigarh_districts=0x7f0c019c;
+        public static final int cityunionbankltd_chhattisgarh_districts=0x7f0c019d;
+        public static final int cityunionbankltd_gujarat_districts=0x7f0c019e;
+        public static final int cityunionbankltd_haryana_districts=0x7f0c019f;
+        public static final int cityunionbankltd_karnataka_districts=0x7f0c01a0;
+        public static final int cityunionbankltd_kerala_districts=0x7f0c01a1;
+        public static final int cityunionbankltd_madhyapradesh_districts=0x7f0c01a2;
+        public static final int cityunionbankltd_maharashtra_districts=0x7f0c01a3;
+        public static final int cityunionbankltd_newdelhi_districts=0x7f0c01a4;
+        public static final int cityunionbankltd_orissa_districts=0x7f0c01a5;
+        public static final int cityunionbankltd_pondicherry_districts=0x7f0c01a6;
+        public static final int cityunionbankltd_punjab_districts=0x7f0c01a7;
+        public static final int cityunionbankltd_rajasthan_districts=0x7f0c01a8;
+        public static final int cityunionbankltd_states=0x7f0c01ac;
+        public static final int cityunionbankltd_tamilnadu_districts=0x7f0c01a9;
+        public static final int cityunionbankltd_uttarpradesh_districts=0x7f0c01aa;
+        public static final int cityunionbankltd_westbengal_districts=0x7f0c01ab;
+        public static final int commonwealthbankofaustralia_maharashtra_districts=0x7f0c01ad;
+        public static final int commonwealthbankofaustralia_states=0x7f0c01ae;
+        public static final int corporationbank_andhrapradesh_districts=0x7f0c01af;
+        public static final int corporationbank_assam_districts=0x7f0c01b0;
+        public static final int corporationbank_bihar_districts=0x7f0c01b1;
+        public static final int corporationbank_chandigarh_districts=0x7f0c01b2;
+        public static final int corporationbank_chhattisgarh_districts=0x7f0c01b3;
+        public static final int corporationbank_dadraandnagarhaveli_districts=0x7f0c01b4;
+        public static final int corporationbank_damananddiu_districts=0x7f0c01b5;
+        public static final int corporationbank_goa_districts=0x7f0c01b6;
+        public static final int corporationbank_gujarat_districts=0x7f0c01b7;
+        public static final int corporationbank_haryana_districts=0x7f0c01b8;
+        public static final int corporationbank_himachalpradesh_districts=0x7f0c01b9;
+        public static final int corporationbank_jammuandkashmir_districts=0x7f0c01ba;
+        public static final int corporationbank_jharkhand_districts=0x7f0c01bb;
+        public static final int corporationbank_karnataka_districts=0x7f0c01bc;
+        public static final int corporationbank_kerala_districts=0x7f0c01bd;
+        public static final int corporationbank_madhyapradesh_districts=0x7f0c01be;
+        public static final int corporationbank_maharashtra_districts=0x7f0c01bf;
+        public static final int corporationbank_meghalaya_districts=0x7f0c01c0;
+        public static final int corporationbank_newdelhi_districts=0x7f0c01c1;
+        public static final int corporationbank_orissa_districts=0x7f0c01c2;
+        public static final int corporationbank_pondicherry_districts=0x7f0c01c3;
+        public static final int corporationbank_punjab_districts=0x7f0c01c4;
+        public static final int corporationbank_rajasthan_districts=0x7f0c01c5;
+        public static final int corporationbank_sikkim_districts=0x7f0c01c6;
+        public static final int corporationbank_states=0x7f0c01cc;
+        public static final int corporationbank_tamilnadu_districts=0x7f0c01c7;
+        public static final int corporationbank_tripura_districts=0x7f0c01c8;
+        public static final int corporationbank_uttarpradesh_districts=0x7f0c01c9;
+        public static final int corporationbank_uttrakhand_districts=0x7f0c01ca;
+        public static final int corporationbank_westbengal_districts=0x7f0c01cb;
+        public static final int cosmosco_opbankltd_andhrapradesh_districts=0x7f0c01cd;
+        public static final int cosmosco_opbankltd_gujarat_districts=0x7f0c01ce;
+        public static final int cosmosco_opbankltd_karnataka_districts=0x7f0c01cf;
+        public static final int cosmosco_opbankltd_madhyapradesh_districts=0x7f0c01d0;
+        public static final int cosmosco_opbankltd_maharashtra_districts=0x7f0c01d1;
+        public static final int cosmosco_opbankltd_states=0x7f0c01d2;
+        public static final int creditagricolecorpandinvestmentbank_gujarat_districts=0x7f0c01d3;
+        public static final int creditagricolecorpandinvestmentbank_karnataka_districts=0x7f0c01d4;
+        public static final int creditagricolecorpandinvestmentbank_maharashtra_districts=0x7f0c01d5;
+        public static final int creditagricolecorpandinvestmentbank_newdelhi_districts=0x7f0c01d6;
+        public static final int creditagricolecorpandinvestmentbank_states=0x7f0c01d8;
+        public static final int creditagricolecorpandinvestmentbank_tamilnadu_districts=0x7f0c01d7;
+        public static final int creditsuisseag_maharashtra_districts=0x7f0c01d9;
+        public static final int creditsuisseag_states=0x7f0c01da;
+        public static final int dbsbankltd_gujarat_districts=0x7f0c01db;
+        public static final int dbsbankltd_karnataka_districts=0x7f0c01dc;
+        public static final int dbsbankltd_maharashtra_districts=0x7f0c01dd;
+        public static final int dbsbankltd_newdelhi_districts=0x7f0c01de;
+        public static final int dbsbankltd_states=0x7f0c01e2;
+        public static final int dbsbankltd_tamilnadu_districts=0x7f0c01df;
+        public static final int dbsbankltd_uttarpradesh_districts=0x7f0c01e0;
+        public static final int dbsbankltd_westbengal_districts=0x7f0c01e1;
+        public static final int default_array=0x7f0c0001;
+        public static final int denabank_andamanandnicobar_districts=0x7f0c01e3;
+        public static final int denabank_andhrapradesh_districts=0x7f0c01e4;
+        public static final int denabank_assam_districts=0x7f0c01e5;
+        public static final int denabank_bihar_districts=0x7f0c01e6;
+        public static final int denabank_chandigarh_districts=0x7f0c01e7;
+        public static final int denabank_chhattisgarh_districts=0x7f0c01e8;
+        public static final int denabank_dadraandnagarhaveli_districts=0x7f0c01e9;
+        public static final int denabank_damananddiu_districts=0x7f0c01ea;
+        public static final int denabank_goa_districts=0x7f0c01eb;
+        public static final int denabank_gujarat_districts=0x7f0c01ec;
+        public static final int denabank_haryana_districts=0x7f0c01ed;
+        public static final int denabank_himachalpradesh_districts=0x7f0c01ee;
+        public static final int denabank_jammuandkashmir_districts=0x7f0c01ef;
+        public static final int denabank_jharkhand_districts=0x7f0c01f0;
+        public static final int denabank_karnataka_districts=0x7f0c01f1;
+        public static final int denabank_kerala_districts=0x7f0c01f2;
+        public static final int denabank_madhyapradesh_districts=0x7f0c01f3;
+        public static final int denabank_maharashtra_districts=0x7f0c01f4;
+        public static final int denabank_meghalaya_districts=0x7f0c01f5;
+        public static final int denabank_newdelhi_districts=0x7f0c01f6;
+        public static final int denabank_orissa_districts=0x7f0c01f7;
+        public static final int denabank_pondicherry_districts=0x7f0c01f8;
+        public static final int denabank_punjab_districts=0x7f0c01f9;
+        public static final int denabank_rajasthan_districts=0x7f0c01fa;
+        public static final int denabank_sikkim_districts=0x7f0c01fb;
+        public static final int denabank_states=0x7f0c0200;
+        public static final int denabank_tamilnadu_districts=0x7f0c01fc;
+        public static final int denabank_uttarpradesh_districts=0x7f0c01fd;
+        public static final int denabank_uttrakhand_districts=0x7f0c01fe;
+        public static final int denabank_westbengal_districts=0x7f0c01ff;
+        public static final int deutschebankag_gujarat_districts=0x7f0c0201;
+        public static final int deutschebankag_haryana_districts=0x7f0c0202;
+        public static final int deutschebankag_karnataka_districts=0x7f0c0203;
+        public static final int deutschebankag_maharashtra_districts=0x7f0c0204;
+        public static final int deutschebankag_newdelhi_districts=0x7f0c0205;
+        public static final int deutschebankag_punjab_districts=0x7f0c0206;
+        public static final int deutschebankag_states=0x7f0c020a;
+        public static final int deutschebankag_tamilnadu_districts=0x7f0c0207;
+        public static final int deutschebankag_uttarpradesh_districts=0x7f0c0208;
+        public static final int deutschebankag_westbengal_districts=0x7f0c0209;
+        public static final int developmentcreditbankltd_andhrapradesh_districts=0x7f0c020b;
+        public static final int developmentcreditbankltd_chhattisgarh_districts=0x7f0c020c;
+        public static final int developmentcreditbankltd_dadraandnagarhaveli_districts=0x7f0c020d;
+        public static final int developmentcreditbankltd_damananddiu_districts=0x7f0c020e;
+        public static final int developmentcreditbankltd_goa_districts=0x7f0c020f;
+        public static final int developmentcreditbankltd_gujarat_districts=0x7f0c0210;
+        public static final int developmentcreditbankltd_haryana_districts=0x7f0c0211;
+        public static final int developmentcreditbankltd_karnataka_districts=0x7f0c0212;
+        public static final int developmentcreditbankltd_kerala_districts=0x7f0c0213;
+        public static final int developmentcreditbankltd_madhyapradesh_districts=0x7f0c0214;
+        public static final int developmentcreditbankltd_maharashtra_districts=0x7f0c0215;
+        public static final int developmentcreditbankltd_newdelhi_districts=0x7f0c0216;
+        public static final int developmentcreditbankltd_orissa_districts=0x7f0c0217;
+        public static final int developmentcreditbankltd_punjab_districts=0x7f0c0218;
+        public static final int developmentcreditbankltd_rajasthan_districts=0x7f0c0219;
+        public static final int developmentcreditbankltd_states=0x7f0c021d;
+        public static final int developmentcreditbankltd_tamilnadu_districts=0x7f0c021a;
+        public static final int developmentcreditbankltd_uttarpradesh_districts=0x7f0c021b;
+        public static final int developmentcreditbankltd_westbengal_districts=0x7f0c021c;
+        public static final int dhanlaxmibankltd_andhrapradesh_districts=0x7f0c021e;
+        public static final int dhanlaxmibankltd_chandigarh_districts=0x7f0c021f;
+        public static final int dhanlaxmibankltd_goa_districts=0x7f0c0220;
+        public static final int dhanlaxmibankltd_gujarat_districts=0x7f0c0221;
+        public static final int dhanlaxmibankltd_haryana_districts=0x7f0c0222;
+        public static final int dhanlaxmibankltd_karnataka_districts=0x7f0c0223;
+        public static final int dhanlaxmibankltd_kerala_districts=0x7f0c0224;
+        public static final int dhanlaxmibankltd_madhyapradesh_districts=0x7f0c0225;
+        public static final int dhanlaxmibankltd_maharashtra_districts=0x7f0c0226;
+        public static final int dhanlaxmibankltd_newdelhi_districts=0x7f0c0227;
+        public static final int dhanlaxmibankltd_punjab_districts=0x7f0c0228;
+        public static final int dhanlaxmibankltd_rajasthan_districts=0x7f0c0229;
+        public static final int dhanlaxmibankltd_states=0x7f0c022d;
+        public static final int dhanlaxmibankltd_tamilnadu_districts=0x7f0c022a;
+        public static final int dhanlaxmibankltd_uttarpradesh_districts=0x7f0c022b;
+        public static final int dhanlaxmibankltd_westbengal_districts=0x7f0c022c;
+        public static final int dicgc_maharashtra_districts=0x7f0c022e;
+        public static final int dicgc_states=0x7f0c022f;
+        public static final int district_all=0x7f0c0025;
+        public static final int district_an=0x7f0c0005;
+        public static final int district_ap=0x7f0c0014;
+        public static final int district_ar=0x7f0c0006;
+        public static final int district_as=0x7f0c001a;
+        public static final int district_bh=0x7f0c001f;
+        public static final int district_ch=0x7f0c0007;
+        public static final int district_ct=0x7f0c001b;
+        public static final int district_dd=0x7f0c0009;
+        public static final int district_dl=0x7f0c000a;
+        public static final int district_dn=0x7f0c0008;
+        public static final int district_go=0x7f0c000b;
+        public static final int district_gu=0x7f0c0020;
+        public static final int district_hp=0x7f0c0018;
+        public static final int district_hr=0x7f0c0019;
+        public static final int district_jh=0x7f0c001c;
+        public static final int district_jk=0x7f0c0016;
+        public static final int district_ka=0x7f0c0013;
+        public static final int district_kl=0x7f0c0004;
+        public static final int district_la=0x7f0c000c;
+        public static final int district_ma=0x7f0c000d;
+        public static final int district_me=0x7f0c000e;
+        public static final int district_mh=0x7f0c0015;
+        public static final int district_mi=0x7f0c000f;
+        public static final int district_mp=0x7f0c0021;
+        public static final int district_na=0x7f0c0010;
+        public static final int district_od=0x7f0c0022;
+        public static final int district_pu=0x7f0c001d;
+        public static final int district_puducherry=0x7f0c0002;
+        public static final int district_ra=0x7f0c0024;
+        public static final int district_si=0x7f0c0011;
+        public static final int district_tn=0x7f0c0003;
+        public static final int district_tr=0x7f0c0012;
+        public static final int district_uk=0x7f0c001e;
+        public static final int district_up=0x7f0c0023;
+        public static final int district_wb=0x7f0c0017;
+        public static final int dombivlinagarisahakaribankltd_maharashtra_districts=0x7f0c0230;
+        public static final int dombivlinagarisahakaribankltd_states=0x7f0c0231;
+        public static final int federalbankltd_andhrapradesh_districts=0x7f0c0232;
+        public static final int federalbankltd_assam_districts=0x7f0c0233;
+        public static final int federalbankltd_bihar_districts=0x7f0c0234;
+        public static final int federalbankltd_chandigarh_districts=0x7f0c0235;
+        public static final int federalbankltd_chhattisgarh_districts=0x7f0c0236;
+        public static final int federalbankltd_dadraandnagarhaveli_districts=0x7f0c0237;
+        public static final int federalbankltd_damananddiu_districts=0x7f0c0238;
+        public static final int federalbankltd_goa_districts=0x7f0c0239;
+        public static final int federalbankltd_gujarat_districts=0x7f0c023a;
+        public static final int federalbankltd_haryana_districts=0x7f0c023b;
+        public static final int federalbankltd_jammuandkashmir_districts=0x7f0c023c;
+        public static final int federalbankltd_jharkhand_districts=0x7f0c023d;
+        public static final int federalbankltd_karnataka_districts=0x7f0c023e;
+        public static final int federalbankltd_kerala_districts=0x7f0c023f;
+        public static final int federalbankltd_madhyapradesh_districts=0x7f0c0240;
+        public static final int federalbankltd_maharashtra_districts=0x7f0c0241;
+        public static final int federalbankltd_meghalaya_districts=0x7f0c0242;
+        public static final int federalbankltd_mizoram_districts=0x7f0c0243;
+        public static final int federalbankltd_nagaland_districts=0x7f0c0244;
+        public static final int federalbankltd_newdelhi_districts=0x7f0c0245;
+        public static final int federalbankltd_orissa_districts=0x7f0c0246;
+        public static final int federalbankltd_pondicherry_districts=0x7f0c0247;
+        public static final int federalbankltd_punjab_districts=0x7f0c0248;
+        public static final int federalbankltd_rajasthan_districts=0x7f0c0249;
+        public static final int federalbankltd_states=0x7f0c024f;
+        public static final int federalbankltd_tamilnadu_districts=0x7f0c024a;
+        public static final int federalbankltd_tripura_districts=0x7f0c024b;
+        public static final int federalbankltd_uttarpradesh_districts=0x7f0c024c;
+        public static final int federalbankltd_uttrakhand_districts=0x7f0c024d;
+        public static final int federalbankltd_westbengal_districts=0x7f0c024e;
+        public static final int firstrandbankltd_maharashtra_districts=0x7f0c0250;
+        public static final int firstrandbankltd_states=0x7f0c0251;
+        public static final int greaterbombayco_opbankltd_maharashtra_districts=0x7f0c0252;
+        public static final int greaterbombayco_opbankltd_states=0x7f0c0253;
+        public static final int gurgaongraminbank_haryana_districts=0x7f0c0254;
+        public static final int gurgaongraminbank_states=0x7f0c0255;
+        public static final int hdfcbankltd_andamanandnicobar_districts=0x7f0c0256;
+        public static final int hdfcbankltd_andhrapradesh_districts=0x7f0c0257;
+        public static final int hdfcbankltd_arunachalpradesh_districts=0x7f0c0258;
+        public static final int hdfcbankltd_assam_districts=0x7f0c0259;
+        public static final int hdfcbankltd_bihar_districts=0x7f0c025a;
+        public static final int hdfcbankltd_chandigarh_districts=0x7f0c025b;
+        public static final int hdfcbankltd_chhattisgarh_districts=0x7f0c025c;
+        public static final int hdfcbankltd_dadraandnagarhaveli_districts=0x7f0c025d;
+        public static final int hdfcbankltd_damananddiu_districts=0x7f0c025e;
+        public static final int hdfcbankltd_goa_districts=0x7f0c025f;
+        public static final int hdfcbankltd_gujarat_districts=0x7f0c0260;
+        public static final int hdfcbankltd_haryana_districts=0x7f0c0261;
+        public static final int hdfcbankltd_himachalpradesh_districts=0x7f0c0262;
+        public static final int hdfcbankltd_jammuandkashmir_districts=0x7f0c0263;
+        public static final int hdfcbankltd_jharkhand_districts=0x7f0c0264;
+        public static final int hdfcbankltd_karnataka_districts=0x7f0c0265;
+        public static final int hdfcbankltd_kerala_districts=0x7f0c0266;
+        public static final int hdfcbankltd_madhyapradesh_districts=0x7f0c0267;
+        public static final int hdfcbankltd_maharashtra_districts=0x7f0c0268;
+        public static final int hdfcbankltd_manipur_districts=0x7f0c0269;
+        public static final int hdfcbankltd_meghalaya_districts=0x7f0c026a;
+        public static final int hdfcbankltd_mizoram_districts=0x7f0c026b;
+        public static final int hdfcbankltd_nagaland_districts=0x7f0c026c;
+        public static final int hdfcbankltd_newdelhi_districts=0x7f0c026d;
+        public static final int hdfcbankltd_orissa_districts=0x7f0c026e;
+        public static final int hdfcbankltd_pondicherry_districts=0x7f0c026f;
+        public static final int hdfcbankltd_punjab_districts=0x7f0c0270;
+        public static final int hdfcbankltd_rajasthan_districts=0x7f0c0271;
+        public static final int hdfcbankltd_sikkim_districts=0x7f0c0272;
+        public static final int hdfcbankltd_states=0x7f0c0278;
+        public static final int hdfcbankltd_tamilnadu_districts=0x7f0c0273;
+        public static final int hdfcbankltd_tripura_districts=0x7f0c0274;
+        public static final int hdfcbankltd_uttarpradesh_districts=0x7f0c0275;
+        public static final int hdfcbankltd_uttrakhand_districts=0x7f0c0276;
+        public static final int hdfcbankltd_westbengal_districts=0x7f0c0277;
+        public static final int hsbc_andhrapradesh_districts=0x7f0c0279;
+        public static final int hsbc_assam_districts=0x7f0c027a;
+        public static final int hsbc_bihar_districts=0x7f0c027b;
+        public static final int hsbc_chandigarh_districts=0x7f0c027c;
+        public static final int hsbc_chhattisgarh_districts=0x7f0c027d;
+        public static final int hsbc_gujarat_districts=0x7f0c027e;
+        public static final int hsbc_haryana_districts=0x7f0c027f;
+        public static final int hsbc_karnataka_districts=0x7f0c0280;
+        public static final int hsbc_kerala_districts=0x7f0c0281;
+        public static final int hsbc_madhyapradesh_districts=0x7f0c0282;
+        public static final int hsbc_maharashtra_districts=0x7f0c0283;
+        public static final int hsbc_newdelhi_districts=0x7f0c0284;
+        public static final int hsbc_punjab_districts=0x7f0c0285;
+        public static final int hsbc_rajasthan_districts=0x7f0c0286;
+        public static final int hsbc_states=0x7f0c028a;
+        public static final int hsbc_tamilnadu_districts=0x7f0c0287;
+        public static final int hsbc_uttarpradesh_districts=0x7f0c0288;
+        public static final int hsbc_westbengal_districts=0x7f0c0289;
+        public static final int icicibankltd_andamanandnicobar_districts=0x7f0c028b;
+        public static final int icicibankltd_andhrapradesh_districts=0x7f0c028c;
+        public static final int icicibankltd_arunachalpradesh_districts=0x7f0c028d;
+        public static final int icicibankltd_assam_districts=0x7f0c028e;
+        public static final int icicibankltd_bihar_districts=0x7f0c028f;
+        public static final int icicibankltd_chandigarh_districts=0x7f0c0290;
+        public static final int icicibankltd_chhattisgarh_districts=0x7f0c0291;
+        public static final int icicibankltd_dadraandnagarhaveli_districts=0x7f0c0292;
+        public static final int icicibankltd_damananddiu_districts=0x7f0c0293;
+        public static final int icicibankltd_goa_districts=0x7f0c0294;
+        public static final int icicibankltd_gujarat_districts=0x7f0c0295;
+        public static final int icicibankltd_haryana_districts=0x7f0c0296;
+        public static final int icicibankltd_himachalpradesh_districts=0x7f0c0297;
+        public static final int icicibankltd_jammuandkashmir_districts=0x7f0c0298;
+        public static final int icicibankltd_jharkhand_districts=0x7f0c0299;
+        public static final int icicibankltd_karnataka_districts=0x7f0c029a;
+        public static final int icicibankltd_kerala_districts=0x7f0c029b;
+        public static final int icicibankltd_madhyapradesh_districts=0x7f0c029c;
+        public static final int icicibankltd_maharashtra_districts=0x7f0c029d;
+        public static final int icicibankltd_manipur_districts=0x7f0c029e;
+        public static final int icicibankltd_meghalaya_districts=0x7f0c029f;
+        public static final int icicibankltd_mizoram_districts=0x7f0c02a0;
+        public static final int icicibankltd_nagaland_districts=0x7f0c02a1;
+        public static final int icicibankltd_newdelhi_districts=0x7f0c02a2;
+        public static final int icicibankltd_orissa_districts=0x7f0c02a3;
+        public static final int icicibankltd_pondicherry_districts=0x7f0c02a4;
+        public static final int icicibankltd_punjab_districts=0x7f0c02a5;
+        public static final int icicibankltd_rajasthan_districts=0x7f0c02a6;
+        public static final int icicibankltd_sikkim_districts=0x7f0c02a7;
+        public static final int icicibankltd_states=0x7f0c02ad;
+        public static final int icicibankltd_tamilnadu_districts=0x7f0c02a8;
+        public static final int icicibankltd_tripura_districts=0x7f0c02a9;
+        public static final int icicibankltd_uttarpradesh_districts=0x7f0c02aa;
+        public static final int icicibankltd_uttrakhand_districts=0x7f0c02ab;
+        public static final int icicibankltd_westbengal_districts=0x7f0c02ac;
+        public static final int idbibankltd_andhrapradesh_districts=0x7f0c02ae;
+        public static final int idbibankltd_arunachalpradesh_districts=0x7f0c02af;
+        public static final int idbibankltd_assam_districts=0x7f0c02b0;
+        public static final int idbibankltd_bihar_districts=0x7f0c02b1;
+        public static final int idbibankltd_chandigarh_districts=0x7f0c02b2;
+        public static final int idbibankltd_chhattisgarh_districts=0x7f0c02b3;
+        public static final int idbibankltd_dadraandnagarhaveli_districts=0x7f0c02b4;
+        public static final int idbibankltd_damananddiu_districts=0x7f0c02b5;
+        public static final int idbibankltd_goa_districts=0x7f0c02b6;
+        public static final int idbibankltd_gujarat_districts=0x7f0c02b7;
+        public static final int idbibankltd_haryana_districts=0x7f0c02b8;
+        public static final int idbibankltd_himachalpradesh_districts=0x7f0c02b9;
+        public static final int idbibankltd_jammuandkashmir_districts=0x7f0c02ba;
+        public static final int idbibankltd_jharkhand_districts=0x7f0c02bb;
+        public static final int idbibankltd_karnataka_districts=0x7f0c02bc;
+        public static final int idbibankltd_kerala_districts=0x7f0c02bd;
+        public static final int idbibankltd_madhyapradesh_districts=0x7f0c02be;
+        public static final int idbibankltd_maharashtra_districts=0x7f0c02bf;
+        public static final int idbibankltd_manipur_districts=0x7f0c02c0;
+        public static final int idbibankltd_meghalaya_districts=0x7f0c02c1;
+        public static final int idbibankltd_mizoram_districts=0x7f0c02c2;
+        public static final int idbibankltd_nagaland_districts=0x7f0c02c3;
+        public static final int idbibankltd_newdelhi_districts=0x7f0c02c4;
+        public static final int idbibankltd_orissa_districts=0x7f0c02c5;
+        public static final int idbibankltd_pondicherry_districts=0x7f0c02c6;
+        public static final int idbibankltd_punjab_districts=0x7f0c02c7;
+        public static final int idbibankltd_rajasthan_districts=0x7f0c02c8;
+        public static final int idbibankltd_sikkim_districts=0x7f0c02c9;
+        public static final int idbibankltd_states=0x7f0c02cf;
+        public static final int idbibankltd_tamilnadu_districts=0x7f0c02ca;
+        public static final int idbibankltd_tripura_districts=0x7f0c02cb;
+        public static final int idbibankltd_uttarpradesh_districts=0x7f0c02cc;
+        public static final int idbibankltd_uttrakhand_districts=0x7f0c02cd;
+        public static final int idbibankltd_westbengal_districts=0x7f0c02ce;
+        public static final int indianbank_andamanandnicobar_districts=0x7f0c02d0;
+        public static final int indianbank_andhrapradesh_districts=0x7f0c02d1;
+        public static final int indianbank_arunachalpradesh_districts=0x7f0c02d2;
+        public static final int indianbank_assam_districts=0x7f0c02d3;
+        public static final int indianbank_bihar_districts=0x7f0c02d4;
+        public static final int indianbank_chandigarh_districts=0x7f0c02d5;
+        public static final int indianbank_chhattisgarh_districts=0x7f0c02d6;
+        public static final int indianbank_dadraandnagarhaveli_districts=0x7f0c02d7;
+        public static final int indianbank_damananddiu_districts=0x7f0c02d8;
+        public static final int indianbank_goa_districts=0x7f0c02d9;
+        public static final int indianbank_gujarat_districts=0x7f0c02da;
+        public static final int indianbank_haryana_districts=0x7f0c02db;
+        public static final int indianbank_himachalpradesh_districts=0x7f0c02dc;
+        public static final int indianbank_jammuandkashmir_districts=0x7f0c02dd;
+        public static final int indianbank_jharkhand_districts=0x7f0c02de;
+        public static final int indianbank_karnataka_districts=0x7f0c02df;
+        public static final int indianbank_kerala_districts=0x7f0c02e0;
+        public static final int indianbank_madhyapradesh_districts=0x7f0c02e1;
+        public static final int indianbank_maharashtra_districts=0x7f0c02e2;
+        public static final int indianbank_meghalaya_districts=0x7f0c02e3;
+        public static final int indianbank_nagaland_districts=0x7f0c02e4;
+        public static final int indianbank_newdelhi_districts=0x7f0c02e5;
+        public static final int indianbank_orissa_districts=0x7f0c02e6;
+        public static final int indianbank_pondicherry_districts=0x7f0c02e7;
+        public static final int indianbank_punjab_districts=0x7f0c02e8;
+        public static final int indianbank_rajasthan_districts=0x7f0c02e9;
+        public static final int indianbank_sikkim_districts=0x7f0c02ea;
+        public static final int indianbank_states=0x7f0c02f0;
+        public static final int indianbank_tamilnadu_districts=0x7f0c02eb;
+        public static final int indianbank_tripura_districts=0x7f0c02ec;
+        public static final int indianbank_uttarpradesh_districts=0x7f0c02ed;
+        public static final int indianbank_uttrakhand_districts=0x7f0c02ee;
+        public static final int indianbank_westbengal_districts=0x7f0c02ef;
+        public static final int indianoverseasbank_andamanandnicobar_districts=0x7f0c02f1;
+        public static final int indianoverseasbank_andhrapradesh_districts=0x7f0c02f2;
+        public static final int indianoverseasbank_arunachalpradesh_districts=0x7f0c02f3;
+        public static final int indianoverseasbank_assam_districts=0x7f0c02f4;
+        public static final int indianoverseasbank_bihar_districts=0x7f0c02f5;
+        public static final int indianoverseasbank_chandigarh_districts=0x7f0c02f6;
+        public static final int indianoverseasbank_chhattisgarh_districts=0x7f0c02f7;
+        public static final int indianoverseasbank_dadraandnagarhaveli_districts=0x7f0c02f8;
+        public static final int indianoverseasbank_damananddiu_districts=0x7f0c02f9;
+        public static final int indianoverseasbank_goa_districts=0x7f0c02fa;
+        public static final int indianoverseasbank_gujarat_districts=0x7f0c02fb;
+        public static final int indianoverseasbank_haryana_districts=0x7f0c02fc;
+        public static final int indianoverseasbank_himachalpradesh_districts=0x7f0c02fd;
+        public static final int indianoverseasbank_jammuandkashmir_districts=0x7f0c02fe;
+        public static final int indianoverseasbank_jharkhand_districts=0x7f0c02ff;
+        public static final int indianoverseasbank_karnataka_districts=0x7f0c0300;
+        public static final int indianoverseasbank_kerala_districts=0x7f0c0301;
+        public static final int indianoverseasbank_madhyapradesh_districts=0x7f0c0302;
+        public static final int indianoverseasbank_maharashtra_districts=0x7f0c0303;
+        public static final int indianoverseasbank_manipur_districts=0x7f0c0304;
+        public static final int indianoverseasbank_meghalaya_districts=0x7f0c0305;
+        public static final int indianoverseasbank_mizoram_districts=0x7f0c0306;
+        public static final int indianoverseasbank_nagaland_districts=0x7f0c0307;
+        public static final int indianoverseasbank_newdelhi_districts=0x7f0c0308;
+        public static final int indianoverseasbank_orissa_districts=0x7f0c0309;
+        public static final int indianoverseasbank_pondicherry_districts=0x7f0c030a;
+        public static final int indianoverseasbank_punjab_districts=0x7f0c030b;
+        public static final int indianoverseasbank_rajasthan_districts=0x7f0c030c;
+        public static final int indianoverseasbank_sikkim_districts=0x7f0c030d;
+        public static final int indianoverseasbank_states=0x7f0c0313;
+        public static final int indianoverseasbank_tamilnadu_districts=0x7f0c030e;
+        public static final int indianoverseasbank_tripura_districts=0x7f0c030f;
+        public static final int indianoverseasbank_uttarpradesh_districts=0x7f0c0310;
+        public static final int indianoverseasbank_uttrakhand_districts=0x7f0c0311;
+        public static final int indianoverseasbank_westbengal_districts=0x7f0c0312;
+        public static final int indusindbankltd_andhrapradesh_districts=0x7f0c0314;
+        public static final int indusindbankltd_assam_districts=0x7f0c0315;
+        public static final int indusindbankltd_bihar_districts=0x7f0c0316;
+        public static final int indusindbankltd_chandigarh_districts=0x7f0c0317;
+        public static final int indusindbankltd_chhattisgarh_districts=0x7f0c0318;
+        public static final int indusindbankltd_dadraandnagarhaveli_districts=0x7f0c0319;
+        public static final int indusindbankltd_goa_districts=0x7f0c031a;
+        public static final int indusindbankltd_gujarat_districts=0x7f0c031b;
+        public static final int indusindbankltd_haryana_districts=0x7f0c031c;
+        public static final int indusindbankltd_himachalpradesh_districts=0x7f0c031d;
+        public static final int indusindbankltd_jammuandkashmir_districts=0x7f0c031e;
+        public static final int indusindbankltd_jharkhand_districts=0x7f0c031f;
+        public static final int indusindbankltd_karnataka_districts=0x7f0c0320;
+        public static final int indusindbankltd_kerala_districts=0x7f0c0321;
+        public static final int indusindbankltd_madhyapradesh_districts=0x7f0c0322;
+        public static final int indusindbankltd_maharashtra_districts=0x7f0c0323;
+        public static final int indusindbankltd_manipur_districts=0x7f0c0324;
+        public static final int indusindbankltd_meghalaya_districts=0x7f0c0325;
+        public static final int indusindbankltd_mizoram_districts=0x7f0c0326;
+        public static final int indusindbankltd_nagaland_districts=0x7f0c0327;
+        public static final int indusindbankltd_newdelhi_districts=0x7f0c0328;
+        public static final int indusindbankltd_orissa_districts=0x7f0c0329;
+        public static final int indusindbankltd_pondicherry_districts=0x7f0c032a;
+        public static final int indusindbankltd_punjab_districts=0x7f0c032b;
+        public static final int indusindbankltd_rajasthan_districts=0x7f0c032c;
+        public static final int indusindbankltd_sikkim_districts=0x7f0c032d;
+        public static final int indusindbankltd_states=0x7f0c0333;
+        public static final int indusindbankltd_tamilnadu_districts=0x7f0c032e;
+        public static final int indusindbankltd_tripura_districts=0x7f0c032f;
+        public static final int indusindbankltd_uttarpradesh_districts=0x7f0c0330;
+        public static final int indusindbankltd_uttrakhand_districts=0x7f0c0331;
+        public static final int indusindbankltd_westbengal_districts=0x7f0c0332;
+        public static final int industrialandcommercialbankofchinaltd_maharashtra_districts=0x7f0c0334;
+        public static final int industrialandcommercialbankofchinaltd_states=0x7f0c0335;
+        public static final int ingvysyabankltd_andhrapradesh_districts=0x7f0c0336;
+        public static final int ingvysyabankltd_assam_districts=0x7f0c0337;
+        public static final int ingvysyabankltd_bihar_districts=0x7f0c0338;
+        public static final int ingvysyabankltd_chandigarh_districts=0x7f0c0339;
+        public static final int ingvysyabankltd_chhattisgarh_districts=0x7f0c033a;
+        public static final int ingvysyabankltd_dadraandnagarhaveli_districts=0x7f0c033b;
+        public static final int ingvysyabankltd_goa_districts=0x7f0c033c;
+        public static final int ingvysyabankltd_gujarat_districts=0x7f0c033d;
+        public static final int ingvysyabankltd_haryana_districts=0x7f0c033e;
+        public static final int ingvysyabankltd_himachalpradesh_districts=0x7f0c033f;
+        public static final int ingvysyabankltd_jammuandkashmir_districts=0x7f0c0340;
+        public static final int ingvysyabankltd_jharkhand_districts=0x7f0c0341;
+        public static final int ingvysyabankltd_karnataka_districts=0x7f0c0342;
+        public static final int ingvysyabankltd_kerala_districts=0x7f0c0343;
+        public static final int ingvysyabankltd_madhyapradesh_districts=0x7f0c0344;
+        public static final int ingvysyabankltd_maharashtra_districts=0x7f0c0345;
+        public static final int ingvysyabankltd_newdelhi_districts=0x7f0c0346;
+        public static final int ingvysyabankltd_orissa_districts=0x7f0c0347;
+        public static final int ingvysyabankltd_pondicherry_districts=0x7f0c0348;
+        public static final int ingvysyabankltd_punjab_districts=0x7f0c0349;
+        public static final int ingvysyabankltd_rajasthan_districts=0x7f0c034a;
+        public static final int ingvysyabankltd_states=0x7f0c034f;
+        public static final int ingvysyabankltd_tamilnadu_districts=0x7f0c034b;
+        public static final int ingvysyabankltd_uttarpradesh_districts=0x7f0c034c;
+        public static final int ingvysyabankltd_uttrakhand_districts=0x7f0c034d;
+        public static final int ingvysyabankltd_westbengal_districts=0x7f0c034e;
+        public static final int jalgaonjanatasahkaribankltd_maharashtra_districts=0x7f0c0350;
+        public static final int jalgaonjanatasahkaribankltd_states=0x7f0c0351;
+        public static final int jammuandkashmirbankltd_andhrapradesh_districts=0x7f0c0352;
+        public static final int jammuandkashmirbankltd_bihar_districts=0x7f0c0353;
+        public static final int jammuandkashmirbankltd_chandigarh_districts=0x7f0c0354;
+        public static final int jammuandkashmirbankltd_chhattisgarh_districts=0x7f0c0355;
+        public static final int jammuandkashmirbankltd_goa_districts=0x7f0c0356;
+        public static final int jammuandkashmirbankltd_gujarat_districts=0x7f0c0357;
+        public static final int jammuandkashmirbankltd_haryana_districts=0x7f0c0358;
+        public static final int jammuandkashmirbankltd_himachalpradesh_districts=0x7f0c0359;
+        public static final int jammuandkashmirbankltd_jammuandkashmir_districts=0x7f0c035a;
+        public static final int jammuandkashmirbankltd_jharkhand_districts=0x7f0c035b;
+        public static final int jammuandkashmirbankltd_karnataka_districts=0x7f0c035c;
+        public static final int jammuandkashmirbankltd_kerala_districts=0x7f0c035d;
+        public static final int jammuandkashmirbankltd_madhyapradesh_districts=0x7f0c035e;
+        public static final int jammuandkashmirbankltd_maharashtra_districts=0x7f0c035f;
+        public static final int jammuandkashmirbankltd_newdelhi_districts=0x7f0c0360;
+        public static final int jammuandkashmirbankltd_punjab_districts=0x7f0c0361;
+        public static final int jammuandkashmirbankltd_rajasthan_districts=0x7f0c0362;
+        public static final int jammuandkashmirbankltd_states=0x7f0c0367;
+        public static final int jammuandkashmirbankltd_tamilnadu_districts=0x7f0c0363;
+        public static final int jammuandkashmirbankltd_uttarpradesh_districts=0x7f0c0364;
+        public static final int jammuandkashmirbankltd_uttrakhand_districts=0x7f0c0365;
+        public static final int jammuandkashmirbankltd_westbengal_districts=0x7f0c0366;
+        public static final int janakalyansahakaribankltd_maharashtra_districts=0x7f0c0368;
+        public static final int janakalyansahakaribankltd_states=0x7f0c0369;
+        public static final int janasevasahakaribankborivliltd_maharashtra_districts=0x7f0c036a;
+        public static final int janasevasahakaribankborivliltd_states=0x7f0c036b;
+        public static final int janasevasahakaribankltdpune_maharashtra_districts=0x7f0c036c;
+        public static final int janasevasahakaribankltdpune_states=0x7f0c036d;
+        public static final int janatasahkaribankltdpune_gujarat_districts=0x7f0c036e;
+        public static final int janatasahkaribankltdpune_maharashtra_districts=0x7f0c036f;
+        public static final int janatasahkaribankltdpune_states=0x7f0c0370;
+        public static final int jpmorganchasebank_maharashtra_districts=0x7f0c0371;
+        public static final int jpmorganchasebank_states=0x7f0c0372;
+        public static final int kallappannaawadeichjanatasbank_karnataka_districts=0x7f0c0373;
+        public static final int kallappannaawadeichjanatasbank_maharashtra_districts=0x7f0c0374;
+        public static final int kallappannaawadeichjanatasbank_states=0x7f0c0375;
+        public static final int kalupurcommercialcoopbankltd_gujarat_districts=0x7f0c0376;
+        public static final int kalupurcommercialcoopbankltd_maharashtra_districts=0x7f0c0377;
+        public static final int kalupurcommercialcoopbankltd_states=0x7f0c0378;
+        public static final int kalyanjanatasahakaribankltd_maharashtra_districts=0x7f0c0379;
+        public static final int kalyanjanatasahakaribankltd_states=0x7f0c037a;
+        public static final int kapoleco_opbank_gujarat_districts=0x7f0c037b;
+        public static final int kapoleco_opbank_maharashtra_districts=0x7f0c037c;
+        public static final int kapoleco_opbank_states=0x7f0c037d;
+        public static final int karnatakabankltd_andhrapradesh_districts=0x7f0c037e;
+        public static final int karnatakabankltd_assam_districts=0x7f0c037f;
+        public static final int karnatakabankltd_bihar_districts=0x7f0c0380;
+        public static final int karnatakabankltd_chhattisgarh_districts=0x7f0c0381;
+        public static final int karnatakabankltd_goa_districts=0x7f0c0382;
+        public static final int karnatakabankltd_gujarat_districts=0x7f0c0383;
+        public static final int karnatakabankltd_haryana_districts=0x7f0c0384;
+        public static final int karnatakabankltd_jharkhand_districts=0x7f0c0385;
+        public static final int karnatakabankltd_karnataka_districts=0x7f0c0386;
+        public static final int karnatakabankltd_kerala_districts=0x7f0c0387;
+        public static final int karnatakabankltd_madhyapradesh_districts=0x7f0c0388;
+        public static final int karnatakabankltd_maharashtra_districts=0x7f0c0389;
+        public static final int karnatakabankltd_newdelhi_districts=0x7f0c038a;
+        public static final int karnatakabankltd_orissa_districts=0x7f0c038b;
+        public static final int karnatakabankltd_pondicherry_districts=0x7f0c038c;
+        public static final int karnatakabankltd_punjab_districts=0x7f0c038d;
+        public static final int karnatakabankltd_rajasthan_districts=0x7f0c038e;
+        public static final int karnatakabankltd_states=0x7f0c0393;
+        public static final int karnatakabankltd_tamilnadu_districts=0x7f0c038f;
+        public static final int karnatakabankltd_uttarpradesh_districts=0x7f0c0390;
+        public static final int karnatakabankltd_uttrakhand_districts=0x7f0c0391;
+        public static final int karnatakabankltd_westbengal_districts=0x7f0c0392;
+        public static final int karnatakastateco_opapexbankltd_karnataka_districts=0x7f0c0394;
+        public static final int karnatakastateco_opapexbankltd_maharashtra_districts=0x7f0c0395;
+        public static final int karnatakastateco_opapexbankltd_states=0x7f0c0396;
+        public static final int karnatakavikasgrameenabank_karnataka_districts=0x7f0c0397;
+        public static final int karnatakavikasgrameenabank_states=0x7f0c0398;
+        public static final int karurvysyabank_andhrapradesh_districts=0x7f0c0399;
+        public static final int karurvysyabank_chandigarh_districts=0x7f0c039a;
+        public static final int karurvysyabank_goa_districts=0x7f0c039b;
+        public static final int karurvysyabank_gujarat_districts=0x7f0c039c;
+        public static final int karurvysyabank_haryana_districts=0x7f0c039d;
+        public static final int karurvysyabank_jharkhand_districts=0x7f0c039e;
+        public static final int karurvysyabank_karnataka_districts=0x7f0c039f;
+        public static final int karurvysyabank_kerala_districts=0x7f0c03a0;
+        public static final int karurvysyabank_madhyapradesh_districts=0x7f0c03a1;
+        public static final int karurvysyabank_maharashtra_districts=0x7f0c03a2;
+        public static final int karurvysyabank_newdelhi_districts=0x7f0c03a3;
+        public static final int karurvysyabank_orissa_districts=0x7f0c03a4;
+        public static final int karurvysyabank_pondicherry_districts=0x7f0c03a5;
+        public static final int karurvysyabank_punjab_districts=0x7f0c03a6;
+        public static final int karurvysyabank_rajasthan_districts=0x7f0c03a7;
+        public static final int karurvysyabank_states=0x7f0c03ab;
+        public static final int karurvysyabank_tamilnadu_districts=0x7f0c03a8;
+        public static final int karurvysyabank_uttarpradesh_districts=0x7f0c03a9;
+        public static final int karurvysyabank_westbengal_districts=0x7f0c03aa;
+        public static final int kotakmahindrabank_andhrapradesh_districts=0x7f0c03ac;
+        public static final int kotakmahindrabank_assam_districts=0x7f0c03ad;
+        public static final int kotakmahindrabank_bihar_districts=0x7f0c03ae;
+        public static final int kotakmahindrabank_chandigarh_districts=0x7f0c03af;
+        public static final int kotakmahindrabank_chhattisgarh_districts=0x7f0c03b0;
+        public static final int kotakmahindrabank_dadraandnagarhaveli_districts=0x7f0c03b1;
+        public static final int kotakmahindrabank_goa_districts=0x7f0c03b2;
+        public static final int kotakmahindrabank_gujarat_districts=0x7f0c03b3;
+        public static final int kotakmahindrabank_haryana_districts=0x7f0c03b4;
+        public static final int kotakmahindrabank_jammuandkashmir_districts=0x7f0c03b5;
+        public static final int kotakmahindrabank_jharkhand_districts=0x7f0c03b6;
+        public static final int kotakmahindrabank_karnataka_districts=0x7f0c03b7;
+        public static final int kotakmahindrabank_kerala_districts=0x7f0c03b8;
+        public static final int kotakmahindrabank_madhyapradesh_districts=0x7f0c03b9;
+        public static final int kotakmahindrabank_maharashtra_districts=0x7f0c03ba;
+        public static final int kotakmahindrabank_meghalaya_districts=0x7f0c03bb;
+        public static final int kotakmahindrabank_newdelhi_districts=0x7f0c03bc;
+        public static final int kotakmahindrabank_orissa_districts=0x7f0c03bd;
+        public static final int kotakmahindrabank_pondicherry_districts=0x7f0c03be;
+        public static final int kotakmahindrabank_punjab_districts=0x7f0c03bf;
+        public static final int kotakmahindrabank_rajasthan_districts=0x7f0c03c0;
+        public static final int kotakmahindrabank_sikkim_districts=0x7f0c03c1;
+        public static final int kotakmahindrabank_states=0x7f0c03c7;
+        public static final int kotakmahindrabank_tamilnadu_districts=0x7f0c03c2;
+        public static final int kotakmahindrabank_tripura_districts=0x7f0c03c3;
+        public static final int kotakmahindrabank_uttarpradesh_districts=0x7f0c03c4;
+        public static final int kotakmahindrabank_uttrakhand_districts=0x7f0c03c5;
+        public static final int kotakmahindrabank_westbengal_districts=0x7f0c03c6;
+        public static final int kurmanchalnagarsahakaribankltd_states=0x7f0c03c9;
+        public static final int kurmanchalnagarsahakaribankltd_uttrakhand_districts=0x7f0c03c8;
+        public static final int lakshmivilasbankltd_andhrapradesh_districts=0x7f0c03ca;
+        public static final int lakshmivilasbankltd_chhattisgarh_districts=0x7f0c03cb;
+        public static final int lakshmivilasbankltd_gujarat_districts=0x7f0c03cc;
+        public static final int lakshmivilasbankltd_haryana_districts=0x7f0c03cd;
+        public static final int lakshmivilasbankltd_jharkhand_districts=0x7f0c03ce;
+        public static final int lakshmivilasbankltd_karnataka_districts=0x7f0c03cf;
+        public static final int lakshmivilasbankltd_kerala_districts=0x7f0c03d0;
+        public static final int lakshmivilasbankltd_madhyapradesh_districts=0x7f0c03d1;
+        public static final int lakshmivilasbankltd_maharashtra_districts=0x7f0c03d2;
+        public static final int lakshmivilasbankltd_newdelhi_districts=0x7f0c03d3;
+        public static final int lakshmivilasbankltd_orissa_districts=0x7f0c03d4;
+        public static final int lakshmivilasbankltd_pondicherry_districts=0x7f0c03d5;
+        public static final int lakshmivilasbankltd_rajasthan_districts=0x7f0c03d6;
+        public static final int lakshmivilasbankltd_states=0x7f0c03da;
+        public static final int lakshmivilasbankltd_tamilnadu_districts=0x7f0c03d7;
+        public static final int lakshmivilasbankltd_uttarpradesh_districts=0x7f0c03d8;
+        public static final int lakshmivilasbankltd_westbengal_districts=0x7f0c03d9;
+        public static final int mahanagarco_opbankltd_maharashtra_districts=0x7f0c03db;
+        public static final int mahanagarco_opbankltd_states=0x7f0c03dc;
+        public static final int maharashtrastateco_opbank_maharashtra_districts=0x7f0c03dd;
+        public static final int maharashtrastateco_opbank_states=0x7f0c03de;
+        public static final int mashreqbankpsc_maharashtra_districts=0x7f0c03df;
+        public static final int mashreqbankpsc_states=0x7f0c03e0;
+        public static final int mehsanaurbanco_opbankltd_gujarat_districts=0x7f0c03e1;
+        public static final int mehsanaurbanco_opbankltd_states=0x7f0c03e2;
+        public static final int mizuhocorporatebankltd_maharashtra_districts=0x7f0c03e3;
+        public static final int mizuhocorporatebankltd_newdelhi_districts=0x7f0c03e4;
+        public static final int mizuhocorporatebankltd_states=0x7f0c03e5;
+        public static final int mumbaidistrictcentralco_opbankltd_maharashtra_districts=0x7f0c03e6;
+        public static final int mumbaidistrictcentralco_opbankltd_states=0x7f0c03e7;
+        public static final int nagpurnagariksahakaribankltd_chhattisgarh_districts=0x7f0c03e8;
+        public static final int nagpurnagariksahakaribankltd_madhyapradesh_districts=0x7f0c03e9;
+        public static final int nagpurnagariksahakaribankltd_maharashtra_districts=0x7f0c03ea;
+        public static final int nagpurnagariksahakaribankltd_states=0x7f0c03eb;
+        public static final int nainitalbankltd_haryana_districts=0x7f0c03ec;
+        public static final int nainitalbankltd_newdelhi_districts=0x7f0c03ed;
+        public static final int nainitalbankltd_rajasthan_districts=0x7f0c03ee;
+        public static final int nainitalbankltd_states=0x7f0c03f1;
+        public static final int nainitalbankltd_uttarpradesh_districts=0x7f0c03ef;
+        public static final int nainitalbankltd_uttrakhand_districts=0x7f0c03f0;
+        public static final int nationalaustraliabank_maharashtra_districts=0x7f0c03f2;
+        public static final int nationalaustraliabank_states=0x7f0c03f3;
+        public static final int newindiaco_opbankltd_gujarat_districts=0x7f0c03f4;
+        public static final int newindiaco_opbankltd_maharashtra_districts=0x7f0c03f5;
+        public static final int newindiaco_opbankltd_states=0x7f0c03f6;
+        public static final int nkgsbco_opbankltd_goa_districts=0x7f0c03f7;
+        public static final int nkgsbco_opbankltd_gujarat_districts=0x7f0c03f8;
+        public static final int nkgsbco_opbankltd_karnataka_districts=0x7f0c03f9;
+        public static final int nkgsbco_opbankltd_maharashtra_districts=0x7f0c03fa;
+        public static final int nkgsbco_opbankltd_states=0x7f0c03fb;
+        public static final int northmalabargraminbank_kerala_districts=0x7f0c03fc;
+        public static final int northmalabargraminbank_states=0x7f0c03fd;
+        public static final int nutannagariksahakaribankltd_gujarat_districts=0x7f0c03fe;
+        public static final int nutannagariksahakaribankltd_maharashtra_districts=0x7f0c03ff;
+        public static final int nutannagariksahakaribankltd_states=0x7f0c0400;
+        public static final int omaninternationalbanksaog_maharashtra_districts=0x7f0c0401;
+        public static final int omaninternationalbanksaog_states=0x7f0c0402;
+        public static final int orientalbankofcommerce_andhrapradesh_districts=0x7f0c0403;
+        public static final int orientalbankofcommerce_arunachalpradesh_districts=0x7f0c0404;
+        public static final int orientalbankofcommerce_assam_districts=0x7f0c0405;
+        public static final int orientalbankofcommerce_bihar_districts=0x7f0c0406;
+        public static final int orientalbankofcommerce_chandigarh_districts=0x7f0c0407;
+        public static final int orientalbankofcommerce_chhattisgarh_districts=0x7f0c0408;
+        public static final int orientalbankofcommerce_dadraandnagarhaveli_districts=0x7f0c0409;
+        public static final int orientalbankofcommerce_damananddiu_districts=0x7f0c040a;
+        public static final int orientalbankofcommerce_goa_districts=0x7f0c040b;
+        public static final int orientalbankofcommerce_gujarat_districts=0x7f0c040c;
+        public static final int orientalbankofcommerce_haryana_districts=0x7f0c040d;
+        public static final int orientalbankofcommerce_himachalpradesh_districts=0x7f0c040e;
+        public static final int orientalbankofcommerce_jammuandkashmir_districts=0x7f0c040f;
+        public static final int orientalbankofcommerce_jharkhand_districts=0x7f0c0410;
+        public static final int orientalbankofcommerce_karnataka_districts=0x7f0c0411;
+        public static final int orientalbankofcommerce_kerala_districts=0x7f0c0412;
+        public static final int orientalbankofcommerce_madhyapradesh_districts=0x7f0c0413;
+        public static final int orientalbankofcommerce_maharashtra_districts=0x7f0c0414;
+        public static final int orientalbankofcommerce_meghalaya_districts=0x7f0c0415;
+        public static final int orientalbankofcommerce_newdelhi_districts=0x7f0c0416;
+        public static final int orientalbankofcommerce_orissa_districts=0x7f0c0417;
+        public static final int orientalbankofcommerce_pondicherry_districts=0x7f0c0418;
+        public static final int orientalbankofcommerce_punjab_districts=0x7f0c0419;
+        public static final int orientalbankofcommerce_rajasthan_districts=0x7f0c041a;
+        public static final int orientalbankofcommerce_sikkim_districts=0x7f0c041b;
+        public static final int orientalbankofcommerce_states=0x7f0c0421;
+        public static final int orientalbankofcommerce_tamilnadu_districts=0x7f0c041c;
+        public static final int orientalbankofcommerce_tripura_districts=0x7f0c041d;
+        public static final int orientalbankofcommerce_uttarpradesh_districts=0x7f0c041e;
+        public static final int orientalbankofcommerce_uttrakhand_districts=0x7f0c041f;
+        public static final int orientalbankofcommerce_westbengal_districts=0x7f0c0420;
+        public static final int parsikjanatasahakaribankltd_maharashtra_districts=0x7f0c0422;
+        public static final int parsikjanatasahakaribankltd_states=0x7f0c0423;
+        public static final int prathamabank_states=0x7f0c0425;
+        public static final int prathamabank_uttarpradesh_districts=0x7f0c0424;
+        public static final int primeco_operativebankltd_gujarat_districts=0x7f0c0426;
+        public static final int primeco_operativebankltd_states=0x7f0c0427;
+        public static final int punjabandmaharashtraco_opbankltd_goa_districts=0x7f0c0428;
+        public static final int punjabandmaharashtraco_opbankltd_karnataka_districts=0x7f0c0429;
+        public static final int punjabandmaharashtraco_opbankltd_maharashtra_districts=0x7f0c042a;
+        public static final int punjabandmaharashtraco_opbankltd_newdelhi_districts=0x7f0c042b;
+        public static final int punjabandmaharashtraco_opbankltd_states=0x7f0c042c;
+        public static final int punjabandsindbank_andhrapradesh_districts=0x7f0c042d;
+        public static final int punjabandsindbank_assam_districts=0x7f0c042e;
+        public static final int punjabandsindbank_bihar_districts=0x7f0c042f;
+        public static final int punjabandsindbank_chandigarh_districts=0x7f0c0430;
+        public static final int punjabandsindbank_chhattisgarh_districts=0x7f0c0431;
+        public static final int punjabandsindbank_goa_districts=0x7f0c0432;
+        public static final int punjabandsindbank_gujarat_districts=0x7f0c0433;
+        public static final int punjabandsindbank_haryana_districts=0x7f0c0434;
+        public static final int punjabandsindbank_himachalpradesh_districts=0x7f0c0435;
+        public static final int punjabandsindbank_jammuandkashmir_districts=0x7f0c0436;
+        public static final int punjabandsindbank_jharkhand_districts=0x7f0c0437;
+        public static final int punjabandsindbank_karnataka_districts=0x7f0c0438;
+        public static final int punjabandsindbank_kerala_districts=0x7f0c0439;
+        public static final int punjabandsindbank_madhyapradesh_districts=0x7f0c043a;
+        public static final int punjabandsindbank_maharashtra_districts=0x7f0c043b;
+        public static final int punjabandsindbank_manipur_districts=0x7f0c043c;
+        public static final int punjabandsindbank_meghalaya_districts=0x7f0c043d;
+        public static final int punjabandsindbank_mizoram_districts=0x7f0c043e;
+        public static final int punjabandsindbank_nagaland_districts=0x7f0c043f;
+        public static final int punjabandsindbank_newdelhi_districts=0x7f0c0440;
+        public static final int punjabandsindbank_orissa_districts=0x7f0c0441;
+        public static final int punjabandsindbank_pondicherry_districts=0x7f0c0442;
+        public static final int punjabandsindbank_punjab_districts=0x7f0c0443;
+        public static final int punjabandsindbank_rajasthan_districts=0x7f0c0444;
+        public static final int punjabandsindbank_sikkim_districts=0x7f0c0445;
+        public static final int punjabandsindbank_states=0x7f0c044b;
+        public static final int punjabandsindbank_tamilnadu_districts=0x7f0c0446;
+        public static final int punjabandsindbank_tripura_districts=0x7f0c0447;
+        public static final int punjabandsindbank_uttarpradesh_districts=0x7f0c0448;
+        public static final int punjabandsindbank_uttrakhand_districts=0x7f0c0449;
+        public static final int punjabandsindbank_westbengal_districts=0x7f0c044a;
+        public static final int punjabnationalbank_andamanandnicobar_districts=0x7f0c044c;
+        public static final int punjabnationalbank_andhrapradesh_districts=0x7f0c044d;
+        public static final int punjabnationalbank_arunachalpradesh_districts=0x7f0c044e;
+        public static final int punjabnationalbank_assam_districts=0x7f0c044f;
+        public static final int punjabnationalbank_bihar_districts=0x7f0c0450;
+        public static final int punjabnationalbank_chandigarh_districts=0x7f0c0451;
+        public static final int punjabnationalbank_chhattisgarh_districts=0x7f0c0452;
+        public static final int punjabnationalbank_dadraandnagarhaveli_districts=0x7f0c0453;
+        public static final int punjabnationalbank_damananddiu_districts=0x7f0c0454;
+        public static final int punjabnationalbank_goa_districts=0x7f0c0455;
+        public static final int punjabnationalbank_gujarat_districts=0x7f0c0456;
+        public static final int punjabnationalbank_haryana_districts=0x7f0c0457;
+        public static final int punjabnationalbank_himachalpradesh_districts=0x7f0c0458;
+        public static final int punjabnationalbank_jammuandkashmir_districts=0x7f0c0459;
+        public static final int punjabnationalbank_jharkhand_districts=0x7f0c045a;
+        public static final int punjabnationalbank_karnataka_districts=0x7f0c045b;
+        public static final int punjabnationalbank_kerala_districts=0x7f0c045c;
+        public static final int punjabnationalbank_madhyapradesh_districts=0x7f0c045d;
+        public static final int punjabnationalbank_maharashtra_districts=0x7f0c045e;
+        public static final int punjabnationalbank_manipur_districts=0x7f0c045f;
+        public static final int punjabnationalbank_meghalaya_districts=0x7f0c0460;
+        public static final int punjabnationalbank_mizoram_districts=0x7f0c0461;
+        public static final int punjabnationalbank_nagaland_districts=0x7f0c0462;
+        public static final int punjabnationalbank_newdelhi_districts=0x7f0c0463;
+        public static final int punjabnationalbank_orissa_districts=0x7f0c0464;
+        public static final int punjabnationalbank_pondicherry_districts=0x7f0c0465;
+        public static final int punjabnationalbank_punjab_districts=0x7f0c0466;
+        public static final int punjabnationalbank_rajasthan_districts=0x7f0c0467;
+        public static final int punjabnationalbank_sikkim_districts=0x7f0c0468;
+        public static final int punjabnationalbank_states=0x7f0c046e;
+        public static final int punjabnationalbank_tamilnadu_districts=0x7f0c0469;
+        public static final int punjabnationalbank_tripura_districts=0x7f0c046a;
+        public static final int punjabnationalbank_uttarpradesh_districts=0x7f0c046b;
+        public static final int punjabnationalbank_uttrakhand_districts=0x7f0c046c;
+        public static final int punjabnationalbank_westbengal_districts=0x7f0c046d;
+        public static final int rabobankinternationalccrb_maharashtra_districts=0x7f0c046f;
+        public static final int rabobankinternationalccrb_states=0x7f0c0470;
+        public static final int rajgurunagarsahkaribankltd_maharashtra_districts=0x7f0c0471;
+        public static final int rajgurunagarsahkaribankltd_states=0x7f0c0472;
+        public static final int rajkotnagariksahakaribankltd_gujarat_districts=0x7f0c0473;
+        public static final int rajkotnagariksahakaribankltd_states=0x7f0c0474;
+        public static final int ratnakarbankltd_andhrapradesh_districts=0x7f0c0475;
+        public static final int ratnakarbankltd_dadraandnagarhaveli_districts=0x7f0c0476;
+        public static final int ratnakarbankltd_damananddiu_districts=0x7f0c0477;
+        public static final int ratnakarbankltd_goa_districts=0x7f0c0478;
+        public static final int ratnakarbankltd_gujarat_districts=0x7f0c0479;
+        public static final int ratnakarbankltd_haryana_districts=0x7f0c047a;
+        public static final int ratnakarbankltd_karnataka_districts=0x7f0c047b;
+        public static final int ratnakarbankltd_madhyapradesh_districts=0x7f0c047c;
+        public static final int ratnakarbankltd_maharashtra_districts=0x7f0c047d;
+        public static final int ratnakarbankltd_newdelhi_districts=0x7f0c047e;
+        public static final int ratnakarbankltd_rajasthan_districts=0x7f0c047f;
+        public static final int ratnakarbankltd_states=0x7f0c0482;
+        public static final int ratnakarbankltd_tamilnadu_districts=0x7f0c0480;
+        public static final int ratnakarbankltd_uttarpradesh_districts=0x7f0c0481;
+        public static final int reservebankofindia_andhrapradesh_districts=0x7f0c0483;
+        public static final int reservebankofindia_assam_districts=0x7f0c0484;
+        public static final int reservebankofindia_bihar_districts=0x7f0c0485;
+        public static final int reservebankofindia_chandigarh_districts=0x7f0c0486;
+        public static final int reservebankofindia_chhattisgarh_districts=0x7f0c0487;
+        public static final int reservebankofindia_goa_districts=0x7f0c0488;
+        public static final int reservebankofindia_gujarat_districts=0x7f0c0489;
+        public static final int reservebankofindia_himachalpradesh_districts=0x7f0c048a;
+        public static final int reservebankofindia_jammuandkashmir_districts=0x7f0c048b;
+        public static final int reservebankofindia_jharkhand_districts=0x7f0c048c;
+        public static final int reservebankofindia_karnataka_districts=0x7f0c048d;
+        public static final int reservebankofindia_kerala_districts=0x7f0c048e;
+        public static final int reservebankofindia_madhyapradesh_districts=0x7f0c048f;
+        public static final int reservebankofindia_maharashtra_districts=0x7f0c0490;
+        public static final int reservebankofindia_meghalaya_districts=0x7f0c0491;
+        public static final int reservebankofindia_newdelhi_districts=0x7f0c0492;
+        public static final int reservebankofindia_orissa_districts=0x7f0c0493;
+        public static final int reservebankofindia_rajasthan_districts=0x7f0c0494;
+        public static final int reservebankofindia_states=0x7f0c0499;
+        public static final int reservebankofindia_tamilnadu_districts=0x7f0c0495;
+        public static final int reservebankofindia_uttarpradesh_districts=0x7f0c0496;
+        public static final int reservebankofindia_uttrakhand_districts=0x7f0c0497;
+        public static final int reservebankofindia_westbengal_districts=0x7f0c0498;
+        public static final int royalbankofscotland_andhrapradesh_districts=0x7f0c049a;
+        public static final int royalbankofscotland_gujarat_districts=0x7f0c049b;
+        public static final int royalbankofscotland_haryana_districts=0x7f0c049c;
+        public static final int royalbankofscotland_karnataka_districts=0x7f0c049d;
+        public static final int royalbankofscotland_maharashtra_districts=0x7f0c049e;
+        public static final int royalbankofscotland_newdelhi_districts=0x7f0c049f;
+        public static final int royalbankofscotland_punjab_districts=0x7f0c04a0;
+        public static final int royalbankofscotland_rajasthan_districts=0x7f0c04a1;
+        public static final int royalbankofscotland_states=0x7f0c04a5;
+        public static final int royalbankofscotland_tamilnadu_districts=0x7f0c04a2;
+        public static final int royalbankofscotland_uttarpradesh_districts=0x7f0c04a3;
+        public static final int royalbankofscotland_westbengal_districts=0x7f0c04a4;
+        public static final int saraswatco_opbankltd_goa_districts=0x7f0c04a8;
+        public static final int saraswatco_opbankltd_gujarat_districts=0x7f0c04a9;
+        public static final int saraswatco_opbankltd_karnataka_districts=0x7f0c04aa;
+        public static final int saraswatco_opbankltd_madhyapradesh_districts=0x7f0c04ab;
+        public static final int saraswatco_opbankltd_maharashtra_districts=0x7f0c04ac;
+        public static final int saraswatco_opbankltd_newdelhi_districts=0x7f0c04ad;
+        public static final int saraswatco_opbankltd_states=0x7f0c04ae;
+        public static final int sberbank_newdelhi_districts=0x7f0c04a6;
+        public static final int sberbank_states=0x7f0c04a7;
+        public static final int shamraovithalco_opbankltd_andhrapradesh_districts=0x7f0c04af;
+        public static final int shamraovithalco_opbankltd_goa_districts=0x7f0c04b0;
+        public static final int shamraovithalco_opbankltd_gujarat_districts=0x7f0c04b1;
+        public static final int shamraovithalco_opbankltd_karnataka_districts=0x7f0c04b2;
+        public static final int shamraovithalco_opbankltd_madhyapradesh_districts=0x7f0c04b3;
+        public static final int shamraovithalco_opbankltd_maharashtra_districts=0x7f0c04b4;
+        public static final int shamraovithalco_opbankltd_newdelhi_districts=0x7f0c04b5;
+        public static final int shamraovithalco_opbankltd_states=0x7f0c04b7;
+        public static final int shamraovithalco_opbankltd_tamilnadu_districts=0x7f0c04b6;
+        public static final int shinhanbank_maharashtra_districts=0x7f0c04b8;
+        public static final int shinhanbank_newdelhi_districts=0x7f0c04b9;
+        public static final int shinhanbank_states=0x7f0c04bb;
+        public static final int shinhanbank_tamilnadu_districts=0x7f0c04ba;
+        public static final int shrichhatrapatirajarshishahuurbanco_opbankltd_maharashtra_districts=0x7f0c04bc;
+        public static final int shrichhatrapatirajarshishahuurbanco_opbankltd_states=0x7f0c04bd;
+        public static final int societegenerale_maharashtra_districts=0x7f0c04be;
+        public static final int societegenerale_newdelhi_districts=0x7f0c04bf;
+        public static final int societegenerale_states=0x7f0c04c0;
+        public static final int southindianbank_andhrapradesh_districts=0x7f0c04c1;
+        public static final int southindianbank_assam_districts=0x7f0c04c2;
+        public static final int southindianbank_bihar_districts=0x7f0c04c3;
+        public static final int southindianbank_chandigarh_districts=0x7f0c04c4;
+        public static final int southindianbank_chhattisgarh_districts=0x7f0c04c5;
+        public static final int southindianbank_goa_districts=0x7f0c04c6;
+        public static final int southindianbank_gujarat_districts=0x7f0c04c7;
+        public static final int southindianbank_haryana_districts=0x7f0c04c8;
+        public static final int southindianbank_himachalpradesh_districts=0x7f0c04c9;
+        public static final int southindianbank_jammuandkashmir_districts=0x7f0c04ca;
+        public static final int southindianbank_jharkhand_districts=0x7f0c04cb;
+        public static final int southindianbank_karnataka_districts=0x7f0c04cc;
+        public static final int southindianbank_kerala_districts=0x7f0c04cd;
+        public static final int southindianbank_madhyapradesh_districts=0x7f0c04ce;
+        public static final int southindianbank_maharashtra_districts=0x7f0c04cf;
+        public static final int southindianbank_meghalaya_districts=0x7f0c04d0;
+        public static final int southindianbank_mizoram_districts=0x7f0c04d1;
+        public static final int southindianbank_nagaland_districts=0x7f0c04d2;
+        public static final int southindianbank_newdelhi_districts=0x7f0c04d3;
+        public static final int southindianbank_orissa_districts=0x7f0c04d4;
+        public static final int southindianbank_pondicherry_districts=0x7f0c04d5;
+        public static final int southindianbank_punjab_districts=0x7f0c04d6;
+        public static final int southindianbank_rajasthan_districts=0x7f0c04d7;
+        public static final int southindianbank_states=0x7f0c04dd;
+        public static final int southindianbank_tamilnadu_districts=0x7f0c04d8;
+        public static final int southindianbank_tripura_districts=0x7f0c04d9;
+        public static final int southindianbank_uttarpradesh_districts=0x7f0c04da;
+        public static final int southindianbank_uttrakhand_districts=0x7f0c04db;
+        public static final int southindianbank_westbengal_districts=0x7f0c04dc;
+        public static final int standardcharteredbank_andhrapradesh_districts=0x7f0c04de;
+        public static final int standardcharteredbank_assam_districts=0x7f0c04df;
+        public static final int standardcharteredbank_bihar_districts=0x7f0c04e0;
+        public static final int standardcharteredbank_chandigarh_districts=0x7f0c04e1;
+        public static final int standardcharteredbank_gujarat_districts=0x7f0c04e2;
+        public static final int standardcharteredbank_haryana_districts=0x7f0c04e3;
+        public static final int standardcharteredbank_karnataka_districts=0x7f0c04e4;
+        public static final int standardcharteredbank_kerala_districts=0x7f0c04e5;
+        public static final int standardcharteredbank_madhyapradesh_districts=0x7f0c04e6;
+        public static final int standardcharteredbank_maharashtra_districts=0x7f0c04e7;
+        public static final int standardcharteredbank_newdelhi_districts=0x7f0c04e8;
+        public static final int standardcharteredbank_orissa_districts=0x7f0c04e9;
+        public static final int standardcharteredbank_punjab_districts=0x7f0c04ea;
+        public static final int standardcharteredbank_rajasthan_districts=0x7f0c04eb;
+        public static final int standardcharteredbank_states=0x7f0c04f0;
+        public static final int standardcharteredbank_tamilnadu_districts=0x7f0c04ec;
+        public static final int standardcharteredbank_uttarpradesh_districts=0x7f0c04ed;
+        public static final int standardcharteredbank_uttrakhand_districts=0x7f0c04ee;
+        public static final int standardcharteredbank_westbengal_districts=0x7f0c04ef;
+        public static final int statebankofbikanerandjaipur_andhrapradesh_districts=0x7f0c04f1;
+        public static final int statebankofbikanerandjaipur_assam_districts=0x7f0c04f2;
+        public static final int statebankofbikanerandjaipur_bihar_districts=0x7f0c04f3;
+        public static final int statebankofbikanerandjaipur_chandigarh_districts=0x7f0c04f4;
+        public static final int statebankofbikanerandjaipur_gujarat_districts=0x7f0c04f5;
+        public static final int statebankofbikanerandjaipur_haryana_districts=0x7f0c04f6;
+        public static final int statebankofbikanerandjaipur_jharkhand_districts=0x7f0c04f7;
+        public static final int statebankofbikanerandjaipur_karnataka_districts=0x7f0c04f8;
+        public static final int statebankofbikanerandjaipur_kerala_districts=0x7f0c04f9;
+        public static final int statebankofbikanerandjaipur_madhyapradesh_districts=0x7f0c04fa;
+        public static final int statebankofbikanerandjaipur_maharashtra_districts=0x7f0c04fb;
+        public static final int statebankofbikanerandjaipur_newdelhi_districts=0x7f0c04fc;
+        public static final int statebankofbikanerandjaipur_orissa_districts=0x7f0c04fd;
+        public static final int statebankofbikanerandjaipur_punjab_districts=0x7f0c04fe;
+        public static final int statebankofbikanerandjaipur_rajasthan_districts=0x7f0c04ff;
+        public static final int statebankofbikanerandjaipur_states=0x7f0c0504;
+        public static final int statebankofbikanerandjaipur_tamilnadu_districts=0x7f0c0500;
+        public static final int statebankofbikanerandjaipur_uttarpradesh_districts=0x7f0c0501;
+        public static final int statebankofbikanerandjaipur_uttrakhand_districts=0x7f0c0502;
+        public static final int statebankofbikanerandjaipur_westbengal_districts=0x7f0c0503;
+        public static final int statebankofhyderabad_andhrapradesh_districts=0x7f0c0505;
+        public static final int statebankofhyderabad_bihar_districts=0x7f0c0506;
+        public static final int statebankofhyderabad_chandigarh_districts=0x7f0c0507;
+        public static final int statebankofhyderabad_chhattisgarh_districts=0x7f0c0508;
+        public static final int statebankofhyderabad_gujarat_districts=0x7f0c0509;
+        public static final int statebankofhyderabad_haryana_districts=0x7f0c050a;
+        public static final int statebankofhyderabad_himachalpradesh_districts=0x7f0c050b;
+        public static final int statebankofhyderabad_jammuandkashmir_districts=0x7f0c050c;
+        public static final int statebankofhyderabad_jharkhand_districts=0x7f0c050d;
+        public static final int statebankofhyderabad_karnataka_districts=0x7f0c050e;
+        public static final int statebankofhyderabad_kerala_districts=0x7f0c050f;
+        public static final int statebankofhyderabad_madhyapradesh_districts=0x7f0c0510;
+        public static final int statebankofhyderabad_maharashtra_districts=0x7f0c0511;
+        public static final int statebankofhyderabad_newdelhi_districts=0x7f0c0512;
+        public static final int statebankofhyderabad_orissa_districts=0x7f0c0513;
+        public static final int statebankofhyderabad_pondicherry_districts=0x7f0c0514;
+        public static final int statebankofhyderabad_punjab_districts=0x7f0c0515;
+        public static final int statebankofhyderabad_rajasthan_districts=0x7f0c0516;
+        public static final int statebankofhyderabad_states=0x7f0c051b;
+        public static final int statebankofhyderabad_tamilnadu_districts=0x7f0c0517;
+        public static final int statebankofhyderabad_uttarpradesh_districts=0x7f0c0518;
+        public static final int statebankofhyderabad_uttrakhand_districts=0x7f0c0519;
+        public static final int statebankofhyderabad_westbengal_districts=0x7f0c051a;
+        public static final int statebankofindia_andamanandnicobar_districts=0x7f0c051c;
+        public static final int statebankofindia_andhrapradesh_districts=0x7f0c051d;
+        public static final int statebankofindia_arunachalpradesh_districts=0x7f0c051e;
+        public static final int statebankofindia_assam_districts=0x7f0c051f;
+        public static final int statebankofindia_bihar_districts=0x7f0c0520;
+        public static final int statebankofindia_chandigarh_districts=0x7f0c0521;
+        public static final int statebankofindia_chhattisgarh_districts=0x7f0c0522;
+        public static final int statebankofindia_dadraandnagarhaveli_districts=0x7f0c0523;
+        public static final int statebankofindia_damananddiu_districts=0x7f0c0524;
+        public static final int statebankofindia_goa_districts=0x7f0c0525;
+        public static final int statebankofindia_gujarat_districts=0x7f0c0526;
+        public static final int statebankofindia_haryana_districts=0x7f0c0527;
+        public static final int statebankofindia_himachalpradesh_districts=0x7f0c0528;
+        public static final int statebankofindia_jammuandkashmir_districts=0x7f0c0529;
+        public static final int statebankofindia_jharkhand_districts=0x7f0c052a;
+        public static final int statebankofindia_karnataka_districts=0x7f0c052b;
+        public static final int statebankofindia_kerala_districts=0x7f0c052c;
+        public static final int statebankofindia_lakshadweep_districts=0x7f0c052d;
+        public static final int statebankofindia_madhyapradesh_districts=0x7f0c052e;
+        public static final int statebankofindia_maharashtra_districts=0x7f0c052f;
+        public static final int statebankofindia_manipur_districts=0x7f0c0530;
+        public static final int statebankofindia_meghalaya_districts=0x7f0c0531;
+        public static final int statebankofindia_mizoram_districts=0x7f0c0532;
+        public static final int statebankofindia_nagaland_districts=0x7f0c0533;
+        public static final int statebankofindia_newdelhi_districts=0x7f0c0534;
+        public static final int statebankofindia_orissa_districts=0x7f0c0535;
+        public static final int statebankofindia_pondicherry_districts=0x7f0c0536;
+        public static final int statebankofindia_punjab_districts=0x7f0c0537;
+        public static final int statebankofindia_rajasthan_districts=0x7f0c0538;
+        public static final int statebankofindia_sikkim_districts=0x7f0c0539;
+        public static final int statebankofindia_states=0x7f0c053f;
+        public static final int statebankofindia_tamilnadu_districts=0x7f0c053a;
+        public static final int statebankofindia_tripura_districts=0x7f0c053b;
+        public static final int statebankofindia_uttarpradesh_districts=0x7f0c053c;
+        public static final int statebankofindia_uttrakhand_districts=0x7f0c053d;
+        public static final int statebankofindia_westbengal_districts=0x7f0c053e;
+        public static final int statebankofmauritiusltd_maharashtra_districts=0x7f0c0540;
+        public static final int statebankofmauritiusltd_states=0x7f0c0541;
+        public static final int statebankofmysore_andhrapradesh_districts=0x7f0c0542;
+        public static final int statebankofmysore_chandigarh_districts=0x7f0c0543;
+        public static final int statebankofmysore_goa_districts=0x7f0c0544;
+        public static final int statebankofmysore_gujarat_districts=0x7f0c0545;
+        public static final int statebankofmysore_haryana_districts=0x7f0c0546;
+        public static final int statebankofmysore_karnataka_districts=0x7f0c0547;
+        public static final int statebankofmysore_kerala_districts=0x7f0c0548;
+        public static final int statebankofmysore_madhyapradesh_districts=0x7f0c0549;
+        public static final int statebankofmysore_maharashtra_districts=0x7f0c054a;
+        public static final int statebankofmysore_newdelhi_districts=0x7f0c054b;
+        public static final int statebankofmysore_orissa_districts=0x7f0c054c;
+        public static final int statebankofmysore_pondicherry_districts=0x7f0c054d;
+        public static final int statebankofmysore_rajasthan_districts=0x7f0c054e;
+        public static final int statebankofmysore_states=0x7f0c0552;
+        public static final int statebankofmysore_tamilnadu_districts=0x7f0c054f;
+        public static final int statebankofmysore_uttarpradesh_districts=0x7f0c0550;
+        public static final int statebankofmysore_westbengal_districts=0x7f0c0551;
+        public static final int statebankofpatiala_andhrapradesh_districts=0x7f0c0553;
+        public static final int statebankofpatiala_bihar_districts=0x7f0c0554;
+        public static final int statebankofpatiala_chandigarh_districts=0x7f0c0555;
+        public static final int statebankofpatiala_chhattisgarh_districts=0x7f0c0556;
+        public static final int statebankofpatiala_goa_districts=0x7f0c0557;
+        public static final int statebankofpatiala_gujarat_districts=0x7f0c0558;
+        public static final int statebankofpatiala_haryana_districts=0x7f0c0559;
+        public static final int statebankofpatiala_himachalpradesh_districts=0x7f0c055a;
+        public static final int statebankofpatiala_jammuandkashmir_districts=0x7f0c055b;
+        public static final int statebankofpatiala_jharkhand_districts=0x7f0c055c;
+        public static final int statebankofpatiala_karnataka_districts=0x7f0c055d;
+        public static final int statebankofpatiala_kerala_districts=0x7f0c055e;
+        public static final int statebankofpatiala_madhyapradesh_districts=0x7f0c055f;
+        public static final int statebankofpatiala_maharashtra_districts=0x7f0c0560;
+        public static final int statebankofpatiala_newdelhi_districts=0x7f0c0561;
+        public static final int statebankofpatiala_orissa_districts=0x7f0c0562;
+        public static final int statebankofpatiala_punjab_districts=0x7f0c0563;
+        public static final int statebankofpatiala_rajasthan_districts=0x7f0c0564;
+        public static final int statebankofpatiala_states=0x7f0c0569;
+        public static final int statebankofpatiala_tamilnadu_districts=0x7f0c0565;
+        public static final int statebankofpatiala_uttarpradesh_districts=0x7f0c0566;
+        public static final int statebankofpatiala_uttrakhand_districts=0x7f0c0567;
+        public static final int statebankofpatiala_westbengal_districts=0x7f0c0568;
+        public static final int statebankoftravancore_andhrapradesh_districts=0x7f0c056a;
+        public static final int statebankoftravancore_chandigarh_districts=0x7f0c056b;
+        public static final int statebankoftravancore_chhattisgarh_districts=0x7f0c056c;
+        public static final int statebankoftravancore_goa_districts=0x7f0c056d;
+        public static final int statebankoftravancore_gujarat_districts=0x7f0c056e;
+        public static final int statebankoftravancore_haryana_districts=0x7f0c056f;
+        public static final int statebankoftravancore_karnataka_districts=0x7f0c0570;
+        public static final int statebankoftravancore_kerala_districts=0x7f0c0571;
+        public static final int statebankoftravancore_madhyapradesh_districts=0x7f0c0572;
+        public static final int statebankoftravancore_maharashtra_districts=0x7f0c0573;
+        public static final int statebankoftravancore_newdelhi_districts=0x7f0c0574;
+        public static final int statebankoftravancore_orissa_districts=0x7f0c0575;
+        public static final int statebankoftravancore_pondicherry_districts=0x7f0c0576;
+        public static final int statebankoftravancore_punjab_districts=0x7f0c0577;
+        public static final int statebankoftravancore_rajasthan_districts=0x7f0c0578;
+        public static final int statebankoftravancore_states=0x7f0c057c;
+        public static final int statebankoftravancore_tamilnadu_districts=0x7f0c0579;
+        public static final int statebankoftravancore_uttarpradesh_districts=0x7f0c057a;
+        public static final int statebankoftravancore_westbengal_districts=0x7f0c057b;
+        public static final int states_array=0x7f0c0000;
+        public static final int sumitomomitsuibankingcorporation_newdelhi_districts=0x7f0c057d;
+        public static final int sumitomomitsuibankingcorporation_states=0x7f0c057e;
+        public static final int suratpeoplesco_opbankltd_gujarat_districts=0x7f0c057f;
+        public static final int suratpeoplesco_opbankltd_states=0x7f0c0580;
+        public static final int syndicatebank_andamanandnicobar_districts=0x7f0c0581;
+        public static final int syndicatebank_andhrapradesh_districts=0x7f0c0582;
+        public static final int syndicatebank_arunachalpradesh_districts=0x7f0c0583;
+        public static final int syndicatebank_assam_districts=0x7f0c0584;
+        public static final int syndicatebank_bihar_districts=0x7f0c0585;
+        public static final int syndicatebank_chandigarh_districts=0x7f0c0586;
+        public static final int syndicatebank_chhattisgarh_districts=0x7f0c0587;
+        public static final int syndicatebank_goa_districts=0x7f0c0588;
+        public static final int syndicatebank_gujarat_districts=0x7f0c0589;
+        public static final int syndicatebank_haryana_districts=0x7f0c058a;
+        public static final int syndicatebank_himachalpradesh_districts=0x7f0c058b;
+        public static final int syndicatebank_jammuandkashmir_districts=0x7f0c058c;
+        public static final int syndicatebank_jharkhand_districts=0x7f0c058d;
+        public static final int syndicatebank_karnataka_districts=0x7f0c058e;
+        public static final int syndicatebank_kerala_districts=0x7f0c058f;
+        public static final int syndicatebank_lakshadweep_districts=0x7f0c0590;
+        public static final int syndicatebank_madhyapradesh_districts=0x7f0c0591;
+        public static final int syndicatebank_maharashtra_districts=0x7f0c0592;
+        public static final int syndicatebank_manipur_districts=0x7f0c0593;
+        public static final int syndicatebank_meghalaya_districts=0x7f0c0594;
+        public static final int syndicatebank_mizoram_districts=0x7f0c0595;
+        public static final int syndicatebank_nagaland_districts=0x7f0c0596;
+        public static final int syndicatebank_newdelhi_districts=0x7f0c0597;
+        public static final int syndicatebank_orissa_districts=0x7f0c0598;
+        public static final int syndicatebank_pondicherry_districts=0x7f0c0599;
+        public static final int syndicatebank_punjab_districts=0x7f0c059a;
+        public static final int syndicatebank_rajasthan_districts=0x7f0c059b;
+        public static final int syndicatebank_sikkim_districts=0x7f0c059c;
+        public static final int syndicatebank_states=0x7f0c05a2;
+        public static final int syndicatebank_tamilnadu_districts=0x7f0c059d;
+        public static final int syndicatebank_tripura_districts=0x7f0c059e;
+        public static final int syndicatebank_uttarpradesh_districts=0x7f0c059f;
+        public static final int syndicatebank_uttrakhand_districts=0x7f0c05a0;
+        public static final int syndicatebank_westbengal_districts=0x7f0c05a1;
+        public static final int tamilnadmercantilebankltd_andamanandnicobar_districts=0x7f0c05a3;
+        public static final int tamilnadmercantilebankltd_andhrapradesh_districts=0x7f0c05a4;
+        public static final int tamilnadmercantilebankltd_dadraandnagarhaveli_districts=0x7f0c05a5;
+        public static final int tamilnadmercantilebankltd_gujarat_districts=0x7f0c05a6;
+        public static final int tamilnadmercantilebankltd_karnataka_districts=0x7f0c05a7;
+        public static final int tamilnadmercantilebankltd_kerala_districts=0x7f0c05a8;
+        public static final int tamilnadmercantilebankltd_madhyapradesh_districts=0x7f0c05a9;
+        public static final int tamilnadmercantilebankltd_maharashtra_districts=0x7f0c05aa;
+        public static final int tamilnadmercantilebankltd_newdelhi_districts=0x7f0c05ab;
+        public static final int tamilnadmercantilebankltd_orissa_districts=0x7f0c05ac;
+        public static final int tamilnadmercantilebankltd_pondicherry_districts=0x7f0c05ad;
+        public static final int tamilnadmercantilebankltd_punjab_districts=0x7f0c05ae;
+        public static final int tamilnadmercantilebankltd_rajasthan_districts=0x7f0c05af;
+        public static final int tamilnadmercantilebankltd_states=0x7f0c05b3;
+        public static final int tamilnadmercantilebankltd_tamilnadu_districts=0x7f0c05b0;
+        public static final int tamilnadmercantilebankltd_uttarpradesh_districts=0x7f0c05b1;
+        public static final int tamilnadmercantilebankltd_westbengal_districts=0x7f0c05b2;
+        public static final int tamilnadustateapexco_opbankltd_states=0x7f0c05b5;
+        public static final int tamilnadustateapexco_opbankltd_tamilnadu_districts=0x7f0c05b4;
+        public static final int thanebharatsahakaribankltd_maharashtra_districts=0x7f0c05b6;
+        public static final int thanebharatsahakaribankltd_states=0x7f0c05b7;
+        public static final int thanedistrictcentralco_operativebankltd_maharashtra_districts=0x7f0c05b8;
+        public static final int thanedistrictcentralco_operativebankltd_states=0x7f0c05b9;
+        public static final int thanejanatasahakaribankltd_goa_districts=0x7f0c05ba;
+        public static final int thanejanatasahakaribankltd_gujarat_districts=0x7f0c05bb;
+        public static final int thanejanatasahakaribankltd_karnataka_districts=0x7f0c05bc;
+        public static final int thanejanatasahakaribankltd_maharashtra_districts=0x7f0c05bd;
+        public static final int thanejanatasahakaribankltd_states=0x7f0c05be;
+        public static final int theakoladistrictcentralco_operativebank_maharashtra_districts=0x7f0c05c3;
+        public static final int theakoladistrictcentralco_operativebank_states=0x7f0c05c4;
+        public static final int theandhrapradeshstateco_opbankltd_andhrapradesh_districts=0x7f0c05c5;
+        public static final int theandhrapradeshstateco_opbankltd_states=0x7f0c05c6;
+        public static final int theapmaheshco_opurbanbankltd_andhrapradesh_districts=0x7f0c05bf;
+        public static final int theapmaheshco_opurbanbankltd_maharashtra_districts=0x7f0c05c0;
+        public static final int theapmaheshco_opurbanbankltd_rajasthan_districts=0x7f0c05c1;
+        public static final int theapmaheshco_opurbanbankltd_states=0x7f0c05c2;
+        public static final int thedelhistateco_operativebankltd_newdelhi_districts=0x7f0c05c7;
+        public static final int thedelhistateco_operativebankltd_states=0x7f0c05c8;
+        public static final int thegadchirolidistrictcentralco_operativebankltd_maharashtra_districts=0x7f0c05c9;
+        public static final int thegadchirolidistrictcentralco_operativebankltd_states=0x7f0c05ca;
+        public static final int thegujaratstateco_operativebankltd_gujarat_districts=0x7f0c05cb;
+        public static final int thegujaratstateco_operativebankltd_states=0x7f0c05cc;
+        public static final int thejalgaonpeoplesco_opbank_maharashtra_districts=0x7f0c05cd;
+        public static final int thejalgaonpeoplesco_opbank_states=0x7f0c05ce;
+        public static final int thekangraco_operativebankltd_himachalpradesh_districts=0x7f0c05cf;
+        public static final int thekangraco_operativebankltd_newdelhi_districts=0x7f0c05d0;
+        public static final int thekangraco_operativebankltd_states=0x7f0c05d1;
+        public static final int thekaradurbanco_opbankltd_maharashtra_districts=0x7f0c05d2;
+        public static final int thekaradurbanco_opbankltd_states=0x7f0c05d3;
+        public static final int themunicipalco_operativebankltdmumbai_maharashtra_districts=0x7f0c05d4;
+        public static final int themunicipalco_operativebankltdmumbai_states=0x7f0c05d5;
+        public static final int thenasikmerchantsco_opbankltd_andhrapradesh_districts=0x7f0c05d6;
+        public static final int thenasikmerchantsco_opbankltd_gujarat_districts=0x7f0c05d7;
+        public static final int thenasikmerchantsco_opbankltd_maharashtra_districts=0x7f0c05d8;
+        public static final int thenasikmerchantsco_opbankltd_states=0x7f0c05d9;
+        public static final int therajasthanstateco_operativebankltd_rajasthan_districts=0x7f0c05da;
+        public static final int therajasthanstateco_operativebankltd_states=0x7f0c05db;
+        public static final int thesahebraodeshmukhco_opbankltd_maharashtra_districts=0x7f0c05dc;
+        public static final int thesahebraodeshmukhco_opbankltd_states=0x7f0c05dd;
+        public static final int thesevavikasco_operativebankltd_maharashtra_districts=0x7f0c05de;
+        public static final int thesevavikasco_operativebankltd_states=0x7f0c05df;
+        public static final int thesolapurjanatasahkaribankltd_maharashtra_districts=0x7f0c05e0;
+        public static final int thesolapurjanatasahkaribankltd_states=0x7f0c05e1;
+        public static final int thesuratdistrictco_operativebankltd_gujarat_districts=0x7f0c05e2;
+        public static final int thesuratdistrictco_operativebankltd_states=0x7f0c05e3;
+        public static final int thesutexcoopbankltd_gujarat_districts=0x7f0c05e4;
+        public static final int thesutexcoopbankltd_states=0x7f0c05e5;
+        public static final int thevarachhaco_opbankltd_gujarat_districts=0x7f0c05e6;
+        public static final int thevarachhaco_opbankltd_states=0x7f0c05e7;
+        public static final int thevishweshwarsahakaribankltdpune_karnataka_districts=0x7f0c05e8;
+        public static final int thevishweshwarsahakaribankltdpune_maharashtra_districts=0x7f0c05e9;
+        public static final int thevishweshwarsahakaribankltdpune_states=0x7f0c05ea;
+        public static final int tumkurgrainmerchantscooperativebankltd_karnataka_districts=0x7f0c05eb;
+        public static final int tumkurgrainmerchantscooperativebankltd_states=0x7f0c05ec;
+        public static final int ubsag_maharashtra_districts=0x7f0c05ed;
+        public static final int ubsag_states=0x7f0c05ee;
+        public static final int ucobank_andamanandnicobar_districts=0x7f0c05ef;
+        public static final int ucobank_andhrapradesh_districts=0x7f0c05f0;
+        public static final int ucobank_arunachalpradesh_districts=0x7f0c05f1;
+        public static final int ucobank_assam_districts=0x7f0c05f2;
+        public static final int ucobank_bihar_districts=0x7f0c05f3;
+        public static final int ucobank_chandigarh_districts=0x7f0c05f4;
+        public static final int ucobank_chhattisgarh_districts=0x7f0c05f5;
+        public static final int ucobank_dadraandnagarhaveli_districts=0x7f0c05f6;
+        public static final int ucobank_damananddiu_districts=0x7f0c05f7;
+        public static final int ucobank_goa_districts=0x7f0c05f8;
+        public static final int ucobank_gujarat_districts=0x7f0c05f9;
+        public static final int ucobank_haryana_districts=0x7f0c05fa;
+        public static final int ucobank_himachalpradesh_districts=0x7f0c05fb;
+        public static final int ucobank_jammuandkashmir_districts=0x7f0c05fc;
+        public static final int ucobank_jharkhand_districts=0x7f0c05fd;
+        public static final int ucobank_karnataka_districts=0x7f0c05fe;
+        public static final int ucobank_kerala_districts=0x7f0c05ff;
+        public static final int ucobank_lakshadweep_districts=0x7f0c0600;
+        public static final int ucobank_madhyapradesh_districts=0x7f0c0601;
+        public static final int ucobank_maharashtra_districts=0x7f0c0602;
+        public static final int ucobank_manipur_districts=0x7f0c0603;
+        public static final int ucobank_meghalaya_districts=0x7f0c0604;
+        public static final int ucobank_mizoram_districts=0x7f0c0605;
+        public static final int ucobank_nagaland_districts=0x7f0c0606;
+        public static final int ucobank_newdelhi_districts=0x7f0c0607;
+        public static final int ucobank_orissa_districts=0x7f0c0608;
+        public static final int ucobank_pondicherry_districts=0x7f0c0609;
+        public static final int ucobank_punjab_districts=0x7f0c060a;
+        public static final int ucobank_rajasthan_districts=0x7f0c060b;
+        public static final int ucobank_sikkim_districts=0x7f0c060c;
+        public static final int ucobank_states=0x7f0c0612;
+        public static final int ucobank_tamilnadu_districts=0x7f0c060d;
+        public static final int ucobank_tripura_districts=0x7f0c060e;
+        public static final int ucobank_uttarpradesh_districts=0x7f0c060f;
+        public static final int ucobank_uttrakhand_districts=0x7f0c0610;
+        public static final int ucobank_westbengal_districts=0x7f0c0611;
+        public static final int unionbankofindia_andamanandnicobar_districts=0x7f0c0613;
+        public static final int unionbankofindia_andhrapradesh_districts=0x7f0c0614;
+        public static final int unionbankofindia_arunachalpradesh_districts=0x7f0c0615;
+        public static final int unionbankofindia_assam_districts=0x7f0c0616;
+        public static final int unionbankofindia_bihar_districts=0x7f0c0617;
+        public static final int unionbankofindia_chandigarh_districts=0x7f0c0618;
+        public static final int unionbankofindia_chhattisgarh_districts=0x7f0c0619;
+        public static final int unionbankofindia_damananddiu_districts=0x7f0c061a;
+        public static final int unionbankofindia_goa_districts=0x7f0c061b;
+        public static final int unionbankofindia_gujarat_districts=0x7f0c061c;
+        public static final int unionbankofindia_haryana_districts=0x7f0c061d;
+        public static final int unionbankofindia_himachalpradesh_districts=0x7f0c061e;
+        public static final int unionbankofindia_jammuandkashmir_districts=0x7f0c061f;
+        public static final int unionbankofindia_jharkhand_districts=0x7f0c0620;
+        public static final int unionbankofindia_karnataka_districts=0x7f0c0621;
+        public static final int unionbankofindia_kerala_districts=0x7f0c0622;
+        public static final int unionbankofindia_madhyapradesh_districts=0x7f0c0623;
+        public static final int unionbankofindia_maharashtra_districts=0x7f0c0624;
+        public static final int unionbankofindia_meghalaya_districts=0x7f0c0625;
+        public static final int unionbankofindia_mizoram_districts=0x7f0c0626;
+        public static final int unionbankofindia_nagaland_districts=0x7f0c0627;
+        public static final int unionbankofindia_newdelhi_districts=0x7f0c0628;
+        public static final int unionbankofindia_orissa_districts=0x7f0c0629;
+        public static final int unionbankofindia_pondicherry_districts=0x7f0c062a;
+        public static final int unionbankofindia_punjab_districts=0x7f0c062b;
+        public static final int unionbankofindia_rajasthan_districts=0x7f0c062c;
+        public static final int unionbankofindia_sikkim_districts=0x7f0c062d;
+        public static final int unionbankofindia_states=0x7f0c0633;
+        public static final int unionbankofindia_tamilnadu_districts=0x7f0c062e;
+        public static final int unionbankofindia_tripura_districts=0x7f0c062f;
+        public static final int unionbankofindia_uttarpradesh_districts=0x7f0c0630;
+        public static final int unionbankofindia_uttrakhand_districts=0x7f0c0631;
+        public static final int unionbankofindia_westbengal_districts=0x7f0c0632;
+        public static final int unitedbankofindia_andamanandnicobar_districts=0x7f0c0634;
+        public static final int unitedbankofindia_andhrapradesh_districts=0x7f0c0635;
+        public static final int unitedbankofindia_arunachalpradesh_districts=0x7f0c0636;
+        public static final int unitedbankofindia_assam_districts=0x7f0c0637;
+        public static final int unitedbankofindia_bihar_districts=0x7f0c0638;
+        public static final int unitedbankofindia_chandigarh_districts=0x7f0c0639;
+        public static final int unitedbankofindia_chhattisgarh_districts=0x7f0c063a;
+        public static final int unitedbankofindia_dadraandnagarhaveli_districts=0x7f0c063b;
+        public static final int unitedbankofindia_goa_districts=0x7f0c063c;
+        public static final int unitedbankofindia_gujarat_districts=0x7f0c063d;
+        public static final int unitedbankofindia_haryana_districts=0x7f0c063e;
+        public static final int unitedbankofindia_himachalpradesh_districts=0x7f0c063f;
+        public static final int unitedbankofindia_jammuandkashmir_districts=0x7f0c0640;
+        public static final int unitedbankofindia_jharkhand_districts=0x7f0c0641;
+        public static final int unitedbankofindia_karnataka_districts=0x7f0c0642;
+        public static final int unitedbankofindia_kerala_districts=0x7f0c0643;
+        public static final int unitedbankofindia_madhyapradesh_districts=0x7f0c0644;
+        public static final int unitedbankofindia_maharashtra_districts=0x7f0c0645;
+        public static final int unitedbankofindia_manipur_districts=0x7f0c0646;
+        public static final int unitedbankofindia_meghalaya_districts=0x7f0c0647;
+        public static final int unitedbankofindia_mizoram_districts=0x7f0c0648;
+        public static final int unitedbankofindia_nagaland_districts=0x7f0c0649;
+        public static final int unitedbankofindia_newdelhi_districts=0x7f0c064a;
+        public static final int unitedbankofindia_orissa_districts=0x7f0c064b;
+        public static final int unitedbankofindia_pondicherry_districts=0x7f0c064c;
+        public static final int unitedbankofindia_punjab_districts=0x7f0c064d;
+        public static final int unitedbankofindia_rajasthan_districts=0x7f0c064e;
+        public static final int unitedbankofindia_sikkim_districts=0x7f0c064f;
+        public static final int unitedbankofindia_states=0x7f0c0655;
+        public static final int unitedbankofindia_tamilnadu_districts=0x7f0c0650;
+        public static final int unitedbankofindia_tripura_districts=0x7f0c0651;
+        public static final int unitedbankofindia_uttarpradesh_districts=0x7f0c0652;
+        public static final int unitedbankofindia_uttrakhand_districts=0x7f0c0653;
+        public static final int unitedbankofindia_westbengal_districts=0x7f0c0654;
+        public static final int unitedoverseasbank_maharashtra_districts=0x7f0c0656;
+        public static final int unitedoverseasbank_states=0x7f0c0657;
+        public static final int vasaivikassahakaribankltd_maharashtra_districts=0x7f0c0658;
+        public static final int vasaivikassahakaribankltd_states=0x7f0c0659;
+        public static final int vijayabank_andamanandnicobar_districts=0x7f0c065a;
+        public static final int vijayabank_andhrapradesh_districts=0x7f0c065b;
+        public static final int vijayabank_arunachalpradesh_districts=0x7f0c065c;
+        public static final int vijayabank_assam_districts=0x7f0c065d;
+        public static final int vijayabank_bihar_districts=0x7f0c065e;
+        public static final int vijayabank_chandigarh_districts=0x7f0c065f;
+        public static final int vijayabank_chhattisgarh_districts=0x7f0c0660;
+        public static final int vijayabank_dadraandnagarhaveli_districts=0x7f0c0661;
+        public static final int vijayabank_goa_districts=0x7f0c0662;
+        public static final int vijayabank_gujarat_districts=0x7f0c0663;
+        public static final int vijayabank_haryana_districts=0x7f0c0664;
+        public static final int vijayabank_himachalpradesh_districts=0x7f0c0665;
+        public static final int vijayabank_jammuandkashmir_districts=0x7f0c0666;
+        public static final int vijayabank_jharkhand_districts=0x7f0c0667;
+        public static final int vijayabank_karnataka_districts=0x7f0c0668;
+        public static final int vijayabank_kerala_districts=0x7f0c0669;
+        public static final int vijayabank_madhyapradesh_districts=0x7f0c066a;
+        public static final int vijayabank_maharashtra_districts=0x7f0c066b;
+        public static final int vijayabank_manipur_districts=0x7f0c066c;
+        public static final int vijayabank_meghalaya_districts=0x7f0c066d;
+        public static final int vijayabank_mizoram_districts=0x7f0c066e;
+        public static final int vijayabank_nagaland_districts=0x7f0c066f;
+        public static final int vijayabank_newdelhi_districts=0x7f0c0670;
+        public static final int vijayabank_orissa_districts=0x7f0c0671;
+        public static final int vijayabank_pondicherry_districts=0x7f0c0672;
+        public static final int vijayabank_punjab_districts=0x7f0c0673;
+        public static final int vijayabank_rajasthan_districts=0x7f0c0674;
+        public static final int vijayabank_sikkim_districts=0x7f0c0675;
+        public static final int vijayabank_states=0x7f0c067b;
+        public static final int vijayabank_tamilnadu_districts=0x7f0c0676;
+        public static final int vijayabank_tripura_districts=0x7f0c0677;
+        public static final int vijayabank_uttarpradesh_districts=0x7f0c0678;
+        public static final int vijayabank_uttrakhand_districts=0x7f0c0679;
+        public static final int vijayabank_westbengal_districts=0x7f0c067a;
+        public static final int westbengalstateco_opbankltd_states=0x7f0c067d;
+        public static final int westbengalstateco_opbankltd_westbengal_districts=0x7f0c067c;
+        public static final int westpacbankingcorporation_maharashtra_districts=0x7f0c067e;
+        public static final int westpacbankingcorporation_states=0x7f0c067f;
+        public static final int wooribank_states=0x7f0c0681;
+        public static final int wooribank_tamilnadu_districts=0x7f0c0680;
+        public static final int yesbankltd_andamanandnicobar_districts=0x7f0c0682;
+        public static final int yesbankltd_andhrapradesh_districts=0x7f0c0683;
+        public static final int yesbankltd_arunachalpradesh_districts=0x7f0c0684;
+        public static final int yesbankltd_assam_districts=0x7f0c0685;
+        public static final int yesbankltd_bihar_districts=0x7f0c0686;
+        public static final int yesbankltd_chandigarh_districts=0x7f0c0687;
+        public static final int yesbankltd_chhattisgarh_districts=0x7f0c0688;
+        public static final int yesbankltd_dadraandnagarhaveli_districts=0x7f0c0689;
+        public static final int yesbankltd_damananddiu_districts=0x7f0c068a;
+        public static final int yesbankltd_goa_districts=0x7f0c068b;
+        public static final int yesbankltd_gujarat_districts=0x7f0c068c;
+        public static final int yesbankltd_haryana_districts=0x7f0c068d;
+        public static final int yesbankltd_himachalpradesh_districts=0x7f0c068e;
+        public static final int yesbankltd_jammuandkashmir_districts=0x7f0c068f;
+        public static final int yesbankltd_jharkhand_districts=0x7f0c0690;
+        public static final int yesbankltd_karnataka_districts=0x7f0c0691;
+        public static final int yesbankltd_kerala_districts=0x7f0c0692;
+        public static final int yesbankltd_lakshadweep_districts=0x7f0c0693;
+        public static final int yesbankltd_madhyapradesh_districts=0x7f0c0694;
+        public static final int yesbankltd_maharashtra_districts=0x7f0c0695;
+        public static final int yesbankltd_manipur_districts=0x7f0c0696;
+        public static final int yesbankltd_meghalaya_districts=0x7f0c0697;
+        public static final int yesbankltd_mizoram_districts=0x7f0c0698;
+        public static final int yesbankltd_nagaland_districts=0x7f0c0699;
+        public static final int yesbankltd_newdelhi_districts=0x7f0c069a;
+        public static final int yesbankltd_orissa_districts=0x7f0c069b;
+        public static final int yesbankltd_pondicherry_districts=0x7f0c069c;
+        public static final int yesbankltd_punjab_districts=0x7f0c069d;
+        public static final int yesbankltd_rajasthan_districts=0x7f0c069e;
+        public static final int yesbankltd_sikkim_districts=0x7f0c069f;
+        public static final int yesbankltd_states=0x7f0c06a5;
+        public static final int yesbankltd_tamilnadu_districts=0x7f0c06a0;
+        public static final int yesbankltd_tripura_districts=0x7f0c06a1;
+        public static final int yesbankltd_uttarpradesh_districts=0x7f0c06a2;
+        public static final int yesbankltd_uttrakhand_districts=0x7f0c06a3;
+        public static final int yesbankltd_westbengal_districts=0x7f0c06a4;
+        public static final int zilasahkaribankltdghaziabad_states=0x7f0c06a7;
+        public static final int zilasahkaribankltdghaziabad_uttarpradesh_districts=0x7f0c06a6;
     }
     public static final class attr {
         /**  Custom divider drawable to use for elements in the action bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarDivider=0x7f01000e;
+        public static final int actionBarDivider=0x7f01000f;
         /**  Custom item state list drawable background for action bar items. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarItemBackground=0x7f01000f;
+        public static final int actionBarItemBackground=0x7f010010;
         /**  Size of the Action Bar, including the contextual
-             bar used to present Action Modes. 
-         <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         bar used to present Action Modes. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
@@ -69,154 +1743,219 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-<p>May be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
-</table>
          */
-        public static final int actionBarSize=0x7f01000d;
-        /**  Reference to a style for the split Action Bar. This style
-             controls the split component that holds the menu/action
-             buttons. actionBarStyle is still used for the primary
-             bar. 
+        public static final int actionBarSize=0x7f01000e;
+        /**  Reference to a theme that should be used to inflate widgets
+         and layouts destined for the action bar. Most of the time
+         this will be a reference to the current theme, but when
+         the action bar has a significantly different contrast
+         profile than the rest of the activity the difference
+         can become important. If this is set to @null the current
+         theme will be used.
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarSplitStyle=0x7f01000b;
+        public static final int actionBarSplitStyle=0x7f01000c;
         /**  Reference to a style for the Action Bar 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarStyle=0x7f01000a;
+        public static final int actionBarStyle=0x7f01000b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabBarStyle=0x7f010007;
+        public static final int actionBarTabBarStyle=0x7f010008;
         /**  Default style for tabs within an action bar 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabStyle=0x7f010006;
+        public static final int actionBarTabStyle=0x7f010007;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabTextStyle=0x7f010008;
+        public static final int actionBarTabTextStyle=0x7f010009;
         /**  Reference to a theme that should be used to inflate widgets
-             and layouts destined for the action bar. Most of the time
-             this will be a reference to the current theme, but when
-             the action bar has a significantly different contrast
-             profile than the rest of the activity the difference
-             can become important. If this is set to @null the current
-             theme will be used.
+         and layouts destined for the action bar. Most of the time
+         this will be a reference to the current theme, but when
+         the action bar has a significantly different contrast
+         profile than the rest of the activity the difference
+         can become important. If this is set to @null the current
+         theme will be used.
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarWidgetTheme=0x7f01000c;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+        public static final int actionBarWidgetTheme=0x7f01000d;
+        /**  Default action button style. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionButtonStyle=0x7f01003a;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+        public static final int actionButtonStyle=0x7f010016;
+        /**  Default ActionBar dropdown style. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionDropDownStyle=0x7f010039;
+        public static final int actionDropDownStyle=0x7f010047;
+        /**  An optional layout to be used as an action view.
+             See {@link android.view.MenuItem#setActionView(android.view.View)}
+             for more info. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionLayout=0x7f01004e;
         /**  TextAppearance style that will be applied to text that
-             appears within action menu items. 
+         appears within action menu items. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionMenuTextAppearance=0x7f010010;
+        public static final int actionMenuTextAppearance=0x7f010011;
         /**  Color for text that appears within action menu items. 
          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int actionMenuTextColor=0x7f010011;
+        public static final int actionMenuTextColor=0x7f010012;
         /**  Background drawable to use for action mode UI 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeBackground=0x7f010014;
+        public static final int actionModeBackground=0x7f01003c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCloseButtonStyle=0x7f010013;
+        public static final int actionModeCloseButtonStyle=0x7f01003b;
         /**  Drawable to use for the close action mode button 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCloseDrawable=0x7f010016;
+        public static final int actionModeCloseDrawable=0x7f01003e;
+        /**  Drawable to use for the Copy action button in Contextual Action Bar 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionModeCopyDrawable=0x7f010040;
+        /**  Drawable to use for the Cut action button in Contextual Action Bar 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionModeCutDrawable=0x7f01003f;
+        /**  Drawable to use for the Find action button in WebView selection action modes 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionModeFindDrawable=0x7f010044;
+        /**  Drawable to use for the Paste action button in Contextual Action Bar 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionModePasteDrawable=0x7f010041;
         /**  PopupWindow style to use for action modes when showing as a window overlay. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModePopupWindowStyle=0x7f010018;
+        public static final int actionModePopupWindowStyle=0x7f010046;
+        /**  Drawable to use for the Select all action button in Contextual Action Bar 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionModeSelectAllDrawable=0x7f010042;
         /**  Drawable to use for the Share action button in WebView selection action modes 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeShareDrawable=0x7f010017;
+        public static final int actionModeShareDrawable=0x7f010043;
         /**  Background drawable to use for action mode UI in the lower split bar 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeSplitBackground=0x7f010015;
+        public static final int actionModeSplitBackground=0x7f01003d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeStyle=0x7f010012;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int actionOverflowButtonStyle=0x7f010009;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int actionSpinnerItemStyle=0x7f01003f;
-        /**  Drawable used as a background for activated items. 
+        public static final int actionModeStyle=0x7f01003a;
+        /**  Drawable to use for the Web Search action button in WebView selection action modes 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int activatedBackgroundIndicator=0x7f010047;
+        public static final int actionModeWebSearchDrawable=0x7f010045;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int actionOverflowButtonStyle=0x7f01000a;
+        /**  The name of an optional ActionProvider class to instantiate an action view
+             and perform operations such as default action for that menu item.
+             See {@link android.view.MenuItem#setActionProvider(android.view.ActionProvider)}
+             for more info. 
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int actionProviderClass=0x7f010050;
+        /**  The name of an optional View class to instantiate and use as an
+             action view. See {@link android.view.MenuItem#setActionView(android.view.View)}
+             for more info. 
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int actionViewClass=0x7f01004f;
         /**  Default ActivityChooserView style. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int activityChooserViewStyle=0x7f010046;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+        public static final int activityChooserViewStyle=0x7f01006c;
+        /**  Specifies a background drawable for the action bar. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int background=0x7f01002f;
+        /**  Specifies a background drawable for the bottom component of a split action bar. 
+         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int background=0x7f010002;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-         */
-        public static final int backgroundSplit=0x7f010003;
+        public static final int backgroundSplit=0x7f010031;
         /**  Specifies a background drawable for a second stacked row of the action bar. 
          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int backgroundStacked=0x7f01004f;
-        /**  Small Button style. 
+        public static final int backgroundStacked=0x7f010030;
+        /**  A style that may be applied to Buttons placed within a
+         LinearLayout with the style buttonBarStyle to form a button bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonStyleSmall=0x7f010019;
+        public static final int buttonBarButtonStyle=0x7f010018;
+        /**  A style that may be applied to horizontal LinearLayouts
+         to form a button bar. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonBarStyle=0x7f010017;
         /**  Specifies a layout for custom navigation. Overrides navigationMode. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int customNavigationLayout=0x7f010050;
+        public static final int customNavigationLayout=0x7f010032;
+        /**  Whether this spinner should mark child views as enabled/disabled when
+             the spinner itself is enabled/disabled. 
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int disableChildrenWhenDisabled=0x7f010054;
         /**  Options affecting how the action bar is displayed. 
          <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
@@ -232,25 +1971,19 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
          */
-        public static final int displayOptions=0x7f01004a;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int divider=0x7f010005;
-        /**  Drawable to use for generic vertical dividers. 
+        public static final int displayOptions=0x7f010028;
+        /**  Specifies the drawable used for item dividers. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dividerVertical=0x7f010038;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+        public static final int divider=0x7f01002e;
+        /**  A drawable that may be used as a horizontal divider between visual elements. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dropDownHintAppearance=0x7f010048;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int dropDownListViewStyle=0x7f01003c;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+        public static final int dividerHorizontal=0x7f01001b;
+        /**  Size of padding on either end of a divider. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
@@ -259,7 +1992,28 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dropdownListPreferredItemHeight=0x7f01003e;
+        public static final int dividerPadding=0x7f010056;
+        /**  A drawable that may be used as a vertical divider between visual elements. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int dividerVertical=0x7f01001a;
+        /**  ListPopupWindow comaptibility 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int dropDownListViewStyle=0x7f010021;
+        /**  The preferred item height for dropdown lists. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int dropdownListPreferredItemHeight=0x7f010048;
         /**  The drawable to show in the button for expanding the activities overflow popup.
              <strong>Note:</strong> Clients would like to set this drawable
              as a clue about the action the chosen activity will perform. For
@@ -269,14 +2023,7 @@ containing a value of this type.
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int expandActivityOverflowButtonDrawable=0x7f01005f;
-        /**  Default background for the menu header. 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-         */
-        public static final int headerBackground=0x7f010059;
+        public static final int expandActivityOverflowButtonDrawable=0x7f01006b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -286,26 +2033,22 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int height=0x7f010004;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+        public static final int height=0x7f010026;
+        /**  Specifies a drawable to use for the 'home as up' indicator. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int homeAsUpIndicator=0x7f01003b;
+        public static final int homeAsUpIndicator=0x7f010013;
         /**  Specifies a layout to use for the "home" section of the action bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int homeLayout=0x7f010051;
-        /**  Default horizontal divider between rows of menu items. 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int horizontalDivider=0x7f010057;
+        public static final int homeLayout=0x7f010033;
         /**  Specifies the drawable used for the application icon. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int icon=0x7f01004d;
+        public static final int icon=0x7f01002c;
         /**  The default state of the SearchView. If true, it will be iconified when not in
              use and expanded when clicked. 
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
@@ -315,12 +2058,12 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int iconifiedByDefault=0x7f010060;
+        public static final int iconifiedByDefault=0x7f01005a;
         /**  Specifies a style resource to use for an indeterminate progress spinner. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int indeterminateProgressStyle=0x7f010053;
+        public static final int indeterminateProgressStyle=0x7f010035;
         /**  The maximal number of items initially shown in the activity list. 
          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
@@ -329,23 +2072,16 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int initialActivityCount=0x7f01005e;
-        /**  Default background for each menu item. 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-         */
-        public static final int itemBackground=0x7f01005a;
-        /**  Default disabled icon alpha for each menu item that shows an icon. 
-         <p>Must be a floating point value, such as "<code>1.2</code>".
+        public static final int initialActivityCount=0x7f01006a;
+        /**  Specifies whether the theme is light, otherwise it is dark. 
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int itemIconDisabledAlpha=0x7f01005c;
+        public static final int isLightTheme=0x7f010059;
         /**  Specifies padding that should be applied to the left and right sides of
              system-provided items in the bar. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
@@ -357,16 +2093,38 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int itemPadding=0x7f010055;
-        /**  Default appearance of menu item text. 
+        public static final int itemPadding=0x7f010037;
+        /**  Drawable used as a background for selected list items. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int itemTextAppearance=0x7f010056;
+        public static final int listChoiceBackgroundIndicator=0x7f01004c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listPopupWindowStyle=0x7f010045;
+        public static final int listPopupWindowStyle=0x7f010022;
+        /**  The preferred list item height. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int listPreferredItemHeight=0x7f01001c;
+        /**  A larger, more robust list item height. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int listPreferredItemHeightLarge=0x7f01001e;
         /**  A smaller, sleeker list item height. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -377,7 +2135,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemHeightSmall=0x7f010032;
+        public static final int listPreferredItemHeightSmall=0x7f01001d;
         /**  The preferred padding along the left edge of list items. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -388,7 +2146,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemPaddingLeft=0x7f010033;
+        public static final int listPreferredItemPaddingLeft=0x7f01001f;
         /**  The preferred padding along the right edge of list items. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -399,12 +2157,12 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemPaddingRight=0x7f010034;
+        public static final int listPreferredItemPaddingRight=0x7f010020;
         /**  Specifies the drawable used for the application logo. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int logo=0x7f01004e;
+        public static final int logo=0x7f01002d;
         /**  The type of navigation to use. 
          <p>Must be one of the following constant values.</p>
 <table>
@@ -417,20 +2175,57 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>tabMode</code></td><td>2</td><td> The action bar will use a series of horizontal tabs for navigation. </td></tr>
 </table>
          */
-        public static final int navigationMode=0x7f010049;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int popupMenuStyle=0x7f01003d;
-        /**  Whether space should be reserved in layout when an icon is missing. 
-         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+        public static final int navigationMode=0x7f010027;
+        /**  Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int preserveIconSpacing=0x7f01005d;
+        public static final int paddingEnd=0x7f010039;
+        /**  Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int paddingStart=0x7f010038;
+        /**  Default Panel Menu style. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int panelMenuListTheme=0x7f01004b;
+        /**  Default Panel Menu width. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int panelMenuListWidth=0x7f01004a;
+        /**  Default PopupMenu style. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int popupMenuStyle=0x7f010049;
+        /**  Reference to a layout to use for displaying a prompt in the dropdown for
+             spinnerMode="dropdown". This layout must contain a TextView with the id
+             {@code @android:id/text1} to be populated with the prompt text. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int popupPromptView=0x7f010053;
         /**  Specifies the horizontal padding on either end for an embedded progress bar. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -441,12 +2236,17 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int progressBarPadding=0x7f010054;
+        public static final int progressBarPadding=0x7f010036;
         /**  Specifies a style resource to use for an embedded progress bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int progressBarStyle=0x7f010052;
+        public static final int progressBarStyle=0x7f010034;
+        /**  The prompt to display when the spinner's dialog is shown. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int prompt=0x7f010051;
         /**  An optional query hint string to be displayed in the empty query field. 
          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
@@ -455,17 +2255,12 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int queryHint=0x7f010061;
-        /**  SearchView AutoCompleteTextView style 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int searchAutoCompleteTextView=0x7f010024;
+        public static final int queryHint=0x7f01005b;
         /**  SearchView dropdown background 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchDropdownBackground=0x7f010025;
+        public static final int searchDropdownBackground=0x7f01005c;
         /**  The list item height for search results. @hide 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -476,60 +2271,120 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int searchResultListItemHeight=0x7f01002f;
+        public static final int searchResultListItemHeight=0x7f010065;
+        /**  SearchView AutoCompleteTextView style 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int searchViewAutoCompleteTextView=0x7f010069;
         /**  SearchView close button icon 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchViewCloseIcon=0x7f010026;
+        public static final int searchViewCloseIcon=0x7f01005d;
         /**  SearchView query refinement icon 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchViewEditQuery=0x7f01002a;
+        public static final int searchViewEditQuery=0x7f010061;
         /**  SearchView query refinement icon background 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchViewEditQueryBackground=0x7f01002b;
+        public static final int searchViewEditQueryBackground=0x7f010062;
         /**  SearchView Go button icon 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchViewGoIcon=0x7f010027;
+        public static final int searchViewGoIcon=0x7f01005e;
         /**  SearchView Search icon 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchViewSearchIcon=0x7f010028;
+        public static final int searchViewSearchIcon=0x7f01005f;
         /**  SearchView text field background for the left section 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchViewTextField=0x7f01002c;
+        public static final int searchViewTextField=0x7f010063;
         /**  SearchView text field background for the right section 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchViewTextFieldRight=0x7f01002d;
+        public static final int searchViewTextFieldRight=0x7f010064;
         /**  SearchView Voice button icon 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchViewVoiceIcon=0x7f010029;
-        /**  Background drawable for standalone items that need focus/pressed states. 
+        public static final int searchViewVoiceIcon=0x7f010060;
+        /**  A style that may be applied to buttons or other selectable items
+         that should react to pressed and focus states, but that do not
+         have a clear visual border along the edges. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int selectableItemBackground=0x7f01001a;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+        public static final int selectableItemBackground=0x7f010019;
+        /**  How this item should display in the Action Bar, if present. 
+         <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>never</code></td><td>0</td><td> Never show this item in an action bar, show it in the overflow menu instead.
+                 Mutually exclusive with "ifRoom" and "always". </td></tr>
+<tr><td><code>ifRoom</code></td><td>1</td><td> Show this item in an action bar if there is room for it as determined
+                 by the system. Favor this option over "always" where possible.
+                 Mutually exclusive with "never" and "always". </td></tr>
+<tr><td><code>always</code></td><td>2</td><td> Always show this item in an actionbar, even if it would override
+                 the system's limits of how much stuff to put there. This may make
+                 your action bar look bad on some screens. In most cases you should
+                 use "ifRoom" instead. Mutually exclusive with "ifRoom" and "never". </td></tr>
+<tr><td><code>withText</code></td><td>4</td><td> When this item is shown as an action in the action bar, show a text
+                 label with it even if it has an icon representation. </td></tr>
+<tr><td><code>collapseActionView</code></td><td>8</td><td> This item's action view collapses to a normal menu
+                 item. When expanded, the action view takes over a
+                 larger segment of its container. </td></tr>
+</table>
+         */
+        public static final int showAsAction=0x7f01004d;
+        /**  Setting for which dividers to show. 
+         <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>beginning</code></td><td>1</td><td></td></tr>
+<tr><td><code>middle</code></td><td>2</td><td></td></tr>
+<tr><td><code>end</code></td><td>4</td><td></td></tr>
+</table>
+         */
+        public static final int showDividers=0x7f010055;
+        /**  Default Spinner style. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int spinnerDropDownItemStyle=0x7f010023;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+        public static final int spinnerDropDownItemStyle=0x7f010058;
+        /**  Display mode for spinner options. 
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>dialog</code></td><td>0</td><td> Spinner options will be presented to the user as a dialog window. </td></tr>
+<tr><td><code>dropdown</code></td><td>1</td><td> Spinner options will be presented to the user as an inline dropdown
+                 anchored to the spinner widget itself. </td></tr>
+</table>
+         */
+        public static final int spinnerMode=0x7f010052;
+        /**  Default Spinner style. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int spinnerItemStyle=0x7f010022;
+        public static final int spinnerStyle=0x7f010057;
         /**  Specifies subtitle text used for navigationMode="normal" 
          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
@@ -538,93 +2393,68 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int subtitle=0x7f01004c;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+        public static final int subtitle=0x7f010029;
+        /**  Specifies a style to use for subtitle text. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int subtitleTextStyle=0x7f010001;
+        public static final int subtitleTextStyle=0x7f01002b;
+        /**  Present the text in ALL CAPS. This may use a small-caps form when available. 
+         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         */
+        public static final int textAllCaps=0x7f01006d;
         /**  Text color, typeface, size, and style for the text inside of a popup menu. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceLargePopupMenu=0x7f01001c;
+        public static final int textAppearanceLargePopupMenu=0x7f010014;
+        /**  The preferred TextAppearance for the primary text of list items. 
+         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int textAppearanceListItem=0x7f010023;
         /**  The preferred TextAppearance for the primary text of small list items. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceListItemSmall=0x7f010035;
+        public static final int textAppearanceListItemSmall=0x7f010024;
         /**  Text color, typeface, size, and style for system search result subtitle. Defaults to primary inverse text color. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSearchResultSubtitle=0x7f010031;
+        public static final int textAppearanceSearchResultSubtitle=0x7f010067;
         /**  Text color, typeface, size, and style for system search result title. Defaults to primary inverse text color. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSearchResultTitle=0x7f010030;
-        /**  Text color, typeface, size, and style for "small" text. Defaults to secondary text color. 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int textAppearanceSmall=0x7f01001e;
+        public static final int textAppearanceSearchResultTitle=0x7f010066;
         /**  Text color, typeface, size, and style for small text inside of a popup menu. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSmallPopupMenu=0x7f01001d;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int textColorPrimary=0x7f01001f;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int textColorPrimaryDisableOnly=0x7f010020;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int textColorPrimaryInverse=0x7f010021;
-        /**  Text color for urls in search suggestions, used by things like global search and the browser. @hide 
+        public static final int textAppearanceSmallPopupMenu=0x7f010015;
+        /**  Text color for urls in search suggestions, used by things like global search 
          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int textColorSearchUrl=0x7f01002e;
-        /**  Specifies title text used for navigationMode="normal" 
-         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+        public static final int textColorSearchUrl=0x7f010068;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int title=0x7f01004b;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int titleTextStyle=0x7f010000;
-        /**  Default vertical divider between menu items. 
+        public static final int title=0x7f010025;
+        /**  Specifies a style to use for title text. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int verticalDivider=0x7f010058;
+        public static final int titleTextStyle=0x7f01002a;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -632,7 +2462,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowActionBar=0x7f010041;
+        public static final int windowActionBar=0x7f010000;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -640,46 +2470,71 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowActionBarOverlay=0x7f010042;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int windowActionModeOverlay=0x7f010043;
-        /**  Default animations for the menu. 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int windowAnimationStyle=0x7f01005b;
-        /**  This Drawable is overlaid over the foreground of the Window's content area, usually
-             to place a shadow below the title.  
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int windowContentOverlay=0x7f01001b;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+        public static final int windowActionBarOverlay=0x7f010001;
+        /**  A fixed height for the window along the major axis of the screen,
+             that is, when in portrait. Can be either an absolute dimension
+             or a fraction of the screen size in that dimension. 
+         <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowMinWidthMajor=0x7f010036;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+        public static final int windowFixedHeightMajor=0x7f010006;
+        /**  A fixed height for the window along the minor axis of the screen,
+             that is, when in landscape. Can be either an absolute dimension
+             or a fraction of the screen size in that dimension. 
+         <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowMinWidthMinor=0x7f010037;
+        public static final int windowFixedHeightMinor=0x7f010004;
+        /**  A fixed width for the window along the major axis of the screen,
+             that is, when in landscape. Can be either an absolute dimension
+             or a fraction of the screen size in that dimension. 
+         <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowFixedWidthMajor=0x7f010003;
+        /**  A fixed width for the window along the minor axis of the screen,
+             that is, when in portrait. Can be either an absolute dimension
+             or a fraction of the screen size in that dimension. 
+         <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowFixedWidthMinor=0x7f010005;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -687,49 +2542,32 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowNoTitle=0x7f010040;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int windowSplitActionBar=0x7f010044;
+        public static final int windowSplitActionBar=0x7f010002;
     }
     public static final class bool {
-        public static final int abs__action_bar_embed_tabs=0x7f050000;
-        public static final int abs__action_bar_expanded_action_views_exclusive=0x7f050002;
+        public static final int abc_action_bar_embed_tabs_pre_jb=0x7f060000;
+        public static final int abc_action_bar_expanded_action_views_exclusive=0x7f060001;
         /**  Whether action menu items should be displayed in ALLCAPS or not.
          Defaults to true. If this is not appropriate for specific locales
          it should be disabled in that locale's resources. 
          */
-        public static final int abs__config_actionMenuItemAllCaps=0x7f050004;
+        public static final int abc_config_actionMenuItemAllCaps=0x7f060005;
         /**  Whether action menu items should obey the "withText" showAsAction
-         flag. This may be set to false for situations where space is
-         extremely limited. 
- Whether action menu items should obey the "withText" showAsAction
-         flag. This may be set to false for situations where space is
+    flag. This may be set to false for situations where space is
+    extremely limited. 
+ Whether action menu items should obey the "withText" showAsAction.
+         This may be set to false for situations where space is
          extremely limited. 
          */
-        public static final int abs__config_allowActionMenuItemTextWithIcon=0x7f050005;
-        /**  Sets whether menu shortcuts should be displayed on panel menus when
-         a keyboard is present. 
-         */
-        public static final int abs__config_showMenuShortcutsWhenKeyboardPresent=0x7f050003;
-        public static final int abs__split_action_bar_is_narrow=0x7f050001;
+        public static final int abc_config_allowActionMenuItemTextWithIcon=0x7f060004;
+        public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f060003;
+        public static final int abc_split_action_bar_is_narrow=0x7f060002;
     }
     public static final class color {
-        public static final int abs__background_holo_dark=0x7f060000;
-        public static final int abs__background_holo_light=0x7f060001;
-        public static final int abs__bright_foreground_disabled_holo_dark=0x7f060004;
-        public static final int abs__bright_foreground_disabled_holo_light=0x7f060005;
-        public static final int abs__bright_foreground_holo_dark=0x7f060002;
-        public static final int abs__bright_foreground_holo_light=0x7f060003;
-        public static final int abs__primary_text_disable_only_holo_dark=0x7f060006;
-        public static final int abs__primary_text_disable_only_holo_light=0x7f060007;
-        public static final int abs__primary_text_holo_dark=0x7f060008;
-        public static final int abs__primary_text_holo_light=0x7f060009;
+        public static final int abc_search_url_text_holo=0x7f070003;
+        public static final int abc_search_url_text_normal=0x7f070000;
+        public static final int abc_search_url_text_pressed=0x7f070002;
+        public static final int abc_search_url_text_selected=0x7f070001;
     }
     public static final class dimen {
         /**  Default height of an action bar. 
@@ -737,564 +2575,794 @@ containing a value of this type.
  Default height of an action bar. 
  Default height of an action bar. 
  Default height of an action bar. 
- Default height of an action bar. 
- Default height of an action bar. 
- Default height of an action bar. 
          */
-        public static final int abs__action_bar_default_height=0x7f070001;
+        public static final int abc_action_bar_default_height=0x7f080002;
         /**  Vertical padding around action bar icons. 
  Vertical padding around action bar icons. 
  Vertical padding around action bar icons. 
  Vertical padding around action bar icons. 
  Vertical padding around action bar icons. 
- Vertical padding around action bar icons. 
- Vertical padding around action bar icons. 
- Vertical padding around action bar icons. 
          */
-        public static final int abs__action_bar_icon_vertical_padding=0x7f070002;
+        public static final int abc_action_bar_icon_vertical_padding=0x7f080003;
+        /**  Size of the indeterminate Progress Bar 
+ Size of the indeterminate Progress Bar 
+         */
+        public static final int abc_action_bar_progress_bar_size=0x7f08000a;
+        /**  Maximum height for a stacked tab bar as part of an action bar 
+         */
+        public static final int abc_action_bar_stacked_max_height=0x7f080009;
+        /**  Maximum width for a stacked action bar tab. This prevents
+         action bar tabs from becoming too wide on a wide screen when only
+         a few are present. 
+         */
+        public static final int abc_action_bar_stacked_tab_max_width=0x7f080001;
         /**  Bottom margin for action bar subtitles 
  Bottom margin for action bar subtitles 
  Bottom margin for action bar subtitles 
  Bottom margin for action bar subtitles 
  Bottom margin for action bar subtitles 
- Bottom margin for action bar subtitles 
- Bottom margin for action bar subtitles 
- Bottom margin for action bar subtitles 
          */
-        public static final int abs__action_bar_subtitle_bottom_margin=0x7f070006;
+        public static final int abc_action_bar_subtitle_bottom_margin=0x7f080007;
         /**  Text size for action bar subtitles 
  Text size for action bar subtitles 
  Text size for action bar subtitles 
  Text size for action bar subtitles 
  Text size for action bar subtitles 
- Text size for action bar subtitles 
- Text size for action bar subtitles 
- Text size for action bar subtitles 
          */
-        public static final int abs__action_bar_subtitle_text_size=0x7f070004;
+        public static final int abc_action_bar_subtitle_text_size=0x7f080005;
         /**  Top margin for action bar subtitles 
  Top margin for action bar subtitles 
  Top margin for action bar subtitles 
  Top margin for action bar subtitles 
  Top margin for action bar subtitles 
- Top margin for action bar subtitles 
- Top margin for action bar subtitles 
- Top margin for action bar subtitles 
          */
-        public static final int abs__action_bar_subtitle_top_margin=0x7f070005;
+        public static final int abc_action_bar_subtitle_top_margin=0x7f080006;
         /**  Text size for action bar titles 
  Text size for action bar titles 
  Text size for action bar titles 
  Text size for action bar titles 
  Text size for action bar titles 
- Text size for action bar titles 
- Text size for action bar titles 
- Text size for action bar titles 
          */
-        public static final int abs__action_bar_title_text_size=0x7f070003;
+        public static final int abc_action_bar_title_text_size=0x7f080004;
         /**  Minimum width for an action button in the menu area of an action bar 
  Minimum width for an action button in the menu area of an action bar 
  Minimum width for an action button in the menu area of an action bar 
- Minimum width for an action button in the menu area of an action bar 
          */
-        public static final int abs__action_button_min_width=0x7f070007;
+        public static final int abc_action_button_min_width=0x7f080008;
         /**  The maximum width we would prefer dialogs to be.  0 if there is no
-         maximum (let them grow as large as the screen).  Actual values are
-         specified for -large and -xlarge configurations. 
+    maximum (let them grow as large as the screen).  Actual values are
+    specified for -large and -xlarge configurations. 
+ see comment in values/config.xml 
+ see comment in values/config.xml 
          */
-        public static final int abs__config_prefDialogWidth=0x7f070000;
-        /**  The platform's desired minimum size for a dialog's width when it
-         is along the major axis (that is the screen is landscape).  This may
-         be either a fraction or a dimension. 
-         */
-        public static final int abs__dialog_min_width_major=0x7f07000d;
-        /**  The platform's desired minimum size for a dialog's width when it
-         is along the minor axis (that is the screen is portrait).  This may
-         be either a fraction or a dimension. 
-         */
-        public static final int abs__dialog_min_width_minor=0x7f07000e;
+        public static final int abc_config_prefDialogWidth=0x7f080000;
         /**  Width of the icon in a dropdown list 
          */
-        public static final int abs__dropdownitem_icon_width=0x7f07000a;
+        public static final int abc_dropdownitem_icon_width=0x7f080010;
         /**  Text padding for dropdown items 
          */
-        public static final int abs__dropdownitem_text_padding_left=0x7f070008;
-        /**  Text padding for dropdown items 
-         */
-        public static final int abs__dropdownitem_text_padding_right=0x7f070009;
+        public static final int abc_dropdownitem_text_padding_left=0x7f08000e;
+        public static final int abc_dropdownitem_text_padding_right=0x7f08000f;
+        public static final int abc_panel_menu_list_width=0x7f08000b;
         /**  Preferred width of the search view. 
          */
-        public static final int abs__search_view_preferred_width=0x7f07000c;
+        public static final int abc_search_view_preferred_width=0x7f08000d;
         /**  Minimum width of the search view text entry area. 
+ Minimum width of the search view text entry area. 
+ Minimum width of the search view text entry area. 
+ Minimum width of the search view text entry area. 
          */
-        public static final int abs__search_view_text_min_width=0x7f07000b;
+        public static final int abc_search_view_text_min_width=0x7f08000c;
         /**  Default screen margins, per the Android Design guidelines. 
 
          Customize dimensions originally defined in res/values/dimens.xml (such as
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f07000f;
-        public static final int activity_vertical_margin=0x7f070010;
+        public static final int activity_horizontal_margin=0x7f080015;
+        public static final int activity_vertical_margin=0x7f080016;
+        /**  The platform's desired fixed height for a dialog along the major axis
+         (the screen is in portrait). This may be either a fraction or a dimension.
+ The platform's desired fixed height for a dialog along the major axis
+         (the screen is in portrait). This may be either a fraction or a dimension.
+ The platform's desired fixed height for a dialog along the major axis
+         (the screen is in portrait). This may be either a fraction or a dimension.
+         */
+        public static final int dialog_fixed_height_major=0x7f080013;
+        /**  The platform's desired fixed height for a dialog along the minor axis
+         (the screen is in landscape). This may be either a fraction or a dimension.
+ The platform's desired fixed height for a dialog along the minor axis
+         (the screen is in landscape). This may be either a fraction or a dimension.
+ The platform's desired fixed height for a dialog along the minor axis
+         (the screen is in landscape). This may be either a fraction or a dimension.
+         */
+        public static final int dialog_fixed_height_minor=0x7f080014;
+        /**  The platform's desired fixed width for a dialog along the major axis
+         (the screen is in landscape). This may be either a fraction or a dimension.
+ The platform's desired fixed width for a dialog along the major axis
+         (the screen is in landscape). This may be either a fraction or a dimension.
+ The platform's desired fixed width for a dialog along the major axis
+         (the screen is in landscape). This may be either a fraction or a dimension.
+         */
+        public static final int dialog_fixed_width_major=0x7f080011;
+        /**  The platform's desired fixed width for a dialog along the minor axis
+         (the screen is in portrait). This may be either a fraction or a dimension.
+ The platform's desired fixed width for a dialog along the minor axis
+         (the screen is in portrait). This may be either a fraction or a dimension.
+ The platform's desired fixed width for a dialog along the minor axis
+         (the screen is in portrait). This may be either a fraction or a dimension.
+         */
+        public static final int dialog_fixed_width_minor=0x7f080012;
     }
     public static final class drawable {
-        public static final int ab_background_textured_postoffice=0x7f020000;
-        public static final int ab_bottom_solid_postoffice=0x7f020001;
-        public static final int ab_solid_postoffice=0x7f020002;
-        public static final int ab_texture_tile_postoffice=0x7f020003;
-        public static final int abs__ab_bottom_solid_dark_holo=0x7f020004;
-        public static final int abs__ab_bottom_solid_inverse_holo=0x7f020005;
-        public static final int abs__ab_bottom_solid_light_holo=0x7f020006;
-        public static final int abs__ab_bottom_transparent_dark_holo=0x7f020007;
-        public static final int abs__ab_bottom_transparent_light_holo=0x7f020008;
-        public static final int abs__ab_share_pack_holo_dark=0x7f020009;
-        public static final int abs__ab_share_pack_holo_light=0x7f02000a;
-        public static final int abs__ab_solid_dark_holo=0x7f02000b;
-        public static final int abs__ab_solid_light_holo=0x7f02000c;
-        public static final int abs__ab_solid_shadow_holo=0x7f02000d;
-        public static final int abs__ab_stacked_solid_dark_holo=0x7f02000e;
-        public static final int abs__ab_stacked_solid_light_holo=0x7f02000f;
-        public static final int abs__ab_stacked_transparent_dark_holo=0x7f020010;
-        public static final int abs__ab_stacked_transparent_light_holo=0x7f020011;
-        public static final int abs__ab_transparent_dark_holo=0x7f020012;
-        public static final int abs__ab_transparent_light_holo=0x7f020013;
-        public static final int abs__activated_background_holo_dark=0x7f020014;
-        public static final int abs__activated_background_holo_light=0x7f020015;
-        public static final int abs__btn_cab_done_default_holo_dark=0x7f020016;
-        public static final int abs__btn_cab_done_default_holo_light=0x7f020017;
-        public static final int abs__btn_cab_done_focused_holo_dark=0x7f020018;
-        public static final int abs__btn_cab_done_focused_holo_light=0x7f020019;
-        public static final int abs__btn_cab_done_holo_dark=0x7f02001a;
-        public static final int abs__btn_cab_done_holo_light=0x7f02001b;
-        public static final int abs__btn_cab_done_pressed_holo_dark=0x7f02001c;
-        public static final int abs__btn_cab_done_pressed_holo_light=0x7f02001d;
-        public static final int abs__cab_background_bottom_holo_dark=0x7f02001e;
-        public static final int abs__cab_background_bottom_holo_light=0x7f02001f;
-        public static final int abs__cab_background_top_holo_dark=0x7f020020;
-        public static final int abs__cab_background_top_holo_light=0x7f020021;
-        public static final int abs__ic_ab_back_holo_dark=0x7f020022;
-        public static final int abs__ic_ab_back_holo_light=0x7f020023;
-        public static final int abs__ic_cab_done_holo_dark=0x7f020024;
-        public static final int abs__ic_cab_done_holo_light=0x7f020025;
-        public static final int abs__ic_clear=0x7f020026;
-        public static final int abs__ic_clear_disabled=0x7f020027;
-        public static final int abs__ic_clear_holo_light=0x7f020028;
-        public static final int abs__ic_clear_normal=0x7f020029;
-        public static final int abs__ic_clear_search_api_disabled_holo_light=0x7f02002a;
-        public static final int abs__ic_clear_search_api_holo_light=0x7f02002b;
-        public static final int abs__ic_commit_search_api_holo_dark=0x7f02002c;
-        public static final int abs__ic_commit_search_api_holo_light=0x7f02002d;
-        public static final int abs__ic_go=0x7f02002e;
-        public static final int abs__ic_go_search_api_holo_light=0x7f02002f;
-        public static final int abs__ic_menu_moreoverflow_holo_dark=0x7f020030;
-        public static final int abs__ic_menu_moreoverflow_holo_light=0x7f020031;
-        public static final int abs__ic_menu_moreoverflow_normal_holo_dark=0x7f020032;
-        public static final int abs__ic_menu_moreoverflow_normal_holo_light=0x7f020033;
-        public static final int abs__ic_menu_share_holo_dark=0x7f020034;
-        public static final int abs__ic_menu_share_holo_light=0x7f020035;
-        public static final int abs__ic_search=0x7f020036;
-        public static final int abs__ic_search_api_holo_light=0x7f020037;
-        public static final int abs__ic_voice_search=0x7f020038;
-        public static final int abs__ic_voice_search_api_holo_light=0x7f020039;
-        public static final int abs__item_background_holo_dark=0x7f02003a;
-        public static final int abs__item_background_holo_light=0x7f02003b;
-        public static final int abs__list_activated_holo=0x7f02003c;
-        public static final int abs__list_divider_holo_dark=0x7f02003d;
-        public static final int abs__list_divider_holo_light=0x7f02003e;
-        public static final int abs__list_focused_holo=0x7f02003f;
-        public static final int abs__list_longpressed_holo=0x7f020040;
-        public static final int abs__list_pressed_holo_dark=0x7f020041;
-        public static final int abs__list_pressed_holo_light=0x7f020042;
-        public static final int abs__list_selector_background_transition_holo_dark=0x7f020043;
-        public static final int abs__list_selector_background_transition_holo_light=0x7f020044;
-        public static final int abs__list_selector_disabled_holo_dark=0x7f020045;
-        public static final int abs__list_selector_disabled_holo_light=0x7f020046;
-        public static final int abs__list_selector_holo_dark=0x7f020047;
-        public static final int abs__list_selector_holo_light=0x7f020048;
-        public static final int abs__menu_dropdown_panel_holo_dark=0x7f020049;
-        public static final int abs__menu_dropdown_panel_holo_light=0x7f02004a;
-        public static final int abs__progress_bg_holo_dark=0x7f02004b;
-        public static final int abs__progress_bg_holo_light=0x7f02004c;
-        public static final int abs__progress_horizontal_holo_dark=0x7f02004d;
-        public static final int abs__progress_horizontal_holo_light=0x7f02004e;
-        public static final int abs__progress_medium_holo=0x7f02004f;
-        public static final int abs__progress_primary_holo_dark=0x7f020050;
-        public static final int abs__progress_primary_holo_light=0x7f020051;
-        public static final int abs__progress_secondary_holo_dark=0x7f020052;
-        public static final int abs__progress_secondary_holo_light=0x7f020053;
-        public static final int abs__search_dropdown_dark=0x7f020054;
-        public static final int abs__search_dropdown_light=0x7f020055;
-        public static final int abs__spinner_48_inner_holo=0x7f020056;
-        public static final int abs__spinner_48_outer_holo=0x7f020057;
-        public static final int abs__spinner_ab_default_holo_dark=0x7f020058;
-        public static final int abs__spinner_ab_default_holo_light=0x7f020059;
-        public static final int abs__spinner_ab_disabled_holo_dark=0x7f02005a;
-        public static final int abs__spinner_ab_disabled_holo_light=0x7f02005b;
-        public static final int abs__spinner_ab_focused_holo_dark=0x7f02005c;
-        public static final int abs__spinner_ab_focused_holo_light=0x7f02005d;
-        public static final int abs__spinner_ab_holo_dark=0x7f02005e;
-        public static final int abs__spinner_ab_holo_light=0x7f02005f;
-        public static final int abs__spinner_ab_pressed_holo_dark=0x7f020060;
-        public static final int abs__spinner_ab_pressed_holo_light=0x7f020061;
-        public static final int abs__tab_indicator_ab_holo=0x7f020062;
-        public static final int abs__tab_selected_focused_holo=0x7f020063;
-        public static final int abs__tab_selected_holo=0x7f020064;
-        public static final int abs__tab_selected_pressed_holo=0x7f020065;
-        public static final int abs__tab_unselected_pressed_holo=0x7f020066;
-        public static final int abs__textfield_search_default_holo_dark=0x7f020067;
-        public static final int abs__textfield_search_default_holo_light=0x7f020068;
-        public static final int abs__textfield_search_right_default_holo_dark=0x7f020069;
-        public static final int abs__textfield_search_right_default_holo_light=0x7f02006a;
-        public static final int abs__textfield_search_right_selected_holo_dark=0x7f02006b;
-        public static final int abs__textfield_search_right_selected_holo_light=0x7f02006c;
-        public static final int abs__textfield_search_selected_holo_dark=0x7f02006d;
-        public static final int abs__textfield_search_selected_holo_light=0x7f02006e;
-        public static final int abs__textfield_searchview_holo_dark=0x7f02006f;
-        public static final int abs__textfield_searchview_holo_light=0x7f020070;
-        public static final int abs__textfield_searchview_right_holo_dark=0x7f020071;
-        public static final int abs__textfield_searchview_right_holo_light=0x7f020072;
-        public static final int abs__toast_frame=0x7f020073;
-        public static final int button_border=0x7f020074;
-        public static final int ic_launcher=0x7f020075;
-        public static final int ic_location_place=0x7f020076;
-        public static final int ic_share=0x7f020077;
-        public static final int inner_border=0x7f020078;
-        public static final int round_corner_grid=0x7f020079;
+        public static final int ab_background_textured_codefinder=0x7f020000;
+        public static final int ab_bottom_solid_codefinder=0x7f020001;
+        public static final int ab_solid_codefinder=0x7f020002;
+        public static final int ab_stacked_solid_codefinder=0x7f020003;
+        public static final int ab_texture_tile_codefinder=0x7f020004;
+        public static final int ab_transparent_codefinder=0x7f020005;
+        public static final int abc_ab_bottom_solid_dark_holo=0x7f020006;
+        public static final int abc_ab_bottom_solid_light_holo=0x7f020007;
+        public static final int abc_ab_bottom_transparent_dark_holo=0x7f020008;
+        public static final int abc_ab_bottom_transparent_light_holo=0x7f020009;
+        public static final int abc_ab_share_pack_holo_dark=0x7f02000a;
+        public static final int abc_ab_share_pack_holo_light=0x7f02000b;
+        public static final int abc_ab_solid_dark_holo=0x7f02000c;
+        public static final int abc_ab_solid_light_holo=0x7f02000d;
+        public static final int abc_ab_stacked_solid_dark_holo=0x7f02000e;
+        public static final int abc_ab_stacked_solid_light_holo=0x7f02000f;
+        public static final int abc_ab_stacked_transparent_dark_holo=0x7f020010;
+        public static final int abc_ab_stacked_transparent_light_holo=0x7f020011;
+        public static final int abc_ab_transparent_dark_holo=0x7f020012;
+        public static final int abc_ab_transparent_light_holo=0x7f020013;
+        public static final int abc_cab_background_bottom_holo_dark=0x7f020014;
+        public static final int abc_cab_background_bottom_holo_light=0x7f020015;
+        public static final int abc_cab_background_top_holo_dark=0x7f020016;
+        public static final int abc_cab_background_top_holo_light=0x7f020017;
+        public static final int abc_ic_ab_back_holo_dark=0x7f020018;
+        public static final int abc_ic_ab_back_holo_light=0x7f020019;
+        public static final int abc_ic_cab_done_holo_dark=0x7f02001a;
+        public static final int abc_ic_cab_done_holo_light=0x7f02001b;
+        public static final int abc_ic_clear=0x7f02001c;
+        public static final int abc_ic_clear_disabled=0x7f02001d;
+        public static final int abc_ic_clear_holo_light=0x7f02001e;
+        public static final int abc_ic_clear_normal=0x7f02001f;
+        public static final int abc_ic_clear_search_api_disabled_holo_light=0x7f020020;
+        public static final int abc_ic_clear_search_api_holo_light=0x7f020021;
+        public static final int abc_ic_commit_search_api_holo_dark=0x7f020022;
+        public static final int abc_ic_commit_search_api_holo_light=0x7f020023;
+        public static final int abc_ic_go=0x7f020024;
+        public static final int abc_ic_go_search_api_holo_light=0x7f020025;
+        public static final int abc_ic_menu_moreoverflow_normal_holo_dark=0x7f020026;
+        public static final int abc_ic_menu_moreoverflow_normal_holo_light=0x7f020027;
+        public static final int abc_ic_menu_share_holo_dark=0x7f020028;
+        public static final int abc_ic_menu_share_holo_light=0x7f020029;
+        public static final int abc_ic_search=0x7f02002a;
+        public static final int abc_ic_search_api_holo_light=0x7f02002b;
+        public static final int abc_ic_voice_search=0x7f02002c;
+        public static final int abc_ic_voice_search_api_holo_light=0x7f02002d;
+        public static final int abc_item_background_holo_dark=0x7f02002e;
+        public static final int abc_item_background_holo_light=0x7f02002f;
+        public static final int abc_list_divider_holo_dark=0x7f020030;
+        public static final int abc_list_divider_holo_light=0x7f020031;
+        public static final int abc_list_focused_holo=0x7f020032;
+        public static final int abc_list_longpressed_holo=0x7f020033;
+        public static final int abc_list_pressed_holo_dark=0x7f020034;
+        public static final int abc_list_pressed_holo_light=0x7f020035;
+        public static final int abc_list_selector_background_transition_holo_dark=0x7f020036;
+        public static final int abc_list_selector_background_transition_holo_light=0x7f020037;
+        public static final int abc_list_selector_disabled_holo_dark=0x7f020038;
+        public static final int abc_list_selector_disabled_holo_light=0x7f020039;
+        public static final int abc_list_selector_holo_dark=0x7f02003a;
+        public static final int abc_list_selector_holo_light=0x7f02003b;
+        public static final int abc_menu_dropdown_panel_holo_dark=0x7f02003c;
+        public static final int abc_menu_dropdown_panel_holo_light=0x7f02003d;
+        public static final int abc_menu_hardkey_panel_holo_dark=0x7f02003e;
+        public static final int abc_menu_hardkey_panel_holo_light=0x7f02003f;
+        public static final int abc_search_dropdown_dark=0x7f020040;
+        public static final int abc_search_dropdown_light=0x7f020041;
+        public static final int abc_spinner_ab_default_holo_dark=0x7f020042;
+        public static final int abc_spinner_ab_default_holo_light=0x7f020043;
+        public static final int abc_spinner_ab_disabled_holo_dark=0x7f020044;
+        public static final int abc_spinner_ab_disabled_holo_light=0x7f020045;
+        public static final int abc_spinner_ab_focused_holo_dark=0x7f020046;
+        public static final int abc_spinner_ab_focused_holo_light=0x7f020047;
+        public static final int abc_spinner_ab_holo_dark=0x7f020048;
+        public static final int abc_spinner_ab_holo_light=0x7f020049;
+        public static final int abc_spinner_ab_pressed_holo_dark=0x7f02004a;
+        public static final int abc_spinner_ab_pressed_holo_light=0x7f02004b;
+        public static final int abc_tab_indicator_ab_holo=0x7f02004c;
+        public static final int abc_tab_selected_focused_holo=0x7f02004d;
+        public static final int abc_tab_selected_holo=0x7f02004e;
+        public static final int abc_tab_selected_pressed_holo=0x7f02004f;
+        public static final int abc_tab_unselected_pressed_holo=0x7f020050;
+        public static final int abc_textfield_search_default_holo_dark=0x7f020051;
+        public static final int abc_textfield_search_default_holo_light=0x7f020052;
+        public static final int abc_textfield_search_right_default_holo_dark=0x7f020053;
+        public static final int abc_textfield_search_right_default_holo_light=0x7f020054;
+        public static final int abc_textfield_search_right_selected_holo_dark=0x7f020055;
+        public static final int abc_textfield_search_right_selected_holo_light=0x7f020056;
+        public static final int abc_textfield_search_selected_holo_dark=0x7f020057;
+        public static final int abc_textfield_search_selected_holo_light=0x7f020058;
+        public static final int abc_textfield_searchview_holo_dark=0x7f020059;
+        public static final int abc_textfield_searchview_holo_light=0x7f02005a;
+        public static final int abc_textfield_searchview_right_holo_dark=0x7f02005b;
+        public static final int abc_textfield_searchview_right_holo_light=0x7f02005c;
+        public static final int btn_cab_done_codefinder=0x7f02005d;
+        public static final int btn_cab_done_default_codefinder=0x7f02005e;
+        public static final int btn_cab_done_focused_codefinder=0x7f02005f;
+        public static final int btn_cab_done_pressed_codefinder=0x7f020060;
+        public static final int button_border=0x7f020061;
+        public static final int cab_background_bottom_codefinder=0x7f020062;
+        public static final int cab_background_top_codefinder=0x7f020063;
+        public static final int ic_launcher=0x7f020064;
+        public static final int ic_location_place=0x7f020065;
+        public static final int ic_share=0x7f020066;
+        public static final int inner_border=0x7f020067;
+        public static final int list_focused_codefinder=0x7f020068;
+        public static final int list_pressed_codefinder=0x7f020069;
+        public static final int menu_dropdown_panel_codefinder=0x7f02006a;
+        public static final int progress_bg_codefinder=0x7f02006b;
+        public static final int progress_horizontal_codefinder=0x7f02006c;
+        public static final int progress_primary_codefinder=0x7f02006d;
+        public static final int progress_secondary_codefinder=0x7f02006e;
+        public static final int round_corner_grid=0x7f02006f;
+        public static final int selectable_background_codefinder=0x7f020070;
+        public static final int spinner_ab_default_codefinder=0x7f020071;
+        public static final int spinner_ab_disabled_codefinder=0x7f020072;
+        public static final int spinner_ab_focused_codefinder=0x7f020073;
+        public static final int spinner_ab_pressed_codefinder=0x7f020074;
+        public static final int spinner_background_ab_codefinder=0x7f020075;
+        public static final int tab_indicator_ab_codefinder=0x7f020076;
+        public static final int tab_selected_codefinder=0x7f020077;
+        public static final int tab_selected_focused_codefinder=0x7f020078;
+        public static final int tab_selected_pressed_codefinder=0x7f020079;
+        public static final int tab_unselected_codefinder=0x7f02007a;
+        public static final int tab_unselected_focused_codefinder=0x7f02007b;
+        public static final int tab_unselected_pressed_codefinder=0x7f02007c;
     }
     public static final class id {
-        public static final int Search=0x7f04003a;
-        public static final int abs__action_bar=0x7f040020;
-        public static final int abs__action_bar_container=0x7f04001f;
-        public static final int abs__action_bar_subtitle=0x7f040011;
-        public static final int abs__action_bar_title=0x7f040010;
-        public static final int abs__action_context_bar=0x7f040021;
-        public static final int abs__action_menu_divider=0x7f04000c;
-        public static final int abs__action_menu_presenter=0x7f04000d;
-        public static final int abs__action_mode_bar=0x7f040025;
-        public static final int abs__action_mode_bar_stub=0x7f040024;
-        public static final int abs__action_mode_close_button=0x7f040014;
-        public static final int abs__activity_chooser_view_content=0x7f040015;
-        public static final int abs__checkbox=0x7f04001c;
-        public static final int abs__content=0x7f040022;
-        public static final int abs__default_activity_button=0x7f040018;
-        public static final int abs__expand_activities_button=0x7f040016;
-        public static final int abs__home=0x7f04000a;
-        public static final int abs__icon=0x7f04001a;
-        public static final int abs__image=0x7f040017;
-        public static final int abs__imageButton=0x7f040012;
-        public static final int abs__list_item=0x7f040019;
-        public static final int abs__progress_circular=0x7f04000e;
-        public static final int abs__progress_horizontal=0x7f04000f;
-        public static final int abs__radio=0x7f04001d;
-        public static final int abs__search_badge=0x7f040028;
-        public static final int abs__search_bar=0x7f040027;
-        public static final int abs__search_button=0x7f040029;
-        public static final int abs__search_close_btn=0x7f04002e;
-        public static final int abs__search_edit_frame=0x7f04002a;
-        public static final int abs__search_go_btn=0x7f040030;
-        public static final int abs__search_mag_icon=0x7f04002b;
-        public static final int abs__search_plate=0x7f04002c;
-        public static final int abs__search_src_text=0x7f04002d;
-        public static final int abs__search_voice_btn=0x7f040031;
-        public static final int abs__shortcut=0x7f04001e;
-        public static final int abs__split_action_bar=0x7f040023;
-        public static final int abs__submit_area=0x7f04002f;
-        public static final int abs__textButton=0x7f040013;
-        public static final int abs__title=0x7f04001b;
-        public static final int abs__up=0x7f04000b;
-        public static final int action_settings=0x7f040053;
-        public static final int ad=0x7f04003b;
-        public static final int ad_1=0x7f040036;
-        public static final int disableHome=0x7f040009;
-        public static final int districts=0x7f040038;
-        public static final int edit_query=0x7f040026;
-        public static final int gridview=0x7f040035;
-        public static final int headofficeLabel=0x7f040048;
-        public static final int headofficeName=0x7f040049;
-        public static final int headofficeRow=0x7f040047;
-        public static final int homeAsUp=0x7f040006;
-        public static final int linlaHeaderProgress=0x7f040032;
-        public static final int listMode=0x7f040002;
-        public static final int locationLabel=0x7f04004b;
-        public static final int locationName=0x7f04004c;
-        public static final int locationRow=0x7f04004a;
-        public static final int mapButton=0x7f04003e;
-        public static final int noMatchingLayout=0x7f040034;
-        public static final int normal=0x7f040001;
-        public static final int officeName=0x7f04003d;
-        public static final int officeRow=0x7f04003c;
-        public static final int pbHeaderProgress=0x7f040033;
-        public static final int pincode=0x7f040041;
-        public static final int pincodeRow=0x7f040040;
-        public static final int shareButton=0x7f04003f;
-        public static final int showCustom=0x7f040008;
-        public static final int showHome=0x7f040005;
-        public static final int showTitle=0x7f040007;
-        public static final int stateLabel=0x7f04004e;
-        public static final int stateName=0x7f04004f;
-        public static final int stateRow=0x7f04004d;
-        public static final int states=0x7f040037;
-        public static final int statusRow=0x7f040042;
-        public static final int stauts=0x7f040043;
-        public static final int subofficeLabel=0x7f040045;
-        public static final int subofficeName=0x7f040046;
-        public static final int subofficeRow=0x7f040044;
-        public static final int tabMode=0x7f040003;
-        public static final int telephoneLabel=0x7f040051;
-        public static final int telephoneNumber=0x7f040052;
-        public static final int telephoneRow=0x7f040050;
-        public static final int text1=0x7f040039;
-        public static final int useLogo=0x7f040004;
-        public static final int wrap_content=0x7f040000;
+        public static final int Search=0x7f050071;
+        public static final int action_bar=0x7f05001c;
+        public static final int action_bar_activity_content=0x7f050015;
+        public static final int action_bar_container=0x7f05001b;
+        public static final int action_bar_overlay_layout=0x7f05001f;
+        public static final int action_bar_root=0x7f05001a;
+        public static final int action_bar_subtitle=0x7f050023;
+        public static final int action_bar_title=0x7f050022;
+        public static final int action_context_bar=0x7f05001d;
+        public static final int action_menu_divider=0x7f050016;
+        public static final int action_menu_presenter=0x7f050017;
+        public static final int action_mode_close_button=0x7f050024;
+        public static final int action_settings=0x7f050074;
+        public static final int activity_chooser_view_content=0x7f050025;
+        public static final int ad=0x7f050072;
+        public static final int adIfsc=0x7f050047;
+        public static final int ad_1=0x7f050040;
+        public static final int address=0x7f050052;
+        public static final int addressRow=0x7f050051;
+        public static final int always=0x7f05000b;
+        public static final int bankDistrict=0x7f05004e;
+        public static final int bankName=0x7f050042;
+        public static final int bankShareButton=0x7f05004a;
+        public static final int bankStateName=0x7f050050;
+        public static final int beginning=0x7f050011;
+        public static final int branch=0x7f050049;
+        public static final int branchName=0x7f050045;
+        public static final int branchRow=0x7f050048;
+        public static final int checkbox=0x7f05002d;
+        public static final int city=0x7f05004c;
+        public static final int cityRow=0x7f05004b;
+        public static final int collapseActionView=0x7f05000d;
+        public static final int contact=0x7f050054;
+        public static final int contactRow=0x7f050053;
+        public static final int default_activity_button=0x7f050028;
+        public static final int dialog=0x7f05000e;
+        public static final int disableHome=0x7f050008;
+        public static final int districtName=0x7f050044;
+        public static final int districtRow=0x7f05004d;
+        public static final int districts=0x7f05006f;
+        public static final int dropdown=0x7f05000f;
+        public static final int edit_query=0x7f050030;
+        public static final int end=0x7f050013;
+        public static final int expand_activities_button=0x7f050026;
+        public static final int expanded_menu=0x7f05002c;
+        public static final int gridview=0x7f05003f;
+        public static final int headofficeLabel=0x7f050065;
+        public static final int headofficeName=0x7f050066;
+        public static final int headofficeRow=0x7f050064;
+        public static final int home=0x7f050014;
+        public static final int homeAsUp=0x7f050005;
+        public static final int icon=0x7f05002a;
+        public static final int ifRoom=0x7f05000a;
+        public static final int ifsc=0x7f050056;
+        public static final int ifscRow=0x7f050055;
+        public static final int ifscSearch=0x7f050046;
+        public static final int image=0x7f050027;
+        public static final int linlaHeaderProgress=0x7f05003c;
+        public static final int listMode=0x7f050001;
+        public static final int list_item=0x7f050029;
+        public static final int locationLabel=0x7f050068;
+        public static final int locationName=0x7f050069;
+        public static final int locationRow=0x7f050067;
+        public static final int mapButton=0x7f05005b;
+        public static final int micr=0x7f050058;
+        public static final int micrRow=0x7f050057;
+        public static final int middle=0x7f050012;
+        public static final int never=0x7f050009;
+        public static final int noMatchingLayout=0x7f05003e;
+        public static final int none=0x7f050010;
+        public static final int normal=0x7f050000;
+        public static final int officeName=0x7f05005a;
+        public static final int officeRow=0x7f050059;
+        public static final int pager=0x7f050041;
+        public static final int pbHeaderProgress=0x7f05003d;
+        public static final int pincode=0x7f05005e;
+        public static final int pincodeRow=0x7f05005d;
+        public static final int progress_circular=0x7f050018;
+        public static final int progress_horizontal=0x7f050019;
+        public static final int radio=0x7f05002f;
+        public static final int search_badge=0x7f050032;
+        public static final int search_bar=0x7f050031;
+        public static final int search_button=0x7f050033;
+        public static final int search_close_btn=0x7f050038;
+        public static final int search_edit_frame=0x7f050034;
+        public static final int search_go_btn=0x7f05003a;
+        public static final int search_mag_icon=0x7f050035;
+        public static final int search_plate=0x7f050036;
+        public static final int search_src_text=0x7f050037;
+        public static final int search_voice_btn=0x7f05003b;
+        public static final int section_label=0x7f050073;
+        public static final int shareButton=0x7f05005c;
+        public static final int shortcut=0x7f05002e;
+        public static final int showCustom=0x7f050007;
+        public static final int showHome=0x7f050004;
+        public static final int showTitle=0x7f050006;
+        public static final int split_action_bar=0x7f05001e;
+        public static final int stateLabel=0x7f05006a;
+        public static final int stateName=0x7f050043;
+        public static final int stateRow=0x7f05004f;
+        public static final int states=0x7f05006e;
+        public static final int statusRow=0x7f05005f;
+        public static final int stauts=0x7f050060;
+        public static final int submit_area=0x7f050039;
+        public static final int subofficeLabel=0x7f050062;
+        public static final int subofficeName=0x7f050063;
+        public static final int subofficeRow=0x7f050061;
+        public static final int tabMode=0x7f050002;
+        public static final int telephoneLabel=0x7f05006c;
+        public static final int telephoneNumber=0x7f05006d;
+        public static final int telephoneRow=0x7f05006b;
+        public static final int text1=0x7f050070;
+        public static final int title=0x7f05002b;
+        public static final int top_action_bar=0x7f050020;
+        public static final int up=0x7f050021;
+        public static final int useLogo=0x7f050003;
+        public static final int withText=0x7f05000c;
     }
     public static final class integer {
-        public static final int abs__max_action_buttons=0x7f080000;
+        /**  The maximum number of action buttons that should be permitted within
+         an action bar/action mode. This will be used to determine how many
+         showAsAction="ifRoom" items can fit. "always" items can override this. 
+ The maximum number of action buttons that should be permitted within
+     an action bar/action mode. This will be used to determine how many
+     showAsAction="ifRoom" items can fit. "always" items can override this. 
+ The maximum number of action buttons that should be permitted within
+         an action bar/action mode. This will be used to determine how many
+         showAsAction="ifRoom" items can fit. "always" items can override this. 
+ The maximum number of action buttons that should be permitted within
+         an action bar/action mode. This will be used to determine how many
+         showAsAction="ifRoom" items can fit. "always" items can override this. 
+ The maximum number of action buttons that should be permitted within
+         an action bar/action mode. This will be used to determine how many
+         showAsAction="ifRoom" items can fit. "always" items can override this. 
+ The maximum number of action buttons that should be permitted within
+         an action bar/action mode. This will be used to determine how many
+         showAsAction="ifRoom" items can fit. "always" items can override this. 
+ The maximum number of action buttons that should be permitted within
+         an action bar/action mode. This will be used to determine how many
+         showAsAction="ifRoom" items can fit. "always" items can override this. 
+         */
+        public static final int abc_max_action_buttons=0x7f090000;
     }
     public static final class layout {
-        public static final int abs__action_bar_home=0x7f030000;
-        public static final int abs__action_bar_tab=0x7f030001;
-        public static final int abs__action_bar_tab_bar_view=0x7f030002;
-        public static final int abs__action_bar_title_item=0x7f030003;
-        public static final int abs__action_menu_item_layout=0x7f030004;
-        public static final int abs__action_menu_layout=0x7f030005;
-        public static final int abs__action_mode_bar=0x7f030006;
-        public static final int abs__action_mode_close_item=0x7f030007;
-        public static final int abs__activity_chooser_view=0x7f030008;
-        public static final int abs__activity_chooser_view_list_item=0x7f030009;
-        public static final int abs__list_menu_item_checkbox=0x7f03000a;
-        public static final int abs__list_menu_item_icon=0x7f03000b;
-        public static final int abs__list_menu_item_radio=0x7f03000c;
-        public static final int abs__popup_menu_item_layout=0x7f03000d;
-        public static final int abs__screen_action_bar=0x7f03000e;
-        public static final int abs__screen_action_bar_overlay=0x7f03000f;
-        public static final int abs__screen_simple=0x7f030010;
-        public static final int abs__screen_simple_overlay_action_mode=0x7f030011;
-        public static final int abs__search_dropdown_item_icons_2line=0x7f030012;
-        public static final int abs__search_view=0x7f030013;
-        public static final int abs__simple_dropdown_hint=0x7f030014;
-        public static final int activity_display_result=0x7f030015;
-        public static final int activity_pin_finder_main=0x7f030016;
-        public static final int office_custom_grid=0x7f030017;
-        public static final int sherlock_spinner_dropdown_item=0x7f030018;
-        public static final int sherlock_spinner_item=0x7f030019;
+        public static final int abc_action_bar_decor=0x7f030000;
+        public static final int abc_action_bar_decor_include=0x7f030001;
+        public static final int abc_action_bar_decor_overlay=0x7f030002;
+        public static final int abc_action_bar_home=0x7f030003;
+        public static final int abc_action_bar_tab=0x7f030004;
+        public static final int abc_action_bar_tabbar=0x7f030005;
+        public static final int abc_action_bar_title_item=0x7f030006;
+        public static final int abc_action_bar_view_list_nav_layout=0x7f030007;
+        public static final int abc_action_menu_item_layout=0x7f030008;
+        public static final int abc_action_menu_layout=0x7f030009;
+        public static final int abc_action_mode_bar=0x7f03000a;
+        public static final int abc_action_mode_close_item=0x7f03000b;
+        public static final int abc_activity_chooser_view=0x7f03000c;
+        public static final int abc_activity_chooser_view_include=0x7f03000d;
+        public static final int abc_activity_chooser_view_list_item=0x7f03000e;
+        public static final int abc_expanded_menu_layout=0x7f03000f;
+        public static final int abc_list_menu_item_checkbox=0x7f030010;
+        public static final int abc_list_menu_item_icon=0x7f030011;
+        public static final int abc_list_menu_item_layout=0x7f030012;
+        public static final int abc_list_menu_item_radio=0x7f030013;
+        public static final int abc_popup_menu_item_layout=0x7f030014;
+        public static final int abc_search_dropdown_item_icons_2line=0x7f030015;
+        public static final int abc_search_view=0x7f030016;
+        public static final int abc_simple_decor=0x7f030017;
+        public static final int activity_display_result=0x7f030018;
+        public static final int activity_main=0x7f030019;
+        public static final int bank_branch=0x7f03001a;
+        public static final int bank_custom_grid=0x7f03001b;
+        public static final int office_custom_grid=0x7f03001c;
+        public static final int post_office=0x7f03001d;
+        public static final int spinner_dropdown_item=0x7f03001e;
+        public static final int spinner_item=0x7f03001f;
+        public static final int std=0x7f030020;
+        public static final int support_simple_spinner_dropdown_item=0x7f030021;
     }
     public static final class menu {
-        public static final int display_result=0x7f0c0000;
-        public static final int pin_finder_main=0x7f0c0001;
+        public static final int display_result=0x7f0d0000;
+        public static final int pin_finder_main=0x7f0d0001;
     }
     public static final class string {
-        public static final int NA=0x7f09001f;
+        public static final int NA=0x7f0a001f;
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
-        public static final int abs__action_bar_home_description=0x7f090000;
+        public static final int abc_action_bar_home_description=0x7f0a0001;
         /**  Content description for the action bar "up" affordance. [CHAR LIMIT=NONE] 
          */
-        public static final int abs__action_bar_up_description=0x7f090001;
+        public static final int abc_action_bar_up_description=0x7f0a0002;
         /**  Content description for the action menu overflow button. [CHAR LIMIT=NONE] 
          */
-        public static final int abs__action_menu_overflow_description=0x7f090002;
+        public static final int abc_action_menu_overflow_description=0x7f0a0003;
         /**  Label for the "Done" button on the far left of action mode toolbars. 
          */
-        public static final int abs__action_mode_done=0x7f090003;
+        public static final int abc_action_mode_done=0x7f0a0000;
         /**  Title for a button to expand the list of activities in ActivityChooserView [CHAR LIMIT=25] 
          */
-        public static final int abs__activity_chooser_view_see_all=0x7f090004;
-        /**  Description of the shwoing of a popup window with activities to choose from. [CHAR LIMIT=NONE] 
+        public static final int abc_activity_chooser_view_see_all=0x7f0a000a;
+        /**  ActivityChooserView - accessibility support 
+ Description of the shwoing of a popup window with activities to choose from. [CHAR LIMIT=NONE] 
          */
-        public static final int abs__activitychooserview_choose_application=0x7f090005;
+        public static final int abc_activitychooserview_choose_application=0x7f0a0009;
         /**  SearchView accessibility description for clear button [CHAR LIMIT=NONE] 
          */
-        public static final int abs__searchview_description_clear=0x7f09000a;
+        public static final int abc_searchview_description_clear=0x7f0a0006;
         /**  SearchView accessibility description for search text field [CHAR LIMIT=NONE] 
          */
-        public static final int abs__searchview_description_query=0x7f090009;
+        public static final int abc_searchview_description_query=0x7f0a0005;
         /**  SearchView accessibility description for search button [CHAR LIMIT=NONE] 
          */
-        public static final int abs__searchview_description_search=0x7f090008;
+        public static final int abc_searchview_description_search=0x7f0a0004;
         /**  SearchView accessibility description for submit button [CHAR LIMIT=NONE] 
          */
-        public static final int abs__searchview_description_submit=0x7f09000b;
+        public static final int abc_searchview_description_submit=0x7f0a0007;
         /**  SearchView accessibility description for voice button [CHAR LIMIT=NONE] 
          */
-        public static final int abs__searchview_description_voice=0x7f09000c;
+        public static final int abc_searchview_description_voice=0x7f0a0008;
         /**  Description of the choose target button in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
-        public static final int abs__shareactionprovider_share_with=0x7f090006;
+        public static final int abc_shareactionprovider_share_with=0x7f0a000c;
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
-        public static final int abs__shareactionprovider_share_with_application=0x7f090007;
-        public static final int action_settings=0x7f09000e;
-        public static final int admob_id=0x7f090023;
-        public static final int app_name=0x7f09000d;
-        public static final int button_search=0x7f090010;
-        public static final int districts=0x7f090017;
-        public static final int edit_message=0x7f09000f;
-        public static final int headoffice=0x7f09001c;
-        public static final int hello_world=0x7f090014;
-        public static final int location=0x7f09001d;
-        public static final int map_nav=0x7f090020;
-        public static final int menu_settings=0x7f090011;
-        public static final int noMatchingTxt=0x7f090022;
-        public static final int officename=0x7f090018;
-        public static final int pincode=0x7f090019;
-        public static final int send_to=0x7f090024;
-        public static final int share=0x7f090021;
-        public static final int state=0x7f090016;
-        public static final int status=0x7f09001a;
-        public static final int suboffice=0x7f09001b;
-        public static final int telephone=0x7f09001e;
-        public static final int text1=0x7f090015;
-        public static final int title_activity_display_message=0x7f090013;
-        public static final int title_activity_display_result=0x7f090025;
-        public static final int title_activity_main=0x7f090012;
+        public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
+        public static final int action_settings=0x7f0a000e;
+        public static final int address=0x7f0a002a;
+        public static final int admob_id=0x7f0a0023;
+        public static final int app_name=0x7f0a000d;
+        public static final int branch=0x7f0a0028;
+        public static final int button_search=0x7f0a0010;
+        public static final int city=0x7f0a0029;
+        public static final int contact=0x7f0a002b;
+        public static final int districts=0x7f0a0017;
+        public static final int edit_message=0x7f0a000f;
+        public static final int headoffice=0x7f0a001c;
+        public static final int hello_world=0x7f0a0014;
+        public static final int ifsc=0x7f0a002c;
+        public static final int location=0x7f0a001d;
+        public static final int map_nav=0x7f0a0020;
+        public static final int menu_settings=0x7f0a0011;
+        public static final int micr=0x7f0a002d;
+        public static final int noMatchingTxt=0x7f0a0022;
+        public static final int officename=0x7f0a0018;
+        public static final int pincode=0x7f0a0019;
+        public static final int select_district=0x7f0a0030;
+        public static final int select_state=0x7f0a002f;
+        public static final int send_to=0x7f0a0024;
+        public static final int share=0x7f0a0021;
+        public static final int state=0x7f0a0016;
+        public static final int status=0x7f0a001a;
+        public static final int suboffice=0x7f0a001b;
+        public static final int telephone=0x7f0a001e;
+        public static final int text1=0x7f0a0015;
+        public static final int title_activity_display_message=0x7f0a0013;
+        public static final int title_activity_display_result=0x7f0a002e;
+        public static final int title_activity_main=0x7f0a0012;
+        public static final int title_section1=0x7f0a0025;
+        public static final int title_section2=0x7f0a0026;
+        public static final int title_section3=0x7f0a0027;
     }
     public static final class style {
-        public static final int ActionBar_Solid_Postoffice=0x7f0a005a;
-        public static final int Sherlock___TextAppearance_Small=0x7f0a0046;
-        public static final int Sherlock___Theme=0x7f0a0051;
-        public static final int Sherlock___Theme_DarkActionBar=0x7f0a0053;
-        public static final int Sherlock___Theme_Light=0x7f0a0052;
-        public static final int Sherlock___Widget_ActionBar=0x7f0a0001;
-        public static final int Sherlock___Widget_ActionMode=0x7f0a0016;
-        public static final int Sherlock___Widget_ActivityChooserView=0x7f0a001e;
-        public static final int Sherlock___Widget_Holo_DropDownItem=0x7f0a0029;
-        public static final int Sherlock___Widget_Holo_ListView=0x7f0a0026;
-        public static final int Sherlock___Widget_Holo_Spinner=0x7f0a0023;
-        public static final int Sherlock___Widget_SearchAutoCompleteTextView=0x7f0a0033;
-        public static final int TextAppearance_Sherlock=0x7f0a004a;
-        public static final int TextAppearance_Sherlock_Light_SearchResult=0x7f0a004e;
-        public static final int TextAppearance_Sherlock_Light_SearchResult_Subtitle=0x7f0a0050;
-        public static final int TextAppearance_Sherlock_Light_SearchResult_Title=0x7f0a004f;
-        public static final int TextAppearance_Sherlock_Light_Small=0x7f0a0048;
-        public static final int TextAppearance_Sherlock_Light_Widget_PopupMenu_Large=0x7f0a0041;
-        public static final int TextAppearance_Sherlock_Light_Widget_PopupMenu_Small=0x7f0a0043;
-        public static final int TextAppearance_Sherlock_SearchResult=0x7f0a004b;
-        public static final int TextAppearance_Sherlock_SearchResult_Subtitle=0x7f0a004d;
-        public static final int TextAppearance_Sherlock_SearchResult_Title=0x7f0a004c;
-        public static final int TextAppearance_Sherlock_Small=0x7f0a0047;
-        public static final int TextAppearance_Sherlock_Widget_ActionBar_Menu=0x7f0a0036;
-        public static final int TextAppearance_Sherlock_Widget_ActionBar_Subtitle=0x7f0a0039;
-        public static final int TextAppearance_Sherlock_Widget_ActionBar_Subtitle_Inverse=0x7f0a003a;
-        public static final int TextAppearance_Sherlock_Widget_ActionBar_Title=0x7f0a0037;
-        public static final int TextAppearance_Sherlock_Widget_ActionBar_Title_Inverse=0x7f0a0038;
-        public static final int TextAppearance_Sherlock_Widget_ActionMode_Subtitle=0x7f0a003d;
-        public static final int TextAppearance_Sherlock_Widget_ActionMode_Subtitle_Inverse=0x7f0a003e;
-        public static final int TextAppearance_Sherlock_Widget_ActionMode_Title=0x7f0a003b;
-        public static final int TextAppearance_Sherlock_Widget_ActionMode_Title_Inverse=0x7f0a003c;
-        public static final int TextAppearance_Sherlock_Widget_DropDownHint=0x7f0a0049;
-        public static final int TextAppearance_Sherlock_Widget_DropDownItem=0x7f0a0045;
-        public static final int TextAppearance_Sherlock_Widget_PopupMenu=0x7f0a003f;
-        public static final int TextAppearance_Sherlock_Widget_PopupMenu_Large=0x7f0a0040;
-        public static final int TextAppearance_Sherlock_Widget_PopupMenu_Small=0x7f0a0042;
-        public static final int TextAppearance_Sherlock_Widget_TextView_SpinnerItem=0x7f0a0044;
-        public static final int Theme_Postoffice=0x7f0a0059;
-        public static final int Theme_Sherlock=0x7f0a0054;
-        public static final int Theme_Sherlock_Light=0x7f0a0055;
-        public static final int Theme_Sherlock_Light_DarkActionBar=0x7f0a0056;
-        public static final int Theme_Sherlock_Light_NoActionBar=0x7f0a0058;
-        public static final int Theme_Sherlock_NoActionBar=0x7f0a0057;
-        public static final int Widget=0x7f0a0000;
-        public static final int Widget_Sherlock_ActionBar=0x7f0a0002;
-        public static final int Widget_Sherlock_ActionBar_Solid=0x7f0a0003;
-        public static final int Widget_Sherlock_ActionBar_TabBar=0x7f0a000a;
-        public static final int Widget_Sherlock_ActionBar_TabText=0x7f0a000d;
-        public static final int Widget_Sherlock_ActionBar_TabView=0x7f0a0007;
-        public static final int Widget_Sherlock_ActionButton=0x7f0a0010;
-        public static final int Widget_Sherlock_ActionButton_CloseMode=0x7f0a0012;
-        public static final int Widget_Sherlock_ActionButton_Overflow=0x7f0a0014;
-        public static final int Widget_Sherlock_ActionMode=0x7f0a0017;
-        public static final int Widget_Sherlock_ActivityChooserView=0x7f0a001f;
-        public static final int Widget_Sherlock_Button_Small=0x7f0a0021;
-        public static final int Widget_Sherlock_DropDownItem_Spinner=0x7f0a002a;
-        public static final int Widget_Sherlock_Light_ActionBar=0x7f0a0004;
-        public static final int Widget_Sherlock_Light_ActionBar_Solid=0x7f0a0005;
-        public static final int Widget_Sherlock_Light_ActionBar_Solid_Inverse=0x7f0a0006;
-        public static final int Widget_Sherlock_Light_ActionBar_TabBar=0x7f0a000b;
-        public static final int Widget_Sherlock_Light_ActionBar_TabBar_Inverse=0x7f0a000c;
-        public static final int Widget_Sherlock_Light_ActionBar_TabText=0x7f0a000e;
-        public static final int Widget_Sherlock_Light_ActionBar_TabText_Inverse=0x7f0a000f;
-        public static final int Widget_Sherlock_Light_ActionBar_TabView=0x7f0a0008;
-        public static final int Widget_Sherlock_Light_ActionBar_TabView_Inverse=0x7f0a0009;
-        public static final int Widget_Sherlock_Light_ActionButton=0x7f0a0011;
-        public static final int Widget_Sherlock_Light_ActionButton_CloseMode=0x7f0a0013;
-        public static final int Widget_Sherlock_Light_ActionButton_Overflow=0x7f0a0015;
-        public static final int Widget_Sherlock_Light_ActionMode=0x7f0a0018;
-        public static final int Widget_Sherlock_Light_ActionMode_Inverse=0x7f0a0019;
-        public static final int Widget_Sherlock_Light_ActivityChooserView=0x7f0a0020;
-        public static final int Widget_Sherlock_Light_Button_Small=0x7f0a0022;
-        public static final int Widget_Sherlock_Light_DropDownItem_Spinner=0x7f0a002b;
-        public static final int Widget_Sherlock_Light_ListPopupWindow=0x7f0a001b;
-        public static final int Widget_Sherlock_Light_ListView_DropDown=0x7f0a0028;
-        public static final int Widget_Sherlock_Light_PopupMenu=0x7f0a001d;
-        public static final int Widget_Sherlock_Light_PopupWindow_ActionMode=0x7f0a002d;
-        public static final int Widget_Sherlock_Light_ProgressBar=0x7f0a002f;
-        public static final int Widget_Sherlock_Light_ProgressBar_Horizontal=0x7f0a0031;
-        public static final int Widget_Sherlock_Light_SearchAutoCompleteTextView=0x7f0a0035;
-        public static final int Widget_Sherlock_Light_Spinner_DropDown_ActionBar=0x7f0a0025;
-        public static final int Widget_Sherlock_ListPopupWindow=0x7f0a001a;
-        public static final int Widget_Sherlock_ListView_DropDown=0x7f0a0027;
-        public static final int Widget_Sherlock_PopupMenu=0x7f0a001c;
-        public static final int Widget_Sherlock_PopupWindow_ActionMode=0x7f0a002c;
-        public static final int Widget_Sherlock_ProgressBar=0x7f0a002e;
-        public static final int Widget_Sherlock_ProgressBar_Horizontal=0x7f0a0030;
-        public static final int Widget_Sherlock_SearchAutoCompleteTextView=0x7f0a0034;
-        public static final int Widget_Sherlock_Spinner_DropDown_ActionBar=0x7f0a0024;
-        public static final int Widget_Sherlock_TextView_SpinnerItem=0x7f0a0032;
+        public static final int ActionBar_Solid_Codefinder=0x7f0b008c;
+        public static final int ActionBar_Transparent_Codefinder=0x7f0b008e;
+        public static final int ActionBarTabStyle_Codefinder=0x7f0b0091;
+        public static final int ActionButton_CloseMode_Codefinder=0x7f0b0094;
+        public static final int DropDownListView_Codefinder=0x7f0b0090;
+        public static final int DropDownNav_Codefinder=0x7f0b0092;
+        public static final int MyActionBarTabTextStyle=0x7f0b0096;
+        public static final int PopupMenu_Codefinder=0x7f0b008f;
+        public static final int ProgressBar_Codefinder=0x7f0b0093;
+        /**  Mimic text appearance in select_dialog_item.xml 
+         */
+        public static final int TextAppearance_AppCompat_Base_CompactMenu_Dialog=0x7f0b0063;
+        public static final int TextAppearance_AppCompat_Base_SearchResult=0x7f0b006d;
+        public static final int TextAppearance_AppCompat_Base_SearchResult_Subtitle=0x7f0b006f;
+        /**  Search View result styles 
+         */
+        public static final int TextAppearance_AppCompat_Base_SearchResult_Title=0x7f0b006e;
+        public static final int TextAppearance_AppCompat_Base_Widget_PopupMenu_Large=0x7f0b0069;
+        public static final int TextAppearance_AppCompat_Base_Widget_PopupMenu_Small=0x7f0b006a;
+        public static final int TextAppearance_AppCompat_Light_Base_SearchResult=0x7f0b0070;
+        public static final int TextAppearance_AppCompat_Light_Base_SearchResult_Subtitle=0x7f0b0072;
+        /** 
+        TextAppearance.Holo.Light.SearchResult.* are private so we extend from the default
+        versions instead (which are exactly the same).
+    
+         */
+        public static final int TextAppearance_AppCompat_Light_Base_SearchResult_Title=0x7f0b0071;
+        public static final int TextAppearance_AppCompat_Light_Base_Widget_PopupMenu_Large=0x7f0b006b;
+        public static final int TextAppearance_AppCompat_Light_Base_Widget_PopupMenu_Small=0x7f0b006c;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0b0035;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0b0034;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b0030;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b0031;
+        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b0033;
+        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0b0032;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b001a;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b0006;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b0008;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b0005;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b0007;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b001e;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0b0020;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b001d;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0b001f;
+        public static final int TextAppearance_AppCompat_Widget_Base_ActionBar_Menu=0x7f0b0054;
+        public static final int TextAppearance_AppCompat_Widget_Base_ActionBar_Subtitle=0x7f0b0056;
+        public static final int TextAppearance_AppCompat_Widget_Base_ActionBar_Subtitle_Inverse=0x7f0b0058;
+        public static final int TextAppearance_AppCompat_Widget_Base_ActionBar_Title=0x7f0b0055;
+        public static final int TextAppearance_AppCompat_Widget_Base_ActionBar_Title_Inverse=0x7f0b0057;
+        public static final int TextAppearance_AppCompat_Widget_Base_ActionMode_Subtitle=0x7f0b0051;
+        public static final int TextAppearance_AppCompat_Widget_Base_ActionMode_Subtitle_Inverse=0x7f0b0053;
+        public static final int TextAppearance_AppCompat_Widget_Base_ActionMode_Title=0x7f0b0050;
+        public static final int TextAppearance_AppCompat_Widget_Base_ActionMode_Title_Inverse=0x7f0b0052;
+        public static final int TextAppearance_AppCompat_Widget_Base_DropDownItem=0x7f0b0061;
+        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b0021;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b002e;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b002f;
+        public static final int TextAppearance_Widget_AppCompat_Base_ExpandedMenu_Item=0x7f0b0062;
+        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b0028;
+        /**  Themes in the "Theme.AppCompat" family will contain an action bar by default.
+         If Holo themes are available on the current platform version they will be used.
+         A limited Holo-styled action bar will be provided on platform versions older
+         than 3.0. (API 11)
+
+         These theme declarations contain any version-independent specification. Items
+         that need to vary based on platform version should be defined in the corresponding
+         "Theme.Base" theme. 
+ Platform-independent theme providing an action bar in a dark-themed activity. 
+         */
+        public static final int Theme_AppCompat=0x7f0b0077;
+        /**  Menu/item attributes 
+         */
+        public static final int Theme_AppCompat_Base_CompactMenu=0x7f0b0083;
+        public static final int Theme_AppCompat_Base_CompactMenu_Dialog=0x7f0b0084;
+        /**  Menu/item attributes 
+         */
+        public static final int Theme_AppCompat_CompactMenu=0x7f0b007c;
+        public static final int Theme_AppCompat_CompactMenu_Dialog=0x7f0b007d;
+        public static final int Theme_AppCompat_DialogWhenLarge=0x7f0b007a;
+        /**  Platform-independent theme providing an action bar in a light-themed activity. 
+         */
+        public static final int Theme_AppCompat_Light=0x7f0b0078;
+        /**  Platform-independent theme providing an action bar in a dark-themed activity. 
+         */
+        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0b0079;
+        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0b007b;
+        /**  Base platform-dependent theme  
+         */
+        public static final int Theme_Base=0x7f0b007e;
+        /**  Base platform-dependent theme providing an action bar in a dark-themed activity. 
+ Base platform-dependent theme providing an action bar in a dark-themed activity. 
+         */
+        public static final int Theme_Base_AppCompat=0x7f0b0080;
+        public static final int Theme_Base_AppCompat_Dialog_FixedSize=0x7f0b0087;
+        public static final int Theme_Base_AppCompat_Dialog_Light_FixedSize=0x7f0b0088;
+        public static final int Theme_Base_AppCompat_DialogWhenLarge=0x7f0b0085;
+        /** 
+        As we have defined the theme in values-large (for compat) and values-large takes precedence
+        over values-v14, we need to reset back to the Holo parent in values-large-v14. As the themes
+        in values-v14 & values-large-v14 are exactly the same, these "double base" themes can be
+        inherited from in both values-v14 and values-large-v14.
+    
+         */
+        public static final int Theme_Base_AppCompat_DialogWhenLarge_Base=0x7f0b0089;
+        /**  Base platform-dependent theme providing an action bar in a light-themed activity. 
+ Base platform-dependent theme providing an action bar in a light-themed activity. 
+         */
+        public static final int Theme_Base_AppCompat_Light=0x7f0b0081;
+        /**  Base platform-dependent theme providing a dark action bar in a light-themed activity. 
+ Base platform-dependent theme providing a dark action bar in a light-themed activity. 
+         */
+        public static final int Theme_Base_AppCompat_Light_DarkActionBar=0x7f0b0082;
+        public static final int Theme_Base_AppCompat_Light_DialogWhenLarge=0x7f0b0086;
+        public static final int Theme_Base_AppCompat_Light_DialogWhenLarge_Base=0x7f0b008a;
+        /**  Base platform-dependent theme providing a light-themed activity. 
+         */
+        public static final int Theme_Base_Light=0x7f0b007f;
+        public static final int Theme_Codefinder=0x7f0b008b;
+        /**  this style is only referenced in a Light.DarkActionBar based theme 
+ this style is only referenced in a Light.DarkActionBar based theme 
+         */
+        public static final int Theme_Codefinder_Widget=0x7f0b0095;
+        /**  Styles in here can be extended for customisation in your application. Each utilises
+         one of the Base styles. If Holo themes are available on the current platform version
+         they will be used instead of the compat styles. 
+         */
+        public static final int Widget_AppCompat_ActionBar=0x7f0b0000;
+        public static final int Widget_AppCompat_ActionBar_Solid=0x7f0b0002;
+        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0b0011;
+        public static final int Widget_AppCompat_ActionBar_TabText=0x7f0b0017;
+        public static final int Widget_AppCompat_ActionBar_TabView=0x7f0b0014;
+        public static final int Widget_AppCompat_ActionButton=0x7f0b000b;
+        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0b000d;
+        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0b000f;
+        public static final int Widget_AppCompat_ActionMode=0x7f0b001b;
+        public static final int Widget_AppCompat_ActivityChooserView=0x7f0b0038;
+        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0b0036;
+        public static final int Widget_AppCompat_Base_ActionBar=0x7f0b003a;
+        public static final int Widget_AppCompat_Base_ActionBar_Solid=0x7f0b003c;
+        public static final int Widget_AppCompat_Base_ActionBar_TabBar=0x7f0b0045;
+        public static final int Widget_AppCompat_Base_ActionBar_TabText=0x7f0b004b;
+        public static final int Widget_AppCompat_Base_ActionBar_TabView=0x7f0b0048;
+        /**  Action Button Styles 
+         */
+        public static final int Widget_AppCompat_Base_ActionButton=0x7f0b003f;
+        public static final int Widget_AppCompat_Base_ActionButton_CloseMode=0x7f0b0041;
+        public static final int Widget_AppCompat_Base_ActionButton_Overflow=0x7f0b0043;
+        public static final int Widget_AppCompat_Base_ActionMode=0x7f0b004e;
+        public static final int Widget_AppCompat_Base_ActivityChooserView=0x7f0b0075;
+        /**  AutoCompleteTextView styles (for SearchView) 
+         */
+        public static final int Widget_AppCompat_Base_AutoCompleteTextView=0x7f0b0073;
+        public static final int Widget_AppCompat_Base_DropDownItem_Spinner=0x7f0b005d;
+        /**  Popup Menu 
+         */
+        public static final int Widget_AppCompat_Base_ListPopupWindow=0x7f0b0065;
+        /**  Spinner Widgets 
+         */
+        public static final int Widget_AppCompat_Base_ListView_DropDown=0x7f0b005f;
+        public static final int Widget_AppCompat_Base_ListView_Menu=0x7f0b0064;
+        public static final int Widget_AppCompat_Base_PopupMenu=0x7f0b0067;
+        public static final int Widget_AppCompat_Base_ProgressBar=0x7f0b005a;
+        /**  Progress Bar 
+         */
+        public static final int Widget_AppCompat_Base_ProgressBar_Horizontal=0x7f0b0059;
+        /**  Action Bar Spinner Widgets 
+         */
+        public static final int Widget_AppCompat_Base_Spinner=0x7f0b005b;
+        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0b0024;
+        public static final int Widget_AppCompat_Light_ActionBar=0x7f0b0001;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0b0003;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0b0004;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b0012;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0b0013;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0b0018;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b0019;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0b0015;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0b0016;
+        public static final int Widget_AppCompat_Light_ActionButton=0x7f0b000c;
+        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0b000e;
+        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0b0010;
+        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0b001c;
+        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0b0039;
+        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0b0037;
+        public static final int Widget_AppCompat_Light_Base_ActionBar=0x7f0b003b;
+        public static final int Widget_AppCompat_Light_Base_ActionBar_Solid=0x7f0b003d;
+        public static final int Widget_AppCompat_Light_Base_ActionBar_Solid_Inverse=0x7f0b003e;
+        public static final int Widget_AppCompat_Light_Base_ActionBar_TabBar=0x7f0b0046;
+        public static final int Widget_AppCompat_Light_Base_ActionBar_TabBar_Inverse=0x7f0b0047;
+        public static final int Widget_AppCompat_Light_Base_ActionBar_TabText=0x7f0b004c;
+        public static final int Widget_AppCompat_Light_Base_ActionBar_TabText_Inverse=0x7f0b004d;
+        public static final int Widget_AppCompat_Light_Base_ActionBar_TabView=0x7f0b0049;
+        public static final int Widget_AppCompat_Light_Base_ActionBar_TabView_Inverse=0x7f0b004a;
+        public static final int Widget_AppCompat_Light_Base_ActionButton=0x7f0b0040;
+        public static final int Widget_AppCompat_Light_Base_ActionButton_CloseMode=0x7f0b0042;
+        public static final int Widget_AppCompat_Light_Base_ActionButton_Overflow=0x7f0b0044;
+        public static final int Widget_AppCompat_Light_Base_ActionMode_Inverse=0x7f0b004f;
+        public static final int Widget_AppCompat_Light_Base_ActivityChooserView=0x7f0b0076;
+        public static final int Widget_AppCompat_Light_Base_AutoCompleteTextView=0x7f0b0074;
+        public static final int Widget_AppCompat_Light_Base_DropDownItem_Spinner=0x7f0b005e;
+        public static final int Widget_AppCompat_Light_Base_ListPopupWindow=0x7f0b0066;
+        public static final int Widget_AppCompat_Light_Base_ListView_DropDown=0x7f0b0060;
+        public static final int Widget_AppCompat_Light_Base_PopupMenu=0x7f0b0068;
+        public static final int Widget_AppCompat_Light_Base_Spinner=0x7f0b005c;
+        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0b0025;
+        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0b002a;
+        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0b0027;
+        public static final int Widget_AppCompat_Light_PopupMenu=0x7f0b002c;
+        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0b0023;
+        public static final int Widget_AppCompat_ListPopupWindow=0x7f0b0029;
+        public static final int Widget_AppCompat_ListView_DropDown=0x7f0b0026;
+        public static final int Widget_AppCompat_ListView_Menu=0x7f0b002d;
+        public static final int Widget_AppCompat_PopupMenu=0x7f0b002b;
+        public static final int Widget_AppCompat_ProgressBar=0x7f0b000a;
+        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0b0009;
+        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0b0022;
+        public static final int titleStyle=0x7f0b008d;
     }
     public static final class styleable {
-        /**  Attributes used to style the Action Bar. 
+        /**  ============================================ 
+ Attributes used to style the Action Bar.
+         These should be set on your theme; the default actionBarStyle will
+         propagate them to the correct elements as needed.
+
+         Please Note: when overriding attributes for an ActionBar style
+         you must specify each attribute twice: once with the "android:"
+         namespace prefix and once without. 
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SherlockActionBar_background com.ashoksm.pinfinder:background}</code></td><td> Specifies a background drawable for the action bar.</td></tr>
-           <tr><td><code>{@link #SherlockActionBar_backgroundSplit com.ashoksm.pinfinder:backgroundSplit}</code></td><td> Specifies a background drawable for the bottom component of a split action bar.</td></tr>
-           <tr><td><code>{@link #SherlockActionBar_backgroundStacked com.ashoksm.pinfinder:backgroundStacked}</code></td><td> Specifies a background drawable for a second stacked row of the action bar.</td></tr>
-           <tr><td><code>{@link #SherlockActionBar_customNavigationLayout com.ashoksm.pinfinder:customNavigationLayout}</code></td><td> Specifies a layout for custom navigation.</td></tr>
-           <tr><td><code>{@link #SherlockActionBar_displayOptions com.ashoksm.pinfinder:displayOptions}</code></td><td> Options affecting how the action bar is displayed.</td></tr>
-           <tr><td><code>{@link #SherlockActionBar_divider com.ashoksm.pinfinder:divider}</code></td><td> Specifies the drawable used for item dividers.</td></tr>
-           <tr><td><code>{@link #SherlockActionBar_height com.ashoksm.pinfinder:height}</code></td><td> Specifies a fixed height.</td></tr>
-           <tr><td><code>{@link #SherlockActionBar_homeLayout com.ashoksm.pinfinder:homeLayout}</code></td><td> Specifies a layout to use for the "home" section of the action bar.</td></tr>
-           <tr><td><code>{@link #SherlockActionBar_icon com.ashoksm.pinfinder:icon}</code></td><td> Specifies the drawable used for the application icon.</td></tr>
-           <tr><td><code>{@link #SherlockActionBar_indeterminateProgressStyle com.ashoksm.pinfinder:indeterminateProgressStyle}</code></td><td> Specifies a style resource to use for an indeterminate progress spinner.</td></tr>
-           <tr><td><code>{@link #SherlockActionBar_itemPadding com.ashoksm.pinfinder:itemPadding}</code></td><td> Specifies padding that should be applied to the left and right sides of
+           <tr><td><code>{@link #ActionBar_background com.ashoksm.pinfinder:background}</code></td><td> Specifies a background drawable for the action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit com.ashoksm.pinfinder:backgroundSplit}</code></td><td> Specifies a background drawable for the bottom component of a split action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked com.ashoksm.pinfinder:backgroundStacked}</code></td><td> Specifies a background drawable for a second stacked row of the action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout com.ashoksm.pinfinder:customNavigationLayout}</code></td><td> Specifies a layout for custom navigation.</td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions com.ashoksm.pinfinder:displayOptions}</code></td><td> Options affecting how the action bar is displayed.</td></tr>
+           <tr><td><code>{@link #ActionBar_divider com.ashoksm.pinfinder:divider}</code></td><td> Specifies the drawable used for item dividers.</td></tr>
+           <tr><td><code>{@link #ActionBar_height com.ashoksm.pinfinder:height}</code></td><td> Specifies a fixed height.</td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout com.ashoksm.pinfinder:homeLayout}</code></td><td> Specifies a layout to use for the "home" section of the action bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_icon com.ashoksm.pinfinder:icon}</code></td><td> Specifies the drawable used for the application icon.</td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.ashoksm.pinfinder:indeterminateProgressStyle}</code></td><td> Specifies a style resource to use for an indeterminate progress spinner.</td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding com.ashoksm.pinfinder:itemPadding}</code></td><td> Specifies padding that should be applied to the left and right sides of
              system-provided items in the bar.</td></tr>
-           <tr><td><code>{@link #SherlockActionBar_logo com.ashoksm.pinfinder:logo}</code></td><td> Specifies the drawable used for the application logo.</td></tr>
-           <tr><td><code>{@link #SherlockActionBar_navigationMode com.ashoksm.pinfinder:navigationMode}</code></td><td> The type of navigation to use.</td></tr>
-           <tr><td><code>{@link #SherlockActionBar_progressBarPadding com.ashoksm.pinfinder:progressBarPadding}</code></td><td> Specifies the horizontal padding on either end for an embedded progress bar.</td></tr>
-           <tr><td><code>{@link #SherlockActionBar_progressBarStyle com.ashoksm.pinfinder:progressBarStyle}</code></td><td> Specifies a style resource to use for an embedded progress bar.</td></tr>
-           <tr><td><code>{@link #SherlockActionBar_subtitle com.ashoksm.pinfinder:subtitle}</code></td><td> Specifies subtitle text used for navigationMode="normal" </td></tr>
-           <tr><td><code>{@link #SherlockActionBar_subtitleTextStyle com.ashoksm.pinfinder:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
-           <tr><td><code>{@link #SherlockActionBar_title com.ashoksm.pinfinder:title}</code></td><td> Specifies title text used for navigationMode="normal" </td></tr>
-           <tr><td><code>{@link #SherlockActionBar_titleTextStyle com.ashoksm.pinfinder:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
+           <tr><td><code>{@link #ActionBar_logo com.ashoksm.pinfinder:logo}</code></td><td> Specifies the drawable used for the application logo.</td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode com.ashoksm.pinfinder:navigationMode}</code></td><td> The type of navigation to use.</td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding com.ashoksm.pinfinder:progressBarPadding}</code></td><td> Specifies the horizontal padding on either end for an embedded progress bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle com.ashoksm.pinfinder:progressBarStyle}</code></td><td> Specifies a style resource to use for an embedded progress bar.</td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle com.ashoksm.pinfinder:subtitle}</code></td><td> Specifies subtitle text used for navigationMode="normal" </td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.ashoksm.pinfinder:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
+           <tr><td><code>{@link #ActionBar_title com.ashoksm.pinfinder:title}</code></td><td> Specifies title text used for navigationMode="normal" </td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle com.ashoksm.pinfinder:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
            </table>
-           @see #SherlockActionBar_background
-           @see #SherlockActionBar_backgroundSplit
-           @see #SherlockActionBar_backgroundStacked
-           @see #SherlockActionBar_customNavigationLayout
-           @see #SherlockActionBar_displayOptions
-           @see #SherlockActionBar_divider
-           @see #SherlockActionBar_height
-           @see #SherlockActionBar_homeLayout
-           @see #SherlockActionBar_icon
-           @see #SherlockActionBar_indeterminateProgressStyle
-           @see #SherlockActionBar_itemPadding
-           @see #SherlockActionBar_logo
-           @see #SherlockActionBar_navigationMode
-           @see #SherlockActionBar_progressBarPadding
-           @see #SherlockActionBar_progressBarStyle
-           @see #SherlockActionBar_subtitle
-           @see #SherlockActionBar_subtitleTextStyle
-           @see #SherlockActionBar_title
-           @see #SherlockActionBar_titleTextStyle
+           @see #ActionBar_background
+           @see #ActionBar_backgroundSplit
+           @see #ActionBar_backgroundStacked
+           @see #ActionBar_customNavigationLayout
+           @see #ActionBar_displayOptions
+           @see #ActionBar_divider
+           @see #ActionBar_height
+           @see #ActionBar_homeLayout
+           @see #ActionBar_icon
+           @see #ActionBar_indeterminateProgressStyle
+           @see #ActionBar_itemPadding
+           @see #ActionBar_logo
+           @see #ActionBar_navigationMode
+           @see #ActionBar_progressBarPadding
+           @see #ActionBar_progressBarStyle
+           @see #ActionBar_subtitle
+           @see #ActionBar_subtitleTextStyle
+           @see #ActionBar_title
+           @see #ActionBar_titleTextStyle
          */
-        public static final int[] SherlockActionBar = {
-            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
-            0x7f010004, 0x7f010005, 0x7f010049, 0x7f01004a,
-            0x7f01004b, 0x7f01004c, 0x7f01004d, 0x7f01004e,
-            0x7f01004f, 0x7f010050, 0x7f010051, 0x7f010052,
-            0x7f010053, 0x7f010054, 0x7f010055
+        public static final int[] ActionBar = {
+            0x7f010025, 0x7f010026, 0x7f010027, 0x7f010028,
+            0x7f010029, 0x7f01002a, 0x7f01002b, 0x7f01002c,
+            0x7f01002d, 0x7f01002e, 0x7f01002f, 0x7f010030,
+            0x7f010031, 0x7f010032, 0x7f010033, 0x7f010034,
+            0x7f010035, 0x7f010036, 0x7f010037
         };
         /**
           <p>
@@ -1302,14 +3370,12 @@ containing a value of this type.
            Specifies a background drawable for the action bar. 
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:background
         */
-        public static final int SherlockActionBar_background = 2;
+        public static final int ActionBar_background = 10;
         /**
           <p>
           @attr description
@@ -1323,7 +3389,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:backgroundSplit
         */
-        public static final int SherlockActionBar_backgroundSplit = 3;
+        public static final int ActionBar_backgroundSplit = 12;
         /**
           <p>
           @attr description
@@ -1337,7 +3403,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:backgroundStacked
         */
-        public static final int SherlockActionBar_backgroundStacked = 12;
+        public static final int ActionBar_backgroundStacked = 11;
         /**
           <p>
           @attr description
@@ -1349,7 +3415,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:customNavigationLayout
         */
-        public static final int SherlockActionBar_customNavigationLayout = 13;
+        public static final int ActionBar_customNavigationLayout = 13;
         /**
           <p>
           @attr description
@@ -1372,7 +3438,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:displayOptions
         */
-        public static final int SherlockActionBar_displayOptions = 7;
+        public static final int ActionBar_displayOptions = 3;
         /**
           <p>
           @attr description
@@ -1384,7 +3450,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:divider
         */
-        public static final int SherlockActionBar_divider = 5;
+        public static final int ActionBar_divider = 9;
         /**
           <p>
           @attr description
@@ -1402,7 +3468,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:height
         */
-        public static final int SherlockActionBar_height = 4;
+        public static final int ActionBar_height = 1;
         /**
           <p>
           @attr description
@@ -1414,7 +3480,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:homeLayout
         */
-        public static final int SherlockActionBar_homeLayout = 14;
+        public static final int ActionBar_homeLayout = 14;
         /**
           <p>
           @attr description
@@ -1426,7 +3492,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:icon
         */
-        public static final int SherlockActionBar_icon = 10;
+        public static final int ActionBar_icon = 7;
         /**
           <p>
           @attr description
@@ -1438,7 +3504,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:indeterminateProgressStyle
         */
-        public static final int SherlockActionBar_indeterminateProgressStyle = 16;
+        public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
           <p>
           @attr description
@@ -1457,7 +3523,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:itemPadding
         */
-        public static final int SherlockActionBar_itemPadding = 18;
+        public static final int ActionBar_itemPadding = 18;
         /**
           <p>
           @attr description
@@ -1469,7 +3535,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:logo
         */
-        public static final int SherlockActionBar_logo = 11;
+        public static final int ActionBar_logo = 8;
         /**
           <p>
           @attr description
@@ -1489,7 +3555,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:navigationMode
         */
-        public static final int SherlockActionBar_navigationMode = 6;
+        public static final int ActionBar_navigationMode = 2;
         /**
           <p>
           @attr description
@@ -1507,7 +3573,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:progressBarPadding
         */
-        public static final int SherlockActionBar_progressBarPadding = 17;
+        public static final int ActionBar_progressBarPadding = 17;
         /**
           <p>
           @attr description
@@ -1519,7 +3585,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:progressBarStyle
         */
-        public static final int SherlockActionBar_progressBarStyle = 15;
+        public static final int ActionBar_progressBarStyle = 15;
         /**
           <p>
           @attr description
@@ -1535,7 +3601,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:subtitle
         */
-        public static final int SherlockActionBar_subtitle = 9;
+        public static final int ActionBar_subtitle = 4;
         /**
           <p>
           @attr description
@@ -1547,7 +3613,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:subtitleTextStyle
         */
-        public static final int SherlockActionBar_subtitleTextStyle = 1;
+        public static final int ActionBar_subtitleTextStyle = 6;
         /**
           <p>
           @attr description
@@ -1563,7 +3629,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:title
         */
-        public static final int SherlockActionBar_title = 8;
+        public static final int ActionBar_title = 0;
         /**
           <p>
           @attr description
@@ -1575,47 +3641,238 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:titleTextStyle
         */
-        public static final int SherlockActionBar_titleTextStyle = 0;
-        /** Attributes that can be used with a SherlockActionMenuItemView.
+        public static final int ActionBar_titleTextStyle = 5;
+        /**  Valid LayoutParams for views placed in the action bar as custom views. 
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SherlockActionMenuItemView_android_minWidth android:minWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBarLayout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
            </table>
-           @see #SherlockActionMenuItemView_android_minWidth
+           @see #ActionBarLayout_android_layout_gravity
          */
-        public static final int[] SherlockActionMenuItemView = {
+        public static final int[] ActionBarLayout = {
+            0x010100b3
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
+          attribute's value can be found in the {@link #ActionBarLayout} array.
+          @attr name android:layout_gravity
+        */
+        public static final int ActionBarLayout_android_layout_gravity = 0;
+        /**  These attributes are meant to be specified and customized by the app.
+         The system will read and apply them as needed. These attributes control
+         properties of the activity window, such as whether an action bar should
+         be present and whether it should overlay content. 
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ActionBarWindow_windowActionBar com.ashoksm.pinfinder:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBarWindow_windowActionBarOverlay com.ashoksm.pinfinder:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBarWindow_windowFixedHeightMajor com.ashoksm.pinfinder:windowFixedHeightMajor}</code></td><td> A fixed height for the window along the major axis of the screen,
+             that is, when in portrait.</td></tr>
+           <tr><td><code>{@link #ActionBarWindow_windowFixedHeightMinor com.ashoksm.pinfinder:windowFixedHeightMinor}</code></td><td> A fixed height for the window along the minor axis of the screen,
+             that is, when in landscape.</td></tr>
+           <tr><td><code>{@link #ActionBarWindow_windowFixedWidthMajor com.ashoksm.pinfinder:windowFixedWidthMajor}</code></td><td> A fixed width for the window along the major axis of the screen,
+             that is, when in landscape.</td></tr>
+           <tr><td><code>{@link #ActionBarWindow_windowFixedWidthMinor com.ashoksm.pinfinder:windowFixedWidthMinor}</code></td><td> A fixed width for the window along the minor axis of the screen,
+             that is, when in portrait.</td></tr>
+           <tr><td><code>{@link #ActionBarWindow_windowSplitActionBar com.ashoksm.pinfinder:windowSplitActionBar}</code></td><td></td></tr>
+           </table>
+           @see #ActionBarWindow_windowActionBar
+           @see #ActionBarWindow_windowActionBarOverlay
+           @see #ActionBarWindow_windowFixedHeightMajor
+           @see #ActionBarWindow_windowFixedHeightMinor
+           @see #ActionBarWindow_windowFixedWidthMajor
+           @see #ActionBarWindow_windowFixedWidthMinor
+           @see #ActionBarWindow_windowSplitActionBar
+         */
+        public static final int[] ActionBarWindow = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
+            0x7f010004, 0x7f010005, 0x7f010006
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#windowActionBar}
+          attribute's value can be found in the {@link #ActionBarWindow} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.ashoksm.pinfinder:windowActionBar
+        */
+        public static final int ActionBarWindow_windowActionBar = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#windowActionBarOverlay}
+          attribute's value can be found in the {@link #ActionBarWindow} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.ashoksm.pinfinder:windowActionBarOverlay
+        */
+        public static final int ActionBarWindow_windowActionBarOverlay = 1;
+        /**
+          <p>
+          @attr description
+           A fixed height for the window along the major axis of the screen,
+             that is, when in portrait. Can be either an absolute dimension
+             or a fraction of the screen size in that dimension. 
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.ashoksm.pinfinder:windowFixedHeightMajor
+        */
+        public static final int ActionBarWindow_windowFixedHeightMajor = 6;
+        /**
+          <p>
+          @attr description
+           A fixed height for the window along the minor axis of the screen,
+             that is, when in landscape. Can be either an absolute dimension
+             or a fraction of the screen size in that dimension. 
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.ashoksm.pinfinder:windowFixedHeightMinor
+        */
+        public static final int ActionBarWindow_windowFixedHeightMinor = 4;
+        /**
+          <p>
+          @attr description
+           A fixed width for the window along the major axis of the screen,
+             that is, when in landscape. Can be either an absolute dimension
+             or a fraction of the screen size in that dimension. 
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.ashoksm.pinfinder:windowFixedWidthMajor
+        */
+        public static final int ActionBarWindow_windowFixedWidthMajor = 3;
+        /**
+          <p>
+          @attr description
+           A fixed width for the window along the minor axis of the screen,
+             that is, when in portrait. Can be either an absolute dimension
+             or a fraction of the screen size in that dimension. 
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.ashoksm.pinfinder:windowFixedWidthMinor
+        */
+        public static final int ActionBarWindow_windowFixedWidthMinor = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#windowSplitActionBar}
+          attribute's value can be found in the {@link #ActionBarWindow} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.ashoksm.pinfinder:windowSplitActionBar
+        */
+        public static final int ActionBarWindow_windowSplitActionBar = 2;
+        /** Attributes that can be used with a ActionMenuItemView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ActionMenuItemView_android_minWidth android:minWidth}</code></td><td></td></tr>
+           </table>
+           @see #ActionMenuItemView_android_minWidth
+         */
+        public static final int[] ActionMenuItemView = {
             0x0101013f
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#minWidth}
-          attribute's value can be found in the {@link #SherlockActionMenuItemView} array.
+          attribute's value can be found in the {@link #ActionMenuItemView} array.
           @attr name android:minWidth
         */
-        public static final int SherlockActionMenuItemView_android_minWidth = 0;
-        /** Attributes that can be used with a SherlockActionMode.
+        public static final int ActionMenuItemView_android_minWidth = 0;
+        /**  Size of padding on either end of a divider. 
+         */
+        public static final int[] ActionMenuView = {
+            
+        };
+        /** Attributes that can be used with a ActionMode.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SherlockActionMode_background com.ashoksm.pinfinder:background}</code></td><td> Specifies a background for the action mode bar.</td></tr>
-           <tr><td><code>{@link #SherlockActionMode_backgroundSplit com.ashoksm.pinfinder:backgroundSplit}</code></td><td> Specifies a background for the split action mode bar.</td></tr>
-           <tr><td><code>{@link #SherlockActionMode_height com.ashoksm.pinfinder:height}</code></td><td> Specifies a fixed height for the action mode bar.</td></tr>
-           <tr><td><code>{@link #SherlockActionMode_subtitleTextStyle com.ashoksm.pinfinder:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
-           <tr><td><code>{@link #SherlockActionMode_titleTextStyle com.ashoksm.pinfinder:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
+           <tr><td><code>{@link #ActionMode_background com.ashoksm.pinfinder:background}</code></td><td> Specifies a background for the action mode bar.</td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit com.ashoksm.pinfinder:backgroundSplit}</code></td><td> Specifies a background for the split action mode bar.</td></tr>
+           <tr><td><code>{@link #ActionMode_height com.ashoksm.pinfinder:height}</code></td><td> Specifies a fixed height for the action mode bar.</td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.ashoksm.pinfinder:subtitleTextStyle}</code></td><td> Specifies a style to use for subtitle text.</td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle com.ashoksm.pinfinder:titleTextStyle}</code></td><td> Specifies a style to use for title text.</td></tr>
            </table>
-           @see #SherlockActionMode_background
-           @see #SherlockActionMode_backgroundSplit
-           @see #SherlockActionMode_height
-           @see #SherlockActionMode_subtitleTextStyle
-           @see #SherlockActionMode_titleTextStyle
+           @see #ActionMode_background
+           @see #ActionMode_backgroundSplit
+           @see #ActionMode_height
+           @see #ActionMode_subtitleTextStyle
+           @see #ActionMode_titleTextStyle
          */
-        public static final int[] SherlockActionMode = {
-            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
-            0x7f010004
+        public static final int[] ActionMode = {
+            0x7f010026, 0x7f01002a, 0x7f01002b, 0x7f01002f,
+            0x7f010031
         };
         /**
           <p>
@@ -1623,14 +3880,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            Specifies a background for the action mode bar. 
 
 
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:background
         */
-        public static final int SherlockActionMode_background = 2;
+        public static final int ActionMode_background = 3;
         /**
           <p>
           @attr description
@@ -1644,7 +3899,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:backgroundSplit
         */
-        public static final int SherlockActionMode_backgroundSplit = 3;
+        public static final int ActionMode_backgroundSplit = 4;
         /**
           <p>
           @attr description
@@ -1662,7 +3917,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:height
         */
-        public static final int SherlockActionMode_height = 4;
+        public static final int ActionMode_height = 0;
         /**
           <p>
           @attr description
@@ -1674,7 +3929,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:subtitleTextStyle
         */
-        public static final int SherlockActionMode_subtitleTextStyle = 1;
+        public static final int ActionMode_subtitleTextStyle = 2;
         /**
           <p>
           @attr description
@@ -1686,30 +3941,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:titleTextStyle
         */
-        public static final int SherlockActionMode_titleTextStyle = 0;
-        /** Attributes that can be used with a SherlockActivityChooserView.
+        public static final int ActionMode_titleTextStyle = 1;
+        /**  Attrbitutes for a ActivityChooserView. 
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SherlockActivityChooserView_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockActivityChooserView_expandActivityOverflowButtonDrawable com.ashoksm.pinfinder:expandActivityOverflowButtonDrawable}</code></td><td> The drawable to show in the button for expanding the activities overflow popup.</td></tr>
-           <tr><td><code>{@link #SherlockActivityChooserView_initialActivityCount com.ashoksm.pinfinder:initialActivityCount}</code></td><td> The maximal number of items initially shown in the activity list.</td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.ashoksm.pinfinder:expandActivityOverflowButtonDrawable}</code></td><td> The drawable to show in the button for expanding the activities overflow popup.</td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.ashoksm.pinfinder:initialActivityCount}</code></td><td> The maximal number of items initially shown in the activity list.</td></tr>
            </table>
-           @see #SherlockActivityChooserView_android_background
-           @see #SherlockActivityChooserView_expandActivityOverflowButtonDrawable
-           @see #SherlockActivityChooserView_initialActivityCount
+           @see #ActivityChooserView_expandActivityOverflowButtonDrawable
+           @see #ActivityChooserView_initialActivityCount
          */
-        public static final int[] SherlockActivityChooserView = {
-            0x010100d4, 0x7f01005e, 0x7f01005f
+        public static final int[] ActivityChooserView = {
+            0x7f01006a, 0x7f01006b
         };
-        /**
-          <p>This symbol is the offset where the {@link android.R.attr#background}
-          attribute's value can be found in the {@link #SherlockActivityChooserView} array.
-          @attr name android:background
-        */
-        public static final int SherlockActivityChooserView_android_background = 0;
         /**
           <p>
           @attr description
@@ -1726,7 +3973,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:expandActivityOverflowButtonDrawable
         */
-        public static final int SherlockActivityChooserView_expandActivityOverflowButtonDrawable = 2;
+        public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
           <p>
           @attr description
@@ -1742,28 +3989,122 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:initialActivityCount
         */
-        public static final int SherlockActivityChooserView_initialActivityCount = 1;
+        public static final int ActivityChooserView_initialActivityCount = 0;
+        /** Attributes that can be used with a CompatTextView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CompatTextView_textAllCaps com.ashoksm.pinfinder:textAllCaps}</code></td><td> Present the text in ALL CAPS.</td></tr>
+           </table>
+           @see #CompatTextView_textAllCaps
+         */
+        public static final int[] CompatTextView = {
+            0x7f01006d
+        };
+        /**
+          <p>
+          @attr description
+           Present the text in ALL CAPS. This may use a small-caps form when available. 
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
+          <p>This is a private symbol.
+          @attr name com.ashoksm.pinfinder:textAllCaps
+        */
+        public static final int CompatTextView_textAllCaps = 0;
+        /** Attributes that can be used with a LinearLayoutICS.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #LinearLayoutICS_divider com.ashoksm.pinfinder:divider}</code></td><td> Drawable to use as a vertical divider between buttons.</td></tr>
+           <tr><td><code>{@link #LinearLayoutICS_dividerPadding com.ashoksm.pinfinder:dividerPadding}</code></td><td> Size of padding on either end of a divider.</td></tr>
+           <tr><td><code>{@link #LinearLayoutICS_showDividers com.ashoksm.pinfinder:showDividers}</code></td><td> Setting for which dividers to show.</td></tr>
+           </table>
+           @see #LinearLayoutICS_divider
+           @see #LinearLayoutICS_dividerPadding
+           @see #LinearLayoutICS_showDividers
+         */
+        public static final int[] LinearLayoutICS = {
+            0x7f01002e, 0x7f010055, 0x7f010056
+        };
+        /**
+          <p>
+          @attr description
+           Drawable to use as a vertical divider between buttons. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.ashoksm.pinfinder:divider
+        */
+        public static final int LinearLayoutICS_divider = 0;
+        /**
+          <p>
+          @attr description
+           Size of padding on either end of a divider. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.ashoksm.pinfinder:dividerPadding
+        */
+        public static final int LinearLayoutICS_dividerPadding = 2;
+        /**
+          <p>
+          @attr description
+           Setting for which dividers to show. 
+
+
+          <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>beginning</code></td><td>1</td><td></td></tr>
+<tr><td><code>middle</code></td><td>2</td><td></td></tr>
+<tr><td><code>end</code></td><td>4</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.ashoksm.pinfinder:showDividers
+        */
+        public static final int LinearLayoutICS_showDividers = 1;
         /**  Base attributes that are available to all groups. 
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SherlockMenuGroup_android_checkableBehavior android:checkableBehavior}</code></td><td> Whether the items are capable of displaying a check mark.</td></tr>
-           <tr><td><code>{@link #SherlockMenuGroup_android_enabled android:enabled}</code></td><td> Whether the items are enabled.</td></tr>
-           <tr><td><code>{@link #SherlockMenuGroup_android_id android:id}</code></td><td> The ID of the group.</td></tr>
-           <tr><td><code>{@link #SherlockMenuGroup_android_menuCategory android:menuCategory}</code></td><td> The category applied to all items within this group.</td></tr>
-           <tr><td><code>{@link #SherlockMenuGroup_android_orderInCategory android:orderInCategory}</code></td><td> The order within the category applied to all items within this group.</td></tr>
-           <tr><td><code>{@link #SherlockMenuGroup_android_visible android:visible}</code></td><td> Whether the items are shown/visible.</td></tr>
+           <tr><td><code>{@link #MenuGroup_android_checkableBehavior android:checkableBehavior}</code></td><td> Whether the items are capable of displaying a check mark.</td></tr>
+           <tr><td><code>{@link #MenuGroup_android_enabled android:enabled}</code></td><td> Whether the items are enabled.</td></tr>
+           <tr><td><code>{@link #MenuGroup_android_id android:id}</code></td><td> The ID of the group.</td></tr>
+           <tr><td><code>{@link #MenuGroup_android_menuCategory android:menuCategory}</code></td><td> The category applied to all items within this group.</td></tr>
+           <tr><td><code>{@link #MenuGroup_android_orderInCategory android:orderInCategory}</code></td><td> The order within the category applied to all items within this group.</td></tr>
+           <tr><td><code>{@link #MenuGroup_android_visible android:visible}</code></td><td> Whether the items are shown/visible.</td></tr>
            </table>
-           @see #SherlockMenuGroup_android_checkableBehavior
-           @see #SherlockMenuGroup_android_enabled
-           @see #SherlockMenuGroup_android_id
-           @see #SherlockMenuGroup_android_menuCategory
-           @see #SherlockMenuGroup_android_orderInCategory
-           @see #SherlockMenuGroup_android_visible
+           @see #MenuGroup_android_checkableBehavior
+           @see #MenuGroup_android_enabled
+           @see #MenuGroup_android_id
+           @see #MenuGroup_android_menuCategory
+           @see #MenuGroup_android_orderInCategory
+           @see #MenuGroup_android_visible
          */
-        public static final int[] SherlockMenuGroup = {
+        public static final int[] MenuGroup = {
             0x0101000e, 0x010100d0, 0x01010194, 0x010101de,
             0x010101df, 0x010101e0
         };
@@ -1775,7 +4116,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#checkableBehavior}.
           @attr name android:checkableBehavior
         */
-        public static final int SherlockMenuGroup_android_checkableBehavior = 5;
+        public static final int MenuGroup_android_checkableBehavior = 5;
         /**
           <p>
           @attr description
@@ -1784,7 +4125,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#enabled}.
           @attr name android:enabled
         */
-        public static final int SherlockMenuGroup_android_enabled = 0;
+        public static final int MenuGroup_android_enabled = 0;
         /**
           <p>
           @attr description
@@ -1793,7 +4134,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#id}.
           @attr name android:id
         */
-        public static final int SherlockMenuGroup_android_id = 1;
+        public static final int MenuGroup_android_id = 1;
         /**
           <p>
           @attr description
@@ -1803,7 +4144,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#menuCategory}.
           @attr name android:menuCategory
         */
-        public static final int SherlockMenuGroup_android_menuCategory = 3;
+        public static final int MenuGroup_android_menuCategory = 3;
         /**
           <p>
           @attr description
@@ -1813,7 +4154,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#orderInCategory}.
           @attr name android:orderInCategory
         */
-        public static final int SherlockMenuGroup_android_orderInCategory = 4;
+        public static final int MenuGroup_android_orderInCategory = 4;
         /**
           <p>
           @attr description
@@ -1822,58 +4163,58 @@ containing a value of this type.
           resource symbol {@link android.R.attr#visible}.
           @attr name android:visible
         */
-        public static final int SherlockMenuGroup_android_visible = 2;
+        public static final int MenuGroup_android_visible = 2;
         /**  Base attributes that are available to all Item objects. 
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_actionLayout android:actionLayout}</code></td><td> An optional layout to be used as an action view.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_actionProviderClass android:actionProviderClass}</code></td><td> The name of an optional ActionProvider class to instantiate an action view
+           <tr><td><code>{@link #MenuItem_actionLayout com.ashoksm.pinfinder:actionLayout}</code></td><td> An optional layout to be used as an action view.</td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass com.ashoksm.pinfinder:actionProviderClass}</code></td><td> The name of an optional ActionProvider class to instantiate an action view
              and perform operations such as default action for that menu item.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_actionViewClass android:actionViewClass}</code></td><td> The name of an optional View class to instantiate and use as an
+           <tr><td><code>{@link #MenuItem_actionViewClass com.ashoksm.pinfinder:actionViewClass}</code></td><td> The name of an optional View class to instantiate and use as an
              action view.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td> The alphabetic shortcut key.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_checkable android:checkable}</code></td><td> Whether the item is capable of displaying a check mark.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_checked android:checked}</code></td><td> Whether the item is checked.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_enabled android:enabled}</code></td><td> Whether the item is enabled.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_icon android:icon}</code></td><td> The icon associated with this item.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_id android:id}</code></td><td> The ID of the item.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_menuCategory android:menuCategory}</code></td><td> The category applied to the item.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_numericShortcut android:numericShortcut}</code></td><td> The numeric shortcut key.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_onClick android:onClick}</code></td><td> Name of a method on the Context used to inflate the menu that will be
+           <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td> The alphabetic shortcut key.</td></tr>
+           <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td> Whether the item is capable of displaying a check mark.</td></tr>
+           <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td> Whether the item is checked.</td></tr>
+           <tr><td><code>{@link #MenuItem_android_enabled android:enabled}</code></td><td> Whether the item is enabled.</td></tr>
+           <tr><td><code>{@link #MenuItem_android_icon android:icon}</code></td><td> The icon associated with this item.</td></tr>
+           <tr><td><code>{@link #MenuItem_android_id android:id}</code></td><td> The ID of the item.</td></tr>
+           <tr><td><code>{@link #MenuItem_android_menuCategory android:menuCategory}</code></td><td> The category applied to the item.</td></tr>
+           <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td> The numeric shortcut key.</td></tr>
+           <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td> Name of a method on the Context used to inflate the menu that will be
              called when the item is clicked.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_orderInCategory android:orderInCategory}</code></td><td> The order within the category applied to the item.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_showAsAction android:showAsAction}</code></td><td> How this item should display in the Action Bar, if present.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_title android:title}</code></td><td> The title associated with the item.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_titleCondensed android:titleCondensed}</code></td><td> The condensed title associated with the item.</td></tr>
-           <tr><td><code>{@link #SherlockMenuItem_android_visible android:visible}</code></td><td> Whether the item is shown/visible.</td></tr>
+           <tr><td><code>{@link #MenuItem_android_orderInCategory android:orderInCategory}</code></td><td> The order within the category applied to the item.</td></tr>
+           <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td> The title associated with the item.</td></tr>
+           <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td> The condensed title associated with the item.</td></tr>
+           <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td> Whether the item is shown/visible.</td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction com.ashoksm.pinfinder:showAsAction}</code></td><td> How this item should display in the Action Bar, if present.</td></tr>
            </table>
-           @see #SherlockMenuItem_android_actionLayout
-           @see #SherlockMenuItem_android_actionProviderClass
-           @see #SherlockMenuItem_android_actionViewClass
-           @see #SherlockMenuItem_android_alphabeticShortcut
-           @see #SherlockMenuItem_android_checkable
-           @see #SherlockMenuItem_android_checked
-           @see #SherlockMenuItem_android_enabled
-           @see #SherlockMenuItem_android_icon
-           @see #SherlockMenuItem_android_id
-           @see #SherlockMenuItem_android_menuCategory
-           @see #SherlockMenuItem_android_numericShortcut
-           @see #SherlockMenuItem_android_onClick
-           @see #SherlockMenuItem_android_orderInCategory
-           @see #SherlockMenuItem_android_showAsAction
-           @see #SherlockMenuItem_android_title
-           @see #SherlockMenuItem_android_titleCondensed
-           @see #SherlockMenuItem_android_visible
+           @see #MenuItem_actionLayout
+           @see #MenuItem_actionProviderClass
+           @see #MenuItem_actionViewClass
+           @see #MenuItem_android_alphabeticShortcut
+           @see #MenuItem_android_checkable
+           @see #MenuItem_android_checked
+           @see #MenuItem_android_enabled
+           @see #MenuItem_android_icon
+           @see #MenuItem_android_id
+           @see #MenuItem_android_menuCategory
+           @see #MenuItem_android_numericShortcut
+           @see #MenuItem_android_onClick
+           @see #MenuItem_android_orderInCategory
+           @see #MenuItem_android_title
+           @see #MenuItem_android_titleCondensed
+           @see #MenuItem_android_visible
+           @see #MenuItem_showAsAction
          */
-        public static final int[] SherlockMenuItem = {
+        public static final int[] MenuItem = {
             0x01010002, 0x0101000e, 0x010100d0, 0x01010106,
             0x01010194, 0x010101de, 0x010101df, 0x010101e1,
             0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5,
-            0x0101026f, 0x010102d9, 0x010102fb, 0x010102fc,
-            0x01010389
+            0x0101026f, 0x7f01004d, 0x7f01004e, 0x7f01004f,
+            0x7f010050
         };
         /**
           <p>
@@ -1881,11 +4222,14 @@ containing a value of this type.
            An optional layout to be used as an action view.
              See {@link android.view.MenuItem#setActionView(android.view.View)}
              for more info. 
-          <p>This corresponds to the global attribute
-          resource symbol {@link android.R.attr#actionLayout}.
-          @attr name android:actionLayout
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.ashoksm.pinfinder:actionLayout
         */
-        public static final int SherlockMenuItem_android_actionLayout = 14;
+        public static final int MenuItem_actionLayout = 14;
         /**
           <p>
           @attr description
@@ -1893,22 +4237,36 @@ containing a value of this type.
              and perform operations such as default action for that menu item.
              See {@link android.view.MenuItem#setActionProvider(android.view.ActionProvider)}
              for more info. 
-          <p>This corresponds to the global attribute
-          resource symbol {@link android.R.attr#actionProviderClass}.
-          @attr name android:actionProviderClass
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.ashoksm.pinfinder:actionProviderClass
         */
-        public static final int SherlockMenuItem_android_actionProviderClass = 16;
+        public static final int MenuItem_actionProviderClass = 16;
         /**
           <p>
           @attr description
            The name of an optional View class to instantiate and use as an
              action view. See {@link android.view.MenuItem#setActionView(android.view.View)}
              for more info. 
-          <p>This corresponds to the global attribute
-          resource symbol {@link android.R.attr#actionViewClass}.
-          @attr name android:actionViewClass
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.ashoksm.pinfinder:actionViewClass
         */
-        public static final int SherlockMenuItem_android_actionViewClass = 15;
+        public static final int MenuItem_actionViewClass = 15;
         /**
           <p>
           @attr description
@@ -1918,7 +4276,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#alphabeticShortcut}.
           @attr name android:alphabeticShortcut
         */
-        public static final int SherlockMenuItem_android_alphabeticShortcut = 9;
+        public static final int MenuItem_android_alphabeticShortcut = 9;
         /**
           <p>
           @attr description
@@ -1927,7 +4285,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#checkable}.
           @attr name android:checkable
         */
-        public static final int SherlockMenuItem_android_checkable = 11;
+        public static final int MenuItem_android_checkable = 11;
         /**
           <p>
           @attr description
@@ -1937,7 +4295,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#checked}.
           @attr name android:checked
         */
-        public static final int SherlockMenuItem_android_checked = 3;
+        public static final int MenuItem_android_checked = 3;
         /**
           <p>
           @attr description
@@ -1946,7 +4304,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#enabled}.
           @attr name android:enabled
         */
-        public static final int SherlockMenuItem_android_enabled = 1;
+        public static final int MenuItem_android_enabled = 1;
         /**
           <p>
           @attr description
@@ -1956,7 +4314,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#icon}.
           @attr name android:icon
         */
-        public static final int SherlockMenuItem_android_icon = 0;
+        public static final int MenuItem_android_icon = 0;
         /**
           <p>
           @attr description
@@ -1965,7 +4323,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#id}.
           @attr name android:id
         */
-        public static final int SherlockMenuItem_android_id = 2;
+        public static final int MenuItem_android_id = 2;
         /**
           <p>
           @attr description
@@ -1975,7 +4333,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#menuCategory}.
           @attr name android:menuCategory
         */
-        public static final int SherlockMenuItem_android_menuCategory = 5;
+        public static final int MenuItem_android_menuCategory = 5;
         /**
           <p>
           @attr description
@@ -1985,7 +4343,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#numericShortcut}.
           @attr name android:numericShortcut
         */
-        public static final int SherlockMenuItem_android_numericShortcut = 10;
+        public static final int MenuItem_android_numericShortcut = 10;
         /**
           <p>
           @attr description
@@ -1995,7 +4353,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#onClick}.
           @attr name android:onClick
         */
-        public static final int SherlockMenuItem_android_onClick = 12;
+        public static final int MenuItem_android_onClick = 12;
         /**
           <p>
           @attr description
@@ -2005,16 +4363,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#orderInCategory}.
           @attr name android:orderInCategory
         */
-        public static final int SherlockMenuItem_android_orderInCategory = 6;
-        /**
-          <p>
-          @attr description
-           How this item should display in the Action Bar, if present. 
-          <p>This corresponds to the global attribute
-          resource symbol {@link android.R.attr#showAsAction}.
-          @attr name android:showAsAction
-        */
-        public static final int SherlockMenuItem_android_showAsAction = 13;
+        public static final int MenuItem_android_orderInCategory = 6;
         /**
           <p>
           @attr description
@@ -2023,7 +4372,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#title}.
           @attr name android:title
         */
-        public static final int SherlockMenuItem_android_title = 7;
+        public static final int MenuItem_android_title = 7;
         /**
           <p>
           @attr description
@@ -2033,7 +4382,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#titleCondensed}.
           @attr name android:titleCondensed
         */
-        public static final int SherlockMenuItem_android_titleCondensed = 8;
+        public static final int MenuItem_android_titleCondensed = 8;
         /**
           <p>
           @attr description
@@ -2042,164 +4391,158 @@ containing a value of this type.
           resource symbol {@link android.R.attr#visible}.
           @attr name android:visible
         */
-        public static final int SherlockMenuItem_android_visible = 4;
-        /** Attributes that can be used with a SherlockMenuView.
+        public static final int MenuItem_android_visible = 4;
+        /**
+          <p>
+          @attr description
+           How this item should display in the Action Bar, if present. 
+
+
+          <p>Must be one or more (separated by '|') of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>never</code></td><td>0</td><td> Never show this item in an action bar, show it in the overflow menu instead.
+                 Mutually exclusive with "ifRoom" and "always". </td></tr>
+<tr><td><code>ifRoom</code></td><td>1</td><td> Show this item in an action bar if there is room for it as determined
+                 by the system. Favor this option over "always" where possible.
+                 Mutually exclusive with "never" and "always". </td></tr>
+<tr><td><code>always</code></td><td>2</td><td> Always show this item in an actionbar, even if it would override
+                 the system's limits of how much stuff to put there. This may make
+                 your action bar look bad on some screens. In most cases you should
+                 use "ifRoom" instead. Mutually exclusive with "ifRoom" and "never". </td></tr>
+<tr><td><code>withText</code></td><td>4</td><td> When this item is shown as an action in the action bar, show a text
+                 label with it even if it has an icon representation. </td></tr>
+<tr><td><code>collapseActionView</code></td><td>8</td><td> This item's action view collapses to a normal menu
+                 item. When expanded, the action view takes over a
+                 larger segment of its container. </td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.ashoksm.pinfinder:showAsAction
+        */
+        public static final int MenuItem_showAsAction = 13;
+        /** Attributes that can be used with a MenuView.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SherlockMenuView_headerBackground com.ashoksm.pinfinder:headerBackground}</code></td><td> Default background for the menu header.</td></tr>
-           <tr><td><code>{@link #SherlockMenuView_horizontalDivider com.ashoksm.pinfinder:horizontalDivider}</code></td><td> Default horizontal divider between rows of menu items.</td></tr>
-           <tr><td><code>{@link #SherlockMenuView_itemBackground com.ashoksm.pinfinder:itemBackground}</code></td><td> Default background for each menu item.</td></tr>
-           <tr><td><code>{@link #SherlockMenuView_itemIconDisabledAlpha com.ashoksm.pinfinder:itemIconDisabledAlpha}</code></td><td> Default disabled icon alpha for each menu item that shows an icon.</td></tr>
-           <tr><td><code>{@link #SherlockMenuView_itemTextAppearance com.ashoksm.pinfinder:itemTextAppearance}</code></td><td> Default appearance of menu item text.</td></tr>
-           <tr><td><code>{@link #SherlockMenuView_preserveIconSpacing com.ashoksm.pinfinder:preserveIconSpacing}</code></td><td> Whether space should be reserved in layout when an icon is missing.</td></tr>
-           <tr><td><code>{@link #SherlockMenuView_verticalDivider com.ashoksm.pinfinder:verticalDivider}</code></td><td> Default vertical divider between menu items.</td></tr>
-           <tr><td><code>{@link #SherlockMenuView_windowAnimationStyle com.ashoksm.pinfinder:windowAnimationStyle}</code></td><td> Default animations for the menu.</td></tr>
+           <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td> Default background for the menu header.</td></tr>
+           <tr><td><code>{@link #MenuView_android_horizontalDivider android:horizontalDivider}</code></td><td> Default horizontal divider between rows of menu items.</td></tr>
+           <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td> Default background for each menu item.</td></tr>
+           <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td> Default disabled icon alpha for each menu item that shows an icon.</td></tr>
+           <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td> Default appearance of menu item text.</td></tr>
+           <tr><td><code>{@link #MenuView_android_preserveIconSpacing android:preserveIconSpacing}</code></td><td> Whether space should be reserved in layout when an icon is missing.</td></tr>
+           <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td> Default vertical divider between menu items.</td></tr>
+           <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td> Default animations for the menu.</td></tr>
            </table>
-           @see #SherlockMenuView_headerBackground
-           @see #SherlockMenuView_horizontalDivider
-           @see #SherlockMenuView_itemBackground
-           @see #SherlockMenuView_itemIconDisabledAlpha
-           @see #SherlockMenuView_itemTextAppearance
-           @see #SherlockMenuView_preserveIconSpacing
-           @see #SherlockMenuView_verticalDivider
-           @see #SherlockMenuView_windowAnimationStyle
+           @see #MenuView_android_headerBackground
+           @see #MenuView_android_horizontalDivider
+           @see #MenuView_android_itemBackground
+           @see #MenuView_android_itemIconDisabledAlpha
+           @see #MenuView_android_itemTextAppearance
+           @see #MenuView_android_preserveIconSpacing
+           @see #MenuView_android_verticalDivider
+           @see #MenuView_android_windowAnimationStyle
          */
-        public static final int[] SherlockMenuView = {
-            0x7f010056, 0x7f010057, 0x7f010058, 0x7f010059,
-            0x7f01005a, 0x7f01005b, 0x7f01005c, 0x7f01005d
+        public static final int[] MenuView = {
+            0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e,
+            0x0101012f, 0x01010130, 0x01010131, 0x01010435
         };
         /**
           <p>
           @attr description
            Default background for the menu header. 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:headerBackground
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#headerBackground}.
+          @attr name android:headerBackground
         */
-        public static final int SherlockMenuView_headerBackground = 3;
+        public static final int MenuView_android_headerBackground = 4;
         /**
           <p>
           @attr description
            Default horizontal divider between rows of menu items. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:horizontalDivider
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#horizontalDivider}.
+          @attr name android:horizontalDivider
         */
-        public static final int SherlockMenuView_horizontalDivider = 1;
+        public static final int MenuView_android_horizontalDivider = 2;
         /**
           <p>
           @attr description
            Default background for each menu item. 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:itemBackground
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#itemBackground}.
+          @attr name android:itemBackground
         */
-        public static final int SherlockMenuView_itemBackground = 4;
+        public static final int MenuView_android_itemBackground = 5;
         /**
           <p>
           @attr description
            Default disabled icon alpha for each menu item that shows an icon. 
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:itemIconDisabledAlpha
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#itemIconDisabledAlpha}.
+          @attr name android:itemIconDisabledAlpha
         */
-        public static final int SherlockMenuView_itemIconDisabledAlpha = 6;
+        public static final int MenuView_android_itemIconDisabledAlpha = 6;
         /**
           <p>
           @attr description
            Default appearance of menu item text. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:itemTextAppearance
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#itemTextAppearance}.
+          @attr name android:itemTextAppearance
         */
-        public static final int SherlockMenuView_itemTextAppearance = 0;
+        public static final int MenuView_android_itemTextAppearance = 1;
         /**
           <p>
           @attr description
            Whether space should be reserved in layout when an icon is missing. 
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
           <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:preserveIconSpacing
+          @attr name android:preserveIconSpacing
         */
-        public static final int SherlockMenuView_preserveIconSpacing = 7;
+        public static final int MenuView_android_preserveIconSpacing = 7;
         /**
           <p>
           @attr description
            Default vertical divider between menu items. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:verticalDivider
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#verticalDivider}.
+          @attr name android:verticalDivider
         */
-        public static final int SherlockMenuView_verticalDivider = 2;
+        public static final int MenuView_android_verticalDivider = 3;
         /**
           <p>
           @attr description
            Default animations for the menu. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:windowAnimationStyle
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#windowAnimationStyle}.
+          @attr name android:windowAnimationStyle
         */
-        public static final int SherlockMenuView_windowAnimationStyle = 5;
-        /** Attributes that can be used with a SherlockSearchView.
+        public static final int MenuView_android_windowAnimationStyle = 0;
+        /** Attributes that can be used with a SearchView.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SherlockSearchView_android_imeOptions android:imeOptions}</code></td><td> The IME options to set on the query text field.</td></tr>
-           <tr><td><code>{@link #SherlockSearchView_android_inputType android:inputType}</code></td><td> The input type to set on the query text field.</td></tr>
-           <tr><td><code>{@link #SherlockSearchView_android_maxWidth android:maxWidth}</code></td><td> An optional maximum width of the SearchView.</td></tr>
-           <tr><td><code>{@link #SherlockSearchView_iconifiedByDefault com.ashoksm.pinfinder:iconifiedByDefault}</code></td><td> The default state of the SearchView.</td></tr>
-           <tr><td><code>{@link #SherlockSearchView_queryHint com.ashoksm.pinfinder:queryHint}</code></td><td> An optional query hint string to be displayed in the empty query field.</td></tr>
+           <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td> The IME options to set on the query text field.</td></tr>
+           <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td> The input type to set on the query text field.</td></tr>
+           <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td> An optional maximum width of the SearchView.</td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault com.ashoksm.pinfinder:iconifiedByDefault}</code></td><td> The default state of the SearchView.</td></tr>
+           <tr><td><code>{@link #SearchView_queryHint com.ashoksm.pinfinder:queryHint}</code></td><td> An optional query hint string to be displayed in the empty query field.</td></tr>
            </table>
-           @see #SherlockSearchView_android_imeOptions
-           @see #SherlockSearchView_android_inputType
-           @see #SherlockSearchView_android_maxWidth
-           @see #SherlockSearchView_iconifiedByDefault
-           @see #SherlockSearchView_queryHint
+           @see #SearchView_android_imeOptions
+           @see #SearchView_android_inputType
+           @see #SearchView_android_maxWidth
+           @see #SearchView_iconifiedByDefault
+           @see #SearchView_queryHint
          */
-        public static final int[] SherlockSearchView = {
-            0x0101011f, 0x01010220, 0x01010264, 0x7f010060,
-            0x7f010061
+        public static final int[] SearchView = {
+            0x0101011f, 0x01010220, 0x01010264, 0x7f01005a,
+            0x7f01005b
         };
         /**
           <p>
@@ -2209,7 +4552,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           resource symbol {@link android.R.attr#imeOptions}.
           @attr name android:imeOptions
         */
-        public static final int SherlockSearchView_android_imeOptions = 2;
+        public static final int SearchView_android_imeOptions = 2;
         /**
           <p>
           @attr description
@@ -2218,7 +4561,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           resource symbol {@link android.R.attr#inputType}.
           @attr name android:inputType
         */
-        public static final int SherlockSearchView_android_inputType = 1;
+        public static final int SearchView_android_inputType = 1;
         /**
           <p>
           @attr description
@@ -2227,7 +4570,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           resource symbol {@link android.R.attr#maxWidth}.
           @attr name android:maxWidth
         */
-        public static final int SherlockSearchView_android_maxWidth = 0;
+        public static final int SearchView_android_maxWidth = 0;
         /**
           <p>
           @attr description
@@ -2244,7 +4587,7 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:iconifiedByDefault
         */
-        public static final int SherlockSearchView_iconifiedByDefault = 3;
+        public static final int SearchView_iconifiedByDefault = 3;
         /**
           <p>
           @attr description
@@ -2260,37 +4603,43 @@ containing a value of this type.
           <p>This is a private symbol.
           @attr name com.ashoksm.pinfinder:queryHint
         */
-        public static final int SherlockSearchView_queryHint = 4;
-        /** Attributes that can be used with a SherlockSpinner.
+        public static final int SearchView_queryHint = 4;
+        /** Attributes that can be used with a Spinner.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SherlockSpinner_android_dropDownHorizontalOffset android:dropDownHorizontalOffset}</code></td><td> Horizontal offset from the spinner widget for positioning the dropdown
+           <tr><td><code>{@link #Spinner_android_dropDownHorizontalOffset android:dropDownHorizontalOffset}</code></td><td> Horizontal offset from the spinner widget for positioning the dropdown
              in spinnerMode="dropdown".</td></tr>
-           <tr><td><code>{@link #SherlockSpinner_android_dropDownSelector android:dropDownSelector}</code></td><td> List selector to use for spinnerMode="dropdown" display.</td></tr>
-           <tr><td><code>{@link #SherlockSpinner_android_dropDownVerticalOffset android:dropDownVerticalOffset}</code></td><td> Vertical offset from the spinner widget for positioning the dropdown in
+           <tr><td><code>{@link #Spinner_android_dropDownSelector android:dropDownSelector}</code></td><td> List selector to use for spinnerMode="dropdown" display.</td></tr>
+           <tr><td><code>{@link #Spinner_android_dropDownVerticalOffset android:dropDownVerticalOffset}</code></td><td> Vertical offset from the spinner widget for positioning the dropdown in
              spinnerMode="dropdown".</td></tr>
-           <tr><td><code>{@link #SherlockSpinner_android_dropDownWidth android:dropDownWidth}</code></td><td> Width of the dropdown in spinnerMode="dropdown".</td></tr>
-           <tr><td><code>{@link #SherlockSpinner_android_gravity android:gravity}</code></td><td> Gravity setting for positioning the currently selected item.</td></tr>
-           <tr><td><code>{@link #SherlockSpinner_android_popupBackground android:popupBackground}</code></td><td> Background drawable to use for the dropdown in spinnerMode="dropdown".</td></tr>
-           <tr><td><code>{@link #SherlockSpinner_android_popupPromptView android:popupPromptView}</code></td><td> Reference to a layout to use for displaying a prompt in the dropdown for
+           <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td> Width of the dropdown in spinnerMode="dropdown".</td></tr>
+           <tr><td><code>{@link #Spinner_android_gravity android:gravity}</code></td><td> Gravity setting for positioning the currently selected item.</td></tr>
+           <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td> Background drawable to use for the dropdown in spinnerMode="dropdown".</td></tr>
+           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled com.ashoksm.pinfinder:disableChildrenWhenDisabled}</code></td><td> Whether this spinner should mark child views as enabled/disabled when
+             the spinner itself is enabled/disabled.</td></tr>
+           <tr><td><code>{@link #Spinner_popupPromptView com.ashoksm.pinfinder:popupPromptView}</code></td><td> Reference to a layout to use for displaying a prompt in the dropdown for
              spinnerMode="dropdown".</td></tr>
-           <tr><td><code>{@link #SherlockSpinner_android_prompt android:prompt}</code></td><td> The prompt to display when the spinner's dialog is shown.</td></tr>
+           <tr><td><code>{@link #Spinner_prompt com.ashoksm.pinfinder:prompt}</code></td><td> The prompt to display when the spinner's dialog is shown.</td></tr>
+           <tr><td><code>{@link #Spinner_spinnerMode com.ashoksm.pinfinder:spinnerMode}</code></td><td> Display mode for spinner options.</td></tr>
            </table>
-           @see #SherlockSpinner_android_dropDownHorizontalOffset
-           @see #SherlockSpinner_android_dropDownSelector
-           @see #SherlockSpinner_android_dropDownVerticalOffset
-           @see #SherlockSpinner_android_dropDownWidth
-           @see #SherlockSpinner_android_gravity
-           @see #SherlockSpinner_android_popupBackground
-           @see #SherlockSpinner_android_popupPromptView
-           @see #SherlockSpinner_android_prompt
+           @see #Spinner_android_dropDownHorizontalOffset
+           @see #Spinner_android_dropDownSelector
+           @see #Spinner_android_dropDownVerticalOffset
+           @see #Spinner_android_dropDownWidth
+           @see #Spinner_android_gravity
+           @see #Spinner_android_popupBackground
+           @see #Spinner_disableChildrenWhenDisabled
+           @see #Spinner_popupPromptView
+           @see #Spinner_prompt
+           @see #Spinner_spinnerMode
          */
-        public static final int[] SherlockSpinner = {
-            0x010100af, 0x01010175, 0x01010176, 0x0101017b,
-            0x01010262, 0x010102ac, 0x010102ad, 0x0101043a
+        public static final int[] Spinner = {
+            0x010100af, 0x01010175, 0x01010176, 0x01010262,
+            0x010102ac, 0x010102ad, 0x7f010051, 0x7f010052,
+            0x7f010053, 0x7f010054
         };
         /**
           <p>
@@ -2301,7 +4650,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#dropDownHorizontalOffset}.
           @attr name android:dropDownHorizontalOffset
         */
-        public static final int SherlockSpinner_android_dropDownHorizontalOffset = 5;
+        public static final int Spinner_android_dropDownHorizontalOffset = 4;
         /**
           <p>
           @attr description
@@ -2310,7 +4659,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#dropDownSelector}.
           @attr name android:dropDownSelector
         */
-        public static final int SherlockSpinner_android_dropDownSelector = 1;
+        public static final int Spinner_android_dropDownSelector = 1;
         /**
           <p>
           @attr description
@@ -2320,7 +4669,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#dropDownVerticalOffset}.
           @attr name android:dropDownVerticalOffset
         */
-        public static final int SherlockSpinner_android_dropDownVerticalOffset = 6;
+        public static final int Spinner_android_dropDownVerticalOffset = 5;
         /**
           <p>
           @attr description
@@ -2329,7 +4678,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#dropDownWidth}.
           @attr name android:dropDownWidth
         */
-        public static final int SherlockSpinner_android_dropDownWidth = 4;
+        public static final int Spinner_android_dropDownWidth = 3;
         /**
           <p>
           @attr description
@@ -2338,7 +4687,7 @@ containing a value of this type.
           resource symbol {@link android.R.attr#gravity}.
           @attr name android:gravity
         */
-        public static final int SherlockSpinner_android_gravity = 0;
+        public static final int Spinner_android_gravity = 0;
         /**
           <p>
           @attr description
@@ -2347,1068 +4696,244 @@ containing a value of this type.
           resource symbol {@link android.R.attr#popupBackground}.
           @attr name android:popupBackground
         */
-        public static final int SherlockSpinner_android_popupBackground = 2;
+        public static final int Spinner_android_popupBackground = 2;
+        /**
+          <p>
+          @attr description
+           Whether this spinner should mark child views as enabled/disabled when
+             the spinner itself is enabled/disabled. 
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.ashoksm.pinfinder:disableChildrenWhenDisabled
+        */
+        public static final int Spinner_disableChildrenWhenDisabled = 9;
         /**
           <p>
           @attr description
            Reference to a layout to use for displaying a prompt in the dropdown for
              spinnerMode="dropdown". This layout must contain a TextView with the id
-             @android:id/text1 to be populated with the prompt text. 
+             {@code @android:id/text1} to be populated with the prompt text. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name android:popupPromptView
+          @attr name com.ashoksm.pinfinder:popupPromptView
         */
-        public static final int SherlockSpinner_android_popupPromptView = 7;
+        public static final int Spinner_popupPromptView = 8;
         /**
           <p>
           @attr description
            The prompt to display when the spinner's dialog is shown. 
-          <p>This corresponds to the global attribute
-          resource symbol {@link android.R.attr#prompt}.
-          @attr name android:prompt
-        */
-        public static final int SherlockSpinner_android_prompt = 3;
-        /** Attributes that can be used with a SherlockTheme.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SherlockTheme_actionBarDivider com.ashoksm.pinfinder:actionBarDivider}</code></td><td> Custom divider drawable to use for elements in the action bar.</td></tr>
-           <tr><td><code>{@link #SherlockTheme_actionBarItemBackground com.ashoksm.pinfinder:actionBarItemBackground}</code></td><td> Custom item state list drawable background for action bar items.</td></tr>
-           <tr><td><code>{@link #SherlockTheme_actionBarSize com.ashoksm.pinfinder:actionBarSize}</code></td><td> Size of the Action Bar, including the contextual
-             bar used to present Action Modes.</td></tr>
-           <tr><td><code>{@link #SherlockTheme_actionBarSplitStyle com.ashoksm.pinfinder:actionBarSplitStyle}</code></td><td> Reference to a style for the split Action Bar.</td></tr>
-           <tr><td><code>{@link #SherlockTheme_actionBarStyle com.ashoksm.pinfinder:actionBarStyle}</code></td><td> Reference to a style for the Action Bar </td></tr>
-           <tr><td><code>{@link #SherlockTheme_actionBarTabBarStyle com.ashoksm.pinfinder:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockTheme_actionBarTabStyle com.ashoksm.pinfinder:actionBarTabStyle}</code></td><td> Default style for tabs within an action bar </td></tr>
-           <tr><td><code>{@link #SherlockTheme_actionBarTabTextStyle com.ashoksm.pinfinder:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockTheme_actionBarWidgetTheme com.ashoksm.pinfinder:actionBarWidgetTheme}</code></td><td> Reference to a theme that should be used to inflate widgets
-             and layouts destined for the action bar.</td></tr>
-           <tr><td><code>{@link #SherlockTheme_actionButtonStyle com.ashoksm.pinfinder:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockTheme_actionDropDownStyle com.ashoksm.pinfinder:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockTheme_actionMenuTextAppearance com.ashoksm.pinfinder:actionMenuTextAppearance}</code></td><td> TextAppearance style that will be applied to text that
-             appears within action menu items.</td></tr>
-           <tr><td><code>{@link #SherlockTheme_actionMenuTextColor com.ashoksm.pinfinder:actionMenuTextColor}</code></td><td> Color for text that appears within action menu items.</td></tr>
-           <tr><td><code>{@link #SherlockTheme_actionModeBackground com.ashoksm.pinfinder:actionModeBackground}</code></td><td> Background drawable to use for action mode UI </td></tr>
-           <tr><td><code>{@link #SherlockTheme_actionModeCloseButtonStyle com.ashoksm.pinfinder:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockTheme_actionModeCloseDrawable com.ashoksm.pinfinder:actionModeCloseDrawable}</code></td><td> Drawable to use for the close action mode button </td></tr>
-           <tr><td><code>{@link #SherlockTheme_actionModePopupWindowStyle com.ashoksm.pinfinder:actionModePopupWindowStyle}</code></td><td> PopupWindow style to use for action modes when showing as a window overlay.</td></tr>
-           <tr><td><code>{@link #SherlockTheme_actionModeShareDrawable com.ashoksm.pinfinder:actionModeShareDrawable}</code></td><td> Drawable to use for the Share action button in WebView selection action modes </td></tr>
-           <tr><td><code>{@link #SherlockTheme_actionModeSplitBackground com.ashoksm.pinfinder:actionModeSplitBackground}</code></td><td> Background drawable to use for action mode UI in the lower split bar </td></tr>
-           <tr><td><code>{@link #SherlockTheme_actionModeStyle com.ashoksm.pinfinder:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockTheme_actionOverflowButtonStyle com.ashoksm.pinfinder:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockTheme_actionSpinnerItemStyle com.ashoksm.pinfinder:actionSpinnerItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockTheme_activatedBackgroundIndicator com.ashoksm.pinfinder:activatedBackgroundIndicator}</code></td><td> Drawable used as a background for activated items.</td></tr>
-           <tr><td><code>{@link #SherlockTheme_activityChooserViewStyle com.ashoksm.pinfinder:activityChooserViewStyle}</code></td><td> Default ActivityChooserView style.</td></tr>
-           <tr><td><code>{@link #SherlockTheme_buttonStyleSmall com.ashoksm.pinfinder:buttonStyleSmall}</code></td><td> Small Button style.</td></tr>
-           <tr><td><code>{@link #SherlockTheme_dividerVertical com.ashoksm.pinfinder:dividerVertical}</code></td><td> Drawable to use for generic vertical dividers.</td></tr>
-           <tr><td><code>{@link #SherlockTheme_dropDownHintAppearance com.ashoksm.pinfinder:dropDownHintAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockTheme_dropDownListViewStyle com.ashoksm.pinfinder:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockTheme_dropdownListPreferredItemHeight com.ashoksm.pinfinder:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockTheme_homeAsUpIndicator com.ashoksm.pinfinder:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockTheme_listPopupWindowStyle com.ashoksm.pinfinder:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockTheme_listPreferredItemHeightSmall com.ashoksm.pinfinder:listPreferredItemHeightSmall}</code></td><td> A smaller, sleeker list item height.</td></tr>
-           <tr><td><code>{@link #SherlockTheme_listPreferredItemPaddingLeft com.ashoksm.pinfinder:listPreferredItemPaddingLeft}</code></td><td> The preferred padding along the left edge of list items.</td></tr>
-           <tr><td><code>{@link #SherlockTheme_listPreferredItemPaddingRight com.ashoksm.pinfinder:listPreferredItemPaddingRight}</code></td><td> The preferred padding along the right edge of list items.</td></tr>
-           <tr><td><code>{@link #SherlockTheme_popupMenuStyle com.ashoksm.pinfinder:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockTheme_searchAutoCompleteTextView com.ashoksm.pinfinder:searchAutoCompleteTextView}</code></td><td> SearchView AutoCompleteTextView style </td></tr>
-           <tr><td><code>{@link #SherlockTheme_searchDropdownBackground com.ashoksm.pinfinder:searchDropdownBackground}</code></td><td> SearchView dropdown background </td></tr>
-           <tr><td><code>{@link #SherlockTheme_searchResultListItemHeight com.ashoksm.pinfinder:searchResultListItemHeight}</code></td><td> The list item height for search results.</td></tr>
-           <tr><td><code>{@link #SherlockTheme_searchViewCloseIcon com.ashoksm.pinfinder:searchViewCloseIcon}</code></td><td> SearchView close button icon </td></tr>
-           <tr><td><code>{@link #SherlockTheme_searchViewEditQuery com.ashoksm.pinfinder:searchViewEditQuery}</code></td><td> SearchView query refinement icon </td></tr>
-           <tr><td><code>{@link #SherlockTheme_searchViewEditQueryBackground com.ashoksm.pinfinder:searchViewEditQueryBackground}</code></td><td> SearchView query refinement icon background </td></tr>
-           <tr><td><code>{@link #SherlockTheme_searchViewGoIcon com.ashoksm.pinfinder:searchViewGoIcon}</code></td><td> SearchView Go button icon </td></tr>
-           <tr><td><code>{@link #SherlockTheme_searchViewSearchIcon com.ashoksm.pinfinder:searchViewSearchIcon}</code></td><td> SearchView Search icon </td></tr>
-           <tr><td><code>{@link #SherlockTheme_searchViewTextField com.ashoksm.pinfinder:searchViewTextField}</code></td><td> SearchView text field background for the left section </td></tr>
-           <tr><td><code>{@link #SherlockTheme_searchViewTextFieldRight com.ashoksm.pinfinder:searchViewTextFieldRight}</code></td><td> SearchView text field background for the right section </td></tr>
-           <tr><td><code>{@link #SherlockTheme_searchViewVoiceIcon com.ashoksm.pinfinder:searchViewVoiceIcon}</code></td><td> SearchView Voice button icon </td></tr>
-           <tr><td><code>{@link #SherlockTheme_selectableItemBackground com.ashoksm.pinfinder:selectableItemBackground}</code></td><td> Background drawable for standalone items that need focus/pressed states.</td></tr>
-           <tr><td><code>{@link #SherlockTheme_spinnerDropDownItemStyle com.ashoksm.pinfinder:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockTheme_spinnerItemStyle com.ashoksm.pinfinder:spinnerItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockTheme_textAppearanceLargePopupMenu com.ashoksm.pinfinder:textAppearanceLargePopupMenu}</code></td><td> Text color, typeface, size, and style for the text inside of a popup menu.</td></tr>
-           <tr><td><code>{@link #SherlockTheme_textAppearanceListItemSmall com.ashoksm.pinfinder:textAppearanceListItemSmall}</code></td><td> The preferred TextAppearance for the primary text of small list items.</td></tr>
-           <tr><td><code>{@link #SherlockTheme_textAppearanceSearchResultSubtitle com.ashoksm.pinfinder:textAppearanceSearchResultSubtitle}</code></td><td> Text color, typeface, size, and style for system search result subtitle.</td></tr>
-           <tr><td><code>{@link #SherlockTheme_textAppearanceSearchResultTitle com.ashoksm.pinfinder:textAppearanceSearchResultTitle}</code></td><td> Text color, typeface, size, and style for system search result title.</td></tr>
-           <tr><td><code>{@link #SherlockTheme_textAppearanceSmall com.ashoksm.pinfinder:textAppearanceSmall}</code></td><td> Text color, typeface, size, and style for "small" text.</td></tr>
-           <tr><td><code>{@link #SherlockTheme_textAppearanceSmallPopupMenu com.ashoksm.pinfinder:textAppearanceSmallPopupMenu}</code></td><td> Text color, typeface, size, and style for small text inside of a popup menu.</td></tr>
-           <tr><td><code>{@link #SherlockTheme_textColorPrimary com.ashoksm.pinfinder:textColorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockTheme_textColorPrimaryDisableOnly com.ashoksm.pinfinder:textColorPrimaryDisableOnly}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockTheme_textColorPrimaryInverse com.ashoksm.pinfinder:textColorPrimaryInverse}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockTheme_textColorSearchUrl com.ashoksm.pinfinder:textColorSearchUrl}</code></td><td> Text color for urls in search suggestions, used by things like global search and the browser.</td></tr>
-           <tr><td><code>{@link #SherlockTheme_windowActionBar com.ashoksm.pinfinder:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockTheme_windowActionBarOverlay com.ashoksm.pinfinder:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockTheme_windowActionModeOverlay com.ashoksm.pinfinder:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockTheme_windowContentOverlay com.ashoksm.pinfinder:windowContentOverlay}</code></td><td> This Drawable is overlaid over the foreground of the Window's content area, usually
-             to place a shadow below the title.</td></tr>
-           <tr><td><code>{@link #SherlockTheme_windowMinWidthMajor com.ashoksm.pinfinder:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockTheme_windowMinWidthMinor com.ashoksm.pinfinder:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockTheme_windowNoTitle com.ashoksm.pinfinder:windowNoTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #SherlockTheme_windowSplitActionBar com.ashoksm.pinfinder:windowSplitActionBar}</code></td><td></td></tr>
-           </table>
-           @see #SherlockTheme_actionBarDivider
-           @see #SherlockTheme_actionBarItemBackground
-           @see #SherlockTheme_actionBarSize
-           @see #SherlockTheme_actionBarSplitStyle
-           @see #SherlockTheme_actionBarStyle
-           @see #SherlockTheme_actionBarTabBarStyle
-           @see #SherlockTheme_actionBarTabStyle
-           @see #SherlockTheme_actionBarTabTextStyle
-           @see #SherlockTheme_actionBarWidgetTheme
-           @see #SherlockTheme_actionButtonStyle
-           @see #SherlockTheme_actionDropDownStyle
-           @see #SherlockTheme_actionMenuTextAppearance
-           @see #SherlockTheme_actionMenuTextColor
-           @see #SherlockTheme_actionModeBackground
-           @see #SherlockTheme_actionModeCloseButtonStyle
-           @see #SherlockTheme_actionModeCloseDrawable
-           @see #SherlockTheme_actionModePopupWindowStyle
-           @see #SherlockTheme_actionModeShareDrawable
-           @see #SherlockTheme_actionModeSplitBackground
-           @see #SherlockTheme_actionModeStyle
-           @see #SherlockTheme_actionOverflowButtonStyle
-           @see #SherlockTheme_actionSpinnerItemStyle
-           @see #SherlockTheme_activatedBackgroundIndicator
-           @see #SherlockTheme_activityChooserViewStyle
-           @see #SherlockTheme_buttonStyleSmall
-           @see #SherlockTheme_dividerVertical
-           @see #SherlockTheme_dropDownHintAppearance
-           @see #SherlockTheme_dropDownListViewStyle
-           @see #SherlockTheme_dropdownListPreferredItemHeight
-           @see #SherlockTheme_homeAsUpIndicator
-           @see #SherlockTheme_listPopupWindowStyle
-           @see #SherlockTheme_listPreferredItemHeightSmall
-           @see #SherlockTheme_listPreferredItemPaddingLeft
-           @see #SherlockTheme_listPreferredItemPaddingRight
-           @see #SherlockTheme_popupMenuStyle
-           @see #SherlockTheme_searchAutoCompleteTextView
-           @see #SherlockTheme_searchDropdownBackground
-           @see #SherlockTheme_searchResultListItemHeight
-           @see #SherlockTheme_searchViewCloseIcon
-           @see #SherlockTheme_searchViewEditQuery
-           @see #SherlockTheme_searchViewEditQueryBackground
-           @see #SherlockTheme_searchViewGoIcon
-           @see #SherlockTheme_searchViewSearchIcon
-           @see #SherlockTheme_searchViewTextField
-           @see #SherlockTheme_searchViewTextFieldRight
-           @see #SherlockTheme_searchViewVoiceIcon
-           @see #SherlockTheme_selectableItemBackground
-           @see #SherlockTheme_spinnerDropDownItemStyle
-           @see #SherlockTheme_spinnerItemStyle
-           @see #SherlockTheme_textAppearanceLargePopupMenu
-           @see #SherlockTheme_textAppearanceListItemSmall
-           @see #SherlockTheme_textAppearanceSearchResultSubtitle
-           @see #SherlockTheme_textAppearanceSearchResultTitle
-           @see #SherlockTheme_textAppearanceSmall
-           @see #SherlockTheme_textAppearanceSmallPopupMenu
-           @see #SherlockTheme_textColorPrimary
-           @see #SherlockTheme_textColorPrimaryDisableOnly
-           @see #SherlockTheme_textColorPrimaryInverse
-           @see #SherlockTheme_textColorSearchUrl
-           @see #SherlockTheme_windowActionBar
-           @see #SherlockTheme_windowActionBarOverlay
-           @see #SherlockTheme_windowActionModeOverlay
-           @see #SherlockTheme_windowContentOverlay
-           @see #SherlockTheme_windowMinWidthMajor
-           @see #SherlockTheme_windowMinWidthMinor
-           @see #SherlockTheme_windowNoTitle
-           @see #SherlockTheme_windowSplitActionBar
-         */
-        public static final int[] SherlockTheme = {
-            0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009,
-            0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d,
-            0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011,
-            0x7f010012, 0x7f010013, 0x7f010014, 0x7f010015,
-            0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019,
-            0x7f01001a, 0x7f01001b, 0x7f01001c, 0x7f01001d,
-            0x7f01001e, 0x7f01001f, 0x7f010020, 0x7f010021,
-            0x7f010022, 0x7f010023, 0x7f010024, 0x7f010025,
-            0x7f010026, 0x7f010027, 0x7f010028, 0x7f010029,
-            0x7f01002a, 0x7f01002b, 0x7f01002c, 0x7f01002d,
-            0x7f01002e, 0x7f01002f, 0x7f010030, 0x7f010031,
-            0x7f010032, 0x7f010033, 0x7f010034, 0x7f010035,
-            0x7f010036, 0x7f010037, 0x7f010038, 0x7f010039,
-            0x7f01003a, 0x7f01003b, 0x7f01003c, 0x7f01003d,
-            0x7f01003e, 0x7f01003f, 0x7f010040, 0x7f010041,
-            0x7f010042, 0x7f010043, 0x7f010044, 0x7f010045,
-            0x7f010046, 0x7f010047, 0x7f010048
-        };
-        /**
-          <p>
-          @attr description
-           Custom divider drawable to use for elements in the action bar. 
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:actionBarDivider
+          @attr name com.ashoksm.pinfinder:prompt
         */
-        public static final int SherlockTheme_actionBarDivider = 8;
+        public static final int Spinner_prompt = 6;
         /**
           <p>
           @attr description
-           Custom item state list drawable background for action bar items. 
+           Display mode for spinner options. 
 
 
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:actionBarItemBackground
-        */
-        public static final int SherlockTheme_actionBarItemBackground = 9;
-        /**
-          <p>
-          @attr description
-           Size of the Action Bar, including the contextual
-             bar used to present Action Modes. 
-
-
-          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-<p>May be one of the following constant values.</p>
+          <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
 <colgroup align="left" />
 <colgroup align="left" />
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
+<tr><td><code>dialog</code></td><td>0</td><td> Spinner options will be presented to the user as a dialog window. </td></tr>
+<tr><td><code>dropdown</code></td><td>1</td><td> Spinner options will be presented to the user as an inline dropdown
+                 anchored to the spinner widget itself. </td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:actionBarSize
+          @attr name com.ashoksm.pinfinder:spinnerMode
         */
-        public static final int SherlockTheme_actionBarSize = 7;
-        /**
-          <p>
-          @attr description
-           Reference to a style for the split Action Bar. This style
-             controls the split component that holds the menu/action
-             buttons. actionBarStyle is still used for the primary
-             bar. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:actionBarSplitStyle
-        */
-        public static final int SherlockTheme_actionBarSplitStyle = 5;
-        /**
-          <p>
-          @attr description
-           Reference to a style for the Action Bar 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:actionBarStyle
-        */
-        public static final int SherlockTheme_actionBarStyle = 4;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#actionBarTabBarStyle}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ashoksm.pinfinder:actionBarTabBarStyle
-        */
-        public static final int SherlockTheme_actionBarTabBarStyle = 1;
-        /**
-          <p>
-          @attr description
-           Default style for tabs within an action bar 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:actionBarTabStyle
-        */
-        public static final int SherlockTheme_actionBarTabStyle = 0;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#actionBarTabTextStyle}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ashoksm.pinfinder:actionBarTabTextStyle
-        */
-        public static final int SherlockTheme_actionBarTabTextStyle = 2;
-        /**
-          <p>
-          @attr description
-           Reference to a theme that should be used to inflate widgets
-             and layouts destined for the action bar. Most of the time
-             this will be a reference to the current theme, but when
-             the action bar has a significantly different contrast
-             profile than the rest of the activity the difference
-             can become important. If this is set to @null the current
-             theme will be used.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:actionBarWidgetTheme
-        */
-        public static final int SherlockTheme_actionBarWidgetTheme = 6;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#actionButtonStyle}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ashoksm.pinfinder:actionButtonStyle
-        */
-        public static final int SherlockTheme_actionButtonStyle = 52;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#actionDropDownStyle}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ashoksm.pinfinder:actionDropDownStyle
-        */
-        public static final int SherlockTheme_actionDropDownStyle = 51;
-        /**
-          <p>
-          @attr description
-           TextAppearance style that will be applied to text that
-             appears within action menu items. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:actionMenuTextAppearance
-        */
-        public static final int SherlockTheme_actionMenuTextAppearance = 10;
-        /**
-          <p>
-          @attr description
-           Color for text that appears within action menu items. 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:actionMenuTextColor
-        */
-        public static final int SherlockTheme_actionMenuTextColor = 11;
-        /**
-          <p>
-          @attr description
-           Background drawable to use for action mode UI 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:actionModeBackground
-        */
-        public static final int SherlockTheme_actionModeBackground = 14;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#actionModeCloseButtonStyle}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ashoksm.pinfinder:actionModeCloseButtonStyle
-        */
-        public static final int SherlockTheme_actionModeCloseButtonStyle = 13;
-        /**
-          <p>
-          @attr description
-           Drawable to use for the close action mode button 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:actionModeCloseDrawable
-        */
-        public static final int SherlockTheme_actionModeCloseDrawable = 16;
-        /**
-          <p>
-          @attr description
-           PopupWindow style to use for action modes when showing as a window overlay. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:actionModePopupWindowStyle
-        */
-        public static final int SherlockTheme_actionModePopupWindowStyle = 18;
-        /**
-          <p>
-          @attr description
-           Drawable to use for the Share action button in WebView selection action modes 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:actionModeShareDrawable
-        */
-        public static final int SherlockTheme_actionModeShareDrawable = 17;
-        /**
-          <p>
-          @attr description
-           Background drawable to use for action mode UI in the lower split bar 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:actionModeSplitBackground
-        */
-        public static final int SherlockTheme_actionModeSplitBackground = 15;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#actionModeStyle}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ashoksm.pinfinder:actionModeStyle
-        */
-        public static final int SherlockTheme_actionModeStyle = 12;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#actionOverflowButtonStyle}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ashoksm.pinfinder:actionOverflowButtonStyle
-        */
-        public static final int SherlockTheme_actionOverflowButtonStyle = 3;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#actionSpinnerItemStyle}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ashoksm.pinfinder:actionSpinnerItemStyle
-        */
-        public static final int SherlockTheme_actionSpinnerItemStyle = 57;
-        /**
-          <p>
-          @attr description
-           Drawable used as a background for activated items. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:activatedBackgroundIndicator
-        */
-        public static final int SherlockTheme_activatedBackgroundIndicator = 65;
-        /**
-          <p>
-          @attr description
-           Default ActivityChooserView style. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:activityChooserViewStyle
-        */
-        public static final int SherlockTheme_activityChooserViewStyle = 64;
-        /**
-          <p>
-          @attr description
-           Small Button style. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:buttonStyleSmall
-        */
-        public static final int SherlockTheme_buttonStyleSmall = 19;
-        /**
-          <p>
-          @attr description
-           Drawable to use for generic vertical dividers. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:dividerVertical
-        */
-        public static final int SherlockTheme_dividerVertical = 50;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#dropDownHintAppearance}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ashoksm.pinfinder:dropDownHintAppearance
-        */
-        public static final int SherlockTheme_dropDownHintAppearance = 66;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#dropDownListViewStyle}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ashoksm.pinfinder:dropDownListViewStyle
-        */
-        public static final int SherlockTheme_dropDownListViewStyle = 54;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#dropdownListPreferredItemHeight}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.ashoksm.pinfinder:dropdownListPreferredItemHeight
-        */
-        public static final int SherlockTheme_dropdownListPreferredItemHeight = 56;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#homeAsUpIndicator}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ashoksm.pinfinder:homeAsUpIndicator
-        */
-        public static final int SherlockTheme_homeAsUpIndicator = 53;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#listPopupWindowStyle}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ashoksm.pinfinder:listPopupWindowStyle
-        */
-        public static final int SherlockTheme_listPopupWindowStyle = 63;
-        /**
-          <p>
-          @attr description
-           A smaller, sleeker list item height. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:listPreferredItemHeightSmall
-        */
-        public static final int SherlockTheme_listPreferredItemHeightSmall = 44;
-        /**
-          <p>
-          @attr description
-           The preferred padding along the left edge of list items. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:listPreferredItemPaddingLeft
-        */
-        public static final int SherlockTheme_listPreferredItemPaddingLeft = 45;
-        /**
-          <p>
-          @attr description
-           The preferred padding along the right edge of list items. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:listPreferredItemPaddingRight
-        */
-        public static final int SherlockTheme_listPreferredItemPaddingRight = 46;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#popupMenuStyle}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ashoksm.pinfinder:popupMenuStyle
-        */
-        public static final int SherlockTheme_popupMenuStyle = 55;
-        /**
-          <p>
-          @attr description
-           SearchView AutoCompleteTextView style 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:searchAutoCompleteTextView
-        */
-        public static final int SherlockTheme_searchAutoCompleteTextView = 30;
-        /**
-          <p>
-          @attr description
-           SearchView dropdown background 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:searchDropdownBackground
-        */
-        public static final int SherlockTheme_searchDropdownBackground = 31;
-        /**
-          <p>
-          @attr description
-           The list item height for search results. @hide 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:searchResultListItemHeight
-        */
-        public static final int SherlockTheme_searchResultListItemHeight = 41;
-        /**
-          <p>
-          @attr description
-           SearchView close button icon 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:searchViewCloseIcon
-        */
-        public static final int SherlockTheme_searchViewCloseIcon = 32;
-        /**
-          <p>
-          @attr description
-           SearchView query refinement icon 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:searchViewEditQuery
-        */
-        public static final int SherlockTheme_searchViewEditQuery = 36;
-        /**
-          <p>
-          @attr description
-           SearchView query refinement icon background 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:searchViewEditQueryBackground
-        */
-        public static final int SherlockTheme_searchViewEditQueryBackground = 37;
-        /**
-          <p>
-          @attr description
-           SearchView Go button icon 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:searchViewGoIcon
-        */
-        public static final int SherlockTheme_searchViewGoIcon = 33;
-        /**
-          <p>
-          @attr description
-           SearchView Search icon 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:searchViewSearchIcon
-        */
-        public static final int SherlockTheme_searchViewSearchIcon = 34;
-        /**
-          <p>
-          @attr description
-           SearchView text field background for the left section 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:searchViewTextField
-        */
-        public static final int SherlockTheme_searchViewTextField = 38;
-        /**
-          <p>
-          @attr description
-           SearchView text field background for the right section 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:searchViewTextFieldRight
-        */
-        public static final int SherlockTheme_searchViewTextFieldRight = 39;
-        /**
-          <p>
-          @attr description
-           SearchView Voice button icon 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:searchViewVoiceIcon
-        */
-        public static final int SherlockTheme_searchViewVoiceIcon = 35;
-        /**
-          <p>
-          @attr description
-           Background drawable for standalone items that need focus/pressed states. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:selectableItemBackground
-        */
-        public static final int SherlockTheme_selectableItemBackground = 20;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#spinnerDropDownItemStyle}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ashoksm.pinfinder:spinnerDropDownItemStyle
-        */
-        public static final int SherlockTheme_spinnerDropDownItemStyle = 29;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#spinnerItemStyle}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.ashoksm.pinfinder:spinnerItemStyle
-        */
-        public static final int SherlockTheme_spinnerItemStyle = 28;
-        /**
-          <p>
-          @attr description
-           Text color, typeface, size, and style for the text inside of a popup menu. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:textAppearanceLargePopupMenu
-        */
-        public static final int SherlockTheme_textAppearanceLargePopupMenu = 22;
-        /**
-          <p>
-          @attr description
-           The preferred TextAppearance for the primary text of small list items. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:textAppearanceListItemSmall
-        */
-        public static final int SherlockTheme_textAppearanceListItemSmall = 47;
-        /**
-          <p>
-          @attr description
-           Text color, typeface, size, and style for system search result subtitle. Defaults to primary inverse text color. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:textAppearanceSearchResultSubtitle
-        */
-        public static final int SherlockTheme_textAppearanceSearchResultSubtitle = 43;
-        /**
-          <p>
-          @attr description
-           Text color, typeface, size, and style for system search result title. Defaults to primary inverse text color. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:textAppearanceSearchResultTitle
-        */
-        public static final int SherlockTheme_textAppearanceSearchResultTitle = 42;
-        /**
-          <p>
-          @attr description
-           Text color, typeface, size, and style for "small" text. Defaults to secondary text color. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:textAppearanceSmall
-        */
-        public static final int SherlockTheme_textAppearanceSmall = 24;
-        /**
-          <p>
-          @attr description
-           Text color, typeface, size, and style for small text inside of a popup menu. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:textAppearanceSmallPopupMenu
-        */
-        public static final int SherlockTheme_textAppearanceSmallPopupMenu = 23;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#textColorPrimary}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.ashoksm.pinfinder:textColorPrimary
-        */
-        public static final int SherlockTheme_textColorPrimary = 25;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#textColorPrimaryDisableOnly}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.ashoksm.pinfinder:textColorPrimaryDisableOnly
-        */
-        public static final int SherlockTheme_textColorPrimaryDisableOnly = 26;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#textColorPrimaryInverse}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.ashoksm.pinfinder:textColorPrimaryInverse
-        */
-        public static final int SherlockTheme_textColorPrimaryInverse = 27;
-        /**
-          <p>
-          @attr description
-           Text color for urls in search suggestions, used by things like global search and the browser. @hide 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:textColorSearchUrl
-        */
-        public static final int SherlockTheme_textColorSearchUrl = 40;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#windowActionBar}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.ashoksm.pinfinder:windowActionBar
-        */
-        public static final int SherlockTheme_windowActionBar = 59;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#windowActionBarOverlay}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.ashoksm.pinfinder:windowActionBarOverlay
-        */
-        public static final int SherlockTheme_windowActionBarOverlay = 60;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#windowActionModeOverlay}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.ashoksm.pinfinder:windowActionModeOverlay
-        */
-        public static final int SherlockTheme_windowActionModeOverlay = 61;
-        /**
-          <p>
-          @attr description
-           This Drawable is overlaid over the foreground of the Window's content area, usually
-             to place a shadow below the title.  
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.ashoksm.pinfinder:windowContentOverlay
-        */
-        public static final int SherlockTheme_windowContentOverlay = 21;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#windowMinWidthMajor}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.ashoksm.pinfinder:windowMinWidthMajor
-        */
-        public static final int SherlockTheme_windowMinWidthMajor = 48;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#windowMinWidthMinor}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.ashoksm.pinfinder:windowMinWidthMinor
-        */
-        public static final int SherlockTheme_windowMinWidthMinor = 49;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#windowNoTitle}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.ashoksm.pinfinder:windowNoTitle
-        */
-        public static final int SherlockTheme_windowNoTitle = 58;
-        /**
-          <p>This symbol is the offset where the {@link com.ashoksm.pinfinder.R.attr#windowSplitActionBar}
-          attribute's value can be found in the {@link #SherlockTheme} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.ashoksm.pinfinder:windowSplitActionBar
-        */
-        public static final int SherlockTheme_windowSplitActionBar = 62;
-        /** Attributes that can be used with a SherlockView.
+        public static final int Spinner_spinnerMode = 7;
+        /**  These are the standard attributes that make up a complete theme. 
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SherlockView_android_focusable android:focusable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionDropDownStyle com.ashoksm.pinfinder:actionDropDownStyle}</code></td><td> Default ActionBar dropdown style.</td></tr>
+           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.ashoksm.pinfinder:dropdownListPreferredItemHeight}</code></td><td> The preferred item height for dropdown lists.</td></tr>
+           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.ashoksm.pinfinder:listChoiceBackgroundIndicator}</code></td><td> Drawable used as a background for selected list items.</td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListTheme com.ashoksm.pinfinder:panelMenuListTheme}</code></td><td> Default Panel Menu style.</td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListWidth com.ashoksm.pinfinder:panelMenuListWidth}</code></td><td> Default Panel Menu width.</td></tr>
+           <tr><td><code>{@link #Theme_popupMenuStyle com.ashoksm.pinfinder:popupMenuStyle}</code></td><td> Default PopupMenu style.</td></tr>
            </table>
-           @see #SherlockView_android_focusable
+           @see #Theme_actionDropDownStyle
+           @see #Theme_dropdownListPreferredItemHeight
+           @see #Theme_listChoiceBackgroundIndicator
+           @see #Theme_panelMenuListTheme
+           @see #Theme_panelMenuListWidth
+           @see #Theme_popupMenuStyle
          */
-        public static final int[] SherlockView = {
-            0x010100da
+        public static final int[] Theme = {
+            0x7f010047, 0x7f010048, 0x7f010049, 0x7f01004a,
+            0x7f01004b, 0x7f01004c
         };
         /**
-          <p>This symbol is the offset where the {@link android.R.attr#focusable}
-          attribute's value can be found in the {@link #SherlockView} array.
+          <p>
+          @attr description
+           Default ActionBar dropdown style. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.ashoksm.pinfinder:actionDropDownStyle
+        */
+        public static final int Theme_actionDropDownStyle = 0;
+        /**
+          <p>
+          @attr description
+           The preferred item height for dropdown lists. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.ashoksm.pinfinder:dropdownListPreferredItemHeight
+        */
+        public static final int Theme_dropdownListPreferredItemHeight = 1;
+        /**
+          <p>
+          @attr description
+           Drawable used as a background for selected list items. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.ashoksm.pinfinder:listChoiceBackgroundIndicator
+        */
+        public static final int Theme_listChoiceBackgroundIndicator = 5;
+        /**
+          <p>
+          @attr description
+           Default Panel Menu style. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.ashoksm.pinfinder:panelMenuListTheme
+        */
+        public static final int Theme_panelMenuListTheme = 4;
+        /**
+          <p>
+          @attr description
+           Default Panel Menu width. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.ashoksm.pinfinder:panelMenuListWidth
+        */
+        public static final int Theme_panelMenuListWidth = 3;
+        /**
+          <p>
+          @attr description
+           Default PopupMenu style. 
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          <p>This is a private symbol.
+          @attr name com.ashoksm.pinfinder:popupMenuStyle
+        */
+        public static final int Theme_popupMenuStyle = 2;
+        /** Attributes that can be used with a View.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td> Boolean that controls whether a view can take focus.</td></tr>
+           <tr><td><code>{@link #View_paddingEnd com.ashoksm.pinfinder:paddingEnd}</code></td><td> Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.</td></tr>
+           <tr><td><code>{@link #View_paddingStart com.ashoksm.pinfinder:paddingStart}</code></td><td> Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.</td></tr>
+           </table>
+           @see #View_android_focusable
+           @see #View_paddingEnd
+           @see #View_paddingStart
+         */
+        public static final int[] View = {
+            0x010100da, 0x7f010038, 0x7f010039
+        };
+        /**
+          <p>
+          @attr description
+           Boolean that controls whether a view can take focus.  By default the user can not
+             move focus to a view; by setting this attribute to true the view is
+             allowed to take focus.  This value does not impact the behavior of
+             directly calling {@link android.view.View#requestFocus}, which will
+             always request focus regardless of this view.  It only impacts where
+             focus navigation will try to move focus. 
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#focusable}.
           @attr name android:focusable
         */
-        public static final int SherlockView_android_focusable = 0;
+        public static final int View_android_focusable = 0;
+        /**
+          <p>
+          @attr description
+           Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.ashoksm.pinfinder:paddingEnd
+        */
+        public static final int View_paddingEnd = 2;
+        /**
+          <p>
+          @attr description
+           Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.ashoksm.pinfinder:paddingStart
+        */
+        public static final int View_paddingStart = 1;
     };
 }

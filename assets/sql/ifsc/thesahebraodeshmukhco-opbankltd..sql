@@ -1,0 +1,18 @@
+INSERT INTO bank_branch_t VALUES('Andheri East', 'Mumbai', '103,Trade Corner, Sakinaka Junction Andheri (E). Mumbai-400072.', '28520369,28524500, 28528714', '400349001', 'SAHE0000001', 14590);
+INSERT INTO bank_branch_t VALUES('Charni Road', 'Mumbai', '25,Sonarika Apt, Nanubhai Desai Road, Mumbai-400004.', '23883843;23823984', '400349002', 'SAHE0000002', 14590);
+INSERT INTO bank_branch_t VALUES('Andheri (E)', 'Mumbai', '102,Trade Corner,Sakinaka Junction Andheri (E), Mumbai-400072.', '28514241;28508782', '400349003', 'SAHE0000003', 14590);
+INSERT INTO bank_branch_t VALUES('Jogeshwari East', 'Mumbai', 'Pioneer Ind Estet, Subhas Lane, Caves Road, Jogeshwari (E), Mumbai-400060.', '28215130;28240895', '400349004', 'SAHE0000004', 14590);
+INSERT INTO bank_branch_t VALUES('Malad East', 'Mumbai', 'Monika, Arcade, Subhas Lane, Daptari Road,Malad (E), Mumbai-400097.', '28838825;28815265', '400349005', 'SAHE0000005', 14590);
+INSERT INTO bank_branch_t VALUES('Kalamboli', 'Mumbai', 'Shivam Apartment, Plot No-12, Sector-2 (E),Kalamboli, Dist - Raigad, Pin-410218.', '27423400;27422847', '400349006', 'SAHE0000006', 14591);
+INSERT INTO bank_branch_t VALUES('Santacruz East', 'Mumbai', 'Amerald Apt, Vakola Market Road, Santacruz (East), Mumbai-400055.', '26673824;26672256', '400349007', 'SAHE0000007', 14590);
+INSERT INTO bank_branch_t VALUES('Vashi', 'Mumbai', 'C/1, Phase -2, A.P.M C.Market No-1, Sector -19, Vashi, Navi Mumbai-400703.', '27802766;27802765', '400349008', 'SAHE0000008', 14590);
+INSERT INTO bank_branch_t VALUES('Ghatkopar (W)', 'Mumbai', 'Rekha Apartment, Plot No-B/1, Amrut Nager, Ghatkoper (W), Mumbai-400086.', '25001615;25001559', '400349009', 'SAHE0000009', 14590);
+INSERT INTO bank_branch_t VALUES('Andheri East', 'Mumbai', 'Shop No-2, Ambika Tower, Rajmata Jijabai Road, Pump House, Andheri (E), Mumbai-400093.', '28390299;28389701', '400349010', 'SAHE0000010', 14590);
+INSERT INTO bank_branch_t VALUES('Lower Parel', 'Mumbai', 'Manika Society, Sun Mill Compund Lane, S.J.Marg, Lower Parel, Mumbai-400013.', '24932379;24985148', '400349011', 'SAHE0000011', 14590);
+INSERT INTO bank_branch_t VALUES('Kamothe', 'Mumbai', 'Shop No.5&6, Vrundavan Park, Plot No-9, Sector-34, Kamothe, Navi Mumbai-410209.', '27430283;27430264', '400349012', 'SAHE0000012', 14590);
+INSERT INTO bank_branch_t VALUES('Thane West', 'Mumbai', 'Shop No-4,5,6, Manas Residency, Near Three Petrol Pump, Thane (W), Pin-400602.', '25341025;25341026', '400349013', 'SAHE0000013', 14590);
+INSERT INTO bank_branch_t VALUES('Mira Road East', 'Mumbai', 'Shop No-7,8, Bldg No-A/6, Shanti Nagar, Sector-1, Mira Road (E), Thane-401107.', '28555470;28555370', '400349014', 'SAHE0000014', 14590);
+INSERT INTO bank_branch_t VALUES('Bandra East', 'Mumbai', '3/5, The Backward Sarvodaya Co-Op.Hsg.Soc.Ltd. Amrutnagar, Kherwadi, Bandra (E), Mumbai-400051.', '26472089;26473381', '400349015', 'SAHE0000015', 14590);
+INSERT INTO bank_branch_t VALUES('Neru West', 'Mumbai', 'Shop No.1 To 4, Shri Dattavaibhav Apartment, Plot No-B/11, Sector-20, Nerul (W), Navi Mumbai-400706.', '', '400349016', 'SAHE0000016', 14590);
+INSERT INTO bank_branch_t VALUES('Satara', 'Satara', 'Chavan Complex, Near Collector Office, Sadar Bazar, Dist.-Satara, Pin-415001.', '02162-229033;02162-229028', '415349001', 'SAHE0000051', 14592);
+INSERT INTO bank_branch_t VALUES('Satara', 'Satara', '37, Bhavani Peth, Near Rajwada Bus Stop, Dist.-Satara, Pin-415002.', '02162-282292;02162-282294', '415349002', 'SAHE0000053', 14592);

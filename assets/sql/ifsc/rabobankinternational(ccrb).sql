@@ -1,0 +1,1 @@
+INSERT INTO bank_branch_t VALUES('Rabobank International Mumbai Branch', 'Mumbai', '2/F, Forbes Building, Charanjit Rai Marg, Fort, Mumbai 400001', '22015566 / 22015591', '400240270', 'RABO0000001', 11511);

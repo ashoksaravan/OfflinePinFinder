@@ -1,0 +1,1 @@
+INSERT INTO bank_branch_t VALUES('Mumbai', 'Mumbai', 'Level 1, East Wing, Wokhardt Tower, C 2 , G Block, Bandra Kurla Complex, Bandra East, Mumbai 400 051', 'Yatin Khule, 9867180419, 02233155931, yatin.Khule@india.Icbc.Com.Cn', '400229256', 'ICBK0000001', 8861);

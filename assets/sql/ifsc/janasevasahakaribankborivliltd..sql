@@ -1,0 +1,12 @@
+INSERT INTO bank_branch_t VALUES('Borivli (West)', 'Mumbai', 'Giriraj Apartment, Ground Floor, Factory Lane, Opp.M.K.High School, Borivali(West),Mumbai - 400092.', '28338001', '400804002', 'JASB0000002', 9146);
+INSERT INTO bank_branch_t VALUES('Dahisar (East)', 'Mumbai', 'Mamata,Ground & 1st Floor,Wamanrao Sawant Road,Dahisar (East),Mumbai-400068.', '28283549', '400804003', 'JASB0000003', 9146);
+INSERT INTO bank_branch_t VALUES('Kandivli (West)', 'Mumbai', 'Laxmi Villa,1st Floor,M.G.Road,Opp.Kala Hanuman Mandir,Kandivli (West),Mumbai-400067.', '28619971', '400804004', 'JASB0000004', 9146);
+INSERT INTO bank_branch_t VALUES('Borivli (East)', 'Mumbai', 'Shivhara,1st Floor,Kasturba Road No.2,Borivli (East),Mumbai-400066.', '28705312', '400804005', 'JASB0000005', 9146);
+INSERT INTO bank_branch_t VALUES('Charkop', 'Mumbai', '101/102,Shvneri,Charkop,Kandivli(West), Mumbai-400067', '28685082', '400804006', 'JASB0000006', 9146);
+INSERT INTO bank_branch_t VALUES('Malad (West)', 'Mumbai', 'Shop No.1,Sita Niwas, Plot No. 94, Liberty Garden Road No. 1, Malad (West) Mumbai 400 064', '28825060', '400804007', 'JASB0000007', 9146);
+INSERT INTO bank_branch_t VALUES('Kandivli (East)', 'Mumbai', 'Rohan Arcade,Ground Floor,Dattani Road,Thakur Complex,Kandivli(East),Mumbai-400101', '28843838', '400804008', 'JASB0000008', 9146);
+INSERT INTO bank_branch_t VALUES('Bhayander (East)', 'Mumbai', 'Janki Avenue,Phatak Road,Opp.Reliance Cosomer Care Center, Bhayander(East), Thane-401105', '28171618', '400804009', 'JASB0000009', 9146);
+INSERT INTO bank_branch_t VALUES('Goregaon (East)', 'Mumbai', 'Acme Amay Co.Op.Hsg.Soc Ltd, Vishveshwar Road, Goregaon(East),Mumabi-400063', '29276242', '400804010', 'JASB0000010', 9146);
+INSERT INTO bank_branch_t VALUES('Goregaon (West)', 'Mumbai', 'Shop No.3 On Ground Floor , Ekveera Prasad Co-Operative Housing Society Ltd., Plot No.75, 104 ,M.G.Road , Goregaon (West) , Mumbai- 400 062.', '28712103', '400804011', 'JASB0000011', 9146);
+INSERT INTO bank_branch_t VALUES('Andheri (West)', 'Mumbai', 'Jeevan Sangam Co-Op. Housing Society Ltd?, Final Plot No.36, Jaiprakash Road, Andheri (West), Mumbai 400 058.', '26206985', '400804012', 'JASB0000012', 9146);
+INSERT INTO bank_branch_t VALUES('Treasury', 'Mumbai', 'Giriraj Apartment, Factory Lane, Opp.M.K.High School, Borivali(West),Mumbai - 400092.', '28333522', '400804001', 'JASB0999999', 9146);

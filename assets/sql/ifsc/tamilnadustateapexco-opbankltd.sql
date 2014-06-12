@@ -1,0 +1,1 @@
+INSERT INTO bank_branch_t VALUES('Headoffice', 'Chennai', 'No:233,N.S.C Bose Road, Chennai - 600 001', '044-25340973, 044-25340301 Extn 177, Fax 044-25354422, 044-25340508', '600091001', 'TNSC0000001', 14461);

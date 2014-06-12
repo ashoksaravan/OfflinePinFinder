@@ -1,0 +1,10 @@
+INSERT INTO post_office_t VALUES('Agathi', 682553, 1, 19, 3, '', 'Kochi', 5629, '04894-242230');
+INSERT INTO post_office_t VALUES('Amini', 682552, 1, 19, 3, '', 'Kochi', 286, '04897-272230');
+INSERT INTO post_office_t VALUES('Androth', 682551, 1, 19, 3, '', 'Kochi', 5629, '04893-232320');
+INSERT INTO post_office_t VALUES('Bithra', 682555, 1, 19, 6, 'Kavaratti', 'Kochi', 286, '');
+INSERT INTO post_office_t VALUES('Chetlat', 682554, 1, 19, 3, '', 'Kochi', 5629, '04899-276230');
+INSERT INTO post_office_t VALUES('Kadamat', 682556, 1, 19, 3, '', 'Kochi', 5629, '04897-274224');
+INSERT INTO post_office_t VALUES('Kalpeni', 682557, 1, 19, 3, '', 'Kochi', 5629, '04895-252230');
+INSERT INTO post_office_t VALUES('Kavaratti', 682555, 1, 19, 3, '', 'Kochi', 5629, '04896-262220');
+INSERT INTO post_office_t VALUES('Kiltan', 682558, 1, 19, 3, '', 'Kochi', 5629, '04898-272260');
+INSERT INTO post_office_t VALUES('Minicoy', 682559, 1, 19, 3, '', 'Kochi', 5629, '04892-222220');

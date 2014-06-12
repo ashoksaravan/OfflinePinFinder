@@ -1,0 +1,8 @@
+INSERT INTO bank_branch_t VALUES('Kolkata', 'Kolkata', 'Stephen House,4a,B.B.D.Bagh East, Kolkata-700 001', 'Rtgs.Query@asia.Bnpparibas.Com Contact No:-022-67832073/74/36/37', '700034002', 'BNPA0009008', 3055);
+INSERT INTO bank_branch_t VALUES('Mumbai', 'Mumbai', 'French Bank Bldg.,62, Homji Street, Mumbai - 400 001', 'Rtgs.Query@asia.Bnpparibas.Com Contact No:-022-67832073/74/36/37', '400034002', 'BNPA0009009', 3051);
+INSERT INTO bank_branch_t VALUES('Delhi', 'Delhi', 'Dlf Centre,2nd Floor,Parliament Street,New Delhi - 110001', 'Rtgs.Query@asia.Bnpparibas.Com Contact No:-022-67832073/74/36/37', '110034002', 'BNPA0009065', 3053);
+INSERT INTO bank_branch_t VALUES('Bangalore', 'Bangalore', '3rd Fl,Landmark,21/15,M.G.Road,Banglore-560 001', 'Rtgs.Query@asia.Bnpparibas.Com Contact No:-022-67832073/74/36/37', '560034002', 'BNPA0009067', 3050);
+INSERT INTO bank_branch_t VALUES('Pune', 'Pune', '5 & 6,Godrej Millenium Park,9,Koregaon Road,Pune-411 001', 'Rtgs.Query@asia.Bnpparibas.Com Contact No:-022-67832073/74/36/37', '411034002', 'BNPA0009069', 3052);
+INSERT INTO bank_branch_t VALUES('Ahmedabad', 'Ahmedabad', '203,Sakar Ii,Ellis Bridge,Off Ashram Rd,Ahmedabad-380 006', 'Rtgs.Query@asia.Bnpparibas.Com Contact No:-022-67832073/74/36/37', '380034002', 'BNPA0009077', 3049);
+INSERT INTO bank_branch_t VALUES('Chennai', 'Chennai', 'Prince Towers,3rd Fl,25/26,College Road,Chennai-600 006', 'Rtgs.Query@asia.Bnpparibas.Com Contact No:-022-67832073/74/36/37', '600034002', 'BNPA0009088', 3054);
+INSERT INTO bank_branch_t VALUES('Hyderabad', 'Hyderabad', 'Venkat Plaza 6-3-883/5,Punjagutta,Hyderabad-500 082', 'Rtgs.Query@asia.Bnpparibas.Com Contact No:-022-67832073/74/36/37', '500034002', 'BNPA0009378', 3048);

@@ -1,0 +1,17 @@
+INSERT INTO bank_branch_t VALUES('Kolhapur', 'Kolhapur', '221-B / 1b, E Ward, Tarabai Park,, Kolhapur - 416003', 'Mahendra Mane - 9371024937', '416200002', 'DEUT0273PBC', 5498);
+INSERT INTO bank_branch_t VALUES('Aurangabad', 'Aurangabad', 'A-2, Ground Floor, Aurangabad Business Centre, Dr.Rajendra Prasad Marg, Adalat Road, Aurangabad - 431005', 'Chetan Chaudhary - 9823273936', '431200003', 'DEUT0274PBC', 5497);
+INSERT INTO bank_branch_t VALUES('Noida', 'Noida', 'F4 & F5, Sector 18, Noida - 201301', 'Akshay Bhardwaj - 9350644206', '110200003', 'DEUT0278PBC', 5507);
+INSERT INTO bank_branch_t VALUES('Gurgaon', 'Gurgaon', 'Dlf-Infinity, Tower A, Ground Floor, Sector 25a, Dlf Phase Ii, Dlf City, Gurgaon - 122002', 'Varun Shukla - 9818122009', '110200004', 'DEUT0279PBC', 5495);
+INSERT INTO bank_branch_t VALUES('Vellore', 'Vellore', 'Rj Plaza, No.5, Katpadi Main Road,Village Viruthampet, Vellore - 632 006', 'R Sudarsan - 9488043410', '- NA -', 'DEUT0401PBC', 5505);
+INSERT INTO bank_branch_t VALUES('Salem', 'Salem', 'Plot No.9 & 10, Venkatathri Nilayam, Yercaud, Road, Karan Kurchi Post, Salem - 636 008', 'Sundhararaman Kalyanraman - 9884721183', '636200002', 'DEUT0402PBC', 5504);
+INSERT INTO bank_branch_t VALUES('Moradabad', 'Moradabad', '8th Km. Stone, Delhi Road,, Opp. Naya Moradabad, Mangupura, Moradabad - 244001', 'Samir Somaiya - 9892179614', '- NA -', 'DEUT0403PBC', 5506);
+INSERT INTO bank_branch_t VALUES('Ludhiana', 'Ludhiana', 'Sco 9-10,Green Park Avenue,, Canal Colony, Pakhowal Road, Ludhiana - 141002', 'Samir Somaiya - 9892179614', '- NA -', 'DEUT0404PBC', 5502);
+INSERT INTO bank_branch_t VALUES('Pune', 'Pune', 'Suprem,?cts No. 1337/2, S.No. 133/1 +2 & 134 / 2, Main Iti Road, Aundh, Pune -411007', 'Vineet.Mishra@db.Com;Roopadarshini.Keer@db.Com;022-67146018/6021;Fax - 022-67063905', '411200002', 'DEUT0537PUN', 5500);
+INSERT INTO bank_branch_t VALUES('Mumbai', 'Mumbai', 'Dr. D.N.Road, Fort, mumbai, India 400001', 'Bonnie Joseph - +91(22)56584098 Sriram Krishnamurthy - +91(22)5506319-5', '400200002', 'DEUT0784BBY', 5499);
+INSERT INTO bank_branch_t VALUES('Khar', 'Mumbai', 'Glacis, Plot No. 391, Linking Road, Khar, Mumbai - 400052.', 'Balu Sumanth - +91(22)67063746 Samir Somaiya - +91(22)67146269', '400200003', 'DEUT0784PBC', 5499);
+INSERT INTO bank_branch_t VALUES('Delhi', 'Delhi', 'Ece House , 28 - K G Marg new Delhi, India', 'Sriram Krishnamurthy - +91(22)5506319-5 Bonnie Joseph - +91(22)56584098', '110200002', 'DEUT0796DEL', 5501);
+INSERT INTO bank_branch_t VALUES('Bangalore', 'Bangalore', 'Raheja Towers, 26-27, M G Road, Bangalore - 560 001', 'Bonnie Joseph - +91(22)56584098 Sriram Krishnamurthy - +91(22)5506319-5', '560200002', 'DEUT0797BGL', 5496);
+INSERT INTO bank_branch_t VALUES('Chennai', 'Chennai', 'Kothari Building, Ground Floor, 114 M.G. Road, Chennai - 600 034.', 'Sriram Krishnamurthy - +91(22)5506319-5 Bonnie Joseph - +91(22)56584098', '600200002', 'DEUT0916CNN', 5503);
+INSERT INTO bank_branch_t VALUES('Kolkatta', 'Kolkata', 'Brooke House, 9, Shakespeare Sarani, Kolkatta - 700 071.', 'Bonnie Joseph - +91(22)56584098 Sriram Krishnamurthy - +91(22)5506319-5', '700200002', 'DEUT0917CAL', 5508);
+INSERT INTO bank_branch_t VALUES('Ahmedabad', 'Ahmedabad', '637, Ground Floor-B, Gulbai Tekra, Off C.G.Road, Ahmedabad - 380006', '', '380200002', 'DEUT0406PBC', 5493);
+INSERT INTO bank_branch_t VALUES('Surat', 'Surat', '124, Rajmal Lakhichand Building, Ghod Dod Road, Surat - 395007', '', '395200002', 'DEUT0405PBC', 5494);

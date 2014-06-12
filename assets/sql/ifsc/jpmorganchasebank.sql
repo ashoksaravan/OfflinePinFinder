@@ -1,0 +1,1 @@
+INSERT INTO bank_branch_t VALUES('Mumbai', 'Mumbai', '9th Floor, Mafatlal Centre, Nariman Point, Mumbai 400 021', 'Vinil Patel tel 6650 7488 email : Vinil.X.Patel@jpmchase.Com', '400500002', 'CHAS0INBX01', 9159);

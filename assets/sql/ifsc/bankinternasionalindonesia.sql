@@ -1,0 +1,1 @@
+INSERT INTO bank_branch_t VALUES('Head Office', 'Mumbai', 'One Indiabulls Centre, Tower 2b, 702, 7th Floor, Elphinstone Road (West), Mumbai 400 013.', 'Sunil Soneji / Vivek Ramachandran-Tel.Nos.: 67303422 / 67303423;Email Id: Rtgs.Ibbk@bankbii.Com', '400229258', 'IBBK0000001', 1473);

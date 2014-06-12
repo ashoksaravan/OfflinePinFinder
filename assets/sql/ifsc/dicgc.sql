@@ -1,0 +1,1 @@
+INSERT INTO bank_branch_t VALUES('Mumbai', 'Mumbai', 'Deposit Insurance And Credit Guarantee Corporation, Reserve Bank Of India, Byculla Office, 2nd Floor, Opp. Mumbai Central Railway Station, Mumbai Central, Mumbai ? 400 008', '', '- NA -', 'DICG0000002', 5651);

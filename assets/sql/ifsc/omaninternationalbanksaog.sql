@@ -1,0 +1,2 @@
+INSERT INTO bank_branch_t VALUES('Mumbai', 'Mumbai', '201, Raheja Centre, Free Press, Journal Marg, Nariman Point, Mumbai 400 021', '66324848', '400210002', 'OIBA0000002', 9997);
+INSERT INTO bank_branch_t VALUES('Mumbai', 'Mumbai', '201, Raheja Centre, Free Press, Journal Marg, Nariman Point, Mumbai 400 021', '66324848', '400210002', 'OIBA0000001', 9996);

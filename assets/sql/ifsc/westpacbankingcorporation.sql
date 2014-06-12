@@ -1,0 +1,1 @@
+INSERT INTO bank_branch_t VALUES('Mumbai', 'Mumbai', 'B-1201, 12th Floor, The Capital, Bandra-Kurla Complex, Bandra East, Mumbai 400051', 'Prasanna Abhyankar(+91-22-66271054/1000) k N Ganapathy (+91-22-66271050) email: Mumbaioperations@westpac.Com.Au, prasannaabhyankar@westpac.Com.Au, knganapathy@westpac.Com.Au', '- NA -', 'WPAC0000001', 16896);

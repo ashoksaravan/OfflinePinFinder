@@ -1,0 +1,3 @@
+INSERT INTO bank_branch_t VALUES('Shinhan Bank Mumbai', 'Mumbai', '402,Jolly Maker Chamber Ii, 4th Floor, 255, Nariman Point, Mumbai - 400 021. India.', 'Mr. Merwyn Goves', '400659002', 'SHBK0000003', 11710);
+INSERT INTO bank_branch_t VALUES('Shinhan Bank New Delhi', 'Mumbai', 'Upper Ground Floor, Mercantile House, 15,Kasturba Gandhi Marg, New Delhi - 110 001', 'Mr. Raj Mohan', '110017254', 'SHBK0000004', 11711);
+INSERT INTO bank_branch_t VALUES('Walajapet Branch', 'Vellore', 'No.8, Thirumalai Mudali Street, Walajapet - 632 513, Vellore District, Tamilnadu.', '', '- NA -', 'SHBK0000005', 11712);
