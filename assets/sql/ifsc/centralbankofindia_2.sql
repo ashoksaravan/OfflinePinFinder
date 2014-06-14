@@ -1124,7 +1124,6 @@ INSERT INTO bank_branch_t VALUES('Retail Asset Branch Vidyavihar', 'Mumbai', 'Ga
 INSERT INTO bank_branch_t VALUES('Haveri', 'Haveri', 'T.C. Koti Heigths, P.B. Road, Vidyanagar, Haveri, Pin - 581110.', '022-22612008', '- NA -', 'CBIN0284602', 4034);
 INSERT INTO bank_branch_t VALUES('Maqsudan', 'Maqsudan', 'Central Bank Of India, Maksudan, Jalandhar-144008, Jalandhar,Punjab', '022-22612008', '- NA -', 'CBIN0284615', 4225);
 INSERT INTO bank_branch_t VALUES('Basti Bawa Khel Jalandhar', 'Jalandhar', 'Central Bank Of India, Basti Bawa Khel, Jalandhar-144021, Jalandhar,Punjab', '022-22612008', '- NA -', 'CBIN0284616', 4225);
-INSERT INTO bank_branch_t VALUES('Barhalganj', 'Barhalganj', 'Central Bank Of India, Po Barhalgaj, Tehsil - Gola, Dist. - Gorakhpur', '022-22612008', '- NA -', 'CBIN0284665', 4353);
 INSERT INTO bank_branch_t VALUES('Palachaurai', 'Chhindwara', 'Main Road, Post Ikelehra Tah Junnaedeo Palachaurai Gudi Miners, Dist - Chhindwara, Madya Pradesh', '022-22612008', '- NA -', 'CBIN0284675', 4076);
 INSERT INTO bank_branch_t VALUES('Sirhind', 'Sirhind', 'Jyoti Saroop Chowk, Near Ing Bank,Fatehgarh Sahib Road, Sirhind', '022-22612008', '- NA -', 'CBIN0284680', 4219);
 INSERT INTO bank_branch_t VALUES('Sunam', 'Sunam', 'Adjoining : Sbi Bank, Near New Courts, Patiala Road, Sunam', '022-22612008', '- NA -', 'CBIN0284681', 4234);
@@ -1152,7 +1151,6 @@ INSERT INTO bank_branch_t VALUES('Jila Sahakari Kendriya bank Mydt., Hoshangabad
 INSERT INTO bank_branch_t VALUES('Indore Premier Co Op. Bank Ltd. Indore', 'Indore', '24, Maharani Road, Indore (M.P.) Pin Code 452007', 'Shri K.T. Sajjan Mo. 9425055897, (O) 0731-2533200', '- NA -', 'CBIN0MPDCAO', 4087);
 INSERT INTO bank_branch_t VALUES('Jila Sahakari Kendriya Bank Mydt. Jablpur', 'Jabalpur', 'Wright Town Jabalpur', 'Shri S.P. Chouksey 9301843157', '- NA -', 'CBIN0MPDCAP', 4088);
 INSERT INTO bank_branch_t VALUES('Jila Sahakari Kendriya Bank Mydt. Jhabua(M.P)', 'Jhabua', '9, College Road, jhabua(M.P.) Pin 457 661', 'Shri P.N. Yadav, (07392)245681', '- NA -', 'CBIN0MPDCAQ', 4089);
-INSERT INTO bank_branch_t VALUES('Jila Sahakari Kendriya Bank Mydt,', 'Khandwa', '13, Rameshewar Road, Khandwa', '0733-22227333', '- NA -', 'CBIN0MPDCAR', 4082);
 INSERT INTO bank_branch_t VALUES('Jila Sahakari Kendriya Bank Mydt. Khargone', 'Khargone', '33, Khandwa Road, In Front Of Bus Stand Khargone, tehsil-Khargone Pin 451001', 'Shri. N.R.Mandloi (M.D.) 9425087019 shri R.K.Aacharya 9425929412', '- NA -', 'CBIN0MPDCAS', 4115);
 INSERT INTO bank_branch_t VALUES('Jila Sahakari Kendriya bank Mydt. Mandla', 'Mandla', 'Civil Line, Mandla', 'G.S.Bisen 9425163593 N.K.Kori 9424340153', '- NA -', 'CBIN0MPDCAT', 4092);
 INSERT INTO bank_branch_t VALUES('Jila Sahakari Kendriya Bank Mydt. Mandsaur (M.P.)', 'Mandsaur', 'Indira Sahakari Complex, Near Shri-Cold, Sanjeet Road, Mandsaur (M.P.)', 'Indira Sahakari Complex, Near Shri-Cold, Sanjeet Road, Mandsaur (M.P.) Phon . 07422-255563,255547 Fax - 07422-255125 E-Mail- Jskbmds@rediffmail.Com', '- NA -', 'CBIN0MPDCAU', 4093);
@@ -1401,12 +1399,6 @@ INSERT INTO bank_branch_t VALUES('Surajpur', 'Surajpur', 'Main Road', '022-22612
 INSERT INTO bank_branch_t VALUES('Sarangarh', 'Sarangarh', 'Near Bus Stand Raipur Road Sarangarh ,Raigarh-', '022-22612008', '- NA -', 'CBIN0284867', 3909);
 INSERT INTO bank_branch_t VALUES('Ramnagar', 'Surajpur', 'Ram Nagar Po Ramnagar 497226', '022-22612008', '- NA -', 'CBIN0284868', 3912);
 INSERT INTO bank_branch_t VALUES('Janti Kalan', 'Sonipat', 'Dahisara Road, Lobhiwali Chaupal, Vpo Janti Kalan, Distt Sonepat - 131028', '2335085', '- NA -', 'CBIN0284368', 3968);
-INSERT INTO bank_branch_t VALUES('Singngat', 'Imphal', 'Ssa Building,Atbypo Singngat,City Imphal,District Churachandpur,State Manipur', '022-22612008', '- NA -', 'CBIN0284383', 4158);
-INSERT INTO bank_branch_t VALUES('Singngat', 'Imphal', 'Cbi, Singngat Branch, Ssa Building, Near Hill Model School, Opp- 39 Assam Rifles Camp, At/Po- Singngat, City- Imphal, District- Churachandpur, State- Manipur', '9435133396', '- NA -', 'CBIN0284383', 4159);
-INSERT INTO bank_branch_t VALUES('Barhalganj', 'Barhalganj', 'Central Bank Of India, Po Barhalgaj, Tehsil - Gola, Dist. - Gorakhpur', '022-22612008', '- NA -', 'CBIN0284665', 4353);
-INSERT INTO bank_branch_t VALUES('Jila Sahakari Kendriya Bank Mydt,', 'Khandwa', '13, Rameshewar Road, Khandwa', '022-22612008', '- NA -', 'CBIN0MPDCAR', 4082);
-INSERT INTO bank_branch_t VALUES('Barhalganj', 'Barhalganj', 'Central Bank Of India, Po Barhalgaj, Tehsil - Gola, Dist. - Gorakhpur', '022-22612008', '- NA -', 'CBIN0284665', 4353);
-INSERT INTO bank_branch_t VALUES('Jila Sahakari Kendriya Bank Mydt,', 'Khandwa', '13, Rameshewar Road, Khandwa', '0733-22227333', '- NA -', 'CBIN0MPDCAR', 4082);
 INSERT INTO bank_branch_t VALUES('Mankapur', 'Mankapur', 'C/O Sri Onkar Mishra, Gyatri Nagar, City-Mankapur, Dist-Gonda, Uttar Pradesh-271302', '022-22612008', '- NA -', 'CBIN0284672', 4352);
 INSERT INTO bank_branch_t VALUES('Urban Estate Phase Ii Jalandhar', 'Jalandhar', 'Urban Estate, Phase - Ii jalandhar City dist-Jalandhar punjab -144001', '022-22612008', '- NA -', 'CBIN0284617', 4225);
 INSERT INTO bank_branch_t VALUES('Sri Aurobindo Medical Science', 'Simrol', 'Village- Bhanwarsala, Tehsil-Sanwer, City-Indore, Madhya Pradesh-453555', '022-22612008', '- NA -', 'CBIN0284707', 4087);

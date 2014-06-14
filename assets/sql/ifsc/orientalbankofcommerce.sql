@@ -1779,7 +1779,6 @@ INSERT INTO bank_branch_t VALUES('Bhatinda Bibi Wala Road', '', 'Scf 8-9, Bharat
 INSERT INTO bank_branch_t VALUES('Saket Nagar Bhopal', '', '229/9 A Saket Nagar, Bhopal', '', '- NA -', 'ORBC0101653', 10212);
 INSERT INTO bank_branch_t VALUES('Sangamner', 'Sangamner', 'Oriental Bank Of  Commerce, Vidya Nagar, Opposite-Sbi, Sangamner, Distt. Ahmadnagar, Maharashtra-422605', '02425 222393/4', '- NA -', 'ORBC0101654', 10261);
 INSERT INTO bank_branch_t VALUES('Lasalgaon', 'Lasalgaon', 'Oriental Bank Of  Commerce, Bldg. No.646, Next To District Post Office, Station Road, Lasalgaon, Tal; Niphad, Distt. Nasik, Maharashtra-422306', '02550 266042/43', '- NA -', 'ORBC0101655', 10248);
-INSERT INTO bank_branch_t VALUES('Lasalgaon', '', 'Bldg. No.646, Next To District Post Office, Station Road, Lasalgaon, Tal; Niphad,', '', '- NA -', 'ORBC0101655', 10248);
 INSERT INTO bank_branch_t VALUES('Narayangaon', 'Narayangaon', 'Oriental Bank Of  Commerce, Survey No.657/B, Bhalgat Pride, Near Register Office, Narayangaon, Tal; Junnar, Distt. Pune-410504', '02132 243022/23', '- NA -', 'ORBC0101656', 10253);
 INSERT INTO bank_branch_t VALUES('Dharamgarh', '', 'Village Dharamgarh,Porsa Road,Post-Porsa', '', '- NA -', 'ORBC0101657', 10222);
 INSERT INTO bank_branch_t VALUES('Dara Kottla', '', 'Dara Kottla ,Behat Road,Village-Rasulpur', '', '- NA -', 'ORBC0101658', 10490);
@@ -2092,8 +2091,6 @@ INSERT INTO bank_branch_t VALUES('Sultanpur', 'Sultanpur', '580/7,Civil Lines,Ne
 INSERT INTO bank_branch_t VALUES('Motihari', 'Motihari', 'Motihari, Khublal Rajkali Complex, Madhuban Chawani Chowk, Motihari, Distt-East Champaran, Bihar-845401', '9473198270', '- NA -', 'ORBC0101962', 10047);
 INSERT INTO bank_branch_t VALUES('Gadpuri', 'Gadpuri', 'Gadpuri, Village & Po - Gadpuri', '9958331069', '- NA -', 'ORBC0101963', 10133);
 INSERT INTO bank_branch_t VALUES('Deogarh', 'Deogarh', 'Plot No 3311/4038/3312 (P), Deogarh Main Road, Deogarh, Pin - 768108', '9439441199', '768022001', 'ORBC0101964', 10281);
-INSERT INTO bank_branch_t VALUES('Lasalgaon', '', 'Oriental Bank Of  Commerce, Bldg. No.646, Next To District Post Office, Station Road, Lasalgaon, Tal; Niphad, Distt. Nasik, Maharashtra-422306', '', '- NA -', 'ORBC0101655', 10248);
-INSERT INTO bank_branch_t VALUES('Lasalgaon', '', 'Bldg. No.646, Next To District Post Office, Station Road, Lasalgaon, Tal; Niphad,', '', '- NA -', 'ORBC0101655', 10248);
 INSERT INTO bank_branch_t VALUES('Bodhgaya', '', 'Nr International Meditation Centre, Behind Maya Sarovar, Bodhgaya, Distt- Gaya, Bihar, Pin - 824231', '0631-2200217', '- NA -', 'ORBC0101965', 10048);
 INSERT INTO bank_branch_t VALUES('Bongaigaon', '', 'Block 165, Ward 12, Chapaguri Road North Bongaigaon (Near Lower Assam Hospital) Bongaigaon - 783380', '03364-222372', '783022002', 'ORBC0101966', 10031);
 INSERT INTO bank_branch_t VALUES('Badha Dist Gurgaon', '', 'Badha ,Vill-Badha,Po-Sikanderpur,Gurgaon,Haryana-122004.', '0124-2164110', '110022242', 'ORBC0101967', 10141);

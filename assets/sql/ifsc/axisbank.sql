@@ -2502,7 +2502,6 @@ INSERT INTO bank_branch_t VALUES('East Punjabi Bagh', 'Delhi', 'Ground Floor, Pl
 INSERT INTO bank_branch_t VALUES('Kottakkal Co Op Urban Bank Ltd', 'Kottakkal', 'Head Office, Kottappady, Kottakkal, Pin . 676503', '0483 - 2742246', '676835102', 'UTIB0SKCU78', 1124);
 INSERT INTO bank_branch_t VALUES('Shri Shiveshwar Nagri Sahakari Bank Ltd', 'Basmath', 'Nagnath Building, Mama Chowk, At Post & Tq. Basmathnagar, Dist. Hingoli Pin - 431512', '2454-220037', '431821000', 'UTIB0SSSN01', 1190);
 INSERT INTO bank_branch_t VALUES('Sundarlal Sawji Urban Co Op Bank Ltd.', 'Jintur', 'Head Office Jintur, Apmc Market Yard,Jintur - 431509', '2457 - 220330', '- NA -', 'UTIB0SSUCB1', 1202);
-INSERT INTO bank_branch_t VALUES('Navagam', 'Navagam', 'Shivnagar Plot 12,13 & 14, Nr. Navsarjan Society, Kamrej Surat Road,Navagam, Kamrej Char Rasta, Kamrej - 394 180', '', '395211007', 'UTIB0001306', 1001);
 INSERT INTO bank_branch_t VALUES('Punia Khanan', 'Patiala', 'Patiala-Devigarh Road, Village Behal, Distt Patiala-147111', '175 - 2205956', '147211012', 'UTIB0002317', 1293);
 INSERT INTO bank_branch_t VALUES('Rurka', 'Ludhiana', 'Ground Floor,Village Rurka,Teh Dehlon,Ludhiana,Punjab,141118', '161 - 2854411', '141211022', 'UTIB0002411', 1284);
 INSERT INTO bank_branch_t VALUES('Deoband', 'Deoband', 'Ground Floor, Khasra No. 5507, G.T. Road, Truck Union Chowk, Deoband, Dist.Saharanpur, Uttar Pradesh, 247554', '01336-223365/66/67', '247211202', 'UTIB0002426', 1427);

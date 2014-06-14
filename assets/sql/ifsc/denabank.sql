@@ -1327,7 +1327,6 @@ INSERT INTO bank_branch_t VALUES('Barasat', 'Barasat', 'N/14, Jessore Road(South
 INSERT INTO bank_branch_t VALUES('Chada', 'Kheralu', 'Chada, Tal Kheralu, Distt. Mehsana , Gujarat', '', '- NA -', 'BKDN0151508', 5212);
 INSERT INTO bank_branch_t VALUES('Vesu', 'Vesu', 'Vesu Branch,12/14, Western Business Park,Vesu Char Rasta, Surat - 395007', '', '- NA -', 'BKDN0231470', 5228);
 INSERT INTO bank_branch_t VALUES('Alidar', 'Kodinar', 'Dena Bank, Alidar, Taluka Kodinar,Dist. Junagadh Pincode - 362720', '', '229018502', 'BKDN0311499', 5207);
-INSERT INTO bank_branch_t VALUES('Banar Road', 'Jodhpur', 'Block No 3, Near Shanti Petrol Pump, Banar Road, Jodhpur 342027', '', '342018003', 'BKDN0711452', 5417);
 INSERT INTO bank_branch_t VALUES('Mahukalan', 'Mahukalan', 'Mahukalan, Tal Gangapur, Distt. Swai Madhopur , Rajasthan Pin-- 322202', '9530094013', '- NA -', 'BKDN0711505', 5420);
 INSERT INTO bank_branch_t VALUES('Mohanpura', 'Ganganagar', 'Mohanpura, Tal shri Ganganagar, Distt. Shri Ganganagar, Rajasthan,Pin-- 335001', '9413881881', '- NA -', 'BKDN0711506', 5414);
 INSERT INTO bank_branch_t VALUES('Bulandshahar', 'Bulandshahr', 'Dena Bank, Maman Chungi Chauraha, Bypass Road, Bulandshahar, U.P.-203001', '', '203018002', 'BKDN0721490', 5449);
@@ -1472,10 +1471,6 @@ INSERT INTO bank_branch_t VALUES('Laxminarayanapuram X Road', 'Yalal', 'd.No. 32
 INSERT INTO bank_branch_t VALUES('Kurnutala', 'Guntur', 'Dena Bank Near To Shree Balaji Cotton Mill, Parchoor Road, Vatti Cherukuru Madal, Kurnutala Disttrict Guntur Pin Code:--522017', '8978848524', '- NA -', 'BKDN0631633', 5136);
 INSERT INTO bank_branch_t VALUES('Deoria', 'Deoria', 'Dena Bank Shukla Complex, C.C. Road, Deoria U.P. Pln 274001', '9721459423', '- NA -', 'BKDN0721623', 5450);
 INSERT INTO bank_branch_t VALUES('Cbb Indore', 'Indore', 'Dena Bank Ground Floor, Bh-19, Hig, Pd. Deendayal Nagar, Sukhliya, Indore.', '2570381', '- NA -', 'BKDN0811636', 5311);
-INSERT INTO bank_branch_t VALUES('Banar Road', 'Banad', 'Dena Bank, Block No 3, Khasra No 22,Banar Road Nandarhi Distt', '9636191451/9414294230  ;Banjod@denabank.Co.In', '342018003', 'BKDN0711452', 5417);
-INSERT INTO bank_branch_t VALUES('Gurgaon Mvl', 'Gurgaon', 'Mvl Park, Chandan Nagar,Rajesh Saigal,Sec 15, Part Iii, Gurgaon,Haryana-122001', '', '- NA -', 'BKDN0731353', 5239);
-INSERT INTO bank_branch_t VALUES('Gurgaon', 'Gurgaon', 'Mvl Park, Chandan Nagar,Rajesh Saigal,Sec 15, Part Iii, Gurgaon,Haryana-122001', '', '- NA -', 'BKDN0731353', 5239);
-INSERT INTO bank_branch_t VALUES('Banar Road', 'Jodhpur', 'Block No 3, Near Shanti Petrol Pump, Banar Road, Jodhpur 342027', '9461673763banjod@denabank.Co.In', '342018003', 'BKDN0711452', 5417);
 INSERT INTO bank_branch_t VALUES('Ganeshpur', 'Modasa', 'Dena Bank Ganeshpur, Shamlaji Road, Ganeshpur. Taluka : Modasa, Dist : Aravalli. Pin: 383315', '9638317172', '- NA -', 'BKDN0131595', 5225);
 INSERT INTO bank_branch_t VALUES('Undri', 'Pune', '1339, Hole Vasti Taj Haveli Dist Pune 411060', '9975956965', '- NA -', 'BKDN0511627', 5356);
 INSERT INTO bank_branch_t VALUES('Yousufguda', 'Hyderabad', 'St Mary?s College Building, Tahir Villa, Yousufguda Check Post, Hyderabad - 500045', '04023540028', '- NA -', 'BKDN0631632', 5137);

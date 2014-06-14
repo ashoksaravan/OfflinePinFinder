@@ -17,7 +17,3 @@ INSERT INTO bank_branch_t VALUES('Kuvempunagar Mysore Branch', 'Mysore', 'Mudra 
 INSERT INTO bank_branch_t VALUES('Hassan Branch', 'Hassan', '#805 & 806, K G Towers B M Road,Hassan -573201', 'Shashikumar G - 7760979173,0817-2235455', '573574302', 'TGMB0000017', 14618);
 INSERT INTO bank_branch_t VALUES('H S R Layout Branch', 'Bengaluru', 'No.671, 7th Sector, 9th Main, Hsr Layout Bengaluru -560102', 'Anand P- 7760979174,080-25722467', '560574007', 'TGMB0000018', 14616);
 INSERT INTO bank_branch_t VALUES('Marathahalli Branch', 'Bengaluru', 'No. 17, Krishna Grand, Outer Ring Road, Marathahalli,Bengaluru -560037', 'Lakshminarasimha B R - 7760979175,080-42090666', '560574008', 'TGMB0000019', 14616);
-INSERT INTO bank_branch_t VALUES('Kuvempunagar Mysore Branch', 'Mysore', 'Mudra Archade, Mig-27, Khb Colony, Nrupathunga Road, Kuvempu Nagar,Mysore -570023', 'Ramanayak K R - 7760979172,0821-4190600', '570574003', 'TGMB0000016', 14619);
-INSERT INTO bank_branch_t VALUES('Hassan Branch', 'Hassan', '#805 & 806, K G Towers B M Road,Hassan -573201', 'Shashikumar G - 7760979173,0817-2235455', '573574302', 'TGMB0000017', 14618);
-INSERT INTO bank_branch_t VALUES('H S R Layout Branch', 'Bengaluru', 'No.671, 7th Sector, 9th Main, Hsr Layout Bengaluru -560102', 'Anand P- 7760979174,080-25722467', '560574007', 'TGMB0000018', 14616);
-INSERT INTO bank_branch_t VALUES('Marathahalli Branch', 'Bengaluru', 'No. 17, Krishna Grand, Outer Ring Road, Marathahalli,Bengaluru -560037', 'Lakshminarasimha B R - 7760979175,080-42090666', '560574008', 'TGMB0000019', 14616);

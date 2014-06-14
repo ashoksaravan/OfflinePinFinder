@@ -19,7 +19,7 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
 	private static final String CLASS_NAME = BankBranchSQLiteHelper.class.getName();
 
 	// Database Version
-	private static final int DATABASE_VERSION = 2;
+	private static final int DATABASE_VERSION = 3;
 
 	// Database Name
 	private static final String DATABASE_NAME = "ashoksm.bankbranch";
@@ -96,11 +96,7 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
 					while (insertReader.ready()) {
 						String insertStmt = insertReader.readLine();
 						if (insertStmt != null) {
-							try {
 							db.execSQL(insertStmt);
-							} catch (Exception ex) {
-								System.out.println(ex.getMessage());
-							}
 						}
 					}
 					insertReader.close();

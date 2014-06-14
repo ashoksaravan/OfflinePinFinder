@@ -521,7 +521,6 @@ INSERT INTO bank_branch_t VALUES('Parsapur', 'Parsapur', 'Near Bus Stand, Grampa
 INSERT INTO bank_branch_t VALUES('Nri Branch Seawoods (Navi Mumbai)', 'Navi Mumbai', 'Shop Nos. 1 & 2, Ground Floor,Gahlot Majesty, Palm Beach Road, Seawoods, Plot No. 3 A, Sector 46 A,Nerul (West), Navi Mumbai, Distt. Thane, Maharashtra: 400 706', '', '- NA -', 'SBIN0016215', 12778);
 INSERT INTO bank_branch_t VALUES('Administrative Office Calicut', 'Calicut', 'Ist Floor Sothern Trade Tower, Pushpa Jn. Francis Road, Dist.;Calicut, Kerala: 673002', '', '- NA -', 'SBIN0016217', 12648);
 INSERT INTO bank_branch_t VALUES('Regional Business Office 5 Shivpuri', 'Shivpuri', 'Ladha''s Building,Mahal Road, Dist.:Shivpuri, Madhya Pradesh-473551', '9425018106, 8458800116', '- NA -', 'SBIN0030289', 12736);
-INSERT INTO bank_branch_t VALUES('Mhow Neemuch Road Pithampur', 'Pithampur', 'Khandewal Chambers, Mhow Neemuch Road, Pihampur', '07292-253319,252001', '452005032', 'SBIN0030201', 12700);
 INSERT INTO bank_branch_t VALUES('Spl. Currency Administrative Branch', 'Kolkata', '39 Jawaharlal Nehru Road, Dist : Kolkata, West Bengal - 700071', '9674713305', '- NA -', 'SBIN0014821', 13248);
 INSERT INTO bank_branch_t VALUES('Pethapur', 'Pethapur', 'Shree Square, Pethapur Chokdi, Pethapur,Distt. : Gandhinagar, Gujarat : 382610', '7600038488, 9727719409', '- NA -', 'SBIN0014976', 12448);
 INSERT INTO bank_branch_t VALUES('Brahmaputra Premium', 'Dispur', 'Nedfi House,G S Road, Dispur, Guwahati, Assam -781006', '9859978030', '- NA -', 'SBIN0015220', 12312);
@@ -1841,7 +1840,6 @@ INSERT INTO bank_branch_t VALUES('Patliputra Railway Station', 'Patna', 'H/O Lal
 INSERT INTO bank_branch_t VALUES('Kurdus', 'Kurdus', 'Po Kusukbhale, Tal. Alibag, Swapnapuri Clinic Building, Dist Raigad, Maharashtra: 402108', '8007206818', '- NA -', 'SBIN0017497', 12778);
 INSERT INTO bank_branch_t VALUES('Kodad Town', 'Kodad', 'H.No.4-113/10, Ground Floor, Bharat Reddy Complex, N.H-9, Main Road, Kodad,Nalgonda.A.P-508206', '8330907912', '- NA -', 'SBIN0017568', 12249);
 INSERT INTO bank_branch_t VALUES('Suryapet Town', 'Suryapet', '1-4-249/157/A,1-4-249/157,1-4-249/157/1,Ground Floor, Kuda-Kuda Road,Suryapet,Nalgonda.A.P-508213', '8330907904', '- NA -', 'SBIN0017569', 12249);
-INSERT INTO bank_branch_t VALUES('Mhow Neemuch Road Pithampur', 'Pithampur', 'Khandewal Chambers, Mhow Neemuch Road, Pihampur', '07292-253319,252001', '452005032', 'SBIN0030201', 12700);
 INSERT INTO bank_branch_t VALUES('Sbi Internet Banking Dept Gitc', 'Navi Mumbai', 'Cbd Belapur Navi Mumbai 400614 Maharashtra', '', '- NA -', 'SBIN0000INB', 12778);
 INSERT INTO bank_branch_t VALUES('Cac Kurnool', 'Kurnool', 'Railway Station Road, Kurnool, Dist.Kurnool. Andhra Pradesh-518004', '8330903965', '- NA -', 'SBIN0011804', 12242);
 INSERT INTO bank_branch_t VALUES('Baishnabnagar', 'Malda', 'P.S:Baishnabnagar, Vill:Baishnabnagar, Po-Baishnabnagar, Distt.Malda. West Bengal-732210', '8001001110', '- NA -', 'SBIN0012417', 13249);

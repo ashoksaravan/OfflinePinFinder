@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".05"
             android:contentDescription="@string/map_nav"
-            android:scaleType="fitCenter"
+            android:scaleType="fitEnd"
             android:src="@drawable/ic_location_place" />
         
         <ImageView
@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".05"
             android:contentDescription="@string/share"
-            android:scaleType="fitCenter"
+            android:scaleType="fitEnd"
             android:src="@drawable/ic_share" />
     </LinearLayout>
 
@@ -241,7 +241,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".6"
             android:text="@string/NA"
-            android:textIsSelectable="true" />
+            android:textIsSelectable="false" />
     </LinearLayout>
 
 </LinearLayout>

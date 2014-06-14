@@ -2433,7 +2433,6 @@ INSERT INTO bank_branch_t VALUES('Azimganj Jiaganj', 'Raghunathganj', 'Pandey Bh
 INSERT INTO bank_branch_t VALUES('Vellalur', 'Vellalore', 'No 1/489-1,Vellalur,Melur Taluk,Madurai Dist,Tamil Nadu - 625109', '', '- NA -', 'IOBA0002487', 8463);
 INSERT INTO bank_branch_t VALUES('Vandavasi', 'Vandavasi', '181-A/48,Bazar Street,Vandavasi,Thiruvannamalai-604408', '', '- NA -', 'IOBA0002488', 8483);
 INSERT INTO bank_branch_t VALUES('Shoranur', 'Shoranur', '13/7,Shoranur,Palakkad Dist,Kerala,Pin 679121', '', '- NA -', 'IOBA0002489', 8291);
-INSERT INTO bank_branch_t VALUES('Kanki', 'Kanki', 'Kanki P O Uttar Dinajpur Dist West Bengal', '', '- NA -', 'IOBA0002494', 8589);
 INSERT INTO bank_branch_t VALUES('Sathupalle', 'Sathupalli', 'No.4-21,Besides Sbi,Sathupalle,Khammam Dist., A.P. -507303', '', '- NA -', 'IOBA0002495', 8093);
 INSERT INTO bank_branch_t VALUES('Rajanagaram', 'Rajanagaram', 'Door No.1 18 Main Road Rajanagarm East Godavari Dist.,Pin 533294', '', '- NA -', 'IOBA0002497', 8087);
 INSERT INTO bank_branch_t VALUES('Chintalavalasa', 'Chintalavalasa', '6 1 Satyanarayanapuram Near Asp Quarters Chintalavalasa Vizianagaram Disrict Pin-535005', '', '- NA -', 'IOBA0002498', 8109);
@@ -3258,8 +3257,6 @@ INSERT INTO bank_branch_t VALUES('Aicholi', 'Pithoragarh', 'Hotel Plaza, Tanakpu
 INSERT INTO bank_branch_t VALUES('Mgr Nagar', 'Chennai', '1 New No 17/1 Dr Mgr Complex, Anna Main Road,Mgr Nagar , Chennai - 600078', '044-28525980', '- NA -', 'IOBA0003508', 8450);
 INSERT INTO bank_branch_t VALUES('Shanthi Nagar', 'Palayamkottai', '2a,Sivalaperi Main Road,Palayamkottai,Tirunelveli-627002', '0462-2322630', '- NA -', 'IOBA0003540', 8480);
 INSERT INTO bank_branch_t VALUES('Muli', 'Jagdalpur', 'Bazar Para Vill- Muli , Po- Muli ,District- Kondagaon Pin- 494222 , State- Chhattisgarh', '0771-258913', '- NA -', 'IOBA0003545', 8160);
-INSERT INTO bank_branch_t VALUES('Kanki', 'Kanki', 'Kanki P O Uttar Dinajpur Dist West Bengal', '', '- NA -', 'IOBA0002494', 8589);
-INSERT INTO bank_branch_t VALUES('Kanki', 'Kanki', 'Kanki P O Uttar Dinajpur Dist West Bengal', '', '- NA -', 'IOBA0002494', 8589);
 INSERT INTO bank_branch_t VALUES('Dharumathupatti', 'Dindigul', '129/8 Sembatti-Palani Road,Podampatti,Dharumathupatti 624705 Dindigul District', '0451-2441477', '- NA -', 'IOBA0003437', 8455);
 INSERT INTO bank_branch_t VALUES('Chintamani', 'Chikmagalur', '2442 Ground Floor, Church Road,Near Kptcl Office, Np Extn, Chintamail,Chikballapur Dt.563125', '080-22950210', '- NA -', 'IOBA0003476', 8254);
 INSERT INTO bank_branch_t VALUES('Krishnapura', 'Narsapur', '310 Sy No.49/4 Krishnapura Village,Narasapura Post,Narasapura Habli,Kolar Taluk,Kolar Dt. 563133', '080-22950210', '- NA -', 'IOBA0003477', 8266);

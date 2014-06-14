@@ -1364,9 +1364,6 @@ INSERT INTO bank_branch_t VALUES('Boduppal', 'Ghatkesar', 'Ground Floor, 9-2/4, 
 INSERT INTO bank_branch_t VALUES('Angalakurichi', 'Pollachi', 'No.10/286,Valparai Main Road, Angalakurichi, Pollachi Taluk, Coimbatore Dist-642007', '', '- NA -', 'CORP0001500', 4961);
 INSERT INTO bank_branch_t VALUES('Oragadam', 'Sriperumbudur', 'Ground Floor, Survey No 44, Vandalur Walajabad Road, Oragadam Koot Road, Oragadam, Kancheepuram District-602105', '044-27107853', '- NA -', 'CORP0001503', 4966);
 INSERT INTO bank_branch_t VALUES('Vallikkunnu', 'Ariyallur', '158/18,I Floor, Above Post Office, Ariyallur, Vallikkunnu, Malappuram District-676312', '0494-2472002', '- NA -', 'CORP0001504', 4823);
-INSERT INTO bank_branch_t VALUES('Delhi Micro Finance', 'Delhi', '16/10, Main Arya Samaj Road, Karol Bagh, New Delhi', '011-28752418', '110017116', 'CORP0001257', 4884);
-INSERT INTO bank_branch_t VALUES('Anugul', 'Angul', 'Plot No. 961/1890 & 1891, I Floor, Sreeram Market Complex, Angul, Orissa-759122', '06764-230051', '759017102', 'CORP0001433', 4886);
-INSERT INTO bank_branch_t VALUES('Miranpur', 'Miranpur', 'Near P.N.B, N.H.119, Miranpur, Dist - Muzaffarnagar, Uttar Pradesh 260001', '01396-243003', '- NA -', 'CORP0001443', 5042);
 INSERT INTO bank_branch_t VALUES('Chandigarh Manimajra', 'Mani Majra', 'Scf : 22, New Motor Maket, New Bus Stand, Manimajra, Chandigarh-160101', '', '160017012', 'CORP0001477', 4668);
 INSERT INTO bank_branch_t VALUES('Anchatageri', 'Hubli Dharwad', 'Karwar Road, Anchatageri Village, Hubli Taluk, Dharwad District-580024', '0836 2202081', '571017536', 'CORP0001491', 4788);
 INSERT INTO bank_branch_t VALUES('Shela', 'Sanand', 'Shop No G3, Samatva Complex, Near Sahara City, S P Ring Road, Village Shela, Taluka Sanand, Ahmedabad Dist-380058', '', '380017018', 'CORP0001495', 4687);
@@ -1834,10 +1831,6 @@ INSERT INTO bank_branch_t VALUES('Gannavaram (Krishna Dist Ap)', 'Gannavaram', '
 INSERT INTO bank_branch_t VALUES('Madhavaram', 'Madhavaram', 'Survey No:504,504/4,100 Feet Ring Road,Madhavaram,Chennai-600060, Tamilnadu', '44-65152777', '- NA -', 'CORP0001963', 4982);
 INSERT INTO bank_branch_t VALUES('Muddalinganahalli', 'Nelamangala', 'S.No.1, K.No.32/50 Main Road, Muddalinganahalli, Nilamangala Taluk, Bangalore Rural - 562123, Karnataka', '0-9731444332', '- NA -', 'CORP0001968', 4766);
 INSERT INTO bank_branch_t VALUES('Panampilly Nagar', 'Kochi', '60/8,A Ground Floor,Opposite Mpeda Kizhavana Road,Panampilly Nagar,Kochi-682032,Kerala', '0-9446536022', '- NA -', 'CORP0001974', 4815);
-INSERT INTO bank_branch_t VALUES('Periya Valavadi', 'Udumalpet', 'No.3/114,Bazaar Street, Periya Valavadi, Udumalpet Taluk, Tiruppur District.-642132', '', '- NA -', 'CORP0001502', 4961);
-INSERT INTO bank_branch_t VALUES('Delhi Micro Finance', 'Delhi', '16/10, Main Arya Samaj Road, Karol Bagh, New Delhi', '', '110017116', 'CORP0001257', 4884);
-INSERT INTO bank_branch_t VALUES('Anugul', 'Angul', 'Plot No. 961/1890 & 1891, I Floor, Sreeram Market Complex, Angul, Orissa-759122', '', '759017102', 'CORP0001433', 4886);
-INSERT INTO bank_branch_t VALUES('Miranpur', 'Miranpur', 'Near P.N.B, N.H.119, Miranpur, Dist - Muzaffarnagar, Uttar Pradesh 260001', '', '- NA -', 'CORP0001443', 5042);
 INSERT INTO bank_branch_t VALUES('Cheeka', 'Cheeka', 'Opp Indian Petrol Pump,Kaithal Road,Cheeka-136034,Haryana', '1743 224121', '- NA -', 'CORP0001961', 4727);
 INSERT INTO bank_branch_t VALUES('Kavathe Piran', 'Sangli Miraj Kupwad', 'Ground Floor Village Panchayat Building Kavathe Piran Miraj Taluk,Sangli District-416417 Maharashtra', '9404842500', '- NA -', 'CORP0001965', 4877);
 INSERT INTO bank_branch_t VALUES('Byndoor', 'Byndoor', 'Door No.9-86, 9-87, Main Road,Yadthare, Byndoor,Kundapura Taluk, Udupi Dist-576214, Karnataka', '7829634774', '- NA -', 'CORP0001973', 4807);
@@ -1846,9 +1839,8 @@ INSERT INTO bank_branch_t VALUES('Jassaganja', 'Ramnagar', 'Post Chilkiya, Tehsi
 INSERT INTO bank_branch_t VALUES('Khali Mahuwat', 'Khatima', 'Melaghat Road, Khasra No 45, Khali Mahuwat Khatima, Dist Udham Singh Nagar- 262308 Uttarakhand', '8859770140', '- NA -', 'CORP0001977', 5061);
 INSERT INTO bank_branch_t VALUES('Dhenkanal', 'Dhenkanal', 'Plot No-2325/11347 And Plot No-2325 Mahavir Bazar,Infront Of Meghamala Hotel,Jagannath Road,Dhenkanal Post-759001 Orissa', '8658691400', '- NA -', 'CORP0001979', 4890);
 INSERT INTO bank_branch_t VALUES('Bhawanipatna', 'Bhawanipatna', 'Plot No -2059, Mouza-Bhawanipatna Nazul Near Dayanidhi Chowk, Bhawanipatna Post Kalahandi Dist-766001 Orissa', '9776235551', '- NA -', 'CORP0001980', 4894);
-INSERT INTO bank_branch_t VALUES('Nagavara', 'Channapatna', 'Nagavara Halu Utpadakara Sahakara Sangha Niyamita,First Floor Nagavara Near Bus Stop,Channapatna Taluk,Ramnagara Dt,Bangalore Rural Karnataka', '9019032975', '- NA -', 'CORP0001982', 4766);
-INSERT INTO bank_branch_t VALUES('Chakkere', 'Channapatna', 'Kh No 85/69/1,85/69/2 Chakkere Channapatna(Tq) Ramanagara
-,Bangalore Rural Karnataka', '7411569046', '- NA -', 'CORP0001983', 4766);
+INSERT INTO bank_branch_t VALUES('Nagavara', 'Channapatna','Nagavara Halu Utpadakara Sahakara Sangha Niyamita, Channapatna Taluk, Ramnagara Dist, BangaloreRural Karnataka', '9019032975','- NA -', 'CORP0001982', 4766);
+INSERT INTO bank_branch_t VALUES('Chakkere', 'Channapatna', 'Kh No 85/69/1,85/69/2 Chakkere Channapatna(Tq) Ramanagara,Bangalore Rural Karnataka', '7411569046', '- NA -', 'CORP0001983', 4766);
 INSERT INTO bank_branch_t VALUES('Bhanjanagar', 'Bhanjanagar', 'Main Road Infront Of Indian Gas Outlet Bhanjanagar Ganjam-761126 Orissa', '7735340364', '- NA -', 'CORP0001984', 4891);
 INSERT INTO bank_branch_t VALUES('Unchgaon', 'Unchgaon', 'Inhauna Shukla Bazar Road,Pure Ajitan Unchgaon,Block Shukla Bazar,Dist Amethi-227811,Uttar Pradesh', '0-7571976610', '- NA -', 'CORP0001971', 5053);
 INSERT INTO bank_branch_t VALUES('Jeypore', 'Jeypore', 'Plot No-241,M G Road,Jeypore Post,Koraput Dist-764001,Odisha', '0-7205866867', '- NA -', 'CORP0001985', 4896);

@@ -1058,7 +1058,6 @@ INSERT INTO bank_branch_t VALUES('Katra', 'Katra', 'Bank Of India Katra Branch B
 INSERT INTO bank_branch_t VALUES('Kathua', 'Kathua', 'Bank Of India ,Kathua Branch Neeraj Mall, Shahidi Chowk,Ward No 5, District Kathua,(J & K) 184101', '', '- NA -', 'BKID0007914', 2282);
 INSERT INTO bank_branch_t VALUES('Chengalpet', 'Chengalpattu', 'New No.9, Old No. 25, Chairman Ekambaranar Street, Vedachala Nagar, Chengalpet - 603001', '', '- NA -', 'BKID0008070', 2536);
 INSERT INTO bank_branch_t VALUES('Sholinghur', 'Vellore', 'New No.48, Old No.9, Arakonam Road, Sholinghur, Vellore District, Tamilnadu Pincode : 631102', '', '- NA -', 'BKID0008369', 2557);
-INSERT INTO bank_branch_t VALUES('Tarapur', 'Silchar', 'Tarapur Branch,Ashirbad Towers, Itkhola Road,Po - Silchar Dist - Cachar Assam-788001', 'Br Mgr 8876581758', '788013005', 'BKID0005065', 2142);
 INSERT INTO bank_branch_t VALUES('Madhyamgram', 'Madhyamgram', 'Badu Road, Madhyamgram, At & Post: Madhyamgram Dist : North 24 Parganas Pin-Code:700129 West Bengal', 'Na', '- NA -', 'BKID0004105', 2658);
 INSERT INTO bank_branch_t VALUES('Patuli', 'Patulia', 'Premises Of Mrs. Indrani Halder 1/7, Baishnabghata-Patuli Township Block-H, Kolkata Pin-700094, West Bengal', 'Na', '- NA -', 'BKID0004146', 2658);
 INSERT INTO bank_branch_t VALUES('Ranaghat', 'Ranaghat', 'Premises Of Shri Sandip Kumar Basu?kunjaban?, 104, P.C. Street,Ranaghat, District: Nadia,Pin- 741201, West Bengal', 'Na', '- NA -', 'BKID0004147', 2657);
@@ -1078,10 +1077,6 @@ INSERT INTO bank_branch_t VALUES('Shahpur Ganga', 'Hardoi', 'Bank Of India - Sha
 INSERT INTO bank_branch_t VALUES('Khujauli Chouraha', 'Lucknow', 'Bank Of India-Khujauli Chouraha, Post: Mohari Khurd, Block-Mohanlalganj, District: Lucknow, [u.P], Pincode: 226301', 'Br Mgr 9161412308', '- NA -', 'BKID0007547', 2608);
 INSERT INTO bank_branch_t VALUES('Collectorate, Agar Malwa', 'Agar(Malwa)', 'Collectorate , Agar Malwa', 'Br Mgr 9425984990', '- NA -', 'BKID0009143', 2389);
 INSERT INTO bank_branch_t VALUES('Anjora', 'Durg', 'Inside Apollo College,Opp. Veterinary College, Vill. : Anjora, Dist.: Durg,Chhattisgarh (491 001)', 'Br Mgr 9754320624', '- NA -', 'BKID0009309', 2204);
-INSERT INTO bank_branch_t VALUES('Naya Bazar (Gwalior)', 'Gwalior', 'Dev Villa Bhavan, Near Thorat Palace, Naya Bazar, Gwalior, M.P- 474009', 'Br Mgr 07512434044', '474013012', 'BKID0009463', 2368);
-INSERT INTO bank_branch_t VALUES('Gole Ka Mandir', 'Gwalior', 'Bhadoria Complex, Gole Ka Mandir, Morar Road, Gwalior, M.P-474005', 'Br Mgr 0751-2467649', '474013013', 'BKID0009464', 2368);
-INSERT INTO bank_branch_t VALUES('Rahetgaon', 'Rahetgaon', 'Bank Of India Rehatgaon Branch Address: Bazar Chowk, Village ? Rehatgaon. Tehsil ? Timarni, District ? Harda (Mp).Pin Code: 461251', 'Na', '- NA -', 'BKID0009578', 2369);
-INSERT INTO bank_branch_t VALUES('Sonai', 'Sonai', 'Sonai Branch,Vill: Tulagram Ph-1, Motinagar Road,Po - Sonaimukh Dist - Cachar Assam-788119', 'Br Mgr 8730835909', '788013006', 'BKID0005066', 2142);
 INSERT INTO bank_branch_t VALUES('Naya Bazar (Gwalior)', 'Gwalior', 'Dev Villa Bhavan, Near Thorat Palace, Naya Bazar, Gwalior, M.P- 474009', 'Br Mgr 07512434044', '474013012', 'BKID0009463', 2368);
 INSERT INTO bank_branch_t VALUES('Gole Ka Mandir', 'Gwalior', 'Bhadoria Complex, Gole Ka Mandir, Morar Road, Gwalior, M.P-474005', 'Br Mgr 0751-2467649', '474013013', 'BKID0009464', 2368);
 INSERT INTO bank_branch_t VALUES('Rahetgaon', 'Rahetgaon', 'Bank Of India Rehatgaon Branch Address: Bazar Chowk, Village ? Rehatgaon. Tehsil ? Timarni, District ? Harda (Mp).Pin Code: 461251', 'Na', '- NA -', 'BKID0009578', 2369);

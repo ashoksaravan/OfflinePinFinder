@@ -39,9 +39,10 @@
             android:id="@+id/bankShareButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:paddingRight="1dp"
             android:layout_weight=".05"
             android:contentDescription="@string/share"
-            android:scaleType="fitCenter"
+            android:scaleType="fitEnd"
             android:src="@drawable/ic_share" />
     </LinearLayout>
 
@@ -173,7 +174,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".6"
-            android:textIsSelectable="true" />
+            android:textIsSelectable="false" />
     </LinearLayout>
 
     <LinearLayout
