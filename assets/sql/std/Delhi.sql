@@ -1,0 +1,1 @@
+INSERT INTO std_t VALUES(10, 'NEW DELHI', '011');

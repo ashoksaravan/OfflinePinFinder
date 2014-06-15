@@ -1,0 +1,13 @@
+INSERT INTO std_t VALUES(22, 'Bishenpur', '03879');
+INSERT INTO std_t VALUES(22, 'Chakpikarong', '03878');
+INSERT INTO std_t VALUES(22, 'Chandel', '03872');
+INSERT INTO std_t VALUES(22, 'Churchandpur', '03874');
+INSERT INTO std_t VALUES(22, 'Imphal', '0385');
+INSERT INTO std_t VALUES(22, 'Jiribam', '03876');
+INSERT INTO std_t VALUES(22, 'Mao(Korang)', '03871');
+INSERT INTO std_t VALUES(22, 'Sadarhills (Kangpokai)', '03880');
+INSERT INTO std_t VALUES(22, 'Tamenglong', '03877');
+INSERT INTO std_t VALUES(22, 'Thinghat', '03873');
+INSERT INTO std_t VALUES(22, 'Thoubal', '03848');
+INSERT INTO std_t VALUES(22, 'Ukhrul Central', '03845');
+INSERT INTO std_t VALUES(22, 'Ukhrul South (Kassemkhulen)', '03870');

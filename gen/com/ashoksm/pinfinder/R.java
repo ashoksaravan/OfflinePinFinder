@@ -2834,7 +2834,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f050074;
+        public static final int action_settings=0x7f05007a;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int ad=0x7f050072;
         public static final int adIfsc=0x7f050047;
@@ -2852,6 +2852,7 @@ containing a value of this type.
         public static final int branchRow=0x7f050048;
         public static final int checkbox=0x7f05002d;
         public static final int city=0x7f05004c;
+        public static final int cityName=0x7f050074;
         public static final int cityRow=0x7f05004b;
         public static final int collapseActionView=0x7f05000d;
         public static final int contact=0x7f050054;
@@ -2912,7 +2913,6 @@ containing a value of this type.
         public static final int search_plate=0x7f050036;
         public static final int search_src_text=0x7f050037;
         public static final int search_voice_btn=0x7f05003b;
-        public static final int section_label=0x7f050073;
         public static final int shareButton=0x7f05005c;
         public static final int shortcut=0x7f05002e;
         public static final int showCustom=0x7f050007;
@@ -2925,6 +2925,12 @@ containing a value of this type.
         public static final int states=0x7f05006e;
         public static final int statusRow=0x7f05005f;
         public static final int stauts=0x7f050060;
+        public static final int stdAd=0x7f050076;
+        public static final int stdCode=0x7f050078;
+        public static final int stdRow=0x7f050077;
+        public static final int stdSearch=0x7f050075;
+        public static final int stdStateName=0x7f050079;
+        public static final int stdStates=0x7f050073;
         public static final int submit_area=0x7f050039;
         public static final int subofficeLabel=0x7f050062;
         public static final int subofficeName=0x7f050063;
@@ -2999,7 +3005,8 @@ containing a value of this type.
         public static final int spinner_dropdown_item=0x7f03001e;
         public static final int spinner_item=0x7f03001f;
         public static final int std=0x7f030020;
-        public static final int support_simple_spinner_dropdown_item=0x7f030021;
+        public static final int std_custom_grid=0x7f030021;
+        public static final int support_simple_spinner_dropdown_item=0x7f030022;
     }
     public static final class menu {
         public static final int display_result=0x7f0d0000;
@@ -3054,6 +3061,7 @@ containing a value of this type.
         public static final int branch=0x7f0a0028;
         public static final int button_search=0x7f0a0010;
         public static final int city=0x7f0a0029;
+        public static final int cityName=0x7f0a002e;
         public static final int contact=0x7f0a002b;
         public static final int districts=0x7f0a0017;
         public static final int edit_message=0x7f0a000f;
@@ -3067,17 +3075,18 @@ containing a value of this type.
         public static final int noMatchingTxt=0x7f0a0022;
         public static final int officename=0x7f0a0018;
         public static final int pincode=0x7f0a0019;
-        public static final int select_district=0x7f0a0030;
-        public static final int select_state=0x7f0a002f;
+        public static final int select_district=0x7f0a0032;
+        public static final int select_state=0x7f0a0031;
         public static final int send_to=0x7f0a0024;
         public static final int share=0x7f0a0021;
         public static final int state=0x7f0a0016;
         public static final int status=0x7f0a001a;
+        public static final int stdCode=0x7f0a002f;
         public static final int suboffice=0x7f0a001b;
         public static final int telephone=0x7f0a001e;
         public static final int text1=0x7f0a0015;
         public static final int title_activity_display_message=0x7f0a0013;
-        public static final int title_activity_display_result=0x7f0a002e;
+        public static final int title_activity_display_result=0x7f0a0030;
         public static final int title_activity_main=0x7f0a0012;
         public static final int title_section1=0x7f0a0025;
         public static final int title_section2=0x7f0a0026;

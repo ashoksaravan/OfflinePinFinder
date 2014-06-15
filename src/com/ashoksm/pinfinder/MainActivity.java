@@ -171,6 +171,10 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
 				rootView = inflater.inflate(R.layout.bank_branch, container, false);
 				BankView.execute(rootView, getResources(), container.getContext());
 				break;
+			case 3:
+				rootView = inflater.inflate(R.layout.std, container, false);
+				STDView.execute(rootView, getResources(), container.getContext());
+				break;
 			}
 			return rootView;
 		}

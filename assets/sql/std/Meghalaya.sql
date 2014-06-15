@@ -1,0 +1,14 @@
+INSERT INTO std_t VALUES(23, 'Amlaren(Dawki)', '03653');
+INSERT INTO std_t VALUES(23, 'Baghmara', '03639');
+INSERT INTO std_t VALUES(23, 'Cherrapunjee', '03637');
+INSERT INTO std_t VALUES(23, 'Dadengiri(Phulbari)', '03650');
+INSERT INTO std_t VALUES(23, 'Jowai', '03652');
+INSERT INTO std_t VALUES(23, 'Khliehriat', '03655');
+INSERT INTO std_t VALUES(23, 'Mairang', '03657');
+INSERT INTO std_t VALUES(23, 'Mawkyrwat', '03656');
+INSERT INTO std_t VALUES(23, 'Nongpoh', '03638');
+INSERT INTO std_t VALUES(23, 'Nongstoin', '03654');
+INSERT INTO std_t VALUES(23, 'Resubelpara (Mendipathar)', '03659');
+INSERT INTO std_t VALUES(23, 'Shillong', '0364');
+INSERT INTO std_t VALUES(23, 'Tura', '03651');
+INSERT INTO std_t VALUES(23, 'Williamnagar', '03658');

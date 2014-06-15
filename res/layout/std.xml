@@ -1,17 +1,71 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.ashoksm.tabashoktest.MainActivity$PlaceholderFragment" >
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical" >
 
-    <TextView
-        android:id="@+id/section_label"
-        android:text="@string/title_section3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight=".87"
+        android:fillViewport="true" >
 
-</RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <AutoCompleteTextView
+                android:id="@+id/stdStates"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/state"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textColor="#BB0000" />
+
+            <EditText
+                android:id="@+id/cityName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/cityName"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textColor="#BB0000" />
+
+            <Button
+                android:id="@+id/stdSearch"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_border"
+                android:text="@string/button_search"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight=".13"
+        android:gravity="center|bottom"
+        android:orientation="vertical" >
+
+        <com.google.ads.AdView
+            xmlns:googleads="http://schemas.android.com/apk/lib/com.google.ads"
+            android:id="@+id/stdAd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            googleads:adSize="BANNER"
+            googleads:adUnitId="@string/admob_id"
+            googleads:loadAdOnCreate="true" />
+    </LinearLayout>
+
+</LinearLayout>

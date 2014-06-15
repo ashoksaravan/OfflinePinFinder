@@ -1,0 +1,10 @@
+INSERT INTO std_t VALUES(25, 'Dimapur', '03862');
+INSERT INTO std_t VALUES(25, 'Jalukie', '03839');
+INSERT INTO std_t VALUES(25, 'Kiphire', '03863');
+INSERT INTO std_t VALUES(25, 'Kohima', '0370');
+INSERT INTO std_t VALUES(25, 'Mokokchung', '0369');
+INSERT INTO std_t VALUES(25, 'Mon', '03869');
+INSERT INTO std_t VALUES(25, 'Phek', '03865');
+INSERT INTO std_t VALUES(25, 'Tuengsang', '03861');
+INSERT INTO std_t VALUES(25, 'Wokha', '03860');
+INSERT INTO std_t VALUES(25, 'Zuenheboto', '03867');
