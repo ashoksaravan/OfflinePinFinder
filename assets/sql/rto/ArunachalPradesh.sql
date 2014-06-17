@@ -1,0 +1,15 @@
+INSERT INTO rto_t VALUES(3, 'AR-01 & AR-02', 'Itanagar');
+INSERT INTO rto_t VALUES(3, 'AR-03', 'Tawang');
+INSERT INTO rto_t VALUES(3, 'AR-04', 'Bomdila');
+INSERT INTO rto_t VALUES(3, 'AR-05', 'Seppa');
+INSERT INTO rto_t VALUES(3, 'AR-06', 'Ziro');
+INSERT INTO rto_t VALUES(3, 'AR-07', 'Daporijo');
+INSERT INTO rto_t VALUES(3, 'AR-08', 'Along, Arunachal Pradesh');
+INSERT INTO rto_t VALUES(3, 'AR-09', 'Pasighat');
+INSERT INTO rto_t VALUES(3, 'AR-10', 'Anini');
+INSERT INTO rto_t VALUES(3, 'AR-11', 'Lohit');
+INSERT INTO rto_t VALUES(3, 'AR-12', 'Changlang');
+INSERT INTO rto_t VALUES(3, 'AR-13', 'Khonsa');
+INSERT INTO rto_t VALUES(3, 'AR-14', 'Yingkiong');
+INSERT INTO rto_t VALUES(3, 'AR-15', 'Kurung Kumey');
+INSERT INTO rto_t VALUES(3, 'AR-16', 'Roing');

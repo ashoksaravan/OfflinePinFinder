@@ -1,0 +1,16 @@
+INSERT INTO rto_t VALUES(36, 'TS-01', 'Adilabad / Nirmal / Mancherial');
+INSERT INTO rto_t VALUES(36, 'TS-02', 'Karimnagar / Jagtial / Peddapalli');
+INSERT INTO rto_t VALUES(36, 'TS-03', 'Warangal / Jangaon / Mahabubabad');
+INSERT INTO rto_t VALUES(36, 'TS-04', 'Khammam / Sathupally / Kothagudem / Yellandu / Manuguru');
+INSERT INTO rto_t VALUES(36, 'TS-05', 'Nalgonda / Bhongir / Suryapet / Miryalaguda / Bibinagar');
+INSERT INTO rto_t VALUES(36, 'TS-06', 'Mahbubnagar / Pebbair / Gadwal');
+INSERT INTO rto_t VALUES(36, 'TS-07', 'Attapur / Kukatpally / Medchal');
+INSERT INTO rto_t VALUES(36, 'TS-08', 'Uppal Kalan / Ibrahimpatnam / Rangareddy');
+INSERT INTO rto_t VALUES(36, 'TS-09', 'Hyderabad North (Khairtabad)');
+INSERT INTO rto_t VALUES(36, 'TS-10', 'Hyderabad Central (Secunderabad)');
+INSERT INTO rto_t VALUES(36, 'TS-11', 'Hyderabad East (Malakpet)');
+INSERT INTO rto_t VALUES(36, 'TS-12', 'Hyderabad South (Kisanbagh)');
+INSERT INTO rto_t VALUES(36, 'TS-13', 'Hyderabad West (Mehdipatnam / Tolichowki)');
+INSERT INTO rto_t VALUES(36, 'TS-14', 'Hyderabad (reserved)');
+INSERT INTO rto_t VALUES(36, 'TS-15', 'Medak / Sangareddy / Patancheru / Siddipet');
+INSERT INTO rto_t VALUES(36, 'TS-16', 'Nizamabad');

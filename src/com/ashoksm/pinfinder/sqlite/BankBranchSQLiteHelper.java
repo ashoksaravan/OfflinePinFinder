@@ -47,7 +47,7 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
 			+ ", " + BANK + ", " + STATE + ", " + DISTRICT + "))";
 
 	private static final String CREATE_BANK_BRANCH_TABLE = "CREATE TABLE " + TABLE_BANK_BRANCH + "(" + NAME + " TEXT,"
-			+ CITY + " TEXT, " + ADDRESS + " TEXT, " + CONTACT + " TEXT, " + MICR + " INTEGER, " + IFSC + " TEXT, " 
+			+ CITY + " TEXT, " + ADDRESS + " TEXT, " + CONTACT + " TEXT, " + MICR + " INTEGER, " + IFSC + " TEXT, "
 			+ LOCATION + " INTEGER, " + "FOREIGN KEY(" + LOCATION + ") REFERENCES " + TABLE_LOCATION + "(" + LOCATION
 			+ "), " + "PRIMARY KEY (" + NAME + "," + IFSC + "," + LOCATION + "))";
 
@@ -154,10 +154,10 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
 			final String branchName) {
 		SQLiteDatabase db = this.getReadableDatabase();
 
-		String select = "SELECT  " + NAME + ", " + CITY + ", l." + STATE + ", l." + DISTRICT + ", " + ADDRESS
-				+ ", " + CONTACT + "," + MICR + ", " + IFSC + " AS _id FROM " + TABLE_BANK_BRANCH + " ps"
-				+ " INNER JOIN " + TABLE_LOCATION + " l ON ps." + LOCATION + " = l." + LOCATION + " WHERE LOWER(REPLACE(l." + BANK + ",' ',''))"
-				+ " = '" + bankName + "'";
+		String select = "SELECT  " + NAME + ", " + CITY + ", l." + STATE + ", l." + DISTRICT + ", " + ADDRESS + ", "
+				+ CONTACT + "," + MICR + ", " + IFSC + " AS _id FROM " + TABLE_BANK_BRANCH + " ps" + " INNER JOIN "
+				+ TABLE_LOCATION + " l ON ps." + LOCATION + " = l." + LOCATION + " WHERE LOWER(REPLACE(l." + BANK
+				+ ",' ',''))" + " = '" + bankName + "'";
 		String where = "";
 
 		if (stateName.trim().length() > 0) {
@@ -167,7 +167,9 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
 			where = where + " AND LOWER(REPLACE(l." + DISTRICT + ",' ','')) LIKE '%" + districtIn + "%'";
 		}
 		if (branchName.trim().length() > 0) {
-			where = where + " AND LOWER(REPLACE(" + NAME + ",' ','')) LIKE '%" + branchName + "%'";
+			where = where + " AND (LOWER(REPLACE(" + NAME + ",' ','')) LIKE '%" + branchName + "%' OR  LOWER(REPLACE("
+					+ IFSC + ",' ','')) LIKE '%" + branchName + "%' OR LOWER(REPLACE(" + MICR + ",' ','')) LIKE '%"
+					+ branchName + "%')";
 		}
 		String selectQuery = select + where;
 		Log.d(CLASS_NAME, selectQuery);

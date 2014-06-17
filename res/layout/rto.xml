@@ -19,44 +19,28 @@
             android:paddingLeft="10dp"
             android:paddingRight="10dp" >
 
-            <Spinner
-                android:id="@+id/bankName"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content" />
-
             <AutoCompleteTextView
-                android:id="@+id/stateName"
+                android:id="@+id/rtoStates"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:hint="@string/state"
                 android:imeOptions="actionNext"
-                android:singleLine="true" 
-                android:textColor="#BB0000" />
-
-            <AutoCompleteTextView
-                android:id="@+id/districtName"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:hint="@string/districts"
-                android:imeOptions="actionNext"
-                android:singleLine="true" 
+                android:singleLine="true"
                 android:textColor="#BB0000" />
 
             <EditText
-                android:id="@+id/branchName"
+                android:id="@+id/rtoCityName"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:hint="@string/branchIFSCMICR"
+                android:hint="@string/rtoCityName"
                 android:imeOptions="actionSearch"
                 android:inputType="text"
                 android:singleLine="true"
                 android:textColor="#BB0000" />
 
             <Button
-                android:id="@+id/ifscSearch"
+                android:id="@+id/rtoSearch"
                 android:layout_width="100dp"
                 android:layout_height="35dp"
                 android:layout_marginTop="20dp"
@@ -75,7 +59,7 @@
 
         <com.google.ads.AdView
             xmlns:googleads="http://schemas.android.com/apk/lib/com.google.ads"
-            android:id="@+id/adIfsc"
+            android:id="@+id/rtoAd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="bottom"

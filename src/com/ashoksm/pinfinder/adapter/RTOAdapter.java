@@ -12,11 +12,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.ashoksm.pinfinder.R;
-import com.ashoksm.pinfinder.sqlite.STDSQLiteHelper;
+import com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper;
 
-public class STDAdapter extends CursorAdapter {
+public class RTOAdapter extends CursorAdapter {
 
-	public STDAdapter(Context context, Cursor c, boolean autoRequery) {
+	public RTOAdapter(Context context, Cursor c, boolean autoRequery) {
 		super(context, c, autoRequery);
 	}
 
@@ -27,13 +27,13 @@ public class STDAdapter extends CursorAdapter {
 			holder = new ViewHolder();
 		}
 
-		holder.shareButton = (ImageView) view.findViewById(R.id.stdShareButton);
+		holder.shareButton = (ImageView) view.findViewById(R.id.rtoShareButton);
 
-		holder.city = (TextView) view.findViewById(R.id.cityName);
+		holder.city = (TextView) view.findViewById(R.id.rCityName);
 
-		holder.state = (TextView) view.findViewById(R.id.stdStateName);
+		holder.state = (TextView) view.findViewById(R.id.rtoStateName);
 
-		holder.stdCode = (TextView) view.findViewById(R.id.stdCode);
+		holder.rtoCode = (TextView) view.findViewById(R.id.rtoCode);
 
 		view.setTag(holder);
 
@@ -48,11 +48,10 @@ public class STDAdapter extends CursorAdapter {
 				sharingIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 				sharingIntent.setType("text/plain");
 				String shareSubject = "STD Code";
-				String shareContent = "State : " + c.getString(c.getColumnIndex(STDSQLiteHelper.STATE_NAME)) + "\n";
-				shareContent = shareContent + "City Name : " + c.getString(c.getColumnIndex(STDSQLiteHelper.CITY))
+				String shareContent = "State : " + c.getString(c.getColumnIndex(RTOSQLiteHelper.STATE_NAME)) + "\n";
+				shareContent = shareContent + "City Name : " + c.getString(c.getColumnIndex(RTOSQLiteHelper.CITY))
 						+ "\n";
-				shareContent = shareContent + "STD Code : " + c.getString(c.getColumnIndex(STDSQLiteHelper.ID))
-						+ "\n";
+				shareContent = shareContent + "STD Code : " + c.getString(c.getColumnIndex(RTOSQLiteHelper.ID)) + "\n";
 				sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, shareSubject);
 				sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareContent);
 				v.getContext().startActivity(
@@ -61,15 +60,15 @@ public class STDAdapter extends CursorAdapter {
 
 		});
 
-		holder.city.setText(cursor.getString(cursor.getColumnIndex(STDSQLiteHelper.CITY)));
-		holder.state.setText(cursor.getString(cursor.getColumnIndex(STDSQLiteHelper.STATE_NAME)));
-		holder.stdCode.setText(cursor.getString(cursor.getColumnIndex(STDSQLiteHelper.ID)));
+		holder.city.setText(cursor.getString(cursor.getColumnIndex(RTOSQLiteHelper.CITY)));
+		holder.state.setText(cursor.getString(cursor.getColumnIndex(RTOSQLiteHelper.STATE_NAME)));
+		holder.rtoCode.setText(cursor.getString(cursor.getColumnIndex(RTOSQLiteHelper.ID)));
 	}
 
 	@Override
 	public View newView(Context context, Cursor cursor, ViewGroup parent) {
 		LayoutInflater inflater = LayoutInflater.from(parent.getContext());
-		View retView = inflater.inflate(R.layout.std_custom_grid, parent, false);
+		View retView = inflater.inflate(R.layout.rto_custom_grid, parent, false);
 		return retView;
 	}
 
@@ -77,6 +76,6 @@ public class STDAdapter extends CursorAdapter {
 		TextView state;
 		ImageView shareButton;
 		TextView city;
-		TextView stdCode;
+		TextView rtoCode;
 	}
 }

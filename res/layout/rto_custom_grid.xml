@@ -23,20 +23,21 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".4"
-            android:text="@string/city"
+            android:text="@string/rtoCode"
             android:textColor="#B31B1B"
             android:textIsSelectable="false"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/cityName"
+            android:id="@+id/rtoCode"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".55"
+            android:text="@string/NA"
             android:textIsSelectable="true" />
 
         <ImageView
-            android:id="@+id/stdShareButton"
+            android:id="@+id/rtoShareButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".05"
@@ -46,7 +47,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/stdRow"
+        android:id="@+id/rtoRow"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/inner_border"
@@ -58,17 +59,16 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".4"
-            android:text="@string/stdCode"
+            android:text="@string/city"
             android:textColor="#B31B1B"
             android:textIsSelectable="false"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/stdCode"
+            android:id="@+id/rCityName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".6"
-            android:text="@string/NA"
             android:textIsSelectable="true" />
     </LinearLayout>
 
@@ -91,7 +91,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/stdStateName"
+            android:id="@+id/rtoStateName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".6"

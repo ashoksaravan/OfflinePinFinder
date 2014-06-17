@@ -11,39 +11,39 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-public class STDSQLiteHelper extends SQLiteOpenHelper {
+public class RTOSQLiteHelper extends SQLiteOpenHelper {
 
 	private Context context;
 
 	// Logcat tag
-	private static final String CLASS_NAME = STDSQLiteHelper.class.getName();
+	private static final String CLASS_NAME = RTOSQLiteHelper.class.getName();
 
 	// Database Version
 	private static final int DATABASE_VERSION = 2;
 
 	// Database Name
-	private static final String DATABASE_NAME = "ashoksm.std";
+	private static final String DATABASE_NAME = "ashoksm.rto";
 
 	// Table Names
-	private static final String TABLE_STD = "std_t";
+	private static final String TABLE_RTO = "rto_t";
 	private static final String TABLE_STATE = "state_t";
 
 	// Common column names
 	public static final String CITY = "city";
 	private static final String STATE = "state";
 	public static final String STATE_NAME = "state_name";
-	public static final String STD_CODE = "std_code";
+	public static final String RTO_CODE = "rto_code";
 	public static final String ID = "_id";
 
 	// post_office_t table create statement
 	private static final String CREATE_STATE_TABLE = "CREATE TABLE " + TABLE_STATE + "(" + STATE + " INTEGER, "
 			+ STATE_NAME + " TEXT, " + "PRIMARY KEY (" + STATE + "))";
 
-	private static final String CREATE_STD_TABLE = "CREATE TABLE " + TABLE_STD + "(" + STATE + " INTEGER, " + CITY
-			+ " TEXT, " + STD_CODE + " TEXT, " + "FOREIGN KEY(" + STATE + ") REFERENCES " + TABLE_STATE + "(" + STATE
-			+ "), " + "PRIMARY KEY (" + STATE + "," + CITY + "," + STD_CODE + "))";
+	private static final String CREATE_STD_TABLE = "CREATE TABLE " + TABLE_RTO + "(" + STATE + " INTEGER, " + RTO_CODE
+			+ " TEXT, " + CITY + " TEXT, " + "FOREIGN KEY(" + STATE + ") REFERENCES " + TABLE_STATE + "(" + STATE
+			+ "), " + "PRIMARY KEY (" + STATE + "," + CITY + "," + RTO_CODE + "))";
 
-	public STDSQLiteHelper(Context contextIn) {
+	public RTOSQLiteHelper(Context contextIn) {
 		super(contextIn, DATABASE_NAME, null, DATABASE_VERSION);
 		context = contextIn;
 	}
@@ -68,7 +68,7 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
 	@Override
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 		// on upgrade drop older tables
-		db.execSQL("DROP TABLE IF EXISTS " + TABLE_STD);
+		db.execSQL("DROP TABLE IF EXISTS " + TABLE_RTO);
 		db.execSQL("DROP TABLE IF EXISTS " + TABLE_STATE);
 
 		// create new tables
@@ -78,11 +78,11 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
 	private void insertBankBranches(SQLiteDatabase db) {
 		try {
 			db.beginTransaction();
-			String[] fileNames = context.getAssets().list("sql/std");
+			String[] fileNames = context.getAssets().list("sql/rto");
 			for (String name : fileNames) {
 				if (name.endsWith(".sql")) {
 					// Open the resource
-					InputStream insertsStream = context.getAssets().open("sql/std/" + name);
+					InputStream insertsStream = context.getAssets().open("sql/rto/" + name);
 					BufferedReader insertReader = new BufferedReader(new InputStreamReader(insertsStream));
 
 					while (insertReader.ready()) {
@@ -133,7 +133,7 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
 	public Cursor findIfscCodes(final String stateName, final String cityName) {
 		SQLiteDatabase db = this.getReadableDatabase();
 
-		String select = "SELECT  s." + STATE_NAME + ", " + CITY + ", " + STD_CODE + " AS _id FROM " + TABLE_STD + " st"
+		String select = "SELECT  s." + STATE_NAME + ", " + CITY + ", " + RTO_CODE + " AS _id FROM " + TABLE_RTO + " st"
 				+ " INNER JOIN " + TABLE_STATE + " s ON st." + STATE + " = s." + STATE;
 		String where = "";
 
@@ -142,10 +142,10 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
 		}
 		if (cityName.trim().length() > 0 && where.trim().length() > 0) {
 			where = where + " AND (LOWER(REPLACE(st." + CITY + ",' ','')) LIKE '%" + cityName
-					+ "%' OR LOWER(REPLACE(st." + STD_CODE + ",' ','')) LIKE '%" + cityName + "%')";
+					+ "%' OR LOWER(REPLACE(st." + RTO_CODE + ",' ','')) LIKE '%" + cityName + "%')";
 		} else if (cityName.trim().length() > 0) {
 			where = " WHERE (LOWER(REPLACE(st." + CITY + ",' ','')) LIKE '%" + cityName + "%' OR LOWER(REPLACE(st."
-					+ STD_CODE + ",' ','')) LIKE '%" + cityName + "%')";
+					+ RTO_CODE + ",' ','')) LIKE '%" + cityName + "%')";
 		}
 		String selectQuery = select + where;
 		Log.d(CLASS_NAME, selectQuery);

@@ -33,3 +33,4 @@ INSERT INTO state_t VALUES(32, 'Tripura');
 INSERT INTO state_t VALUES(33, 'Uttar Pradesh');
 INSERT INTO state_t VALUES(34, 'Uttarakhand');
 INSERT INTO state_t VALUES(35, 'West Bengal');
+INSERT INTO state_t VALUES(36, 'Telangana');

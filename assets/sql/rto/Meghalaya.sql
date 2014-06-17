@@ -1,0 +1,10 @@
+INSERT INTO rto_t VALUES(23, 'ML-01', 'ML government vehicles');
+INSERT INTO rto_t VALUES(23, 'ML-02', 'ML police vehicles');
+INSERT INTO rto_t VALUES(23, 'ML-03', 'Vehicles owned by transport corporations');
+INSERT INTO rto_t VALUES(23, 'ML-04', 'Jaintia Hills');
+INSERT INTO rto_t VALUES(23, 'ML-05', 'Shillong');
+INSERT INTO rto_t VALUES(23, 'ML-06', 'West Khasi Hills');
+INSERT INTO rto_t VALUES(23, 'ML-07', 'East Garo Hills');
+INSERT INTO rto_t VALUES(23, 'ML-08', 'West Garo Hills(Tura)');
+INSERT INTO rto_t VALUES(23, 'ML-09', 'South Garo Hills');
+INSERT INTO rto_t VALUES(23, 'ML-10', 'Ri-Bhoi');

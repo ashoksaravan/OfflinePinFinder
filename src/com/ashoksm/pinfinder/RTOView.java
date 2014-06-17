@@ -16,7 +16,7 @@ import android.widget.TextView;
 import com.google.ads.AdRequest;
 import com.google.ads.AdView;
 
-public class STDView {
+public class RTOView {
 
 	private static AutoCompleteTextView stateNameTextView;
 
@@ -27,16 +27,16 @@ public class STDView {
 	public final static String EXTRA_CITY = "com.ashoksm.offlinepinfinder.CITY";
 
 	public static void execute(final View rootView, final Resources resources, final Context context) {
-		AdView adView = (AdView) rootView.findViewById(R.id.stdAd);
+		AdView adView = (AdView) rootView.findViewById(R.id.rtoAd);
 		adView.loadAd(new AdRequest());
 
-		stateNameTextView = (AutoCompleteTextView) rootView.findViewById(R.id.stdStates);
+		stateNameTextView = (AutoCompleteTextView) rootView.findViewById(R.id.rtoStates);
 		ArrayAdapter<CharSequence> stateAdapter = ArrayAdapter.createFromResource(context, R.array.states_array,
 				R.layout.spinner_dropdown_item);
 		// Apply the adapter to the spinner
 		stateNameTextView.setAdapter(stateAdapter);
-		cityName = (EditText) rootView.findViewById(R.id.cityName);
-		Button btnSubmit = (Button) rootView.findViewById(R.id.stdSearch);
+		cityName = (EditText) rootView.findViewById(R.id.rtoCityName);
+		Button btnSubmit = (Button) rootView.findViewById(R.id.rtoSearch);
 		btnSubmit.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -60,7 +60,7 @@ public class STDView {
 	private static void performSearch(Resources resources, Context context) {
 		String stateName = stateNameTextView.getText().toString();
 		String city = cityName.getText().toString();
-		Intent intent = new Intent(context, DisplaySTDResultActivity.class);
+		Intent intent = new Intent(context, DisplayRTOResultActivity.class);
 		intent.putExtra(EXTRA_STATE, stateName.trim());
 		intent.putExtra(EXTRA_CITY, city.trim());
 		context.startActivity(intent);
