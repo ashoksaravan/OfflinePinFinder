@@ -74,7 +74,7 @@ public class DisplayBankBranchResultActivity extends ActionBarActivity {
 			protected void onPostExecute(Void result) {
 				getSupportActionBar().setTitle(intent.getStringExtra(BankView.EXTRA_BANK));
 				if (c != null && c.getCount() > 0) {
-					adapter = new BankBranchAdapter(getApplicationContext(), c, false);
+					adapter = new BankBranchAdapter(getApplicationContext(), c, false, intent.getStringExtra(BankView.EXTRA_BANK));
 					GridView gridview = (GridView) findViewById(R.id.gridview);
 					gridview.setVisibility(View.VISIBLE);
 					gridview.setAdapter(adapter);

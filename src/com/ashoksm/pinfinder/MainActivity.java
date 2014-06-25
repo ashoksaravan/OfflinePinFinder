@@ -18,6 +18,7 @@ import android.text.style.ForegroundColorSpan;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ScrollView;
 
 public class MainActivity extends ActionBarActivity implements ActionBar.TabListener {
 
@@ -34,7 +35,7 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
 	 * The {@link ViewPager} that will host the section contents.
 	 */
 	ViewPager mViewPager;
-
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -43,7 +44,6 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
 		// Set up the action bar.
 		final ActionBar actionBar = getSupportActionBar();
 		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
-
 		// Create the adapter that will return a fragment for each of the three
 		// primary sections of the activity.
 		mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
@@ -62,8 +62,8 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
 			}
 		});
 
-		int screenSize = getResources().getConfiguration().screenLayout & Configuration.SCREENLAYOUT_SIZE_MASK;
-		if (screenSize >= Configuration.SCREENLAYOUT_SIZE_LARGE) {
+		int orientation = getResources().getConfiguration().orientation;
+		if (orientation == Configuration.ORIENTATION_LANDSCAPE) {
 			actionBar.setBackgroundDrawable(new ColorDrawable(Color.WHITE));
 			String title = getResources().getString(R.string.app_name);
 			SpannableString string = new SpannableString(title);
@@ -163,22 +163,40 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
 		@Override
 		public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 			int i = getArguments().getInt(ARG_SECTION_NUMBER);
-			View rootView = null;
+			View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+
+			ScrollView pincodeView = (ScrollView) rootView.findViewById(R.id.pincodeView);
+			ScrollView bankView = (ScrollView) rootView.findViewById(R.id.bankView);
+			ScrollView stdView = (ScrollView) rootView.findViewById(R.id.stdView);
+			ScrollView rtoView = (ScrollView) rootView.findViewById(R.id.rtoView);
+
 			switch (i) {
 			case 1:
-				rootView = inflater.inflate(R.layout.post_office, container, false);
+				pincodeView.setVisibility(View.VISIBLE);
+				bankView.setVisibility(View.GONE);
+				stdView.setVisibility(View.GONE);
+				rtoView.setVisibility(View.GONE);
 				PinCodeView.execute(rootView, getResources(), container.getContext());
 				break;
 			case 2:
-				rootView = inflater.inflate(R.layout.bank_branch, container, false);
+				pincodeView.setVisibility(View.GONE);
+				bankView.setVisibility(View.VISIBLE);
+				stdView.setVisibility(View.GONE);
+				rtoView.setVisibility(View.GONE);
 				BankView.execute(rootView, getResources(), container.getContext());
 				break;
 			case 3:
-				rootView = inflater.inflate(R.layout.std, container, false);
+				pincodeView.setVisibility(View.GONE);
+				bankView.setVisibility(View.GONE);
+				stdView.setVisibility(View.VISIBLE);
+				rtoView.setVisibility(View.GONE);
 				STDView.execute(rootView, getResources(), container.getContext());
 				break;
 			case 4:
-				rootView = inflater.inflate(R.layout.rto, container, false);
+				pincodeView.setVisibility(View.GONE);
+				bankView.setVisibility(View.GONE);
+				stdView.setVisibility(View.GONE);
+				rtoView.setVisibility(View.VISIBLE);
 				RTOView.execute(rootView, getResources(), container.getContext());
 				break;
 			}

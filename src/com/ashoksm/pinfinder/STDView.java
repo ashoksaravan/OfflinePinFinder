@@ -13,9 +13,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.google.ads.AdRequest;
-import com.google.ads.AdView;
-
 public class STDView {
 
 	private static AutoCompleteTextView stateNameTextView;
@@ -27,9 +24,6 @@ public class STDView {
 	public final static String EXTRA_CITY = "com.ashoksm.offlinepinfinder.CITY";
 
 	public static void execute(final View rootView, final Resources resources, final Context context) {
-		AdView adView = (AdView) rootView.findViewById(R.id.stdAd);
-		adView.loadAd(new AdRequest());
-
 		stateNameTextView = (AutoCompleteTextView) rootView.findViewById(R.id.stdStates);
 		ArrayAdapter<CharSequence> stateAdapter = ArrayAdapter.createFromResource(context, R.array.states_array,
 				R.layout.spinner_dropdown_item);

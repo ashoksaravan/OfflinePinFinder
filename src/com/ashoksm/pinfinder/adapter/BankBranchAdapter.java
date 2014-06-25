@@ -3,6 +3,7 @@ package com.ashoksm.pinfinder.adapter;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
+import android.net.Uri;
 import android.text.util.Linkify;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,8 +18,11 @@ import com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper;
 
 public class BankBranchAdapter extends CursorAdapter {
 
-	public BankBranchAdapter(Context context, Cursor c, boolean autoRequery) {
+	private String bankName;
+
+	public BankBranchAdapter(Context context, Cursor c, boolean autoRequery, String bankNameIn) {
 		super(context, c, autoRequery);
+		this.bankName = bankNameIn;
 	}
 
 	@Override
@@ -29,6 +33,8 @@ public class BankBranchAdapter extends CursorAdapter {
 		}
 
 		holder.branchName = (TextView) view.findViewById(R.id.branch);
+
+		holder.mapButton = (ImageView) view.findViewById(R.id.bankMapButton);
 
 		holder.shareButton = (ImageView) view.findViewById(R.id.bankShareButton);
 
@@ -48,33 +54,41 @@ public class BankBranchAdapter extends CursorAdapter {
 
 		view.setTag(holder);
 
-		holder.shareButton.setTag(cursor);
+		holder.mapButton.setTag(holder);
+
+		holder.mapButton.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				ViewHolder holder = (ViewHolder) v.getTag();
+				String uri = "http://maps.google.com/maps?q=" + bankName + ", "
+						+ holder.address.getText().toString().trim().replaceAll(" ", "+");
+				Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(uri));
+				intent.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
+				v.getContext().startActivity(intent);
+			}
+
+		});
+
+		holder.shareButton.setTag(holder);
 
 		holder.shareButton.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
-				Cursor c = (Cursor) v.getTag();
+				ViewHolder holder = (ViewHolder) v.getTag();
 				Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
 				sharingIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 				sharingIntent.setType("text/plain");
 				String shareSubject = "Branch Details";
-				String shareContent = "Branch Name : "
-						+ c.getString(c.getColumnIndex(BankBranchSQLiteHelper.NAME)).trim() + "\n";
-				shareContent = shareContent + "City : "
-						+ c.getString(c.getColumnIndex(BankBranchSQLiteHelper.CITY)).trim() + "\n";
-				shareContent = shareContent + "District : "
-						+ c.getString(c.getColumnIndex(BankBranchSQLiteHelper.DISTRICT)).trim() + "\n";
-				shareContent = shareContent + "State : " + c.getString(c.getColumnIndex(BankBranchSQLiteHelper.STATE))
-						+ "\n";
-				shareContent = shareContent + "Address : "
-						+ c.getString(c.getColumnIndex(BankBranchSQLiteHelper.ADDRESS)) + "\n";
-				shareContent = shareContent + "Contact : "
-						+ c.getString(c.getColumnIndex(BankBranchSQLiteHelper.CONTACT)) + "\n";
-				shareContent = shareContent + "IFSC : " + c.getString(c.getColumnIndex(BankBranchSQLiteHelper.ID))
-						+ "\n";
-				shareContent = shareContent + "MICR : " + c.getString(c.getColumnIndex(BankBranchSQLiteHelper.MICR))
-						+ "\n";
+				String shareContent = "Branch Name : " + holder.branchName.getText().toString().trim() + "\n";
+				shareContent = shareContent + "City : " + holder.city.getText().toString().trim() + "\n";
+				shareContent = shareContent + "District : " + holder.district.getText().toString().trim() + "\n";
+				shareContent = shareContent + "State : " + holder.state.getText().toString() + "\n";
+				shareContent = shareContent + "Address : " + holder.address.getText().toString() + "\n";
+				shareContent = shareContent + "Contact : " + holder.contact.getText().toString() + "\n";
+				shareContent = shareContent + "IFSC : " + holder.ifsc.getText().toString() + "\n";
+				shareContent = shareContent + "MICR : " + holder.micr.getText().toString() + "\n";
 				sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, shareSubject);
 				sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareContent);
 				v.getContext().startActivity(
@@ -104,6 +118,7 @@ public class BankBranchAdapter extends CursorAdapter {
 
 	static class ViewHolder {
 		TextView branchName;
+		ImageView mapButton;
 		ImageView shareButton;
 		TextView city;
 		TextView district;

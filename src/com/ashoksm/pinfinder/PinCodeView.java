@@ -16,9 +16,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.ads.AdRequest;
-import com.google.ads.AdView;
-
 public class PinCodeView {
 
 	/**
@@ -48,8 +45,6 @@ public class PinCodeView {
 	public final static String EXTRA_OFFICE = "com.ashoksm.offlinepinfinder.OFFICE";
 
 	public static void execute(final View rootView, final Resources resources, final Context context) {
-		AdView adView = (AdView) rootView.findViewById(R.id.ad);
-		adView.loadAd(new AdRequest());
 		states = (AutoCompleteTextView) rootView.findViewById(R.id.states);
 		// Get the string array
 		String[] statesArr = resources.getStringArray(R.array.states_array);

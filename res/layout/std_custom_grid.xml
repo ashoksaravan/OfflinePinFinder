@@ -23,17 +23,27 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".4"
-            android:text="@string/city"
+            android:text="@string/stdCode"
             android:textColor="#B31B1B"
             android:textIsSelectable="false"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/cityName"
+            android:id="@+id/stdCode"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight=".55"
+            android:layout_weight=".50"
+            android:text="@string/NA"
             android:textIsSelectable="true" />
+        
+         <ImageView
+            android:id="@+id/stdMapButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".05"
+            android:contentDescription="@string/map_nav"
+            android:scaleType="fitEnd"
+            android:src="@drawable/ic_location_place" />
 
         <ImageView
             android:id="@+id/stdShareButton"
@@ -58,17 +68,16 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".4"
-            android:text="@string/stdCode"
+            android:text="@string/city"
             android:textColor="#B31B1B"
             android:textIsSelectable="false"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/stdCode"
+            android:id="@+id/cityName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".6"
-            android:text="@string/NA"
             android:textIsSelectable="true" />
     </LinearLayout>
 

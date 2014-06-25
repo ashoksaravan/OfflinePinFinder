@@ -60,64 +60,51 @@ public class PincodeAdapter extends CursorAdapter {
 
 		view.setTag(holder);
 
-		holder.mapButton.setTag(cursor);
+		holder.mapButton.setTag(holder);
 
 		holder.mapButton.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
-				Cursor c = (Cursor) v.getTag();
-				String uri = "http://maps.google.com/maps?q="
-						+ c.getString(c.getColumnIndex(PinFinderSQLiteHelper.STATE_NAME)).trim() + " "
-						+ c.getString(c.getColumnIndex(PinFinderSQLiteHelper.PIN_CODE)).trim();
+				ViewHolder holder = (ViewHolder) v.getTag();
+				String uri = "http://maps.google.com/maps?q=" + holder.state.getText().toString().trim() + " "
+						+ holder.pincode.getText().toString().trim();
 				Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(uri));
-				intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 				intent.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
 				v.getContext().startActivity(intent);
 			}
 
 		});
 
-		holder.shareButton.setTag(cursor);
+		holder.shareButton.setTag(holder);
 
 		holder.shareButton.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
-				Cursor c = (Cursor) v.getTag();
+				ViewHolder holder = (ViewHolder) v.getTag();
 				Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
 				sharingIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 				sharingIntent.setType("text/plain");
 				String shareSubject = "Pincode";
-				String shareContent = "Office Name : "
-						+ c.getString(c.getColumnIndex(PinFinderSQLiteHelper.ID)).trim() + "\n";
-				shareContent = shareContent + "Pincode : "
-						+ c.getString(c.getColumnIndex(PinFinderSQLiteHelper.PIN_CODE)).trim() + "\n";
-				shareContent = shareContent + "Status : "
-						+ c.getString(c.getColumnIndex(PinFinderSQLiteHelper.STATUS_NAME)).trim() + "\n";
-				if (c.getString(c.getColumnIndex(PinFinderSQLiteHelper.SUB_OFFICE)) != null
-						&& c.getString(c.getColumnIndex(PinFinderSQLiteHelper.SUB_OFFICE)).trim().length() > 0) {
-					shareContent = shareContent + "Sub Office : "
-							+ c.getString(c.getColumnIndex(PinFinderSQLiteHelper.SUB_OFFICE)) + "\n";
+				String shareContent = "Office Name : " + holder.officeName.getText().toString().trim() + "\n";
+				shareContent = shareContent + "Pincode : " + holder.pincode.getText().toString().trim() + "\n";
+				shareContent = shareContent + "Status : " + holder.stauts.getText().toString().trim() + "\n";
+				if (holder.suboffice.getText().toString().trim().length() > 0) {
+					shareContent = shareContent + "Sub Office : " + holder.suboffice.getText().toString() + "\n";
 				}
-				if (c.getString(c.getColumnIndex(PinFinderSQLiteHelper.HEAD_OFFICE)) != null
-						&& c.getString(c.getColumnIndex(PinFinderSQLiteHelper.HEAD_OFFICE)).trim().length() > 0) {
-					shareContent = shareContent + "Head Office : "
-							+ c.getString(c.getColumnIndex(PinFinderSQLiteHelper.HEAD_OFFICE)) + "\n";
+				if (holder.headoffice.getText().toString().trim().length() > 0) {
+					shareContent = shareContent + "Head Office : " + holder.headoffice.getText().toString() + "\n";
 				}
-				shareContent = shareContent + "Location : "
-						+ c.getString(c.getColumnIndex(PinFinderSQLiteHelper.LOCATION_NAME)) + "\n";
-				shareContent = shareContent + "State : "
-						+ c.getString(c.getColumnIndex(PinFinderSQLiteHelper.STATE_NAME)) + "\n";
-				if (c.getString(c.getColumnIndex(PinFinderSQLiteHelper.TELEPHONE)) != null
-						&& c.getString(c.getColumnIndex(PinFinderSQLiteHelper.TELEPHONE)).trim().length() > 0) {
-					shareContent = shareContent + "Telephone : "
-							+ c.getString(c.getColumnIndex(PinFinderSQLiteHelper.TELEPHONE)) + "\n";
+				shareContent = shareContent + "Location : " + holder.location.getText().toString() + "\n";
+				shareContent = shareContent + "State : " + holder.state.getText().toString() + "\n";
+				if (holder.telephoneNumber.getText().toString().trim().length() > 0) {
+					shareContent = shareContent + "Telephone : " + holder.telephoneNumber.getText().toString() + "\n";
 				}
 				sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, shareSubject);
 				sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareContent);
-				v.getContext().startActivity(Intent.createChooser(sharingIntent,
-						v.getContext().getResources().getText(R.string.send_to)));
+				v.getContext().startActivity(
+						Intent.createChooser(sharingIntent, v.getContext().getResources().getText(R.string.send_to)));
 			}
 
 		});
@@ -132,6 +119,7 @@ public class PincodeAdapter extends CursorAdapter {
 			holder.subofficeRow.setVisibility(View.VISIBLE);
 			holder.suboffice.setText(cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.SUB_OFFICE)));
 		} else {
+			holder.suboffice.setText("");
 			holder.subofficeRow.setVisibility(View.GONE);
 		}
 
@@ -140,6 +128,7 @@ public class PincodeAdapter extends CursorAdapter {
 			holder.headofficeRow.setVisibility(View.VISIBLE);
 			holder.headoffice.setText(cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.HEAD_OFFICE)));
 		} else {
+			holder.headoffice.setText("");
 			holder.headofficeRow.setVisibility(View.GONE);
 		}
 
@@ -148,6 +137,7 @@ public class PincodeAdapter extends CursorAdapter {
 			holder.locationRow.setVisibility(View.VISIBLE);
 			holder.location.setText(cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.LOCATION_NAME)));
 		} else {
+			holder.location.setText("");
 			holder.locationRow.setVisibility(View.GONE);
 		}
 		if (cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.TELEPHONE)) != null
@@ -156,6 +146,7 @@ public class PincodeAdapter extends CursorAdapter {
 			holder.telephoneNumber.setText(cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.TELEPHONE)));
 			Linkify.addLinks(holder.telephoneNumber, Linkify.ALL);
 		} else {
+			holder.telephoneNumber.setText("");
 			holder.telephoneRow.setVisibility(View.GONE);
 		}
 

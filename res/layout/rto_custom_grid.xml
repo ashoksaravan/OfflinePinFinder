@@ -32,9 +32,18 @@
             android:id="@+id/rtoCode"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight=".55"
+            android:layout_weight=".5"
             android:text="@string/NA"
             android:textIsSelectable="true" />
+
+         <ImageView
+            android:id="@+id/rtoMapButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".05"
+            android:contentDescription="@string/map_nav"
+            android:scaleType="fitEnd"
+            android:src="@drawable/ic_location_place" />
 
         <ImageView
             android:id="@+id/rtoShareButton"

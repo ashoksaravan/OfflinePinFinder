@@ -20,9 +20,6 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.ads.AdRequest;
-import com.google.ads.AdView;
-
 public class BankView {
 
 	private static Spinner bankNameSpinner;
@@ -42,9 +39,6 @@ public class BankView {
 	public final static String EXTRA_BRANCH = "com.ashoksm.offlinepinfinder.BRANCH";
 
 	public static void execute(final View rootView, final Resources resources, final Context context) {
-		AdView adView = (AdView) rootView.findViewById(R.id.adIfsc);
-		adView.loadAd(new AdRequest());
-
 		bankNameSpinner = (Spinner) rootView.findViewById(R.id.bankName);
 		stateNameTextView = (AutoCompleteTextView) rootView.findViewById(R.id.stateName);
 		districtNameTextView = (AutoCompleteTextView) rootView.findViewById(R.id.districtName);
@@ -62,6 +56,7 @@ public class BankView {
 			public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 				stateNameTextView.setText("");
 				districtNameTextView.setText("");
+				branchName.setText("");
 				Locale l = Locale.getDefault();
 				String bankName = parent.getItemAtPosition(position).toString();
 				String resourceName = bankName.toLowerCase(l).replace('.', ' ').replace('(', ' ').replace(')', ' ')
@@ -85,6 +80,7 @@ public class BankView {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 				districtNameTextView.setText("");
+				branchName.setText("");
 				Locale l = Locale.getDefault();
 				String bankName = bankNameSpinner.getSelectedItem().toString();
 				String stateName = stateNameTextView.getText().toString();

@@ -19,7 +19,7 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
 	private static final String CLASS_NAME = RTOSQLiteHelper.class.getName();
 
 	// Database Version
-	private static final int DATABASE_VERSION = 2;
+	private static final int DATABASE_VERSION = 3;
 
 	// Database Name
 	private static final String DATABASE_NAME = "ashoksm.rto";
@@ -147,7 +147,8 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
 			where = " WHERE (LOWER(REPLACE(st." + CITY + ",' ','')) LIKE '%" + cityName + "%' OR LOWER(REPLACE(st."
 					+ RTO_CODE + ",' ','')) LIKE '%" + cityName + "%')";
 		}
-		String selectQuery = select + where;
+		String orderBy = " ORDER BY 1, 3, 2";
+		String selectQuery = select + where + orderBy;
 		Log.d(CLASS_NAME, selectQuery);
 
 		Cursor c = db.rawQuery(selectQuery, null);
