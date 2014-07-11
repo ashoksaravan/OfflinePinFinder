@@ -32,26 +32,18 @@
             android:id="@+id/officeName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight=".5"
+            android:layout_weight=".55"
             android:textIsSelectable="true" />
 
         <ImageView
-            android:id="@+id/mapButton"
+            android:id="@+id/options"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".05"
-            android:contentDescription="@string/map_nav"
+            android:contentDescription="@string/options"
+            android:paddingRight="1dp"
             android:scaleType="fitEnd"
-            android:src="@drawable/ic_location_place" />
-        
-        <ImageView
-            android:id="@+id/shareButton"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight=".05"
-            android:contentDescription="@string/share"
-            android:scaleType="fitEnd"
-            android:src="@drawable/ic_share" />
+            android:src="@drawable/ic_core_overflow" />
     </LinearLayout>
 
     <LinearLayout

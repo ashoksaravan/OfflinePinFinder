@@ -1,21 +1,27 @@
 package com.ashoksm.pinfinder.adapter;
 
-import com.ashoksm.pinfinder.R;
-import com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
+import android.net.Uri;
+import android.support.v7.widget.PopupMenu;
+import android.support.v7.widget.PopupMenu.OnMenuItemClickListener;
+import android.text.util.Linkify;
+import android.view.LayoutInflater;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup;
 import android.widget.CursorAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.net.Uri;
-import android.text.util.Linkify;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.view.View.OnClickListener;
+
+import com.ashoksm.pinfinder.R;
+import com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper;
 
 public class PincodeAdapter extends CursorAdapter {
 
@@ -24,7 +30,7 @@ public class PincodeAdapter extends CursorAdapter {
 	}
 
 	@Override
-	public void bindView(View view, Context context, Cursor cursor) {
+	public void bindView(View view, final Context context, Cursor cursor) {
 		ViewHolder holder = (ViewHolder) view.getTag();
 		if (holder == null) {
 			holder = new ViewHolder();
@@ -32,9 +38,7 @@ public class PincodeAdapter extends CursorAdapter {
 
 		holder.officeName = (TextView) view.findViewById(R.id.officeName);
 
-		holder.mapButton = (ImageView) view.findViewById(R.id.mapButton);
-
-		holder.shareButton = (ImageView) view.findViewById(R.id.shareButton);
+		holder.options = (ImageView) view.findViewById(R.id.options);
 
 		holder.pincode = (TextView) view.findViewById(R.id.pincode);
 
@@ -59,54 +63,80 @@ public class PincodeAdapter extends CursorAdapter {
 		holder.state = (TextView) view.findViewById(R.id.stateName);
 
 		view.setTag(holder);
+		holder.options.setTag(holder);
 
-		holder.mapButton.setTag(holder);
-
-		holder.mapButton.setOnClickListener(new OnClickListener() {
-
-			@Override
-			public void onClick(View v) {
-				ViewHolder holder = (ViewHolder) v.getTag();
-				String uri = "http://maps.google.com/maps?q=" + holder.state.getText().toString().trim() + " "
-						+ holder.pincode.getText().toString().trim();
-				Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(uri));
-				intent.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
-				v.getContext().startActivity(intent);
-			}
-
-		});
-
-		holder.shareButton.setTag(holder);
-
-		holder.shareButton.setOnClickListener(new OnClickListener() {
+		holder.options.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
-				ViewHolder holder = (ViewHolder) v.getTag();
-				Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
-				sharingIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-				sharingIntent.setType("text/plain");
-				String shareSubject = "Pincode";
-				String shareContent = "Office Name : " + holder.officeName.getText().toString().trim() + "\n";
-				shareContent = shareContent + "Pincode : " + holder.pincode.getText().toString().trim() + "\n";
-				shareContent = shareContent + "Status : " + holder.stauts.getText().toString().trim() + "\n";
-				if (holder.suboffice.getText().toString().trim().length() > 0) {
-					shareContent = shareContent + "Sub Office : " + holder.suboffice.getText().toString() + "\n";
-				}
-				if (holder.headoffice.getText().toString().trim().length() > 0) {
-					shareContent = shareContent + "Head Office : " + holder.headoffice.getText().toString() + "\n";
-				}
-				shareContent = shareContent + "Location : " + holder.location.getText().toString() + "\n";
-				shareContent = shareContent + "State : " + holder.state.getText().toString() + "\n";
-				if (holder.telephoneNumber.getText().toString().trim().length() > 0) {
-					shareContent = shareContent + "Telephone : " + holder.telephoneNumber.getText().toString() + "\n";
-				}
-				sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, shareSubject);
-				sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareContent);
-				v.getContext().startActivity(
-						Intent.createChooser(sharingIntent, v.getContext().getResources().getText(R.string.send_to)));
-			}
+				PopupMenu menu = new PopupMenu(context, v);
+				menu.getMenuInflater().inflate(R.menu.options_menu, menu.getMenu());
 
+				try {
+					Field[] fields = menu.getClass().getDeclaredFields();
+					for (Field field : fields) {
+						if ("mPopup".equals(field.getName())) {
+							field.setAccessible(true);
+							Object menuPopupHelper = field.get(menu);
+							Class<?> classPopupHelper = Class.forName(menuPopupHelper.getClass().getName());
+							Method setForceIcons = classPopupHelper.getMethod("setForceShowIcon", boolean.class);
+							setForceIcons.invoke(menuPopupHelper, true);
+							break;
+						}
+					}
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+
+				menu.show();
+				final ViewHolder viewHolder = (ViewHolder) v.getTag();
+				menu.setOnMenuItemClickListener(new OnMenuItemClickListener() {
+					@Override
+					public boolean onMenuItemClick(MenuItem item) {
+						if (item.getTitle().toString().equals(context.getResources().getString(R.string.share))) {
+							Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+							sharingIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+							sharingIntent.setType("text/plain");
+							String shareSubject = "Pincode";
+							String shareContent = "Office Name : " + viewHolder.officeName.getText().toString().trim()
+									+ "\n";
+							shareContent = shareContent + "Pincode : " + viewHolder.pincode.getText().toString().trim()
+									+ "\n";
+							shareContent = shareContent + "Status : " + viewHolder.stauts.getText().toString().trim()
+									+ "\n";
+							if (viewHolder.suboffice.getText().toString().trim().length() > 0) {
+								shareContent = shareContent + "Sub Office : "
+										+ viewHolder.suboffice.getText().toString() + "\n";
+							}
+							if (viewHolder.headoffice.getText().toString().trim().length() > 0) {
+								shareContent = shareContent + "Head Office : "
+										+ viewHolder.headoffice.getText().toString() + "\n";
+							}
+							shareContent = shareContent + "Location : " + viewHolder.location.getText().toString()
+									+ "\n";
+							shareContent = shareContent + "State : " + viewHolder.state.getText().toString() + "\n";
+							if (viewHolder.telephoneNumber.getText().toString().trim().length() > 0) {
+								shareContent = shareContent + "Telephone : "
+										+ viewHolder.telephoneNumber.getText().toString() + "\n";
+							}
+							sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, shareSubject);
+							sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareContent);
+							context.startActivity(Intent.createChooser(sharingIntent,
+									context.getResources().getText(R.string.send_to)));
+						} else {
+							String uri = "http://maps.google.com/maps?q="
+									+ viewHolder.state.getText().toString().trim() + " "
+									+ viewHolder.pincode.getText().toString().trim();
+							Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(uri));
+							intent.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
+							context.startActivity(intent);
+						}
+
+						return false;
+					}
+
+				});
+			}
 		});
 
 		holder.officeName.setText(cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.ID)));
@@ -161,8 +191,7 @@ public class PincodeAdapter extends CursorAdapter {
 
 	static class ViewHolder {
 		TextView officeName;
-		ImageView mapButton;
-		ImageView shareButton;
+		ImageView options;
 		TextView pincode;
 		TextView stauts;
 		TextView suboffice;

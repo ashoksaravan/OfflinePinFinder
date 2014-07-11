@@ -9,6 +9,7 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.inputmethod.EditorInfo;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView.OnItemSelectedListener;
@@ -88,7 +89,7 @@ public class BankView {
 						.replaceAll(" ", "").replaceAll("-", "_")
 						+ "_"
 						+ stateName.toLowerCase(l).replace('.', ' ').replace('(', ' ').replace(')', ' ')
-								.replaceAll(" ", "").replaceAll("-", "_") + "_districts";
+						.replaceAll(" ", "").replaceAll("-", "_") + "_districts";
 				int bankId = resources.getIdentifier(resourceName, "array", context.getPackageName());
 				if (bankId != 0) {
 					ArrayAdapter<CharSequence> districtAdapter = ArrayAdapter.createFromResource(context, bankId,
@@ -103,7 +104,7 @@ public class BankView {
 		btnSubmit.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				performSearch(resources, context);
+				performSearch(resources, context, v);
 			}
 
 		});
@@ -112,7 +113,7 @@ public class BankView {
 			@Override
 			public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
 				if (actionId == EditorInfo.IME_ACTION_SEARCH) {
-					performSearch(resources, context);
+					performSearch(resources, context, v);
 					return true;
 				}
 				return false;
@@ -120,7 +121,12 @@ public class BankView {
 		});
 	}
 
-	private static void performSearch(Resources resources, Context context) {
+	private static void performSearch(Resources resources, Context context, View v) {
+		// hide keyboard
+		InputMethodManager inputMethodManager = (InputMethodManager) context
+				.getSystemService(Context.INPUT_METHOD_SERVICE);
+		inputMethodManager.hideSoftInputFromWindow(v.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
+
 		String bankName = bankNameSpinner.getSelectedItem().toString();
 		if (!"Please Select a Bank".equals(bankName)) {
 			String stateName = stateNameTextView.getText().toString();

@@ -5,15 +5,17 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
+import android.widget.Toast;
+
+import com.ashoksm.pinfinder.DisplaySTDResultActivity;
 
 public class STDSQLiteHelper extends SQLiteOpenHelper {
 
-	private Context context;
+	private DisplaySTDResultActivity context;
 
 	// Logcat tag
 	private static final String CLASS_NAME = STDSQLiteHelper.class.getName();
@@ -43,14 +45,19 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
 			+ " TEXT, " + STD_CODE + " TEXT, " + "FOREIGN KEY(" + STATE + ") REFERENCES " + TABLE_STATE + "(" + STATE
 			+ "), " + "PRIMARY KEY (" + STATE + "," + CITY + "," + STD_CODE + "))";
 
-	public STDSQLiteHelper(Context contextIn) {
-		super(contextIn, DATABASE_NAME, null, DATABASE_VERSION);
-		context = contextIn;
+	public STDSQLiteHelper(DisplaySTDResultActivity displaySTDResultActivityIn) {
+		super(displaySTDResultActivityIn, DATABASE_NAME, null, DATABASE_VERSION);
+		context = displaySTDResultActivityIn;
 	}
 
 	@Override
 	public void onCreate(SQLiteDatabase db) {
-
+		context.runOnUiThread(new Runnable() {
+			public void run() {
+				Toast.makeText(context, "Initializing DB, search will take more time to give results then usual!!!", Toast.LENGTH_LONG)
+				.show();
+			}
+		});
 		// crate tables
 		Log.d(CLASS_NAME, CREATE_STATE_TABLE);
 		db.execSQL(CREATE_STATE_TABLE);

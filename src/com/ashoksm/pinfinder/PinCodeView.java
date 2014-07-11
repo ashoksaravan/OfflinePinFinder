@@ -7,6 +7,7 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.inputmethod.EditorInfo;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
@@ -37,7 +38,7 @@ public class PinCodeView {
 	 * statesAdapter.
 	 */
 	private static ArrayAdapter<String> statesAdapter;
-	
+
 	public final static String EXTRA_STATE = "com.ashoksm.offlinepinfinder.STATE";
 
 	public final static String EXTRA_DISTRICT = "com.ashoksm.offlinepinfinder.DISTRICT";
@@ -54,12 +55,11 @@ public class PinCodeView {
 		// populate all districts
 		districts = (AutoCompleteTextView) rootView.findViewById(R.id.districts);
 		String[] allDistricts = resources.getStringArray(R.array.district_all);
-		districts.setAdapter(new ArrayAdapter<String>(context, R.layout.spinner_dropdown_item,
-				allDistricts));
+		districts.setAdapter(new ArrayAdapter<String>(context, R.layout.spinner_dropdown_item, allDistricts));
 		addStateChangeListener(rootView, resources, context);
 		addListenerOnButton(rootView, resources, context);
 	}
-	
+
 	private static void addStateChangeListener(View rootView, final Resources resources, final Context context) {
 		districts = (AutoCompleteTextView) rootView.findViewById(R.id.districts);
 		states.setOnItemClickListener(new OnItemClickListener() {
@@ -224,7 +224,7 @@ public class PinCodeView {
 			@Override
 			public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
 				if (actionId == EditorInfo.IME_ACTION_SEARCH) {
-					performSearch(resources, context);
+					performSearch(resources, context, v);
 					return true;
 				}
 				return false;
@@ -234,13 +234,17 @@ public class PinCodeView {
 		btnSubmit.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				performSearch(resources, context);
+				performSearch(resources, context, v);
 			}
 
 		});
 	}
 
-	private static void performSearch(Resources resources, Context context) {
+	private static void performSearch(Resources resources, Context context, View v) {
+		// hide keyboard
+		InputMethodManager inputMethodManager = (InputMethodManager) context
+				.getSystemService(Context.INPUT_METHOD_SERVICE);
+		inputMethodManager.hideSoftInputFromWindow(v.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
 		String stateName = states.getText().toString();
 		String districtName = districts.getText().toString();
 		String officeName = text.getText().toString();

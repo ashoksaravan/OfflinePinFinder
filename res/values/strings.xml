@@ -2,10 +2,8 @@
 <resources>
 
     <string name="app_name">Code Finder</string>
-    <string name="action_settings">Settings</string>
     <string name="edit_message">Enter a message</string>
     <string name="button_search">Search</string>
-    <string name="menu_settings">Settings</string>
     <string name="title_activity_main">Main Activity</string>
     <string name="title_activity_display_message">Result</string>
     <string name="hello_world">Hello world!</string>
@@ -20,8 +18,8 @@
     <string name="location">Location</string>
     <string name="telephone">Telephone</string>
     <string name="NA">N/A</string>
-    <string name="map_nav">Show on Map</string>
-    <string name="share">Show on Map</string>
+    <string name="options">Options</string>
+    <string name="share">Share</string>
     <string name="noMatchingTxt">No matching records found</string>
     <string name="admob_id">ca-app-pub-1841174173430884/1569279852</string>
     <string name="send_to">Share Via</string>

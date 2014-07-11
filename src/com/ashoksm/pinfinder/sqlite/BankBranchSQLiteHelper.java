@@ -5,15 +5,17 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
+import android.widget.Toast;
+
+import com.ashoksm.pinfinder.DisplayBankBranchResultActivity;
 
 public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
 
-	private Context context;
+	private DisplayBankBranchResultActivity context;
 
 	// Logcat tag
 	private static final String CLASS_NAME = BankBranchSQLiteHelper.class.getName();
@@ -51,14 +53,19 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
 			+ LOCATION + " INTEGER, " + "FOREIGN KEY(" + LOCATION + ") REFERENCES " + TABLE_LOCATION + "(" + LOCATION
 			+ "), " + "PRIMARY KEY (" + NAME + "," + IFSC + "," + LOCATION + "))";
 
-	public BankBranchSQLiteHelper(Context contextIn) {
+	public BankBranchSQLiteHelper(DisplayBankBranchResultActivity contextIn) {
 		super(contextIn, DATABASE_NAME, null, DATABASE_VERSION);
 		context = contextIn;
 	}
 
 	@Override
 	public void onCreate(SQLiteDatabase db) {
-
+		context.runOnUiThread(new Runnable() {
+			public void run() {
+				Toast.makeText(context, "Initializing DB, search will take more time to give results then usual!!!", Toast.LENGTH_LONG)
+				.show();
+			}
+		});
 		// crate tables
 		Log.d(CLASS_NAME, CREATE_LOCATION_TABLE);
 		db.execSQL(CREATE_LOCATION_TABLE);

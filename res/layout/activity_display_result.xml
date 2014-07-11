@@ -57,14 +57,13 @@
         android:visibility="gone" >
     </GridView>
 
-    <com.google.ads.AdView
-        xmlns:googleads="http://schemas.android.com/apk/lib/com.google.ads"
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
         android:id="@+id/ad_1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        googleads:adSize="BANNER"
-        googleads:adUnitId="@string/admob_id"
-        googleads:loadAdOnCreate="true" />
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/admob_id" />
 
 </RelativeLayout>

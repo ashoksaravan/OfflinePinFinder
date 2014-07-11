@@ -15,6 +15,8 @@ import android.widget.LinearLayout;
 
 import com.ashoksm.pinfinder.adapter.RTOAdapter;
 import com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
 public class DisplayRTOResultActivity extends ActionBarActivity {
 
@@ -40,6 +42,11 @@ public class DisplayRTOResultActivity extends ActionBarActivity {
 				.replaceAll("'", "''");
 		cityName = intent.getStringExtra(STDView.EXTRA_CITY).toLowerCase(l).replaceAll(" ", "")
 				.replaceAll("'", "''");
+		
+		//load ad
+		AdView adView = (AdView)this.findViewById(R.id.ad_1);
+		AdRequest adRequest = new AdRequest.Builder().build();
+		adView.loadAd(adRequest);
 
 		new AsyncTask<Void, Void, Void>() {
 			LinearLayout linlaHeaderProgress = (LinearLayout) findViewById(R.id.linlaHeaderProgress);
@@ -54,7 +61,7 @@ public class DisplayRTOResultActivity extends ActionBarActivity {
 			@Override
 			protected Void doInBackground(Void... params) {
 				try {
-					sqLiteHelper = new RTOSQLiteHelper(getApplicationContext());
+					sqLiteHelper = new RTOSQLiteHelper(DisplayRTOResultActivity.this);
 					c = sqLiteHelper.findIfscCodes(stateName, cityName);
 					// sqLiteHelper.closeDB();
 				} catch (Exception ex) {
@@ -68,7 +75,7 @@ public class DisplayRTOResultActivity extends ActionBarActivity {
 				getSupportActionBar().setTitle(intent.getStringExtra(BankView.EXTRA_BANK));
 				if (c != null && c.getCount() > 0) {
 					getSupportActionBar().setTitle(c.getCount() + " Results found");
-					adapter = new RTOAdapter(getApplicationContext(), c, false);
+					adapter = new RTOAdapter(DisplayRTOResultActivity.this, c, false);
 					GridView gridview = (GridView) findViewById(R.id.gridview);
 					gridview.setVisibility(View.VISIBLE);
 					gridview.setAdapter(adapter);

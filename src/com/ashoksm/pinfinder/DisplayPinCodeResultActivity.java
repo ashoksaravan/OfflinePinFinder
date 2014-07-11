@@ -15,6 +15,8 @@ import android.widget.LinearLayout;
 
 import com.ashoksm.pinfinder.adapter.PincodeAdapter;
 import com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
 public class DisplayPinCodeResultActivity extends ActionBarActivity {
 
@@ -45,6 +47,11 @@ public class DisplayPinCodeResultActivity extends ActionBarActivity {
 		officeName = intent.getStringExtra(PinCodeView.EXTRA_OFFICE).toLowerCase(l).replaceAll(" ", "")
 				.replaceAll("'", "''");
 
+		//load ad
+		AdView adView = (AdView)this.findViewById(R.id.ad_1);
+		AdRequest adRequest = new AdRequest.Builder().build();
+		adView.loadAd(adRequest);
+				
 		new AsyncTask<Void, Void, Void>() {
 			LinearLayout linlaHeaderProgress = (LinearLayout) findViewById(R.id.linlaHeaderProgress);
 			PincodeAdapter adapter;
@@ -58,7 +65,7 @@ public class DisplayPinCodeResultActivity extends ActionBarActivity {
 			@Override
 			protected Void doInBackground(Void... params) {
 				try {
-					sqLiteHelper = new PinFinderSQLiteHelper(getApplicationContext());
+					sqLiteHelper = new PinFinderSQLiteHelper(DisplayPinCodeResultActivity.this);
 					c = sqLiteHelper.findMatchingOffices(stateName, districtName, officeName);
 					// sqLiteHelper.closeDB();
 				} catch (Exception ex) {
@@ -70,7 +77,7 @@ public class DisplayPinCodeResultActivity extends ActionBarActivity {
 			@Override
 			protected void onPostExecute(Void result) {
 				if (c.getCount() > 0) {
-					adapter = new PincodeAdapter(getApplicationContext(), c, false);
+					adapter = new PincodeAdapter(DisplayPinCodeResultActivity.this, c, false);
 					getSupportActionBar().setTitle(c.getCount() + " Results found");
 					GridView gridview = (GridView) findViewById(R.id.gridview);
 					gridview.setVisibility(View.VISIBLE);

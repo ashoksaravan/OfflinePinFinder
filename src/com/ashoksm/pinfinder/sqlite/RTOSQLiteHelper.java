@@ -5,15 +5,17 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
+import android.widget.Toast;
+
+import com.ashoksm.pinfinder.DisplayRTOResultActivity;
 
 public class RTOSQLiteHelper extends SQLiteOpenHelper {
 
-	private Context context;
+	private DisplayRTOResultActivity context;
 
 	// Logcat tag
 	private static final String CLASS_NAME = RTOSQLiteHelper.class.getName();
@@ -43,14 +45,19 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
 			+ " TEXT, " + CITY + " TEXT, " + "FOREIGN KEY(" + STATE + ") REFERENCES " + TABLE_STATE + "(" + STATE
 			+ "), " + "PRIMARY KEY (" + STATE + "," + CITY + "," + RTO_CODE + "))";
 
-	public RTOSQLiteHelper(Context contextIn) {
+	public RTOSQLiteHelper(DisplayRTOResultActivity contextIn) {
 		super(contextIn, DATABASE_NAME, null, DATABASE_VERSION);
 		context = contextIn;
 	}
 
 	@Override
 	public void onCreate(SQLiteDatabase db) {
-
+		context.runOnUiThread(new Runnable() {
+			public void run() {
+				Toast.makeText(context, "Initializing DB, search will take more time to give results then usual!!!", Toast.LENGTH_LONG)
+				.show();
+			}
+		});
 		// crate tables
 		Log.d(CLASS_NAME, CREATE_STATE_TABLE);
 		db.execSQL(CREATE_STATE_TABLE);

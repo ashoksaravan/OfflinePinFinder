@@ -15,6 +15,8 @@ import android.widget.LinearLayout;
 
 import com.ashoksm.pinfinder.adapter.STDAdapter;
 import com.ashoksm.pinfinder.sqlite.STDSQLiteHelper;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
 public class DisplaySTDResultActivity extends ActionBarActivity {
 
@@ -36,10 +38,13 @@ public class DisplaySTDResultActivity extends ActionBarActivity {
 		Locale l = Locale.getDefault();
 		// Get the message from the intent
 		final Intent intent = getIntent();
-		stateName = intent.getStringExtra(STDView.EXTRA_STATE).toLowerCase(l).replaceAll(" ", "")
-				.replaceAll("'", "''");
-		cityName = intent.getStringExtra(STDView.EXTRA_CITY).toLowerCase(l).replaceAll(" ", "")
-				.replaceAll("'", "''");
+		stateName = intent.getStringExtra(STDView.EXTRA_STATE).toLowerCase(l).replaceAll(" ", "").replaceAll("'", "''");
+		cityName = intent.getStringExtra(STDView.EXTRA_CITY).toLowerCase(l).replaceAll(" ", "").replaceAll("'", "''");
+
+		// load ad
+		AdView adView = (AdView) this.findViewById(R.id.ad_1);
+		AdRequest adRequest = new AdRequest.Builder().build();
+		adView.loadAd(adRequest);
 
 		new AsyncTask<Void, Void, Void>() {
 			LinearLayout linlaHeaderProgress = (LinearLayout) findViewById(R.id.linlaHeaderProgress);
@@ -54,7 +59,7 @@ public class DisplaySTDResultActivity extends ActionBarActivity {
 			@Override
 			protected Void doInBackground(Void... params) {
 				try {
-					sqLiteHelper = new STDSQLiteHelper(getApplicationContext());
+					sqLiteHelper = new STDSQLiteHelper(DisplaySTDResultActivity.this);
 					c = sqLiteHelper.findIfscCodes(stateName, cityName);
 					// sqLiteHelper.closeDB();
 				} catch (Exception ex) {
@@ -68,7 +73,7 @@ public class DisplaySTDResultActivity extends ActionBarActivity {
 				getSupportActionBar().setTitle(intent.getStringExtra(BankView.EXTRA_BANK));
 				if (c != null && c.getCount() > 0) {
 					getSupportActionBar().setTitle(c.getCount() + " Results found");
-					adapter = new STDAdapter(getApplicationContext(), c, false);
+					adapter = new STDAdapter(DisplaySTDResultActivity.this, c, false);
 					GridView gridview = (GridView) findViewById(R.id.gridview);
 					gridview.setVisibility(View.VISIBLE);
 					gridview.setAdapter(adapter);

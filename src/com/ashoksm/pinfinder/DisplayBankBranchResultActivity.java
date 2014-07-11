@@ -15,6 +15,8 @@ import android.widget.LinearLayout;
 
 import com.ashoksm.pinfinder.adapter.BankBranchAdapter;
 import com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
 public class DisplayBankBranchResultActivity extends ActionBarActivity {
 
@@ -48,6 +50,11 @@ public class DisplayBankBranchResultActivity extends ActionBarActivity {
 		branchName = intent.getStringExtra(BankView.EXTRA_BRANCH).toLowerCase(l).replaceAll(" ", "")
 				.replaceAll("'", "''");
 
+		// load ad
+		AdView adView = (AdView) this.findViewById(R.id.ad_1);
+		AdRequest adRequest = new AdRequest.Builder().build();
+		adView.loadAd(adRequest);
+
 		new AsyncTask<Void, Void, Void>() {
 			LinearLayout linlaHeaderProgress = (LinearLayout) findViewById(R.id.linlaHeaderProgress);
 			BankBranchAdapter adapter;
@@ -61,7 +68,7 @@ public class DisplayBankBranchResultActivity extends ActionBarActivity {
 			@Override
 			protected Void doInBackground(Void... params) {
 				try {
-					sqLiteHelper = new BankBranchSQLiteHelper(getApplicationContext());
+					sqLiteHelper = new BankBranchSQLiteHelper(DisplayBankBranchResultActivity.this);
 					c = sqLiteHelper.findIfscCodes(stateName, districtName, bankName, branchName);
 					// sqLiteHelper.closeDB();
 				} catch (Exception ex) {
@@ -74,7 +81,8 @@ public class DisplayBankBranchResultActivity extends ActionBarActivity {
 			protected void onPostExecute(Void result) {
 				getSupportActionBar().setTitle(intent.getStringExtra(BankView.EXTRA_BANK));
 				if (c != null && c.getCount() > 0) {
-					adapter = new BankBranchAdapter(getApplicationContext(), c, false, intent.getStringExtra(BankView.EXTRA_BANK));
+					adapter = new BankBranchAdapter(DisplayBankBranchResultActivity.this, c, false,
+							intent.getStringExtra(BankView.EXTRA_BANK));
 					GridView gridview = (GridView) findViewById(R.id.gridview);
 					gridview.setVisibility(View.VISIBLE);
 					gridview.setAdapter(adapter);

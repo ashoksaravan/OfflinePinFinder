@@ -20,6 +20,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ScrollView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class MainActivity extends ActionBarActivity implements ActionBar.TabListener {
 
 	/**
@@ -62,6 +65,10 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
 			}
 		});
 
+		//load ad
+		AdView adView = (AdView)this.findViewById(R.id.ad);
+		AdRequest adRequest = new AdRequest.Builder().build();
+		adView.loadAd(adRequest);
 		int orientation = getResources().getConfiguration().orientation;
 		if (orientation == Configuration.ORIENTATION_LANDSCAPE) {
 			actionBar.setBackgroundDrawable(new ColorDrawable(Color.WHITE));
@@ -176,28 +183,28 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
 				bankView.setVisibility(View.GONE);
 				stdView.setVisibility(View.GONE);
 				rtoView.setVisibility(View.GONE);
-				PinCodeView.execute(rootView, getResources(), container.getContext());
+				PinCodeView.execute(rootView, getResources(), getActivity());
 				break;
 			case 2:
 				pincodeView.setVisibility(View.GONE);
 				bankView.setVisibility(View.VISIBLE);
 				stdView.setVisibility(View.GONE);
 				rtoView.setVisibility(View.GONE);
-				BankView.execute(rootView, getResources(), container.getContext());
+				BankView.execute(rootView, getResources(),  getActivity());
 				break;
 			case 3:
 				pincodeView.setVisibility(View.GONE);
 				bankView.setVisibility(View.GONE);
 				stdView.setVisibility(View.VISIBLE);
 				rtoView.setVisibility(View.GONE);
-				STDView.execute(rootView, getResources(), container.getContext());
+				STDView.execute(rootView, getResources(),  getActivity());
 				break;
 			case 4:
 				pincodeView.setVisibility(View.GONE);
 				bankView.setVisibility(View.GONE);
 				stdView.setVisibility(View.GONE);
 				rtoView.setVisibility(View.VISIBLE);
-				RTOView.execute(rootView, getResources(), container.getContext());
+				RTOView.execute(rootView, getResources(),  getActivity());
 				break;
 			}
 			return rootView;
