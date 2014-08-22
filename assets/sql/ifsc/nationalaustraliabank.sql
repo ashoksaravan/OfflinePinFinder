@@ -1,1 +1,1 @@
-INSERT INTO bank_branch_t VALUES('Mumbai', 'Mumbai Nariman Point', 'Unit No. 901, 9th Floor Nariman Bhavan, 227 Backbay Reclamation,Nariman Point, Mumbai 400021, India', 'vishal Acharya +91 61988237 / 61988238. 9821183058', '400728000', 'NATA0000001', 9952);
+INSERT INTO bank_branch_t VALUES('Mumbai', 'Mumbai-nariman Point', 'Unit No. 901, 9th Floor Nariman Bhavan, 227 Backbay Reclamation,Nariman Point, Mumbai 400021, India', 'Vishal Acharya +91 61988237 / 61988238. 9821183058', '400728000', 'NATA0000001', 9848);

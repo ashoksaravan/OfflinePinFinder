@@ -60,7 +60,7 @@ public class BankView {
 				branchName.setText("");
 				Locale l = Locale.getDefault();
 				String bankName = parent.getItemAtPosition(position).toString();
-				String resourceName = bankName.toLowerCase(l).replace('.', ' ').replace('(', ' ').replace(')', ' ')
+				String resourceName = bankName.toLowerCase(l).replace('.', ' ').replace('(', ' ').replace(')', ' ').replace('&', ' ')
 						.replaceAll(" ", "").replaceAll("-", "_")
 						+ "_states";
 				int bankId = resources.getIdentifier(resourceName, "array", context.getPackageName());
@@ -85,7 +85,7 @@ public class BankView {
 				Locale l = Locale.getDefault();
 				String bankName = bankNameSpinner.getSelectedItem().toString();
 				String stateName = stateNameTextView.getText().toString();
-				String resourceName = bankName.toLowerCase(l).replace('.', ' ').replace('(', ' ').replace(')', ' ')
+				String resourceName = bankName.toLowerCase(l).replace('.', ' ').replace('(', ' ').replace(')', ' ').replace('&', ' ')
 						.replaceAll(" ", "").replaceAll("-", "_")
 						+ "_"
 						+ stateName.toLowerCase(l).replace('.', ' ').replace('(', ' ').replace(')', ' ')

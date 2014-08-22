@@ -1,3 +1,1 @@
-INSERT INTO bank_branch_t VALUES('Head Office Branch', 'Bangalore', '"uthunga", No 1, Pampamahakavi Road, Chamarajpet, Bangalore-560 018', '080-22976614', '560226001', 'KSCB0000001', 9361);
-INSERT INTO bank_branch_t VALUES('Nasik', 'Nasik', 'Vishal Point,Groung Floor,S No. 707/4/19,Plot No 19,Swamisamarth Chowk,Gangapur Road, Nasik- 422005.', '0253-2340291', '- NA -', 'KJSB0000210', 9362);
-INSERT INTO bank_branch_t VALUES('Bhosari', 'Pune', 'Ground Floor, Sadashiv Palace, 681/1,, Gavhane Industrial Estate,Lande Wadi, Bhosari, Pune-411039', '020-27110086,Avbele@kalyanjanata.In', '411367004', 'KJSB0000212', 9363);
+INSERT INTO bank_branch_t VALUES('Head Office Branch', 'Bangalore', '"uthunga", No 1, Pampamahakavi Road, Chamarajpet, Bangalore-560 018', '080-22976614', '560226001', 'KSCB0000001', 9240);

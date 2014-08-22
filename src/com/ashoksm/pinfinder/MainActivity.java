@@ -22,6 +22,7 @@ import android.widget.ScrollView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
 
 public class MainActivity extends ActionBarActivity implements ActionBar.TabListener {
 
@@ -38,6 +39,8 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
 	 * The {@link ViewPager} that will host the section contents.
 	 */
 	ViewPager mViewPager;
+
+	private InterstitialAd interstitial;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -65,10 +68,18 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
 			}
 		});
 
+		// Create the interstitial.
+	    interstitial = new InterstitialAd(this);
+	    interstitial.setAdUnitId(getString(R.string.admob_id));
+
 		//load ad
 		AdView adView = (AdView)this.findViewById(R.id.ad);
 		AdRequest adRequest = new AdRequest.Builder().build();
 		adView.loadAd(adRequest);
+		
+		// Begin loading your interstitial.
+	    interstitial.loadAd(adRequest);
+
 		int orientation = getResources().getConfiguration().orientation;
 		if (orientation == Configuration.ORIENTATION_LANDSCAPE) {
 			actionBar.setBackgroundDrawable(new ColorDrawable(Color.WHITE));
@@ -87,6 +98,12 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
 		}
 	}
 
+	public void displayInterstitial() {
+		if (interstitial.isLoaded()) {
+			interstitial.show();
+		}
+	}
+
 	@Override
 	public void onTabSelected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
 		// When the given tab is selected, switch to the corresponding page in
@@ -100,6 +117,12 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
 
 	@Override
 	public void onTabReselected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
+	}
+
+	@Override
+	public void onBackPressed() {
+		displayInterstitial();
+		super.onBackPressed();
 	}
 
 	/**

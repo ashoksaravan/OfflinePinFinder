@@ -1,1 +1,1 @@
-INSERT INTO bank_branch_t VALUES('Ceejay House', 'Mumbai', '10th Floor, Ceejay House,Plot F, Shivsagar Estate, dr. Annie Besant Road, Worli, Mumbai 400 018', 'Contact No. : 022 6777 3417 / 3658 fax No. : 6777 3545', '400240269', 'CRES0000001', 5119);
+INSERT INTO bank_branch_t VALUES('Ceejay House', 'Mumbai', '10th Floor, Ceejay House,Plot F, Shivsagar Estate, dr. Annie Besant Road, Worli, Mumbai 400 018', 'Contact No. : 022 6777 3417 / 3658 fax No. : 6777 3545', '400240269', 'CRES0000001', 5132);

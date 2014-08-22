@@ -1,1 +1,1 @@
-INSERT INTO bank_branch_t VALUES('Firn0000001', 'Mumbai', '5th Floor,Mistry Bhavan; 122 Dinsha Vachha Road, Churchgate, Mumbai - 400020', 'N.S Gopalan : +91 9820522399; 91-22-66258628; Prem Potale : +91 9819498845; 91-22-66258646; Anand Dattadri: +91-9920883432; 91-22-66258601', '- NA -', 'FIRN0000001', 5877);
+INSERT INTO bank_branch_t VALUES('Firn0000001', 'Mumbai', '5th Floor,Mistry Bhavan; 122 Dinsha Vachha Road, Churchgate, Mumbai - 400020', '', '', 'FIRN0000001', 5894);
