@@ -18,9 +18,12 @@ import android.text.style.ForegroundColorSpan;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.ScrollView;
 
+import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 
@@ -41,7 +44,7 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
 	ViewPager mViewPager;
 
 	private InterstitialAd interstitial;
-	
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -69,16 +72,36 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
 		});
 
 		// Create the interstitial.
-	    interstitial = new InterstitialAd(this);
-	    interstitial.setAdUnitId(getString(R.string.admob_id));
+		interstitial = new InterstitialAd(this);
+		interstitial.setAdUnitId(getString(R.string.admob_id));
 
-		//load ad
-		AdView adView = (AdView)this.findViewById(R.id.ad);
+		// load ad
+		final LinearLayout adParent = (LinearLayout) this.findViewById(R.id.ad);
+		final AdView ad = new AdView(this);
+        ad.setAdUnitId(getString(R.string.admob_id));
+        ad.setAdSize(AdSize.SMART_BANNER);
+
+        final AdListener listener = new AdListener() {
+            @Override
+            public void onAdLoaded() {
+            	adParent.setVisibility(View.VISIBLE);
+                super.onAdLoaded();
+            }
+            
+            @Override
+            public void onAdFailedToLoad(int errorCode) {
+            	adParent.setVisibility(View.GONE);
+            	super.onAdFailedToLoad(errorCode);
+            }
+        };
+
+        ad.setAdListener(listener);
+
+        adParent.addView(ad);
 		AdRequest adRequest = new AdRequest.Builder().build();
-		adView.loadAd(adRequest);
-		
+		ad.loadAd(adRequest);
 		// Begin loading your interstitial.
-	    interstitial.loadAd(adRequest);
+		interstitial.loadAd(adRequest);
 
 		int orientation = getResources().getConfiguration().orientation;
 		if (orientation == Configuration.ORIENTATION_LANDSCAPE) {
@@ -213,21 +236,21 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
 				bankView.setVisibility(View.VISIBLE);
 				stdView.setVisibility(View.GONE);
 				rtoView.setVisibility(View.GONE);
-				BankView.execute(rootView, getResources(),  getActivity());
+				BankView.execute(rootView, getResources(), getActivity());
 				break;
 			case 3:
 				pincodeView.setVisibility(View.GONE);
 				bankView.setVisibility(View.GONE);
 				stdView.setVisibility(View.VISIBLE);
 				rtoView.setVisibility(View.GONE);
-				STDView.execute(rootView, getResources(),  getActivity());
+				STDView.execute(rootView, getResources(), getActivity());
 				break;
 			case 4:
 				pincodeView.setVisibility(View.GONE);
 				bankView.setVisibility(View.GONE);
 				stdView.setVisibility(View.GONE);
 				rtoView.setVisibility(View.VISIBLE);
-				RTOView.execute(rootView, getResources(),  getActivity());
+				RTOView.execute(rootView, getResources(), getActivity());
 				break;
 			}
 			return rootView;

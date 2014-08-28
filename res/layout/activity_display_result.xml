@@ -7,6 +7,7 @@
         android:id="@+id/linlaHeaderProgress"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
+        android:layout_above="@+id/ad_1"
         android:gravity="center"
         android:orientation="vertical"
         android:visibility="gone" >
@@ -22,6 +23,7 @@
         android:id="@+id/noMatchingLayout"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
+        android:layout_above="@+id/ad_1"
         android:gravity="center"
         android:orientation="vertical"
         android:visibility="gone" >
@@ -57,13 +59,11 @@
         android:visibility="gone" >
     </GridView>
 
-    <com.google.android.gms.ads.AdView
-        xmlns:ads="http://schemas.android.com/apk/res-auto"
+    <LinearLayout
         android:id="@+id/ad_1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        ads:adSize="BANNER"
-        ads:adUnitId="@string/admob_id" />
+        android:visibility="gone" />
 
 </RelativeLayout>

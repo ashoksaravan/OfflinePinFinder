@@ -3229,7 +3229,7 @@ containing a value of this type.
         public static final int action_mode_close_button=0x7f080036;
         public static final int activity_chooser_view_content=0x7f080037;
         public static final int ad=0x7f080054;
-        public static final int ad_1=0x7f080052;
+        public static final int ad_1=0x7f08004f;
         public static final int address=0x7f08005f;
         public static final int addressRow=0x7f08005e;
         public static final int always=0x7f08001e;
@@ -3265,7 +3265,7 @@ containing a value of this type.
         public static final int expand_activities_button=0x7f080038;
         public static final int expanded_menu=0x7f08003e;
         public static final int grayscale=0x7f080012;
-        public static final int gridview=0x7f080051;
+        public static final int gridview=0x7f080052;
         public static final int headofficeLabel=0x7f080083;
         public static final int headofficeName=0x7f080084;
         public static final int headofficeRow=0x7f080082;
@@ -3292,14 +3292,14 @@ containing a value of this type.
         public static final int middle=0x7f080024;
         public static final int monochrome=0x7f080013;
         public static final int never=0x7f08001c;
-        public static final int noMatchingLayout=0x7f080050;
+        public static final int noMatchingLayout=0x7f080051;
         public static final int none=0x7f080000;
         public static final int normal=0x7f080001;
         public static final int officeName=0x7f08007a;
         public static final int officeRow=0x7f080079;
         public static final int options=0x7f080057;
         public static final int pager=0x7f080053;
-        public static final int pbHeaderProgress=0x7f08004f;
+        public static final int pbHeaderProgress=0x7f080050;
         public static final int pincode=0x7f08007c;
         public static final int pincodeRow=0x7f08007b;
         public static final int pincodeView=0x7f080066;

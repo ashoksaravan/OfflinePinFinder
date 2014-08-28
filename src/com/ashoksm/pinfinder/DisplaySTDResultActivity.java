@@ -15,7 +15,9 @@ import android.widget.LinearLayout;
 
 import com.ashoksm.pinfinder.adapter.STDAdapter;
 import com.ashoksm.pinfinder.sqlite.STDSQLiteHelper;
+import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 
 public class DisplaySTDResultActivity extends ActionBarActivity {
@@ -42,9 +44,30 @@ public class DisplaySTDResultActivity extends ActionBarActivity {
 		cityName = intent.getStringExtra(STDView.EXTRA_CITY).toLowerCase(l).replaceAll(" ", "").replaceAll("'", "''");
 
 		// load ad
-		AdView adView = (AdView) this.findViewById(R.id.ad_1);
+		final LinearLayout adParent = (LinearLayout) this.findViewById(R.id.ad_1);
+		final AdView ad = new AdView(this);
+		ad.setAdUnitId(getString(R.string.admob_id));
+		ad.setAdSize(AdSize.SMART_BANNER);
+
+		final AdListener listener = new AdListener() {
+			@Override
+			public void onAdLoaded() {
+				adParent.setVisibility(View.VISIBLE);
+				super.onAdLoaded();
+			}
+
+			@Override
+			public void onAdFailedToLoad(int errorCode) {
+				adParent.setVisibility(View.GONE);
+				super.onAdFailedToLoad(errorCode);
+			}
+		};
+
+		ad.setAdListener(listener);
+
+		adParent.addView(ad);
 		AdRequest adRequest = new AdRequest.Builder().build();
-		adView.loadAd(adRequest);
+		ad.loadAd(adRequest);
 
 		new AsyncTask<Void, Void, Void>() {
 			LinearLayout linlaHeaderProgress = (LinearLayout) findViewById(R.id.linlaHeaderProgress);
