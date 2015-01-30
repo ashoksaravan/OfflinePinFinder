@@ -29,7 +29,7 @@ public class BankView {
 
 	private static AutoCompleteTextView districtNameTextView;
 
-	private static EditText branchName;
+	private static AutoCompleteTextView branchName;
 
 	public final static String EXTRA_STATE = "com.ashoksm.offlinepinfinder.STATE";
 
@@ -43,7 +43,7 @@ public class BankView {
 		bankNameSpinner = (Spinner) rootView.findViewById(R.id.bankName);
 		stateNameTextView = (AutoCompleteTextView) rootView.findViewById(R.id.stateName);
 		districtNameTextView = (AutoCompleteTextView) rootView.findViewById(R.id.districtName);
-		branchName = (EditText) rootView.findViewById(R.id.branchName);
+		branchName = (AutoCompleteTextView) rootView.findViewById(R.id.branchName);
 		ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(context, R.array.bank_names,
 				R.layout.spinner_item);
 		// Specify the layout to use when the list of choices appears

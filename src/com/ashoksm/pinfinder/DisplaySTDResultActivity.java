@@ -6,21 +6,21 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
-import android.view.Window;
 import android.widget.GridView;
 import android.widget.LinearLayout;
 
 import com.ashoksm.pinfinder.adapter.STDAdapter;
+import com.ashoksm.pinfinder.common.activities.ActivityBase;
 import com.ashoksm.pinfinder.sqlite.STDSQLiteHelper;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 
-public class DisplaySTDResultActivity extends ActionBarActivity {
+public class DisplaySTDResultActivity extends ActivityBase {
 
 	private STDSQLiteHelper sqLiteHelper;
 
@@ -33,9 +33,10 @@ public class DisplaySTDResultActivity extends ActionBarActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
-		setProgressBarIndeterminateVisibility(true);
 		setContentView(R.layout.activity_display_result);
+		Toolbar toolbar = (Toolbar) findViewById(R.id.my_awesome_toolbar);
+		toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
+		setSupportActionBar(toolbar);
 
 		Locale l = Locale.getDefault();
 		// Get the message from the intent
@@ -109,7 +110,6 @@ public class DisplaySTDResultActivity extends ActionBarActivity {
 			}
 
 		}.execute();
-		setProgressBarIndeterminateVisibility(false);
 	}
 
 	@Override

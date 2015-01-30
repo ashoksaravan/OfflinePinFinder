@@ -7,9 +7,9 @@ import android.database.Cursor;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
-import android.view.Window;
 import android.widget.GridView;
 import android.widget.LinearLayout;
 
@@ -37,9 +37,10 @@ public class DisplayBankBranchResultActivity extends ActionBarActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
-		setProgressBarIndeterminateVisibility(true);
 		setContentView(R.layout.activity_display_result);
+		Toolbar toolbar = (Toolbar) findViewById(R.id.my_awesome_toolbar);
+		toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
+		setSupportActionBar(toolbar);
 
 		Locale l = Locale.getDefault();
 		// Get the message from the intent
@@ -118,7 +119,6 @@ public class DisplayBankBranchResultActivity extends ActionBarActivity {
 			}
 
 		}.execute();
-		setProgressBarIndeterminateVisibility(false);
 	}
 
 	@Override

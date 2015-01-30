@@ -15,7 +15,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.CursorAdapter;
-import android.widget.ImageView;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.ashoksm.pinfinder.R;
@@ -34,7 +34,7 @@ public class RTOAdapter extends CursorAdapter {
 			holder = new ViewHolder();
 		}
 
-		holder.options = (ImageView) view.findViewById(R.id.options);
+		holder.options = (ImageButton) view.findViewById(R.id.options);
 
 		holder.city = (TextView) view.findViewById(R.id.rCityName);
 
@@ -115,7 +115,7 @@ public class RTOAdapter extends CursorAdapter {
 
 	static class ViewHolder {
 		TextView state;
-		ImageView options;
+		ImageButton options;
 		TextView city;
 		TextView rtoCode;
 	}

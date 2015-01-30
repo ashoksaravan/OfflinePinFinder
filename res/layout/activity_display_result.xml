@@ -3,67 +3,82 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" >
 
-    <LinearLayout
-        android:id="@+id/linlaHeaderProgress"
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/my_awesome_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_above="@+id/ad_1"
-        android:gravity="center"
-        android:orientation="vertical"
-        android:visibility="gone" >
+        android:layout_below="@+id/my_awesome_toolbar" >
 
-        <ProgressBar
-            android:id="@+id/pbHeaderProgress"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
-        </ProgressBar>
-    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linlaHeaderProgress"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/ad_1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone" >
 
-    <LinearLayout
-        android:id="@+id/noMatchingLayout"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_above="@+id/ad_1"
-        android:gravity="center"
-        android:orientation="vertical"
-        android:visibility="gone" >
+            <ProgressBar
+                android:id="@+id/pbHeaderProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </ProgressBar>
+        </LinearLayout>
 
-        <TextView
+        <LinearLayout
+            android:id="@+id/noMatchingLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/ad_1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/noMatchingTxt"
+                android:textColor="#808080"
+                android:textIsSelectable="false"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/gridview"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/noMatchingTxt"
-            android:textColor="#808080"
-            android:textIsSelectable="false"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-    </LinearLayout>
+            android:layout_above="@+id/ad_1"
+            android:layout_alignParentTop="true"
+            android:background="#b0bec5"
+            android:cacheColorHint="#00000000"
+            android:clipChildren="true"
+            android:horizontalSpacing="5dp"
+            android:numColumns="1"
+            android:paddingBottom="5dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="10dp"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="5dp"
+            android:visibility="gone" >
+        </GridView>
 
-    <GridView
-        android:id="@+id/gridview"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/ad_1"
-        android:layout_alignParentTop="true"
-        android:background="#CCCCCC"
-        android:cacheColorHint="#00000000"
-        android:clipChildren="true"
-        android:horizontalSpacing="5dp"
-        android:numColumns="1"
-        android:paddingBottom="5dp"
-        android:paddingLeft="8dp"
-        android:paddingRight="8dp"
-        android:paddingTop="10dp"
-        android:stretchMode="columnWidth"
-        android:verticalSpacing="10dp"
-        android:visibility="gone" >
-    </GridView>
-
-    <LinearLayout
-        android:id="@+id/ad_1"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:visibility="gone" />
+        <LinearLayout
+            android:id="@+id/ad_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone" />
+    </RelativeLayout>
 
 </RelativeLayout>

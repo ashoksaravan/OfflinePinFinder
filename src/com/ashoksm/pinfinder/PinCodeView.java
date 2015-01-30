@@ -32,7 +32,7 @@ public class PinCodeView {
 	/**
 	 * text.
 	 */
-	private static EditText text;
+	private static AutoCompleteTextView text;
 
 	/**
 	 * statesAdapter.
@@ -217,7 +217,7 @@ public class PinCodeView {
 	public static void addListenerOnButton(View rootView, final Resources resources, final Context context) {
 		states = (AutoCompleteTextView) rootView.findViewById(R.id.states);
 		districts = (AutoCompleteTextView) rootView.findViewById(R.id.districts);
-		text = (EditText) rootView.findViewById(R.id.text1);
+		text = (AutoCompleteTextView) rootView.findViewById(R.id.text1);
 		Button btnSubmit = (Button) rootView.findViewById(R.id.Search);
 
 		text.setOnEditorActionListener(new EditText.OnEditorActionListener() {

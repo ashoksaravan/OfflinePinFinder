@@ -16,7 +16,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.CursorAdapter;
-import android.widget.ImageView;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.ashoksm.pinfinder.R;
@@ -40,7 +40,7 @@ public class BankBranchAdapter extends CursorAdapter {
 
 		holder.branchName = (TextView) view.findViewById(R.id.branch);
 
-		holder.options = (ImageView) view.findViewById(R.id.options);
+		holder.options = (ImageButton) view.findViewById(R.id.options);
 
 		holder.city = (TextView) view.findViewById(R.id.city);
 
@@ -143,7 +143,7 @@ public class BankBranchAdapter extends CursorAdapter {
 
 	static class ViewHolder {
 		TextView branchName;
-		ImageView options;
+		ImageButton options;
 		TextView city;
 		TextView district;
 		TextView state;

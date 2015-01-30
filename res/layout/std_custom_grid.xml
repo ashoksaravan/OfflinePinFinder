@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".4"
             android:text="@string/stdCode"
-            android:textColor="#B31B1B"
+            android:textColor="#ff5722"
             android:textIsSelectable="false"
             android:textStyle="bold" />
 
@@ -36,15 +36,15 @@
             android:text="@string/NA"
             android:textIsSelectable="true" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/options"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+           android:background="@android:color/transparent"
             android:layout_weight=".05"
             android:contentDescription="@string/options"
-            android:paddingRight="1dp"
             android:scaleType="fitEnd"
-            android:src="@drawable/ic_core_overflow" />
+            android:src="@drawable/button_bg" />
 
     </LinearLayout>
 
@@ -62,7 +62,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".4"
             android:text="@string/city"
-            android:textColor="#B31B1B"
+            android:textColor="#ff5722"
             android:textIsSelectable="false"
             android:textStyle="bold" />
 
@@ -88,7 +88,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".4"
             android:text="@string/state"
-            android:textColor="#B31B1B"
+            android:textColor="#ff5722"
             android:textIsSelectable="false"
             android:textStyle="bold" />
 

@@ -16,7 +16,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.CursorAdapter;
-import android.widget.ImageView;
+import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -38,7 +38,7 @@ public class PincodeAdapter extends CursorAdapter {
 
 		holder.officeName = (TextView) view.findViewById(R.id.officeName);
 
-		holder.options = (ImageView) view.findViewById(R.id.options);
+		holder.options = (ImageButton) view.findViewById(R.id.options);
 
 		holder.pincode = (TextView) view.findViewById(R.id.pincode);
 
@@ -191,7 +191,7 @@ public class PincodeAdapter extends CursorAdapter {
 
 	static class ViewHolder {
 		TextView officeName;
-		ImageView options;
+		ImageButton options;
 		TextView pincode;
 		TextView stauts;
 		TextView suboffice;
