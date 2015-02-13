@@ -5,8 +5,8 @@
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     -->
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">#f44336</item>
-        <item name="android:textColorPrimary">#f44336</item>
+        <item name="colorPrimary">#d50000</item>
+        <item name="android:textColorPrimary">#d50000</item>
     </style>
 
     <!-- Application theme. -->

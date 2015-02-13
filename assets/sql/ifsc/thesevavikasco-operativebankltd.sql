@@ -1,1 +1,1 @@
-INSERT INTO bank_branch_t VALUES('Pune', 'Pune', 'Seva Bhawan , Near Sadhu Vaswani Garden, Pimpri Kalewadi Road Pimpri  Pune- 411017', 'Ramesh Hinduja rameshhinduja@sevavikasbank.com 9763721176', '411412002', 'SVBL0000001', 14259);
+INSERT INTO bank_branch_t VALUES('Rtgs-ho', 'Pune', 'Seva Bhavan,near,sadhu Vaswani Garden Pimpri Pune', '27412289', '411412002', 'SVBL0000001', 21909);

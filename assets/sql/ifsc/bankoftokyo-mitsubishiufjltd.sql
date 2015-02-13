@@ -1,4 +1,5 @@
-INSERT INTO bank_branch_t VALUES('Chennai Branch', 'Chennai', '6th Floor, Venkatramana Centre, 563/2, Anna Salai, Teynampet, chennai-600 018', '', '600033001', 'BOTM0CN3615', 3050);
-INSERT INTO bank_branch_t VALUES('Mumbai Branch', 'Mumbai', '15th Floor, Hoechst House, 193, vinay K. Shah Marg backbay Reclamation, Nariman Point, mumbai - 400 021', '', '400033001', 'BOTM0MB3612', 3048);
-INSERT INTO bank_branch_t VALUES('New Delhi Branch', 'Delhi', 'Jeevan Vihar Building,  3, Parliament Street, new Delhi - 110 001', '', '110033001', 'BOTM0ND3611', 3047);
-INSERT INTO bank_branch_t VALUES('Neemrana', 'Neemrana', 'G47, Industrial Area, Neemrana, Tehsil Behrod, Distt. Alwar 301705, Rajasthan', '09810730151, 01494246223, 01494246224', '301033025', 'BOTM0NEEMRA', 3049);
+INSERT INTO bank_branch_t VALUES('Bangalore', 'Bangalore', 'World Trade Center,brigade Gateway Campus,26 BY 1,DR.RAJKUMAR Road,malleshwaram West,bangalore', '6758000', '560033002', 'BOTM0BL3626', 6068);
+INSERT INTO bank_branch_t VALUES('Chennai Branch', 'Chennai', 'Seshachalam Centre, 6TH AND 7TH Floor Door NO. 636 BY 1, Anna Salai Nandanam Chennai 600035', '0', 'NA', 'BOTM0CN3615', 6071);
+INSERT INTO bank_branch_t VALUES('Mumbai', 'Mumbai', 'Hoechst House,15th Floor,vinay K Shah Marg,nariman Point,mumbai 400 005', '0', 'NA', 'BOTM0MB3612', 6069);
+INSERT INTO bank_branch_t VALUES('NEW Delhi Branch', 'NEW Delhi', '3, Parliament Street, Jeevan Vihar Building, NEW Delhi- 110001', '0', 'NA', 'BOTM0ND3611', 6067);
+INSERT INTO bank_branch_t VALUES('Neemrana', 'Alwar', 'G47,industrial Area,neemrana,tehsil BEHROD,DISTT.ALWAR 301705,rajasthan', '0', 'NA', 'BOTM0NEEMRA', 6070);

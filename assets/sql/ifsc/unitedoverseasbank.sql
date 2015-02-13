@@ -1,1 +1,1 @@
-INSERT INTO bank_branch_t VALUES('Mumbai', 'Mumbai', 'United Overseas Bank Limited, 3rd North Avenue Maker Maxity Unit 31 & 37, 3rd Floor Bandra Kurla Complex Mumbai 400051', 'Satishkumar Rao 022-42472811 / 9820292898; Ganesh Viswanathan 022-42472812 / 9833235730; Mahesh Nadkarni 022-42472815 / 9820295149; Radheyshyam Joshi 022-42472814 / 9820130598', '400036257', 'UOVB0000001', 16155);
+INSERT INTO bank_branch_t VALUES('Rtgs-ho', 'Mumbai', 'United Overseas Bank Ltd, 3 North Avenue,?maker Maxity, ?unit 31 & 37,?3rd Floor', '42472814', '400036257', 'UOVB0000001', 23952);

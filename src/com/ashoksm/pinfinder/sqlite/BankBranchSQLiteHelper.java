@@ -21,7 +21,7 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
 	private static final String CLASS_NAME = BankBranchSQLiteHelper.class.getName();
 
 	// Database Version
-	private static final int DATABASE_VERSION = 4;
+	private static final int DATABASE_VERSION = 5;
 
 	// Database Name
 	private static final String DATABASE_NAME = "ashoksm.bankbranch";
@@ -62,8 +62,8 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
 	public void onCreate(SQLiteDatabase db) {
 		context.runOnUiThread(new Runnable() {
 			public void run() {
-				Toast.makeText(context, "Initializing DB, search will take more time to give results then usual!!!", Toast.LENGTH_LONG)
-				.show();
+				Toast.makeText(context, "Initializing DB, search will take more time to give results then usual!!!",
+						Toast.LENGTH_LONG).show();
 			}
 		});
 		// crate tables
@@ -96,7 +96,8 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
 			db.beginTransaction();
 			String[] fileNames = context.getAssets().list("sql/ifsc");
 			for (String name : fileNames) {
-				if (name.endsWith(".sql") && !name.equals("banklocation.sql") && !name.equals("banklocation_1.sql")) {
+				if (name.endsWith(".sql") && !name.equals("banklocation.sql") && !name.equals("banklocation_1.sql")
+						&& !name.equals("banklocation_2.sql") && !name.equals("banklocation_3.sql")) {
 					// Open the resource
 					InputStream insertsStream = context.getAssets().open("sql/ifsc/" + name);
 					BufferedReader insertReader = new BufferedReader(new InputStreamReader(insertsStream));
@@ -111,7 +112,7 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
 				}
 			}
 			db.setTransactionSuccessful();
-		} catch (IOException ioEx) {
+		} catch (Exception ioEx) {
 			Log.e(CLASS_NAME, ioEx.getMessage());
 		} finally {
 			db.endTransaction();
@@ -144,6 +145,30 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
 				}
 			}
 			insertReader1.close();
+
+			// Open the resource
+			InputStream insertsStream2 = context.getAssets().open("sql/ifsc/banklocation_2.sql");
+			BufferedReader insertReader2 = new BufferedReader(new InputStreamReader(insertsStream2));
+
+			while (insertReader2.ready()) {
+				String insertStmt = insertReader2.readLine();
+				if (insertStmt != null) {
+					db.execSQL(insertStmt);
+				}
+			}
+			insertReader2.close();
+
+			// Open the resource
+			InputStream insertsStream3 = context.getAssets().open("sql/ifsc/banklocation_3.sql");
+			BufferedReader insertReader3 = new BufferedReader(new InputStreamReader(insertsStream3));
+
+			while (insertReader3.ready()) {
+				String insertStmt = insertReader3.readLine();
+				if (insertStmt != null) {
+					db.execSQL(insertStmt);
+				}
+			}
+			insertReader3.close();
 			db.setTransactionSuccessful();
 		} catch (IOException ioEx) {
 			Log.e(CLASS_NAME, ioEx.getMessage());

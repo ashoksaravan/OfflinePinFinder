@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".4"
             android:text="@string/officename"
-            android:textColor="#ff5722"
+            android:textColor="#d50000"
             android:textIsSelectable="false"
             android:textStyle="bold" />
 
@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".4"
             android:text="@string/pincode"
-            android:textColor="#ff5722"
+            android:textColor="#d50000"
             android:textIsSelectable="false"
             android:textStyle="bold" />
 
@@ -86,7 +86,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".4"
             android:text="@string/status"
-            android:textColor="#ff5722"
+            android:textColor="#d50000"
             android:textIsSelectable="false"
             android:textStyle="bold" />
 
@@ -113,7 +113,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".4"
             android:text="@string/suboffice"
-            android:textColor="#ff5722"
+            android:textColor="#d50000"
             android:textIsSelectable="false"
             android:textStyle="bold" />
 
@@ -141,7 +141,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".4"
             android:text="@string/headoffice"
-            android:textColor="#ff5722"
+            android:textColor="#d50000"
             android:textIsSelectable="false"
             android:textStyle="bold" />
 
@@ -168,7 +168,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".4"
             android:text="@string/location"
-            android:textColor="#ff5722"
+            android:textColor="#d50000"
             android:textIsSelectable="false"
             android:textStyle="bold" />
 
@@ -196,7 +196,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".4"
             android:text="@string/state"
-            android:textColor="#ff5722"
+            android:textColor="#d50000"
             android:textIsSelectable="false"
             android:textStyle="bold" />
 
@@ -223,7 +223,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".4"
             android:text="@string/telephone"
-            android:textColor="#ff5722"
+            android:textColor="#d50000"
             android:textIsSelectable="false"
             android:textStyle="bold" />
 

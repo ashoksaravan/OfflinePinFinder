@@ -1,1 +1,1 @@
-INSERT INTO bank_branch_t VALUES('Mumbai', 'Mumbai', 'Deposit Insurance And Credit Guarantee Corporation, Reserve Bank Of India, Byculla Office, 2nd Floor, Opp. Mumbai Central Railway Station, Mumbai Central, Mumbai ? 400 008', '', '', 'DICG0000002', 5658);
+INSERT INTO bank_branch_t VALUES('Fort', 'Mumbai', 'COB Fort', '23019792', '400001001', 'DICG0000002', 8726);

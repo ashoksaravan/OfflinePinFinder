@@ -1,1 +1,2 @@
-INSERT INTO bank_branch_t VALUES('Chennai', 'Chennai', '1090, Poonamallee, High Road, Egmore, Chennai 600 084', '', '600331001', 'BCEY0CHEN01', 2279);
+INSERT INTO bank_branch_t VALUES('Head Office', 'Chennai', 'Chennai Branch, NO.1090, Poonamallee High Road, Chennai 600 084', '0', 'NA', 'BCEY0000001', 2897);
+INSERT INTO bank_branch_t VALUES('Rtgs-ho', 'Chennai', 'Chennai', '0', 'NA', 'BCEY0CHEN01', 2897);

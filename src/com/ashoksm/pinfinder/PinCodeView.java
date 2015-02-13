@@ -206,6 +206,10 @@ public class PinCodeView {
 					String[] districtPuducherry = resources.getStringArray(R.array.district_up);
 					districts.setAdapter(new ArrayAdapter<String>(context, R.layout.spinner_dropdown_item,
 							districtPuducherry));
+				} else if (states.getText().toString().equals("Telangana")) {
+					String[] districtPuducherry = resources.getStringArray(R.array.district_te);
+					districts.setAdapter(new ArrayAdapter<String>(context, R.layout.spinner_dropdown_item,
+							districtPuducherry));
 				} else {
 					// not supported
 					Toast.makeText(context, "State not supported yet!!!", Toast.LENGTH_LONG).show();

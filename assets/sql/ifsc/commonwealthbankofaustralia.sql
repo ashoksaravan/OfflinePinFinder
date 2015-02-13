@@ -1,1 +1,1 @@
-INSERT INTO bank_branch_t VALUES('Mumbai', 'Mumbai', 'Level 2, Hoechst House, Nariman Point, Mumbai 400 021', '+91 22 6139 0100', '400240268', 'CTBA0000001', 4623);
+INSERT INTO bank_branch_t VALUES('Rtgs-ho', 'Mumbai', 'Level 2, Hoechst House,nariman Point, Mumbai 400021', '61390100', '400240268', 'CTBA0000001', 7593);

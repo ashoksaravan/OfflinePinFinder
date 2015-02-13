@@ -1,1 +1,1 @@
-INSERT INTO bank_branch_t VALUES('Firn0000001', 'Mumbai', '5th Floor,Mistry Bhavan; 122 Dinsha Vachha Road, Churchgate, Mumbai - 400020', '', '', 'FIRN0000001', 5894);
+INSERT INTO bank_branch_t VALUES('Rtgs-ho', 'Mumbai', '5TH Floor,tcg Financial Centre,c 53 G Block Bandra Kurla Complex,bandra E,mumbai400051', '0', 'NA', 'FIRN0000001', 8998);

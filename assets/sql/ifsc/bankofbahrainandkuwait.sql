@@ -1,3 +1,4 @@
-INSERT INTO bank_branch_t VALUES('Mumbai', 'Mumbai', 'Jolly Maker Chambers Ii,225, Nariman Point', '', '400150002', 'BBKM0000001', 1786);
-INSERT INTO bank_branch_t VALUES('Hyderabad', 'Hyderabad', '6-3-550, Akashganga,Somajiguda,Hyderabad - 500082', '23305859', '500150002', 'BBKM0000003', 1784);
-INSERT INTO bank_branch_t VALUES('Aluva', 'Ernakulam', 'Ground Floor,Hotel Sunny''s Building No - 19 / 1 (2) Re S.N0 26 & 81, Nh 47,Bye Pass Junction Aluva,Dist- Ernakulam,Kerala', '4037437', '682150002', 'BBKM0000004', 1785);
+INSERT INTO bank_branch_t VALUES('Rtgs-ho', 'Mumbai', '225,jolly Makers Chambers Ii,nariman Point,mumbai', '22823698', '400150002', 'BBKM0000001', 1601);
+INSERT INTO bank_branch_t VALUES('Hyderabad', 'Hyderabad', '6 3 550,akashganga,somajiguda,hyderabad 500082', '23305859', '500150002', 'BBKM0000003', 1598);
+INSERT INTO bank_branch_t VALUES('Aluva', 'Ernakulam', 'Hotel Sunny S Building NO 19 BY 1 2 RE S.N0 26 AND 81,nh 47,dist Ernakulam,kerala', '4037437', '682150002', 'BBKM0000004', 1600);
+INSERT INTO bank_branch_t VALUES('NEW Delhi', 'NEW Delhi', 'Unit NO 3 & 4 ,ground Flr,eros Corporate Tower,opp Nehru Place Metro Station,nehru Place,new Delhi,pin Code -110019', '2147483647', '110150002', 'BBKM0000005', 1599);
