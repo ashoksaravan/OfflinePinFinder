@@ -7,13 +7,14 @@ import android.database.Cursor;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
-import android.widget.GridView;
 import android.widget.LinearLayout;
 
-import com.ashoksm.pinfinder.adapter.PincodeAdapter;
+import com.ashoksm.pinfinder.adapter.PinCodeRecyclerViewAdapter;
 import com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -39,6 +40,16 @@ public class DisplayPinCodeResultActivity extends ActionBarActivity {
 		Toolbar toolbar = (Toolbar) findViewById(R.id.my_awesome_toolbar);
 		toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
 		setSupportActionBar(toolbar);
+		
+		final RecyclerView mRecyclerView = (RecyclerView) findViewById(R.id.gridview);
+
+		// use this setting to improve performance if you know that changes
+		// in content do not change the layout size of the RecyclerView
+		mRecyclerView.setHasFixedSize(true);
+
+		// use a linear layout manager
+		LinearLayoutManager mLayoutManager = new LinearLayoutManager(this);
+		mRecyclerView.setLayoutManager(mLayoutManager);
 
 		Locale l = Locale.getDefault();
 		// Get the message from the intent
@@ -78,7 +89,7 @@ public class DisplayPinCodeResultActivity extends ActionBarActivity {
 
 		new AsyncTask<Void, Void, Void>() {
 			LinearLayout linlaHeaderProgress = (LinearLayout) findViewById(R.id.linlaHeaderProgress);
-			PincodeAdapter adapter;
+			PinCodeRecyclerViewAdapter adapter;
 
 			@Override
 			protected void onPreExecute() {
@@ -101,11 +112,10 @@ public class DisplayPinCodeResultActivity extends ActionBarActivity {
 			@Override
 			protected void onPostExecute(Void result) {
 				if (c.getCount() > 0) {
-					adapter = new PincodeAdapter(DisplayPinCodeResultActivity.this, c, false);
+					adapter = new PinCodeRecyclerViewAdapter(DisplayPinCodeResultActivity.this, c);
 					getSupportActionBar().setTitle(c.getCount() + " Results found");
-					GridView gridview = (GridView) findViewById(R.id.gridview);
-					gridview.setVisibility(View.VISIBLE);
-					gridview.setAdapter(adapter);
+					mRecyclerView.setAdapter(adapter);
+					mRecyclerView.setVisibility(View.VISIBLE);
 				} else {
 					LinearLayout noMatchingLayout = (LinearLayout) findViewById(R.id.noMatchingLayout);
 					noMatchingLayout.setVisibility(View.VISIBLE);

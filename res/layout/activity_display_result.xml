@@ -53,25 +53,18 @@
                 android:textStyle="bold" />
         </LinearLayout>
 
-        <GridView
+        <android.support.v7.widget.RecyclerView
             android:id="@+id/gridview"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_above="@+id/ad_1"
             android:layout_alignParentTop="true"
-            android:background="#b0bec5"
-            android:cacheColorHint="#00000000"
-            android:clipChildren="true"
-            android:horizontalSpacing="5dp"
-            android:numColumns="1"
             android:paddingBottom="5dp"
-            android:paddingLeft="8dp"
-            android:paddingRight="8dp"
-            android:paddingTop="10dp"
-            android:stretchMode="columnWidth"
-            android:verticalSpacing="5dp"
-            android:visibility="gone" >
-        </GridView>
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:scrollbars="vertical"
+            android:visibility="gone" />
 
         <LinearLayout
             android:id="@+id/ad_1"

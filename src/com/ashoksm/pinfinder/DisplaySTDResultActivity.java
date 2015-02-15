@@ -6,13 +6,14 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
-import android.widget.GridView;
 import android.widget.LinearLayout;
 
-import com.ashoksm.pinfinder.adapter.STDAdapter;
+import com.ashoksm.pinfinder.adapter.STDRecyclerViewAdapter;
 import com.ashoksm.pinfinder.common.activities.ActivityBase;
 import com.ashoksm.pinfinder.sqlite.STDSQLiteHelper;
 import com.google.android.gms.ads.AdListener;
@@ -37,6 +38,16 @@ public class DisplaySTDResultActivity extends ActivityBase {
 		Toolbar toolbar = (Toolbar) findViewById(R.id.my_awesome_toolbar);
 		toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
 		setSupportActionBar(toolbar);
+
+		final RecyclerView mRecyclerView = (RecyclerView) findViewById(R.id.gridview);
+
+		// use this setting to improve performance if you know that changes
+		// in content do not change the layout size of the RecyclerView
+		mRecyclerView.setHasFixedSize(true);
+
+		// use a linear layout manager
+		LinearLayoutManager mLayoutManager = new LinearLayoutManager(this);
+		mRecyclerView.setLayoutManager(mLayoutManager);
 
 		Locale l = Locale.getDefault();
 		// Get the message from the intent
@@ -72,7 +83,7 @@ public class DisplaySTDResultActivity extends ActivityBase {
 
 		new AsyncTask<Void, Void, Void>() {
 			LinearLayout linlaHeaderProgress = (LinearLayout) findViewById(R.id.linlaHeaderProgress);
-			STDAdapter adapter;
+			STDRecyclerViewAdapter adapter;
 
 			@Override
 			protected void onPreExecute() {
@@ -97,10 +108,9 @@ public class DisplaySTDResultActivity extends ActivityBase {
 				getSupportActionBar().setTitle(intent.getStringExtra(BankView.EXTRA_BANK));
 				if (c != null && c.getCount() > 0) {
 					getSupportActionBar().setTitle(c.getCount() + " Results found");
-					adapter = new STDAdapter(DisplaySTDResultActivity.this, c, false);
-					GridView gridview = (GridView) findViewById(R.id.gridview);
-					gridview.setVisibility(View.VISIBLE);
-					gridview.setAdapter(adapter);
+					adapter = new STDRecyclerViewAdapter(DisplaySTDResultActivity.this, c);
+					mRecyclerView.setAdapter(adapter);
+					mRecyclerView.setVisibility(View.VISIBLE);
 				} else {
 					LinearLayout noMatchingLayout = (LinearLayout) findViewById(R.id.noMatchingLayout);
 					noMatchingLayout.setVisibility(View.VISIBLE);

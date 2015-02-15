@@ -9,41 +9,52 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.PopupMenu.OnMenuItemClickListener;
+import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import android.widget.CursorAdapter;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.ashoksm.pinfinder.R;
 import com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper;
 
-public class RTOAdapter extends CursorAdapter {
+public class RTORecyclerViewAdapter extends CursorRecyclerViewAdapter<RTORecyclerViewAdapter.ViewHolder> {
 
-	public RTOAdapter(Context context, Cursor c, boolean autoRequery) {
-		super(context, c, autoRequery);
+	private Context context;
+	private int lastPosition = -1;
+
+	public RTORecyclerViewAdapter(Context context, Cursor cursor) {
+		super(context, cursor);
+		this.context = context;
+	}
+
+	public static class ViewHolder extends RecyclerView.ViewHolder {
+
+		TextView state;
+		ImageButton options;
+		TextView city;
+		TextView rtoCode;
+		View v;
+
+		public ViewHolder(View view) {
+			super(view);
+			options = (ImageButton) view.findViewById(R.id.options);
+			city = (TextView) view.findViewById(R.id.rCityName);
+			state = (TextView) view.findViewById(R.id.rtoStateName);
+			rtoCode = (TextView) view.findViewById(R.id.rtoCode);
+			v = view;
+		}
+
 	}
 
 	@Override
-	public void bindView(View view, final Context context, Cursor cursor) {
-		ViewHolder holder = (ViewHolder) view.getTag();
-		if (holder == null) {
-			holder = new ViewHolder();
-		}
-
-		holder.options = (ImageButton) view.findViewById(R.id.options);
-
-		holder.city = (TextView) view.findViewById(R.id.rCityName);
-
-		holder.state = (TextView) view.findViewById(R.id.rtoStateName);
-
-		holder.rtoCode = (TextView) view.findViewById(R.id.rtoCode);
-
-		view.setTag(holder);
-
+	public void onBindViewHolder(ViewHolder holder, Cursor cursor, int position) {
 		holder.options.setTag(holder);
 
 		holder.options.setOnClickListener(new OnClickListener() {
@@ -66,7 +77,7 @@ public class RTOAdapter extends CursorAdapter {
 						}
 					}
 				} catch (Exception e) {
-					e.printStackTrace();
+					Log.e("Failed to create options menu : ", e.getMessage());
 				}
 
 				menu.show();
@@ -104,19 +115,24 @@ public class RTOAdapter extends CursorAdapter {
 		holder.city.setText(cursor.getString(cursor.getColumnIndex(RTOSQLiteHelper.CITY)));
 		holder.state.setText(cursor.getString(cursor.getColumnIndex(RTOSQLiteHelper.STATE_NAME)));
 		holder.rtoCode.setText(cursor.getString(cursor.getColumnIndex(RTOSQLiteHelper.ID)));
+		setAnimation(holder.v, position);
+	}
+
+	private void setAnimation(View viewToAnimate, int position) {
+		// If the bound view wasn't previously displayed on screen, it's
+		// animated
+		if (position > lastPosition) {
+			Animation animation = AnimationUtils.loadAnimation(context, R.anim.up_from_bottom);
+			viewToAnimate.startAnimation(animation);
+		}
+		lastPosition = position;
 	}
 
 	@Override
-	public View newView(Context context, Cursor cursor, ViewGroup parent) {
-		LayoutInflater inflater = LayoutInflater.from(parent.getContext());
-		View retView = inflater.inflate(R.layout.rto_custom_grid, parent, false);
-		return retView;
+	public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+		View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.rto_custom_grid, parent, false);
+		ViewHolder vh = new ViewHolder(itemView);
+		return vh;
 	}
 
-	static class ViewHolder {
-		TextView state;
-		ImageButton options;
-		TextView city;
-		TextView rtoCode;
-	}
 }

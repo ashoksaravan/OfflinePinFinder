@@ -9,13 +9,16 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.PopupMenu.OnMenuItemClickListener;
+import android.support.v7.widget.RecyclerView;
 import android.text.util.Linkify;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import android.widget.CursorAdapter;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -23,46 +26,52 @@ import android.widget.TextView;
 import com.ashoksm.pinfinder.R;
 import com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper;
 
-public class PincodeAdapter extends CursorAdapter {
+public class PinCodeRecyclerViewAdapter extends CursorRecyclerViewAdapter<PinCodeRecyclerViewAdapter.ViewHolder> {
+	private Context context;
+	private int lastPosition = -1;
+	public PinCodeRecyclerViewAdapter(Context context, Cursor cursor) {
+		super(context, cursor);
+		this.context = context;
+	}
 
-	public PincodeAdapter(Context context, Cursor c, boolean autoRequery) {
-		super(context, c, autoRequery);
+	public static class ViewHolder extends RecyclerView.ViewHolder {
+		TextView officeName;
+		ImageButton options;
+		TextView pincode;
+		TextView stauts;
+		TextView suboffice;
+		LinearLayout subofficeRow;
+		TextView headoffice;
+		LinearLayout headofficeRow;
+		TextView location;
+		LinearLayout locationRow;
+		TextView telephoneNumber;
+		LinearLayout telephoneRow;
+		TextView state;
+		View v;
+
+		public ViewHolder(View view) {
+			super(view);
+			officeName = (TextView) view.findViewById(R.id.officeName);
+			options = (ImageButton) view.findViewById(R.id.options);
+			pincode = (TextView) view.findViewById(R.id.pincode);
+			stauts = (TextView) view.findViewById(R.id.stauts);
+			suboffice = (TextView) view.findViewById(R.id.subofficeName);
+			subofficeRow = (LinearLayout) view.findViewById(R.id.subofficeRow);
+			headoffice = (TextView) view.findViewById(R.id.headofficeName);
+			headofficeRow = (LinearLayout) view.findViewById(R.id.headofficeRow);
+			location = (TextView) view.findViewById(R.id.locationName);
+			locationRow = (LinearLayout) view.findViewById(R.id.locationRow);
+			telephoneNumber = (TextView) view.findViewById(R.id.telephoneNumber);
+			telephoneRow = (LinearLayout) view.findViewById(R.id.telephoneRow);
+			state = (TextView) view.findViewById(R.id.stateName);
+			v = view;
+		}
+
 	}
 
 	@Override
-	public void bindView(View view, final Context context, Cursor cursor) {
-		ViewHolder holder = (ViewHolder) view.getTag();
-		if (holder == null) {
-			holder = new ViewHolder();
-		}
-
-		holder.officeName = (TextView) view.findViewById(R.id.officeName);
-
-		holder.options = (ImageButton) view.findViewById(R.id.options);
-
-		holder.pincode = (TextView) view.findViewById(R.id.pincode);
-
-		holder.stauts = (TextView) view.findViewById(R.id.stauts);
-
-		holder.suboffice = (TextView) view.findViewById(R.id.subofficeName);
-
-		holder.subofficeRow = (LinearLayout) view.findViewById(R.id.subofficeRow);
-
-		holder.headoffice = (TextView) view.findViewById(R.id.headofficeName);
-
-		holder.headofficeRow = (LinearLayout) view.findViewById(R.id.headofficeRow);
-
-		holder.location = (TextView) view.findViewById(R.id.locationName);
-
-		holder.locationRow = (LinearLayout) view.findViewById(R.id.locationRow);
-
-		holder.telephoneNumber = (TextView) view.findViewById(R.id.telephoneNumber);
-
-		holder.telephoneRow = (LinearLayout) view.findViewById(R.id.telephoneRow);
-
-		holder.state = (TextView) view.findViewById(R.id.stateName);
-
-		view.setTag(holder);
+	public void onBindViewHolder(ViewHolder holder, Cursor cursor, int position) {
 		holder.options.setTag(holder);
 
 		holder.options.setOnClickListener(new OnClickListener() {
@@ -85,7 +94,7 @@ public class PincodeAdapter extends CursorAdapter {
 						}
 					}
 				} catch (Exception e) {
-					e.printStackTrace();
+					Log.e("Failed to create options menu : ", e.getMessage());
 				}
 
 				menu.show();
@@ -179,29 +188,24 @@ public class PincodeAdapter extends CursorAdapter {
 			holder.telephoneNumber.setText("");
 			holder.telephoneRow.setVisibility(View.GONE);
 		}
+		setAnimation(holder.v, position);
+	}
 
+	private void setAnimation(View viewToAnimate, int position) {
+		// If the bound view wasn't previously displayed on screen, it's
+		// animated
+		if (position > lastPosition) {
+			Animation animation = AnimationUtils.loadAnimation(context, R.anim.up_from_bottom);
+			viewToAnimate.startAnimation(animation);
+		}
+		lastPosition = position;
 	}
 
 	@Override
-	public View newView(Context context, Cursor cursor, ViewGroup parent) {
-		LayoutInflater inflater = LayoutInflater.from(parent.getContext());
-		View retView = inflater.inflate(R.layout.office_custom_grid, parent, false);
-		return retView;
+	public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+		View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.office_custom_grid, parent, false);
+		ViewHolder vh = new ViewHolder(itemView);
+		return vh;
 	}
 
-	static class ViewHolder {
-		TextView officeName;
-		ImageButton options;
-		TextView pincode;
-		TextView stauts;
-		TextView suboffice;
-		LinearLayout subofficeRow;
-		TextView headoffice;
-		LinearLayout headofficeRow;
-		TextView location;
-		LinearLayout locationRow;
-		TextView telephoneNumber;
-		LinearLayout telephoneRow;
-		TextView state;
-	}
 }

@@ -68,7 +68,7 @@ public class SlidingTabLayout extends HorizontalScrollView {
 
     private static final int TITLE_OFFSET_DIPS = 24;
     private static final int TAB_VIEW_PADDING_DIPS = 16;
-    private static final int TAB_VIEW_TEXT_SIZE_SP = 12;
+    private static final int TAB_VIEW_TEXT_SIZE_SP = 14;
 
     private int mTitleOffset;
 
@@ -172,7 +172,7 @@ public class SlidingTabLayout extends HorizontalScrollView {
     protected TextView createDefaultTabView(Context context) {
         TextView textView = new TextView(context);
         textView.setGravity(Gravity.CENTER);
-        textView.setTextColor(Color.parseColor("#C0C0C0"));
+        textView.setTextColor(Color.parseColor("#99ffffff"));
         textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, TAB_VIEW_TEXT_SIZE_SP);
         textView.setTypeface(Typeface.DEFAULT_BOLD);
 
@@ -274,7 +274,7 @@ public class SlidingTabLayout extends HorizontalScrollView {
             for (int i = 0; i < tabStripChildCount; i++) {
 				if(i != position) {
 					View otherTitle = mTabStrip.getChildAt(i);
-					((TextView) otherTitle).setTextColor(Color.parseColor("#C0C0C0"));
+					((TextView) otherTitle).setTextColor(Color.parseColor("#99ffffff"));
 				}
 			}
             int extraOffset = (selectedTitle != null)

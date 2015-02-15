@@ -9,55 +9,64 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.PopupMenu.OnMenuItemClickListener;
+import android.support.v7.widget.RecyclerView;
 import android.text.util.Linkify;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import android.widget.CursorAdapter;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.ashoksm.pinfinder.R;
 import com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper;
 
-public class BankBranchAdapter extends CursorAdapter {
+public class IFSCRecyclerViewAdapter extends CursorRecyclerViewAdapter<IFSCRecyclerViewAdapter.ViewHolder> {
 
+	private Context context;
 	private String bankName;
+	private int lastPosition = -1;
 
-	public BankBranchAdapter(Context context, Cursor c, boolean autoRequery, String bankNameIn) {
-		super(context, c, autoRequery);
+	public IFSCRecyclerViewAdapter(Context contextIn, Cursor cursor, String bankNameIn) {
+		super(contextIn, cursor);
 		this.bankName = bankNameIn;
+		this.context = contextIn;
+	}
+
+	public static class ViewHolder extends RecyclerView.ViewHolder {
+		TextView branchName;
+		ImageButton options;
+		TextView city;
+		TextView district;
+		TextView state;
+		TextView address;
+		TextView contact;
+		TextView ifsc;
+		TextView micr;
+		View v;
+
+		public ViewHolder(View view) {
+			super(view);
+			branchName = (TextView) view.findViewById(R.id.branch);
+			options = (ImageButton) view.findViewById(R.id.options);
+			city = (TextView) view.findViewById(R.id.city);
+			district = (TextView) view.findViewById(R.id.bankDistrict);
+			state = (TextView) view.findViewById(R.id.bankStateName);
+			address = (TextView) view.findViewById(R.id.address);
+			contact = (TextView) view.findViewById(R.id.contact);
+			ifsc = (TextView) view.findViewById(R.id.ifsc);
+			micr = (TextView) view.findViewById(R.id.micr);
+			v = view;
+		}
+
 	}
 
 	@Override
-	public void bindView(View view, final Context context, Cursor cursor) {
-		ViewHolder holder = (ViewHolder) view.getTag();
-		if (holder == null) {
-			holder = new ViewHolder();
-		}
-
-		holder.branchName = (TextView) view.findViewById(R.id.branch);
-
-		holder.options = (ImageButton) view.findViewById(R.id.options);
-
-		holder.city = (TextView) view.findViewById(R.id.city);
-
-		holder.district = (TextView) view.findViewById(R.id.bankDistrict);
-
-		holder.state = (TextView) view.findViewById(R.id.bankStateName);
-
-		holder.address = (TextView) view.findViewById(R.id.address);
-
-		holder.contact = (TextView) view.findViewById(R.id.contact);
-
-		holder.ifsc = (TextView) view.findViewById(R.id.ifsc);
-
-		holder.micr = (TextView) view.findViewById(R.id.micr);
-
-		view.setTag(holder);
-
+	public void onBindViewHolder(ViewHolder holder, Cursor cursor, int position) {
 		holder.options.setTag(holder);
 
 		holder.options.setOnClickListener(new OnClickListener() {
@@ -80,7 +89,7 @@ public class BankBranchAdapter extends CursorAdapter {
 						}
 					}
 				} catch (Exception e) {
-					e.printStackTrace();
+					Log.e("Failed to create options menu : ", e.getMessage());
 				}
 				menu.show();
 				final ViewHolder viewHolder = (ViewHolder) v.getTag();
@@ -131,25 +140,23 @@ public class BankBranchAdapter extends CursorAdapter {
 		holder.ifsc.setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.ID)));
 		holder.micr.setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.MICR)));
 		Linkify.addLinks(holder.contact, Linkify.ALL);
+		setAnimation(holder.v, position);
+	}
 
+	private void setAnimation(View viewToAnimate, int position) {
+		// If the bound view wasn't previously displayed on screen, it's
+		// animated
+		if (position > lastPosition) {
+			Animation animation = AnimationUtils.loadAnimation(context, R.anim.up_from_bottom);
+			viewToAnimate.startAnimation(animation);
+		}
+		lastPosition = position;
 	}
 
 	@Override
-	public View newView(Context context, Cursor cursor, ViewGroup parent) {
-		LayoutInflater inflater = LayoutInflater.from(parent.getContext());
-		View retView = inflater.inflate(R.layout.bank_custom_grid, parent, false);
-		return retView;
-	}
-
-	static class ViewHolder {
-		TextView branchName;
-		ImageButton options;
-		TextView city;
-		TextView district;
-		TextView state;
-		TextView address;
-		TextView contact;
-		TextView ifsc;
-		TextView micr;
+	public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+		View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.bank_custom_grid, parent, false);
+		ViewHolder vh = new ViewHolder(itemView);
+		return vh;
 	}
 }
