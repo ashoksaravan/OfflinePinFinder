@@ -5,17 +5,18 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
+import android.app.ProgressDialog;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
-import android.widget.Toast;
 
 import com.ashoksm.pinfinder.DisplayPinCodeResultActivity;
 
 public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
 
 	private DisplayPinCodeResultActivity context;
+	private ProgressDialog mProgressDialog;
 
 	// Logcat tag
 	private static final String CLASS_NAME = PinFinderSQLiteHelper.class.getName();
@@ -82,8 +83,11 @@ public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
 		
 		context.runOnUiThread(new Runnable() {
 			public void run() {
-				Toast.makeText(context, "Initializing DB, search will take more time to give results then usual!!!", Toast.LENGTH_LONG)
-				.show();
+				mProgressDialog = new ProgressDialog(context);
+				mProgressDialog.setMessage("Initializing Database..");
+				mProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+				mProgressDialog.setCancelable(false);
+				mProgressDialog.show();
 			}
 		});
 
@@ -105,18 +109,43 @@ public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
 
 		// insert state
 		insertStates(db);
+		context.runOnUiThread(new Runnable() {
+			public void run() {
+				mProgressDialog.setProgress(1);
+			}
+		});
 		
 		//insert status
 		insertStatus(db);
+		context.runOnUiThread(new Runnable() {
+			public void run() {
+				mProgressDialog.setProgress(2);
+			}
+		});
 
 		// insert districts
 		insertDistricts(db);
+		context.runOnUiThread(new Runnable() {
+			public void run() {
+				mProgressDialog.setProgress(3);
+			}
+		});
 
 		// insert locations
 		insertLocations(db);
+		context.runOnUiThread(new Runnable() {
+			public void run() {
+				mProgressDialog.setProgress(5);
+			}
+		});
 
 		// insert pincodes
 		insertPincodes(db);
+		context.runOnUiThread(new Runnable() {
+			public void run() {
+				mProgressDialog.dismiss();
+			}
+		});
 	}
 
 	@Override
@@ -135,6 +164,7 @@ public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
 	private void insertPincodes(SQLiteDatabase db) {
 		try {
 			db.beginTransaction();
+			double i = 1.00d;
 			String[] fileNames = context.getAssets().list("sql/pincode");
 			for (String name : fileNames) {
 				if (name.endsWith(".sql") && !name.equals("states.sql") && !name.equals("district.sql")
@@ -151,6 +181,13 @@ public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
 					}
 					insertReader.close();
 				}
+				final Double percentage = (i / new Double(fileNames.length)) * 95.00d;
+				context.runOnUiThread(new Runnable() {
+					public void run() {
+						mProgressDialog.setProgress(percentage.intValue() + 5);
+					}
+				});
+				i++;
 			}
 			db.setTransactionSuccessful();
 		} catch (IOException ioEx) {

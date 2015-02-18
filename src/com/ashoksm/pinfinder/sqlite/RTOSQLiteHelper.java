@@ -5,17 +5,18 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
+import android.app.ProgressDialog;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
-import android.widget.Toast;
 
 import com.ashoksm.pinfinder.DisplayRTOResultActivity;
 
 public class RTOSQLiteHelper extends SQLiteOpenHelper {
 
 	private DisplayRTOResultActivity context;
+	private ProgressDialog mProgressDialog;
 
 	// Logcat tag
 	private static final String CLASS_NAME = RTOSQLiteHelper.class.getName();
@@ -54,8 +55,11 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
 	public void onCreate(SQLiteDatabase db) {
 		context.runOnUiThread(new Runnable() {
 			public void run() {
-				Toast.makeText(context, "Initializing DB, search will take more time to give results then usual!!!", Toast.LENGTH_LONG)
-				.show();
+				mProgressDialog = new ProgressDialog(context);
+				mProgressDialog.setMessage("Initializing Database..");
+				mProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+				mProgressDialog.setCancelable(false);
+				mProgressDialog.show();
 			}
 		});
 		// crate tables
@@ -65,11 +69,16 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
 		Log.d(CLASS_NAME, CREATE_STD_TABLE);
 		db.execSQL(CREATE_STD_TABLE);
 
-		// insert locations
+		// insert states
 		insertStates(db);
 
-		// insert pincodes
-		insertBankBranches(db);
+		// insert rtocodes
+		insertRTOCodes(db);
+		context.runOnUiThread(new Runnable() {
+			public void run() {
+				mProgressDialog.dismiss();
+			}
+		});
 	}
 
 	@Override
@@ -82,10 +91,11 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
 		onCreate(db);
 	}
 
-	private void insertBankBranches(SQLiteDatabase db) {
+	private void insertRTOCodes(SQLiteDatabase db) {
 		try {
 			db.beginTransaction();
 			String[] fileNames = context.getAssets().list("sql/rto");
+			double i = 1.00d;
 			for (String name : fileNames) {
 				if (name.endsWith(".sql")) {
 					// Open the resource
@@ -100,6 +110,13 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
 					}
 					insertReader.close();
 				}
+				final Double percentage = (i / new Double(fileNames.length)) * 100.00d;
+				context.runOnUiThread(new Runnable() {
+					public void run() {
+						mProgressDialog.setProgress(percentage.intValue());
+					}
+				});
+				i++;
 			}
 			db.setTransactionSuccessful();
 		} catch (IOException ioEx) {

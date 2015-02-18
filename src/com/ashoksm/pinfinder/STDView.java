@@ -1,5 +1,6 @@
 package com.ashoksm.pinfinder;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
@@ -24,7 +25,7 @@ public class STDView {
 
 	public final static String EXTRA_CITY = "com.ashoksm.offlinepinfinder.CITY";
 
-	public static void execute(final View rootView, final Resources resources, final Context context) {
+	public static void execute(final View rootView, final Resources resources, final Activity context) {
 		stateNameTextView = (AutoCompleteTextView) rootView.findViewById(R.id.stdStates);
 		ArrayAdapter<CharSequence> stateAdapter = ArrayAdapter.createFromResource(context, R.array.states_array,
 				R.layout.spinner_dropdown_item);
@@ -52,7 +53,7 @@ public class STDView {
 		});
 	}
 
-	private static void performSearch(Resources resources, Context context, View v) {
+	private static void performSearch(Resources resources, Activity context, View v) {
 		//hide keyboard
 		InputMethodManager inputMethodManager = (InputMethodManager) context.getSystemService(Context.INPUT_METHOD_SERVICE);
 		inputMethodManager.hideSoftInputFromWindow(v.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
@@ -63,5 +64,6 @@ public class STDView {
 		intent.putExtra(EXTRA_STATE, stateName.trim());
 		intent.putExtra(EXTRA_CITY, city.trim());
 		context.startActivity(intent);
+		context.overridePendingTransition(R.anim.slide_out_left, 0);
 	}
 }

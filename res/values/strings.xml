@@ -38,6 +38,7 @@
     <string name="rtoCityName">City Name/RTO Code</string>
     <string name="stdCode">STD Code</string>
     <string name="rtoCode">RTO Code</string>
+    <string name="loading">Loading...</string>
 
     <string-array name="states_array">
         <item>Andaman and Nicobar Islands</item>

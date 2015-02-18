@@ -2,6 +2,7 @@ package com.ashoksm.pinfinder;
 
 import java.util.Locale;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
@@ -39,7 +40,7 @@ public class BankView {
 
 	public final static String EXTRA_BRANCH = "com.ashoksm.offlinepinfinder.BRANCH";
 
-	public static void execute(final View rootView, final Resources resources, final Context context) {
+	public static void execute(final View rootView, final Resources resources, final Activity context) {
 		bankNameSpinner = (Spinner) rootView.findViewById(R.id.bankName);
 		stateNameTextView = (AutoCompleteTextView) rootView.findViewById(R.id.stateName);
 		districtNameTextView = (AutoCompleteTextView) rootView.findViewById(R.id.districtName);
@@ -121,7 +122,7 @@ public class BankView {
 		});
 	}
 
-	private static void performSearch(Resources resources, Context context, View v) {
+	private static void performSearch(Resources resources, Activity context, View v) {
 		// hide keyboard
 		InputMethodManager inputMethodManager = (InputMethodManager) context
 				.getSystemService(Context.INPUT_METHOD_SERVICE);
@@ -138,6 +139,7 @@ public class BankView {
 			intent.putExtra(EXTRA_BANK, bankName.trim());
 			intent.putExtra(EXTRA_BRANCH, branch.trim());
 			context.startActivity(intent);
+			context.overridePendingTransition(R.anim.slide_out_left, 0);
 		} else {
 			Toast.makeText(context, "Please Select a Bank!!!", Toast.LENGTH_LONG).show();
 		}

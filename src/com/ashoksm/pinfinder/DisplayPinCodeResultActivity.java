@@ -12,6 +12,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
+import android.view.animation.DecelerateInterpolator;
 import android.widget.LinearLayout;
 
 import com.ashoksm.pinfinder.adapter.PinCodeRecyclerViewAdapter;
@@ -33,14 +34,18 @@ public class DisplayPinCodeResultActivity extends ActionBarActivity {
 
 	private String officeName;
 
+	private Toolbar toolbar;
+
+	private static boolean scrollDown;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_display_result);
-		Toolbar toolbar = (Toolbar) findViewById(R.id.my_awesome_toolbar);
+		toolbar = (Toolbar) findViewById(R.id.my_awesome_toolbar);
 		toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
 		setSupportActionBar(toolbar);
-		
+
 		final RecyclerView mRecyclerView = (RecyclerView) findViewById(R.id.gridview);
 
 		// use this setting to improve performance if you know that changes
@@ -50,6 +55,48 @@ public class DisplayPinCodeResultActivity extends ActionBarActivity {
 		// use a linear layout manager
 		LinearLayoutManager mLayoutManager = new LinearLayoutManager(this);
 		mRecyclerView.setLayoutManager(mLayoutManager);
+		
+		// add check to avoid toolbar animation for the devices before HONEYCOMB
+		if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.HONEYCOMB) {
+			mRecyclerView.setOnScrollListener(new RecyclerView.OnScrollListener() {
+				@Override
+				public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
+					super.onScrollStateChanged(recyclerView, newState);
+					if (!scrollDown) {
+						toolbar.animate().translationY(0).alpha(1).setDuration(300)
+						.setInterpolator(new DecelerateInterpolator()).withEndAction(new Runnable() {
+
+							@Override
+							public void run() {
+								getSupportActionBar().show();
+							}
+						});
+					} else {
+						toolbar.animate().translationY(-toolbar.getBottom()).alpha(0).setDuration(300)
+						.setInterpolator(new DecelerateInterpolator()).withEndAction(new Runnable() {
+
+							@Override
+							public void run() {
+								getSupportActionBar().hide();
+							}
+						});
+					}
+				}
+
+				@Override
+				public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+					super.onScrolled(recyclerView, dx, dy);
+					if (dy > 1) {
+						// scroll down
+						scrollDown = true;
+
+					} else if (dy < -1) {
+						// scroll up
+						scrollDown = false;
+					}
+				}
+			});
+		}
 
 		Locale l = Locale.getDefault();
 		// Get the message from the intent
@@ -133,6 +180,7 @@ public class DisplayPinCodeResultActivity extends ActionBarActivity {
 			sqLiteHelper.closeDB();
 		}
 		super.onBackPressed();
+		overridePendingTransition(R.anim.slide_in_left, 0);
 	}
 
 	@Override
@@ -141,5 +189,6 @@ public class DisplayPinCodeResultActivity extends ActionBarActivity {
 			sqLiteHelper.closeDB();
 		}
 		super.onDestroy();
+		overridePendingTransition(R.anim.slide_in_left, 0);
 	}
 }

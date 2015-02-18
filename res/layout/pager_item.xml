@@ -27,7 +27,8 @@
                 android:hint="@string/state"
                 android:imeOptions="actionNext"
                 android:singleLine="true"
-                android:textColor="#ff0000" />
+                android:textColor="@color/colorPrimary"
+                android:textCursorDrawable="@null" />
 
             <AutoCompleteTextView
                 android:id="@+id/districts"
@@ -37,7 +38,8 @@
                 android:hint="@string/districts"
                 android:imeOptions="actionNext"
                 android:singleLine="true"
-                android:textColor="#ff0000" />
+                android:textColor="@color/colorPrimary"
+                android:textCursorDrawable="@null" />
 
             <AutoCompleteTextView
                 android:id="@+id/text1"
@@ -46,16 +48,16 @@
                 android:layout_marginTop="20dp"
                 android:hint="@string/text1"
                 android:imeOptions="actionSearch"
-                android:inputType="text"
                 android:singleLine="true"
-                android:textColor="#ff0000" />
+                android:textColor="@color/colorPrimary"
+                android:textCursorDrawable="@null" />
 
             <Button
                 android:id="@+id/Search"
                 android:layout_width="100dp"
                 android:layout_height="36dp"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/button_border"
+                android:background="@drawable/button_selector"
                 android:elevation="5dp"
                 android:text="@string/button_search"
                 android:textColor="#FFFFFF" />
@@ -90,7 +92,8 @@
                 android:hint="@string/state"
                 android:imeOptions="actionNext"
                 android:singleLine="true"
-                android:textColor="#ff0000" />
+                android:textColor="@color/colorPrimary"
+                android:textCursorDrawable="@null" />
 
             <AutoCompleteTextView
                 android:id="@+id/districtName"
@@ -100,7 +103,8 @@
                 android:hint="@string/districts"
                 android:imeOptions="actionNext"
                 android:singleLine="true"
-                android:textColor="#ff0000" />
+                android:textColor="@color/colorPrimary"
+                android:textCursorDrawable="@null" />
 
             <AutoCompleteTextView
                 android:id="@+id/branchName"
@@ -109,16 +113,16 @@
                 android:layout_marginTop="20dp"
                 android:hint="@string/branchIFSCMICR"
                 android:imeOptions="actionSearch"
-                android:inputType="text"
                 android:singleLine="true"
-                android:textColor="#ff0000" />
+                android:textColor="@color/colorPrimary"
+                android:textCursorDrawable="@null" />
 
             <Button
                 android:id="@+id/ifscSearch"
                 android:layout_width="100dp"
                 android:layout_height="36dp"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/button_border"
+                android:background="@drawable/button_selector"
                 android:elevation="5dp"
                 android:text="@string/button_search"
                 android:textColor="#FFFFFF" />
@@ -147,7 +151,8 @@
                 android:hint="@string/state"
                 android:imeOptions="actionNext"
                 android:singleLine="true"
-                android:textColor="#ff0000" />
+                android:textColor="@color/colorPrimary"
+                android:textCursorDrawable="@null" />
 
             <AutoCompleteTextView
                 android:id="@+id/cityName"
@@ -158,14 +163,15 @@
                 android:imeOptions="actionSearch"
                 android:inputType="text"
                 android:singleLine="true"
-                android:textColor="#ff0000" />
+                android:textColor="@color/colorPrimary"
+                android:textCursorDrawable="@null" />
 
             <Button
                 android:id="@+id/stdSearch"
                 android:layout_width="100dp"
                 android:layout_height="36dp"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/button_border"
+                android:background="@drawable/button_selector"
                 android:elevation="5dp"
                 android:text="@string/button_search"
                 android:textColor="#FFFFFF" />
@@ -194,7 +200,8 @@
                 android:hint="@string/state"
                 android:imeOptions="actionNext"
                 android:singleLine="true"
-                android:textColor="#ff0000" />
+                android:textColor="@color/colorPrimary"
+                android:textCursorDrawable="@null" />
 
             <AutoCompleteTextView
                 android:id="@+id/rtoCityName"
@@ -203,16 +210,16 @@
                 android:layout_marginTop="20dp"
                 android:hint="@string/rtoCityName"
                 android:imeOptions="actionSearch"
-                android:inputType="text"
                 android:singleLine="true"
-                android:textColor="#ff0000" />
+                android:textColor="@color/colorPrimary"
+                android:textCursorDrawable="@null" />
 
             <Button
                 android:id="@+id/rtoSearch"
                 android:layout_width="100dp"
                 android:layout_height="36dp"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/button_border"
+                android:background="@drawable/button_selector"
                 android:elevation="5dp"
                 android:text="@string/button_search"
                 android:textColor="#FFFFFF" />

@@ -31,6 +31,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" >
             </ProgressBar>
+            
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/loading"
+                android:textColor="@color/accentColor"
+                android:textIsSelectable="false"
+                android:textSize="20sp"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout

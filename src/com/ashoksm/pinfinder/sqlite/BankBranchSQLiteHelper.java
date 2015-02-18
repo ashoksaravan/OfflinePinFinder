@@ -5,18 +5,18 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
+import android.app.ProgressDialog;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
-import android.widget.Toast;
 
 import com.ashoksm.pinfinder.DisplayBankBranchResultActivity;
 
 public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
 
 	private DisplayBankBranchResultActivity context;
-
+	private ProgressDialog mProgressDialog;
 	// Logcat tag
 	private static final String CLASS_NAME = BankBranchSQLiteHelper.class.getName();
 
@@ -62,8 +62,11 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
 	public void onCreate(SQLiteDatabase db) {
 		context.runOnUiThread(new Runnable() {
 			public void run() {
-				Toast.makeText(context, "Initializing DB, search will take more time to give results then usual!!!",
-						Toast.LENGTH_LONG).show();
+				mProgressDialog = new ProgressDialog(context);
+				mProgressDialog.setMessage("Initializing Database..");
+				mProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+				mProgressDialog.setCancelable(false);
+				mProgressDialog.show();
 			}
 		});
 		// crate tables
@@ -78,6 +81,11 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
 
 		// insert pincodes
 		insertBankBranches(db);
+		context.runOnUiThread(new Runnable() {
+			public void run() {
+				mProgressDialog.dismiss();
+			}
+		});
 	}
 
 	@Override
@@ -94,6 +102,7 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
 		String insertStmt = null;
 		try {
 			db.beginTransaction();
+			double i = 1.00d;
 			String[] fileNames = context.getAssets().list("sql/ifsc");
 			for (String name : fileNames) {
 				if (name.endsWith(".sql") && !name.equals("banklocation.sql") && !name.equals("banklocation_1.sql")
@@ -110,6 +119,13 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
 					}
 					insertReader.close();
 				}
+				final Double percentage = (i / new Double(fileNames.length)) * 90.00d;
+				context.runOnUiThread(new Runnable() {
+					public void run() {
+						mProgressDialog.setProgress(percentage.intValue() + 10);
+					}
+				});
+				i++;
 			}
 			db.setTransactionSuccessful();
 		} catch (Exception ioEx) {
@@ -133,7 +149,11 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
 				}
 			}
 			insertReader.close();
-
+			context.runOnUiThread(new Runnable() {
+				public void run() {
+					mProgressDialog.setProgress(3);
+				}
+			});
 			// Open the resource
 			InputStream insertsStream1 = context.getAssets().open("sql/ifsc/banklocation_1.sql");
 			BufferedReader insertReader1 = new BufferedReader(new InputStreamReader(insertsStream1));
@@ -145,6 +165,11 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
 				}
 			}
 			insertReader1.close();
+			context.runOnUiThread(new Runnable() {
+				public void run() {
+					mProgressDialog.setProgress(6);
+				}
+			});
 
 			// Open the resource
 			InputStream insertsStream2 = context.getAssets().open("sql/ifsc/banklocation_2.sql");
@@ -157,6 +182,11 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
 				}
 			}
 			insertReader2.close();
+			context.runOnUiThread(new Runnable() {
+				public void run() {
+					mProgressDialog.setProgress(9);
+				}
+			});
 
 			// Open the resource
 			InputStream insertsStream3 = context.getAssets().open("sql/ifsc/banklocation_3.sql");
@@ -170,6 +200,11 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
 			}
 			insertReader3.close();
 			db.setTransactionSuccessful();
+			context.runOnUiThread(new Runnable() {
+				public void run() {
+					mProgressDialog.setProgress(10);
+				}
+			});
 		} catch (IOException ioEx) {
 			Log.e(CLASS_NAME, ioEx.getMessage());
 		} finally {

@@ -40,6 +40,12 @@ public class MainActivity extends ActivityBase {
 		Toolbar toolbar = (Toolbar) findViewById(R.id.my_awesome_toolbar);
 		setSupportActionBar(toolbar);
 
+		// add to fix crashes in 2.3.x devices due to google play services
+		try {
+			Class.forName("android.os.AsyncTask");
+		} catch (ClassNotFoundException e) {
+		}
+
 		// Create the interstitial.
 		interstitial = new InterstitialAd(this);
 		interstitial.setAdUnitId(getString(R.string.admob_id));

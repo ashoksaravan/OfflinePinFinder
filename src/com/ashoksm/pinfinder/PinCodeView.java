@@ -1,5 +1,6 @@
 package com.ashoksm.pinfinder;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
@@ -45,7 +46,7 @@ public class PinCodeView {
 
 	public final static String EXTRA_OFFICE = "com.ashoksm.offlinepinfinder.OFFICE";
 
-	public static void execute(final View rootView, final Resources resources, final Context context) {
+	public static void execute(final View rootView, final Resources resources, final Activity context) {
 		states = (AutoCompleteTextView) rootView.findViewById(R.id.states);
 		// Get the string array
 		String[] statesArr = resources.getStringArray(R.array.states_array);
@@ -60,7 +61,7 @@ public class PinCodeView {
 		addListenerOnButton(rootView, resources, context);
 	}
 
-	private static void addStateChangeListener(View rootView, final Resources resources, final Context context) {
+	private static void addStateChangeListener(View rootView, final Resources resources, final Activity context) {
 		districts = (AutoCompleteTextView) rootView.findViewById(R.id.districts);
 		states.setOnItemClickListener(new OnItemClickListener() {
 			@Override
@@ -218,7 +219,7 @@ public class PinCodeView {
 		});
 	}
 
-	public static void addListenerOnButton(View rootView, final Resources resources, final Context context) {
+	public static void addListenerOnButton(View rootView, final Resources resources, final Activity context) {
 		states = (AutoCompleteTextView) rootView.findViewById(R.id.states);
 		districts = (AutoCompleteTextView) rootView.findViewById(R.id.districts);
 		text = (AutoCompleteTextView) rootView.findViewById(R.id.text1);
@@ -244,7 +245,7 @@ public class PinCodeView {
 		});
 	}
 
-	private static void performSearch(Resources resources, Context context, View v) {
+	private static void performSearch(Resources resources, Activity context, View v) {
 		// hide keyboard
 		InputMethodManager inputMethodManager = (InputMethodManager) context
 				.getSystemService(Context.INPUT_METHOD_SERVICE);
@@ -260,6 +261,7 @@ public class PinCodeView {
 			intent.putExtra(EXTRA_DISTRICT, districtName.trim());
 			intent.putExtra(EXTRA_OFFICE, officeName.trim());
 			context.startActivity(intent);
+			context.overridePendingTransition(R.anim.slide_out_left, 0);
 		}
 	}
 }

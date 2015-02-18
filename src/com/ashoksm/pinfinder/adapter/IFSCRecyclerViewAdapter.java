@@ -131,7 +131,8 @@ public class IFSCRecyclerViewAdapter extends CursorRecyclerViewAdapter<IFSCRecyc
 			}
 		});
 
-		holder.branchName.setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.NAME)));
+		String branchName = cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.NAME));
+		holder.branchName.setText(branchName.equalsIgnoreCase("Rtgs-ho") ? branchName.toUpperCase() : branchName);
 		holder.city.setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.CITY)));
 		holder.district.setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.DISTRICT)));
 		holder.state.setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.STATE)));
