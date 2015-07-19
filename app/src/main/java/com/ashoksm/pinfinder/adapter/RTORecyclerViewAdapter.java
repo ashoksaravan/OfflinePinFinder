@@ -17,6 +17,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.ashoksm.pinfinder.R;
 import com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper;
@@ -102,7 +103,11 @@ public class RTORecyclerViewAdapter extends CursorRecyclerViewAdapter<RTORecycle
                                     + viewHolder.state.getText().toString();
                             Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(uri));
                             intent.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
-                            context.startActivity(intent);
+                            try {
+                                context.startActivity(intent);
+                            } catch (Exception e) {
+                                Toast.makeText(context, R.string.mapsNotFount, Toast.LENGTH_LONG).show();
+                            }
                         }
 
                         return false;

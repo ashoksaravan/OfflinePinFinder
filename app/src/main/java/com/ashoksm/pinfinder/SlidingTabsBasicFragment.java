@@ -35,7 +35,7 @@ import com.ashoksm.pinfinder.common.view.SlidingTabLayout;
  */
 public class SlidingTabsBasicFragment extends Fragment {
 
-    static final String LOG_TAG = "SlidingTabsBasicFragment";
+    static final String LOG_TAG = "STabsBasicFragment";
 
     /**
      * A custom {@link ViewPager} title strip which looks much like Tabs present in Android v4.0 and

@@ -22,6 +22,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.ashoksm.pinfinder.R;
 import com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper;
@@ -94,7 +95,7 @@ public class PinCodeRecyclerViewAdapter extends CursorRecyclerViewAdapter<PinCod
 						}
 					}
 				} catch (Exception e) {
-					Log.e("Failed to create options menu : ", e.getMessage());
+					Log.e(this.getClass().getName(), e.getMessage());
 				}
 
 				menu.show();
@@ -138,7 +139,11 @@ public class PinCodeRecyclerViewAdapter extends CursorRecyclerViewAdapter<PinCod
 									+ viewHolder.pincode.getText().toString().trim();
 							Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(uri));
 							intent.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
-							context.startActivity(intent);
+							try {
+								context.startActivity(intent);
+							} catch (Exception e) {
+								Toast.makeText(context, R.string.mapsNotFount, Toast.LENGTH_LONG).show();
+							}
 						}
 
 						return false;
@@ -204,8 +209,7 @@ public class PinCodeRecyclerViewAdapter extends CursorRecyclerViewAdapter<PinCod
 	@Override
 	public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 		View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.office_custom_grid, parent, false);
-		ViewHolder vh = new ViewHolder(itemView);
-		return vh;
+		return new ViewHolder(itemView);
 	}
 
 }

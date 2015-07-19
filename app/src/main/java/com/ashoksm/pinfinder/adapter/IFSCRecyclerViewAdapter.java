@@ -18,6 +18,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.ashoksm.pinfinder.R;
 import com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper;
@@ -118,10 +119,14 @@ public class IFSCRecyclerViewAdapter extends CursorRecyclerViewAdapter<IFSCRecyc
                                     context.getResources().getText(R.string.send_to)));
                         } else {
                             String uri = "http://maps.google.com/maps?q=" + bankName + ", "
-                                    + viewHolder.address.getText().toString().trim().replaceAll(" ", "+");
+                                    + viewHolder.branchName.getText();
                             Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(uri));
                             intent.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
-                            context.startActivity(intent);
+                            try {
+                                context.startActivity(intent);
+                            } catch (Exception e) {
+                                Toast.makeText(context, R.string.mapsNotFount, Toast.LENGTH_LONG).show();
+                            }
                         }
 
                         return false;
@@ -136,7 +141,8 @@ public class IFSCRecyclerViewAdapter extends CursorRecyclerViewAdapter<IFSCRecyc
         holder.city.setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.CITY)));
         holder.district.setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.DISTRICT)));
         holder.state.setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.STATE)));
-        holder.contact.setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.CONTACT)));
+        String contact = cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.CONTACT));
+        holder.contact.setText(contact.equalsIgnoreCase("0") ? "NA" : contact);
         holder.address.setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.ADDRESS)));
         holder.ifsc.setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.ID)));
         holder.micr.setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.MICR)));

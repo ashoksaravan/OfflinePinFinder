@@ -1,0 +1,12 @@
+INSERT INTO bank_branch_t VALUES('Rtgs-ho', 'Mumbai', '3RD Floor Fort House, 221 DR. D. N Road, Fort, Mumbai 400 001', '66388888', '400641002', 'DBSS0IN0811', 8664);
+INSERT INTO bank_branch_t VALUES('NEW Delhi', 'NEW Delhi', 'Capitol Point, Baba Kharak Singh Marg, Connaught Place, NEW Delhi 110001', '30418888', '110641002', 'DBSS0IN0820', 8660);
+INSERT INTO bank_branch_t VALUES('Chennai', 'Chennai', '806, Anna Salai, Chennai 600002', '66568888', '600641002', 'DBSS0IN0826', 8667);
+INSERT INTO bank_branch_t VALUES('Bangalore', 'Bangalore', 'Salarpuria Windsor, 3 Ulsoor Road, Bengaluru, 560042', '66328888', '560641002', 'DBSS0IN0827', 8662);
+INSERT INTO bank_branch_t VALUES('Kolkatta', 'Kolkatta', '4A, Nandlal Basu Sarani Kolkata 700071', '66218888', '700641002', 'DBSS0IN0828', 8671);
+INSERT INTO bank_branch_t VALUES('Nasik', 'Nasik', '41/a Jolly Plaza Howson Road Deolali Camp Nashik 422401', '6632100', '422641002', 'DBSS0IN0829', 8665);
+INSERT INTO bank_branch_t VALUES('Pune', 'Pune', 'Fortune House, Plot NO 363/2, Gokhale Road, Model Colony, Shivaji Nagar, Pune 411016', '66218888', '411641002', 'DBSS0IN0830', 8666);
+INSERT INTO bank_branch_t VALUES('Surat', 'Surat', '2ND Floor, Shree Ambica Auto Plot NO. 10 Gidc - Bhatpore, Hazira Surat 394510', '6675400', '395641002', 'DBSS0IN0831', 8661);
+INSERT INTO bank_branch_t VALUES('Salem', 'Salem', '24,yercaud Road OPP Modern Theaters Kannakurichi PO Salem 636008', '6641300', '636641002', 'DBSS0IN0832', 8669);
+INSERT INTO bank_branch_t VALUES('Moradabad', 'Moradabad', '8TH K.M.MILE Stone Naya Moradabad, Delhi Road Moradabad 244001', '6450001', '244641002', 'DBSS0IN0833', 8670);
+INSERT INTO bank_branch_t VALUES('Kolhapur', 'Kolhapur', 'Amit PLAZA. 199/4, 1ST Floor, Gandhinagar Main Road, Kolhapur 416119', '3050100', '416641002', 'DBSS0IN0851', 8663);
+INSERT INTO bank_branch_t VALUES('Cuddalore', 'Cuddalore', 'Office Building NO.1 Anugraha Satellite Township, Periyakattu Palayam Village, East Coast Road Cuddalore Taluk 605007 Tamil', '305100', '605641002', 'DBSS0IN0852', 8668);
