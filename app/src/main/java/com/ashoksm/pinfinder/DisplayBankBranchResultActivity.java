@@ -60,47 +60,11 @@ public class DisplayBankBranchResultActivity extends AppCompatActivity {
 
 		// add check to avoid toolbar animation for the devices before JELLY_BEAN
 		if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.JELLY_BEAN) {
-			mRecyclerView.setOnScrollListener(new RecyclerView.OnScrollListener() {
-				@TargetApi(Build.VERSION_CODES.JELLY_BEAN)
-				@Override
-				public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
-					super.onScrollStateChanged(recyclerView, newState);
-					if (!scrollDown) {
-						toolbar.animate().translationY(0).alpha(1).setDuration(300)
-						.setInterpolator(new DecelerateInterpolator()).withEndAction(new Runnable() {
-
-							@Override
-							public void run() {
-								if(getSupportActionBar() != null) {
-									getSupportActionBar().show();
-								}
-							}
-						});
-					} else {
-						toolbar.animate().translationY(-toolbar.getBottom()).alpha(0).setDuration(300)
-						.setInterpolator(new DecelerateInterpolator()).withEndAction(new Runnable() {
-
-							@Override
-							public void run() {
-								if(getSupportActionBar() != null) {
-									getSupportActionBar().hide();
-								}
-							}
-						});
-					}
-				}
-
-				@Override
-				public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
-					super.onScrolled(recyclerView, dx, dy);
-					if (dy > 1) {
-						// scroll down
-						scrollDown = true;
-
-					} else if (dy < -1) {
-						// scroll up
-						scrollDown = false;
-					}
+			mRecyclerView.setOnScrollListener(new HidingScrollListener(this) {
+				@TargetApi(Build.VERSION_CODES.HONEYCOMB)
+                @Override
+				public void onMoved(int distance) {
+					toolbar.setTranslationY(-distance);
 				}
 			});
 		}

@@ -8,12 +8,26 @@ android {
         applicationId "com.ashoksm.pinfinder"
         minSdkVersion 9
         targetSdkVersion 22
+        versionCode 25
+        versionName "4.0"
+    }
+
+    signingConfigs {
+
+        release {
+            storeFile file("../keystore/OfflinePinFinder")
+            storePassword "ashok1984"
+            keyAlias "offline pin finder"
+            keyPassword "ashok1984"
+        }
     }
 
     buildTypes {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            debuggable false
+            signingConfig signingConfigs.release
         }
     }
 }
