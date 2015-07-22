@@ -4840,6 +4840,18 @@ android.support.v7.mediarouter.R$styleable: int ViewStubCompat_android_layout
 android.support.v7.mediarouter.R$styleable: int View_android_focusable
 android.support.v7.mediarouter.R$styleable: int View_paddingEnd
 android.support.v7.mediarouter.R$styleable: int View_paddingStart
+android.support.v7.recyclerview.R$attr: int layoutManager
+android.support.v7.recyclerview.R$attr: int reverseLayout
+android.support.v7.recyclerview.R$attr: int spanCount
+android.support.v7.recyclerview.R$attr: int stackFromEnd
+android.support.v7.recyclerview.R$dimen: int item_touch_helper_max_drag_scroll_per_frame
+android.support.v7.recyclerview.R$id: int item_touch_helper_previous_elevation
+android.support.v7.recyclerview.R$styleable: int[] RecyclerView
+android.support.v7.recyclerview.R$styleable: int RecyclerView_android_orientation
+android.support.v7.recyclerview.R$styleable: int RecyclerView_layoutManager
+android.support.v7.recyclerview.R$styleable: int RecyclerView_reverseLayout
+android.support.v7.recyclerview.R$styleable: int RecyclerView_spanCount
+android.support.v7.recyclerview.R$styleable: int RecyclerView_stackFromEnd
 android.support.v7.widget.ActionMenuPresenter$SavedState
 android.support.v7.widget.ActionMenuPresenter$SavedState: android.os.Parcelable$Creator CREATOR
 android.support.v7.widget.ActionMenuView
@@ -4962,6 +4974,7 @@ android.support.v7.widget.RecyclerView: void setScrollingTouchSlop(int)
 android.support.v7.widget.RecyclerView: void setAdapter(android.support.v7.widget.RecyclerView$Adapter)
 android.support.v7.widget.RecyclerView: android.support.v7.widget.RecyclerView$Adapter getAdapter()
 android.support.v7.widget.RecyclerView: void setRecyclerListener(android.support.v7.widget.RecyclerView$RecyclerListener)
+android.support.v7.widget.RecyclerView: int getBaseline()
 android.support.v7.widget.RecyclerView: void setLayoutManager(android.support.v7.widget.RecyclerView$LayoutManager)
 android.support.v7.widget.RecyclerView: android.support.v7.widget.RecyclerView$LayoutManager getLayoutManager()
 android.support.v7.widget.RecyclerView: android.support.v7.widget.RecyclerView$RecycledViewPool getRecycledViewPool()
@@ -4970,9 +4983,14 @@ android.support.v7.widget.RecyclerView: void setViewCacheExtension(android.suppo
 android.support.v7.widget.RecyclerView: void setItemViewCacheSize(int)
 android.support.v7.widget.RecyclerView: int getScrollState()
 android.support.v7.widget.RecyclerView: void setScrollState(int)
+android.support.v7.widget.RecyclerView: void setChildDrawingOrderCallback(android.support.v7.widget.RecyclerView$ChildDrawingOrderCallback)
 android.support.v7.widget.RecyclerView: void setOnScrollListener(android.support.v7.widget.RecyclerView$OnScrollListener)
+android.support.v7.widget.RecyclerView: int getMinFlingVelocity()
+android.support.v7.widget.RecyclerView: int getMaxFlingVelocity()
+android.support.v7.widget.RecyclerView: float getScrollFactor()
 android.support.v7.widget.RecyclerView: void setItemAnimator(android.support.v7.widget.RecyclerView$ItemAnimator)
 android.support.v7.widget.RecyclerView: android.support.v7.widget.RecyclerView$ItemAnimator getItemAnimator()
+android.support.v7.widget.RecyclerView: void setNestedScrollingEnabled(boolean)
 android.support.v7.widget.RecyclerView$SavedState
 android.support.v7.widget.RecyclerView$SavedState: android.os.Parcelable$Creator CREATOR
 android.support.v7.widget.SearchView: int getSuggestionRowLayout()
@@ -7035,6 +7053,7 @@ com.ashoksm.pinfinder.R$attr: int initialActivityCount
 com.ashoksm.pinfinder.R$attr: int isLightTheme
 com.ashoksm.pinfinder.R$attr: int itemPadding
 com.ashoksm.pinfinder.R$attr: int layout
+com.ashoksm.pinfinder.R$attr: int layoutManager
 com.ashoksm.pinfinder.R$attr: int listChoiceBackgroundIndicator
 com.ashoksm.pinfinder.R$attr: int listDividerAlertDialog
 com.ashoksm.pinfinder.R$attr: int listItemLayout
@@ -7087,6 +7106,7 @@ com.ashoksm.pinfinder.R$attr: int queryBackground
 com.ashoksm.pinfinder.R$attr: int queryHint
 com.ashoksm.pinfinder.R$attr: int radioButtonStyle
 com.ashoksm.pinfinder.R$attr: int ratingBarStyle
+com.ashoksm.pinfinder.R$attr: int reverseLayout
 com.ashoksm.pinfinder.R$attr: int searchHintIcon
 com.ashoksm.pinfinder.R$attr: int searchIcon
 com.ashoksm.pinfinder.R$attr: int searchViewStyle
@@ -7096,11 +7116,13 @@ com.ashoksm.pinfinder.R$attr: int showAsAction
 com.ashoksm.pinfinder.R$attr: int showDividers
 com.ashoksm.pinfinder.R$attr: int showText
 com.ashoksm.pinfinder.R$attr: int singleChoiceItemLayout
+com.ashoksm.pinfinder.R$attr: int spanCount
 com.ashoksm.pinfinder.R$attr: int spinBars
 com.ashoksm.pinfinder.R$attr: int spinnerDropDownItemStyle
 com.ashoksm.pinfinder.R$attr: int spinnerMode
 com.ashoksm.pinfinder.R$attr: int spinnerStyle
 com.ashoksm.pinfinder.R$attr: int splitTrack
+com.ashoksm.pinfinder.R$attr: int stackFromEnd
 com.ashoksm.pinfinder.R$attr: int state_above_anchor
 com.ashoksm.pinfinder.R$attr: int submitBackground
 com.ashoksm.pinfinder.R$attr: int subtitle
@@ -7332,6 +7354,7 @@ com.ashoksm.pinfinder.R$dimen: int dialog_fixed_width_major
 com.ashoksm.pinfinder.R$dimen: int dialog_fixed_width_minor
 com.ashoksm.pinfinder.R$dimen: int disabled_alpha_material_dark
 com.ashoksm.pinfinder.R$dimen: int disabled_alpha_material_light
+com.ashoksm.pinfinder.R$dimen: int item_touch_helper_max_drag_scroll_per_frame
 com.ashoksm.pinfinder.R$dimen: int mr_media_route_controller_art_max_height
 com.ashoksm.pinfinder.R$dimen: int notification_large_icon_height
 com.ashoksm.pinfinder.R$dimen: int notification_large_icon_width
@@ -7495,7 +7518,7 @@ com.ashoksm.pinfinder.R$id: int action_mode_bar_stub
 com.ashoksm.pinfinder.R$id: int action_mode_close_button
 com.ashoksm.pinfinder.R$id: int activity_chooser_view_content
 com.ashoksm.pinfinder.R$id: int ad
-com.ashoksm.pinfinder.R$id: int ad_1
+com.ashoksm.pinfinder.R$id: int adLayout
 com.ashoksm.pinfinder.R$id: int address
 com.ashoksm.pinfinder.R$id: int addressRow
 com.ashoksm.pinfinder.R$id: int adjust_height
@@ -7549,7 +7572,7 @@ com.ashoksm.pinfinder.R$id: int end_padder
 com.ashoksm.pinfinder.R$id: int expand_activities_button
 com.ashoksm.pinfinder.R$id: int expanded_menu
 com.ashoksm.pinfinder.R$id: int grayscale
-com.ashoksm.pinfinder.R$id: int gridview
+com.ashoksm.pinfinder.R$id: int gridView
 com.ashoksm.pinfinder.R$id: int headofficeLabel
 com.ashoksm.pinfinder.R$id: int headofficeName
 com.ashoksm.pinfinder.R$id: int headofficeRow
@@ -7565,9 +7588,9 @@ com.ashoksm.pinfinder.R$id: int ifscRow
 com.ashoksm.pinfinder.R$id: int ifscSearch
 com.ashoksm.pinfinder.R$id: int image
 com.ashoksm.pinfinder.R$id: int info
+com.ashoksm.pinfinder.R$id: int item_touch_helper_previous_elevation
 com.ashoksm.pinfinder.R$id: int line1
 com.ashoksm.pinfinder.R$id: int line3
-com.ashoksm.pinfinder.R$id: int linlaHeaderProgress
 com.ashoksm.pinfinder.R$id: int listMode
 com.ashoksm.pinfinder.R$id: int list_item
 com.ashoksm.pinfinder.R$id: int locationLabel
@@ -7599,6 +7622,7 @@ com.ashoksm.pinfinder.R$id: int pincode_card_view
 com.ashoksm.pinfinder.R$id: int pinfinder_content_fragment
 com.ashoksm.pinfinder.R$id: int play_pause
 com.ashoksm.pinfinder.R$id: int production
+com.ashoksm.pinfinder.R$id: int progressLayout
 com.ashoksm.pinfinder.R$id: int progress_circular
 com.ashoksm.pinfinder.R$id: int progress_horizontal
 com.ashoksm.pinfinder.R$id: int rCityName
@@ -8324,6 +8348,12 @@ com.ashoksm.pinfinder.R$styleable: int PopupWindow_android_popupBackground
 com.ashoksm.pinfinder.R$styleable: int PopupWindow_overlapAnchor
 com.ashoksm.pinfinder.R$styleable: int[] PopupWindowBackgroundState
 com.ashoksm.pinfinder.R$styleable: int PopupWindowBackgroundState_state_above_anchor
+com.ashoksm.pinfinder.R$styleable: int[] RecyclerView
+com.ashoksm.pinfinder.R$styleable: int RecyclerView_android_orientation
+com.ashoksm.pinfinder.R$styleable: int RecyclerView_layoutManager
+com.ashoksm.pinfinder.R$styleable: int RecyclerView_reverseLayout
+com.ashoksm.pinfinder.R$styleable: int RecyclerView_spanCount
+com.ashoksm.pinfinder.R$styleable: int RecyclerView_stackFromEnd
 com.ashoksm.pinfinder.R$styleable: int[] SearchView
 com.ashoksm.pinfinder.R$styleable: int SearchView_android_focusable
 com.ashoksm.pinfinder.R$styleable: int SearchView_android_imeOptions

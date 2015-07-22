@@ -54,15 +54,16 @@ public class SlidingTabsBasicFragment extends Fragment {
      */
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
-            Bundle savedInstanceState) {
+                             Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_main, container, false);
     }
 
     // BEGIN_INCLUDE (fragment_onviewcreated)
+
     /**
      * This is called after the {@link #onCreateView(LayoutInflater, ViewGroup, Bundle)} has finished.
      * Here we can pick out the {@link View}s we need to configure from the content view.
-     *
+     * <p/>
      * We set the {@link ViewPager}'s adapter to be an instance of {@link SamplePagerAdapter}. The
      * {@link SlidingTabLayout} is then given the {@link ViewPager} so that it can populate itself.
      *
@@ -111,25 +112,26 @@ public class SlidingTabsBasicFragment extends Fragment {
         }
 
         // BEGIN_INCLUDE (pageradapter_getpagetitle)
+
         /**
          * Return the title of the item at {@code position}. This is important as what this method
          * returns is what is displayed in the {@link SlidingTabLayout}.
-         * <p>
+         * <p/>
          * Here we construct one using the position value, but for real application the title should
          * refer to the item's contents.
          */
         @Override
         public CharSequence getPageTitle(int position) {
-        	switch (position) {
-			case 0:
-				return "Pincode";
-			case 1 :
-				return "IFSC";
-			case 2:
-				return "STD";
-			default :
-				return "RTO";
-			}
+            switch (position) {
+                case 0:
+                    return "Pincode";
+                case 1:
+                    return "IFSC";
+                case 2:
+                    return "STD";
+                default:
+                    return "RTO";
+            }
         }
         // END_INCLUDE (pageradapter_getpagetitle)
 
@@ -146,40 +148,40 @@ public class SlidingTabsBasicFragment extends Fragment {
             container.addView(view);
 
             ScrollView pincodeView = (ScrollView) view.findViewById(R.id.pincodeView);
-			ScrollView bankView = (ScrollView) view.findViewById(R.id.bankView);
-			ScrollView stdView = (ScrollView) view.findViewById(R.id.stdView);
-			ScrollView rtoView = (ScrollView) view.findViewById(R.id.rtoView);
+            ScrollView bankView = (ScrollView) view.findViewById(R.id.bankView);
+            ScrollView stdView = (ScrollView) view.findViewById(R.id.stdView);
+            ScrollView rtoView = (ScrollView) view.findViewById(R.id.rtoView);
 
-			switch (position) {
-			case 0:
-				pincodeView.setVisibility(View.VISIBLE);
-				bankView.setVisibility(View.GONE);
-				stdView.setVisibility(View.GONE);
-				rtoView.setVisibility(View.GONE);
-				PinCodeView.execute(view, getActivity().getResources(), getActivity());
-				break;
-			case 1:
-				pincodeView.setVisibility(View.GONE);
-				bankView.setVisibility(View.VISIBLE);
-				stdView.setVisibility(View.GONE);
-				rtoView.setVisibility(View.GONE);
-				BankView.execute(view, getActivity().getResources(), getActivity());
-				break;
-			case 2:
-				pincodeView.setVisibility(View.GONE);
-				bankView.setVisibility(View.GONE);
-				stdView.setVisibility(View.VISIBLE);
-				rtoView.setVisibility(View.GONE);
-				STDView.execute(view, getActivity());
-				break;
-			case 3:
-				pincodeView.setVisibility(View.GONE);
-				bankView.setVisibility(View.GONE);
-				stdView.setVisibility(View.GONE);
-				rtoView.setVisibility(View.VISIBLE);
-				RTOView.execute(view, getActivity());
-				break;
-			}
+            switch (position) {
+                case 0:
+                    pincodeView.setVisibility(View.VISIBLE);
+                    bankView.setVisibility(View.GONE);
+                    stdView.setVisibility(View.GONE);
+                    rtoView.setVisibility(View.GONE);
+                    PinCodeView.execute(view, getActivity().getResources(), getActivity());
+                    break;
+                case 1:
+                    pincodeView.setVisibility(View.GONE);
+                    bankView.setVisibility(View.VISIBLE);
+                    stdView.setVisibility(View.GONE);
+                    rtoView.setVisibility(View.GONE);
+                    BankView.execute(view, getActivity().getResources(), getActivity());
+                    break;
+                case 2:
+                    pincodeView.setVisibility(View.GONE);
+                    bankView.setVisibility(View.GONE);
+                    stdView.setVisibility(View.VISIBLE);
+                    rtoView.setVisibility(View.GONE);
+                    STDView.execute(view, getActivity());
+                    break;
+                case 3:
+                    pincodeView.setVisibility(View.GONE);
+                    bankView.setVisibility(View.GONE);
+                    stdView.setVisibility(View.GONE);
+                    rtoView.setVisibility(View.VISIBLE);
+                    RTOView.execute(view, getActivity());
+                    break;
+            }
 
             Log.i(LOG_TAG, "instantiateItem() [position: " + position + "]");
 

@@ -11,7 +11,6 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
-import android.view.animation.DecelerateInterpolator;
 import android.widget.LinearLayout;
 
 import com.ashoksm.pinfinder.adapter.STDRecyclerViewAdapter;
@@ -34,8 +33,6 @@ public class DisplaySTDResultActivity extends ActivityBase {
 
     private String cityName;
 
-    private static boolean scrollDown;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,7 +41,7 @@ public class DisplaySTDResultActivity extends ActivityBase {
         toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
         setSupportActionBar(toolbar);
 
-        final RecyclerView mRecyclerView = (RecyclerView) findViewById(R.id.gridview);
+        final RecyclerView mRecyclerView = (RecyclerView) findViewById(R.id.gridView);
 
         // use this setting to improve performance if you know that changes
         // in content do not change the layout size of the RecyclerView
@@ -56,47 +53,11 @@ public class DisplaySTDResultActivity extends ActivityBase {
 
         // add check to avoid toolbar animation for the devices before JELLY_BEAN
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.JELLY_BEAN) {
-            mRecyclerView.setOnScrollListener(new RecyclerView.OnScrollListener() {
-                @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
+            mRecyclerView.setOnScrollListener(new HidingScrollListener(this) {
+                @TargetApi(Build.VERSION_CODES.HONEYCOMB)
                 @Override
-                public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
-                    super.onScrollStateChanged(recyclerView, newState);
-                    if (!scrollDown) {
-                        toolbar.animate().translationY(0).alpha(1).setDuration(300)
-                                .setInterpolator(new DecelerateInterpolator()).withEndAction(new Runnable() {
-
-                            @Override
-                            public void run() {
-                                if (getSupportActionBar() != null) {
-                                    getSupportActionBar().show();
-                                }
-                            }
-                        });
-                    } else {
-                        toolbar.animate().translationY(-toolbar.getBottom()).alpha(0).setDuration(300)
-                                .setInterpolator(new DecelerateInterpolator()).withEndAction(new Runnable() {
-
-                            @Override
-                            public void run() {
-                                if (getSupportActionBar() != null) {
-                                    getSupportActionBar().hide();
-                                }
-                            }
-                        });
-                    }
-                }
-
-                @Override
-                public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
-                    super.onScrolled(recyclerView, dx, dy);
-                    if (dy > 1) {
-                        // scroll down
-                        scrollDown = true;
-
-                    } else if (dy < -1) {
-                        // scroll up
-                        scrollDown = false;
-                    }
+                public void onMoved(int distance) {
+                    toolbar.setTranslationY(-distance);
                 }
             });
         }
@@ -107,7 +68,7 @@ public class DisplaySTDResultActivity extends ActivityBase {
         cityName = intent.getStringExtra(STDView.EXTRA_CITY).toLowerCase(l).replaceAll(" ", "").replaceAll("'", "''");
 
         // load ad
-        final LinearLayout adParent = (LinearLayout) this.findViewById(R.id.ad_1);
+        final LinearLayout adParent = (LinearLayout) this.findViewById(R.id.adLayout);
         final AdView ad = new AdView(this);
         ad.setAdUnitId(getString(R.string.admob_id));
         ad.setAdSize(AdSize.SMART_BANNER);
@@ -133,13 +94,13 @@ public class DisplaySTDResultActivity extends ActivityBase {
         ad.loadAd(adRequest);
 
         new AsyncTask<Void, Void, Void>() {
-            LinearLayout linlaHeaderProgress = (LinearLayout) findViewById(R.id.linlaHeaderProgress);
+            LinearLayout progressLayout = (LinearLayout) findViewById(R.id.progressLayout);
             STDRecyclerViewAdapter adapter;
 
             @Override
             protected void onPreExecute() {
                 // SHOW THE SPINNER WHILE LOADING FEEDS
-                linlaHeaderProgress.setVisibility(View.VISIBLE);
+                progressLayout.setVisibility(View.VISIBLE);
             }
 
             @Override
@@ -168,7 +129,7 @@ public class DisplaySTDResultActivity extends ActivityBase {
                     noMatchingLayout.setVisibility(View.VISIBLE);
                 }
                 // HIDE THE SPINNER AFTER LOADING FEEDS
-                linlaHeaderProgress.setVisibility(View.GONE);
+                progressLayout.setVisibility(View.GONE);
             }
 
         }.execute();

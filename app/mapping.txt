@@ -2509,6 +2509,12 @@ android.support.v4.os.ParcelableCompatCreatorHoneycombMR2 -> android.support.v4.
     java.lang.Object[] newArray(int) -> newArray
 android.support.v4.os.ParcelableCompatCreatorHoneycombMR2Stub -> android.support.v4.c.g:
     android.os.Parcelable$Creator instantiate(android.support.v4.os.ParcelableCompatCreatorCallbacks) -> a
+android.support.v4.os.TraceCompat -> android.support.v4.c.h:
+    void beginSection(java.lang.String) -> a
+    void endSection() -> a
+android.support.v4.os.TraceJellybeanMR2 -> android.support.v4.c.i:
+    void beginSection(java.lang.String) -> a
+    void endSection() -> a
 android.support.v4.text.ICUCompat -> android.support.v4.d.a:
     android.support.v4.text.ICUCompat$ICUCompatImpl IMPL -> a
     java.lang.String getScript(java.lang.String) -> a
@@ -3122,12 +3128,12 @@ android.support.v4.view.PagerAdapter -> android.support.v4.view.bo:
     java.lang.CharSequence getPageTitle(int) -> getPageTitle
     float getPageWidth(int) -> getPageWidth
 android.support.v4.view.ScrollingView -> android.support.v4.view.bp:
-    int computeHorizontalScrollRange() -> a
-    int computeHorizontalScrollOffset() -> b
-    int computeHorizontalScrollExtent() -> c
-    int computeVerticalScrollRange() -> d
-    int computeVerticalScrollOffset() -> e
-    int computeVerticalScrollExtent() -> f
+    int computeHorizontalScrollRange() -> computeHorizontalScrollRange
+    int computeHorizontalScrollOffset() -> computeHorizontalScrollOffset
+    int computeHorizontalScrollExtent() -> computeHorizontalScrollExtent
+    int computeVerticalScrollRange() -> computeVerticalScrollRange
+    int computeVerticalScrollOffset() -> computeVerticalScrollOffset
+    int computeVerticalScrollExtent() -> computeVerticalScrollExtent
 android.support.v4.view.VelocityTrackerCompat -> android.support.v4.view.bq:
     android.support.v4.view.VelocityTrackerCompat$VelocityTrackerVersionImpl IMPL -> a
     float getXVelocity(android.view.VelocityTracker,int) -> a
@@ -3787,11 +3793,22 @@ android.support.v4.view.WindowInsetsCompatApi21 -> android.support.v4.view.en:
 android.support.v4.view.accessibility.AccessibilityEventCompat -> android.support.v4.view.a.a:
     android.support.v4.view.accessibility.AccessibilityEventCompat$AccessibilityEventVersionImpl IMPL -> a
     android.support.v4.view.accessibility.AccessibilityRecordCompat asRecord(android.view.accessibility.AccessibilityEvent) -> a
+    void setContentChangeTypes(android.view.accessibility.AccessibilityEvent,int) -> a
+    int getContentChangeTypes(android.view.accessibility.AccessibilityEvent) -> b
 android.support.v4.view.accessibility.AccessibilityEventCompat$AccessibilityEventIcsImpl -> android.support.v4.view.a.b:
 android.support.v4.view.accessibility.AccessibilityEventCompat$AccessibilityEventKitKatImpl -> android.support.v4.view.a.c:
+    void setContentChangeTypes(android.view.accessibility.AccessibilityEvent,int) -> a
+    int getContentChangeTypes(android.view.accessibility.AccessibilityEvent) -> a
 android.support.v4.view.accessibility.AccessibilityEventCompat$AccessibilityEventStubImpl -> android.support.v4.view.a.d:
+    void setContentChangeTypes(android.view.accessibility.AccessibilityEvent,int) -> a
+    int getContentChangeTypes(android.view.accessibility.AccessibilityEvent) -> a
 android.support.v4.view.accessibility.AccessibilityEventCompat$AccessibilityEventVersionImpl -> android.support.v4.view.a.e:
-android.support.v4.view.accessibility.AccessibilityNodeInfoCompat -> android.support.v4.view.a.f:
+    void setContentChangeTypes(android.view.accessibility.AccessibilityEvent,int) -> a
+    int getContentChangeTypes(android.view.accessibility.AccessibilityEvent) -> a
+android.support.v4.view.accessibility.AccessibilityEventCompatKitKat -> android.support.v4.view.a.f:
+    void setContentChangeTypes(android.view.accessibility.AccessibilityEvent,int) -> a
+    int getContentChangeTypes(android.view.accessibility.AccessibilityEvent) -> a
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat -> android.support.v4.view.a.g:
     android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoImpl IMPL -> a
     java.lang.Object mInfo -> b
     java.lang.Object getInfo() -> a
@@ -3824,11 +3841,11 @@ android.support.v4.view.accessibility.AccessibilityNodeInfoCompat -> android.sup
     java.lang.String toString() -> toString
     java.lang.String getActionSymbolicName(int) -> b
     android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoImpl access$000() -> r
-android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoApi21Impl -> android.support.v4.view.a.g:
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoApi21Impl -> android.support.v4.view.a.h:
     java.lang.Object obtainCollectionInfo(int,int,boolean,int) -> a
     java.lang.Object obtainCollectionItemInfo(int,int,int,int,boolean,boolean) -> a
-android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoApi22Impl -> android.support.v4.view.a.h:
-android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoIcsImpl -> android.support.v4.view.a.i:
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoApi22Impl -> android.support.v4.view.a.i:
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoIcsImpl -> android.support.v4.view.a.j:
     void addAction(java.lang.Object,int) -> a
     int getActions(java.lang.Object) -> a
     void getBoundsInParent(java.lang.Object,android.graphics.Rect) -> a
@@ -3850,7 +3867,7 @@ android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityN
     void setClassName(java.lang.Object,java.lang.CharSequence) -> a
     void setParent(java.lang.Object,android.view.View) -> a
     void setScrollable(java.lang.Object,boolean) -> a
-android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoImpl -> android.support.v4.view.a.j:
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoImpl -> android.support.v4.view.a.k:
     int getActions(java.lang.Object) -> a
     void addAction(java.lang.Object,int) -> a
     void setParent(java.lang.Object,android.view.View) -> a
@@ -3877,15 +3894,15 @@ android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityN
     void setCollectionItemInfo(java.lang.Object,java.lang.Object) -> b
     java.lang.Object obtainCollectionInfo(int,int,boolean,int) -> a
     java.lang.Object obtainCollectionItemInfo(int,int,int,int,boolean,boolean) -> a
-android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoJellybeanImpl -> android.support.v4.view.a.k:
-android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoJellybeanMr2Impl -> android.support.v4.view.a.l:
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoJellybeanImpl -> android.support.v4.view.a.l:
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoJellybeanMr2Impl -> android.support.v4.view.a.m:
     java.lang.String getViewIdResourceName(java.lang.Object) -> p
-android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoKitKatImpl -> android.support.v4.view.a.m:
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoKitKatImpl -> android.support.v4.view.a.n:
     void setCollectionInfo(java.lang.Object,java.lang.Object) -> a
     java.lang.Object obtainCollectionInfo(int,int,boolean,int) -> a
     java.lang.Object obtainCollectionItemInfo(int,int,int,int,boolean,boolean) -> a
     void setCollectionItemInfo(java.lang.Object,java.lang.Object) -> b
-android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoStubImpl -> android.support.v4.view.a.n:
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoStubImpl -> android.support.v4.view.a.o:
     void addAction(java.lang.Object,int) -> a
     int getActions(java.lang.Object) -> a
     void getBoundsInParent(java.lang.Object,android.graphics.Rect) -> a
@@ -3912,17 +3929,17 @@ android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityN
     void setCollectionItemInfo(java.lang.Object,java.lang.Object) -> b
     java.lang.Object obtainCollectionInfo(int,int,boolean,int) -> a
     java.lang.Object obtainCollectionItemInfo(int,int,int,int,boolean,boolean) -> a
-android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$CollectionInfoCompat -> android.support.v4.view.a.o:
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$CollectionInfoCompat -> android.support.v4.view.a.p:
     java.lang.Object mInfo -> a
     android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$CollectionInfoCompat obtain(int,int,boolean,int) -> a
-android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$CollectionItemInfoCompat -> android.support.v4.view.a.p:
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$CollectionItemInfoCompat -> android.support.v4.view.a.q:
     java.lang.Object mInfo -> a
     android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$CollectionItemInfoCompat obtain(int,int,int,int,boolean,boolean) -> a
     java.lang.Object access$300(android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$CollectionItemInfoCompat) -> a
-android.support.v4.view.accessibility.AccessibilityNodeInfoCompatApi21 -> android.support.v4.view.a.q:
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompatApi21 -> android.support.v4.view.a.r:
     java.lang.Object obtainCollectionInfo(int,int,boolean,int) -> a
     java.lang.Object obtainCollectionItemInfo(int,int,int,int,boolean,boolean) -> a
-android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs -> android.support.v4.view.a.r:
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs -> android.support.v4.view.a.s:
     void addAction(java.lang.Object,int) -> a
     int getActions(java.lang.Object) -> a
     void getBoundsInParent(java.lang.Object,android.graphics.Rect) -> a
@@ -3944,14 +3961,14 @@ android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs -> android.
     void setClassName(java.lang.Object,java.lang.CharSequence) -> a
     void setParent(java.lang.Object,android.view.View) -> a
     void setScrollable(java.lang.Object,boolean) -> a
-android.support.v4.view.accessibility.AccessibilityNodeInfoCompatJellybeanMr2 -> android.support.v4.view.a.s:
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompatJellybeanMr2 -> android.support.v4.view.a.t:
     java.lang.String getViewIdResourceName(java.lang.Object) -> a
-android.support.v4.view.accessibility.AccessibilityNodeInfoCompatKitKat -> android.support.v4.view.a.t:
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompatKitKat -> android.support.v4.view.a.u:
     void setCollectionInfo(java.lang.Object,java.lang.Object) -> a
     void setCollectionItemInfo(java.lang.Object,java.lang.Object) -> b
     java.lang.Object obtainCollectionInfo(int,int,boolean,int) -> a
     java.lang.Object obtainCollectionItemInfo(int,int,int,int,boolean) -> a
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompat -> android.support.v4.view.a.u:
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat -> android.support.v4.view.a.v:
     android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderImpl IMPL -> a
     java.lang.Object mProvider -> b
     java.lang.Object getProvider() -> a
@@ -3959,52 +3976,52 @@ android.support.v4.view.accessibility.AccessibilityNodeProviderCompat -> android
     boolean performAction(int,int,android.os.Bundle) -> a
     java.util.List findAccessibilityNodeInfosByText(java.lang.String,int) -> a
     android.support.v4.view.accessibility.AccessibilityNodeInfoCompat findFocus(int) -> b
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderImpl -> android.support.v4.view.a.v:
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderImpl -> android.support.v4.view.a.w:
     java.lang.Object newAccessibilityNodeProviderBridge(android.support.v4.view.accessibility.AccessibilityNodeProviderCompat) -> a
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderJellyBeanImpl -> android.support.v4.view.a.w:
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderJellyBeanImpl -> android.support.v4.view.a.x:
     java.lang.Object newAccessibilityNodeProviderBridge(android.support.v4.view.accessibility.AccessibilityNodeProviderCompat) -> a
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderJellyBeanImpl$1 -> android.support.v4.view.a.x:
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderJellyBeanImpl$1 -> android.support.v4.view.a.y:
     android.support.v4.view.accessibility.AccessibilityNodeProviderCompat val$compat -> a
     android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderJellyBeanImpl this$0 -> b
     boolean performAction(int,int,android.os.Bundle) -> a
     java.util.List findAccessibilityNodeInfosByText(java.lang.String,int) -> a
     java.lang.Object createAccessibilityNodeInfo(int) -> a
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderKitKatImpl -> android.support.v4.view.a.y:
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderKitKatImpl -> android.support.v4.view.a.z:
     java.lang.Object newAccessibilityNodeProviderBridge(android.support.v4.view.accessibility.AccessibilityNodeProviderCompat) -> a
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderKitKatImpl$1 -> android.support.v4.view.a.z:
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderKitKatImpl$1 -> android.support.v4.view.a.aa:
     android.support.v4.view.accessibility.AccessibilityNodeProviderCompat val$compat -> a
     android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderKitKatImpl this$0 -> b
     boolean performAction(int,int,android.os.Bundle) -> a
     java.util.List findAccessibilityNodeInfosByText(java.lang.String,int) -> a
     java.lang.Object createAccessibilityNodeInfo(int) -> a
     java.lang.Object findFocus(int) -> b
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderStubImpl -> android.support.v4.view.a.aa:
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderStubImpl -> android.support.v4.view.a.ab:
     java.lang.Object newAccessibilityNodeProviderBridge(android.support.v4.view.accessibility.AccessibilityNodeProviderCompat) -> a
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean -> android.support.v4.view.a.ab:
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean -> android.support.v4.view.a.ac:
     java.lang.Object newAccessibilityNodeProviderBridge(android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean$AccessibilityNodeInfoBridge) -> a
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean$1 -> android.support.v4.view.a.ac:
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean$1 -> android.support.v4.view.a.ad:
     android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean$AccessibilityNodeInfoBridge val$bridge -> a
     android.view.accessibility.AccessibilityNodeInfo createAccessibilityNodeInfo(int) -> createAccessibilityNodeInfo
     java.util.List findAccessibilityNodeInfosByText(java.lang.String,int) -> findAccessibilityNodeInfosByText
     boolean performAction(int,int,android.os.Bundle) -> performAction
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean$AccessibilityNodeInfoBridge -> android.support.v4.view.a.ad:
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean$AccessibilityNodeInfoBridge -> android.support.v4.view.a.ae:
     java.lang.Object createAccessibilityNodeInfo(int) -> a
     boolean performAction(int,int,android.os.Bundle) -> a
     java.util.List findAccessibilityNodeInfosByText(java.lang.String,int) -> a
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompatKitKat -> android.support.v4.view.a.ae:
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatKitKat -> android.support.v4.view.a.af:
     java.lang.Object newAccessibilityNodeProviderBridge(android.support.v4.view.accessibility.AccessibilityNodeProviderCompatKitKat$AccessibilityNodeInfoBridge) -> a
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompatKitKat$1 -> android.support.v4.view.a.af:
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatKitKat$1 -> android.support.v4.view.a.ag:
     android.support.v4.view.accessibility.AccessibilityNodeProviderCompatKitKat$AccessibilityNodeInfoBridge val$bridge -> a
     android.view.accessibility.AccessibilityNodeInfo createAccessibilityNodeInfo(int) -> createAccessibilityNodeInfo
     java.util.List findAccessibilityNodeInfosByText(java.lang.String,int) -> findAccessibilityNodeInfosByText
     boolean performAction(int,int,android.os.Bundle) -> performAction
     android.view.accessibility.AccessibilityNodeInfo findFocus(int) -> findFocus
-android.support.v4.view.accessibility.AccessibilityNodeProviderCompatKitKat$AccessibilityNodeInfoBridge -> android.support.v4.view.a.ag:
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatKitKat$AccessibilityNodeInfoBridge -> android.support.v4.view.a.ah:
     java.lang.Object createAccessibilityNodeInfo(int) -> a
     boolean performAction(int,int,android.os.Bundle) -> a
     java.util.List findAccessibilityNodeInfosByText(java.lang.String,int) -> a
     java.lang.Object findFocus(int) -> b
-android.support.v4.view.accessibility.AccessibilityRecordCompat -> android.support.v4.view.a.ah:
+android.support.v4.view.accessibility.AccessibilityRecordCompat -> android.support.v4.view.a.ai:
     android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordImpl IMPL -> a
     java.lang.Object mRecord -> b
     android.support.v4.view.accessibility.AccessibilityRecordCompat obtain() -> a
@@ -4018,7 +4035,7 @@ android.support.v4.view.accessibility.AccessibilityRecordCompat -> android.suppo
     void setMaxScrollY(int) -> g
     int hashCode() -> hashCode
     boolean equals(java.lang.Object) -> equals
-android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordIcsImpl -> android.support.v4.view.a.ai:
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordIcsImpl -> android.support.v4.view.a.aj:
     java.lang.Object obtain() -> a
     void setFromIndex(java.lang.Object,int) -> a
     void setItemCount(java.lang.Object,int) -> b
@@ -4026,10 +4043,10 @@ android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRec
     void setScrollY(java.lang.Object,int) -> d
     void setScrollable(java.lang.Object,boolean) -> a
     void setToIndex(java.lang.Object,int) -> e
-android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordIcsMr1Impl -> android.support.v4.view.a.aj:
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordIcsMr1Impl -> android.support.v4.view.a.ak:
     void setMaxScrollX(java.lang.Object,int) -> f
     void setMaxScrollY(java.lang.Object,int) -> g
-android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordImpl -> android.support.v4.view.a.ak:
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordImpl -> android.support.v4.view.a.al:
     java.lang.Object obtain() -> a
     void setScrollable(java.lang.Object,boolean) -> a
     void setItemCount(java.lang.Object,int) -> b
@@ -4039,8 +4056,8 @@ android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRec
     void setScrollY(java.lang.Object,int) -> d
     void setMaxScrollX(java.lang.Object,int) -> f
     void setMaxScrollY(java.lang.Object,int) -> g
-android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordJellyBeanImpl -> android.support.v4.view.a.al:
-android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordStubImpl -> android.support.v4.view.a.am:
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordJellyBeanImpl -> android.support.v4.view.a.am:
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordStubImpl -> android.support.v4.view.a.an:
     java.lang.Object obtain() -> a
     void setFromIndex(java.lang.Object,int) -> a
     void setItemCount(java.lang.Object,int) -> b
@@ -4050,7 +4067,7 @@ android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRec
     void setScrollY(java.lang.Object,int) -> d
     void setScrollable(java.lang.Object,boolean) -> a
     void setToIndex(java.lang.Object,int) -> e
-android.support.v4.view.accessibility.AccessibilityRecordCompatIcs -> android.support.v4.view.a.an:
+android.support.v4.view.accessibility.AccessibilityRecordCompatIcs -> android.support.v4.view.a.ao:
     java.lang.Object obtain() -> a
     void setFromIndex(java.lang.Object,int) -> a
     void setItemCount(java.lang.Object,int) -> b
@@ -4058,7 +4075,7 @@ android.support.v4.view.accessibility.AccessibilityRecordCompatIcs -> android.su
     void setScrollY(java.lang.Object,int) -> d
     void setScrollable(java.lang.Object,boolean) -> a
     void setToIndex(java.lang.Object,int) -> e
-android.support.v4.view.accessibility.AccessibilityRecordCompatIcsMr1 -> android.support.v4.view.a.ao:
+android.support.v4.view.accessibility.AccessibilityRecordCompatIcsMr1 -> android.support.v4.view.a.ap:
     void setMaxScrollX(java.lang.Object,int) -> a
     void setMaxScrollY(java.lang.Object,int) -> b
 android.support.v4.widget.AutoScrollHelper -> android.support.v4.widget.a:
@@ -4795,10 +4812,8 @@ android.support.v4.widget.ViewDragHelper$Callback -> android.support.v4.widget.b
 android.support.v7.app.ActionBar -> android.support.v7.app.a:
     void setTitle(java.lang.CharSequence) -> a
     int getDisplayOptions() -> a
-    void show() -> b
-    void hide() -> c
     void setHomeButtonEnabled(boolean) -> a
-    android.content.Context getThemedContext() -> d
+    android.content.Context getThemedContext() -> b
     void setHideOnContentScrollEnabled(boolean) -> b
     void setElevation(float) -> a
     void setDefaultDisplayHomeAsUpEnabled(boolean) -> c
@@ -4806,9 +4821,9 @@ android.support.v7.app.ActionBar -> android.support.v7.app.a:
     void onConfigurationChanged(android.content.res.Configuration) -> a
     void dispatchMenuVisibilityChanged(boolean) -> e
     android.support.v7.view.ActionMode startActionMode(android.support.v7.view.ActionMode$Callback) -> a
-    boolean invalidateOptionsMenu() -> e
+    boolean invalidateOptionsMenu() -> c
     boolean onKeyShortcut(int,android.view.KeyEvent) -> a
-    boolean collapseActionView() -> f
+    boolean collapseActionView() -> d
     void setWindowTitle(java.lang.CharSequence) -> b
 android.support.v7.app.ActionBar$LayoutParams -> android.support.v7.app.b:
     int gravity -> a
@@ -5050,16 +5065,17 @@ android.support.v7.app.AppCompatDelegateImplBase -> android.support.v7.app.s:
     android.content.Context mContext -> a
     android.view.Window mWindow -> b
     android.view.Window$Callback mOriginalWindowCallback -> c
-    android.support.v7.app.AppCompatCallback mAppCompatCallback -> d
-    android.support.v7.app.ActionBar mActionBar -> j
-    android.view.MenuInflater mMenuInflater -> k
-    boolean mHasActionBar -> e
-    boolean mOverlayActionBar -> f
-    boolean mOverlayActionMode -> g
-    boolean mIsFloating -> h
-    boolean mWindowNoTitle -> i
-    java.lang.CharSequence mTitle -> l
-    boolean mIsDestroyed -> m
+    android.view.Window$Callback mAppCompatWindowCallback -> d
+    android.support.v7.app.AppCompatCallback mAppCompatCallback -> e
+    android.support.v7.app.ActionBar mActionBar -> k
+    android.view.MenuInflater mMenuInflater -> l
+    boolean mHasActionBar -> f
+    boolean mOverlayActionBar -> g
+    boolean mOverlayActionMode -> h
+    boolean mIsFloating -> i
+    boolean mWindowNoTitle -> j
+    java.lang.CharSequence mTitle -> m
+    boolean mIsDestroyed -> n
     android.support.v7.app.ActionBar createSupportActionBar() -> h
     android.view.Window$Callback wrapWindowCallback(android.view.Window$Callback) -> a
     android.support.v7.app.ActionBar getSupportActionBar() -> a
@@ -5091,7 +5107,7 @@ android.support.v7.app.AppCompatDelegateImplBase$AppCompatWindowCallbackBase -> 
 android.support.v7.app.AppCompatDelegateImplV11 -> android.support.v7.app.u:
     android.view.View callActivityOnCreateView(android.view.View,java.lang.String,android.content.Context,android.util.AttributeSet) -> a
 android.support.v7.app.AppCompatDelegateImplV14 -> android.support.v7.app.v:
-    boolean mHandleNativeActionModes -> n
+    boolean mHandleNativeActionModes -> o
     android.view.Window$Callback wrapWindowCallback(android.view.Window$Callback) -> a
     boolean access$000(android.support.v7.app.AppCompatDelegateImplV14) -> a
 android.support.v7.app.AppCompatDelegateImplV14$AppCompatWindowCallbackV14 -> android.support.v7.app.w:
@@ -5099,30 +5115,30 @@ android.support.v7.app.AppCompatDelegateImplV14$AppCompatWindowCallbackV14 -> an
     android.view.ActionMode onWindowStartingActionMode(android.view.ActionMode$Callback) -> onWindowStartingActionMode
     android.view.ActionMode startAsSupportActionMode(android.view.ActionMode$Callback) -> a
 android.support.v7.app.AppCompatDelegateImplV7 -> android.support.v7.app.AppCompatDelegateImplV7:
-    android.support.v7.internal.widget.DecorContentParent mDecorContentParent -> n
-    android.support.v7.app.AppCompatDelegateImplV7$ActionMenuPresenterCallback mActionMenuPresenterCallback -> o
-    android.support.v7.app.AppCompatDelegateImplV7$PanelMenuPresenterCallback mPanelMenuPresenterCallback -> p
-    android.support.v7.view.ActionMode mActionMode -> j
-    android.support.v7.internal.widget.ActionBarContextView mActionModeView -> k
-    android.widget.PopupWindow mActionModePopup -> l
-    java.lang.Runnable mShowActionModePopup -> m
-    boolean mSubDecorInstalled -> q
-    android.view.ViewGroup mWindowDecor -> r
-    android.view.ViewGroup mSubDecor -> s
-    android.widget.TextView mTitleView -> t
-    android.view.View mStatusGuard -> u
-    boolean mFeatureProgress -> v
-    boolean mFeatureIndeterminateProgress -> w
-    boolean mClosingActionMenu -> x
-    android.support.v7.app.AppCompatDelegateImplV7$PanelFeatureState[] mPanels -> y
-    android.support.v7.app.AppCompatDelegateImplV7$PanelFeatureState mPreparedPanel -> z
-    boolean mInvalidatePanelMenuPosted -> A
-    int mInvalidatePanelMenuFeatures -> B
-    java.lang.Runnable mInvalidatePanelMenuRunnable -> C
-    boolean mEnableDefaultActionBarUp -> D
-    android.graphics.Rect mTempRect1 -> E
-    android.graphics.Rect mTempRect2 -> F
-    android.support.v7.internal.app.AppCompatViewInflater mAppCompatViewInflater -> G
+    android.support.v7.internal.widget.DecorContentParent mDecorContentParent -> o
+    android.support.v7.app.AppCompatDelegateImplV7$ActionMenuPresenterCallback mActionMenuPresenterCallback -> p
+    android.support.v7.app.AppCompatDelegateImplV7$PanelMenuPresenterCallback mPanelMenuPresenterCallback -> q
+    android.support.v7.view.ActionMode mActionMode -> k
+    android.support.v7.internal.widget.ActionBarContextView mActionModeView -> l
+    android.widget.PopupWindow mActionModePopup -> m
+    java.lang.Runnable mShowActionModePopup -> n
+    boolean mSubDecorInstalled -> r
+    android.view.ViewGroup mWindowDecor -> s
+    android.view.ViewGroup mSubDecor -> t
+    android.widget.TextView mTitleView -> u
+    android.view.View mStatusGuard -> v
+    boolean mFeatureProgress -> w
+    boolean mFeatureIndeterminateProgress -> x
+    boolean mClosingActionMenu -> y
+    android.support.v7.app.AppCompatDelegateImplV7$PanelFeatureState[] mPanels -> z
+    android.support.v7.app.AppCompatDelegateImplV7$PanelFeatureState mPreparedPanel -> A
+    boolean mInvalidatePanelMenuPosted -> B
+    int mInvalidatePanelMenuFeatures -> C
+    java.lang.Runnable mInvalidatePanelMenuRunnable -> D
+    boolean mEnableDefaultActionBarUp -> E
+    android.graphics.Rect mTempRect1 -> F
+    android.graphics.Rect mTempRect2 -> G
+    android.support.v7.internal.app.AppCompatViewInflater mAppCompatViewInflater -> H
     void onCreate(android.os.Bundle) -> a
     void onPostCreate(android.os.Bundle) -> b
     android.support.v7.app.ActionBar createSupportActionBar() -> h
@@ -5165,7 +5181,7 @@ android.support.v7.app.AppCompatDelegateImplV7 -> android.support.v7.app.AppComp
     void closePanel(int) -> c
     void closePanel(android.support.v7.app.AppCompatDelegateImplV7$PanelFeatureState,boolean) -> a
     boolean onKeyDownPanel(int,android.view.KeyEvent) -> d
-    void onKeyUpPanel(int,android.view.KeyEvent) -> e
+    boolean onKeyUpPanel(int,android.view.KeyEvent) -> e
     void callOnPanelClosed(int,android.support.v7.app.AppCompatDelegateImplV7$PanelFeatureState,android.view.Menu) -> a
     android.support.v7.app.AppCompatDelegateImplV7$PanelFeatureState findMenuPanel(android.view.Menu) -> a
     android.support.v7.app.AppCompatDelegateImplV7$PanelFeatureState getPanelState(int,boolean) -> a
@@ -6514,30 +6530,27 @@ android.support.v7.internal.app.ToolbarActionBar -> android.support.v7.internal.
     boolean mMenuCallbackSet -> d
     boolean mLastMenuVisibility -> e
     java.util.ArrayList mMenuVisibilityListeners -> f
-    android.view.Window mWindow -> g
-    android.support.v7.internal.view.menu.ListMenuPresenter mListMenuPresenter -> h
-    java.lang.Runnable mMenuInvalidator -> i
-    android.support.v7.widget.Toolbar$OnMenuItemClickListener mMenuClicker -> j
-    android.view.Window$Callback getWrappedWindowCallback() -> g
+    android.support.v7.internal.view.menu.ListMenuPresenter mListMenuPresenter -> g
+    java.lang.Runnable mMenuInvalidator -> h
+    android.support.v7.widget.Toolbar$OnMenuItemClickListener mMenuClicker -> i
+    android.view.Window$Callback getWrappedWindowCallback() -> e
     void setHomeButtonEnabled(boolean) -> a
     void setElevation(float) -> a
-    android.content.Context getThemedContext() -> d
+    android.content.Context getThemedContext() -> b
     void setDefaultDisplayHomeAsUpEnabled(boolean) -> c
     void setShowHideAnimationEnabled(boolean) -> d
     void onConfigurationChanged(android.content.res.Configuration) -> a
     void setTitle(java.lang.CharSequence) -> a
     void setWindowTitle(java.lang.CharSequence) -> b
     int getDisplayOptions() -> a
-    void show() -> b
-    void hide() -> c
-    boolean invalidateOptionsMenu() -> e
-    boolean collapseActionView() -> f
-    void populateOptionsMenu() -> h
+    boolean invalidateOptionsMenu() -> c
+    boolean collapseActionView() -> d
+    void populateOptionsMenu() -> f
     boolean onKeyShortcut(int,android.view.KeyEvent) -> a
     void dispatchMenuVisibilityChanged(boolean) -> e
     android.view.View getListMenuView(android.view.Menu) -> a
     void ensureListMenuPresenter(android.view.Menu) -> b
-    android.view.Menu getMenu() -> i
+    android.view.Menu getMenu() -> g
     android.view.Window$Callback access$000(android.support.v7.internal.app.ToolbarActionBar) -> a
     boolean access$200(android.support.v7.internal.app.ToolbarActionBar) -> b
     android.support.v7.internal.widget.DecorToolbar access$300(android.support.v7.internal.app.ToolbarActionBar) -> c
@@ -6607,7 +6620,7 @@ android.support.v7.internal.app.WindowDecorActionBar -> android.support.v7.inter
     void setElevation(float) -> a
     void onConfigurationChanged(android.content.res.Configuration) -> a
     void setHasEmbeddedTabs(boolean) -> k
-    void completeDeferredDestroyActionMode() -> g
+    void completeDeferredDestroyActionMode() -> e
     void onWindowVisibilityChanged(int) -> a
     void setShowHideAnimationEnabled(boolean) -> d
     void dispatchMenuVisibilityChanged(boolean) -> e
@@ -6616,26 +6629,24 @@ android.support.v7.internal.app.WindowDecorActionBar -> android.support.v7.inter
     void setTitle(java.lang.CharSequence) -> a
     void setWindowTitle(java.lang.CharSequence) -> b
     void setDisplayOptions(int,int) -> a
-    int getNavigationMode() -> h
+    int getNavigationMode() -> f
     int getDisplayOptions() -> a
     android.support.v7.view.ActionMode startActionMode(android.support.v7.view.ActionMode$Callback) -> a
     void enableContentAnimations(boolean) -> g
-    void show() -> b
-    void showForActionMode() -> m
-    void showForSystem() -> i
-    void hide() -> c
-    void hideForActionMode() -> n
-    void hideForSystem() -> j
+    void showForActionMode() -> k
+    void showForSystem() -> g
+    void hideForActionMode() -> l
+    void hideForSystem() -> h
     void setHideOnContentScrollEnabled(boolean) -> b
     boolean checkShowingFlags(boolean,boolean,boolean) -> b
     void updateVisibility(boolean) -> l
     void doShow(boolean) -> h
     void doHide(boolean) -> i
     void animateToMode(boolean) -> j
-    android.content.Context getThemedContext() -> d
-    void onContentScrollStarted() -> k
-    void onContentScrollStopped() -> l
-    boolean collapseActionView() -> f
+    android.content.Context getThemedContext() -> b
+    void onContentScrollStarted() -> i
+    void onContentScrollStopped() -> j
+    boolean collapseActionView() -> d
     void setDefaultDisplayHomeAsUpEnabled(boolean) -> c
     boolean access$000(android.support.v7.internal.app.WindowDecorActionBar) -> a
     android.view.View access$100(android.support.v7.internal.app.WindowDecorActionBar) -> b
@@ -6762,7 +6773,6 @@ android.support.v7.internal.view.SupportActionModeWrapper$CallbackWrapper -> and
     boolean onActionItemClicked(android.support.v7.view.ActionMode,android.view.MenuItem) -> a
     void onDestroyActionMode(android.support.v7.view.ActionMode) -> a
     android.view.Menu getMenuWrapper(android.view.Menu) -> a
-    void addActionModeWrapper(android.support.v7.internal.view.SupportActionModeWrapper) -> a
     android.view.ActionMode getActionModeWrapper(android.support.v7.view.ActionMode) -> b
 android.support.v7.internal.view.SupportMenuInflater -> android.support.v7.internal.view.f:
     java.lang.Class[] ACTION_VIEW_CONSTRUCTOR_SIGNATURE -> a
@@ -6971,7 +6981,6 @@ android.support.v7.internal.view.menu.ActionMenuItemView$ActionMenuItemForwardin
     android.support.v7.internal.view.menu.ActionMenuItemView this$0 -> a
     android.support.v7.widget.ListPopupWindow getPopup() -> a
     boolean onForwardingStarted() -> b
-    boolean onForwardingStopped() -> c
 android.support.v7.internal.view.menu.ActionMenuItemView$PopupCallback -> android.support.v7.internal.view.menu.c:
     android.support.v7.widget.ListPopupWindow getPopup() -> a
 android.support.v7.internal.view.menu.BaseMenuPresenter -> android.support.v7.internal.view.menu.d:
@@ -7792,11 +7801,11 @@ android.support.v7.internal.widget.ActionBarOverlayLayout$4 -> android.support.v
     void run() -> run
 android.support.v7.internal.widget.ActionBarOverlayLayout$ActionBarVisibilityCallback -> android.support.v7.internal.widget.l:
     void onWindowVisibilityChanged(int) -> a
-    void showForSystem() -> i
-    void hideForSystem() -> j
+    void showForSystem() -> g
+    void hideForSystem() -> h
     void enableContentAnimations(boolean) -> g
-    void onContentScrollStarted() -> k
-    void onContentScrollStopped() -> l
+    void onContentScrollStarted() -> i
+    void onContentScrollStopped() -> j
 android.support.v7.internal.widget.ActionBarOverlayLayout$LayoutParams -> android.support.v7.internal.widget.m:
 android.support.v7.internal.widget.ActivityChooserModel -> android.support.v7.internal.widget.n:
     java.lang.String LOG_TAG -> a
@@ -8095,7 +8104,6 @@ android.support.v7.internal.widget.DecorToolbar -> android.support.v7.internal.w
     void setHomeButtonEnabled(boolean) -> b
     int getNavigationMode() -> q
     void animateToVisibility(int) -> d
-    void setVisibility(int) -> e
     void setMenuCallbacks(android.support.v7.internal.view.menu.MenuPresenter$Callback,android.support.v7.internal.view.menu.MenuBuilder$Callback) -> a
     android.view.Menu getMenu() -> r
 android.support.v7.internal.widget.DialogTitle -> android.support.v7.internal.widget.DialogTitle:
@@ -8457,7 +8465,7 @@ android.support.v7.internal.widget.ToolbarWidgetWrapper -> android.support.v7.in
     android.support.v7.internal.widget.TintManager mTintManager -> p
     int mDefaultNavigationContentDescription -> q
     android.graphics.drawable.Drawable mDefaultNavigationIcon -> r
-    void setDefaultNavigationContentDescription(int) -> f
+    void setDefaultNavigationContentDescription(int) -> e
     void setDefaultNavigationIcon(android.graphics.drawable.Drawable) -> b
     int detectDisplayOptions() -> s
     android.view.ViewGroup getViewGroup() -> a
@@ -8496,10 +8504,9 @@ android.support.v7.internal.widget.ToolbarWidgetWrapper -> android.support.v7.in
     void animateToVisibility(int) -> d
     void setNavigationIcon(android.graphics.drawable.Drawable) -> d
     void setNavigationContentDescription(java.lang.CharSequence) -> d
-    void setNavigationContentDescription(int) -> g
+    void setNavigationContentDescription(int) -> f
     void updateHomeAccessibility() -> u
     void updateNavigationIcon() -> v
-    void setVisibility(int) -> e
     void setMenuCallbacks(android.support.v7.internal.view.menu.MenuPresenter$Callback,android.support.v7.internal.view.menu.MenuBuilder$Callback) -> a
     android.view.Menu getMenu() -> r
     android.support.v7.widget.Toolbar access$000(android.support.v7.internal.widget.ToolbarWidgetWrapper) -> a
@@ -8718,7 +8725,15 @@ android.support.v7.media.MediaRouter -> android.support.v7.media.q:
     void checkCallingThread() -> a
 android.support.v7.media.MediaRouter$Callback -> android.support.v7.media.r:
 android.support.v7.media.MediaRouter$ControlRequestCallback -> android.support.v7.media.s:
-android.support.v7.view.ActionMode -> android.support.v7.d.a:
+android.support.v7.recyclerview.R -> android.support.v7.d.a:
+android.support.v7.recyclerview.R$styleable -> android.support.v7.d.b:
+    int[] RecyclerView -> RecyclerView
+    int RecyclerView_android_orientation -> RecyclerView_android_orientation
+    int RecyclerView_layoutManager -> RecyclerView_layoutManager
+    int RecyclerView_reverseLayout -> RecyclerView_reverseLayout
+    int RecyclerView_spanCount -> RecyclerView_spanCount
+    int RecyclerView_stackFromEnd -> RecyclerView_stackFromEnd
+android.support.v7.view.ActionMode -> android.support.v7.e.a:
     java.lang.Object mTag -> a
     boolean mTitleOptionalHint -> b
     void setTag(java.lang.Object) -> a
@@ -8738,12 +8753,12 @@ android.support.v7.view.ActionMode -> android.support.v7.d.a:
     java.lang.CharSequence getSubtitle() -> g
     android.view.View getCustomView() -> i
     android.view.MenuInflater getMenuInflater() -> a
-android.support.v7.view.ActionMode$Callback -> android.support.v7.d.b:
+android.support.v7.view.ActionMode$Callback -> android.support.v7.e.b:
     boolean onCreateActionMode(android.support.v7.view.ActionMode,android.view.Menu) -> a
     boolean onPrepareActionMode(android.support.v7.view.ActionMode,android.view.Menu) -> b
     boolean onActionItemClicked(android.support.v7.view.ActionMode,android.view.MenuItem) -> a
     void onDestroyActionMode(android.support.v7.view.ActionMode) -> a
-android.support.v7.view.CollapsibleActionView -> android.support.v7.d.c:
+android.support.v7.view.CollapsibleActionView -> android.support.v7.e.c:
     void onActionViewExpanded() -> a
     void onActionViewCollapsed() -> b
 android.support.v7.widget.ActionMenuPresenter -> android.support.v7.widget.ActionMenuPresenter:
@@ -9307,9 +9322,11 @@ android.support.v7.widget.LayoutState -> android.support.v7.widget.ay:
     int mCurrentPosition -> b
     int mItemDirection -> c
     int mLayoutDirection -> d
-    int mExtra -> e
+    int mStartLine -> e
+    int mEndLine -> f
     boolean hasMore(android.support.v7.widget.RecyclerView$State) -> a
     android.view.View next(android.support.v7.widget.RecyclerView$Recycler) -> a
+    java.lang.String toString() -> toString
 android.support.v7.widget.LinearLayoutCompat -> android.support.v7.widget.az:
     boolean mBaselineAligned -> a
     int mBaselineAlignedChildIndex -> b
@@ -9402,16 +9419,16 @@ android.support.v7.widget.LinearLayoutManager -> android.support.v7.widget.Linea
     boolean canScrollHorizontally() -> c
     boolean canScrollVertically() -> d
     void setOrientation(int) -> a
-    void resolveShouldLayoutReverse() -> w
+    void resolveShouldLayoutReverse() -> A
     void setReverseLayout(boolean) -> a
     android.view.View findViewByPosition(int) -> b
     int getExtraLayoutSpace(android.support.v7.widget.RecyclerView$State) -> a
     void onLayoutChildren(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State) -> a
-    void onAnchorReady(android.support.v7.widget.RecyclerView$State,android.support.v7.widget.LinearLayoutManager$AnchorInfo) -> a
+    void onAnchorReady(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State,android.support.v7.widget.LinearLayoutManager$AnchorInfo) -> a
     void layoutForPredictiveAnimations(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State,int,int) -> b
-    void updateAnchorInfoForLayout(android.support.v7.widget.RecyclerView$State,android.support.v7.widget.LinearLayoutManager$AnchorInfo) -> b
-    boolean updateAnchorFromChildren(android.support.v7.widget.RecyclerView$State,android.support.v7.widget.LinearLayoutManager$AnchorInfo) -> c
-    boolean updateAnchorFromPendingData(android.support.v7.widget.RecyclerView$State,android.support.v7.widget.LinearLayoutManager$AnchorInfo) -> d
+    void updateAnchorInfoForLayout(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State,android.support.v7.widget.LinearLayoutManager$AnchorInfo) -> b
+    boolean updateAnchorFromChildren(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State,android.support.v7.widget.LinearLayoutManager$AnchorInfo) -> c
+    boolean updateAnchorFromPendingData(android.support.v7.widget.RecyclerView$State,android.support.v7.widget.LinearLayoutManager$AnchorInfo) -> a
     int fixLayoutEndGap(int,android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State,boolean) -> a
     int fixLayoutStartGap(int,android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State,boolean) -> b
     void updateLayoutStateToFillEnd(android.support.v7.widget.LinearLayoutManager$AnchorInfo) -> a
@@ -9420,6 +9437,8 @@ android.support.v7.widget.LinearLayoutManager -> android.support.v7.widget.Linea
     void updateLayoutStateToFillStart(int,int) -> c
     boolean isLayoutRTL() -> e
     void ensureLayoutState() -> f
+    android.support.v7.widget.LinearLayoutManager$LayoutState createLayoutState() -> g
+    void scrollToPosition(int) -> c
     int scrollHorizontallyBy(int,android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State) -> a
     int scrollVerticallyBy(int,android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State) -> b
     int computeHorizontalScrollOffset(android.support.v7.widget.RecyclerView$State) -> b
@@ -9440,21 +9459,21 @@ android.support.v7.widget.LinearLayoutManager -> android.support.v7.widget.Linea
     void recycleByLayoutState(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.LinearLayoutManager$LayoutState) -> a
     int fill(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.LinearLayoutManager$LayoutState,android.support.v7.widget.RecyclerView$State,boolean) -> a
     void layoutChunk(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State,android.support.v7.widget.LinearLayoutManager$LayoutState,android.support.v7.widget.LinearLayoutManager$LayoutChunkResult) -> a
-    int convertFocusDirectionToLayoutDirection(int) -> i
-    android.view.View getChildClosestToStart() -> x
-    android.view.View getChildClosestToEnd() -> y
+    int convertFocusDirectionToLayoutDirection(int) -> j
+    android.view.View getChildClosestToStart() -> B
+    android.view.View getChildClosestToEnd() -> C
     android.view.View findFirstVisibleChildClosestToStart(boolean,boolean) -> a
     android.view.View findFirstVisibleChildClosestToEnd(boolean,boolean) -> b
-    android.view.View findReferenceChildClosestToEnd(android.support.v7.widget.RecyclerView$State) -> k
-    android.view.View findReferenceChildClosestToStart(android.support.v7.widget.RecyclerView$State) -> l
-    android.view.View findFirstReferenceChild(int) -> j
-    android.view.View findLastReferenceChild(int) -> k
-    android.view.View findReferenceChild(int,int,int) -> a
-    int findFirstVisibleItemPosition() -> g
-    int findLastVisibleItemPosition() -> h
+    android.view.View findReferenceChildClosestToEnd(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State) -> f
+    android.view.View findReferenceChildClosestToStart(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State) -> g
+    android.view.View findFirstReferenceChild(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State) -> h
+    android.view.View findLastReferenceChild(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State) -> i
+    android.view.View findReferenceChild(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State,int,int,int) -> a
+    int findFirstVisibleItemPosition() -> h
+    int findLastVisibleItemPosition() -> i
     android.view.View findOneVisibleChild(int,int,boolean,boolean) -> a
     android.view.View onFocusSearchFailed(android.view.View,int,android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State) -> a
-    boolean supportsPredictiveItemAnimations() -> i
+    boolean supportsPredictiveItemAnimations() -> j
 android.support.v7.widget.LinearLayoutManager$AnchorInfo -> android.support.v7.widget.bb:
     int mPosition -> a
     int mCoordinate -> b
@@ -9463,8 +9482,10 @@ android.support.v7.widget.LinearLayoutManager$AnchorInfo -> android.support.v7.w
     void reset() -> a
     void assignCoordinateFromPadding() -> b
     java.lang.String toString() -> toString
-    boolean assignFromViewIfValid(android.view.View,android.support.v7.widget.RecyclerView$State) -> a
-    void assignFromView(android.view.View) -> a
+    boolean isViewValidAsAnchor(android.view.View,android.support.v7.widget.RecyclerView$State) -> a
+    void assignFromViewAndKeepVisibleRect(android.view.View) -> a
+    void assignFromView(android.view.View) -> b
+    boolean access$000(android.support.v7.widget.LinearLayoutManager$AnchorInfo,android.view.View,android.support.v7.widget.RecyclerView$State) -> a
 android.support.v7.widget.LinearLayoutManager$LayoutChunkResult -> android.support.v7.widget.bc:
     int mConsumed -> a
     boolean mFinished -> b
@@ -9481,10 +9502,14 @@ android.support.v7.widget.LinearLayoutManager$LayoutState -> android.support.v7.
     int mScrollingOffset -> g
     int mExtra -> h
     boolean mIsPreLayout -> i
-    java.util.List mScrapList -> j
+    int mLastScrollDelta -> j
+    java.util.List mScrapList -> k
     boolean hasMore(android.support.v7.widget.RecyclerView$State) -> a
     android.view.View next(android.support.v7.widget.RecyclerView$Recycler) -> a
-    android.view.View nextFromLimitedList() -> a
+    android.view.View nextViewFromScrapList() -> b
+    void assignPositionFromScrapList() -> a
+    void assignPositionFromScrapList(android.support.v7.widget.RecyclerView$ViewHolder) -> a
+    android.support.v7.widget.RecyclerView$ViewHolder nextViewHolderInLimitedList(android.support.v7.widget.RecyclerView$ViewHolder) -> b
 android.support.v7.widget.LinearLayoutManager$SavedState -> android.support.v7.widget.LinearLayoutManager$SavedState:
     int mAnchorPosition -> a
     int mAnchorOffset -> b
@@ -9699,13 +9724,13 @@ android.support.v7.widget.PopupMenu$OnDismissListener -> android.support.v7.widg
 android.support.v7.widget.PopupMenu$OnMenuItemClickListener -> android.support.v7.widget.bz:
     boolean onMenuItemClick(android.view.MenuItem) -> a
 android.support.v7.widget.RecyclerView -> android.support.v7.widget.RecyclerView:
-    boolean FORCE_INVALIDATE_DISPLAY_LIST -> i
+    boolean FORCE_INVALIDATE_DISPLAY_LIST -> h
+    java.lang.Class[] LAYOUT_MANAGER_CONSTRUCTOR_SIGNATURE -> i
     android.support.v7.widget.RecyclerView$RecyclerViewDataObserver mObserver -> j
     android.support.v7.widget.RecyclerView$Recycler mRecycler -> a
     android.support.v7.widget.RecyclerView$SavedState mPendingSavedState -> k
     android.support.v7.widget.AdapterHelper mAdapterHelper -> b
     android.support.v7.widget.ChildHelper mChildHelper -> c
-    java.util.List mDisappearingViewsInLayoutPass -> d
     boolean mClipToPadding -> l
     java.lang.Runnable mUpdateChildViewsRunnable -> m
     android.graphics.Rect mTempRect -> n
@@ -9720,40 +9745,51 @@ android.support.v7.widget.RecyclerView -> android.support.v7.widget.RecyclerView
     boolean mFirstLayoutComplete -> w
     boolean mEatRequestLayout -> x
     boolean mLayoutRequestEaten -> y
-    boolean mAdapterUpdateDuringMeasure -> z
-    boolean mPostUpdatesOnAnimation -> A
-    android.view.accessibility.AccessibilityManager mAccessibilityManager -> B
-    boolean mDataSetHasChangedAfterLayout -> C
-    boolean mRunningLayoutOrScroll -> D
-    android.support.v4.widget.EdgeEffectCompat mLeftGlow -> E
-    android.support.v4.widget.EdgeEffectCompat mTopGlow -> F
-    android.support.v4.widget.EdgeEffectCompat mRightGlow -> G
-    android.support.v4.widget.EdgeEffectCompat mBottomGlow -> H
-    android.support.v7.widget.RecyclerView$ItemAnimator mItemAnimator -> e
-    int mScrollState -> I
-    int mScrollPointerId -> J
-    android.view.VelocityTracker mVelocityTracker -> K
-    int mInitialTouchX -> L
-    int mInitialTouchY -> M
-    int mLastTouchX -> N
-    int mLastTouchY -> O
-    int mTouchSlop -> P
-    int mMinFlingVelocity -> Q
-    int mMaxFlingVelocity -> R
-    android.support.v7.widget.RecyclerView$ViewFlinger mViewFlinger -> S
-    android.support.v7.widget.RecyclerView$State mState -> f
-    android.support.v7.widget.RecyclerView$OnScrollListener mScrollListener -> T
-    boolean mItemsAddedOrRemoved -> g
-    boolean mItemsChanged -> h
-    android.support.v7.widget.RecyclerView$ItemAnimator$ItemAnimatorListener mItemAnimatorListener -> U
-    boolean mPostedAnimatorRunner -> V
-    android.support.v7.widget.RecyclerViewAccessibilityDelegate mAccessibilityDelegate -> W
-    int[] mMinMaxLayoutPositions -> aa
-    java.lang.Runnable mItemAnimatorRunner -> ab
-    android.view.animation.Interpolator sQuinticInterpolator -> ac
+    int mEatenAccessibilityChangeFlags -> z
+    boolean mAdapterUpdateDuringMeasure -> A
+    boolean mPostUpdatesOnAnimation -> B
+    android.view.accessibility.AccessibilityManager mAccessibilityManager -> C
+    java.util.List mOnChildAttachStateListeners -> D
+    boolean mDataSetHasChangedAfterLayout -> E
+    int mLayoutOrScrollCounter -> F
+    android.support.v4.widget.EdgeEffectCompat mLeftGlow -> G
+    android.support.v4.widget.EdgeEffectCompat mTopGlow -> H
+    android.support.v4.widget.EdgeEffectCompat mRightGlow -> I
+    android.support.v4.widget.EdgeEffectCompat mBottomGlow -> J
+    android.support.v7.widget.RecyclerView$ItemAnimator mItemAnimator -> d
+    int mScrollState -> K
+    int mScrollPointerId -> L
+    android.view.VelocityTracker mVelocityTracker -> M
+    int mInitialTouchX -> N
+    int mInitialTouchY -> O
+    int mLastTouchX -> P
+    int mLastTouchY -> Q
+    int mTouchSlop -> R
+    int mMinFlingVelocity -> S
+    int mMaxFlingVelocity -> T
+    float mScrollFactor -> U
+    android.support.v7.widget.RecyclerView$ViewFlinger mViewFlinger -> V
+    android.support.v7.widget.RecyclerView$State mState -> e
+    android.support.v7.widget.RecyclerView$OnScrollListener mScrollListener -> W
+    java.util.List mScrollListeners -> aa
+    boolean mItemsAddedOrRemoved -> f
+    boolean mItemsChanged -> g
+    android.support.v7.widget.RecyclerView$ItemAnimator$ItemAnimatorListener mItemAnimatorListener -> ab
+    boolean mPostedAnimatorRunner -> ac
+    android.support.v7.widget.RecyclerViewAccessibilityDelegate mAccessibilityDelegate -> ad
+    android.support.v7.widget.RecyclerView$ChildDrawingOrderCallback mChildDrawingOrderCallback -> ae
+    int[] mMinMaxLayoutPositions -> af
+    android.support.v4.view.NestedScrollingChildHelper mScrollingChildHelper -> ag
+    int[] mScrollOffset -> ah
+    int[] mScrollConsumed -> ai
+    int[] mNestedOffsets -> aj
+    java.lang.Runnable mItemAnimatorRunner -> ak
+    android.view.animation.Interpolator sQuinticInterpolator -> al
     android.support.v7.widget.RecyclerViewAccessibilityDelegate getCompatAccessibilityDelegate() -> getCompatAccessibilityDelegate
     void setAccessibilityDelegateCompat(android.support.v7.widget.RecyclerViewAccessibilityDelegate) -> setAccessibilityDelegateCompat
-    void initChildrenHelper() -> q
+    void createLayoutManager(android.content.Context,java.lang.String,android.util.AttributeSet,int,int) -> a
+    java.lang.String getFullClassName(android.content.Context,java.lang.String) -> a
+    void initChildrenHelper() -> s
     void initAdapterManager() -> a
     void setHasFixedSize(boolean) -> setHasFixedSize
     void setClipToPadding(boolean) -> setClipToPadding
@@ -9762,9 +9798,12 @@ android.support.v7.widget.RecyclerView -> android.support.v7.widget.RecyclerView
     void setAdapterInternal(android.support.v7.widget.RecyclerView$Adapter,boolean,boolean) -> a
     android.support.v7.widget.RecyclerView$Adapter getAdapter() -> getAdapter
     void setRecyclerListener(android.support.v7.widget.RecyclerView$RecyclerListener) -> setRecyclerListener
+    int getBaseline() -> getBaseline
     void setLayoutManager(android.support.v7.widget.RecyclerView$LayoutManager) -> setLayoutManager
     android.os.Parcelable onSaveInstanceState() -> onSaveInstanceState
     void onRestoreInstanceState(android.os.Parcelable) -> onRestoreInstanceState
+    void dispatchSaveInstanceState(android.util.SparseArray) -> dispatchSaveInstanceState
+    void dispatchRestoreInstanceState(android.util.SparseArray) -> dispatchRestoreInstanceState
     void addAnimatingView(android.support.v7.widget.RecyclerView$ViewHolder) -> b
     boolean removeAnimatingView(android.view.View) -> g
     android.support.v7.widget.RecyclerView$LayoutManager getLayoutManager() -> getLayoutManager
@@ -9774,11 +9813,13 @@ android.support.v7.widget.RecyclerView -> android.support.v7.widget.RecyclerView
     void setItemViewCacheSize(int) -> setItemViewCacheSize
     int getScrollState() -> getScrollState
     void setScrollState(int) -> setScrollState
+    void setChildDrawingOrderCallback(android.support.v7.widget.RecyclerView$ChildDrawingOrderCallback) -> setChildDrawingOrderCallback
     void setOnScrollListener(android.support.v7.widget.RecyclerView$OnScrollListener) -> setOnScrollListener
+    void jumpToPositionForSmoothScroller(int) -> e
     void scrollTo(int,int) -> scrollTo
     void scrollBy(int,int) -> scrollBy
-    void consumePendingUpdateOperations() -> r
-    boolean scrollByInternal(int,int) -> a
+    void consumePendingUpdateOperations() -> t
+    boolean scrollByInternal(int,int,android.view.MotionEvent) -> a
     int computeHorizontalScrollOffset() -> computeHorizontalScrollOffset
     int computeHorizontalScrollExtent() -> computeHorizontalScrollExtent
     int computeHorizontalScrollRange() -> computeHorizontalScrollRange
@@ -9787,14 +9828,16 @@ android.support.v7.widget.RecyclerView -> android.support.v7.widget.RecyclerView
     int computeVerticalScrollRange() -> computeVerticalScrollRange
     void eatRequestLayout() -> b
     void resumeRequestLayout(boolean) -> a
-    void smoothScrollBy(int,int) -> b
-    boolean fling(int,int) -> c
+    void smoothScrollBy(int,int) -> a
+    boolean fling(int,int) -> b
     void stopScroll() -> c
-    void stopScrollersInternal() -> s
-    void pullGlows(int,int) -> h
-    void releaseGlows() -> t
+    void stopScrollersInternal() -> u
+    int getMinFlingVelocity() -> getMinFlingVelocity
+    int getMaxFlingVelocity() -> getMaxFlingVelocity
+    void pullGlows(float,float,float,float) -> a
+    void releaseGlows() -> v
     void considerReleasingGlowsOnScroll(int,int) -> i
-    void absorbGlows(int,int) -> d
+    void absorbGlows(int,int) -> c
     void ensureLeftGlow() -> d
     void ensureRightGlow() -> e
     void ensureTopGlow() -> f
@@ -9806,23 +9849,33 @@ android.support.v7.widget.RecyclerView -> android.support.v7.widget.RecyclerView
     void addFocusables(java.util.ArrayList,int,int) -> addFocusables
     void onAttachedToWindow() -> onAttachedToWindow
     void onDetachedFromWindow() -> onDetachedFromWindow
+    boolean isAttachedToWindow() -> isAttachedToWindow
     void assertNotInLayoutOrScroll(java.lang.String) -> a
     boolean dispatchOnItemTouchIntercept(android.view.MotionEvent) -> a
     boolean dispatchOnItemTouch(android.view.MotionEvent) -> b
     boolean onInterceptTouchEvent(android.view.MotionEvent) -> onInterceptTouchEvent
+    void requestDisallowInterceptTouchEvent(boolean) -> requestDisallowInterceptTouchEvent
     boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
-    void cancelTouch() -> u
+    void cancelTouch() -> w
     void onPointerUp(android.view.MotionEvent) -> c
+    boolean onGenericMotionEvent(android.view.MotionEvent) -> onGenericMotionEvent
+    float getScrollFactor() -> getScrollFactor
     void onMeasure(int,int) -> onMeasure
     void defaultOnMeasure(int,int) -> j
     void onSizeChanged(int,int,int,int) -> onSizeChanged
     void setItemAnimator(android.support.v7.widget.RecyclerView$ItemAnimator) -> setItemAnimator
+    void onEnterLayoutOrScroll() -> x
+    void onExitLayoutOrScroll() -> y
+    void dispatchContentChangedIfNecessary() -> z
+    boolean isComputingLayout() -> i
+    boolean shouldDeferAccessibilityEvent(android.view.accessibility.AccessibilityEvent) -> a
+    void sendAccessibilityEventUnchecked(android.view.accessibility.AccessibilityEvent) -> sendAccessibilityEventUnchecked
     android.support.v7.widget.RecyclerView$ItemAnimator getItemAnimator() -> getItemAnimator
-    boolean supportsChangeAnimations() -> v
-    void postAnimationRunner() -> w
-    boolean predictiveItemAnimationsEnabled() -> x
-    void processAdapterUpdatesAndSetAnimationFlags() -> y
-    void dispatchLayout() -> i
+    boolean supportsChangeAnimations() -> A
+    void postAnimationRunner() -> B
+    boolean predictiveItemAnimationsEnabled() -> C
+    void processAdapterUpdatesAndSetAnimationFlags() -> D
+    void dispatchLayout() -> j
     void findMinMaxChildLayoutPositions(int[]) -> a
     boolean didChildRangeChange(int,int) -> k
     void removeDetachedView(android.view.View,boolean) -> removeDetachedView
@@ -9833,36 +9886,49 @@ android.support.v7.widget.RecyclerView -> android.support.v7.widget.RecyclerView
     void animateChange(android.support.v7.widget.RecyclerView$ViewHolder,android.support.v7.widget.RecyclerView$ViewHolder) -> a
     void onLayout(boolean,int,int,int,int) -> onLayout
     void requestLayout() -> requestLayout
-    void markItemDecorInsetsDirty() -> j
+    void markItemDecorInsetsDirty() -> k
     void draw(android.graphics.Canvas) -> draw
     void onDraw(android.graphics.Canvas) -> onDraw
     boolean checkLayoutParams(android.view.ViewGroup$LayoutParams) -> checkLayoutParams
     android.view.ViewGroup$LayoutParams generateDefaultLayoutParams() -> generateDefaultLayoutParams
     android.view.ViewGroup$LayoutParams generateLayoutParams(android.util.AttributeSet) -> generateLayoutParams
     android.view.ViewGroup$LayoutParams generateLayoutParams(android.view.ViewGroup$LayoutParams) -> generateLayoutParams
-    void saveOldPositions() -> k
-    void clearOldPositions() -> l
-    void offsetPositionRecordsForMove(int,int) -> e
-    void offsetPositionRecordsForInsert(int,int) -> f
+    void saveOldPositions() -> l
+    void clearOldPositions() -> m
+    void offsetPositionRecordsForMove(int,int) -> d
+    void offsetPositionRecordsForInsert(int,int) -> e
     void offsetPositionRecordsForRemove(int,int,boolean) -> a
-    void viewRangeUpdate(int,int) -> g
-    void rebindUpdatedViewHolders() -> m
-    void setDataSetChangedAfterLayout() -> z
-    void markKnownViewsInvalid() -> n
+    void viewRangeUpdate(int,int) -> f
+    void rebindUpdatedViewHolders() -> n
+    void setDataSetChangedAfterLayout() -> E
+    void markKnownViewsInvalid() -> o
     android.support.v7.widget.RecyclerView$ViewHolder getChildViewHolder(android.view.View) -> a
     android.support.v7.widget.RecyclerView$ViewHolder getChildViewHolderInt(android.view.View) -> b
     int getChildLayoutPosition(android.view.View) -> c
     android.support.v7.widget.RecyclerView$ViewHolder findViewHolderForPosition(int,boolean) -> a
+    boolean drawChild(android.graphics.Canvas,android.view.View,long) -> drawChild
     void offsetChildrenVertical(int) -> a
     void onChildAttachedToWindow(android.view.View) -> d
     void onChildDetachedFromWindow(android.view.View) -> e
     void offsetChildrenHorizontal(int) -> b
     android.graphics.Rect getItemDecorInsetsForChild(android.view.View) -> f
-    void notifyOnScrolled(int,int) -> l
+    void onScrolled(int,int) -> g
+    void dispatchOnScrolled(int,int) -> h
+    void onScrollStateChanged(int) -> c
+    void dispatchOnScrollStateChanged(int) -> d
+    boolean hasPendingAdapterUpdates() -> p
     void dispatchChildDetached(android.view.View) -> h
     void dispatchChildAttached(android.view.View) -> i
-    void removeFromDisappearingList(android.view.View) -> j
-    void addToDisappearingList(android.view.View) -> k
+    void setNestedScrollingEnabled(boolean) -> setNestedScrollingEnabled
+    boolean isNestedScrollingEnabled() -> isNestedScrollingEnabled
+    boolean startNestedScroll(int) -> startNestedScroll
+    void stopNestedScroll() -> stopNestedScroll
+    boolean hasNestedScrollingParent() -> hasNestedScrollingParent
+    boolean dispatchNestedScroll(int,int,int,int,int[]) -> dispatchNestedScroll
+    boolean dispatchNestedPreScroll(int,int,int[],int[]) -> dispatchNestedPreScroll
+    boolean dispatchNestedFling(float,float,boolean) -> dispatchNestedFling
+    boolean dispatchNestedPreFling(float,float) -> dispatchNestedPreFling
+    int getChildDrawingOrder(int,int) -> getChildDrawingOrder
     boolean access$100(android.support.v7.widget.RecyclerView) -> a
     boolean access$200(android.support.v7.widget.RecyclerView) -> b
     boolean access$300(android.support.v7.widget.RecyclerView) -> c
@@ -9872,27 +9938,26 @@ android.support.v7.widget.RecyclerView -> android.support.v7.widget.RecyclerView
     void access$800(android.support.v7.widget.RecyclerView,android.view.View,int,android.view.ViewGroup$LayoutParams) -> a
     void access$900(android.support.v7.widget.RecyclerView,int) -> a
     android.support.v7.widget.RecyclerView$LayoutManager access$1100(android.support.v7.widget.RecyclerView) -> d
-    android.view.animation.Interpolator access$2000() -> o
+    android.view.animation.Interpolator access$2000() -> q
     void access$2100(android.support.v7.widget.RecyclerView) -> e
     android.support.v7.widget.RecyclerView$Adapter access$2200(android.support.v7.widget.RecyclerView) -> f
-    boolean access$2302(android.support.v7.widget.RecyclerView,boolean) -> b
-    boolean access$2400(android.support.v7.widget.RecyclerView) -> g
-    java.util.ArrayList access$2600(android.support.v7.widget.RecyclerView) -> h
-    void access$2700(android.support.v7.widget.RecyclerView,int,int) -> a
-    void access$2800(android.support.v7.widget.RecyclerView,int,int) -> b
-    boolean access$2900(android.support.v7.widget.RecyclerView) -> i
+    void access$2300(android.support.v7.widget.RecyclerView) -> g
+    boolean access$2400(android.support.v7.widget.RecyclerView) -> h
+    void access$2500(android.support.v7.widget.RecyclerView) -> i
+    java.util.ArrayList access$2700(android.support.v7.widget.RecyclerView) -> j
+    void access$2800(android.support.v7.widget.RecyclerView,int,int) -> a
+    boolean access$2900(android.support.v7.widget.RecyclerView) -> k
     void access$3000(android.support.v7.widget.RecyclerView,int) -> b
-    void access$3100(android.support.v7.widget.RecyclerView) -> j
-    boolean access$3700() -> p
-    android.view.accessibility.AccessibilityManager access$3800(android.support.v7.widget.RecyclerView) -> k
-    android.support.v7.widget.RecyclerViewAccessibilityDelegate access$3900(android.support.v7.widget.RecyclerView) -> l
-    android.support.v7.widget.RecyclerView$RecyclerListener access$4200(android.support.v7.widget.RecyclerView) -> m
-    void access$4400(android.support.v7.widget.RecyclerView,android.view.View) -> c
-    void access$4500(android.support.v7.widget.RecyclerView,android.view.View) -> d
-    boolean access$2300(android.support.v7.widget.RecyclerView) -> n
-    void access$4600(android.support.v7.widget.RecyclerView,int,int) -> c
-    android.support.v7.widget.RecyclerView$ViewFlinger access$5000(android.support.v7.widget.RecyclerView) -> o
-    boolean access$5300(android.support.v7.widget.RecyclerView,android.view.View) -> e
+    void access$3100(android.support.v7.widget.RecyclerView) -> l
+    boolean access$3700() -> r
+    android.view.accessibility.AccessibilityManager access$3800(android.support.v7.widget.RecyclerView) -> m
+    android.support.v7.widget.RecyclerViewAccessibilityDelegate access$3900(android.support.v7.widget.RecyclerView) -> n
+    android.support.v7.widget.RecyclerView$RecyclerListener access$4200(android.support.v7.widget.RecyclerView) -> o
+    boolean access$4300(android.support.v7.widget.RecyclerView) -> p
+    void access$4400(android.support.v7.widget.RecyclerView,int,int) -> b
+    android.support.v7.widget.RecyclerView$ViewFlinger access$4800(android.support.v7.widget.RecyclerView) -> q
+    void access$5100(android.support.v7.widget.RecyclerView,int) -> c
+    boolean access$5200(android.support.v7.widget.RecyclerView,android.view.View) -> c
 android.support.v7.widget.RecyclerView$1 -> android.support.v7.widget.ca:
     android.support.v7.widget.RecyclerView this$0 -> a
     void run() -> run
@@ -9947,7 +10012,9 @@ android.support.v7.widget.RecyclerView$AdapterDataObservable -> android.support.
     void notifyChanged() -> a
 android.support.v7.widget.RecyclerView$AdapterDataObserver -> android.support.v7.widget.ch:
     void onChanged() -> a
-android.support.v7.widget.RecyclerView$ItemAnimator -> android.support.v7.widget.ci:
+android.support.v7.widget.RecyclerView$ChildDrawingOrderCallback -> android.support.v7.widget.ci:
+    int onGetChildDrawingOrder(int,int) -> a
+android.support.v7.widget.RecyclerView$ItemAnimator -> android.support.v7.widget.cj:
     android.support.v7.widget.RecyclerView$ItemAnimator$ItemAnimatorListener mListener -> a
     java.util.ArrayList mFinishedListeners -> b
     long mAddDuration -> c
@@ -9986,44 +10053,51 @@ android.support.v7.widget.RecyclerView$ItemAnimator -> android.support.v7.widget
     void onMoveFinished(android.support.v7.widget.RecyclerView$ViewHolder) -> o
     void onChangeStarting(android.support.v7.widget.RecyclerView$ViewHolder,boolean) -> c
     void onChangeFinished(android.support.v7.widget.RecyclerView$ViewHolder,boolean) -> d
-android.support.v7.widget.RecyclerView$ItemAnimator$ItemAnimatorFinishedListener -> android.support.v7.widget.cj:
+android.support.v7.widget.RecyclerView$ItemAnimator$ItemAnimatorFinishedListener -> android.support.v7.widget.ck:
     void onAnimationsFinished() -> a
-android.support.v7.widget.RecyclerView$ItemAnimator$ItemAnimatorListener -> android.support.v7.widget.ck:
+android.support.v7.widget.RecyclerView$ItemAnimator$ItemAnimatorListener -> android.support.v7.widget.cl:
     void onRemoveFinished(android.support.v7.widget.RecyclerView$ViewHolder) -> a
     void onAddFinished(android.support.v7.widget.RecyclerView$ViewHolder) -> b
     void onMoveFinished(android.support.v7.widget.RecyclerView$ViewHolder) -> c
     void onChangeFinished(android.support.v7.widget.RecyclerView$ViewHolder) -> d
-android.support.v7.widget.RecyclerView$ItemAnimatorRestoreListener -> android.support.v7.widget.cl:
+android.support.v7.widget.RecyclerView$ItemAnimatorRestoreListener -> android.support.v7.widget.cm:
     android.support.v7.widget.RecyclerView this$0 -> a
     void onRemoveFinished(android.support.v7.widget.RecyclerView$ViewHolder) -> a
     void onAddFinished(android.support.v7.widget.RecyclerView$ViewHolder) -> b
     void onMoveFinished(android.support.v7.widget.RecyclerView$ViewHolder) -> c
     void onChangeFinished(android.support.v7.widget.RecyclerView$ViewHolder) -> d
-android.support.v7.widget.RecyclerView$ItemDecoration -> android.support.v7.widget.cm:
+android.support.v7.widget.RecyclerView$ItemDecoration -> android.support.v7.widget.cn:
     void onDraw(android.graphics.Canvas,android.support.v7.widget.RecyclerView,android.support.v7.widget.RecyclerView$State) -> a
     void onDraw(android.graphics.Canvas,android.support.v7.widget.RecyclerView) -> a
     void onDrawOver(android.graphics.Canvas,android.support.v7.widget.RecyclerView,android.support.v7.widget.RecyclerView$State) -> b
     void onDrawOver(android.graphics.Canvas,android.support.v7.widget.RecyclerView) -> b
     void getItemOffsets(android.graphics.Rect,int,android.support.v7.widget.RecyclerView) -> a
     void getItemOffsets(android.graphics.Rect,android.view.View,android.support.v7.widget.RecyclerView,android.support.v7.widget.RecyclerView$State) -> a
-android.support.v7.widget.RecyclerView$ItemHolderInfo -> android.support.v7.widget.cn:
+android.support.v7.widget.RecyclerView$ItemHolderInfo -> android.support.v7.widget.co:
     android.support.v7.widget.RecyclerView$ViewHolder holder -> a
     int left -> b
     int top -> c
     int right -> d
     int bottom -> e
-android.support.v7.widget.RecyclerView$LayoutManager -> android.support.v7.widget.co:
+android.support.v7.widget.RecyclerView$LayoutManager -> android.support.v7.widget.cp:
     android.support.v7.widget.ChildHelper mChildHelper -> h
     android.support.v7.widget.RecyclerView mRecyclerView -> i
     android.support.v7.widget.RecyclerView$SmoothScroller mSmoothScroller -> j
     boolean mRequestedSimpleAnimations -> a
+    boolean mIsAttachedToWindow -> b
     void setRecyclerView(android.support.v7.widget.RecyclerView) -> a
-    void requestLayout() -> j
+    void requestLayout() -> k
     void assertNotInLayoutOrScroll(java.lang.String) -> a
-    boolean supportsPredictiveItemAnimations() -> i
-    void onAttachedToWindow(android.support.v7.widget.RecyclerView) -> b
-    void onDetachedFromWindow(android.support.v7.widget.RecyclerView) -> c
+    boolean supportsPredictiveItemAnimations() -> j
+    void dispatchAttachedToWindow(android.support.v7.widget.RecyclerView) -> b
+    void dispatchDetachedFromWindow(android.support.v7.widget.RecyclerView,android.support.v7.widget.RecyclerView$Recycler) -> b
+    boolean isAttachedToWindow() -> l
+    void postOnAnimation(java.lang.Runnable) -> a
+    boolean removeCallbacks(java.lang.Runnable) -> b
+    void onAttachedToWindow(android.support.v7.widget.RecyclerView) -> c
+    void onDetachedFromWindow(android.support.v7.widget.RecyclerView) -> d
     void onDetachedFromWindow(android.support.v7.widget.RecyclerView,android.support.v7.widget.RecyclerView$Recycler) -> a
+    boolean getClipToPadding() -> m
     void onLayoutChildren(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State) -> a
     android.support.v7.widget.RecyclerView$LayoutParams generateDefaultLayoutParams() -> a
     boolean checkLayoutParams(android.support.v7.widget.RecyclerView$LayoutParams) -> a
@@ -10033,35 +10107,37 @@ android.support.v7.widget.RecyclerView$LayoutManager -> android.support.v7.widge
     int scrollVerticallyBy(int,android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State) -> b
     boolean canScrollHorizontally() -> c
     boolean canScrollVertically() -> d
-    boolean isSmoothScrolling() -> k
-    int getLayoutDirection() -> l
+    void scrollToPosition(int) -> c
+    boolean isSmoothScrolling() -> n
+    int getLayoutDirection() -> o
     void addDisappearingView(android.view.View) -> a
     void addDisappearingView(android.view.View,int) -> a
     void addView(android.view.View) -> b
     void addView(android.view.View,int) -> b
     void addViewInt(android.view.View,int,boolean) -> a
     void removeView(android.view.View) -> c
-    void removeViewAt(int) -> c
+    void removeViewAt(int) -> d
+    int getBaseline() -> p
     int getPosition(android.view.View) -> d
     android.view.View findViewByPosition(int) -> b
-    void detachViewAt(int) -> d
+    void detachViewAt(int) -> e
     void detachViewInternal(int,android.view.View) -> a
     void attachView(android.view.View,int,android.support.v7.widget.RecyclerView$LayoutParams) -> a
     void attachView(android.view.View,int) -> c
     void moveView(int,int) -> a
     void removeAndRecycleView(android.view.View,android.support.v7.widget.RecyclerView$Recycler) -> a
     void removeAndRecycleViewAt(int,android.support.v7.widget.RecyclerView$Recycler) -> a
-    int getChildCount() -> m
-    android.view.View getChildAt(int) -> e
-    int getWidth() -> n
-    int getHeight() -> o
-    int getPaddingLeft() -> p
-    int getPaddingTop() -> q
-    int getPaddingRight() -> r
-    int getPaddingBottom() -> s
-    android.view.View getFocusedChild() -> t
-    void offsetChildrenHorizontal(int) -> f
-    void offsetChildrenVertical(int) -> g
+    int getChildCount() -> q
+    android.view.View getChildAt(int) -> f
+    int getWidth() -> r
+    int getHeight() -> s
+    int getPaddingLeft() -> t
+    int getPaddingTop() -> u
+    int getPaddingRight() -> v
+    int getPaddingBottom() -> w
+    android.view.View getFocusedChild() -> x
+    void offsetChildrenHorizontal(int) -> g
+    void offsetChildrenVertical(int) -> h
     void detachAndScrapAttachedViews(android.support.v7.widget.RecyclerView$Recycler) -> a
     void scrapOrRecycleView(android.support.v7.widget.RecyclerView$Recycler,int,android.view.View) -> a
     void removeAndRecycleScrapInt(android.support.v7.widget.RecyclerView$Recycler) -> b
@@ -10074,6 +10150,7 @@ android.support.v7.widget.RecyclerView$LayoutManager -> android.support.v7.widge
     int getDecoratedTop(android.view.View) -> h
     int getDecoratedRight(android.view.View) -> i
     int getDecoratedBottom(android.view.View) -> j
+    void calculateItemDecorationsForChild(android.view.View,android.graphics.Rect) -> a
     int getTopDecorationHeight(android.view.View) -> k
     int getBottomDecorationHeight(android.view.View) -> l
     int getLeftDecorationWidth(android.view.View) -> m
@@ -10085,7 +10162,7 @@ android.support.v7.widget.RecyclerView$LayoutManager -> android.support.v7.widge
     boolean onRequestChildFocus(android.support.v7.widget.RecyclerView,android.support.v7.widget.RecyclerView$State,android.view.View,android.view.View) -> a
     void onAdapterChanged(android.support.v7.widget.RecyclerView$Adapter,android.support.v7.widget.RecyclerView$Adapter) -> a
     boolean onAddFocusables(android.support.v7.widget.RecyclerView,java.util.ArrayList,int,int) -> a
-    void onItemsChanged(android.support.v7.widget.RecyclerView) -> d
+    void onItemsChanged(android.support.v7.widget.RecyclerView) -> e
     void onItemsAdded(android.support.v7.widget.RecyclerView,int,int) -> a
     void onItemsRemoved(android.support.v7.widget.RecyclerView,int,int) -> b
     void onItemsUpdated(android.support.v7.widget.RecyclerView,int,int) -> c
@@ -10099,9 +10176,9 @@ android.support.v7.widget.RecyclerView$LayoutManager -> android.support.v7.widge
     void onMeasure(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State,int,int) -> a
     android.os.Parcelable onSaveInstanceState() -> b
     void onRestoreInstanceState(android.os.Parcelable) -> a
-    void stopSmoothScroller() -> u
+    void stopSmoothScroller() -> y
     void onSmoothScrollerStopped(android.support.v7.widget.RecyclerView$SmoothScroller) -> a
-    void onScrollStateChanged(int) -> h
+    void onScrollStateChanged(int) -> i
     void removeAndRecycleAllViews(android.support.v7.widget.RecyclerView$Recycler) -> c
     void onInitializeAccessibilityNodeInfo(android.support.v4.view.accessibility.AccessibilityNodeInfoCompat) -> a
     void onInitializeAccessibilityNodeInfo(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat) -> a
@@ -10109,7 +10186,7 @@ android.support.v7.widget.RecyclerView$LayoutManager -> android.support.v7.widge
     void onInitializeAccessibilityEvent(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State,android.view.accessibility.AccessibilityEvent) -> a
     void onInitializeAccessibilityNodeInfoForItem(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat) -> a
     void onInitializeAccessibilityNodeInfoForItem(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State,android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat) -> a
-    void requestSimpleAnimationsInNextLayout() -> v
+    void requestSimpleAnimationsInNextLayout() -> z
     int getSelectionModeForAccessibility(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State) -> b
     int getRowCountForAccessibility(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State) -> c
     int getColumnCountForAccessibility(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State) -> d
@@ -10120,8 +10197,8 @@ android.support.v7.widget.RecyclerView$LayoutManager -> android.support.v7.widge
     boolean performAccessibilityActionForItem(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State,android.view.View,int,android.os.Bundle) -> a
     boolean access$1700(android.support.v7.widget.RecyclerView$LayoutManager) -> a
     boolean access$1702(android.support.v7.widget.RecyclerView$LayoutManager,boolean) -> a
-    void access$5100(android.support.v7.widget.RecyclerView$LayoutManager,android.support.v7.widget.RecyclerView$SmoothScroller) -> a
-android.support.v7.widget.RecyclerView$LayoutParams -> android.support.v7.widget.cp:
+    void access$4900(android.support.v7.widget.RecyclerView$LayoutManager,android.support.v7.widget.RecyclerView$SmoothScroller) -> a
+android.support.v7.widget.RecyclerView$LayoutParams -> android.support.v7.widget.cq:
     android.support.v7.widget.RecyclerView$ViewHolder mViewHolder -> a
     android.graphics.Rect mDecorInsets -> b
     boolean mInsetsDirty -> c
@@ -10129,13 +10206,17 @@ android.support.v7.widget.RecyclerView$LayoutParams -> android.support.v7.widget
     boolean isItemRemoved() -> a
     boolean isItemChanged() -> b
     int getViewLayoutPosition() -> c
-android.support.v7.widget.RecyclerView$OnItemTouchListener -> android.support.v7.widget.cq:
+android.support.v7.widget.RecyclerView$OnChildAttachStateChangeListener -> android.support.v7.widget.cr:
+    void onChildViewAttachedToWindow(android.view.View) -> a
+    void onChildViewDetachedFromWindow(android.view.View) -> b
+android.support.v7.widget.RecyclerView$OnItemTouchListener -> android.support.v7.widget.cs:
     boolean onInterceptTouchEvent(android.support.v7.widget.RecyclerView,android.view.MotionEvent) -> a
     void onTouchEvent(android.support.v7.widget.RecyclerView,android.view.MotionEvent) -> b
-android.support.v7.widget.RecyclerView$OnScrollListener -> android.support.v7.widget.cr:
+    void onRequestDisallowInterceptTouchEvent(boolean) -> a
+android.support.v7.widget.RecyclerView$OnScrollListener -> android.support.v7.widget.ct:
     void onScrollStateChanged(android.support.v7.widget.RecyclerView,int) -> a
     void onScrolled(android.support.v7.widget.RecyclerView,int,int) -> a
-android.support.v7.widget.RecyclerView$RecycledViewPool -> android.support.v7.widget.cs:
+android.support.v7.widget.RecyclerView$RecycledViewPool -> android.support.v7.widget.cu:
     android.util.SparseArray mScrap -> a
     android.util.SparseIntArray mMaxScrap -> b
     int mAttachCount -> c
@@ -10146,7 +10227,7 @@ android.support.v7.widget.RecyclerView$RecycledViewPool -> android.support.v7.wi
     void detach() -> b
     void onAdapterChanged(android.support.v7.widget.RecyclerView$Adapter,android.support.v7.widget.RecyclerView$Adapter,boolean) -> a
     java.util.ArrayList getScrapHeapForType(int) -> b
-android.support.v7.widget.RecyclerView$Recycler -> android.support.v7.widget.ct:
+android.support.v7.widget.RecyclerView$Recycler -> android.support.v7.widget.cv:
     java.util.ArrayList mAttachedScrap -> a
     java.util.ArrayList mChangedScrap -> d
     java.util.ArrayList mCachedViews -> b
@@ -10192,9 +10273,9 @@ android.support.v7.widget.RecyclerView$Recycler -> android.support.v7.widget.ct:
     void clearOldPositions() -> i
     void markItemDecorInsetsDirty() -> j
     java.util.ArrayList access$1800(android.support.v7.widget.RecyclerView$Recycler) -> a
-android.support.v7.widget.RecyclerView$RecyclerListener -> android.support.v7.widget.cu:
+android.support.v7.widget.RecyclerView$RecyclerListener -> android.support.v7.widget.cw:
     void onViewRecycled(android.support.v7.widget.RecyclerView$ViewHolder) -> a
-android.support.v7.widget.RecyclerView$RecyclerViewDataObserver -> android.support.v7.widget.cv:
+android.support.v7.widget.RecyclerView$RecyclerViewDataObserver -> android.support.v7.widget.cx:
     android.support.v7.widget.RecyclerView this$0 -> a
     void onChanged() -> a
 android.support.v7.widget.RecyclerView$SavedState -> android.support.v7.widget.RecyclerView$SavedState:
@@ -10203,12 +10284,12 @@ android.support.v7.widget.RecyclerView$SavedState -> android.support.v7.widget.R
     void writeToParcel(android.os.Parcel,int) -> writeToParcel
     void copyFrom(android.support.v7.widget.RecyclerView$SavedState) -> a
     void access$1300(android.support.v7.widget.RecyclerView$SavedState,android.support.v7.widget.RecyclerView$SavedState) -> a
-android.support.v7.widget.RecyclerView$SavedState$1 -> android.support.v7.widget.cw:
+android.support.v7.widget.RecyclerView$SavedState$1 -> android.support.v7.widget.cy:
     android.support.v7.widget.RecyclerView$SavedState createFromParcel(android.os.Parcel) -> a
     android.support.v7.widget.RecyclerView$SavedState[] newArray(int) -> a
     java.lang.Object[] newArray(int) -> newArray
     java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
-android.support.v7.widget.RecyclerView$SmoothScroller -> android.support.v7.widget.cx:
+android.support.v7.widget.RecyclerView$SmoothScroller -> android.support.v7.widget.cz:
     int mTargetPosition -> a
     android.support.v7.widget.RecyclerView mRecyclerView -> b
     android.support.v7.widget.RecyclerView$LayoutManager mLayoutManager -> c
@@ -10227,30 +10308,33 @@ android.support.v7.widget.RecyclerView$SmoothScroller -> android.support.v7.widg
     void onStop() -> e
     void onSeekTargetStep(int,int,android.support.v7.widget.RecyclerView$State,android.support.v7.widget.RecyclerView$SmoothScroller$Action) -> a
     void onTargetFound(android.view.View,android.support.v7.widget.RecyclerView$State,android.support.v7.widget.RecyclerView$SmoothScroller$Action) -> a
-    void access$2500(android.support.v7.widget.RecyclerView$SmoothScroller,int,int) -> a
-android.support.v7.widget.RecyclerView$SmoothScroller$Action -> android.support.v7.widget.cy:
+    void access$2600(android.support.v7.widget.RecyclerView$SmoothScroller,int,int) -> a
+android.support.v7.widget.RecyclerView$SmoothScroller$Action -> android.support.v7.widget.da:
     int mDx -> a
     int mDy -> b
     int mDuration -> c
-    android.view.animation.Interpolator mInterpolator -> d
-    boolean changed -> e
-    int consecutiveUpdates -> f
+    int mJumpToPosition -> d
+    android.view.animation.Interpolator mInterpolator -> e
+    boolean changed -> f
+    int consecutiveUpdates -> g
+    boolean hasJumpTarget() -> a
     void runIfNecessary(android.support.v7.widget.RecyclerView) -> a
-    void validate() -> a
-    void access$5200(android.support.v7.widget.RecyclerView$SmoothScroller$Action,android.support.v7.widget.RecyclerView) -> a
-android.support.v7.widget.RecyclerView$State -> android.support.v7.widget.cz:
-    int mTargetPosition -> e
+    void validate() -> b
+    void access$5000(android.support.v7.widget.RecyclerView$SmoothScroller$Action,android.support.v7.widget.RecyclerView) -> a
+android.support.v7.widget.RecyclerView$State -> android.support.v7.widget.db:
+    int mTargetPosition -> f
     android.support.v4.util.ArrayMap mPreLayoutHolderMap -> a
     android.support.v4.util.ArrayMap mPostLayoutHolderMap -> b
     android.support.v4.util.ArrayMap mOldChangedHolders -> c
-    android.util.SparseArray mData -> f
-    int mItemCount -> d
-    int mPreviousLayoutItemCount -> g
-    int mDeletedInvisibleItemCountSincePreviousLayout -> h
-    boolean mStructureChanged -> i
-    boolean mInPreLayout -> j
-    boolean mRunSimpleAnimations -> k
-    boolean mRunPredictiveAnimations -> l
+    java.util.List mDisappearingViewsInLayoutPass -> d
+    android.util.SparseArray mData -> g
+    int mItemCount -> e
+    int mPreviousLayoutItemCount -> h
+    int mDeletedInvisibleItemCountSincePreviousLayout -> i
+    boolean mStructureChanged -> j
+    boolean mInPreLayout -> k
+    boolean mRunSimpleAnimations -> l
+    boolean mRunPredictiveAnimations -> m
     boolean isPreLayout() -> a
     boolean willRunPredictiveAnimations() -> b
     int getTargetScrollPosition() -> c
@@ -10258,6 +10342,8 @@ android.support.v7.widget.RecyclerView$State -> android.support.v7.widget.cz:
     int getItemCount() -> e
     void onViewRecycled(android.support.v7.widget.RecyclerView$ViewHolder) -> a
     void removeFrom(android.support.v4.util.ArrayMap,android.support.v7.widget.RecyclerView$ViewHolder) -> a
+    void removeFromDisappearingList(android.view.View) -> a
+    void addToDisappearingList(android.view.View) -> b
     java.lang.String toString() -> toString
     int access$1012(android.support.v7.widget.RecyclerView$State,int) -> a
     boolean access$1202(android.support.v7.widget.RecyclerView$State,boolean) -> a
@@ -10270,10 +10356,10 @@ android.support.v7.widget.RecyclerView$State -> android.support.v7.widget.cz:
     int access$1002(android.support.v7.widget.RecyclerView$State,int) -> b
     int access$1902(android.support.v7.widget.RecyclerView$State,int) -> c
     boolean access$1500(android.support.v7.widget.RecyclerView$State) -> d
-    int access$4902(android.support.v7.widget.RecyclerView$State,int) -> d
-android.support.v7.widget.RecyclerView$ViewCacheExtension -> android.support.v7.widget.da:
+    int access$4702(android.support.v7.widget.RecyclerView$State,int) -> d
+android.support.v7.widget.RecyclerView$ViewCacheExtension -> android.support.v7.widget.dc:
     android.view.View getViewForPositionAndType(android.support.v7.widget.RecyclerView$Recycler,int,int) -> a
-android.support.v7.widget.RecyclerView$ViewFlinger -> android.support.v7.widget.db:
+android.support.v7.widget.RecyclerView$ViewFlinger -> android.support.v7.widget.dd:
     int mLastFlingX -> b
     int mLastFlingY -> c
     android.support.v4.widget.ScrollerCompat mScroller -> d
@@ -10293,7 +10379,7 @@ android.support.v7.widget.RecyclerView$ViewFlinger -> android.support.v7.widget.
     void smoothScrollBy(int,int,int) -> a
     void smoothScrollBy(int,int,int,android.view.animation.Interpolator) -> a
     void stop() -> b
-android.support.v7.widget.RecyclerView$ViewHolder -> android.support.v7.widget.dc:
+android.support.v7.widget.RecyclerView$ViewHolder -> android.support.v7.widget.de:
     android.view.View itemView -> a
     int mPosition -> b
     int mOldPosition -> c
@@ -10302,9 +10388,10 @@ android.support.v7.widget.RecyclerView$ViewHolder -> android.support.v7.widget.d
     int mPreLayoutPosition -> f
     android.support.v7.widget.RecyclerView$ViewHolder mShadowedHolder -> g
     android.support.v7.widget.RecyclerView$ViewHolder mShadowingHolder -> h
-    int mFlags -> i
-    int mIsRecyclableCount -> j
-    android.support.v7.widget.RecyclerView$Recycler mScrapContainer -> k
+    int mFlags -> j
+    int mIsRecyclableCount -> k
+    android.support.v7.widget.RecyclerView$Recycler mScrapContainer -> l
+    android.support.v7.widget.RecyclerView mOwnerRecyclerView -> i
     void flagRemovedAndOffsetPosition(int,int,boolean) -> a
     void offsetPosition(int,boolean) -> a
     void clearOldPosition() -> a
@@ -10324,10 +10411,11 @@ android.support.v7.widget.RecyclerView$ViewHolder -> android.support.v7.widget.d
     boolean isChanged() -> n
     boolean isBound() -> o
     boolean isRemoved() -> p
+    boolean hasAnyOfTheFlags(int) -> a
     boolean isTmpDetached() -> q
     boolean isAdapterPositionUnknown() -> r
     void setFlags(int,int) -> a
-    void addFlags(int) -> a
+    void addFlags(int) -> b
     void resetInternal() -> s
     java.lang.String toString() -> toString
     void setIsRecyclable(boolean) -> a
@@ -10336,20 +10424,22 @@ android.support.v7.widget.RecyclerView$ViewHolder -> android.support.v7.widget.d
     boolean doesTransientStatePreventRecycling() -> v
     boolean access$4000(android.support.v7.widget.RecyclerView$ViewHolder) -> a
     android.support.v7.widget.RecyclerView$Recycler access$4102(android.support.v7.widget.RecyclerView$ViewHolder,android.support.v7.widget.RecyclerView$Recycler) -> a
-    boolean access$5400(android.support.v7.widget.RecyclerView$ViewHolder) -> b
-    int access$5500(android.support.v7.widget.RecyclerView$ViewHolder) -> c
-android.support.v7.widget.RecyclerViewAccessibilityDelegate -> android.support.v7.widget.dd:
+    boolean access$5300(android.support.v7.widget.RecyclerView$ViewHolder) -> b
+    int access$5400(android.support.v7.widget.RecyclerView$ViewHolder) -> c
+android.support.v7.widget.RecyclerViewAccessibilityDelegate -> android.support.v7.widget.df:
     android.support.v7.widget.RecyclerView mRecyclerView -> b
     android.support.v4.view.AccessibilityDelegateCompat mItemDelegate -> c
+    boolean shouldIgnore() -> c
     boolean performAccessibilityAction(android.view.View,int,android.os.Bundle) -> a
     void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat) -> a
     void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> d
     android.support.v4.view.AccessibilityDelegateCompat getItemDelegate() -> b
-android.support.v7.widget.RecyclerViewAccessibilityDelegate$1 -> android.support.v7.widget.de:
+    boolean access$000(android.support.v7.widget.RecyclerViewAccessibilityDelegate) -> a
+android.support.v7.widget.RecyclerViewAccessibilityDelegate$1 -> android.support.v7.widget.dg:
     android.support.v7.widget.RecyclerViewAccessibilityDelegate this$0 -> b
     void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat) -> a
     boolean performAccessibilityAction(android.view.View,int,android.os.Bundle) -> a
-android.support.v7.widget.RoundRectDrawable -> android.support.v7.widget.df:
+android.support.v7.widget.RoundRectDrawable -> android.support.v7.widget.dh:
     float mRadius -> a
     android.graphics.Paint mPaint -> b
     android.graphics.RectF mBoundsF -> c
@@ -10369,7 +10459,7 @@ android.support.v7.widget.RoundRectDrawable -> android.support.v7.widget.df:
     int getOpacity() -> getOpacity
     float getRadius() -> b
     void setColor(int) -> a
-android.support.v7.widget.RoundRectDrawableWithShadow -> android.support.v7.widget.dg:
+android.support.v7.widget.RoundRectDrawableWithShadow -> android.support.v7.widget.di:
     double COS_45 -> a
     int mInsetShadow -> b
     android.support.v7.widget.RoundRectDrawableWithShadow$RoundRectHelper sRoundRectHelper -> c
@@ -10412,9 +10502,9 @@ android.support.v7.widget.RoundRectDrawableWithShadow -> android.support.v7.widg
     float getMinWidth() -> d
     float getMinHeight() -> e
     void setColor(int) -> a
-android.support.v7.widget.RoundRectDrawableWithShadow$RoundRectHelper -> android.support.v7.widget.dh:
+android.support.v7.widget.RoundRectDrawableWithShadow$RoundRectHelper -> android.support.v7.widget.dj:
     void drawRoundRect(android.graphics.Canvas,android.graphics.RectF,float,android.graphics.Paint) -> a
-android.support.v7.widget.ScrollbarHelper -> android.support.v7.widget.di:
+android.support.v7.widget.ScrollbarHelper -> android.support.v7.widget.dk:
     int computeScrollOffset(android.support.v7.widget.RecyclerView$State,android.support.v7.widget.OrientationHelper,android.view.View,android.view.View,android.support.v7.widget.RecyclerView$LayoutManager,boolean,boolean) -> a
     int computeScrollExtent(android.support.v7.widget.RecyclerView$State,android.support.v7.widget.OrientationHelper,android.view.View,android.view.View,android.support.v7.widget.RecyclerView$LayoutManager,boolean) -> a
     int computeScrollRange(android.support.v7.widget.RecyclerView$State,android.support.v7.widget.OrientationHelper,android.view.View,android.view.View,android.support.v7.widget.RecyclerView$LayoutManager,boolean) -> b
@@ -10516,7 +10606,7 @@ android.support.v7.widget.SearchView -> android.support.v7.widget.SearchView:
     void forceSuggestionQuery() -> q
     boolean isLandscapeMode(android.content.Context) -> a
     void access$2100(android.support.v7.widget.SearchView,boolean) -> a
-android.support.v7.widget.SearchView$AutoCompleteTextViewReflector -> android.support.v7.widget.dj:
+android.support.v7.widget.SearchView$AutoCompleteTextViewReflector -> android.support.v7.widget.dl:
     java.lang.reflect.Method doBeforeTextChanged -> a
     java.lang.reflect.Method doAfterTextChanged -> b
     java.lang.reflect.Method ensureImeVisible -> c
@@ -10524,11 +10614,11 @@ android.support.v7.widget.SearchView$AutoCompleteTextViewReflector -> android.su
     void doBeforeTextChanged(android.widget.AutoCompleteTextView) -> a
     void doAfterTextChanged(android.widget.AutoCompleteTextView) -> b
     void ensureImeVisible(android.widget.AutoCompleteTextView,boolean) -> a
-android.support.v7.widget.SearchView$OnCloseListener -> android.support.v7.widget.dk:
+android.support.v7.widget.SearchView$OnCloseListener -> android.support.v7.widget.dm:
     boolean onClose() -> a
-android.support.v7.widget.SearchView$OnQueryTextListener -> android.support.v7.widget.dl:
+android.support.v7.widget.SearchView$OnQueryTextListener -> android.support.v7.widget.dn:
     boolean onQueryTextSubmit(java.lang.String) -> a
-android.support.v7.widget.SearchView$OnSuggestionListener -> android.support.v7.widget.dm:
+android.support.v7.widget.SearchView$OnSuggestionListener -> android.support.v7.widget.do:
 android.support.v7.widget.SearchView$SearchAutoComplete -> android.support.v7.widget.SearchView$SearchAutoComplete:
     int mThreshold -> a
     android.support.v7.widget.SearchView mSearchView -> b
@@ -10561,19 +10651,20 @@ android.support.v7.widget.StaggeredGridLayoutManager -> android.support.v7.widge
     int mFullSizeSpec -> u
     int mWidthSpec -> v
     int mHeightSpec -> w
-    android.support.v7.widget.StaggeredGridLayoutManager$AnchorInfo mAnchorInfo -> x
-    boolean mLaidOutInvalidFullSpan -> y
-    boolean mSmoothScrollbarEnabled -> z
-    java.lang.Runnable checkForGapsRunnable -> A
-    void checkForGaps() -> y
-    void onScrollStateChanged(int) -> h
+    android.graphics.Rect mTmpRect -> x
+    android.support.v7.widget.StaggeredGridLayoutManager$AnchorInfo mAnchorInfo -> y
+    boolean mLaidOutInvalidFullSpan -> z
+    boolean mSmoothScrollbarEnabled -> A
+    java.lang.Runnable mCheckForGapsRunnable -> B
+    boolean checkForGaps() -> B
+    void onScrollStateChanged(int) -> i
     void onDetachedFromWindow(android.support.v7.widget.RecyclerView,android.support.v7.widget.RecyclerView$Recycler) -> a
     android.view.View hasGapsToFix() -> e
     boolean checkSpanForGap(android.support.v7.widget.StaggeredGridLayoutManager$Span) -> a
     void setReverseLayout(boolean) -> a
     void assertNotInLayoutOrScroll(java.lang.String) -> a
-    void ensureOrientationHelper() -> z
-    void resolveShouldLayoutReverse() -> A
+    void ensureOrientationHelper() -> C
+    void resolveShouldLayoutReverse() -> D
     boolean isLayoutRTL() -> f
     void onLayoutChildren(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State) -> a
     void applyPendingSavedState(android.support.v7.widget.StaggeredGridLayoutManager$AnchorInfo) -> a
@@ -10581,7 +10672,7 @@ android.support.v7.widget.StaggeredGridLayoutManager -> android.support.v7.widge
     boolean updateAnchorFromChildren(android.support.v7.widget.RecyclerView$State,android.support.v7.widget.StaggeredGridLayoutManager$AnchorInfo) -> c
     boolean updateAnchorFromPendingData(android.support.v7.widget.RecyclerView$State,android.support.v7.widget.StaggeredGridLayoutManager$AnchorInfo) -> b
     void updateMeasureSpecs() -> g
-    boolean supportsPredictiveItemAnimations() -> i
+    boolean supportsPredictiveItemAnimations() -> j
     int computeHorizontalScrollOffset(android.support.v7.widget.RecyclerView$State) -> b
     int computeScrollOffset(android.support.v7.widget.RecyclerView$State) -> a
     int computeVerticalScrollOffset(android.support.v7.widget.RecyclerView$State) -> c
@@ -10606,51 +10697,52 @@ android.support.v7.widget.StaggeredGridLayoutManager -> android.support.v7.widge
     android.view.View findFirstVisibleItemClosestToEnd(boolean,boolean) -> b
     void fixEndGap(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State,boolean) -> a
     void fixStartGap(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State,boolean) -> b
-    void updateLayoutStateToFillStart(int,android.support.v7.widget.RecyclerView$State) -> a
-    void updateLayoutStateToFillEnd(int,android.support.v7.widget.RecyclerView$State) -> b
-    void offsetChildrenHorizontal(int) -> f
-    void offsetChildrenVertical(int) -> g
+    void updateLayoutState(int,android.support.v7.widget.RecyclerView$State) -> a
+    void setLayoutStateDirection(int) -> a
+    void offsetChildrenHorizontal(int) -> g
+    void offsetChildrenVertical(int) -> h
     void onItemsRemoved(android.support.v7.widget.RecyclerView,int,int) -> b
     void onItemsAdded(android.support.v7.widget.RecyclerView,int,int) -> a
-    void onItemsChanged(android.support.v7.widget.RecyclerView) -> d
+    void onItemsChanged(android.support.v7.widget.RecyclerView) -> e
     void onItemsMoved(android.support.v7.widget.RecyclerView,int,int,int) -> a
     void onItemsUpdated(android.support.v7.widget.RecyclerView,int,int) -> c
     void handleUpdate(int,int,int) -> b
     int fill(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.LayoutState,android.support.v7.widget.RecyclerView$State) -> a
-    android.support.v7.widget.StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem createFullSpanItemFromEnd(int) -> a
-    android.support.v7.widget.StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem createFullSpanItemFromStart(int) -> i
+    android.support.v7.widget.StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem createFullSpanItemFromEnd(int) -> j
+    android.support.v7.widget.StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem createFullSpanItemFromStart(int) -> k
     void attachViewToSpans(android.view.View,android.support.v7.widget.StaggeredGridLayoutManager$LayoutParams,android.support.v7.widget.LayoutState) -> a
-    void recycle(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.LayoutState,android.support.v7.widget.StaggeredGridLayoutManager$Span,int) -> a
+    void recycle(android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.LayoutState) -> a
     void appendViewToAllSpans(android.view.View) -> o
     void prependViewToAllSpans(android.view.View) -> p
     void layoutDecoratedWithMargins(android.view.View,int,int,int,int) -> b
     void updateAllRemainingSpans(int,int) -> c
     void updateRemainingSpans(android.support.v7.widget.StaggeredGridLayoutManager$Span,int,int) -> a
-    int getMaxStart(int) -> j
-    int getMinStart(int) -> k
-    boolean areAllEndsEqual() -> w
-    boolean areAllStartsEqual() -> x
-    int getMaxEnd(int) -> l
-    int getMinEnd(int) -> m
+    int getMaxStart(int) -> l
+    int getMinStart(int) -> m
+    boolean areAllEndsEqual() -> i
+    boolean areAllStartsEqual() -> A
+    int getMaxEnd(int) -> n
+    int getMinEnd(int) -> o
     void recycleFromStart(android.support.v7.widget.RecyclerView$Recycler,int) -> a
     void recycleFromEnd(android.support.v7.widget.RecyclerView$Recycler,int) -> b
-    boolean preferLastSpan(int) -> n
+    boolean preferLastSpan(int) -> p
     android.support.v7.widget.StaggeredGridLayoutManager$Span getNextSpan(android.support.v7.widget.LayoutState) -> a
     boolean canScrollVertically() -> d
     boolean canScrollHorizontally() -> c
     int scrollHorizontallyBy(int,android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State) -> a
     int scrollVerticallyBy(int,android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State) -> b
-    int calculateScrollDirectionForPosition(int) -> o
+    int calculateScrollDirectionForPosition(int) -> q
+    void scrollToPosition(int) -> c
     int scrollBy(int,android.support.v7.widget.RecyclerView$Recycler,android.support.v7.widget.RecyclerView$State) -> c
-    int getLastChildPosition() -> B
-    int getFirstChildPosition() -> C
-    int findFirstReferenceChildPosition(int) -> p
-    int findLastReferenceChildPosition(int) -> q
+    int getLastChildPosition() -> E
+    int getFirstChildPosition() -> F
+    int findFirstReferenceChildPosition(int) -> r
+    int findLastReferenceChildPosition(int) -> s
     android.support.v7.widget.RecyclerView$LayoutParams generateDefaultLayoutParams() -> a
     android.support.v7.widget.RecyclerView$LayoutParams generateLayoutParams(android.content.Context,android.util.AttributeSet) -> a
     android.support.v7.widget.RecyclerView$LayoutParams generateLayoutParams(android.view.ViewGroup$LayoutParams) -> a
     boolean checkLayoutParams(android.support.v7.widget.RecyclerView$LayoutParams) -> a
-android.support.v7.widget.StaggeredGridLayoutManager$AnchorInfo -> android.support.v7.widget.dn:
+android.support.v7.widget.StaggeredGridLayoutManager$AnchorInfo -> android.support.v7.widget.dp:
     int mPosition -> a
     int mOffset -> b
     boolean mLayoutFromEnd -> c
@@ -10659,7 +10751,7 @@ android.support.v7.widget.StaggeredGridLayoutManager$AnchorInfo -> android.suppo
     void reset() -> a
     void assignCoordinateFromPadding() -> b
     void assignCoordinateFromPadding(int) -> a
-android.support.v7.widget.StaggeredGridLayoutManager$LayoutParams -> android.support.v7.widget.do:
+android.support.v7.widget.StaggeredGridLayoutManager$LayoutParams -> android.support.v7.widget.dq:
     android.support.v7.widget.StaggeredGridLayoutManager$Span mSpan -> e
     boolean mFullSpan -> f
     int getSpanIndex() -> d
@@ -10691,7 +10783,7 @@ android.support.v7.widget.StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem
     int describeContents() -> describeContents
     void writeToParcel(android.os.Parcel,int) -> writeToParcel
     java.lang.String toString() -> toString
-android.support.v7.widget.StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem$1 -> android.support.v7.widget.dp:
+android.support.v7.widget.StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem$1 -> android.support.v7.widget.dr:
     android.support.v7.widget.StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem createFromParcel(android.os.Parcel) -> a
     android.support.v7.widget.StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem[] newArray(int) -> a
     java.lang.Object[] newArray(int) -> newArray
@@ -10709,14 +10801,15 @@ android.support.v7.widget.StaggeredGridLayoutManager$SavedState -> android.suppo
     boolean mLastLayoutRTL -> j
     android.os.Parcelable$Creator CREATOR -> CREATOR
     void invalidateSpanInfo() -> a
+    void invalidateAnchorPositionInfo() -> b
     int describeContents() -> describeContents
     void writeToParcel(android.os.Parcel,int) -> writeToParcel
-android.support.v7.widget.StaggeredGridLayoutManager$SavedState$1 -> android.support.v7.widget.dq:
+android.support.v7.widget.StaggeredGridLayoutManager$SavedState$1 -> android.support.v7.widget.ds:
     android.support.v7.widget.StaggeredGridLayoutManager$SavedState createFromParcel(android.os.Parcel) -> a
     android.support.v7.widget.StaggeredGridLayoutManager$SavedState[] newArray(int) -> a
     java.lang.Object[] newArray(int) -> newArray
     java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
-android.support.v7.widget.StaggeredGridLayoutManager$Span -> android.support.v7.widget.dr:
+android.support.v7.widget.StaggeredGridLayoutManager$Span -> android.support.v7.widget.dt:
     java.util.ArrayList mViews -> f
     int mCachedStart -> a
     int mCachedEnd -> b
@@ -10741,7 +10834,7 @@ android.support.v7.widget.StaggeredGridLayoutManager$Span -> android.support.v7.
     android.support.v7.widget.StaggeredGridLayoutManager$LayoutParams getLayoutParams(android.view.View) -> c
     void onOffset(int) -> d
     java.util.ArrayList access$300(android.support.v7.widget.StaggeredGridLayoutManager$Span) -> a
-android.support.v7.widget.SuggestionsAdapter -> android.support.v7.widget.ds:
+android.support.v7.widget.SuggestionsAdapter -> android.support.v7.widget.du:
     android.app.SearchManager mSearchManager -> j
     android.support.v7.widget.SearchView mSearchView -> k
     android.app.SearchableInfo mSearchable -> l
@@ -10785,7 +10878,7 @@ android.support.v7.widget.SuggestionsAdapter -> android.support.v7.widget.ds:
     java.lang.String getStringOrNull(android.database.Cursor,int) -> a
     android.graphics.drawable.Drawable getDrawableFromResourceUri(android.net.Uri) -> a
     android.database.Cursor getSearchManagerSuggestions(android.app.SearchableInfo,java.lang.String,int) -> a
-android.support.v7.widget.SuggestionsAdapter$ChildViewCache -> android.support.v7.widget.dt:
+android.support.v7.widget.SuggestionsAdapter$ChildViewCache -> android.support.v7.widget.dv:
     android.widget.TextView mText1 -> a
     android.widget.TextView mText2 -> b
     android.widget.ImageView mIcon1 -> c
@@ -10918,16 +11011,16 @@ android.support.v7.widget.Toolbar -> android.support.v7.widget.Toolbar:
     android.widget.ImageButton access$300(android.support.v7.widget.Toolbar) -> c
     int access$400(android.support.v7.widget.Toolbar) -> d
     void access$500(android.support.v7.widget.Toolbar,boolean) -> a
-android.support.v7.widget.Toolbar$1 -> android.support.v7.widget.du:
+android.support.v7.widget.Toolbar$1 -> android.support.v7.widget.dw:
     android.support.v7.widget.Toolbar this$0 -> a
     boolean onMenuItemClick(android.view.MenuItem) -> a
-android.support.v7.widget.Toolbar$2 -> android.support.v7.widget.dv:
+android.support.v7.widget.Toolbar$2 -> android.support.v7.widget.dx:
     android.support.v7.widget.Toolbar this$0 -> a
     void run() -> run
-android.support.v7.widget.Toolbar$3 -> android.support.v7.widget.dw:
+android.support.v7.widget.Toolbar$3 -> android.support.v7.widget.dy:
     android.support.v7.widget.Toolbar this$0 -> a
     void onClick(android.view.View) -> onClick
-android.support.v7.widget.Toolbar$ExpandedActionViewMenuPresenter -> android.support.v7.widget.dx:
+android.support.v7.widget.Toolbar$ExpandedActionViewMenuPresenter -> android.support.v7.widget.dz:
     android.support.v7.internal.view.menu.MenuBuilder mMenu -> a
     android.support.v7.internal.view.menu.MenuItemImpl mCurrentExpandedItem -> b
     android.support.v7.widget.Toolbar this$0 -> c
@@ -10938,17 +11031,17 @@ android.support.v7.widget.Toolbar$ExpandedActionViewMenuPresenter -> android.sup
     boolean flagActionItems() -> b
     boolean expandItemActionView(android.support.v7.internal.view.menu.MenuBuilder,android.support.v7.internal.view.menu.MenuItemImpl) -> a
     boolean collapseItemActionView(android.support.v7.internal.view.menu.MenuBuilder,android.support.v7.internal.view.menu.MenuItemImpl) -> b
-android.support.v7.widget.Toolbar$LayoutParams -> android.support.v7.widget.dy:
+android.support.v7.widget.Toolbar$LayoutParams -> android.support.v7.widget.ea:
     int mViewType -> b
     void copyMarginsFromCompat(android.view.ViewGroup$MarginLayoutParams) -> a
-android.support.v7.widget.Toolbar$OnMenuItemClickListener -> android.support.v7.widget.dz:
+android.support.v7.widget.Toolbar$OnMenuItemClickListener -> android.support.v7.widget.eb:
     boolean onMenuItemClick(android.view.MenuItem) -> a
 android.support.v7.widget.Toolbar$SavedState -> android.support.v7.widget.Toolbar$SavedState:
     int expandedMenuItemId -> a
     boolean isOverflowOpen -> b
     android.os.Parcelable$Creator CREATOR -> CREATOR
     void writeToParcel(android.os.Parcel,int) -> writeToParcel
-android.support.v7.widget.Toolbar$SavedState$1 -> android.support.v7.widget.ea:
+android.support.v7.widget.Toolbar$SavedState$1 -> android.support.v7.widget.ec:
     android.support.v7.widget.Toolbar$SavedState createFromParcel(android.os.Parcel) -> a
     android.support.v7.widget.Toolbar$SavedState[] newArray(int) -> a
     java.lang.Object[] newArray(int) -> newArray
@@ -10987,38 +11080,28 @@ com.ashoksm.pinfinder.DisplayBankBranchResultActivity -> com.ashoksm.pinfinder.D
     java.lang.String districtName -> d
     java.lang.String bankName -> e
     java.lang.String branchName -> f
-    boolean scrollDown -> g
     void onCreate(android.os.Bundle) -> onCreate
     void onBackPressed() -> onBackPressed
     void onDestroy() -> onDestroy
-    boolean access$000() -> e
-    boolean access$002(boolean) -> a
-    com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper access$102(com.ashoksm.pinfinder.DisplayBankBranchResultActivity,com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper) -> a
-    android.database.Cursor access$202(com.ashoksm.pinfinder.DisplayBankBranchResultActivity,android.database.Cursor) -> a
-    java.lang.String access$300(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> a
-    java.lang.String access$400(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> b
-    java.lang.String access$500(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> c
-    java.lang.String access$600(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> d
-    com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper access$100(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> e
-    android.database.Cursor access$200(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> f
+    com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper access$002(com.ashoksm.pinfinder.DisplayBankBranchResultActivity,com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper) -> a
+    android.database.Cursor access$102(com.ashoksm.pinfinder.DisplayBankBranchResultActivity,android.database.Cursor) -> a
+    java.lang.String access$200(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> a
+    java.lang.String access$300(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> b
+    java.lang.String access$400(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> c
+    java.lang.String access$500(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> d
+    com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper access$000(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> e
+    android.database.Cursor access$100(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> f
 com.ashoksm.pinfinder.DisplayBankBranchResultActivity$1 -> com.ashoksm.pinfinder.f:
     android.support.v7.widget.Toolbar val$toolbar -> a
     com.ashoksm.pinfinder.DisplayBankBranchResultActivity this$0 -> b
-    void onScrollStateChanged(android.support.v7.widget.RecyclerView,int) -> a
-    void onScrolled(android.support.v7.widget.RecyclerView,int,int) -> a
-com.ashoksm.pinfinder.DisplayBankBranchResultActivity$1$1 -> com.ashoksm.pinfinder.g:
-    com.ashoksm.pinfinder.DisplayBankBranchResultActivity$1 this$1 -> a
-    void run() -> run
-com.ashoksm.pinfinder.DisplayBankBranchResultActivity$1$2 -> com.ashoksm.pinfinder.h:
-    com.ashoksm.pinfinder.DisplayBankBranchResultActivity$1 this$1 -> a
-    void run() -> run
-com.ashoksm.pinfinder.DisplayBankBranchResultActivity$2 -> com.ashoksm.pinfinder.i:
+    void onMoved(int) -> a
+com.ashoksm.pinfinder.DisplayBankBranchResultActivity$2 -> com.ashoksm.pinfinder.g:
     android.widget.LinearLayout val$adParent -> a
     com.ashoksm.pinfinder.DisplayBankBranchResultActivity this$0 -> b
     void onAdLoaded() -> a
     void onAdFailedToLoad(int) -> a
-com.ashoksm.pinfinder.DisplayBankBranchResultActivity$3 -> com.ashoksm.pinfinder.j:
-    android.widget.LinearLayout linlaHeaderProgress -> a
+com.ashoksm.pinfinder.DisplayBankBranchResultActivity$3 -> com.ashoksm.pinfinder.h:
+    android.widget.LinearLayout progressLayout -> a
     com.ashoksm.pinfinder.adapter.IFSCRecyclerViewAdapter adapter -> b
     android.content.Intent val$intent -> c
     android.support.v7.widget.RecyclerView val$mRecyclerView -> d
@@ -11035,37 +11118,27 @@ com.ashoksm.pinfinder.DisplayPinCodeResultActivity -> com.ashoksm.pinfinder.Disp
     java.lang.String districtName -> d
     java.lang.String officeName -> e
     android.support.v7.widget.Toolbar toolbar -> f
-    boolean scrollDown -> g
     void onCreate(android.os.Bundle) -> onCreate
     void onBackPressed() -> onBackPressed
     void onDestroy() -> onDestroy
-    boolean access$000() -> e
-    android.support.v7.widget.Toolbar access$100(com.ashoksm.pinfinder.DisplayPinCodeResultActivity) -> a
-    boolean access$002(boolean) -> a
-    com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper access$202(com.ashoksm.pinfinder.DisplayPinCodeResultActivity,com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper) -> a
-    android.database.Cursor access$302(com.ashoksm.pinfinder.DisplayPinCodeResultActivity,android.database.Cursor) -> a
-    java.lang.String access$400(com.ashoksm.pinfinder.DisplayPinCodeResultActivity) -> b
-    java.lang.String access$500(com.ashoksm.pinfinder.DisplayPinCodeResultActivity) -> c
-    java.lang.String access$600(com.ashoksm.pinfinder.DisplayPinCodeResultActivity) -> d
-    com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper access$200(com.ashoksm.pinfinder.DisplayPinCodeResultActivity) -> e
-    android.database.Cursor access$300(com.ashoksm.pinfinder.DisplayPinCodeResultActivity) -> f
-com.ashoksm.pinfinder.DisplayPinCodeResultActivity$1 -> com.ashoksm.pinfinder.k:
+    android.support.v7.widget.Toolbar access$000(com.ashoksm.pinfinder.DisplayPinCodeResultActivity) -> a
+    com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper access$102(com.ashoksm.pinfinder.DisplayPinCodeResultActivity,com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper) -> a
+    android.database.Cursor access$202(com.ashoksm.pinfinder.DisplayPinCodeResultActivity,android.database.Cursor) -> a
+    java.lang.String access$300(com.ashoksm.pinfinder.DisplayPinCodeResultActivity) -> b
+    java.lang.String access$400(com.ashoksm.pinfinder.DisplayPinCodeResultActivity) -> c
+    java.lang.String access$500(com.ashoksm.pinfinder.DisplayPinCodeResultActivity) -> d
+    com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper access$100(com.ashoksm.pinfinder.DisplayPinCodeResultActivity) -> e
+    android.database.Cursor access$200(com.ashoksm.pinfinder.DisplayPinCodeResultActivity) -> f
+com.ashoksm.pinfinder.DisplayPinCodeResultActivity$1 -> com.ashoksm.pinfinder.i:
     com.ashoksm.pinfinder.DisplayPinCodeResultActivity this$0 -> a
-    void onScrollStateChanged(android.support.v7.widget.RecyclerView,int) -> a
-    void onScrolled(android.support.v7.widget.RecyclerView,int,int) -> a
-com.ashoksm.pinfinder.DisplayPinCodeResultActivity$1$1 -> com.ashoksm.pinfinder.l:
-    com.ashoksm.pinfinder.DisplayPinCodeResultActivity$1 this$1 -> a
-    void run() -> run
-com.ashoksm.pinfinder.DisplayPinCodeResultActivity$1$2 -> com.ashoksm.pinfinder.m:
-    com.ashoksm.pinfinder.DisplayPinCodeResultActivity$1 this$1 -> a
-    void run() -> run
-com.ashoksm.pinfinder.DisplayPinCodeResultActivity$2 -> com.ashoksm.pinfinder.n:
+    void onMoved(int) -> a
+com.ashoksm.pinfinder.DisplayPinCodeResultActivity$2 -> com.ashoksm.pinfinder.j:
     android.widget.LinearLayout val$adParent -> a
     com.ashoksm.pinfinder.DisplayPinCodeResultActivity this$0 -> b
     void onAdLoaded() -> a
     void onAdFailedToLoad(int) -> a
-com.ashoksm.pinfinder.DisplayPinCodeResultActivity$3 -> com.ashoksm.pinfinder.o:
-    android.widget.LinearLayout linlaHeaderProgress -> a
+com.ashoksm.pinfinder.DisplayPinCodeResultActivity$3 -> com.ashoksm.pinfinder.k:
+    android.widget.LinearLayout progressLayout -> a
     com.ashoksm.pinfinder.adapter.PinCodeRecyclerViewAdapter adapter -> b
     android.support.v7.widget.RecyclerView val$mRecyclerView -> c
     com.ashoksm.pinfinder.DisplayPinCodeResultActivity this$0 -> d
@@ -11079,36 +11152,26 @@ com.ashoksm.pinfinder.DisplayRTOResultActivity -> com.ashoksm.pinfinder.DisplayR
     android.database.Cursor c -> b
     java.lang.String stateName -> c
     java.lang.String cityName -> d
-    boolean scrollDown -> e
     void onCreate(android.os.Bundle) -> onCreate
     void onBackPressed() -> onBackPressed
     void onDestroy() -> onDestroy
-    boolean access$000() -> e
-    boolean access$002(boolean) -> a
-    com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper access$102(com.ashoksm.pinfinder.DisplayRTOResultActivity,com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper) -> a
-    android.database.Cursor access$202(com.ashoksm.pinfinder.DisplayRTOResultActivity,android.database.Cursor) -> a
-    java.lang.String access$300(com.ashoksm.pinfinder.DisplayRTOResultActivity) -> a
-    java.lang.String access$400(com.ashoksm.pinfinder.DisplayRTOResultActivity) -> b
-    com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper access$100(com.ashoksm.pinfinder.DisplayRTOResultActivity) -> c
-    android.database.Cursor access$200(com.ashoksm.pinfinder.DisplayRTOResultActivity) -> d
-com.ashoksm.pinfinder.DisplayRTOResultActivity$1 -> com.ashoksm.pinfinder.p:
+    com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper access$002(com.ashoksm.pinfinder.DisplayRTOResultActivity,com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper) -> a
+    android.database.Cursor access$102(com.ashoksm.pinfinder.DisplayRTOResultActivity,android.database.Cursor) -> a
+    java.lang.String access$200(com.ashoksm.pinfinder.DisplayRTOResultActivity) -> a
+    java.lang.String access$300(com.ashoksm.pinfinder.DisplayRTOResultActivity) -> b
+    com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper access$000(com.ashoksm.pinfinder.DisplayRTOResultActivity) -> c
+    android.database.Cursor access$100(com.ashoksm.pinfinder.DisplayRTOResultActivity) -> d
+com.ashoksm.pinfinder.DisplayRTOResultActivity$1 -> com.ashoksm.pinfinder.l:
     android.support.v7.widget.Toolbar val$toolbar -> a
     com.ashoksm.pinfinder.DisplayRTOResultActivity this$0 -> b
-    void onScrollStateChanged(android.support.v7.widget.RecyclerView,int) -> a
-    void onScrolled(android.support.v7.widget.RecyclerView,int,int) -> a
-com.ashoksm.pinfinder.DisplayRTOResultActivity$1$1 -> com.ashoksm.pinfinder.q:
-    com.ashoksm.pinfinder.DisplayRTOResultActivity$1 this$1 -> a
-    void run() -> run
-com.ashoksm.pinfinder.DisplayRTOResultActivity$1$2 -> com.ashoksm.pinfinder.r:
-    com.ashoksm.pinfinder.DisplayRTOResultActivity$1 this$1 -> a
-    void run() -> run
-com.ashoksm.pinfinder.DisplayRTOResultActivity$2 -> com.ashoksm.pinfinder.s:
+    void onMoved(int) -> a
+com.ashoksm.pinfinder.DisplayRTOResultActivity$2 -> com.ashoksm.pinfinder.m:
     android.widget.LinearLayout val$adParent -> a
     com.ashoksm.pinfinder.DisplayRTOResultActivity this$0 -> b
     void onAdLoaded() -> a
     void onAdFailedToLoad(int) -> a
-com.ashoksm.pinfinder.DisplayRTOResultActivity$3 -> com.ashoksm.pinfinder.t:
-    android.widget.LinearLayout linlaHeaderProgress -> a
+com.ashoksm.pinfinder.DisplayRTOResultActivity$3 -> com.ashoksm.pinfinder.n:
+    android.widget.LinearLayout progressLayout -> a
     com.ashoksm.pinfinder.adapter.RTORecyclerViewAdapter adapter -> b
     android.support.v7.widget.RecyclerView val$mRecyclerView -> c
     com.ashoksm.pinfinder.DisplayRTOResultActivity this$0 -> d
@@ -11122,36 +11185,26 @@ com.ashoksm.pinfinder.DisplaySTDResultActivity -> com.ashoksm.pinfinder.DisplayS
     android.database.Cursor c -> b
     java.lang.String stateName -> c
     java.lang.String cityName -> d
-    boolean scrollDown -> e
     void onCreate(android.os.Bundle) -> onCreate
     void onBackPressed() -> onBackPressed
     void onDestroy() -> onDestroy
-    boolean access$000() -> e
-    boolean access$002(boolean) -> a
-    com.ashoksm.pinfinder.sqlite.STDSQLiteHelper access$102(com.ashoksm.pinfinder.DisplaySTDResultActivity,com.ashoksm.pinfinder.sqlite.STDSQLiteHelper) -> a
-    android.database.Cursor access$202(com.ashoksm.pinfinder.DisplaySTDResultActivity,android.database.Cursor) -> a
-    java.lang.String access$300(com.ashoksm.pinfinder.DisplaySTDResultActivity) -> a
-    java.lang.String access$400(com.ashoksm.pinfinder.DisplaySTDResultActivity) -> b
-    com.ashoksm.pinfinder.sqlite.STDSQLiteHelper access$100(com.ashoksm.pinfinder.DisplaySTDResultActivity) -> c
-    android.database.Cursor access$200(com.ashoksm.pinfinder.DisplaySTDResultActivity) -> d
-com.ashoksm.pinfinder.DisplaySTDResultActivity$1 -> com.ashoksm.pinfinder.u:
+    com.ashoksm.pinfinder.sqlite.STDSQLiteHelper access$002(com.ashoksm.pinfinder.DisplaySTDResultActivity,com.ashoksm.pinfinder.sqlite.STDSQLiteHelper) -> a
+    android.database.Cursor access$102(com.ashoksm.pinfinder.DisplaySTDResultActivity,android.database.Cursor) -> a
+    java.lang.String access$200(com.ashoksm.pinfinder.DisplaySTDResultActivity) -> a
+    java.lang.String access$300(com.ashoksm.pinfinder.DisplaySTDResultActivity) -> b
+    com.ashoksm.pinfinder.sqlite.STDSQLiteHelper access$000(com.ashoksm.pinfinder.DisplaySTDResultActivity) -> c
+    android.database.Cursor access$100(com.ashoksm.pinfinder.DisplaySTDResultActivity) -> d
+com.ashoksm.pinfinder.DisplaySTDResultActivity$1 -> com.ashoksm.pinfinder.o:
     android.support.v7.widget.Toolbar val$toolbar -> a
     com.ashoksm.pinfinder.DisplaySTDResultActivity this$0 -> b
-    void onScrollStateChanged(android.support.v7.widget.RecyclerView,int) -> a
-    void onScrolled(android.support.v7.widget.RecyclerView,int,int) -> a
-com.ashoksm.pinfinder.DisplaySTDResultActivity$1$1 -> com.ashoksm.pinfinder.v:
-    com.ashoksm.pinfinder.DisplaySTDResultActivity$1 this$1 -> a
-    void run() -> run
-com.ashoksm.pinfinder.DisplaySTDResultActivity$1$2 -> com.ashoksm.pinfinder.w:
-    com.ashoksm.pinfinder.DisplaySTDResultActivity$1 this$1 -> a
-    void run() -> run
-com.ashoksm.pinfinder.DisplaySTDResultActivity$2 -> com.ashoksm.pinfinder.x:
+    void onMoved(int) -> a
+com.ashoksm.pinfinder.DisplaySTDResultActivity$2 -> com.ashoksm.pinfinder.p:
     android.widget.LinearLayout val$adParent -> a
     com.ashoksm.pinfinder.DisplaySTDResultActivity this$0 -> b
     void onAdLoaded() -> a
     void onAdFailedToLoad(int) -> a
-com.ashoksm.pinfinder.DisplaySTDResultActivity$3 -> com.ashoksm.pinfinder.y:
-    android.widget.LinearLayout linlaHeaderProgress -> a
+com.ashoksm.pinfinder.DisplaySTDResultActivity$3 -> com.ashoksm.pinfinder.q:
+    android.widget.LinearLayout progressLayout -> a
     com.ashoksm.pinfinder.adapter.STDRecyclerViewAdapter adapter -> b
     android.support.v7.widget.RecyclerView val$mRecyclerView -> c
     com.ashoksm.pinfinder.DisplaySTDResultActivity this$0 -> d
@@ -11160,17 +11213,23 @@ com.ashoksm.pinfinder.DisplaySTDResultActivity$3 -> com.ashoksm.pinfinder.y:
     void onPostExecute(java.lang.Void) -> a
     void onPostExecute(java.lang.Object) -> onPostExecute
     java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.ashoksm.pinfinder.HidingScrollListener -> com.ashoksm.pinfinder.r:
+    int mToolbarOffset -> a
+    int mToolbarHeight -> b
+    void onScrolled(android.support.v7.widget.RecyclerView,int,int) -> a
+    void clipToolbarOffset() -> a
+    void onMoved(int) -> a
 com.ashoksm.pinfinder.MainActivity -> com.ashoksm.pinfinder.MainActivity:
     com.google.android.gms.ads.InterstitialAd interstitial -> a
     void onCreate(android.os.Bundle) -> onCreate
     void displayInterstitial() -> e
     void onBackPressed() -> onBackPressed
-com.ashoksm.pinfinder.MainActivity$1 -> com.ashoksm.pinfinder.z:
+com.ashoksm.pinfinder.MainActivity$1 -> com.ashoksm.pinfinder.s:
     android.widget.LinearLayout val$adParent -> a
     com.ashoksm.pinfinder.MainActivity this$0 -> b
     void onAdLoaded() -> a
     void onAdFailedToLoad(int) -> a
-com.ashoksm.pinfinder.PinCodeView -> com.ashoksm.pinfinder.aa:
+com.ashoksm.pinfinder.PinCodeView -> com.ashoksm.pinfinder.t:
     android.widget.AutoCompleteTextView states -> a
     android.widget.AutoCompleteTextView districts -> b
     android.widget.AutoCompleteTextView text -> c
@@ -11181,52 +11240,54 @@ com.ashoksm.pinfinder.PinCodeView -> com.ashoksm.pinfinder.aa:
     android.widget.AutoCompleteTextView access$000() -> a
     android.widget.AutoCompleteTextView access$100() -> b
     void access$200(android.app.Activity,android.view.View) -> a
-com.ashoksm.pinfinder.PinCodeView$1 -> com.ashoksm.pinfinder.ab:
+com.ashoksm.pinfinder.PinCodeView$1 -> com.ashoksm.pinfinder.u:
     android.content.res.Resources val$resources -> a
     android.app.Activity val$context -> b
     void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
-com.ashoksm.pinfinder.PinCodeView$2 -> com.ashoksm.pinfinder.ac:
+com.ashoksm.pinfinder.PinCodeView$2 -> com.ashoksm.pinfinder.v:
     android.app.Activity val$context -> a
     boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
-com.ashoksm.pinfinder.PinCodeView$3 -> com.ashoksm.pinfinder.ad:
+com.ashoksm.pinfinder.PinCodeView$3 -> com.ashoksm.pinfinder.w:
     android.app.Activity val$context -> a
     void onClick(android.view.View) -> onClick
-com.ashoksm.pinfinder.RTOView -> com.ashoksm.pinfinder.ae:
+com.ashoksm.pinfinder.RTOView -> com.ashoksm.pinfinder.x:
     android.widget.AutoCompleteTextView stateNameTextView -> a
     android.widget.AutoCompleteTextView cityName -> b
     void execute(android.view.View,android.app.Activity) -> a
     void performSearch(android.app.Activity,android.view.View) -> b
     void access$000(android.app.Activity,android.view.View) -> a
-com.ashoksm.pinfinder.RTOView$1 -> com.ashoksm.pinfinder.af:
+com.ashoksm.pinfinder.RTOView$1 -> com.ashoksm.pinfinder.y:
     android.app.Activity val$context -> a
     void onClick(android.view.View) -> onClick
-com.ashoksm.pinfinder.RTOView$2 -> com.ashoksm.pinfinder.ag:
+com.ashoksm.pinfinder.RTOView$2 -> com.ashoksm.pinfinder.z:
     android.app.Activity val$context -> a
     boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
-com.ashoksm.pinfinder.STDView -> com.ashoksm.pinfinder.ah:
+com.ashoksm.pinfinder.STDView -> com.ashoksm.pinfinder.aa:
     android.widget.AutoCompleteTextView stateNameTextView -> a
     android.widget.AutoCompleteTextView cityName -> b
     void execute(android.view.View,android.app.Activity) -> a
     void performSearch(android.app.Activity,android.view.View) -> b
     void access$000(android.app.Activity,android.view.View) -> a
-com.ashoksm.pinfinder.STDView$1 -> com.ashoksm.pinfinder.ai:
+com.ashoksm.pinfinder.STDView$1 -> com.ashoksm.pinfinder.ab:
     android.app.Activity val$context -> a
     void onClick(android.view.View) -> onClick
-com.ashoksm.pinfinder.STDView$2 -> com.ashoksm.pinfinder.aj:
+com.ashoksm.pinfinder.STDView$2 -> com.ashoksm.pinfinder.ac:
     android.app.Activity val$context -> a
     boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
-com.ashoksm.pinfinder.SlidingTabsBasicFragment -> com.ashoksm.pinfinder.ak:
+com.ashoksm.pinfinder.SlidingTabsBasicFragment -> com.ashoksm.pinfinder.ad:
     com.ashoksm.pinfinder.common.view.SlidingTabLayout mSlidingTabLayout -> a
     android.support.v4.view.ViewPager mViewPager -> b
     android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> onCreateView
     void onViewCreated(android.view.View,android.os.Bundle) -> onViewCreated
-com.ashoksm.pinfinder.SlidingTabsBasicFragment$SamplePagerAdapter -> com.ashoksm.pinfinder.al:
+com.ashoksm.pinfinder.SlidingTabsBasicFragment$SamplePagerAdapter -> com.ashoksm.pinfinder.ae:
     com.ashoksm.pinfinder.SlidingTabsBasicFragment this$0 -> a
     int getCount() -> getCount
     boolean isViewFromObject(android.view.View,java.lang.Object) -> isViewFromObject
     java.lang.CharSequence getPageTitle(int) -> getPageTitle
     java.lang.Object instantiateItem(android.view.ViewGroup,int) -> instantiateItem
     void destroyItem(android.view.ViewGroup,int,java.lang.Object) -> destroyItem
+com.ashoksm.pinfinder.Utils -> com.ashoksm.pinfinder.af:
+    int getToolbarHeight(android.content.Context) -> a
 com.ashoksm.pinfinder.adapter.CursorRecyclerViewAdapter -> com.ashoksm.pinfinder.a.a:
     android.database.Cursor mCursor -> a
     boolean mDataValid -> b
@@ -11261,16 +11322,16 @@ com.ashoksm.pinfinder.adapter.IFSCRecyclerViewAdapter$1$1 -> com.ashoksm.pinfind
     com.ashoksm.pinfinder.adapter.IFSCRecyclerViewAdapter$1 this$1 -> b
     boolean onMenuItemClick(android.view.MenuItem) -> a
 com.ashoksm.pinfinder.adapter.IFSCRecyclerViewAdapter$ViewHolder -> com.ashoksm.pinfinder.a.g:
-    android.widget.TextView branchName -> i
-    android.widget.ImageButton options -> j
-    android.widget.TextView city -> k
-    android.widget.TextView district -> l
-    android.widget.TextView state -> m
-    android.widget.TextView address -> n
-    android.widget.TextView contact -> o
-    android.widget.TextView ifsc -> p
-    android.widget.TextView micr -> q
-    android.view.View v -> r
+    android.widget.TextView branchName -> j
+    android.widget.ImageButton options -> k
+    android.widget.TextView city -> l
+    android.widget.TextView district -> m
+    android.widget.TextView state -> n
+    android.widget.TextView address -> o
+    android.widget.TextView contact -> p
+    android.widget.TextView ifsc -> q
+    android.widget.TextView micr -> r
+    android.view.View v -> s
 com.ashoksm.pinfinder.adapter.PinCodeRecyclerViewAdapter -> com.ashoksm.pinfinder.a.h:
     android.content.Context context -> a
     int lastPosition -> b
@@ -11288,20 +11349,20 @@ com.ashoksm.pinfinder.adapter.PinCodeRecyclerViewAdapter$1$1 -> com.ashoksm.pinf
     com.ashoksm.pinfinder.adapter.PinCodeRecyclerViewAdapter$1 this$1 -> b
     boolean onMenuItemClick(android.view.MenuItem) -> a
 com.ashoksm.pinfinder.adapter.PinCodeRecyclerViewAdapter$ViewHolder -> com.ashoksm.pinfinder.a.k:
-    android.widget.TextView officeName -> i
-    android.widget.ImageButton options -> j
-    android.widget.TextView pincode -> k
-    android.widget.TextView stauts -> l
-    android.widget.TextView suboffice -> m
-    android.widget.LinearLayout subofficeRow -> n
-    android.widget.TextView headoffice -> o
-    android.widget.LinearLayout headofficeRow -> p
-    android.widget.TextView location -> q
-    android.widget.LinearLayout locationRow -> r
-    android.widget.TextView telephoneNumber -> s
-    android.widget.LinearLayout telephoneRow -> t
-    android.widget.TextView state -> u
-    android.view.View v -> v
+    android.widget.TextView officeName -> j
+    android.widget.ImageButton options -> k
+    android.widget.TextView pincode -> l
+    android.widget.TextView stauts -> m
+    android.widget.TextView suboffice -> n
+    android.widget.LinearLayout subofficeRow -> o
+    android.widget.TextView headoffice -> p
+    android.widget.LinearLayout headofficeRow -> q
+    android.widget.TextView location -> r
+    android.widget.LinearLayout locationRow -> s
+    android.widget.TextView telephoneNumber -> t
+    android.widget.LinearLayout telephoneRow -> u
+    android.widget.TextView state -> v
+    android.view.View v -> w
 com.ashoksm.pinfinder.adapter.RTORecyclerViewAdapter -> com.ashoksm.pinfinder.a.l:
     android.content.Context context -> a
     int lastPosition -> b
@@ -11319,11 +11380,11 @@ com.ashoksm.pinfinder.adapter.RTORecyclerViewAdapter$1$1 -> com.ashoksm.pinfinde
     com.ashoksm.pinfinder.adapter.RTORecyclerViewAdapter$1 this$1 -> b
     boolean onMenuItemClick(android.view.MenuItem) -> a
 com.ashoksm.pinfinder.adapter.RTORecyclerViewAdapter$ViewHolder -> com.ashoksm.pinfinder.a.o:
-    android.widget.TextView state -> i
-    android.widget.ImageButton options -> j
-    android.widget.TextView city -> k
-    android.widget.TextView rtoCode -> l
-    android.view.View v -> m
+    android.widget.TextView state -> j
+    android.widget.ImageButton options -> k
+    android.widget.TextView city -> l
+    android.widget.TextView rtoCode -> m
+    android.view.View v -> n
 com.ashoksm.pinfinder.adapter.STDRecyclerViewAdapter -> com.ashoksm.pinfinder.a.p:
     android.content.Context context -> a
     int lastPosition -> b
@@ -11341,11 +11402,11 @@ com.ashoksm.pinfinder.adapter.STDRecyclerViewAdapter$1$1 -> com.ashoksm.pinfinde
     com.ashoksm.pinfinder.adapter.STDRecyclerViewAdapter$1 this$1 -> b
     boolean onMenuItemClick(android.view.MenuItem) -> a
 com.ashoksm.pinfinder.adapter.STDRecyclerViewAdapter$ViewHolder -> com.ashoksm.pinfinder.a.s:
-    android.widget.TextView state -> i
-    android.widget.ImageButton options -> j
-    android.widget.TextView city -> k
-    android.widget.TextView stdCode -> l
-    android.view.View v -> m
+    android.widget.TextView state -> j
+    android.widget.ImageButton options -> k
+    android.widget.TextView city -> l
+    android.widget.TextView stdCode -> m
+    android.view.View v -> n
 com.ashoksm.pinfinder.common.activities.ActivityBase -> com.ashoksm.pinfinder.common.activities.ActivityBase:
     void onCreate(android.os.Bundle) -> onCreate
     void onStart() -> onStart
