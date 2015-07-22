@@ -21,7 +21,7 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
     private static final String CLASS_NAME = BankBranchSQLiteHelper.class.getName();
 
     // Database Version
-    private static final int DATABASE_VERSION = 5;
+    private static final int DATABASE_VERSION = 6;
 
     // Database Name
     private static final String DATABASE_NAME = "ashoksm.bankbranch";
@@ -100,13 +100,11 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
 
     private void insertBankBranches(SQLiteDatabase db) {
         String insertStmt;
-        String bankName = null;
         try {
             db.beginTransaction();
             double i = 1.00d;
             String[] fileNames = context.getAssets().list("sql/ifsc");
             for (String name : fileNames) {
-                bankName = name;
                 if (name.endsWith(".sql") && !name.startsWith("banklocation")) {
                     // Open the resource
                     InputStream insertsStream = context.getAssets().open("sql/ifsc/" + name);
@@ -130,7 +128,6 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
             }
             db.setTransactionSuccessful();
         } catch (Exception ioEx) {
-            Log.e("BANK_NAME", bankName);
             Log.e(CLASS_NAME, ioEx.getMessage());
         } finally {
             db.endTransaction();
