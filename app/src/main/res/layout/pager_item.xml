@@ -27,7 +27,7 @@
                 android:hint="@string/state"
                 android:imeOptions="actionNext"
                 android:singleLine="true"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/accent"
                 android:textCursorDrawable="@null" />
 
             <AutoCompleteTextView
@@ -38,10 +38,10 @@
                 android:hint="@string/districts"
                 android:imeOptions="actionNext"
                 android:singleLine="true"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/accent"
                 android:textCursorDrawable="@null" />
 
-            <AutoCompleteTextView
+            <EditText
                 android:id="@+id/text1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -49,7 +49,7 @@
                 android:hint="@string/text1"
                 android:imeOptions="actionSearch"
                 android:singleLine="true"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/accent"
                 android:textCursorDrawable="@null" />
 
             <Button
@@ -60,7 +60,7 @@
                 android:background="@drawable/button_selector"
                 android:elevation="5dp"
                 android:text="@string/button_search"
-                android:textColor="#FFFFFF" />
+                android:textColor="@color/icons" />
         </LinearLayout>
     </ScrollView>
 
@@ -92,7 +92,7 @@
                 android:hint="@string/state"
                 android:imeOptions="actionNext"
                 android:singleLine="true"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/accent"
                 android:textCursorDrawable="@null" />
 
             <AutoCompleteTextView
@@ -103,10 +103,10 @@
                 android:hint="@string/districts"
                 android:imeOptions="actionNext"
                 android:singleLine="true"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/accent"
                 android:textCursorDrawable="@null" />
 
-            <AutoCompleteTextView
+            <EditText
                 android:id="@+id/branchName"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -114,7 +114,7 @@
                 android:hint="@string/branchIFSCMICR"
                 android:imeOptions="actionSearch"
                 android:singleLine="true"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/accent"
                 android:textCursorDrawable="@null" />
 
             <Button
@@ -125,7 +125,7 @@
                 android:background="@drawable/button_selector"
                 android:elevation="5dp"
                 android:text="@string/button_search"
-                android:textColor="#FFFFFF" />
+                android:textColor="@color/icons" />
         </LinearLayout>
     </ScrollView>
 
@@ -151,10 +151,10 @@
                 android:hint="@string/state"
                 android:imeOptions="actionNext"
                 android:singleLine="true"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/accent"
                 android:textCursorDrawable="@null" />
 
-            <AutoCompleteTextView
+            <EditText
                 android:id="@+id/cityName"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -163,7 +163,7 @@
                 android:imeOptions="actionSearch"
                 android:inputType="text"
                 android:singleLine="true"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/accent"
                 android:textCursorDrawable="@null" />
 
             <Button
@@ -174,7 +174,7 @@
                 android:background="@drawable/button_selector"
                 android:elevation="5dp"
                 android:text="@string/button_search"
-                android:textColor="#FFFFFF" />
+                android:textColor="@color/icons" />
         </LinearLayout>
     </ScrollView>
 
@@ -200,10 +200,10 @@
                 android:hint="@string/state"
                 android:imeOptions="actionNext"
                 android:singleLine="true"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/accent"
                 android:textCursorDrawable="@null" />
 
-            <AutoCompleteTextView
+            <EditText
                 android:id="@+id/rtoCityName"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -211,7 +211,7 @@
                 android:hint="@string/rtoCityName"
                 android:imeOptions="actionSearch"
                 android:singleLine="true"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/accent"
                 android:textCursorDrawable="@null" />
 
             <Button
@@ -222,7 +222,7 @@
                 android:background="@drawable/button_selector"
                 android:elevation="5dp"
                 android:text="@string/button_search"
-                android:textColor="#FFFFFF" />
+                android:textColor="@color/icons" />
         </LinearLayout>
     </ScrollView>
 

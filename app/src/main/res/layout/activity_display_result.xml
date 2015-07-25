@@ -28,7 +28,7 @@
                 android:layout_marginTop="10dp"
                 android:gravity="center"
                 android:text="@string/loading"
-                android:textColor="@color/accentColor"
+                android:textColor="@color/secondary_text"
                 android:textIsSelectable="false"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -48,7 +48,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/noMatchingTxt"
-                android:textColor="#808080"
+                android:textColor="@color/secondary_text"
                 android:textIsSelectable="false"
                 android:textSize="20sp"
                 android:textStyle="bold" />

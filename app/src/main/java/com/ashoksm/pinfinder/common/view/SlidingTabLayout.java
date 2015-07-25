@@ -172,7 +172,7 @@ public class SlidingTabLayout extends HorizontalScrollView {
     protected TextView createDefaultTabView(Context context) {
         TextView textView = new TextView(context);
         textView.setGravity(Gravity.CENTER);
-        textView.setTextColor(Color.parseColor("#99ffffff"));
+        textView.setTextColor(Color.parseColor("#FFCDD2"));
         textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, TAB_VIEW_TEXT_SIZE_SP);
         textView.setTypeface(Typeface.DEFAULT_BOLD);
 
@@ -276,7 +276,7 @@ public class SlidingTabLayout extends HorizontalScrollView {
             for (int i = 0; i < tabStripChildCount; i++) {
                 if (i != position) {
                     View otherTitle = mTabStrip.getChildAt(i);
-                    ((TextView) otherTitle).setTextColor(Color.parseColor("#99ffffff"));
+                    ((TextView) otherTitle).setTextColor(Color.parseColor("#FFCDD2"));
                 }
             }
             int extraOffset = (selectedTitle != null)

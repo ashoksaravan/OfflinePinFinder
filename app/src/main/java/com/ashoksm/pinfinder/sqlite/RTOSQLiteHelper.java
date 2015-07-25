@@ -4,6 +4,8 @@ import android.app.ProgressDialog;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.graphics.AvoidXfermode;
+import android.graphics.Color;
 import android.util.Log;
 
 import com.ashoksm.pinfinder.DisplayRTOResultActivity;
@@ -56,7 +58,7 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
         context.runOnUiThread(new Runnable() {
             public void run() {
                 mProgressDialog = new ProgressDialog(context);
-                mProgressDialog.setMessage("Initializing Database..");
+                mProgressDialog.setMessage("Initializing Database...");
                 mProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
                 mProgressDialog.setCancelable(false);
                 mProgressDialog.show();

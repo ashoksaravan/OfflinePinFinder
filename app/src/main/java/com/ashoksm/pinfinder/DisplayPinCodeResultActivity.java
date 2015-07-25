@@ -57,7 +57,7 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
 
         // add check to avoid toolbar animation for the devices before JELLY_BEAN
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.JELLY_BEAN) {
-            mRecyclerView.setOnScrollListener(new HidingScrollListener(this) {
+            mRecyclerView.addOnScrollListener(new HidingScrollListener(this) {
                 @TargetApi(Build.VERSION_CODES.HONEYCOMB)
                 @Override
                 public void onMoved(int distance) {

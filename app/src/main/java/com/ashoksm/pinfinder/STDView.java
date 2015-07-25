@@ -18,7 +18,7 @@ public class STDView {
 
     private static AutoCompleteTextView stateNameTextView;
 
-    private static AutoCompleteTextView cityName;
+    private static EditText cityName;
 
     public final static String EXTRA_STATE = "com.ashoksm.offlinepinfinder.STATE";
 
@@ -30,7 +30,7 @@ public class STDView {
                 R.layout.spinner_dropdown_item);
         // Apply the adapter to the spinner
         stateNameTextView.setAdapter(stateAdapter);
-        cityName = (AutoCompleteTextView) rootView.findViewById(R.id.cityName);
+        cityName = (EditText) rootView.findViewById(R.id.cityName);
         Button btnSubmit = (Button) rootView.findViewById(R.id.stdSearch);
         btnSubmit.setOnClickListener(new OnClickListener() {
             @Override

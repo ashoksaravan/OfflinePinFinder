@@ -15708,12 +15708,12 @@ com.ashoksm.pinfinder.BankView -> com.ashoksm.pinfinder.a:
     android.widget.Spinner bankNameSpinner -> a
     android.widget.AutoCompleteTextView stateNameTextView -> b
     android.widget.AutoCompleteTextView districtNameTextView -> c
-    android.widget.AutoCompleteTextView branchName -> d
+    android.widget.EditText branchName -> d
     void execute(android.view.View,android.content.res.Resources,android.app.Activity) -> a
     void performSearch(android.app.Activity,android.view.View) -> b
     android.widget.AutoCompleteTextView access$000() -> a
     android.widget.AutoCompleteTextView access$100() -> b
-    android.widget.AutoCompleteTextView access$200() -> c
+    android.widget.EditText access$200() -> c
     android.widget.Spinner access$300() -> d
     void access$400(android.app.Activity,android.view.View) -> a
 com.ashoksm.pinfinder.BankView$1 -> com.ashoksm.pinfinder.b:
@@ -15890,7 +15890,7 @@ com.ashoksm.pinfinder.MainActivity$1 -> com.ashoksm.pinfinder.s:
 com.ashoksm.pinfinder.PinCodeView -> com.ashoksm.pinfinder.t:
     android.widget.AutoCompleteTextView states -> a
     android.widget.AutoCompleteTextView districts -> b
-    android.widget.AutoCompleteTextView text -> c
+    android.widget.EditText text -> c
     void execute(android.view.View,android.content.res.Resources,android.app.Activity) -> a
     void addStateChangeListener(android.view.View,android.content.res.Resources,android.app.Activity) -> b
     void addListenerOnButton(android.view.View,android.app.Activity) -> a
@@ -15910,7 +15910,7 @@ com.ashoksm.pinfinder.PinCodeView$3 -> com.ashoksm.pinfinder.w:
     void onClick(android.view.View) -> onClick
 com.ashoksm.pinfinder.RTOView -> com.ashoksm.pinfinder.x:
     android.widget.AutoCompleteTextView stateNameTextView -> a
-    android.widget.AutoCompleteTextView cityName -> b
+    android.widget.EditText cityName -> b
     void execute(android.view.View,android.app.Activity) -> a
     void performSearch(android.app.Activity,android.view.View) -> b
     void access$000(android.app.Activity,android.view.View) -> a
@@ -15922,7 +15922,7 @@ com.ashoksm.pinfinder.RTOView$2 -> com.ashoksm.pinfinder.z:
     boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
 com.ashoksm.pinfinder.STDView -> com.ashoksm.pinfinder.aa:
     android.widget.AutoCompleteTextView stateNameTextView -> a
-    android.widget.AutoCompleteTextView cityName -> b
+    android.widget.EditText cityName -> b
     void execute(android.view.View,android.app.Activity) -> a
     void performSearch(android.app.Activity,android.view.View) -> b
     void access$000(android.app.Activity,android.view.View) -> a
@@ -15933,8 +15933,6 @@ com.ashoksm.pinfinder.STDView$2 -> com.ashoksm.pinfinder.ac:
     android.app.Activity val$context -> a
     boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
 com.ashoksm.pinfinder.SlidingTabsBasicFragment -> com.ashoksm.pinfinder.ad:
-    com.ashoksm.pinfinder.common.view.SlidingTabLayout mSlidingTabLayout -> a
-    android.support.v4.view.ViewPager mViewPager -> b
     android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> onCreateView
     void onViewCreated(android.view.View,android.os.Bundle) -> onViewCreated
 com.ashoksm.pinfinder.SlidingTabsBasicFragment$SamplePagerAdapter -> com.ashoksm.pinfinder.ae:

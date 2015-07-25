@@ -29,24 +29,13 @@ import android.widget.ScrollView;
 import com.ashoksm.pinfinder.common.view.SlidingTabLayout;
 
 /**
- * A basic sample which shows how to use {@link com.example.android.common.view.SlidingTabLayout}
+ * A basic sample which shows how to use {@link SlidingTabLayout}
  * to display a custom {@link ViewPager} title strip which gives continuous feedback to the user
  * when scrolling.
  */
 public class SlidingTabsBasicFragment extends Fragment {
 
     static final String LOG_TAG = "STabsBasicFragment";
-
-    /**
-     * A custom {@link ViewPager} title strip which looks much like Tabs present in Android v4.0 and
-     * above, but is designed to give continuous feedback to the user when scrolling.
-     */
-    private SlidingTabLayout mSlidingTabLayout;
-
-    /**
-     * A {@link ViewPager} which will be used in conjunction with the {@link SlidingTabLayout} above.
-     */
-    private ViewPager mViewPager;
 
     /**
      * Inflates the {@link View} which will be displayed by this {@link Fragment}, from the app's
@@ -73,14 +62,21 @@ public class SlidingTabsBasicFragment extends Fragment {
     public void onViewCreated(View view, Bundle savedInstanceState) {
         // BEGIN_INCLUDE (setup_viewpager)
         // Get the ViewPager and set it's PagerAdapter so that it can display items
-        mViewPager = (ViewPager) view.findViewById(R.id.viewpager);
+        /*
+      A {@link ViewPager} which will be used in conjunction with the {@link SlidingTabLayout} above.
+     */
+        ViewPager mViewPager = (ViewPager) view.findViewById(R.id.viewpager);
         mViewPager.setAdapter(new SamplePagerAdapter());
         // END_INCLUDE (setup_viewpager)
 
         // BEGIN_INCLUDE (setup_slidingtablayout)
         // Give the SlidingTabLayout the ViewPager, this must be done AFTER the ViewPager has had
         // it's PagerAdapter set.
-        mSlidingTabLayout = (SlidingTabLayout) view.findViewById(R.id.sliding_tabs);
+        /*
+      A custom {@link ViewPager} title strip which looks much like Tabs present in Android v4.0 and
+      above, but is designed to give continuous feedback to the user when scrolling.
+     */
+        SlidingTabLayout mSlidingTabLayout = (SlidingTabLayout) view.findViewById(R.id.sliding_tabs);
         mSlidingTabLayout.setViewPager(mViewPager);
         // END_INCLUDE (setup_slidingtablayout)
     }
