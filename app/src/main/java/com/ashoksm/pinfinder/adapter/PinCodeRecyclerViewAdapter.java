@@ -180,7 +180,9 @@ public class PinCodeRecyclerViewAdapter extends CursorRecyclerViewAdapter<PinCod
         if (cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.LOCATION_NAME)) != null
                 && cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.LOCATION_NAME)).trim().length() > 0) {
             holder.locationRow.setVisibility(View.VISIBLE);
-            holder.location.setText(cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.LOCATION_NAME)));
+            String location = cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.LOCATION_NAME)) + " Taluk of " + cursor.getString(
+                    cursor.getColumnIndex(PinFinderSQLiteHelper.DISTRICT_NAME)) + " District";
+            holder.location.setText(location);
         } else {
             holder.location.setText("");
             holder.locationRow.setVisibility(View.GONE);

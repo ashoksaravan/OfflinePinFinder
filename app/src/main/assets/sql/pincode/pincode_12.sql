@@ -1648,7 +1648,6 @@ INSERT INTO post_office_t VALUES('Khabedogran', 143402, 1, 28, 6, 'Police Lines 
 INSERT INTO post_office_t VALUES('Khadoor Sahib', 143117, 1, 28, 3, '', 'Tarn Taran', 260, '01859-237229');
 INSERT INTO post_office_t VALUES('Khalra', 143305, 1, 28, 3, '', 'Tarn Taran', 260, '01851-277330');
 INSERT INTO post_office_t VALUES('Khalsa College', 143002, 1, 28, 3, '', 'Amritsar.', 261, '0183-2560512');
-INSERT INTO post_office_t VALUES('Khalsa College', 143002, 1, 28, 2, '', 'Amritsar.', 261, '0183-258906');
 INSERT INTO post_office_t VALUES('Khankot Garden Colony', 143501, 1, 28, 6, 'Verka', 'Amritsar.', 260, '');
 INSERT INTO post_office_t VALUES('Khanpur', 143203, 1, 28, 6, 'Butala', 'Amritsar.', 260, '');
 INSERT INTO post_office_t VALUES('Khaper Kheri', 143105, 1, 28, 6, 'Chheharta', 'Amritsar.', 260, '');

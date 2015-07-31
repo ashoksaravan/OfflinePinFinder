@@ -2915,7 +2915,6 @@ INSERT INTO post_office_t VALUES('Nabadiganta IT', 700091, 15, 36, 2, '', 'Beleg
 INSERT INTO post_office_t VALUES('Narkeldanga', 700011, 10, 36, 3, '', 'Beleghata', 6322, '033-23704529');
 INSERT INTO post_office_t VALUES('New Town Action Area III', 700160, 15, 36, 3, '', 'Beleghata', 6097, '');
 INSERT INTO post_office_t VALUES('New Town', 700156, 15, 36, 3, '', 'Beleghata', 6457, '033-25915187');
-INSERT INTO post_office_t VALUES('Nowbhanga', 700105, 15, 36, 1, 'Dhapa', 'Beleghata', 2490, '');
 INSERT INTO post_office_t VALUES('Nowbhanga', 700105, 15, 36, 2, '', 'Beleghata', 6097, '033-23356202');
 INSERT INTO post_office_t VALUES('Park Circus', 700017, 10, 36, 2, '', 'Beleghata', 6862, '033-22874864');
 INSERT INTO post_office_t VALUES('Parsibagan', 700009, 10, 36, 2, '', 'Beleghata', 6881, '033-23501551');

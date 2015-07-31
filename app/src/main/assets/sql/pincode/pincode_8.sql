@@ -3595,7 +3595,6 @@ INSERT INTO post_office_t VALUES('Manjamala', 695313, 12, 18, 6, 'Kudavur', 'Att
 INSERT INTO post_office_t VALUES('Mannanathala', 695015, 12, 18, 2, '', 'Thiruvananthapuram.', 9174, '0471-2540580');
 INSERT INTO post_office_t VALUES('Maruthikunnu', 695603, 12, 18, 6, 'Navaikulam', 'Attingal', 2063, '');
 INSERT INTO post_office_t VALUES('Melkadakkavur', 695306, 12, 18, 6, 'Kadakkavur', 'Attingal', 2063, '');
-INSERT INTO post_office_t VALUES('Melvettoor', 695312, 12, 18, 6, 'Melvettoor', 'Attingal', 2063, '');
 INSERT INTO post_office_t VALUES('Melvettoor', 695312, 12, 18, 3, '', 'Attingal', 9002, '0470-2602305');
 INSERT INTO post_office_t VALUES('Mg College', 695004, 12, 18, 1, 'Pattom Palace', 'Thiruvananthapuram.', 9002, '');
 INSERT INTO post_office_t VALUES('Mithirmala', 695610, 12, 18, 3, '', 'Attingal', 6416, '0472-2822030');

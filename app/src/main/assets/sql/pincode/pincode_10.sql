@@ -635,7 +635,6 @@ INSERT INTO post_office_t VALUES('Worli', 400018, 17, 21, 3, '', 'Mahim', 6029, 
 INSERT INTO post_office_t VALUES('Worli Sea Face', 400030, 17, 21, 2, '', 'Mahim', 6029, '022-24367499');
 INSERT INTO post_office_t VALUES('Mumbai.', 400001, 17, 21, 5, '', '', 6029, '022-22620693');
 INSERT INTO post_office_t VALUES('Adai', 410206, 25, 21, 4, '', 'Panvel', 6821, '');
-INSERT INTO post_office_t VALUES('Airoli', 400708, 31, 21, 1, 'Airoli', 'Panvel', 8962, '');
 INSERT INTO post_office_t VALUES('Airoli', 400708, 31, 21, 3, '', 'Panvel', 2588, '022-27693731');
 INSERT INTO post_office_t VALUES('Ajivali', 410221, 25, 21, 6, 'Ongc Complex,panvel', 'Panvel', 6821, '');
 INSERT INTO post_office_t VALUES('Ambivali', 410201, 25, 21, 6, 'Karjat (Raigarh(MH))', 'Panvel', 6821, '');
@@ -1273,7 +1272,6 @@ INSERT INTO post_office_t VALUES('Vashala', 421602, 31, 21, 6, 'Kasara (Thane)',
 INSERT INTO post_office_t VALUES('Vashind E.D.', 421601, 31, 21, 6, 'Shahapur (Thane)', 'Kalyan City', 8222, '');
 INSERT INTO post_office_t VALUES('Vehele', 421601, 31, 21, 6, 'Shahapur (Thane)', 'Kalyan City', 4209, '');
 INSERT INTO post_office_t VALUES('Vehloli', 421601, 31, 21, 6, 'Shahapur (Thane)', 'Kalyan City', 8222, '');
-INSERT INTO post_office_t VALUES('Vehloli', 421601, 31, 21, 6, 'Shahapur (Thane)', 'Kalyan City', 4209, '');
 INSERT INTO post_office_t VALUES('Vidyashram', 421305, 31, 21, 3, '', 'Thane', 1323, '02522-231850');
 INSERT INTO post_office_t VALUES('Vihigaon', 421602, 31, 21, 6, 'Kasara (Thane)', 'Kalyan City', 6097, '');
 INSERT INTO post_office_t VALUES('Vishnunagar', 421202, 31, 21, 3, '', 'Kalyan City', 4209, '0251-2482314');
@@ -7877,7 +7875,6 @@ INSERT INTO post_office_t VALUES('Darngawn ''W''', 796710, 5, 24, 6, 'Bunghmun',
 INSERT INTO post_office_t VALUES('Darzo', 796571, 5, 24, 6, 'Hnahthial', 'Aizawl', 3523, '');
 INSERT INTO post_office_t VALUES('Demagiri', 796751, 5, 24, 3, '', 'Aizawl', 5332, '03834-222031');
 INSERT INTO post_office_t VALUES('Diakkawn', 796081, 3, 24, 1, 'Kolasib', 'Aizawl', 6568, '');
-INSERT INTO post_office_t VALUES('Diakkawn', 796081, 3, 24, 6, 'Kolasib', 'Aizawl', 6568, '');
 INSERT INTO post_office_t VALUES('Diakkawn', 796082, 3, 24, 3, '', 'Aizawl', 4841, '');
 INSERT INTO post_office_t VALUES('Diblibagh', 796751, 5, 24, 6, 'Demagiri', 'Aizawl', 2357, '');
 INSERT INTO post_office_t VALUES('Diltlang', 796891, 4, 24, 6, 'Lawngtlai', 'Aizawl', 5246, '');

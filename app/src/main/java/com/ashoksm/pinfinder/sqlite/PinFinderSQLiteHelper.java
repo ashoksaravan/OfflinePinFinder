@@ -2,6 +2,7 @@ package com.ashoksm.pinfinder.sqlite;
 
 import android.app.ProgressDialog;
 import android.database.Cursor;
+import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
@@ -22,7 +23,7 @@ public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
     private static final String CLASS_NAME = PinFinderSQLiteHelper.class.getName();
 
     // Database Version
-    private static final int DATABASE_VERSION = 12;
+    private static final int DATABASE_VERSION = 13;
 
     // Database Name
     private static final String DATABASE_NAME = "ashoksm.pinfinder";
@@ -180,17 +181,17 @@ public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
                         }
                     }
                     insertReader.close();
+                    final Double percentage = (i / ((double) fileNames.length - 4.00d)) * 95.00d;
+                    context.runOnUiThread(new Runnable() {
+                        public void run() {
+                            mProgressDialog.setProgress(percentage.intValue() + 5);
+                        }
+                    });
+                    i++;
                 }
-                final Double percentage = (i / (double) fileNames.length) * 95.00d;
-                context.runOnUiThread(new Runnable() {
-                    public void run() {
-                        mProgressDialog.setProgress(percentage.intValue() + 5);
-                    }
-                });
-                i++;
             }
             db.setTransactionSuccessful();
-        } catch (IOException ioEx) {
+        } catch (Exception ioEx) {
             Log.e(CLASS_NAME, ioEx.getMessage());
         } finally {
             db.endTransaction();

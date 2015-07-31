@@ -2018,7 +2018,6 @@ INSERT INTO post_office_t VALUES('Lalupur', 205001, 49, 34, 7, '', 'Mainpuri', 5
 INSERT INTO post_office_t VALUES('Madanpur', 283151, 26, 34, 6, 'Sirsaganj', 'Firozabad', 8288, '');
 INSERT INTO post_office_t VALUES('Madhan', 205263, 49, 34, 6, 'Jeonti', 'Mainpuri', 5489, '');
 INSERT INTO post_office_t VALUES('Madhoganj', 283141, 26, 34, 1, 'Shikohabad RS', 'Firozabad', 8288, '');
-INSERT INTO post_office_t VALUES('Madhoganj', 283141, 26, 34, 6, 'Shikohabad RS', 'Firozabad', 8288, '');
 INSERT INTO post_office_t VALUES('Madhukarpur', 205304, 49, 34, 6, 'Kusmara', 'Mainpuri', 1339, '');
 INSERT INTO post_office_t VALUES('Madhupuri', 205301, 49, 34, 6, 'Bewar (Mainpuri)', 'Mainpuri', 1339, '');
 INSERT INTO post_office_t VALUES('Maholi Shamserganj', 205303, 49, 34, 6, 'Kishni', 'Mainpuri', 1326, '');
@@ -5519,7 +5518,6 @@ INSERT INTO post_office_t VALUES('Budhanpur', 246746, 15, 34, 6, 'Seohara', 'Dha
 INSERT INTO post_office_t VALUES('Chanda Nagli', 246726, 15, 34, 6, 'Haldaur', 'Bijnor', 1840, '');
 INSERT INTO post_office_t VALUES('Chandanpura', 246763, 15, 34, 6, 'Najibabad', 'Bijnor', 6179, '');
 INSERT INTO post_office_t VALUES('Chandok R.S.', 246721, 15, 34, 6, 'Mandawar (Bijnor)', 'Bijnor', 6179, '');
-INSERT INTO post_office_t VALUES('Chandpur', 246725, 15, 34, 3, '', 'Bijnor', 1840, '01345-220407');
 INSERT INTO post_office_t VALUES('Chandpur', 246725, 15, 34, 2, '', 'Bijnor', 1840, '01345-220418');
 INSERT INTO post_office_t VALUES('Chandpur Sugar Factory', 246729, 15, 34, 3, '', 'Bijnor', 1840, '01345-220376');
 INSERT INTO post_office_t VALUES('Chitawar', 246731, 15, 34, 6, 'Kiratpur', 'Bijnor', 6179, '');

@@ -3625,7 +3625,6 @@ INSERT INTO post_office_t VALUES('Nowbug', 192202, 1, 15, 6, 'Kokarnag', 'Anantn
 INSERT INTO post_office_t VALUES('Nowgam', 192212, 1, 15, 6, 'Verinaag', 'Anantnag', 6575, '');
 INSERT INTO post_office_t VALUES('Nowgam', 190015, 4, 15, 6, 'Natipora', 'Srinagar.', 6575, '');
 INSERT INTO post_office_t VALUES('Nowgam', 192201, 1, 15, 6, 'Achabal', 'Anantnag', 6097, '');
-INSERT INTO post_office_t VALUES('Nowgam', 190015, 4, 15, 2, '', 'Srinagar.', 6097, '');
 INSERT INTO post_office_t VALUES('Nowpora', 192231, 1, 15, 6, 'Kulgam', 'Anantnag', 6097, '');
 INSERT INTO post_office_t VALUES('Obindora', 192211, 13, 15, 6, 'Dooru', 'Anantnag', 6097, '');
 INSERT INTO post_office_t VALUES('Omanagri', 192201, 1, 15, 6, 'Achabal', 'Anantnag', 6097, '');
@@ -7309,7 +7308,6 @@ INSERT INTO post_office_t VALUES('Hennagara', 560105, 2, 17, 6, 'Jigani', 'Jayan
 INSERT INTO post_office_t VALUES('HSR Layout', 560102, 2, 17, 3, '', 'Basavanagudi', 757, '080-25720744');
 INSERT INTO post_office_t VALUES('Hulimangala', 560105, 2, 17, 6, 'Jigani', 'Jayanagar', 299, '');
 INSERT INTO post_office_t VALUES('Hulimavu', 560076, 2, 17, 6, 'Bannerghatta Road', 'Jayanagar', 757, '');
-INSERT INTO post_office_t VALUES('Hulimavu', 560076, 2, 17, 2, '', 'Jayanagar', 755, '');
 INSERT INTO post_office_t VALUES('Huskur', 560099, 3, 17, 6, 'Bommasandra Industrial Estate', 'Jayanagar', 757, '');
 INSERT INTO post_office_t VALUES('J P Nagar', 560078, 2, 17, 3, '', 'Jayanagar', 757, '080-26592476');
 INSERT INTO post_office_t VALUES('Jayanagar', 560041, 2, 17, 5, '', '', 757, '080-22440303');

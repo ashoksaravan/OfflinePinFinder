@@ -18,6 +18,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.Locale;
+
 public class PinCodeView {
 
     /**
@@ -63,153 +65,14 @@ public class PinCodeView {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long rowId) {
                 districts.setText("");
-                if (states.getText().toString().equals("Puducherry")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_puducherry);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Tamil Nadu")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_tn);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Kerala")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_kl);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Andaman and Nicobar Islands")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_an);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Arunachal Pradesh")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_ar);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Chandigarh")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_ch);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Dadra and Nagar Haveli")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_dn);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Daman and Diu")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_dd);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Delhi")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_dl);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Goa")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_go);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Nagaland")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_na);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Mizoram")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_mi);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Lakshadweep")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_la);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Manipur")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_ma);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Meghalaya")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_me);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Sikkim")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_si);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Tripura")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_tr);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Karnataka")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_ka);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Andhra Pradesh")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_ap);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Maharashtra")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_mh);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Jammu and Kashmir")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_jk);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("West Bengal")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_wb);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Haryana")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_hr);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Assam")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_as);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Himachal Pradesh")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_hp);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Chhattisgarh")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_ct);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Jharkhand")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_jh);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Punjab")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_pu);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Uttarakhand")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_uk);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Bihar")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_bh);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Gujarat")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_gu);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Madhya Pradesh")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_mp);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Odisha")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_od);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Rajasthan")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_ra);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Uttar Pradesh")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_up);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else if (states.getText().toString().equals("Telangana")) {
-                    String[] districtPuducherry = resources.getStringArray(R.array.district_te);
-                    districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item,
-                            districtPuducherry));
-                } else {
-                    // not supported
-                    Toast.makeText(context, "State not supported yet!!!", Toast.LENGTH_LONG).show();
+                String resourceName = "district_" +states.getText().toString().toLowerCase(Locale.getDefault()).replace('&', ' ')
+                        .replaceAll(" ", "");
+                int resourceId = resources.getIdentifier(resourceName, "array", context.getPackageName());
+                if (resourceId != 0) {
+                    ArrayAdapter<CharSequence> districtAdapter = ArrayAdapter.createFromResource(context, resourceId,
+                            R.layout.spinner_dropdown_item);
+                    // Apply the adapter to the spinner
+                    districts.setAdapter(districtAdapter);
                 }
             }
         });
