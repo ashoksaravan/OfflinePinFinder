@@ -22,7 +22,7 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
     private static final String CLASS_NAME = STDSQLiteHelper.class.getName();
 
     // Database Version
-    private static final int DATABASE_VERSION = 2;
+    private static final int DATABASE_VERSION = 3;
 
     // Database Name
     private static final String DATABASE_NAME = "ashoksm.std";
@@ -56,7 +56,7 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
         context.runOnUiThread(new Runnable() {
             public void run() {
                 mProgressDialog = new ProgressDialog(context);
-                mProgressDialog.setMessage("Initializing Database..");
+                mProgressDialog.setMessage("Initializing Database…");
                 mProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
                 mProgressDialog.setCancelable(false);
                 mProgressDialog.show();

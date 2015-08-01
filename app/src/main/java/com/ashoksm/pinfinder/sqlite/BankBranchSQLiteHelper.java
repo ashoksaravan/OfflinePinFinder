@@ -63,7 +63,7 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
         context.runOnUiThread(new Runnable() {
             public void run() {
                 mProgressDialog = new ProgressDialog(context);
-                mProgressDialog.setMessage("Initializing Database...");
+                mProgressDialog.setMessage("Initializing Database…");
                 mProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
                 mProgressDialog.setCancelable(false);
                 mProgressDialog.show();
