@@ -26,7 +26,6 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/state"
                 android:imeOptions="actionNext"
-                android:nextFocusDown="@+id/districts"
                 android:singleLine="true"
                 android:textColor="@color/accent"
                 android:textCursorDrawable="@drawable/cursor_drawable" />
@@ -38,7 +37,6 @@
                 android:layout_marginTop="20dp"
                 android:hint="@string/districts"
                 android:imeOptions="actionNext"
-                android:nextFocusDown="@+id/text1"
                 android:singleLine="true"
                 android:textColor="@color/accent"
                 android:textCursorDrawable="@drawable/cursor_drawable" />
@@ -93,7 +91,6 @@
                 android:layout_marginTop="20dp"
                 android:hint="@string/state"
                 android:imeOptions="actionNext"
-                android:nextFocusDown="@+id/districtName"
                 android:singleLine="true"
                 android:textColor="@color/accent"
                 android:textCursorDrawable="@drawable/cursor_drawable" />
@@ -105,7 +102,6 @@
                 android:layout_marginTop="20dp"
                 android:hint="@string/districts"
                 android:imeOptions="actionNext"
-                android:nextFocusDown="@+id/branchName"
                 android:singleLine="true"
                 android:textColor="@color/accent"
                 android:textCursorDrawable="@drawable/cursor_drawable" />
@@ -154,7 +150,6 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/state"
                 android:imeOptions="actionNext"
-                android:nextFocusDown="@+id/cityName"
                 android:singleLine="true"
                 android:textColor="@color/accent"
                 android:textCursorDrawable="@drawable/cursor_drawable" />
@@ -205,7 +200,6 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/state"
                 android:imeOptions="actionNext"
-                android:nextFocusDown="@+id/rtoCityName"
                 android:singleLine="true"
                 android:textColor="@color/accent"
                 android:textCursorDrawable="@drawable/cursor_drawable" />
