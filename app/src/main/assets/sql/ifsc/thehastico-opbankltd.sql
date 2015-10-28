@@ -1,0 +1,15 @@
+INSERT INTO bank_branch_t VALUES('Main Branch', 'Dondaicha', 'Hasti Sahakar Deep Station Area Dondaicha Dist Dhule Pin 425408', '2147483647', 'NA', 'HCBL0000101', 22541);
+INSERT INTO bank_branch_t VALUES('Shindkheda', 'Shindkheda', 'Near S.T. Stand, Shindkheda,   Dist   Dhule  Pin  425408', '2147483647', 'NA', 'HCBL0000102', 22541);
+INSERT INTO bank_branch_t VALUES('Songir', 'Songir', 'Bazar Peth, Songir,   Dist   Dhule   Pin  424309', '2147483647', '425804202', 'HCBL0000103', 22541);
+INSERT INTO bank_branch_t VALUES('Nandurbar', 'Nandurbar', 'Near Ahilyabai Vihir, Hat Darwaja, Tal. Dist   Nandurbar Pin 425412', '2147483647', 'NA', 'HCBL0000104', 22543);
+INSERT INTO bank_branch_t VALUES('Pimpalner', 'Pimpalner', 'Satana Road, Pimpalner, Tal.Sakri,  Dist   Dhule  Pin  424306', '2147483647', 'NA', 'HCBL0000105', 22541);
+INSERT INTO bank_branch_t VALUES('Sakri', 'Sakri', '3,panzara Colony, Sakri,  Dist   Dhule  Pin  424308', '2147483647', '424806001', 'HCBL0000106', 22541);
+INSERT INTO bank_branch_t VALUES('Dhule', 'Dhule', '1350, Lane No 5th, Nagarpatti ,Dhule. Pin  424001', '2147483647', 'NA', 'HCBL0000107', 22541);
+INSERT INTO bank_branch_t VALUES('Akkalkuwa', 'Akkalkuwa', 'Main Road, Akkalkuwa,  Dist   Nandurbar  Pin  425415', '2147483647', '425868302', 'HCBL0000108', 22543);
+INSERT INTO bank_branch_t VALUES('Shahada', 'Shahada', 'Bohari Market, Near Bus Stand, Tal.Shahada  Dist  Nandurbar  Pin  425409', '2147483647', '425868001', 'HCBL0000109', 22543);
+INSERT INTO bank_branch_t VALUES('Market Yard Jalgaon', 'Jalgaon', 'Market Yard, Jalgaon  Dist   Jalgaon   Pin  425001', '2147483647', '425868052', 'HCBL0000111', 22542);
+INSERT INTO bank_branch_t VALUES('Shirpur', 'Shirpur', '237,aadarsh Nagar,near Gayatri Mandir, Shirpur  Dist   Dhule  Pin  425405', '2147483647', 'NA', 'HCBL0000112', 22541);
+INSERT INTO bank_branch_t VALUES('Navapur', 'Navapur', 'Limdiwadi, Navapur pin', '2147483647', '424806202', 'HCBL0000113', 22543);
+INSERT INTO bank_branch_t VALUES('Chalisgaon', 'Chalisgaon', 'Ghat Road, Chalisgaon', '2147483647', '425804152', 'HCBL0000114', 22542);
+INSERT INTO bank_branch_t VALUES('Amalner', 'Amalner', 'New Plot, Bank Street , Amalner Dist Jalgaon', '2147483647', 'NA', 'HCBL0000115', 22542);
+INSERT INTO bank_branch_t VALUES('Satana', 'Satana', 'Near Uma Hospital Satana Dist Nasik', '2147483647', 'NA', 'HCBL0000116', 22544);

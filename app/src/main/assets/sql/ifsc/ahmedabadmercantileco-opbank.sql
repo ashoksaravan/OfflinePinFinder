@@ -29,4 +29,5 @@ INSERT INTO bank_branch_t VALUES('Naroda', 'Ahmedabad', 'Plot NO Cm10, Gidc, NR.
 INSERT INTO bank_branch_t VALUES('Boriwali', 'Mumbai', 'Shop NO.10 TO 12,17 TO 20,ground Floor AND Basement,shraddha Shopping Arcade,opp Indraprasth Shopping Centre,swami Vivekanand Road,boriwali West,mumbai -400092', '28336900', '400066003', 'AMCB0660031', 23);
 INSERT INTO bank_branch_t VALUES('Rakhial', 'Ahmedabad', 'Final Plot NO.83/2,T.P.SCHEME NO.10,OPP.RAGHUVIR Textile MILLS,NR.GUJARAT Bottling Co,rakhial,ahmedabad,gujarat 380023', '22747002', '380066028', 'AMCB0660032', 19);
 INSERT INTO bank_branch_t VALUES('Nikol Road', 'Ahmedabad', 'Shop NO.15 TO 19,ground Floor,devkrupa 4,behind Galaxy Business Park,nikol Road,nikol,ahmedabad,gujarat 382350', '29292677', '380066029', 'AMCB0660033', 19);
+INSERT INTO bank_branch_t VALUES('Rakanpur', 'Rakanpur', 'Dhiv COMPLEX-4,NR.KOTHARI WAY Bridge,kothari Char RASTA,RAKANPUR,PO.SANTEJ,TA.KALOL,DIST.GANDHINAGAR,GUJARAT-382721', '268166', '380066030', 'AMCB0660034', 20);
 INSERT INTO bank_branch_t VALUES('Rtgs-ho', 'Ahmedabad', 'Head Office, Amco House, NR. Stadium Circle, Navrangpura, Ahmedabad-380009', '0', 'NA', 'AMCB0RTGS4S', 19);
