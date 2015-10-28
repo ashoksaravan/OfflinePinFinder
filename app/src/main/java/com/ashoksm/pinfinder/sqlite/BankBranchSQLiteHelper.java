@@ -2,6 +2,7 @@ package com.ashoksm.pinfinder.sqlite;
 
 import android.app.ProgressDialog;
 import android.database.Cursor;
+import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
@@ -113,7 +114,12 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
                     while (insertReader.ready()) {
                         insertStmt = insertReader.readLine();
                         if (insertStmt != null) {
-                            db.execSQL(insertStmt);
+                            try {
+                                db.execSQL(insertStmt);
+                            } catch (SQLException e) {
+                                Log.e(CLASS_NAME, name);
+                                throw e;
+                            }
                         }
                     }
                     insertReader.close();
@@ -185,7 +191,7 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
         String select = "SELECT  " + NAME + ", " + CITY + ", l." + STATE + ", l." + DISTRICT + ", " + ADDRESS + ", "
                 + CONTACT + "," + MICR + ", " + IFSC + " AS _id FROM " + TABLE_BANK_BRANCH + " ps" + " INNER JOIN "
                 + TABLE_LOCATION + " l ON ps." + LOCATION + " = l." + LOCATION + " WHERE LOWER(REPLACE(l." + BANK
-                + ",' ',''))" + " = '" + bankName + "'";
+                + ",' ',''))" + " LIKE '%" + bankName + "%'";
         String where = "";
 
         if (stateName.trim().length() > 0) {

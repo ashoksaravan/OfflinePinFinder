@@ -79,10 +79,15 @@
             android:paddingLeft="10dp"
             android:paddingRight="10dp">
 
-            <Spinner
+            <AutoCompleteTextView
                 android:id="@+id/bankName"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:hint="@string/bank_name"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textColor="@color/accent"
+                android:textCursorDrawable="@drawable/cursor_drawable"/>
 
             <AutoCompleteTextView
                 android:id="@+id/stateName"

@@ -11,59 +11,60 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
 
 import java.util.Locale;
 
 public class BankView {
 
-    private static Spinner bankNameSpinner;
-
-    private static AutoCompleteTextView stateNameTextView;
-
-    private static AutoCompleteTextView districtNameTextView;
-
-    private static EditText branchName;
-
     public final static String EXTRA_STATE = "com.ashoksm.offlinepinfinder.STATE";
-
     public final static String EXTRA_DISTRICT = "com.ashoksm.offlinepinfinder.DISTRICT";
-
     public final static String EXTRA_BANK = "com.ashoksm.offlinepinfinder.BANK";
-
     public final static String EXTRA_BRANCH = "com.ashoksm.offlinepinfinder.BRANCH";
+    private static AutoCompleteTextView bankNameSpinner;
+    private static AutoCompleteTextView stateNameTextView;
+    private static AutoCompleteTextView districtNameTextView;
+    private static EditText branchName;
+    private static InterstitialAd mInterstitialAd;
+    private static View bankView;
+    private static Activity activity;
 
     public static void execute(final View rootView, final Resources resources, final Activity context) {
-        bankNameSpinner = (Spinner) rootView.findViewById(R.id.bankName);
+        bankView = rootView;
+        activity = context;
+        bankNameSpinner = (AutoCompleteTextView) rootView.findViewById(R.id.bankName);
         stateNameTextView = (AutoCompleteTextView) rootView.findViewById(R.id.stateName);
         districtNameTextView = (AutoCompleteTextView) rootView.findViewById(R.id.districtName);
         branchName = (EditText) rootView.findViewById(R.id.branchName);
+        mInterstitialAd = newInterstitialAd();
+        loadInterstitial();
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(context, R.array.bank_names,
-                R.layout.spinner_item);
-        // Specify the layout to use when the list of choices appears
-        adapter.setDropDownViewResource(R.layout.spinner_dropdown_item);
+                R.layout.spinner_dropdown_item);
         // Apply the adapter to the spinner
         bankNameSpinner.setAdapter(adapter);
 
         // add listener
-        bankNameSpinner.setOnItemSelectedListener(new OnItemSelectedListener() {
+        bankNameSpinner.setOnItemClickListener(new OnItemClickListener() {
             @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 stateNameTextView.setText("");
                 districtNameTextView.setText("");
                 branchName.setText("");
                 Locale l = Locale.getDefault();
                 String bankName = parent.getItemAtPosition(position).toString();
-                String resourceName = bankName.toLowerCase(l).replace('.', ' ').replace('(', ' ').replace(')', ' ').replace('&', ' ')
-                        .replaceAll(" ", "").replaceAll("-", "_")
-                        + "_states";
+                String resourceName =
+                        bankName.toLowerCase(l).replace('.', ' ').replace('(', ' ').replace(')', ' ').replace('&', ' ')
+                                .replaceAll(" ", "").replaceAll("-", "_")
+                                + "_states";
                 int bankId = resources.getIdentifier(resourceName, "array", context.getPackageName());
                 if (bankId != 0) {
                     ArrayAdapter<CharSequence> stateAdapter = ArrayAdapter.createFromResource(context, bankId,
@@ -71,10 +72,6 @@ public class BankView {
                     // Apply the adapter to the spinner
                     stateNameTextView.setAdapter(stateAdapter);
                 }
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
             }
         });
 
@@ -84,13 +81,14 @@ public class BankView {
                 districtNameTextView.setText("");
                 branchName.setText("");
                 Locale l = Locale.getDefault();
-                String bankName = bankNameSpinner.getSelectedItem().toString();
+                String bankName = bankNameSpinner.getText().toString();
                 String stateName = stateNameTextView.getText().toString();
-                String resourceName = bankName.toLowerCase(l).replace('.', ' ').replace('(', ' ').replace(')', ' ').replace('&', ' ')
-                        .replaceAll(" ", "").replaceAll("-", "_")
-                        + "_"
-                        + stateName.toLowerCase(l).replace('.', ' ').replace('(', ' ').replace(')', ' ')
-                        .replaceAll(" ", "").replaceAll("-", "_") + "_districts";
+                String resourceName =
+                        bankName.toLowerCase(l).replace('.', ' ').replace('(', ' ').replace(')', ' ').replace('&', ' ')
+                                .replaceAll(" ", "").replaceAll("-", "_")
+                                + "_"
+                                + stateName.toLowerCase(l).replace('.', ' ').replace('(', ' ').replace(')', ' ')
+                                .replaceAll(" ", "").replaceAll("-", "_") + "_districts";
                 int bankId = resources.getIdentifier(resourceName, "array", context.getPackageName());
                 if (bankId != 0) {
                     ArrayAdapter<CharSequence> districtAdapter = ArrayAdapter.createFromResource(context, bankId,
@@ -105,7 +103,7 @@ public class BankView {
         btnSubmit.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                performSearch(context, v);
+                showInterstitial();
             }
 
         });
@@ -114,7 +112,7 @@ public class BankView {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
                 if (actionId == EditorInfo.IME_ACTION_SEARCH) {
-                    performSearch(context, v);
+                    showInterstitial();
                     return true;
                 }
                 return false;
@@ -122,14 +120,14 @@ public class BankView {
         });
     }
 
-    private static void performSearch(Activity context, View v) {
+    private static void performSearch(Activity context) {
         // hide keyboard
         InputMethodManager inputMethodManager = (InputMethodManager) context
                 .getSystemService(Context.INPUT_METHOD_SERVICE);
-        inputMethodManager.hideSoftInputFromWindow(v.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
+        inputMethodManager.hideSoftInputFromWindow(bankView.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
 
-        String bankName = bankNameSpinner.getSelectedItem().toString();
-        if (!"Please Select a Bank".equals(bankName)) {
+        String bankName = bankNameSpinner.getText().toString();
+        if (bankName.trim().length() > 0) {
             String stateName = stateNameTextView.getText().toString();
             String districtName = districtNameTextView.getText().toString();
             String branch = branchName.getText().toString();
@@ -143,5 +141,40 @@ public class BankView {
         } else {
             Toast.makeText(context, "Please Select a Bank!!!", Toast.LENGTH_LONG).show();
         }
+    }
+
+    private static InterstitialAd newInterstitialAd() {
+        InterstitialAd interstitialAd = new InterstitialAd(activity);
+        interstitialAd.setAdUnitId(activity.getString(R.string.admob_id));
+        interstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+            }
+
+            @Override
+            public void onAdFailedToLoad(int errorCode) {
+            }
+
+            @Override
+            public void onAdClosed() {
+                // Proceed to the next level.
+                performSearch(activity);
+            }
+        });
+        return interstitialAd;
+    }
+
+    private static void showInterstitial() {
+        // Show the ad if it's ready. Otherwise toast and reload the ad.
+        if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
+            mInterstitialAd.show();
+        } else {
+            performSearch(activity);
+        }
+    }
+
+    private static void loadInterstitial() {
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mInterstitialAd.loadAd(adRequest);
     }
 }

@@ -27,11 +27,8 @@ import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.InterstitialAd;
 
 public class MainActivity extends ActivityBase {
-
-    private InterstitialAd interstitial;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,10 +42,6 @@ public class MainActivity extends ActivityBase {
             Class.forName("android.os.AsyncTask");
         } catch (ClassNotFoundException ignored) {
         }
-
-        // Create the interstitial.
-        interstitial = new InterstitialAd(this);
-        interstitial.setAdUnitId(getString(R.string.admob_id));
 
         // load ad
         final LinearLayout adParent = (LinearLayout) this.findViewById(R.id.ad);
@@ -76,7 +69,6 @@ public class MainActivity extends ActivityBase {
         AdRequest adRequest = new AdRequest.Builder().build();
         ad.loadAd(adRequest);
         // Begin loading your interstitial.
-        interstitial.loadAd(adRequest);
 
         if (savedInstanceState == null) {
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
@@ -84,17 +76,13 @@ public class MainActivity extends ActivityBase {
             transaction.replace(R.id.pinfinder_content_fragment, fragment);
             transaction.commit();
         }
-    }
 
-    public void displayInterstitial() {
-        if (interstitial.isLoaded()) {
-            interstitial.show();
-        }
     }
 
     @Override
     public void onBackPressed() {
-        displayInterstitial();
         super.onBackPressed();
     }
+
+
 }

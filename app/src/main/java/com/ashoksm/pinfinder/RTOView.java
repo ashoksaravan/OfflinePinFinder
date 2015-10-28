@@ -14,6 +14,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+
 public class RTOView {
 
     private static AutoCompleteTextView stateNameTextView;
@@ -24,8 +28,19 @@ public class RTOView {
 
     public final static String EXTRA_CITY = "com.ashoksm.offlinepinfinder.CITY";
 
+    private static InterstitialAd mInterstitialAd;
+    private static View rtoCodeView;
+    private static Activity activity;
+
+
     public static void execute(final View rootView, final Activity context) {
+        rtoCodeView = rootView;
+        activity = context;
         stateNameTextView = (AutoCompleteTextView) rootView.findViewById(R.id.rtoStates);
+
+        mInterstitialAd = newInterstitialAd();
+        loadInterstitial();
+
         ArrayAdapter<CharSequence> stateAdapter = ArrayAdapter.createFromResource(context, R.array.states_array,
                 R.layout.spinner_dropdown_item);
         // Apply the adapter to the spinner
@@ -35,7 +50,7 @@ public class RTOView {
         btnSubmit.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                performSearch(context, v);
+                showInterstitial();
             }
 
         });
@@ -44,7 +59,7 @@ public class RTOView {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
                 if (actionId == EditorInfo.IME_ACTION_SEARCH) {
-                    performSearch(context, v);
+                    showInterstitial();
                     return true;
                 }
                 return false;
@@ -52,11 +67,11 @@ public class RTOView {
         });
     }
 
-    private static void performSearch(Activity context, View v) {
+    private static void performSearch(Activity context) {
         // hide keyboard
         InputMethodManager inputMethodManager = (InputMethodManager) context
                 .getSystemService(Context.INPUT_METHOD_SERVICE);
-        inputMethodManager.hideSoftInputFromWindow(v.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
+        inputMethodManager.hideSoftInputFromWindow(rtoCodeView.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
 
         String stateName = stateNameTextView.getText().toString();
         String city = cityName.getText().toString();
@@ -65,5 +80,40 @@ public class RTOView {
         intent.putExtra(EXTRA_CITY, city.trim());
         context.startActivity(intent);
         context.overridePendingTransition(R.anim.slide_out_left, 0);
+    }
+
+    private static InterstitialAd newInterstitialAd() {
+        InterstitialAd interstitialAd = new InterstitialAd(activity);
+        interstitialAd.setAdUnitId(activity.getString(R.string.admob_id));
+        interstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+            }
+
+            @Override
+            public void onAdFailedToLoad(int errorCode) {
+            }
+
+            @Override
+            public void onAdClosed() {
+                // Proceed to the next level.
+                performSearch(activity);
+            }
+        });
+        return interstitialAd;
+    }
+
+    private static void showInterstitial() {
+        // Show the ad if it's ready. Otherwise toast and reload the ad.
+        if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
+            mInterstitialAd.show();
+        } else {
+            performSearch(activity);
+        }
+    }
+
+    private static void loadInterstitial() {
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mInterstitialAd.loadAd(adRequest);
     }
 }

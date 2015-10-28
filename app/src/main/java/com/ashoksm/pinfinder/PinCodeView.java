@@ -18,33 +18,30 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+
 import java.util.Locale;
 
 public class PinCodeView {
 
-    /**
-     * states.
-     */
     private static AutoCompleteTextView states;
-
-    /**
-     * districts.
-     */
     private static AutoCompleteTextView districts;
-
-    /**
-     * text.
-     */
     private static EditText text;
-
     public final static String EXTRA_STATE = "com.ashoksm.offlinepinfinder.STATE";
-
     public final static String EXTRA_DISTRICT = "com.ashoksm.offlinepinfinder.DISTRICT";
-
     public final static String EXTRA_OFFICE = "com.ashoksm.offlinepinfinder.OFFICE";
+    private static InterstitialAd mInterstitialAd;
+    private static View pinCodeView;
+    private static Activity activity;
 
     public static void execute(final View rootView, final Resources resources, final Activity context) {
+        pinCodeView = rootView;
+        activity = context;
         states = (AutoCompleteTextView) rootView.findViewById(R.id.states);
+        mInterstitialAd = newInterstitialAd();
+        loadInterstitial();
         // Get the string array
         String[] statesArr = resources.getStringArray(R.array.states_array);
         // Create the adapter and set it to the AutoCompleteTextView
@@ -56,7 +53,7 @@ public class PinCodeView {
         String[] allDistricts = resources.getStringArray(R.array.district_all);
         districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item, allDistricts));
         addStateChangeListener(rootView, resources, context);
-        addListenerOnButton(rootView, context);
+        addListenerOnButton(rootView);
     }
 
     private static void addStateChangeListener(View rootView, final Resources resources, final Activity context) {
@@ -78,7 +75,7 @@ public class PinCodeView {
         });
     }
 
-    public static void addListenerOnButton(View rootView, final Activity context) {
+    public static void addListenerOnButton(View rootView) {
         states = (AutoCompleteTextView) rootView.findViewById(R.id.states);
         districts = (AutoCompleteTextView) rootView.findViewById(R.id.districts);
         text = (EditText) rootView.findViewById(R.id.text1);
@@ -88,7 +85,7 @@ public class PinCodeView {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
                 if (actionId == EditorInfo.IME_ACTION_SEARCH) {
-                    performSearch(context, v);
+                    showInterstitial();
                     return true;
                 }
                 return false;
@@ -98,17 +95,17 @@ public class PinCodeView {
         btnSubmit.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                performSearch(context, v);
+                showInterstitial();
             }
 
         });
     }
 
-    private static void performSearch(Activity context, View v) {
+    private static void performSearch(Activity context) {
         // hide keyboard
         InputMethodManager inputMethodManager = (InputMethodManager) context
                 .getSystemService(Context.INPUT_METHOD_SERVICE);
-        inputMethodManager.hideSoftInputFromWindow(v.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
+        inputMethodManager.hideSoftInputFromWindow(pinCodeView.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
         String stateName = states.getText().toString();
         String districtName = districts.getText().toString();
         String officeName = text.getText().toString();
@@ -122,5 +119,40 @@ public class PinCodeView {
             context.startActivity(intent);
             context.overridePendingTransition(R.anim.slide_out_left, 0);
         }
+    }
+
+    private static InterstitialAd newInterstitialAd() {
+        InterstitialAd interstitialAd = new InterstitialAd(activity);
+        interstitialAd.setAdUnitId(activity.getString(R.string.admob_id));
+        interstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+            }
+
+            @Override
+            public void onAdFailedToLoad(int errorCode) {
+            }
+
+            @Override
+            public void onAdClosed() {
+                // Proceed to the next level.
+                performSearch(activity);
+            }
+        });
+        return interstitialAd;
+    }
+
+    private static void showInterstitial() {
+        // Show the ad if it's ready. Otherwise toast and reload the ad.
+        if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
+            mInterstitialAd.show();
+        } else {
+            performSearch(activity);
+        }
+    }
+
+    private static void loadInterstitial() {
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mInterstitialAd.loadAd(adRequest);
     }
 }

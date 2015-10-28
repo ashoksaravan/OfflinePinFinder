@@ -69,5 +69,10 @@
 -dontwarn com.google.common.flags.**
 -dontwarn com.google.common.util.concurrent.***
 -dontwarn org.w3c.**
+-dontwarn java.nio.file.Files
+-dontwarn java.nio.file.Path
+-dontwarn java.nio.file.OpenOption
+-dontwarn org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
+-dontwarn com.google.android.gms.**
 
 -keepattributes Signature
