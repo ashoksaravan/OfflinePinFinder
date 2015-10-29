@@ -26,12 +26,12 @@ import java.util.Locale;
 
 public class PinCodeView {
 
-    private static AutoCompleteTextView states;
-    private static AutoCompleteTextView districts;
-    private static EditText text;
     public final static String EXTRA_STATE = "com.ashoksm.offlinepinfinder.STATE";
     public final static String EXTRA_DISTRICT = "com.ashoksm.offlinepinfinder.DISTRICT";
     public final static String EXTRA_OFFICE = "com.ashoksm.offlinepinfinder.OFFICE";
+    private static AutoCompleteTextView states;
+    private static AutoCompleteTextView districts;
+    private static EditText text;
     private static InterstitialAd mInterstitialAd;
     private static View pinCodeView;
     private static Activity activity;
@@ -62,8 +62,9 @@ public class PinCodeView {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long rowId) {
                 districts.setText("");
-                String resourceName = "district_" +states.getText().toString().toLowerCase(Locale.getDefault()).replace('&', ' ')
-                        .replaceAll(" ", "");
+                String resourceName =
+                        "district_" + states.getText().toString().toLowerCase(Locale.getDefault()).replace('&', ' ')
+                                .replaceAll(" ", "");
                 int resourceId = resources.getIdentifier(resourceName, "array", context.getPackageName());
                 if (resourceId != 0) {
                     ArrayAdapter<CharSequence> districtAdapter = ArrayAdapter.createFromResource(context, resourceId,
@@ -109,16 +110,12 @@ public class PinCodeView {
         String stateName = states.getText().toString();
         String districtName = districts.getText().toString();
         String officeName = text.getText().toString();
-        if (stateName.trim().length() == 0 && districtName.trim().length() == 0 && officeName.trim().length() == 0) {
-            Toast.makeText(context, "All search fields can't be empty!!!", Toast.LENGTH_LONG).show();
-        } else {
-            Intent intent = new Intent(context, DisplayPinCodeResultActivity.class);
-            intent.putExtra(EXTRA_STATE, stateName.trim());
-            intent.putExtra(EXTRA_DISTRICT, districtName.trim());
-            intent.putExtra(EXTRA_OFFICE, officeName.trim());
-            context.startActivity(intent);
-            context.overridePendingTransition(R.anim.slide_out_left, 0);
-        }
+        Intent intent = new Intent(context, DisplayPinCodeResultActivity.class);
+        intent.putExtra(EXTRA_STATE, stateName.trim());
+        intent.putExtra(EXTRA_DISTRICT, districtName.trim());
+        intent.putExtra(EXTRA_OFFICE, officeName.trim());
+        context.startActivity(intent);
+        context.overridePendingTransition(R.anim.slide_out_left, 0);
     }
 
     private static InterstitialAd newInterstitialAd() {
@@ -143,11 +140,18 @@ public class PinCodeView {
     }
 
     private static void showInterstitial() {
-        // Show the ad if it's ready. Otherwise toast and reload the ad.
-        if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
-            mInterstitialAd.show();
+        String stateName = states.getText().toString();
+        String districtName = districts.getText().toString();
+        String officeName = text.getText().toString();
+        if (stateName.trim().length() == 0 && districtName.trim().length() == 0 && officeName.trim().length() == 0) {
+            Toast.makeText(activity, "All search fields can't be empty!!!", Toast.LENGTH_LONG).show();
         } else {
-            performSearch(activity);
+            // Show the ad if it's ready. Otherwise toast and reload the ad.
+            if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
+                mInterstitialAd.show();
+            } else {
+                performSearch(activity);
+            }
         }
     }
 

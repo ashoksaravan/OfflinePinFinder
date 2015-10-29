@@ -165,11 +165,15 @@ public class BankView {
     }
 
     private static void showInterstitial() {
-        // Show the ad if it's ready. Otherwise toast and reload the ad.
-        if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
-            mInterstitialAd.show();
+        if(bankNameSpinner.getText().toString().trim().length() > 0) {
+            // Show the ad if it's ready. Otherwise toast and reload the ad.
+            if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
+                mInterstitialAd.show();
+            } else {
+                performSearch(activity);
+            }
         } else {
-            performSearch(activity);
+            Toast.makeText(activity, "Please Select a Bank!!!", Toast.LENGTH_LONG).show();
         }
     }
 

@@ -1421,7 +1421,6 @@
     <string name="title_activity_display_result">Result</string>
 
     <string-array name="bank_names">
-        <item>Please Select a Bank</item>
         <item>Abhyudaya Co-Op Bank Ltd</item>
         <item>Abu Dhabi Commercial Bank</item>
         <item>Ahmedabad Mercantile Co-Op Bank</item>
