@@ -36,7 +36,8 @@ public class PinCodeView {
     private static View pinCodeView;
     private static Activity activity;
 
-    public static void execute(final View rootView, final Resources resources, final Activity context) {
+    public static void execute(final View rootView, final Resources resources,
+                               final Activity context) {
         pinCodeView = rootView;
         activity = context;
         states = (AutoCompleteTextView) rootView.findViewById(R.id.states);
@@ -46,29 +47,35 @@ public class PinCodeView {
         String[] statesArr = resources.getStringArray(R.array.states_array);
         // Create the adapter and set it to the AutoCompleteTextView
 
-        ArrayAdapter<String> statesAdapter = new ArrayAdapter<>(context, R.layout.spinner_dropdown_item, statesArr);
+        ArrayAdapter<String> statesAdapter =
+                new ArrayAdapter<>(context, R.layout.spinner_dropdown_item, statesArr);
         states.setAdapter(statesAdapter);
         // populate all districts
         districts = (AutoCompleteTextView) rootView.findViewById(R.id.districts);
         String[] allDistricts = resources.getStringArray(R.array.district_all);
-        districts.setAdapter(new ArrayAdapter<>(context, R.layout.spinner_dropdown_item, allDistricts));
+        districts.setAdapter(
+                new ArrayAdapter<>(context, R.layout.spinner_dropdown_item, allDistricts));
         addStateChangeListener(rootView, resources, context);
         addListenerOnButton(rootView);
     }
 
-    private static void addStateChangeListener(View rootView, final Resources resources, final Activity context) {
+    private static void addStateChangeListener(View rootView, final Resources resources,
+                                               final Activity context) {
         districts = (AutoCompleteTextView) rootView.findViewById(R.id.districts);
         states.setOnItemClickListener(new OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long rowId) {
                 districts.setText("");
                 String resourceName =
-                        "district_" + states.getText().toString().toLowerCase(Locale.getDefault()).replace('&', ' ')
+                        "district_" + states.getText().toString().toLowerCase(Locale.getDefault())
+                                .replace('&', ' ')
                                 .replaceAll(" ", "");
-                int resourceId = resources.getIdentifier(resourceName, "array", context.getPackageName());
+                int resourceId =
+                        resources.getIdentifier(resourceName, "array", context.getPackageName());
                 if (resourceId != 0) {
-                    ArrayAdapter<CharSequence> districtAdapter = ArrayAdapter.createFromResource(context, resourceId,
-                            R.layout.spinner_dropdown_item);
+                    ArrayAdapter<CharSequence> districtAdapter =
+                            ArrayAdapter.createFromResource(context, resourceId,
+                                    R.layout.spinner_dropdown_item);
                     // Apply the adapter to the spinner
                     districts.setAdapter(districtAdapter);
                 }
@@ -106,7 +113,8 @@ public class PinCodeView {
         // hide keyboard
         InputMethodManager inputMethodManager = (InputMethodManager) context
                 .getSystemService(Context.INPUT_METHOD_SERVICE);
-        inputMethodManager.hideSoftInputFromWindow(pinCodeView.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
+        inputMethodManager.hideSoftInputFromWindow(pinCodeView.getWindowToken(),
+                InputMethodManager.HIDE_NOT_ALWAYS);
         String stateName = states.getText().toString();
         String districtName = districts.getText().toString();
         String officeName = text.getText().toString();
@@ -114,6 +122,7 @@ public class PinCodeView {
         intent.putExtra(EXTRA_STATE, stateName.trim());
         intent.putExtra(EXTRA_DISTRICT, districtName.trim());
         intent.putExtra(EXTRA_OFFICE, officeName.trim());
+        intent.putExtra(MainActivity.EXTRA_SHOW_FAV, false);
         context.startActivity(intent);
         context.overridePendingTransition(R.anim.slide_out_left, 0);
     }
@@ -143,8 +152,10 @@ public class PinCodeView {
         String stateName = states.getText().toString();
         String districtName = districts.getText().toString();
         String officeName = text.getText().toString();
-        if (stateName.trim().length() == 0 && districtName.trim().length() == 0 && officeName.trim().length() == 0) {
-            Toast.makeText(activity, "All search fields can't be empty!!!", Toast.LENGTH_LONG).show();
+        if (stateName.trim().length() == 0 && districtName.trim().length() == 0 &&
+                officeName.trim().length() == 0) {
+            Toast.makeText(activity, "All search fields can't be empty!!!", Toast.LENGTH_LONG)
+                    .show();
         } else {
             // Show the ad if it's ready. Otherwise toast and reload the ad.
             if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {

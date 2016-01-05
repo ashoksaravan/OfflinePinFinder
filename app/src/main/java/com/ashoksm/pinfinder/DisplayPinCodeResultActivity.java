@@ -1,7 +1,9 @@
 package com.ashoksm.pinfinder;
 
 import android.annotation.TargetApi;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.os.AsyncTask;
 import android.os.Build;
@@ -37,6 +39,10 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
 
+    private boolean showFav;
+
+    private SharedPreferences sharedPreferences;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,6 +50,8 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.my_awesome_toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
         setSupportActionBar(toolbar);
+        sharedPreferences = getSharedPreferences("AllCodeFinder", Context.MODE_PRIVATE);
+
 
         final RecyclerView mRecyclerView = (RecyclerView) findViewById(R.id.gridView);
 
@@ -69,12 +77,15 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
         Locale l = Locale.getDefault();
         // Get the message from the intent
         Intent intent = getIntent();
-        stateName = intent.getStringExtra(PinCodeView.EXTRA_STATE).toLowerCase(l).replaceAll(" ", "")
-                .replaceAll("'", "''");
-        districtName = intent.getStringExtra(PinCodeView.EXTRA_DISTRICT).toLowerCase(l).replaceAll(" ", "")
-                .replaceAll("'", "''");
-        officeName = intent.getStringExtra(PinCodeView.EXTRA_OFFICE).toLowerCase(l).replaceAll(" ", "")
-                .replaceAll("'", "''");
+        showFav = intent.getBooleanExtra(MainActivity.EXTRA_SHOW_FAV, false);
+        if (!showFav) {
+            stateName = intent.getStringExtra(PinCodeView.EXTRA_STATE).toLowerCase(l).replaceAll(" ", "")
+                    .replaceAll("'", "''");
+            districtName = intent.getStringExtra(PinCodeView.EXTRA_DISTRICT).toLowerCase(l).replaceAll(" ", "")
+                    .replaceAll("'", "''");
+            officeName = intent.getStringExtra(PinCodeView.EXTRA_OFFICE).toLowerCase(l).replaceAll(" ", "")
+                    .replaceAll("'", "''");
+        }
 
         // load ad
         final LinearLayout adParent = (LinearLayout) this.findViewById(R.id.adLayout);
@@ -116,7 +127,11 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
             protected Void doInBackground(Void... params) {
                 try {
                     sqLiteHelper = new PinFinderSQLiteHelper(DisplayPinCodeResultActivity.this);
-                    c = sqLiteHelper.findMatchingOffices(stateName, districtName, officeName);
+                    if (!showFav) {
+                        c = sqLiteHelper.findMatchingOffices(stateName, districtName, officeName);
+                    } else {
+                        c = sqLiteHelper.findFavOffices(sharedPreferences.getString("pincodes", null));
+                    }
                 } catch (Exception ex) {
                     Log.e(this.getClass().getName(), ex.getMessage());
                 }
@@ -126,7 +141,8 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
             @Override
             protected void onPostExecute(Void result) {
                 if (c.getCount() > 0) {
-                    adapter = new PinCodeRecyclerViewAdapter(DisplayPinCodeResultActivity.this, c);
+                    adapter = new PinCodeRecyclerViewAdapter(DisplayPinCodeResultActivity.this, c, sharedPreferences,
+                            showFav);
                     if (getSupportActionBar() != null) {
                         getSupportActionBar().setTitle(c.getCount() + " Results found");
                     }

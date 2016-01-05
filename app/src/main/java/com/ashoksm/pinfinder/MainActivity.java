@@ -16,6 +16,7 @@
 
 package com.ashoksm.pinfinder;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.Toolbar;
@@ -23,12 +24,19 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 import com.ashoksm.pinfinder.common.activities.ActivityBase;
+import com.github.clans.fab.FloatingActionButton;
+import com.github.clans.fab.FloatingActionMenu;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
 
 public class MainActivity extends ActivityBase {
+
+    private InterstitialAd mInterstitialAd;
+    private Class clazz;
+    public static final String EXTRA_SHOW_FAV = "EXTRA_SHOW_FAV";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,12 +85,100 @@ public class MainActivity extends ActivityBase {
             transaction.commit();
         }
 
+        final FloatingActionMenu actionMenu = (FloatingActionMenu) findViewById(R.id.floatingActionMenu);
+
+        FloatingActionButton pincodeButton =
+                (FloatingActionButton) findViewById(R.id.floating_pincode);
+        pincodeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                actionMenu.close(true);
+                clazz = DisplayPinCodeResultActivity.class;
+                showInterstitial();
+            }
+        });
+
+        FloatingActionButton ifscButton =
+                (FloatingActionButton) findViewById(R.id.floating_ifsc);
+        ifscButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                actionMenu.close(true);
+                clazz = DisplayBankBranchResultActivity.class;
+                showInterstitial();
+            }
+        });
+
+        FloatingActionButton stdButton =
+                (FloatingActionButton) findViewById(R.id.floating_std);
+        stdButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                actionMenu.close(true);
+                clazz = DisplaySTDResultActivity.class;
+                showInterstitial();
+            }
+        });
+
+        FloatingActionButton rtoButton =
+                (FloatingActionButton) findViewById(R.id.floating_rto);
+        rtoButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                actionMenu.close(true);
+                clazz = DisplayRTOResultActivity.class;
+                showInterstitial();
+            }
+        });
     }
 
     @Override
-    public void onBackPressed() {
-        super.onBackPressed();
+    protected void onResume() {
+        super.onResume();
+        overridePendingTransition(R.anim.slide_in_left, 0);
+        mInterstitialAd = newInterstitialAd();
+        loadInterstitial();
     }
 
+    private InterstitialAd newInterstitialAd() {
+        InterstitialAd interstitialAd = new InterstitialAd(this);
+        interstitialAd.setAdUnitId(getString(R.string.admob_id));
+        interstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+            }
 
+            @Override
+            public void onAdFailedToLoad(int errorCode) {
+            }
+
+            @Override
+            public void onAdClosed() {
+                // Proceed to the next level.
+                performSearch();
+            }
+        });
+        return interstitialAd;
+    }
+
+    private void showInterstitial() {
+        // Show the ad if it's ready. Otherwise toast and reload the ad.
+        if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
+            mInterstitialAd.show();
+        } else {
+            performSearch();
+        }
+    }
+
+    private void loadInterstitial() {
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mInterstitialAd.loadAd(adRequest);
+    }
+
+    private void performSearch() {
+        Intent intent = new Intent(this, clazz);
+        intent.putExtra(EXTRA_SHOW_FAV, true);
+        startActivity(intent);
+        overridePendingTransition(R.anim.slide_out_left, 0);
+    }
 }

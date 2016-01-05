@@ -39,12 +39,15 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
     public static final String ID = "_id";
 
     // post_office_t table create statement
-    private static final String CREATE_STATE_TABLE = "CREATE TABLE " + TABLE_STATE + "(" + STATE + " INTEGER, "
-            + STATE_NAME + " TEXT, " + "PRIMARY KEY (" + STATE + "))";
+    private static final String CREATE_STATE_TABLE =
+            "CREATE TABLE " + TABLE_STATE + "(" + STATE + " INTEGER, "
+                    + STATE_NAME + " TEXT, " + "PRIMARY KEY (" + STATE + "))";
 
-    private static final String CREATE_STD_TABLE = "CREATE TABLE " + TABLE_RTO + "(" + STATE + " INTEGER, " + RTO_CODE
-            + " TEXT, " + CITY + " TEXT, " + "FOREIGN KEY(" + STATE + ") REFERENCES " + TABLE_STATE + "(" + STATE
-            + "), " + "PRIMARY KEY (" + STATE + "," + CITY + "," + RTO_CODE + "))";
+    private static final String CREATE_STD_TABLE =
+            "CREATE TABLE " + TABLE_RTO + "(" + STATE + " INTEGER, " + RTO_CODE
+                    + " TEXT, " + CITY + " TEXT, " + "FOREIGN KEY(" + STATE + ") REFERENCES " +
+                    TABLE_STATE + "(" + STATE
+                    + "), " + "PRIMARY KEY (" + STATE + "," + CITY + "," + RTO_CODE + "))";
 
     public RTOSQLiteHelper(DisplayRTOResultActivity contextIn) {
         super(contextIn, DATABASE_NAME, null, DATABASE_VERSION);
@@ -100,7 +103,8 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
                 if (name.endsWith(".sql")) {
                     // Open the resource
                     InputStream insertsStream = context.getAssets().open("sql/rto/" + name);
-                    BufferedReader insertReader = new BufferedReader(new InputStreamReader(insertsStream));
+                    BufferedReader insertReader =
+                            new BufferedReader(new InputStreamReader(insertsStream));
 
                     while (insertReader.ready()) {
                         String insertStmt = insertReader.readLine();
@@ -156,8 +160,10 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
     public Cursor findRTOCodes(final String stateName, final String cityName) {
         SQLiteDatabase db = this.getReadableDatabase();
 
-        String select = "SELECT  s." + STATE_NAME + ", " + CITY + ", " + RTO_CODE + " AS _id FROM " + TABLE_RTO + " st"
-                + " INNER JOIN " + TABLE_STATE + " s ON st." + STATE + " = s." + STATE;
+        String select =
+                "SELECT  s." + STATE_NAME + ", " + CITY + ", " + RTO_CODE + " AS _id FROM " +
+                        TABLE_RTO + " st"
+                        + " INNER JOIN " + TABLE_STATE + " s ON st." + STATE + " = s." + STATE;
         String where = "";
 
         if (stateName.trim().length() > 0) {
@@ -167,9 +173,29 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
             where = where + " AND (LOWER(REPLACE(st." + CITY + ",' ','')) LIKE '%" + cityName
                     + "%' OR LOWER(REPLACE(st." + RTO_CODE + ",' ','')) LIKE '%" + cityName + "%')";
         } else if (cityName.trim().length() > 0) {
-            where = " WHERE (LOWER(REPLACE(st." + CITY + ",' ','')) LIKE '%" + cityName + "%' OR LOWER(REPLACE(st."
+            where = " WHERE (LOWER(REPLACE(st." + CITY + ",' ','')) LIKE '%" + cityName +
+                    "%' OR LOWER(REPLACE(st."
                     + RTO_CODE + ",' ','')) LIKE '%" + cityName + "%')";
         }
+        String orderBy = " ORDER BY 1, 3, 2";
+        String selectQuery = select + where + orderBy;
+        Log.d(CLASS_NAME, selectQuery);
+
+        return db.rawQuery(selectQuery, null);
+    }
+
+    /**
+     * @param favRTOCodes stateName
+     * @return Cursor
+     */
+    public Cursor findFavRTOCodes(final String favRTOCodes) {
+        SQLiteDatabase db = this.getReadableDatabase();
+
+        String select =
+                "SELECT  s." + STATE_NAME + ", " + CITY + ", " + RTO_CODE + " AS _id FROM " +
+                        TABLE_RTO + " st"
+                        + " INNER JOIN " + TABLE_STATE + " s ON st." + STATE + " = s." + STATE;
+        String where = " WHERE " + RTO_CODE + " IN (" + favRTOCodes + ")";
         String orderBy = " ORDER BY 1, 3, 2";
         String selectQuery = select + where + orderBy;
         Log.d(CLASS_NAME, selectQuery);

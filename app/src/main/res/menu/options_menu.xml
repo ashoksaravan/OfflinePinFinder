@@ -10,4 +10,9 @@
         android:icon="@drawable/ic_location_place"
         android:title="@string/location" />
 
+    <item
+        android:id="@+id/addToFav"
+        android:icon="@drawable/ic_star_red"
+        android:title="@string/add_to_fav" />
+
 </menu>

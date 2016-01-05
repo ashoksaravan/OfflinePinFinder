@@ -1,7 +1,9 @@
 package com.ashoksm.pinfinder;
 
 import android.annotation.TargetApi;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.os.AsyncTask;
 import android.os.Build;
@@ -33,6 +35,10 @@ public class DisplaySTDResultActivity extends ActivityBase {
 
     private String cityName;
 
+    private boolean showFav;
+
+    private SharedPreferences sharedPreferences;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,6 +46,7 @@ public class DisplaySTDResultActivity extends ActivityBase {
         final Toolbar toolbar = (Toolbar) findViewById(R.id.my_awesome_toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
         setSupportActionBar(toolbar);
+        sharedPreferences = getSharedPreferences("AllCodeFinder", Context.MODE_PRIVATE);
 
         final RecyclerView mRecyclerView = (RecyclerView) findViewById(R.id.gridView);
 
@@ -64,8 +71,14 @@ public class DisplaySTDResultActivity extends ActivityBase {
         Locale l = Locale.getDefault();
         // Get the message from the intent
         final Intent intent = getIntent();
-        stateName = intent.getStringExtra(STDView.EXTRA_STATE).toLowerCase(l).replaceAll(" ", "").replaceAll("'", "''");
-        cityName = intent.getStringExtra(STDView.EXTRA_CITY).toLowerCase(l).replaceAll(" ", "").replaceAll("'", "''");
+        showFav = intent.getBooleanExtra(MainActivity.EXTRA_SHOW_FAV, false);
+        if(!showFav) {
+            stateName =
+                    intent.getStringExtra(STDView.EXTRA_STATE).toLowerCase(l).replaceAll(" ", "")
+                            .replaceAll("'", "''");
+            cityName = intent.getStringExtra(STDView.EXTRA_CITY).toLowerCase(l).replaceAll(" ", "")
+                    .replaceAll("'", "''");
+        }
 
         // load ad
         final LinearLayout adParent = (LinearLayout) this.findViewById(R.id.adLayout);
@@ -107,8 +120,11 @@ public class DisplaySTDResultActivity extends ActivityBase {
             protected Void doInBackground(Void... params) {
                 try {
                     sqLiteHelper = new STDSQLiteHelper(DisplaySTDResultActivity.this);
-                    c = sqLiteHelper.findRTOCodes(stateName, cityName);
-                    // sqLiteHelper.closeDB();
+                    if(!showFav) {
+                        c = sqLiteHelper.findSTDCodes(stateName, cityName);
+                    } else {
+                        c = sqLiteHelper.findFavSTDCodes(sharedPreferences.getString("STDcodes", null));
+                    }
                 } catch (Exception ex) {
                     Log.e(this.getClass().getName(), ex.getMessage());
                 }
@@ -121,7 +137,7 @@ public class DisplaySTDResultActivity extends ActivityBase {
                     if (getSupportActionBar() != null) {
                         getSupportActionBar().setTitle(c.getCount() + " Results found");
                     }
-                    adapter = new STDRecyclerViewAdapter(DisplaySTDResultActivity.this, c);
+                    adapter = new STDRecyclerViewAdapter(DisplaySTDResultActivity.this, c, sharedPreferences, showFav);
                     mRecyclerView.setAdapter(adapter);
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {

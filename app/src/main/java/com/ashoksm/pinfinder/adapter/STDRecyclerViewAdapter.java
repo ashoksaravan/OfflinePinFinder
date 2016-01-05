@@ -2,6 +2,7 @@ package com.ashoksm.pinfinder.adapter;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.net.Uri;
 import android.support.v7.widget.PopupMenu;
@@ -9,6 +10,7 @@ import android.support.v7.widget.PopupMenu.OnMenuItemClickListener;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -29,10 +31,15 @@ public class STDRecyclerViewAdapter extends CursorRecyclerViewAdapter<STDRecycle
 
     private Context context;
     private int lastPosition = -1;
+    private SharedPreferences sharedPreferences;
+    private boolean showFav;
 
-    public STDRecyclerViewAdapter(Context context, Cursor cursor) {
+    public STDRecyclerViewAdapter(Context context, Cursor cursor,
+                                  SharedPreferences sharedPreferencesIn, boolean showFavIn) {
         super(cursor);
         this.context = context;
+        this.sharedPreferences = sharedPreferencesIn;
+        this.showFav = showFavIn;
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
@@ -62,6 +69,11 @@ public class STDRecyclerViewAdapter extends CursorRecyclerViewAdapter<STDRecycle
             public void onClick(View v) {
                 PopupMenu menu = new PopupMenu(context, v);
                 menu.getMenuInflater().inflate(R.menu.options_menu, menu.getMenu());
+
+                if (showFav) {
+                    Menu popupMenu = menu.getMenu();
+                    popupMenu.findItem(R.id.addToFav).setVisible(false);
+                }
 
                 try {
                     Field[] fields = menu.getClass().getDeclaredFields();
@@ -96,6 +108,29 @@ public class STDRecyclerViewAdapter extends CursorRecyclerViewAdapter<STDRecycle
                             sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareContent);
                             context.startActivity(Intent.createChooser(sharingIntent,
                                     context.getResources().getText(R.string.send_to)));
+                        } else if (item.getTitle().toString()
+                                .equals(context.getResources().getString(R.string.add_to_fav))) {
+                            SharedPreferences.Editor editor = sharedPreferences.edit();
+                            String stdCodes = sharedPreferences.getString("STDcodes", null);
+                            String stdCode = viewHolder.stdCode.getText().toString().trim();
+                            if (stdCodes != null) {
+                                if (!stdCodes.contains(stdCode)) {
+                                    stdCodes = stdCodes + ",'" +
+                                            viewHolder.stdCode.getText().toString().trim() + "'";
+                                    Toast.makeText(context, "Added Successfully!!!",
+                                            Toast.LENGTH_LONG).show();
+                                } else {
+                                    Toast.makeText(context, "Already Exist!!!", Toast.LENGTH_LONG)
+                                            .show();
+                                }
+                            } else {
+                                stdCodes =
+                                        "'" + viewHolder.stdCode.getText().toString().trim() + "'";
+                                Toast.makeText(context, "Added Successfully!!!", Toast.LENGTH_LONG)
+                                        .show();
+                            }
+                            editor.putString("STDcodes", stdCodes);
+                            editor.apply();
                         } else {
                             String uri = "http://maps.google.com/maps?q=" + viewHolder.city.getText().toString() + ", "
                                     + viewHolder.state.getText().toString();

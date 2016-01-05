@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical">
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical">
 
     <ScrollView
         android:id="@+id/pincodeView"
@@ -28,7 +28,7 @@
                 android:imeOptions="actionNext"
                 android:singleLine="true"
                 android:textColor="@color/accent"
-                android:textCursorDrawable="@drawable/cursor_drawable" />
+                android:textCursorDrawable="@drawable/cursor_drawable"/>
 
             <AutoCompleteTextView
                 android:id="@+id/districts"
@@ -39,7 +39,7 @@
                 android:imeOptions="actionNext"
                 android:singleLine="true"
                 android:textColor="@color/accent"
-                android:textCursorDrawable="@drawable/cursor_drawable" />
+                android:textCursorDrawable="@drawable/cursor_drawable"/>
 
             <EditText
                 android:id="@+id/text1"
@@ -50,7 +50,7 @@
                 android:imeOptions="actionSearch"
                 android:singleLine="true"
                 android:textColor="@color/accent"
-                android:textCursorDrawable="@drawable/cursor_drawable" />
+                android:textCursorDrawable="@drawable/cursor_drawable"/>
 
             <Button
                 android:id="@+id/Search"
@@ -60,7 +60,7 @@
                 android:background="@drawable/button_selector"
                 android:elevation="5dp"
                 android:text="@string/button_search"
-                android:textColor="@color/icons" />
+                android:textColor="@color/icons"/>
         </LinearLayout>
     </ScrollView>
 
@@ -98,7 +98,7 @@
                 android:imeOptions="actionNext"
                 android:singleLine="true"
                 android:textColor="@color/accent"
-                android:textCursorDrawable="@drawable/cursor_drawable" />
+                android:textCursorDrawable="@drawable/cursor_drawable"/>
 
             <AutoCompleteTextView
                 android:id="@+id/districtName"
@@ -109,7 +109,7 @@
                 android:imeOptions="actionNext"
                 android:singleLine="true"
                 android:textColor="@color/accent"
-                android:textCursorDrawable="@drawable/cursor_drawable" />
+                android:textCursorDrawable="@drawable/cursor_drawable"/>
 
             <EditText
                 android:id="@+id/branchName"
@@ -120,7 +120,7 @@
                 android:imeOptions="actionSearch"
                 android:singleLine="true"
                 android:textColor="@color/accent"
-                android:textCursorDrawable="@drawable/cursor_drawable" />
+                android:textCursorDrawable="@drawable/cursor_drawable"/>
 
             <Button
                 android:id="@+id/ifscSearch"
@@ -130,7 +130,7 @@
                 android:background="@drawable/button_selector"
                 android:elevation="5dp"
                 android:text="@string/button_search"
-                android:textColor="@color/icons" />
+                android:textColor="@color/icons"/>
         </LinearLayout>
     </ScrollView>
 
@@ -157,7 +157,7 @@
                 android:imeOptions="actionNext"
                 android:singleLine="true"
                 android:textColor="@color/accent"
-                android:textCursorDrawable="@drawable/cursor_drawable" />
+                android:textCursorDrawable="@drawable/cursor_drawable"/>
 
             <EditText
                 android:id="@+id/cityName"
@@ -169,7 +169,7 @@
                 android:inputType="text"
                 android:singleLine="true"
                 android:textColor="@color/accent"
-                android:textCursorDrawable="@drawable/cursor_drawable" />
+                android:textCursorDrawable="@drawable/cursor_drawable"/>
 
             <Button
                 android:id="@+id/stdSearch"
@@ -180,7 +180,7 @@
                 android:elevation="5dp"
                 android:text="@string/button_search"
                 android:textColor="@color/icons"
-                android:textCursorDrawable="@drawable/cursor_drawable" />
+                android:textCursorDrawable="@drawable/cursor_drawable"/>
         </LinearLayout>
     </ScrollView>
 
@@ -207,7 +207,7 @@
                 android:imeOptions="actionNext"
                 android:singleLine="true"
                 android:textColor="@color/accent"
-                android:textCursorDrawable="@drawable/cursor_drawable" />
+                android:textCursorDrawable="@drawable/cursor_drawable"/>
 
             <EditText
                 android:id="@+id/rtoCityName"
@@ -218,7 +218,7 @@
                 android:imeOptions="actionSearch"
                 android:singleLine="true"
                 android:textColor="@color/accent"
-                android:textCursorDrawable="@drawable/cursor_drawable" />
+                android:textCursorDrawable="@drawable/cursor_drawable"/>
 
             <Button
                 android:id="@+id/rtoSearch"
@@ -228,7 +228,7 @@
                 android:background="@drawable/button_selector"
                 android:elevation="5dp"
                 android:text="@string/button_search"
-                android:textColor="@color/icons" />
+                android:textColor="@color/icons"/>
         </LinearLayout>
     </ScrollView>
 

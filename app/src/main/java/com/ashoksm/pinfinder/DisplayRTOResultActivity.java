@@ -1,7 +1,9 @@
 package com.ashoksm.pinfinder;
 
 import android.annotation.TargetApi;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.os.AsyncTask;
 import android.os.Build;
@@ -33,6 +35,10 @@ public class DisplayRTOResultActivity extends AppCompatActivity {
 
     private String cityName;
 
+    private boolean showFav;
+
+    private SharedPreferences sharedPreferences;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,6 +46,7 @@ public class DisplayRTOResultActivity extends AppCompatActivity {
         final Toolbar toolbar = (Toolbar) findViewById(R.id.my_awesome_toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
         setSupportActionBar(toolbar);
+        sharedPreferences = getSharedPreferences("AllCodeFinder", Context.MODE_PRIVATE);
 
         final RecyclerView mRecyclerView = (RecyclerView) findViewById(R.id.gridView);
 
@@ -64,9 +71,14 @@ public class DisplayRTOResultActivity extends AppCompatActivity {
         Locale l = Locale.getDefault();
         // Get the message from the intent
         final Intent intent = getIntent();
-        stateName = intent.getStringExtra(STDView.EXTRA_STATE).toLowerCase(l).replaceAll(" ", "").replaceAll("'", "''");
-        cityName = intent.getStringExtra(STDView.EXTRA_CITY).toLowerCase(l).replaceAll(" ", "").replaceAll("'", "''");
-
+        showFav = intent.getBooleanExtra(MainActivity.EXTRA_SHOW_FAV, false);
+        if(!showFav) {
+            stateName =
+                    intent.getStringExtra(STDView.EXTRA_STATE).toLowerCase(l).replaceAll(" ", "")
+                            .replaceAll("'", "''");
+            cityName = intent.getStringExtra(STDView.EXTRA_CITY).toLowerCase(l).replaceAll(" ", "")
+                    .replaceAll("'", "''");
+        }
         // load ad
         final LinearLayout adParent = (LinearLayout) this.findViewById(R.id.adLayout);
         final AdView ad = new AdView(this);
@@ -107,8 +119,11 @@ public class DisplayRTOResultActivity extends AppCompatActivity {
             protected Void doInBackground(Void... params) {
                 try {
                     sqLiteHelper = new RTOSQLiteHelper(DisplayRTOResultActivity.this);
-                    c = sqLiteHelper.findRTOCodes(stateName, cityName);
-                    // sqLiteHelper.closeDB();
+                    if(showFav) {
+                        c = sqLiteHelper.findFavRTOCodes(sharedPreferences.getString("RTOCodes", null));
+                    } else {
+                        c = sqLiteHelper.findRTOCodes(stateName, cityName);
+                    }
                 } catch (Exception ex) {
                     Log.e("DisplayRTOResult", ex.getMessage());
                 }
@@ -121,11 +136,12 @@ public class DisplayRTOResultActivity extends AppCompatActivity {
                     if (getSupportActionBar() != null) {
                         getSupportActionBar().setTitle(c.getCount() + " Results found");
                     }
-                    adapter = new RTORecyclerViewAdapter(DisplayRTOResultActivity.this, c);
+                    adapter = new RTORecyclerViewAdapter(DisplayRTOResultActivity.this, c, sharedPreferences, showFav);
                     mRecyclerView.setAdapter(adapter);
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {
-                    LinearLayout noMatchingLayout = (LinearLayout) findViewById(R.id.noMatchingLayout);
+                    LinearLayout noMatchingLayout =
+                            (LinearLayout) findViewById(R.id.noMatchingLayout);
                     noMatchingLayout.setVisibility(View.VISIBLE);
                 }
                 // HIDE THE SPINNER AFTER LOADING FEEDS

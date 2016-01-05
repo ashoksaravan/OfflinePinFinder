@@ -78,6 +78,7 @@ public class RTOView {
         Intent intent = new Intent(context, DisplayRTOResultActivity.class);
         intent.putExtra(EXTRA_STATE, stateName.trim());
         intent.putExtra(EXTRA_CITY, city.trim());
+        intent.putExtra(MainActivity.EXTRA_SHOW_FAV, false);
         context.startActivity(intent);
         context.overridePendingTransition(R.anim.slide_out_left, 0);
     }

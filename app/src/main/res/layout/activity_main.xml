@@ -10,19 +10,22 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
     android:id="@+id/sample_main_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+    <android.support.v7.widget.Toolbar
         android:id="@+id/my_awesome_toolbar"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -30,19 +33,80 @@
         android:layout_weight="2">
 
         <FrameLayout
-            android:id="@+id/pinfinder_content_fragment"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="fill_parent"
             android:layout_above="@+id/ad"
-            android:layout_alignParentTop="true" />
+            android:layout_alignParentTop="true">
+
+            <FrameLayout
+                android:id="@+id/pinfinder_content_fragment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.github.clans.fab.FloatingActionMenu
+                android:id="@+id/floatingActionMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                fab:menu_animationDelayPerItem="0"
+                fab:menu_colorNormal="@color/accent"
+                fab:menu_colorPressed="@color/primary_dark"
+                fab:menu_colorRipple="@color/primary_light"
+                fab:menu_icon="@drawable/ic_star"
+                fab:menu_labels_hideAnimation="@anim/jump_to_down"
+                fab:menu_labels_showAnimation="@anim/jump_from_down"
+                fab:menu_labels_style="@style/MenuLabelsStyle"
+                fab:menu_shadowColor="#80000000">
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/floating_pincode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_floating_pincode"
+                    fab:fab_colorNormal="@color/accent"
+                    fab:fab_colorPressed="@color/primary_dark"
+                    fab:fab_colorRipple="@color/primary_light"
+                    fab:fab_label="@string/title_section1"
+                    fab:fab_size="mini"/>
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/floating_ifsc"
+                    style="@style/MenuButtonsSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_floating_ifsc"
+                    fab:fab_label="@string/title_section2"/>
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/floating_std"
+                    style="@style/MenuButtonsSmall.Green"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_floating_std"
+                    fab:fab_label="@string/title_section3"/>
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/floating_rto"
+                    style="@style/MenuButtonsSmall.Yellow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_floating_rto"
+                    fab:fab_label="@string/title_section4"/>
+
+            </com.github.clans.fab.FloatingActionMenu>
+        </FrameLayout>
 
         <LinearLayout
             android:id="@+id/ad"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:visibility="gone"
-            android:orientation="horizontal" />
+            android:orientation="horizontal"
+            android:visibility="gone"/>
     </RelativeLayout>
 
 </LinearLayout>

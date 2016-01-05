@@ -1,7 +1,9 @@
 package com.ashoksm.pinfinder;
 
 import android.annotation.TargetApi;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.os.AsyncTask;
 import android.os.Build;
@@ -37,6 +39,10 @@ public class DisplayBankBranchResultActivity extends AppCompatActivity {
 
     private String branchName;
 
+    private boolean showFav;
+
+    private SharedPreferences sharedPreferences;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,6 +50,7 @@ public class DisplayBankBranchResultActivity extends AppCompatActivity {
         final Toolbar toolbar = (Toolbar) findViewById(R.id.my_awesome_toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
         setSupportActionBar(toolbar);
+        sharedPreferences = getSharedPreferences("AllCodeFinder", Context.MODE_PRIVATE);
 
         final RecyclerView mRecyclerView = (RecyclerView) findViewById(R.id.gridView);
 
@@ -68,14 +75,21 @@ public class DisplayBankBranchResultActivity extends AppCompatActivity {
         Locale l = Locale.getDefault();
         // Get the message from the intent
         final Intent intent = getIntent();
-        stateName = intent.getStringExtra(BankView.EXTRA_STATE).toLowerCase(l).replaceAll(" ", "")
-                .replaceAll("'", "''");
-        districtName = intent.getStringExtra(BankView.EXTRA_DISTRICT).toLowerCase(l).replaceAll(" ", "")
-                .replaceAll("'", "''");
-        bankName = intent.getStringExtra(BankView.EXTRA_BANK).toLowerCase(l).replaceAll(" ", "").replaceAll("'", "''");
-        branchName = intent.getStringExtra(BankView.EXTRA_BRANCH).toLowerCase(l).replaceAll(" ", "")
-                .replaceAll("'", "''");
-
+        showFav = intent.getBooleanExtra(MainActivity.EXTRA_SHOW_FAV, false);
+        if (!showFav) {
+            stateName =
+                    intent.getStringExtra(BankView.EXTRA_STATE).toLowerCase(l).replaceAll(" ", "")
+                            .replaceAll("'", "''");
+            districtName =
+                    intent.getStringExtra(BankView.EXTRA_DISTRICT).toLowerCase(l)
+                            .replaceAll(" ", "")
+                            .replaceAll("'", "''");
+            bankName = intent.getStringExtra(BankView.EXTRA_BANK).toLowerCase(l).replaceAll(" ", "")
+                    .replaceAll("'", "''");
+            branchName =
+                    intent.getStringExtra(BankView.EXTRA_BRANCH).toLowerCase(l).replaceAll(" ", "")
+                            .replaceAll("'", "''");
+        }
         // load ad
         final LinearLayout adParent = (LinearLayout) this.findViewById(R.id.adLayout);
         final AdView ad = new AdView(this);
@@ -116,8 +130,13 @@ public class DisplayBankBranchResultActivity extends AppCompatActivity {
             protected Void doInBackground(Void... params) {
                 try {
                     sqLiteHelper = new BankBranchSQLiteHelper(DisplayBankBranchResultActivity.this);
-                    c = sqLiteHelper.findIfscCodes(stateName, districtName, bankName, branchName);
-                    // sqLiteHelper.closeDB();
+                    if (showFav) {
+                        c = sqLiteHelper
+                                .findFavIfscCodes(sharedPreferences.getString("ifscs", null));
+                    } else {
+                        c = sqLiteHelper
+                                .findIfscCodes(stateName, districtName, bankName, branchName);
+                    }
                 } catch (Exception ex) {
                     Log.e(this.getClass().getName(), ex.getMessage());
                 }
@@ -126,16 +145,19 @@ public class DisplayBankBranchResultActivity extends AppCompatActivity {
 
             @Override
             protected void onPostExecute(Void result) {
-                if (getSupportActionBar() != null) {
+                if (showFav && getSupportActionBar() != null) {
+                    getSupportActionBar().setTitle(c.getCount() + " Results Found");
+                } else if (getSupportActionBar() != null) {
                     getSupportActionBar().setTitle(intent.getStringExtra(BankView.EXTRA_BANK));
                 }
                 if (c != null && c.getCount() > 0) {
                     adapter = new IFSCRecyclerViewAdapter(DisplayBankBranchResultActivity.this, c,
-                            intent.getStringExtra(BankView.EXTRA_BANK));
+                            intent.getStringExtra(BankView.EXTRA_BANK), sharedPreferences, showFav);
                     mRecyclerView.setAdapter(adapter);
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {
-                    LinearLayout noMatchingLayout = (LinearLayout) findViewById(R.id.noMatchingLayout);
+                    LinearLayout noMatchingLayout =
+                            (LinearLayout) findViewById(R.id.noMatchingLayout);
                     noMatchingLayout.setVisibility(View.VISIBLE);
                 }
                 // HIDE THE SPINNER AFTER LOADING FEEDS

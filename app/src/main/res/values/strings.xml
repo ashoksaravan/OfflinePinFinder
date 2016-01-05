@@ -33132,5 +33132,6 @@
     <string name="select_state">Please Select a State</string>
     <string name="select_district">Please Select a District</string>
     <string name="bank_name">Bank Name</string>
+    <string name="add_to_fav">Add To Favorite</string>
 
 </resources>

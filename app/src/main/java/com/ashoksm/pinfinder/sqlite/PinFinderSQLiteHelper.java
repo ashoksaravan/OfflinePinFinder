@@ -2,7 +2,6 @@ package com.ashoksm.pinfinder.sqlite;
 
 import android.app.ProgressDialog;
 import android.database.Cursor;
-import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
@@ -336,5 +335,21 @@ public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
         if (db != null && db.isOpen()) {
             db.close();
         }
+    }
+
+    public Cursor findFavOffices(final String pincodes) {
+        SQLiteDatabase db = this.getReadableDatabase();
+
+        String select = "SELECT  " + NAME + " AS _id, " + PIN_CODE + ", " + STATUS_NAME + ", " + SUB_OFFICE + ", "
+                + HEAD_OFFICE + ", l." + LOCATION_NAME + ", d." + DISTRICT_NAME + ", s." + STATE_NAME + ", "
+                + TELEPHONE + " FROM " + TABLE_POST_OFFICE + " ps" + " INNER JOIN " + TABLE_STATE + " s ON ps." + STATE
+                + " = s." + STATE + " INNER JOIN " + TABLE_DISTRICT + " d ON ps." + DISTRICT + " = d." + DISTRICT
+                + " AND d." + STATE + " = s." + STATE + " INNER JOIN " + TABLE_LOCATION + " l ON ps." + LOCATION
+                + " = l." + LOCATION + " INNER JOIN " + TABLE_STATUS + " sc ON ps." + STATUS_CODE + " = sc."
+                + STATUS_CODE;
+        String where = " WHERE " +PIN_CODE + " IN (" + pincodes + ")";
+        String selectQuery = select + where;
+        Log.d(CLASS_NAME, selectQuery);
+        return db.rawQuery(selectQuery, null);
     }
 }

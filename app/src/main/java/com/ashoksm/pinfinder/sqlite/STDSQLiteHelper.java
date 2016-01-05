@@ -39,12 +39,15 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
     public static final String ID = "_id";
 
     // post_office_t table create statement
-    private static final String CREATE_STATE_TABLE = "CREATE TABLE " + TABLE_STATE + "(" + STATE + " INTEGER, "
-            + STATE_NAME + " TEXT, " + "PRIMARY KEY (" + STATE + "))";
+    private static final String CREATE_STATE_TABLE =
+            "CREATE TABLE " + TABLE_STATE + "(" + STATE + " INTEGER, "
+                    + STATE_NAME + " TEXT, " + "PRIMARY KEY (" + STATE + "))";
 
-    private static final String CREATE_STD_TABLE = "CREATE TABLE " + TABLE_STD + "(" + STATE + " INTEGER, " + CITY
-            + " TEXT, " + STD_CODE + " TEXT, " + "FOREIGN KEY(" + STATE + ") REFERENCES " + TABLE_STATE + "(" + STATE
-            + "), " + "PRIMARY KEY (" + STATE + "," + CITY + "," + STD_CODE + "))";
+    private static final String CREATE_STD_TABLE =
+            "CREATE TABLE " + TABLE_STD + "(" + STATE + " INTEGER, " + CITY
+                    + " TEXT, " + STD_CODE + " TEXT, " + "FOREIGN KEY(" + STATE + ") REFERENCES " +
+                    TABLE_STATE + "(" + STATE
+                    + "), " + "PRIMARY KEY (" + STATE + "," + CITY + "," + STD_CODE + "))";
 
     public STDSQLiteHelper(DisplaySTDResultActivity displaySTDResultActivityIn) {
         super(displaySTDResultActivityIn, DATABASE_NAME, null, DATABASE_VERSION);
@@ -101,7 +104,8 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
                 if (name.endsWith(".sql")) {
                     // Open the resource
                     InputStream insertsStream = context.getAssets().open("sql/std/" + name);
-                    BufferedReader insertReader = new BufferedReader(new InputStreamReader(insertsStream));
+                    BufferedReader insertReader =
+                            new BufferedReader(new InputStreamReader(insertsStream));
 
                     while (insertReader.ready()) {
                         String insertStmt = insertReader.readLine();
@@ -154,11 +158,13 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
      * @param cityName  cityName
      * @return Cursor
      */
-    public Cursor findRTOCodes(final String stateName, final String cityName) {
+    public Cursor findSTDCodes(final String stateName, final String cityName) {
         SQLiteDatabase db = this.getReadableDatabase();
 
-        String select = "SELECT  s." + STATE_NAME + ", " + CITY + ", " + STD_CODE + " AS _id FROM " + TABLE_STD + " st"
-                + " INNER JOIN " + TABLE_STATE + " s ON st." + STATE + " = s." + STATE;
+        String select =
+                "SELECT  s." + STATE_NAME + ", " + CITY + ", " + STD_CODE + " AS _id FROM " +
+                        TABLE_STD + " st"
+                        + " INNER JOIN " + TABLE_STATE + " s ON st." + STATE + " = s." + STATE;
         String where = "";
 
         if (stateName.trim().length() > 0) {
@@ -168,7 +174,8 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
             where = where + " AND (LOWER(REPLACE(st." + CITY + ",' ','')) LIKE '%" + cityName
                     + "%' OR LOWER(REPLACE(st." + STD_CODE + ",' ','')) LIKE '%" + cityName + "%')";
         } else if (cityName.trim().length() > 0) {
-            where = " WHERE (LOWER(REPLACE(st." + CITY + ",' ','')) LIKE '%" + cityName + "%' OR LOWER(REPLACE(st."
+            where = " WHERE (LOWER(REPLACE(st." + CITY + ",' ','')) LIKE '%" + cityName +
+                    "%' OR LOWER(REPLACE(st."
                     + STD_CODE + ",' ','')) LIKE '%" + cityName + "%')";
         }
         String selectQuery = select + where;
@@ -183,5 +190,15 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
         if (db != null && db.isOpen()) {
             db.close();
         }
+    }
+
+    public Cursor findFavSTDCodes(String stdcodes) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        String select =
+                "SELECT  s." + STATE_NAME + ", " + CITY + ", " + STD_CODE + " AS _id FROM " +
+                        TABLE_STD + " st"
+                        + " INNER JOIN " + TABLE_STATE + " s ON st." + STATE + " = s." + STATE
+                        + " WHERE " + STD_CODE + " IN (" + stdcodes + ")";
+        return db.rawQuery(select, null);
     }
 }

@@ -136,6 +136,7 @@ public class BankView {
             intent.putExtra(EXTRA_DISTRICT, districtName.trim());
             intent.putExtra(EXTRA_BANK, bankName.trim());
             intent.putExtra(EXTRA_BRANCH, branch.trim());
+            intent.putExtra(MainActivity.EXTRA_SHOW_FAV, false);
             context.startActivity(intent);
             context.overridePendingTransition(R.anim.slide_out_left, 0);
         } else {
