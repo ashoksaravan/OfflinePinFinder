@@ -17,6 +17,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 import com.ashoksm.pinfinder.adapter.RTORecyclerViewAdapter;
+import com.ashoksm.pinfinder.common.AppRater;
 import com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -149,6 +150,7 @@ public class DisplayRTOResultActivity extends AppCompatActivity {
             }
 
         }.execute();
+        AppRater.appLaunched(this);
     }
 
     @Override

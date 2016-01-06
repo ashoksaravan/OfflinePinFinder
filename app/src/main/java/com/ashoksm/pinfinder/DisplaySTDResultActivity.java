@@ -16,6 +16,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 import com.ashoksm.pinfinder.adapter.STDRecyclerViewAdapter;
+import com.ashoksm.pinfinder.common.AppRater;
 import com.ashoksm.pinfinder.common.activities.ActivityBase;
 import com.ashoksm.pinfinder.sqlite.STDSQLiteHelper;
 import com.google.android.gms.ads.AdListener;
@@ -149,6 +150,7 @@ public class DisplaySTDResultActivity extends ActivityBase {
             }
 
         }.execute();
+        AppRater.appLaunched(this);
     }
 
     @Override

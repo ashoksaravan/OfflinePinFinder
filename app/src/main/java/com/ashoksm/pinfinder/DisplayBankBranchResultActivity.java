@@ -17,6 +17,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 import com.ashoksm.pinfinder.adapter.IFSCRecyclerViewAdapter;
+import com.ashoksm.pinfinder.common.AppRater;
 import com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -165,6 +166,7 @@ public class DisplayBankBranchResultActivity extends AppCompatActivity {
             }
 
         }.execute();
+        AppRater.appLaunched(this);
     }
 
     @Override

@@ -39,6 +39,11 @@
     <string name="rtoCode">RTO Code</string>
     <string name="loading">Loading…</string>
     <string name="mapsNotFount">Google maps not found!!!</string>
+    <string name="remind_me_later">Remind me later</string>
+    <string name="no_thanks">No, thanks</string>
+    <string name="rate_content">If you enjoy using this app, please take a moment to rate it. Thanks for your support!</string>
+    <string name="rate_title">Rate Pincode, IFSC, STD, RTO Finder</string>
+
 
     <string-array name="states_array">
         <item>Andaman &amp; Nicobar Islands</item>

@@ -17,6 +17,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 import com.ashoksm.pinfinder.adapter.PinCodeRecyclerViewAdapter;
+import com.ashoksm.pinfinder.common.AppRater;
 import com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -157,6 +158,7 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
             }
 
         }.execute();
+        AppRater.appLaunched(this);
     }
 
     @Override
