@@ -22,7 +22,7 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
     private static final String CLASS_NAME = BankBranchSQLiteHelper.class.getName();
 
     // Database Version
-    private static final int DATABASE_VERSION = 7;
+    private static final int DATABASE_VERSION = 8;
 
     // Database Name
     private static final String DATABASE_NAME = "ashoksm.bankbranch";
@@ -231,8 +231,7 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
         String select = "SELECT  l." + BANK + ", " + NAME + ", " + CITY + ", l." + STATE + ", l." +
                 DISTRICT + ", " + ADDRESS + ", "
                 + CONTACT + "," + MICR + ", " + IFSC + " AS _id FROM " + TABLE_BANK_BRANCH + " ps" +
-                " INNER JOIN "
-                + TABLE_LOCATION + " l ON ps." + LOCATION + " = l." + LOCATION + " WHERE " + IFSC
+                " INNER JOIN " + TABLE_LOCATION + " l ON ps." + LOCATION + " = l." + LOCATION + " WHERE " + IFSC
                 + " IN (" + ifsc + ")";
         return db.rawQuery(select, null);
     }

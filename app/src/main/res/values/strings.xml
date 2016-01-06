@@ -1481,6 +1481,7 @@
         <item>Indian Overseas Bank</item>
         <item>Indusind Bank</item>
         <item>Industrial and Commercial Bank of China Ltd</item>
+        <item>Industrial Bank of Korea</item>
         <item>Ing Vysya Bank</item>
         <item>Jalgaon Janata Sahkari Bank Ltd</item>
         <item>Jammu And Kashmir Bank Ltd</item>
@@ -1812,6 +1813,7 @@
         <item>Kachchh</item>
         <item>Kutch</item>
         <item>Mahesana</item>
+        <item>Narmada</item>
         <item>Navsari</item>
         <item>Panch Mahals</item>
         <item>Panchmahals</item>
@@ -1929,6 +1931,7 @@
         <item>Anupur</item>
         <item>Balaghat</item>
         <item>Bhopal</item>
+        <item>Burhanpur</item>
         <item>Chhatarpur</item>
         <item>Chhattarpur</item>
         <item>Chhindwara</item>
@@ -2271,6 +2274,7 @@
         <item>Nadia</item>
         <item>North 24 Parganas</item>
         <item>Purba Medinipur</item>
+        <item>Purba Midnapore</item>
         <item>Puruliya</item>
         <item>South 24 Parganas</item>
         <item>Uttar Dinajpur</item>
@@ -2388,6 +2392,7 @@
         <item>Madhubani</item>
         <item>Munger</item>
         <item>Muzaffarpur</item>
+        <item>Nalanda</item>
         <item>Paschimi Champaran</item>
         <item>Patna</item>
         <item>Purbi Champaran</item>
@@ -2414,6 +2419,7 @@
         <item>Bilaspur</item>
         <item>Dhamtari</item>
         <item>Durg</item>
+        <item>Kanker</item>
         <item>Raipur</item>
         <item>Surguja</item>
     </string-array>
@@ -2579,6 +2585,7 @@
         <item>Nasik</item>
         <item>Parbhani</item>
         <item>Pune</item>
+        <item>Raigad</item>
         <item>Ratnagiri</item>
         <item>Sangli</item>
         <item>Satara</item>
@@ -2618,8 +2625,10 @@
         <item>Mayurbhanj</item>
         <item>Nalgonda</item>
         <item>Navaragpur</item>
+        <item>Nawapara</item>
         <item>Nayagarh</item>
         <item>Nowrangpur</item>
+        <item>Phulabani</item>
         <item>Phulbani</item>
         <item>Puri</item>
         <item>Rayagada</item>
@@ -2670,10 +2679,12 @@
         <item>Churu</item>
         <item>Dausa</item>
         <item>Dholpur</item>
+        <item>Dungarpur</item>
         <item>Ganganagar</item>
         <item>Hanumangarh</item>
         <item>Jaipur</item>
         <item>Jaisalmer</item>
+        <item>Jalor</item>
         <item>Jhalawar</item>
         <item>Jhunjhunu</item>
         <item>Jodhpur</item>
@@ -2774,6 +2785,7 @@
         <item>Kanpur Nagar</item>
         <item>Kushi Nagar</item>
         <item>Lucknow</item>
+        <item>Maharajganj</item>
         <item>Mathura</item>
         <item>Meerut</item>
         <item>Moradabad</item>
@@ -2898,7 +2910,7 @@
     <string-array name="axisbank_andhrapradesh_districts">
         <item>Adilabad</item>
         <item>Anantapur</item>
-        <item>Anantapur?ß</item>
+        <item>Anantapur?รก</item>
         <item>Anantpur</item>
         <item>Chittoor</item>
         <item>Chittor</item>
@@ -2979,6 +2991,7 @@
         <item>Kishanganj</item>
         <item>Lakhisarai</item>
         <item>Madhepura</item>
+        <item>Madhubani</item>
         <item>Munger</item>
         <item>Muzaffarpur</item>
         <item>Nalanda</item>
@@ -3241,6 +3254,7 @@
         <item>Morena</item>
         <item>Narsimhapur</item>
         <item>Neemuch</item>
+        <item>Panna</item>
         <item>Raipur</item>
         <item>Raisen</item>
         <item>Rajgarh</item>
@@ -3273,6 +3287,7 @@
         <item>Buldhana</item>
         <item>Chandrapur</item>
         <item>Dhule</item>
+        <item>Gadhchiroli</item>
         <item>Gondia</item>
         <item>Greater Bombay</item>
         <item>Greater Mumbai</item>
@@ -3304,6 +3319,7 @@
     </string-array>
     <string-array name="axisbank_manipur_districts">
         <item>Bishenpur</item>
+        <item>Bishnupur</item>
         <item>Churachandpur</item>
         <item>Imphal</item>
         <item>Imphal East</item>
@@ -3485,7 +3501,9 @@
         <item>Hyderabad</item>
         <item>Karimnagar</item>
         <item>Khammam</item>
+        <item>Mahbubnagar</item>
         <item>Nalgonda</item>
+        <item>Nizamabad</item>
         <item>Ranga Reddy</item>
     </string-array>
     <string-array name="axisbank_tripura_districts">
@@ -3567,11 +3585,13 @@
         <item>Varanasi</item>
     </string-array>
     <string-array name="axisbank_uttarakhand_districts">
+        <item>Bareilly</item>
         <item>Dehra DUN</item>
         <item>Dehradun</item>
         <item>Haridwar</item>
         <item>Nainital</item>
         <item>Pauri Garhwal</item>
+        <item>Shrinagar</item>
         <item>Udham Singh Nagar</item>
         <item>Udhamsingh Nagar</item>
     </string-array>
@@ -3600,6 +3620,7 @@
         <item>North 24 Parganas</item>
         <item>North Dinajpur</item>
         <item>Parganas</item>
+        <item>Paschim Medinipur</item>
         <item>Purba Medinipur</item>
         <item>Purulia</item>
         <item>Puruliya</item>
@@ -3707,30 +3728,41 @@
     <string-array name="bandhanbankltd_chhattisgarh_districts">
         <item>Balod</item>
         <item>Bemetara</item>
+        <item>Bilaspur</item>
         <item>Dhamtari</item>
         <item>Janjgir-champa</item>
         <item>Kanker</item>
         <item>Kawardha</item>
+        <item>Korba</item>
         <item>Mungeli</item>
         <item>Raipur</item>
         <item>Rajnandgaon</item>
     </string-array>
     <string-array name="bandhanbankltd_delhi_districts">
         <item>Central Delhi</item>
+        <item>East Delhi</item>
         <item>NEW Delhi</item>
     </string-array>
     <string-array name="bandhanbankltd_gujarat_districts">
         <item>Ahmedabad</item>
         <item>Anand</item>
+        <item>Bharuch</item>
+        <item>Gandhinagar</item>
         <item>Mehsana</item>
         <item>Narmada</item>
         <item>Sabarkantha</item>
+        <item>Surat</item>
         <item>Surendranagar</item>
+        <item>Vadodara</item>
+        <item>Valsad</item>
     </string-array>
     <string-array name="bandhanbankltd_haryana_districts">
         <item>Ambala</item>
+        <item>Karnal</item>
         <item>Panipat</item>
+        <item>Sonepat</item>
         <item>Sonipat</item>
+        <item>UGO</item>
     </string-array>
     <string-array name="bandhanbankltd_jharkhand_districts">
         <item>Bokaro</item>
@@ -3750,6 +3782,9 @@
     <string-array name="bandhanbankltd_karnataka_districts">
         <item>Bangalore</item>
     </string-array>
+    <string-array name="bandhanbankltd_kerala_districts">
+        <item>Thiruvananthapuram</item>
+    </string-array>
     <string-array name="bandhanbankltd_madhyapradesh_districts">
         <item>Betul</item>
         <item>Bhopal</item>
@@ -3757,12 +3792,14 @@
         <item>Harda</item>
         <item>Hoshangabad</item>
         <item>Indore</item>
+        <item>Jhabua</item>
         <item>Khandwa</item>
         <item>Mandsaur</item>
         <item>Neemuch</item>
         <item>Rajgarh</item>
         <item>Ratlam</item>
         <item>Sagar</item>
+        <item>Satna</item>
         <item>Shajapur</item>
         <item>Shivpuri</item>
         <item>Ujjain</item>
@@ -3774,10 +3811,14 @@
         <item>Kolhapur</item>
         <item>Mumbai Suburban</item>
         <item>Nashik</item>
+        <item>Pune</item>
         <item>Raigad</item>
         <item>Satara</item>
         <item>Solapur</item>
         <item>Thane</item>
+    </string-array>
+    <string-array name="bandhanbankltd_meghalaya_districts">
+        <item>East Khasi Hills</item>
     </string-array>
     <string-array name="bandhanbankltd_mizoram_districts">
         <item>Kolasib</item>
@@ -3788,9 +3829,12 @@
     <string-array name="bandhanbankltd_odisha_districts">
         <item>Balasore</item>
         <item>Bhadrak</item>
+        <item>Cuttack</item>
         <item>Jajpur</item>
         <item>Khordha</item>
+        <item>Khurda</item>
         <item>Mayurbhanj</item>
+        <item>Puri</item>
     </string-array>
     <string-array name="bandhanbankltd_punjab_districts">
         <item>Amritsar</item>
@@ -3803,10 +3847,13 @@
         <item>Ajmer</item>
         <item>Alwar</item>
         <item>Baran</item>
+        <item>Bhilwara</item>
         <item>Bikaner</item>
         <item>Dausa</item>
         <item>Jaipur</item>
+        <item>Jodhpur</item>
         <item>Kota</item>
+        <item>Nagaur</item>
         <item>Sikar</item>
         <item>Udaipur</item>
     </string-array>
@@ -3816,6 +3863,9 @@
     <string-array name="bandhanbankltd_tamilnadu_districts">
         <item>Chennai</item>
         <item>Kanchipuram</item>
+    </string-array>
+    <string-array name="bandhanbankltd_telangana_districts">
+        <item>Hyderabad</item>
     </string-array>
     <string-array name="bandhanbankltd_tripura_districts">
         <item>Dhalai</item>
@@ -3829,12 +3879,14 @@
     <string-array name="bandhanbankltd_uttarpradesh_districts">
         <item>Bagpat</item>
         <item>Ballia</item>
+        <item>Bareilly</item>
         <item>Bijnor</item>
         <item>Bulandshahar</item>
         <item>Chandauli</item>
         <item>Deoria</item>
         <item>Ghaziabad</item>
         <item>Gorakhpur</item>
+        <item>Lucknow</item>
         <item>Meerut</item>
         <item>Mirzapur</item>
         <item>Muzaffarnagar</item>
@@ -3877,8 +3929,10 @@
         <item>Haryana</item>
         <item>Jharkhand</item>
         <item>Karnataka</item>
+        <item>Kerala</item>
         <item>Madhya Pradesh</item>
         <item>Maharashtra</item>
+        <item>Meghalaya</item>
         <item>Mizoram</item>
         <item>Nagaland</item>
         <item>Odisha</item>
@@ -3886,6 +3940,7 @@
         <item>Rajasthan</item>
         <item>Sikkim</item>
         <item>Tamil Nadu</item>
+        <item>Telangana</item>
         <item>Tripura</item>
         <item>Uttar Pradesh</item>
         <item>Uttarakhand</item>
@@ -4193,6 +4248,7 @@
         <item>Mota Khanpur</item>
         <item>Nadiad</item>
         <item>Narmada</item>
+        <item>Navasari</item>
         <item>Navsari</item>
         <item>PIJ</item>
         <item>POR</item>
@@ -4640,7 +4696,6 @@
         <item>Patonde</item>
         <item>Pimper Khede</item>
         <item>Pimpri</item>
-        <item>Prarthana Samaj</item>
         <item>Pune</item>
         <item>Raigad</item>
         <item>Ratnagiri</item>
@@ -4785,6 +4840,7 @@
         <item>Gurdaspur</item>
         <item>Hoshiarpur</item>
         <item>Hosiarpur</item>
+        <item>Jalalabad</item>
         <item>Jalandhar</item>
         <item>Kapurthala</item>
         <item>Ludhiana</item>
@@ -6936,6 +6992,7 @@
         <item>Borgi Budruk (DIST. Sangli)</item>
         <item>Borli Mandla (dist Raigad)</item>
         <item>Budh (dist Satara)</item>
+        <item>Buldhana</item>
         <item>Buldhana(mh)</item>
         <item>Chacher Dist Nagpur</item>
         <item>Chakati ( MH)</item>
@@ -7440,6 +7497,7 @@
         <item>Kharirar (distt Nuapada) OR</item>
         <item>Khetribarapur (DIST. Ganjam)</item>
         <item>Khorda(odisha)</item>
+        <item>Khordha</item>
         <item>Khunta IDIST. Mayurbhanj)</item>
         <item>Khurda</item>
         <item>Kodapada (DIST. Keonjhar)</item>
@@ -7825,6 +7883,7 @@
         <item>Azamgarh</item>
         <item>Babugarh (DIST. Ghaziabad)</item>
         <item>Badaun (U.P.)</item>
+        <item>Baghpat</item>
         <item>Baharaich</item>
         <item>Bahramghat (DIST. Barabanki)</item>
         <item>Ballia</item>
@@ -8555,6 +8614,7 @@
     </string-array>
     <string-array name="bankofmaharashtra_maharashtra_districts">
         <item>Ahmadnagar</item>
+        <item>Ahmednagar</item>
         <item>Akola</item>
         <item>Amravati</item>
         <item>Aurangabad</item>
@@ -8811,11 +8871,14 @@
         <item>Maharashtra</item>
     </string-array>
     <string-array name="bharatco_opbankmumbailtd_gujarat_districts">
+        <item>Surat</item>
+        <item>Vadodara</item>
         <item>Valsad</item>
     </string-array>
     <string-array name="bharatco_opbankmumbailtd_karnataka_districts">
         <item>Bangalore</item>
         <item>Bangalore Urban</item>
+        <item>Bengaluru</item>
         <item>Dakshin Kannad</item>
         <item>Dakshin Kannada</item>
         <item>Dakshina Kannada</item>
@@ -8869,6 +8932,7 @@
         <item>Vadodara</item>
     </string-array>
     <string-array name="bharatiyamahilabankltd_haryana_districts">
+        <item>Faridabad</item>
         <item>Gurgaon</item>
         <item>Panchkula</item>
     </string-array>
@@ -9130,6 +9194,7 @@
         <item>Bilaspur</item>
         <item>Chandigarh</item>
         <item>Dalhousie</item>
+        <item>Dantewada</item>
         <item>Dhamtari</item>
         <item>Durg</item>
         <item>Janjgir Champa</item>
@@ -10443,6 +10508,7 @@
     <string-array name="centralbankofindia_telangana_districts">
         <item>Adilabad</item>
         <item>Khammam</item>
+        <item>Medak</item>
         <item>Nalgonda</item>
         <item>Rangareddy</item>
     </string-array>
@@ -11354,6 +11420,7 @@
         <item>Darjiling</item>
         <item>Deulia Bazar</item>
         <item>Haora</item>
+        <item>Hoara</item>
         <item>Hugli</item>
         <item>Jalpaiguri</item>
         <item>Koch Bihar</item>
@@ -11503,6 +11570,7 @@
         <item>Beed</item>
         <item>Greater Mumbai</item>
         <item>Jalgaon</item>
+        <item>Kolhapur</item>
         <item>Latur</item>
         <item>Mumbai</item>
         <item>Nanded</item>
@@ -11584,6 +11652,7 @@
         <item>Anantapur</item>
         <item>Chittoor</item>
         <item>Chittor</item>
+        <item>Cuddapah</item>
         <item>East Godavari</item>
         <item>Guntur</item>
         <item>Hyderabad</item>
@@ -11603,11 +11672,13 @@
         <item>West Godavari</item>
     </string-array>
     <string-array name="denabank_assam_districts">
+        <item>Bongaigaon</item>
         <item>Cachar</item>
         <item>Dibrugarh</item>
         <item>Jorhat</item>
         <item>Kamrup</item>
         <item>Sibsagar</item>
+        <item>Sonitpur</item>
         <item>Tinsukia</item>
     </string-array>
     <string-array name="denabank_bihar_districts">
@@ -11630,6 +11701,7 @@
         <item>Rohtas</item>
         <item>Saharsa</item>
         <item>Samastipur</item>
+        <item>Saran</item>
         <item>Siwan</item>
         <item>Vaishali</item>
     </string-array>
@@ -11766,6 +11838,7 @@
         <item>Giridih</item>
         <item>Hazaribag</item>
         <item>Hazaribagh</item>
+        <item>Koderma</item>
         <item>Paschimi Singhbhum</item>
         <item>Patratu</item>
         <item>Ranchi</item>
@@ -11789,6 +11862,7 @@
         <item>Dharwad</item>
         <item>Gadag</item>
         <item>Gulbarga</item>
+        <item>Hassan</item>
         <item>Haveri</item>
         <item>Kodagu</item>
         <item>Kolar</item>
@@ -11909,6 +11983,7 @@
         <item>Dhenkanal</item>
         <item>Jagatsinghpur</item>
         <item>Jajpur</item>
+        <item>Kendrapara</item>
         <item>Keonjhar</item>
         <item>Khurda</item>
         <item>Puri</item>
@@ -11990,6 +12065,7 @@
     </string-array>
     <string-array name="denabank_telangana_districts">
         <item>Hyderabad</item>
+        <item>Mahbubnagar</item>
     </string-array>
     <string-array name="denabank_tripura_districts">
         <item>West Tripura</item>
@@ -11999,6 +12075,7 @@
         <item>Aligarh</item>
         <item>Allahabad</item>
         <item>Auraiya</item>
+        <item>Baghpat</item>
         <item>Bara Banki</item>
         <item>Bareilly</item>
         <item>Bulandshahr</item>
@@ -12013,6 +12090,7 @@
         <item>Jhansi</item>
         <item>Kanpur City</item>
         <item>Kanpur Nagar</item>
+        <item>Lalitpur</item>
         <item>Lucknow</item>
         <item>Mathura</item>
         <item>Meerut</item>
@@ -12031,6 +12109,7 @@
         <item>Varanasi</item>
     </string-array>
     <string-array name="denabank_uttarakhand_districts">
+        <item>Almora</item>
         <item>Dehra DUN</item>
         <item>Dehradun</item>
         <item>Haridwar</item>
@@ -12679,6 +12758,7 @@
         <item>Chandigarh</item>
         <item>Fatehgarh Sahib</item>
         <item>Ferozpur</item>
+        <item>Gurgaon</item>
         <item>Hoshiarpur</item>
         <item>Jalandhar</item>
         <item>Kapurthala</item>
@@ -12807,6 +12887,7 @@
     <string-array name="gpparsikbank_maharashtra_districts">
         <item>Greater Bombay</item>
         <item>Kolhapur</item>
+        <item>Mumbai</item>
         <item>Nasik</item>
         <item>Pune</item>
         <item>Raigad</item>
@@ -13801,6 +13882,7 @@
         <item>Morigaon</item>
         <item>Nagaon</item>
         <item>Nalbari</item>
+        <item>North Cachar Hills</item>
         <item>Rukminigaon</item>
         <item>Sibsagar</item>
         <item>Sonitpur</item>
@@ -13861,11 +13943,15 @@
         <item>Surguja</item>
     </string-array>
     <string-array name="icicibankltd_chhattisgarh_districts">
+        <item>Bastar</item>
         <item>Dhamtari</item>
         <item>Durg</item>
         <item>Kondgaon</item>
+        <item>Korba</item>
         <item>Mungeli</item>
         <item>Raigarh</item>
+        <item>Raipur</item>
+        <item>Surguja</item>
     </string-array>
     <string-array name="icicibankltd_dadraandnagarhaveli_districts">
         <item>Dadra&amp;nagar Haveli</item>
@@ -14165,6 +14251,7 @@
         <item>Koraput</item>
         <item>Malkangiri</item>
         <item>Mayurbhanj</item>
+        <item>Nawapara</item>
         <item>Nayagarh</item>
         <item>Nowrangpur</item>
         <item>Phulabani</item>
@@ -14969,6 +15056,7 @@
         <item>Theni</item>
         <item>Thiruvallur</item>
         <item>Thiruvananthapuram</item>
+        <item>Thiruvarur</item>
         <item>Tiruchiorappalli</item>
         <item>Tiruchirapalli</item>
         <item>Tirunelvali</item>
@@ -14995,6 +15083,7 @@
         <item>Allahabad</item>
         <item>Amroha</item>
         <item>Auraiya</item>
+        <item>Azamgarh</item>
         <item>Baghpat</item>
         <item>Bahraich</item>
         <item>Ballia</item>
@@ -15049,6 +15138,7 @@
         <item>RAE Bareli</item>
         <item>Rampur</item>
         <item>Saharanpur</item>
+        <item>Sant Ravidas Nagar</item>
         <item>Shahjahanpur</item>
         <item>Sitapur</item>
         <item>Sultanpur</item>
@@ -15576,6 +15666,7 @@
         <item>Khammam</item>
         <item>Medak</item>
         <item>Nalgonda</item>
+        <item>Rangareddy</item>
         <item>Warangal</item>
     </string-array>
     <string-array name="indianbank_tripura_districts">
@@ -16297,6 +16388,7 @@
         <item>Vishakhapatnam</item>
         <item>Vizianagaram</item>
         <item>Warangal</item>
+        <item>West Godavari Dist</item>
     </string-array>
     <string-array name="indusindbank_assam_districts">
         <item>Barpeta</item>
@@ -16452,6 +16544,7 @@
         <item>Sagar</item>
         <item>Satna</item>
         <item>Sehore</item>
+        <item>Shahdol</item>
         <item>Shajapur</item>
         <item>Tikamgarh</item>
         <item>Ujjain</item>
@@ -16493,6 +16586,7 @@
         <item>Baleshwar</item>
         <item>Bargarh</item>
         <item>Bhadrak</item>
+        <item>Bhubaneswar</item>
         <item>Cuttack</item>
         <item>Jajpur</item>
         <item>Jharsuguda</item>
@@ -16603,10 +16697,12 @@
         <item>Lakhimpur Kheri</item>
         <item>Lucknow</item>
         <item>MAU</item>
+        <item>Mathura</item>
         <item>Meerut</item>
         <item>Moradabad</item>
         <item>RAI Bareli</item>
         <item>Rampur</item>
+        <item>Saharanpur</item>
         <item>Sant Ravidas Nagar</item>
         <item>Sant Ravidas Nagar Bhadohi</item>
         <item>Sonbhadra</item>
@@ -16672,6 +16768,12 @@
         <item>Uttar Pradesh</item>
         <item>Uttarakhand</item>
         <item>West Bengal</item>
+    </string-array>
+    <string-array name="industrialbankofkorea_delhi_districts">
+        <item>NEW Delhi</item>
+    </string-array>
+    <string-array name="industrialbankofkorea_states">
+        <item>Delhi</item>
     </string-array>
     <string-array name="industrialandcommercialbankofchinaltd_maharashtra_districts">
         <item>Mumbai</item>
@@ -17517,6 +17619,7 @@
         <item>Mangalore</item>
         <item>Udipi</item>
         <item>Uttar Kannad</item>
+        <item>Uttar Kannada</item>
         <item>Uttara Kannada</item>
     </string-array>
     <string-array name="karnatakavikasgrameenabank_maharashtra_districts">
@@ -17605,6 +17708,7 @@
         <item>Dharwad</item>
         <item>Gulberga</item>
         <item>Hassan</item>
+        <item>Hoskote</item>
         <item>Kolar</item>
         <item>Koppal</item>
         <item>Mysore</item>
@@ -17832,6 +17936,7 @@
     </string-array>
     <string-array name="kotakmahindrabankltd_gujarat_districts">
         <item>Ahmadabad</item>
+        <item>Ahmedabad</item>
         <item>Amreli</item>
         <item>Anand</item>
         <item>Banas Kantha</item>
@@ -17903,6 +18008,7 @@
     </string-array>
     <string-array name="kotakmahindrabankltd_madhyapradesh_districts">
         <item>Ashok Nagar</item>
+        <item>Betul</item>
         <item>Bhopal</item>
         <item>Chhatarpur</item>
         <item>Dhar</item>
@@ -17921,6 +18027,7 @@
         <item>Seoni</item>
         <item>Shajapur</item>
         <item>Sidhi</item>
+        <item>Vidisha</item>
     </string-array>
     <string-array name="kotakmahindrabankltd_maharashtra_districts">
         <item>Ahmadnagar</item>
@@ -18106,6 +18213,7 @@
         <item>Nellore</item>
         <item>Prakasam</item>
         <item>Rangareddy</item>
+        <item>Srikakulam</item>
         <item>Vijayawada</item>
         <item>Vishakhapatnam</item>
         <item>Vizag</item>
@@ -18117,6 +18225,9 @@
     <string-array name="lakshmivilasbank_chandigarh_districts">
         <item>Raipur</item>
     </string-array>
+    <string-array name="lakshmivilasbank_chhattisgarh_districts">
+        <item>Durg</item>
+    </string-array>
     <string-array name="lakshmivilasbank_delhi_districts">
         <item>Delhi</item>
         <item>NEW Delhi</item>
@@ -18124,6 +18235,7 @@
     <string-array name="lakshmivilasbank_gujarat_districts">
         <item>Ahmadabad</item>
         <item>Anand</item>
+        <item>Bharuch</item>
         <item>Gandhinagar</item>
         <item>Jamnagar</item>
         <item>Kachchh</item>
@@ -18149,15 +18261,18 @@
         <item>Bellary</item>
         <item>Chitradurga</item>
         <item>Dakshin Kannad</item>
+        <item>Dakshina Kannada</item>
         <item>Davangere</item>
         <item>Dharwad</item>
         <item>Gadag</item>
         <item>Gulburga</item>
         <item>Hassan</item>
         <item>Haveri</item>
+        <item>Honnsandra</item>
         <item>Kolar</item>
         <item>Mandya</item>
         <item>Mysore</item>
+        <item>Mysuru</item>
         <item>Namakkal</item>
         <item>Raichur</item>
         <item>Shimoga</item>
@@ -18197,6 +18312,7 @@
     <string-array name="lakshmivilasbank_puducherry_districts">
         <item>Karaikal</item>
         <item>Pondicherry</item>
+        <item>Puducherry</item>
     </string-array>
     <string-array name="lakshmivilasbank_rajasthan_districts">
         <item>Bhilwara</item>
@@ -18240,6 +18356,8 @@
     </string-array>
     <string-array name="lakshmivilasbank_telangana_districts">
         <item>Hyderabad</item>
+        <item>Jadcherla</item>
+        <item>Rangareddy</item>
     </string-array>
     <string-array name="lakshmivilasbank_uttarpradesh_districts">
         <item>Gautam Buddha Nagar</item>
@@ -18252,6 +18370,7 @@
     <string-array name="lakshmivilasbank_states">
         <item>Andhra Pradesh</item>
         <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
         <item>Delhi</item>
         <item>Gujarat</item>
         <item>Haryana</item>
@@ -18509,6 +18628,7 @@
         <item>Vijayawada</item>
         <item>Visakhapatnam</item>
         <item>Vishakapatnam</item>
+        <item>Vishakhapatnam</item>
         <item>Vizianagaram, AP</item>
         <item>Warangal</item>
     </string-array>
@@ -18520,10 +18640,13 @@
         <item>Bongaigaon</item>
         <item>Dibrugarh</item>
         <item>Goalpara</item>
+        <item>Golaghat</item>
         <item>Guwahati</item>
         <item>Jagi Road-assam</item>
         <item>Jorhat</item>
         <item>Kamrup</item>
+        <item>Lakhimpur</item>
+        <item>Morigaon</item>
         <item>Nagaon, Assam</item>
         <item>Nalbari</item>
         <item>Silchar</item>
@@ -18595,6 +18718,7 @@
     <string-array name="orientalbankofcommerce_chhattisgarh_districts">
         <item>Bilaspur</item>
         <item>Durg</item>
+        <item>Kanker</item>
         <item>Raigarh</item>
         <item>Raipur</item>
     </string-array>
@@ -18628,6 +18752,7 @@
         <item>Bhujj</item>
         <item>Chhatral-gandhinagar</item>
         <item>Dahej Distt-bharuch</item>
+        <item>Dahod</item>
         <item>Deesa, (gujrat)</item>
         <item>Gandhidham</item>
         <item>Gandhinagar</item>
@@ -18815,6 +18940,7 @@
         <item>Barhi, Dist:hazaribagh, Jharkhand</item>
         <item>Bokaro</item>
         <item>Chatra</item>
+        <item>Deoghar</item>
         <item>Deoghar, Jharkhand</item>
         <item>Dhanbad</item>
         <item>Dumka</item>
@@ -18923,6 +19049,7 @@
         <item>Chandrapur</item>
         <item>Dhule- Maharastra</item>
         <item>Dindori Distt Nasik</item>
+        <item>Hingoli</item>
         <item>Jalgaon</item>
         <item>Jalna- Maharashtra</item>
         <item>Kalyan</item>
@@ -18994,6 +19121,7 @@
         <item>Rasulgarh Distt-khurda</item>
         <item>Rourkela</item>
         <item>Sambalpur</item>
+        <item>Sonepur</item>
         <item>Sundargarh</item>
         <item>Sundergarh</item>
     </string-array>
@@ -19281,6 +19409,7 @@
         <item>Nokha</item>
         <item>Padam PUR</item>
         <item>Pakkasarna</item>
+        <item>Pali</item>
         <item>Palimarwar</item>
         <item>Palrikalan</item>
         <item>Pansal</item>
@@ -19334,8 +19463,10 @@
         <item>Coimbatore</item>
         <item>Erode</item>
         <item>Hosur</item>
+        <item>Kancheepuram</item>
         <item>Kanchipuram</item>
         <item>Karur</item>
+        <item>Krishnagiri</item>
         <item>Madurai</item>
         <item>Milaganoor,dist Sivaganga</item>
         <item>Nagapattinam</item>
@@ -19348,6 +19479,7 @@
         <item>Sivaganga-tamilnadu</item>
         <item>Sivakasi</item>
         <item>Thanjavur</item>
+        <item>Tirunelvali</item>
         <item>Tirupur</item>
         <item>Tiruvallur</item>
         <item>Trichy</item>
@@ -19355,8 +19487,13 @@
         <item>Vellore</item>
         <item>Villupuram</item>
     </string-array>
+    <string-array name="orientalbankofcommerce_telangana_districts">
+        <item>Karimnagar</item>
+        <item>Rangareddy</item>
+    </string-array>
     <string-array name="orientalbankofcommerce_tripura_districts">
         <item>Agartala</item>
+        <item>Sepahijala</item>
     </string-array>
     <string-array name="orientalbankofcommerce_uttarpradesh_districts">
         <item>Agra</item>
@@ -19370,6 +19507,7 @@
         <item>Azamgarh</item>
         <item>Badaun (U.P.)</item>
         <item>Badayun</item>
+        <item>Baghpat</item>
         <item>Bagpat U.P.</item>
         <item>Baharaich</item>
         <item>Baheri ,distt-bareilly</item>
@@ -19429,6 +19567,7 @@
         <item>Gajraula Distt - J P Nagar</item>
         <item>Gangoh</item>
         <item>Garhi Abdulla Khan</item>
+        <item>Gautam Buddha Nagar</item>
         <item>Gesupur</item>
         <item>Ghaziabad</item>
         <item>Ghazipur (up)</item>
@@ -19459,6 +19598,7 @@
         <item>Kalyanpur</item>
         <item>Kannauj</item>
         <item>Kanpur</item>
+        <item>Kanpur City</item>
         <item>Karab</item>
         <item>Karanwas</item>
         <item>Karehra</item>
@@ -19544,6 +19684,7 @@
         <item>Sahranpur</item>
         <item>Saidpur</item>
         <item>Saini</item>
+        <item>Sant Ravidas Nagar</item>
         <item>Saraimeer, Dist:azamgarh, UP</item>
         <item>Sarna</item>
         <item>Sarsawa</item>
@@ -19555,6 +19696,7 @@
         <item>Sheikhpura Kadim</item>
         <item>Sherpur Khanajadpur</item>
         <item>Shyam Nagar Mandi</item>
+        <item>Sidharthanagar</item>
         <item>Sikandrabad</item>
         <item>Sikhera (nagla Kabir)</item>
         <item>Sikhrod</item>
@@ -19583,6 +19725,7 @@
         <item>Bamsyun</item>
         <item>Chamoli</item>
         <item>Deghat</item>
+        <item>Dehra DUN</item>
         <item>Dehradun</item>
         <item>Dhanauri</item>
         <item>Dharmawala-dehradun</item>
@@ -19627,6 +19770,7 @@
         <item>Bankura</item>
         <item>Barasat</item>
         <item>Barddhaman</item>
+        <item>Belegachi</item>
         <item>Bellary</item>
         <item>Berhampur (west Bengal)</item>
         <item>Birbhum-west Bengal</item>
@@ -19638,6 +19782,7 @@
         <item>Darjeeling</item>
         <item>Dinajpur (SOUTH) WB</item>
         <item>Durgapur</item>
+        <item>East Medinipur</item>
         <item>Eklakshmi</item>
         <item>Ganj</item>
         <item>Haldi, Distt:burdwan, WB</item>
@@ -19700,6 +19845,7 @@
         <item>Rajasthan</item>
         <item>Sikkim</item>
         <item>Tamil Nadu</item>
+        <item>Telangana</item>
         <item>Tripura</item>
         <item>Uttar Pradesh</item>
         <item>Uttarakhand</item>
@@ -21148,6 +21294,7 @@
         <item>Haryan</item>
         <item>Haryana</item>
         <item>Haryana)</item>
+        <item>Hisar</item>
         <item>Hissar</item>
         <item>Hudina (DISTT. Mohindergarh, HR)</item>
         <item>India</item>
@@ -22198,6 +22345,7 @@
         <item>Pune</item>
         <item>Pune City</item>
         <item>Pusad, Yeotmal</item>
+        <item>Raisen</item>
         <item>Ratan Mansion</item>
         <item>Road, Daulat Nagar, Borivli East</item>
         <item>S.V.ROAD,MALAD-WEST</item>
@@ -22317,7 +22465,6 @@
         <item>Distt Angul, Orissa</item>
         <item>Distt Cuttack, Orissa</item>
         <item>Distt Gajpati, Orissa</item>
-        <item>Distt Ganjam</item>
         <item>Distt Jajpur, Orissa</item>
         <item>Distt Kendrapada, Orissa</item>
         <item>Distt-koraput,orissa</item>
@@ -24547,6 +24694,7 @@
     </string-array>
     <string-array name="shrichhatrapatirajarshishahuurbanco_opbankltd_maharashtra_districts">
         <item>Ahmednagar</item>
+        <item>Amravati</item>
         <item>Aurangabad</item>
         <item>Beed</item>
         <item>Buldhana</item>
@@ -24569,8 +24717,13 @@
         <item>Delhi</item>
         <item>Maharashtra</item>
     </string-array>
+    <string-array name="solapurjanatasahakaribankltd_karnataka_districts">
+        <item>Karnataka</item>
+    </string-array>
     <string-array name="solapurjanatasahakaribankltd_maharashtra_districts">
         <item>Aurangabad</item>
+        <item>Barshi</item>
+        <item>Beed</item>
         <item>Kolhapur</item>
         <item>Latur</item>
         <item>Mumbai</item>
@@ -24582,6 +24735,7 @@
         <item>Solapur</item>
     </string-array>
     <string-array name="solapurjanatasahakaribankltd_states">
+        <item>Karnataka</item>
         <item>Maharashtra</item>
     </string-array>
     <string-array name="southindianbank_andhrapradesh_districts">
@@ -24648,6 +24802,7 @@
         <item>Ranchi</item>
     </string-array>
     <string-array name="southindianbank_karnataka_districts">
+        <item>Bangalore</item>
         <item>Bangalore Rural</item>
         <item>Bangalore Urban</item>
         <item>Belgaum</item>
@@ -24946,6 +25101,7 @@
         <item>Bhagalpur</item>
         <item>Bihta</item>
         <item>Buxar</item>
+        <item>Darbhanga</item>
         <item>Gaya</item>
         <item>Muzaffarpur</item>
         <item>Patna</item>
@@ -24954,6 +25110,9 @@
     </string-array>
     <string-array name="statebankofbikanerandjaipur_chandigarh_districts">
         <item>Chandigarh</item>
+        <item>Raipur</item>
+    </string-array>
+    <string-array name="statebankofbikanerandjaipur_chhattisgarh_districts">
         <item>Raipur</item>
     </string-array>
     <string-array name="statebankofbikanerandjaipur_delhi_districts">
@@ -25133,6 +25292,7 @@
         <item>Assam</item>
         <item>Bihar</item>
         <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
         <item>Delhi</item>
         <item>Gujarat</item>
         <item>Haryana</item>
@@ -25697,6 +25857,7 @@
         <item>Bharuch</item>
         <item>Bhavnagar</item>
         <item>Bhuj</item>
+        <item>Chhota Udepur</item>
         <item>Dahod</item>
         <item>Dangs</item>
         <item>Gandhinagar</item>
@@ -25875,6 +26036,7 @@
         <item>Chikmagalur</item>
         <item>Chitradurga</item>
         <item>Dakshin Kakinada</item>
+        <item>Dakshin Kannad</item>
         <item>Dakshin Kannada</item>
         <item>Dakshina Kannada</item>
         <item>Davanagare</item>
@@ -25906,6 +26068,7 @@
         <item>Ramnagar</item>
         <item>Shimoga</item>
         <item>Tumkur</item>
+        <item>Udipi</item>
         <item>Udupi</item>
         <item>Uttar Kakinada</item>
         <item>Uttar Kannad</item>
@@ -26285,6 +26448,7 @@
         <item>Kanniyakumari</item>
         <item>Kanyakumari</item>
         <item>Karur</item>
+        <item>Kilvelur</item>
         <item>Krishnagiri</item>
         <item>MADURAI.</item>
         <item>Madurai</item>
@@ -26726,6 +26890,7 @@
     <string-array name="statebankofmysore_kerala_districts">
         <item>Alapuzha</item>
         <item>Alapuzzha</item>
+        <item>Cannur</item>
         <item>Ernakulam</item>
         <item>Kasaragod</item>
         <item>Kollam</item>
@@ -27107,6 +27272,7 @@
     <string-array name="statebankoftravancore_kerala_districts">
         <item>Alapuzha</item>
         <item>Alapuzzha</item>
+        <item>Bangaluru</item>
         <item>Cannanore</item>
         <item>Cannur</item>
         <item>Ernakulam</item>
@@ -27343,6 +27509,7 @@
         <item>Bamunimaidam</item>
         <item>Barpeta</item>
         <item>Dibrugarh</item>
+        <item>Goalpara</item>
         <item>Golaghar</item>
         <item>Guwahati</item>
         <item>Jagiroad</item>
@@ -27350,7 +27517,9 @@
         <item>Kamrup</item>
         <item>Kamrup Dist</item>
         <item>Kamrup Metropolitan</item>
+        <item>Lakhimpur</item>
         <item>Nagaon Dist</item>
+        <item>Nalbari</item>
         <item>Panjabari</item>
         <item>Rangirkhari</item>
         <item>Sonitpur</item>
@@ -27468,6 +27637,7 @@
         <item>Gurgaon</item>
         <item>Gurgaon District</item>
         <item>Hissar</item>
+        <item>Jhajjar</item>
         <item>Jind</item>
         <item>Kaithal</item>
         <item>Karnal</item>
@@ -27500,6 +27670,7 @@
         <item>Kullu</item>
         <item>Mandi</item>
         <item>Shimla</item>
+        <item>Sirmaur</item>
         <item>Solan</item>
         <item>UNA</item>
     </string-array>
@@ -27527,6 +27698,7 @@
         <item>Purbi Singhbhum</item>
         <item>Ranchi</item>
         <item>Sahebganj</item>
+        <item>Saraikela-kharsawan</item>
     </string-array>
     <string-array name="syndicatebank_karnataka_districts">
         <item>Bagalkot</item>
@@ -27668,6 +27840,7 @@
         <item>Lakshdweep</item>
     </string-array>
     <string-array name="syndicatebank_madhyapradesh_districts">
+        <item>Anupur</item>
         <item>Balaghat</item>
         <item>Barwani</item>
         <item>Betul</item>
@@ -27710,6 +27883,7 @@
         <item>Sidhi</item>
         <item>Singrauli</item>
         <item>Ujjain</item>
+        <item>Umaria</item>
         <item>Vidisha</item>
     </string-array>
     <string-array name="syndicatebank_maharashtra_districts">
@@ -27834,6 +28008,7 @@
         <item>Dosarka</item>
         <item>Fazilka</item>
         <item>Ferozepur</item>
+        <item>Ferozpur</item>
         <item>Gurdaspur</item>
         <item>Hosiarpur</item>
         <item>Jalandhar</item>
@@ -27895,10 +28070,12 @@
     </string-array>
     <string-array name="syndicatebank_sikkim_districts">
         <item>East Sikkim</item>
+        <item>South Sikkim</item>
     </string-array>
     <string-array name="syndicatebank_tamilnadu_districts">
         <item>Ariyalur</item>
         <item>Arumbakkam Chennai</item>
+        <item>Bargur</item>
         <item>Bibikulam</item>
         <item>Chennai</item>
         <item>Coimbatore</item>
@@ -27912,6 +28089,7 @@
         <item>Dist Tirupur</item>
         <item>Erode</item>
         <item>Erode Dist</item>
+        <item>Hosur</item>
         <item>Iikepy</item>
         <item>Kancheepuram</item>
         <item>Kancheepuram Dist</item>
@@ -28132,6 +28310,7 @@
         <item>Selaqui</item>
         <item>Tapovan</item>
         <item>Udham Singh Nagar</item>
+        <item>Uttar Kashi</item>
     </string-array>
     <string-array name="syndicatebank_westbengal_districts">
         <item>Bankura</item>
@@ -28297,6 +28476,7 @@
         <item>Kollam</item>
         <item>Kottayam</item>
         <item>Kozhikode</item>
+        <item>Palakkad</item>
         <item>Pathanamthitta</item>
         <item>Thiruvananthapuram</item>
         <item>Thrissur</item>
@@ -28304,6 +28484,7 @@
     </string-array>
     <string-array name="tamilnadmercantilebankltd_madhyapradesh_districts">
         <item>Dhar</item>
+        <item>Indore</item>
     </string-array>
     <string-array name="tamilnadmercantilebankltd_maharashtra_districts">
         <item>Greater Bombay</item>
@@ -28455,6 +28636,7 @@
         <item>Warangal</item>
     </string-array>
     <string-array name="theandhrapradeshstateco_opbankltd_telangana_districts">
+        <item>Adilabad</item>
         <item>Hyderabad</item>
         <item>Khammam</item>
         <item>Nizamabad</item>
@@ -28594,8 +28776,12 @@
     <string-array name="thehastico_opbankltd_states">
         <item>MH</item>
     </string-array>
+    <string-array name="thejalgaonpeoplesco_opbankltd_madhyapradesh_districts">
+        <item>Khandwa</item>
+    </string-array>
     <string-array name="thejalgaonpeoplesco_opbankltd_maharashtra_districts">
         <item>Aurangabad</item>
+        <item>Buldhana</item>
         <item>Dhule</item>
         <item>Jalgaon</item>
         <item>Nasik</item>
@@ -28604,6 +28790,7 @@
         <item>Thane</item>
     </string-array>
     <string-array name="thejalgaonpeoplesco_opbankltd_states">
+        <item>Madhya Pradesh</item>
         <item>Maharashtra</item>
     </string-array>
     <string-array name="thekangracentralco_opbankltd_himachalpradesh_districts">
@@ -28613,6 +28800,7 @@
         <item>Kulu</item>
         <item>Lahul &amp; Spiti</item>
         <item>Lahul Spiti</item>
+        <item>Palampur</item>
         <item>UNA</item>
     </string-array>
     <string-array name="thekangracentralco_opbankltd_states">
@@ -28788,6 +28976,7 @@
     <string-array name="therajasthanstateco_opbankltd_rajasthan_districts">
         <item>Ajmer</item>
         <item>Alwar</item>
+        <item>Alwar-301001</item>
         <item>Banswara</item>
         <item>Baran</item>
         <item>Barmer</item>
@@ -28884,6 +29073,7 @@
     <string-array name="theshamraovithalco_opbank_andhrapradesh_districts">
         <item>Adilabad</item>
         <item>Anantapur</item>
+        <item>East Godavari</item>
         <item>Hyderabad</item>
         <item>Karimnagar</item>
         <item>Kurnool</item>
@@ -28915,6 +29105,7 @@
         <item>Dharwad</item>
         <item>Mysore</item>
         <item>Shimoga</item>
+        <item>Tumkur</item>
         <item>Udupi</item>
         <item>Uttar Kannad</item>
     </string-array>
@@ -29105,6 +29296,7 @@
         <item>Bengaluru</item>
         <item>Chitradurga</item>
         <item>Hassan</item>
+        <item>Mandya</item>
         <item>Mysore</item>
         <item>Tumkur</item>
     </string-array>
@@ -29837,6 +30029,7 @@
         <item>Gautam Buddha Nagar</item>
         <item>Ghaziabad</item>
         <item>Ghazipur</item>
+        <item>Gonda</item>
         <item>Gorakhpur</item>
         <item>Hamirpur</item>
         <item>Hathras</item>
@@ -29847,6 +30040,7 @@
         <item>Kanauj</item>
         <item>Kanpur</item>
         <item>Kanpur City</item>
+        <item>Kanpur Dehat</item>
         <item>Kushinagar</item>
         <item>Lakhimpur Kheri</item>
         <item>Lalitpur</item>
@@ -30094,6 +30288,7 @@
         <item>Nawada</item>
         <item>Patna</item>
         <item>Purnea</item>
+        <item>Purnia</item>
         <item>Rohtas</item>
         <item>Saharsa</item>
         <item>Samastipur</item>
@@ -30317,6 +30512,7 @@
         <item>Udupi</item>
         <item>Uttara Kannada</item>
         <item>Yadagiri</item>
+        <item>Yadgir</item>
     </string-array>
     <string-array name="unionbankofindia_kerala_districts">
         <item>Alapuzzha</item>
@@ -30624,6 +30820,7 @@
         <item>Coimbtore</item>
         <item>Cuddalore</item>
         <item>Dharmapuri</item>
+        <item>Dhermapuri</item>
         <item>Dindigul</item>
         <item>Erode</item>
         <item>Kancheepuram</item>
@@ -30712,6 +30909,7 @@
         <item>Bijnore</item>
         <item>Bulandshahr</item>
         <item>Bulandshehar</item>
+        <item>Bulandsher</item>
         <item>CSM Nagar</item>
         <item>Chandauli</item>
         <item>Chhatarpur</item>
@@ -31229,7 +31427,9 @@
     <string-array name="unitedbankofindia_mizoram_districts">
         <item>Aizawal</item>
         <item>Aizwal</item>
+        <item>Cachar</item>
         <item>Kolasib</item>
+        <item>Lunglei</item>
     </string-array>
     <string-array name="unitedbankofindia_nagaland_districts">
         <item>Dimapur</item>
@@ -31630,6 +31830,7 @@
         <item>Munger</item>
         <item>Muzaffarpur,bihar</item>
         <item>Nalanda</item>
+        <item>Paschimi Champaran</item>
         <item>Patna</item>
         <item>Purbi Champaran</item>
         <item>Purnia</item>
@@ -31726,6 +31927,7 @@
         <item>Navasari,gujarat</item>
         <item>Navsari</item>
         <item>Palanpur,gujarat</item>
+        <item>Patan</item>
         <item>Patan,gujarat</item>
         <item>Porbandar,gujarat</item>
         <item>Rajkot</item>
@@ -31879,7 +32081,7 @@
         <item>Chickmagalur,karnataka</item>
         <item>Chikkaballapur,karnataka</item>
         <item>Chikkakuntur,karnataka</item>
-        <item>Chikkamagaluru?ß</item>
+        <item>Chikkamagaluru?รก</item>
         <item>Chikkamandya,karnataka</item>
         <item>Chikkanayakanahalli, Karnataka</item>
         <item>Chikkarasinakari,karnataka</item>
@@ -31896,6 +32098,7 @@
         <item>Dakshina Kannada</item>
         <item>Damaskatta,karnataka</item>
         <item>Darbe Puttur,karnataka</item>
+        <item>Davangere</item>
         <item>Davangere,karnataka</item>
         <item>Devalapura,karnataka</item>
         <item>Devaldakere,karnataka</item>
@@ -32268,6 +32471,7 @@
     <string-array name="vijayabank_madhyapradesh_districts">
         <item>Ashok Nagar (mp)</item>
         <item>Ashta,madhyapradesh</item>
+        <item>Barwani</item>
         <item>Betul</item>
         <item>Bhopal</item>
         <item>Bhopal,madhya Pradesh</item>
@@ -32284,6 +32488,7 @@
         <item>Gyaraspur,madhya Pradesh</item>
         <item>Hoshangabad</item>
         <item>Idgah Hills</item>
+        <item>Indore</item>
         <item>Indore,madhya Pradesh</item>
         <item>Itarsi</item>
         <item>Jabalpur,madhya Pradesh</item>
@@ -32578,6 +32783,7 @@
         <item>Farrukhabad</item>
         <item>Fatehpur,uttarapradesh</item>
         <item>Firozabad,u P</item>
+        <item>Gautam Buddha Nagar</item>
         <item>Ghaziabad</item>
         <item>Ghaziabad,u P</item>
         <item>Ghazipur</item>
@@ -32736,6 +32942,7 @@
     </string-array>
     <string-array name="yesbank_bihar_districts">
         <item>Katihar</item>
+        <item>Munger</item>
         <item>Nawada</item>
         <item>Patna</item>
     </string-array>
@@ -32845,6 +33052,7 @@
         <item>Kottayam</item>
         <item>Kozhikode</item>
         <item>Malappuram</item>
+        <item>Palakkad</item>
         <item>Pathanamthitta</item>
         <item>Thiruvananthapuram</item>
         <item>Thrissur</item>
@@ -32861,12 +33069,17 @@
         <item>Dhar</item>
         <item>Guna</item>
         <item>Gwalior</item>
+        <item>Harda</item>
         <item>Hoshangabad</item>
         <item>Indore</item>
         <item>Jabalpur</item>
         <item>Mandsaur</item>
         <item>Raisen</item>
+        <item>Rajgarh</item>
+        <item>Sagar</item>
         <item>Sehore</item>
+        <item>Shajapur</item>
+        <item>Shujalpur</item>
         <item>Ujjain</item>
         <item>Vidisha</item>
     </string-array>
@@ -32926,6 +33139,7 @@
     </string-array>
     <string-array name="yesbank_mizoram_districts">
         <item>Aizawl</item>
+        <item>Aizwal</item>
         <item>Champhai</item>
         <item>Kolasib</item>
         <item>Lawngtlai</item>
@@ -32939,9 +33153,11 @@
     </string-array>
     <string-array name="yesbank_odisha_districts">
         <item>Angul</item>
+        <item>Balangir</item>
         <item>Baleshwar</item>
         <item>Bargarh</item>
         <item>Bhadrak</item>
+        <item>Boudh</item>
         <item>Cuttack</item>
         <item>Deogarh</item>
         <item>Dhenkanal</item>
@@ -32949,9 +33165,12 @@
         <item>Jajpur</item>
         <item>Jharsuguda</item>
         <item>Khurda</item>
+        <item>Mayurbhanj</item>
         <item>Nayagarh</item>
+        <item>Phulabani</item>
         <item>Puri</item>
         <item>Sambalpur</item>
+        <item>Sonepur</item>
         <item>Sundargarh</item>
     </string-array>
     <string-array name="yesbank_puducherry_districts">
@@ -33008,11 +33227,13 @@
         <item>Erode</item>
         <item>Kancheepuram</item>
         <item>Madurai</item>
+        <item>Ramanathapuram</item>
         <item>Salem</item>
         <item>Tiruchirapalli</item>
         <item>Vellore</item>
     </string-array>
     <string-array name="yesbank_telangana_districts">
+        <item>Hyderabad</item>
         <item>Nalgonda</item>
         <item>Warangal</item>
     </string-array>
