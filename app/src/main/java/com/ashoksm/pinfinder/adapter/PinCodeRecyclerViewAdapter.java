@@ -44,42 +44,6 @@ public class PinCodeRecyclerViewAdapter extends CursorRecyclerViewAdapter<PinCod
         this.showFav = showFavIn;
     }
 
-    public static class ViewHolder extends RecyclerView.ViewHolder {
-        TextView officeName;
-        ImageButton options;
-        TextView pincode;
-        TextView status;
-        TextView suboffice;
-        LinearLayout subofficeRow;
-        TextView headoffice;
-        LinearLayout headofficeRow;
-        TextView location;
-        LinearLayout locationRow;
-        TextView telephoneNumber;
-        LinearLayout telephoneRow;
-        TextView state;
-        View v;
-
-        public ViewHolder(View view) {
-            super(view);
-            officeName = (TextView) view.findViewById(R.id.officeName);
-            options = (ImageButton) view.findViewById(R.id.options);
-            pincode = (TextView) view.findViewById(R.id.pincode);
-            status = (TextView) view.findViewById(R.id.stauts);
-            suboffice = (TextView) view.findViewById(R.id.subofficeName);
-            subofficeRow = (LinearLayout) view.findViewById(R.id.subofficeRow);
-            headoffice = (TextView) view.findViewById(R.id.headofficeName);
-            headofficeRow = (LinearLayout) view.findViewById(R.id.headofficeRow);
-            location = (TextView) view.findViewById(R.id.locationName);
-            locationRow = (LinearLayout) view.findViewById(R.id.locationRow);
-            telephoneNumber = (TextView) view.findViewById(R.id.telephoneNumber);
-            telephoneRow = (LinearLayout) view.findViewById(R.id.telephoneRow);
-            state = (TextView) view.findViewById(R.id.stateName);
-            v = view;
-        }
-
-    }
-
     @Override
     public void onBindViewHolder(ViewHolder holder, Cursor cursor, int position) {
         holder.options.setTag(holder);
@@ -91,9 +55,11 @@ public class PinCodeRecyclerViewAdapter extends CursorRecyclerViewAdapter<PinCod
                 PopupMenu menu = new PopupMenu(context, v);
                 menu.getMenuInflater().inflate(R.menu.options_menu, menu.getMenu());
 
+                Menu popupMenu = menu.getMenu();
                 if (showFav) {
-                    Menu popupMenu = menu.getMenu();
                     popupMenu.findItem(R.id.addToFav).setVisible(false);
+                } else {
+                    popupMenu.findItem(R.id.deleteFav).setVisible(false);
                 }
 
                 try {
@@ -152,7 +118,7 @@ public class PinCodeRecyclerViewAdapter extends CursorRecyclerViewAdapter<PinCod
                             SharedPreferences.Editor editor = sharedPreferences.edit();
                             String pincodes = sharedPreferences.getString("pincodes", null);
                             String pincode = viewHolder.pincode.getText().toString().trim();
-                            if (pincodes != null) {
+                            if (pincodes != null && pincodes.trim().length() > 0) {
                                 if (!pincodes.contains(pincode)) {
                                     pincodes = pincodes + "," +
                                             viewHolder.pincode.getText().toString().trim();
@@ -167,6 +133,24 @@ public class PinCodeRecyclerViewAdapter extends CursorRecyclerViewAdapter<PinCod
                                 Toast.makeText(context, "Added Successfully!!!", Toast.LENGTH_LONG)
                                         .show();
                             }
+                            editor.putString("pincodes", pincodes);
+                            editor.apply();
+                        } else if (item.getTitle().toString()
+                                .equalsIgnoreCase(context.getResources().getString(R.string.del_fav))) {
+                            SharedPreferences.Editor editor = sharedPreferences.edit();
+                            String pincodes = sharedPreferences.getString("pincodes", null);
+                            String pincode = viewHolder.pincode.getText().toString().trim();
+                            if (pincodes != null) {
+                                pincodes = pincodes.replaceAll(pincode, "");
+                                pincodes = pincodes.replaceAll(",,", ",");
+                                if (pincodes.startsWith(",")) {
+                                    pincodes = pincodes.replaceFirst(",", "");
+                                }
+                                if (pincodes.endsWith(",")) {
+                                    pincodes = pincodes.substring(0, pincodes.length() - 1);
+                                }
+                            }
+                            Toast.makeText(context, "Removed Successfully!!!", Toast.LENGTH_LONG).show();
                             editor.putString("pincodes", pincodes);
                             editor.apply();
                         } else {
@@ -250,6 +234,42 @@ public class PinCodeRecyclerViewAdapter extends CursorRecyclerViewAdapter<PinCod
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.office_custom_grid, parent, false);
         return new ViewHolder(itemView);
+    }
+
+    public static class ViewHolder extends RecyclerView.ViewHolder {
+        TextView officeName;
+        ImageButton options;
+        TextView pincode;
+        TextView status;
+        TextView suboffice;
+        LinearLayout subofficeRow;
+        TextView headoffice;
+        LinearLayout headofficeRow;
+        TextView location;
+        LinearLayout locationRow;
+        TextView telephoneNumber;
+        LinearLayout telephoneRow;
+        TextView state;
+        View v;
+
+        public ViewHolder(View view) {
+            super(view);
+            officeName = (TextView) view.findViewById(R.id.officeName);
+            options = (ImageButton) view.findViewById(R.id.options);
+            pincode = (TextView) view.findViewById(R.id.pincode);
+            status = (TextView) view.findViewById(R.id.stauts);
+            suboffice = (TextView) view.findViewById(R.id.subofficeName);
+            subofficeRow = (LinearLayout) view.findViewById(R.id.subofficeRow);
+            headoffice = (TextView) view.findViewById(R.id.headofficeName);
+            headofficeRow = (LinearLayout) view.findViewById(R.id.headofficeRow);
+            location = (TextView) view.findViewById(R.id.locationName);
+            locationRow = (LinearLayout) view.findViewById(R.id.locationRow);
+            telephoneNumber = (TextView) view.findViewById(R.id.telephoneNumber);
+            telephoneRow = (LinearLayout) view.findViewById(R.id.telephoneRow);
+            state = (TextView) view.findViewById(R.id.stateName);
+            v = view;
+        }
+
     }
 
 }

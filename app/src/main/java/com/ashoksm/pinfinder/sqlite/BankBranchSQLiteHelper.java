@@ -39,7 +39,7 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
     private static final String LOCATION = "location";
     public static final String DISTRICT = "district";
     public static final String STATE = "state";
-    private static final String BANK = "bank";
+    public static final String BANK = "bank";
     public static final String IFSC = "ifsc";
     public static final String MICR = "micr";
     public static final String ID = "_id";

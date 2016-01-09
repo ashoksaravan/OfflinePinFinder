@@ -19,6 +19,7 @@ import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -46,34 +47,6 @@ public class IFSCRecyclerViewAdapter
         this.showFav = showFavIn;
     }
 
-    public static class ViewHolder extends RecyclerView.ViewHolder {
-        TextView branchName;
-        ImageButton options;
-        TextView city;
-        TextView district;
-        TextView state;
-        TextView address;
-        TextView contact;
-        TextView ifsc;
-        TextView micr;
-        View v;
-
-        public ViewHolder(View view) {
-            super(view);
-            branchName = (TextView) view.findViewById(R.id.branch);
-            options = (ImageButton) view.findViewById(R.id.options);
-            city = (TextView) view.findViewById(R.id.city);
-            district = (TextView) view.findViewById(R.id.bankDistrict);
-            state = (TextView) view.findViewById(R.id.bankStateName);
-            address = (TextView) view.findViewById(R.id.address);
-            contact = (TextView) view.findViewById(R.id.contact);
-            ifsc = (TextView) view.findViewById(R.id.ifsc);
-            micr = (TextView) view.findViewById(R.id.micr);
-            v = view;
-        }
-
-    }
-
     @Override
     public void onBindViewHolder(ViewHolder holder, Cursor cursor, int position) {
         holder.options.setTag(holder);
@@ -85,9 +58,11 @@ public class IFSCRecyclerViewAdapter
                 PopupMenu menu = new PopupMenu(context, v);
                 menu.getMenuInflater().inflate(R.menu.options_menu, menu.getMenu());
 
+                Menu popupMenu = menu.getMenu();
                 if (showFav) {
-                    Menu popupMenu = menu.getMenu();
                     popupMenu.findItem(R.id.addToFav).setVisible(false);
+                } else {
+                    popupMenu.findItem(R.id.deleteFav).setVisible(false);
                 }
 
                 try {
@@ -141,29 +116,46 @@ public class IFSCRecyclerViewAdapter
                             sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareContent);
                             context.startActivity(Intent.createChooser(sharingIntent,
                                     context.getResources().getText(R.string.send_to)));
-                        } else if (item.getTitle().toString().equalsIgnoreCase(
-                                context.getResources().getString(R.string.add_to_fav))) {
+                        } else if (item.getTitle().toString()
+                                .equalsIgnoreCase(context.getResources().getString(R.string.add_to_fav))) {
                             SharedPreferences.Editor editor = sharedPreferences.edit();
                             String ifscs = sharedPreferences.getString("ifscs", null);
                             String ifsc = viewHolder.ifsc.getText().toString().trim();
-                            if (ifscs != null) {
+                            if (ifscs != null && ifscs.trim().length() > 0) {
                                 if (!ifscs.contains(ifsc)) {
-                                    ifscs = ifscs + ",'" +
-                                            viewHolder.ifsc.getText().toString().trim() + "'";
-                                    Toast.makeText(context, "Added Successfully!!!",
-                                            Toast.LENGTH_LONG).show();
+                                    ifscs = ifscs + ",'" + viewHolder.ifsc.getText().toString().trim() + "'";
+                                    Toast.makeText(context, "Added Successfully!!!", Toast.LENGTH_LONG).show();
                                 } else {
-                                    Toast.makeText(context, "Already Exist!!!", Toast.LENGTH_LONG)
-                                            .show();
+                                    Toast.makeText(context, "Already Exist!!!", Toast.LENGTH_LONG).show();
                                 }
                             } else {
                                 ifscs = "'" + viewHolder.ifsc.getText().toString().trim() + "'";
-                                Toast.makeText(context, "Added Successfully!!!", Toast.LENGTH_LONG)
-                                        .show();
+                                Toast.makeText(context, "Added Successfully!!!", Toast.LENGTH_LONG).show();
                             }
                             editor.putString("ifscs", ifscs);
                             editor.apply();
+                        } else if (item.getTitle().toString()
+                                .equalsIgnoreCase(context.getResources().getString(R.string.del_fav))) {
+                            SharedPreferences.Editor editor = sharedPreferences.edit();
+                            String ifscs = sharedPreferences.getString("ifscs", null);
+                            String ifsc = "'" + viewHolder.ifsc.getText().toString().trim() + "'";
+                            if (ifscs != null) {
+                                ifscs = ifscs.replaceAll(ifsc, "");
+                                ifscs = ifscs.replaceAll(",,", ",");
+                                if (ifscs.startsWith(",")) {
+                                    ifscs = ifscs.replaceFirst(",", "");
+                                }
+                                if (ifscs.endsWith(",")) {
+                                    ifscs = ifscs.substring(0, ifscs.length() - 1);
+                                }
+                            }
+                            Toast.makeText(context, "Removed Successfully!!!", Toast.LENGTH_LONG).show();
+                            editor.putString("ifscs", ifscs);
+                            editor.apply();
                         } else {
+                            if (bankName == null) {
+                                bankName = viewHolder.bankName.getText().toString();
+                            }
                             String uri = "http://maps.google.com/maps?q=" + bankName + ", "
                                     + viewHolder.branchName.getText();
                             Intent intent =
@@ -199,6 +191,12 @@ public class IFSCRecyclerViewAdapter
         holder.ifsc.setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.ID)));
         holder.micr.setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.MICR)));
         Linkify.addLinks(holder.contact, Linkify.ALL);
+        if (showFav) {
+            holder.bankNameRow.setVisibility(View.VISIBLE);
+            holder.bankName.setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.BANK)));
+        } else {
+            holder.bankNameRow.setVisibility(View.GONE);
+        }
         setAnimation(holder.v, position);
     }
 
@@ -217,5 +215,37 @@ public class IFSCRecyclerViewAdapter
         View itemView = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.bank_custom_grid, parent, false);
         return new ViewHolder(itemView);
+    }
+
+    public static class ViewHolder extends RecyclerView.ViewHolder {
+        TextView branchName;
+        ImageButton options;
+        TextView city;
+        TextView district;
+        TextView state;
+        TextView address;
+        TextView contact;
+        TextView ifsc;
+        TextView micr;
+        View v;
+        LinearLayout bankNameRow;
+        TextView bankName;
+
+        public ViewHolder(View view) {
+            super(view);
+            branchName = (TextView) view.findViewById(R.id.branch);
+            options = (ImageButton) view.findViewById(R.id.options);
+            city = (TextView) view.findViewById(R.id.city);
+            district = (TextView) view.findViewById(R.id.bankDistrict);
+            state = (TextView) view.findViewById(R.id.bankStateName);
+            address = (TextView) view.findViewById(R.id.address);
+            contact = (TextView) view.findViewById(R.id.contact);
+            ifsc = (TextView) view.findViewById(R.id.ifsc);
+            micr = (TextView) view.findViewById(R.id.micr);
+            bankNameRow = (LinearLayout) view.findViewById(R.id.bankNameRow);
+            bankName = (TextView) view.findViewById(R.id.bankName);
+            v = view;
+        }
+
     }
 }

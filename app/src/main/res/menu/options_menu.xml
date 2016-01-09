@@ -15,4 +15,9 @@
         android:icon="@drawable/ic_star_red"
         android:title="@string/add_to_fav" />
 
+    <item
+        android:id="@+id/deleteFav"
+        android:icon="@drawable/ic_action_delete"
+        android:title="@string/del_fav" />
+
 </menu>

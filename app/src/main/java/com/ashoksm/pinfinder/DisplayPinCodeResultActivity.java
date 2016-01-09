@@ -141,7 +141,7 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
 
             @Override
             protected void onPostExecute(Void result) {
-                if (c.getCount() > 0) {
+                if (c != null && c.getCount() > 0) {
                     adapter = new PinCodeRecyclerViewAdapter(DisplayPinCodeResultActivity.this, c, sharedPreferences,
                             showFav);
                     if (getSupportActionBar() != null) {

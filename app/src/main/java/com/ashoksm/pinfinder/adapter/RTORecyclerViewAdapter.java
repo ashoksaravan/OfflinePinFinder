@@ -43,25 +43,6 @@ public class RTORecyclerViewAdapter
         this.showFav = showFavIn;
     }
 
-    public static class ViewHolder extends RecyclerView.ViewHolder {
-
-        TextView state;
-        ImageButton options;
-        TextView city;
-        TextView rtoCode;
-        View v;
-
-        public ViewHolder(View view) {
-            super(view);
-            options = (ImageButton) view.findViewById(R.id.options);
-            city = (TextView) view.findViewById(R.id.rCityName);
-            state = (TextView) view.findViewById(R.id.rtoStateName);
-            rtoCode = (TextView) view.findViewById(R.id.rtoCode);
-            v = view;
-        }
-
-    }
-
     @Override
     public void onBindViewHolder(ViewHolder holder, Cursor cursor, int position) {
         holder.options.setTag(holder);
@@ -73,9 +54,11 @@ public class RTORecyclerViewAdapter
                 PopupMenu menu = new PopupMenu(context, v);
                 menu.getMenuInflater().inflate(R.menu.options_menu, menu.getMenu());
 
+                Menu popupMenu = menu.getMenu();
                 if (showFav) {
-                    Menu popupMenu = menu.getMenu();
                     popupMenu.findItem(R.id.addToFav).setVisible(false);
+                } else {
+                    popupMenu.findItem(R.id.deleteFav).setVisible(false);
                 }
 
                 try {
@@ -123,7 +106,7 @@ public class RTORecyclerViewAdapter
                             SharedPreferences.Editor editor = sharedPreferences.edit();
                             String rtoCodes = sharedPreferences.getString("RTOCodes", null);
                             String rtoCode = viewHolder.rtoCode.getText().toString().trim();
-                            if (rtoCodes != null) {
+                            if (rtoCodes != null && rtoCodes.trim().length() > 0) {
                                 if (!rtoCodes.contains(rtoCode)) {
                                     rtoCodes = rtoCodes + ",'" +
                                             viewHolder.rtoCode.getText().toString().trim() + "'";
@@ -139,6 +122,24 @@ public class RTORecyclerViewAdapter
                                 Toast.makeText(context, "Added Successfully!!!", Toast.LENGTH_LONG)
                                         .show();
                             }
+                            editor.putString("RTOCodes", rtoCodes);
+                            editor.apply();
+                        } else if (item.getTitle().toString()
+                                .equalsIgnoreCase(context.getResources().getString(R.string.del_fav))) {
+                            SharedPreferences.Editor editor = sharedPreferences.edit();
+                            String rtoCodes = sharedPreferences.getString("RTOCodes", null);
+                            String rtoCode = "'" + viewHolder.rtoCode.getText().toString().trim() + "'";
+                            if (rtoCodes != null) {
+                                rtoCodes = rtoCodes.replaceAll(rtoCode, "");
+                                rtoCodes = rtoCodes.replaceAll(",,", ",");
+                                if (rtoCodes.startsWith(",")) {
+                                    rtoCodes = rtoCodes.replaceFirst(",", "");
+                                }
+                                if (rtoCodes.endsWith(",")) {
+                                    rtoCodes = rtoCodes.substring(0, rtoCodes.length() - 1);
+                                }
+                            }
+                            Toast.makeText(context, "Removed Successfully!!!", Toast.LENGTH_LONG).show();
                             editor.putString("RTOCodes", rtoCodes);
                             editor.apply();
                         } else {
@@ -185,6 +186,25 @@ public class RTORecyclerViewAdapter
         View itemView = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.rto_custom_grid, parent, false);
         return new ViewHolder(itemView);
+    }
+
+    public static class ViewHolder extends RecyclerView.ViewHolder {
+
+        TextView state;
+        ImageButton options;
+        TextView city;
+        TextView rtoCode;
+        View v;
+
+        public ViewHolder(View view) {
+            super(view);
+            options = (ImageButton) view.findViewById(R.id.options);
+            city = (TextView) view.findViewById(R.id.rCityName);
+            state = (TextView) view.findViewById(R.id.rtoStateName);
+            rtoCode = (TextView) view.findViewById(R.id.rtoCode);
+            v = view;
+        }
+
     }
 
 }

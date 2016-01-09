@@ -42,23 +42,6 @@ public class STDRecyclerViewAdapter extends CursorRecyclerViewAdapter<STDRecycle
         this.showFav = showFavIn;
     }
 
-    public static class ViewHolder extends RecyclerView.ViewHolder {
-        TextView state;
-        ImageButton options;
-        TextView city;
-        TextView stdCode;
-        View v;
-
-        public ViewHolder(View view) {
-            super(view);
-            city = (TextView) view.findViewById(R.id.cityName);
-            state = (TextView) view.findViewById(R.id.stdStateName);
-            stdCode = (TextView) view.findViewById(R.id.stdCode);
-            options = (ImageButton) view.findViewById(R.id.options);
-            v = view;
-        }
-    }
-
     @Override
     public void onBindViewHolder(ViewHolder holder, Cursor cursor, int position) {
         holder.options.setTag(holder);
@@ -70,9 +53,11 @@ public class STDRecyclerViewAdapter extends CursorRecyclerViewAdapter<STDRecycle
                 PopupMenu menu = new PopupMenu(context, v);
                 menu.getMenuInflater().inflate(R.menu.options_menu, menu.getMenu());
 
+                Menu popupMenu = menu.getMenu();
                 if (showFav) {
-                    Menu popupMenu = menu.getMenu();
                     popupMenu.findItem(R.id.addToFav).setVisible(false);
+                } else {
+                    popupMenu.findItem(R.id.deleteFav).setVisible(false);
                 }
 
                 try {
@@ -113,7 +98,7 @@ public class STDRecyclerViewAdapter extends CursorRecyclerViewAdapter<STDRecycle
                             SharedPreferences.Editor editor = sharedPreferences.edit();
                             String stdCodes = sharedPreferences.getString("STDcodes", null);
                             String stdCode = viewHolder.stdCode.getText().toString().trim();
-                            if (stdCodes != null) {
+                            if (stdCodes != null && stdCodes.trim().length() > 0) {
                                 if (!stdCodes.contains(stdCode)) {
                                     stdCodes = stdCodes + ",'" +
                                             viewHolder.stdCode.getText().toString().trim() + "'";
@@ -129,6 +114,24 @@ public class STDRecyclerViewAdapter extends CursorRecyclerViewAdapter<STDRecycle
                                 Toast.makeText(context, "Added Successfully!!!", Toast.LENGTH_LONG)
                                         .show();
                             }
+                            editor.putString("STDcodes", stdCodes);
+                            editor.apply();
+                        } else if (item.getTitle().toString()
+                                .equalsIgnoreCase(context.getResources().getString(R.string.del_fav))) {
+                            SharedPreferences.Editor editor = sharedPreferences.edit();
+                            String stdCodes = sharedPreferences.getString("STDcodes", null);
+                            String stdCode = "'" + viewHolder.stdCode.getText().toString().trim() + "'";
+                            if (stdCodes != null) {
+                                stdCodes = stdCodes.replaceAll(stdCode, "");
+                                stdCodes = stdCodes.replaceAll(",,", ",");
+                                if (stdCodes.startsWith(",")) {
+                                    stdCodes = stdCodes.replaceFirst(",", "");
+                                }
+                                if (stdCodes.endsWith(",")) {
+                                    stdCodes = stdCodes.substring(0, stdCodes.length() - 1);
+                                }
+                            }
+                            Toast.makeText(context, "Removed Successfully!!!", Toast.LENGTH_LONG).show();
                             editor.putString("STDcodes", stdCodes);
                             editor.apply();
                         } else {
@@ -170,5 +173,22 @@ public class STDRecyclerViewAdapter extends CursorRecyclerViewAdapter<STDRecycle
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.std_custom_grid, parent, false);
         return new ViewHolder(itemView);
+    }
+
+    public static class ViewHolder extends RecyclerView.ViewHolder {
+        TextView state;
+        ImageButton options;
+        TextView city;
+        TextView stdCode;
+        View v;
+
+        public ViewHolder(View view) {
+            super(view);
+            city = (TextView) view.findViewById(R.id.cityName);
+            state = (TextView) view.findViewById(R.id.stdStateName);
+            stdCode = (TextView) view.findViewById(R.id.stdCode);
+            options = (ImageButton) view.findViewById(R.id.options);
+            v = view;
+        }
     }
 }
