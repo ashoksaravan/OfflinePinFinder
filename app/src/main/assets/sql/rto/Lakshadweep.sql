@@ -3,7 +3,7 @@ INSERT INTO rto_t VALUES(19, 'LD-02', 'Agatti');
 INSERT INTO rto_t VALUES(19, 'LD-03', 'Amini');
 INSERT INTO rto_t VALUES(19, 'LD-04', 'Androth');
 INSERT INTO rto_t VALUES(19, 'LD-05', 'Kadmat');
-INSERT INTO rto_t VALUES(19, 'LD-06', 'Kiltan');
+INSERT INTO rto_t VALUES(19, 'LD-05', 'Kiltan');
 INSERT INTO rto_t VALUES(19, 'LD-07', 'Chetlat');
 INSERT INTO rto_t VALUES(19, 'LD-08', 'Kalpeni');
 INSERT INTO rto_t VALUES(19, 'LD-09', 'Minicoy');

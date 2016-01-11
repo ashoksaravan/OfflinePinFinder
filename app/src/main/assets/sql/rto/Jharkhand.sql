@@ -6,7 +6,7 @@ INSERT INTO rto_t VALUES(16, 'JH-05', 'Jamshedpur');
 INSERT INTO rto_t VALUES(16, 'JH-06', 'Chaibasa');
 INSERT INTO rto_t VALUES(16, 'JH-07', 'Gumla');
 INSERT INTO rto_t VALUES(16, 'JH-08', 'Lohardaga');
-INSERT INTO rto_t VALUES(16, 'JH-09', 'Bokaro Steel City');
+INSERT INTO rto_t VALUES(16, 'JH-09', 'Bokaro');
 INSERT INTO rto_t VALUES(16, 'JH-10', 'Dhanbad');
 INSERT INTO rto_t VALUES(16, 'JH-11', 'Giridih');
 INSERT INTO rto_t VALUES(16, 'JH-12', 'Koderma');

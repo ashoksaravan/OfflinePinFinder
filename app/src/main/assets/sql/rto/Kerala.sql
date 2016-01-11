@@ -1,4 +1,4 @@
-INSERT INTO rto_t VALUES(18, 'KL-01', 'Thiruvananthapuram');
+INSERT INTO rto_t VALUES(18, 'KL-01', 'Thiruvananthapuram/Kerala Police');
 INSERT INTO rto_t VALUES(18, 'KL-02', 'Kollam');
 INSERT INTO rto_t VALUES(18, 'KL-03', 'Pathanamthitta');
 INSERT INTO rto_t VALUES(18, 'KL-04', 'Alappuzha');
@@ -53,7 +53,7 @@ INSERT INTO rto_t VALUES(18, 'KL-52', 'Pattambi');
 INSERT INTO rto_t VALUES(18, 'KL-53', 'Perinthalmanna');
 INSERT INTO rto_t VALUES(18, 'KL-54', 'Ponnani');
 INSERT INTO rto_t VALUES(18, 'KL-55', 'Tirur');
-INSERT INTO rto_t VALUES(18, 'KL-56', 'Koyilandi');
+INSERT INTO rto_t VALUES(18, 'KL-56', 'Koyilandy');
 INSERT INTO rto_t VALUES(18, 'KL-57', 'Koduvally');
 INSERT INTO rto_t VALUES(18, 'KL-58', 'Thalassery');
 INSERT INTO rto_t VALUES(18, 'KL-59', 'Thaliparamba');

@@ -1,5 +1,5 @@
-INSERT INTO rto_t VALUES(11, 'GA-01', 'Panaji (planned for North Goa district, but never used for this)');
-INSERT INTO rto_t VALUES(11, 'GA-02', 'Margao (planned for South Goa district, but never used for this)');
+INSERT INTO rto_t VALUES(11, 'GA-01', 'Panaji (North Goa district)');
+INSERT INTO rto_t VALUES(11, 'GA-02', 'Margao (South Goa district)');
 INSERT INTO rto_t VALUES(11, 'GA-03', 'Mapusa');
 INSERT INTO rto_t VALUES(11, 'GA-04', 'Bicholim');
 INSERT INTO rto_t VALUES(11, 'GA-05', 'Ponda');

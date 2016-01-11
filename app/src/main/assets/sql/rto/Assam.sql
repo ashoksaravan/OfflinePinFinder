@@ -22,7 +22,7 @@ INSERT INTO rto_t VALUES(4, 'AS-21', 'Marigaon');
 INSERT INTO rto_t VALUES(4, 'AS-22', 'Dhemaji');
 INSERT INTO rto_t VALUES(4, 'AS-23', 'Tinsukia');
 INSERT INTO rto_t VALUES(4, 'AS-24', 'Hailakandi');
-INSERT INTO rto_t VALUES(4, 'AS-25', 'Kamrup Rural');
+INSERT INTO rto_t VALUES(4, 'AS-25', 'Kamrup');
 INSERT INTO rto_t VALUES(4, 'AS-26', 'Chirang');
 INSERT INTO rto_t VALUES(4, 'AS-27', 'Udalguri');
 INSERT INTO rto_t VALUES(4, 'AS-28', 'Baksa');

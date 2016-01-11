@@ -1,5 +1,5 @@
 INSERT INTO rto_t VALUES(26, 'OD-01/OR-01', 'Balasore');
-INSERT INTO rto_t VALUES(26, 'OD-02/OR-02', 'Bhubaneswar');
+INSERT INTO rto_t VALUES(26, 'OD-02/OR-02', 'Bhubaneswar-I');
 INSERT INTO rto_t VALUES(26, 'OD-03/OR-03', 'Bolangir');
 INSERT INTO rto_t VALUES(26, 'OD-04/OR-04', 'Chandikhol');
 INSERT INTO rto_t VALUES(26, 'OD-05/OR-05', 'Cuttack');
