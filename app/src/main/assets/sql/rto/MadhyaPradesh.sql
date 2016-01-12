@@ -1,4 +1,4 @@
-INSERT INTO rto_t VALUES(20, 'MP-01', 'MP Governor's Vehicle');
+INSERT INTO rto_t VALUES(20, 'MP-01', 'MP Governor''s Vehicle');
 INSERT INTO rto_t VALUES(20, 'MP-02', 'MP Government Vehicles');
 INSERT INTO rto_t VALUES(20, 'MP-03', 'MP Police Vehicles');
 INSERT INTO rto_t VALUES(20, 'MP-04', 'Bhopal');
