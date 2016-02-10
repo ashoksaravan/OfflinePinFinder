@@ -1,2 +1,2 @@
-INSERT INTO bank_branch_t VALUES('Soci??t?? G??n??rale', 'Mumbai', '19th Floor, Tower A, Peninsula Business Park,ganpatrao Kadam Marg,lower Parel,mumbai - 400013, India', '400021', '400608002', 'SOGE0INBB01', 19484);
-INSERT INTO bank_branch_t VALUES('Soci??t?? G??n??rale', 'Delhi', 'Upper Ground Floor, Ambadeep Building , 14, Kasturba Gandhi Marg, New Delhi - 110001, India', '110001', '110608002', 'SOGE0INDL01', 19483);
+INSERT INTO bank_branch_t VALUES('Soci??t?? G??n??rale', 'Mumbai', '19th Floor, Tower A, Peninsula Business Park,ganpatrao Kadam Marg,lower Parel,mumbai - 400013, India', '400021', '400608002', 'SOGE0INBB01', 19565);
+INSERT INTO bank_branch_t VALUES('Soci??t?? G??n??rale', 'Delhi', 'Upper Ground Floor, Ambadeep Building , 14, Kasturba Gandhi Marg, New Delhi - 110001, India', '110001', '110608002', 'SOGE0INDL01', 19564);
