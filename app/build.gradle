@@ -8,8 +8,8 @@ android {
         applicationId "com.ashoksm.pinfinder"
         minSdkVersion 14
         targetSdkVersion 23
-        versionCode 37
-        versionName "7"
+        versionCode 39
+        versionName "8.1"
     }
 
     signingConfigs {

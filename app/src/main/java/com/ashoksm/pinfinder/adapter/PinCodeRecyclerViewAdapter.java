@@ -257,7 +257,7 @@ public class PinCodeRecyclerViewAdapter extends CursorRecyclerViewAdapter<PinCod
             officeName = (TextView) view.findViewById(R.id.officeName);
             options = (ImageButton) view.findViewById(R.id.options);
             pincode = (TextView) view.findViewById(R.id.pincode);
-            status = (TextView) view.findViewById(R.id.stauts);
+            status = (TextView) view.findViewById(R.id.status);
             suboffice = (TextView) view.findViewById(R.id.subofficeName);
             subofficeRow = (LinearLayout) view.findViewById(R.id.subofficeRow);
             headoffice = (TextView) view.findViewById(R.id.headofficeName);

@@ -4,8 +4,7 @@
     android:id="@+id/rto_card_view"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:layout_margin="2dp"
-    android:elevation="5dp"
+    android:layout_margin="3dp"
     card_view:cardBackgroundColor="#ffffff"
     card_view:cardCornerRadius="5dp"
     card_view:elevation="5dp">
@@ -22,12 +21,13 @@
             android:layout_height="wrap_content"
             android:paddingBottom="4dp"
             android:paddingLeft="5dp"
+            android:paddingStart="5dp"
             android:paddingTop="4dp">
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight=".4"
+                android:layout_weight=".3"
                 android:text="@string/rtoCode"
                 android:textColor="@color/accent"
                 android:textIsSelectable="false" />
@@ -36,7 +36,7 @@
                 android:id="@+id/rtoCode"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight=".55"
+                android:layout_weight=".65"
                 android:text="@string/NA"
                 android:textColor="@color/secondary_text"
                 android:textIsSelectable="true" />
@@ -66,7 +66,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight=".4"
+                android:layout_weight=".3"
                 android:text="@string/city"
                 android:textColor="@color/accent"
                 android:textIsSelectable="false" />
@@ -75,7 +75,7 @@
                 android:id="@+id/rCityName"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight=".6"
+                android:layout_weight=".7"
                 android:textColor="@color/secondary_text"
                 android:textIsSelectable="true" />
         </LinearLayout>
@@ -94,7 +94,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight=".4"
+                android:layout_weight=".3"
                 android:text="@string/state"
                 android:textColor="@color/accent"
                 android:textIsSelectable="false" />
@@ -103,7 +103,7 @@
                 android:id="@+id/rtoStateName"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight=".6"
+                android:layout_weight=".7"
                 android:textColor="@color/secondary_text"
                 android:textIsSelectable="true" />
         </LinearLayout>
