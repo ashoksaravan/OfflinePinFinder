@@ -45,7 +45,7 @@ INSERT INTO bank_branch_t VALUES('Kamothe', 'Navi Mumbai', 'Dharti Complex, Shop
 INSERT INTO bank_branch_t VALUES('Bhayandar', 'Thane', 'Shop NO. 7,8,9,&107 TO 111 ON GR. Floor & 1ST FLOOR. Malhar Arcade, Coddev Village, Navghar Phatak Road, Bhayandar (E), DIST. Thane, 401101', '28140964', '400065046', 'ABHY0065046', 16);
 INSERT INTO bank_branch_t VALUES('Dahisar East', 'Mumbai', 'GR. Floor, Madhuram Hall, Harishankar Joshi Road, Dahisar (E), Mumbai - 400 068', '28480321', '400065047', 'ABHY0065047', 8);
 INSERT INTO bank_branch_t VALUES('Kalyan-west', 'Thane', 'Flower Valley, Khadakpada, Kalyan (W), DIST. Thane 421 301', '2203321', '400065048', 'ABHY0065048', 16);
-INSERT INTO bank_branch_t VALUES('Dombivli-west', 'Thane', 'First Floor, Jaikul Arcade, Manpada Road, Dombivli (E) 421201', '2489860', '400065049', 'ABHY0065049', 16);
+INSERT INTO bank_branch_t VALUES('Dombivli East', 'Thane', 'First Floor, Jaikul Arcade, Manpada Road, Dombivli (E) 421201', '2489860', '400065049', 'ABHY0065049', 16);
 INSERT INTO bank_branch_t VALUES('OLD Panvel', 'Raigad', 'Shop NO 1 & 2, Kanak Vithal, Plot NO.25, OLD Panvel, Dist Raigad 410 206', '27459656', '400065050', 'ABHY0065050', 14);
 INSERT INTO bank_branch_t VALUES('Kandivali (WEST)', 'Mumbai', 'Kandivli (W) Branch, Shop NO.7, Vijaybharti CO-OP. HSG. Society, Sector - II Charkop, Kandivali (W), Mumbai 400067', '28678031', '400065051', 'ABHY0065051', 9);
 INSERT INTO bank_branch_t VALUES('Mira Road (EAST)', 'Bhayandar', 'Shop NO. 6,7 & 8, Ground Floor, Building NO. A-63, Sector - 1, Shanti Nagar, Mira Road (E), Dist Thane 401107.', '28555244', '400065052', 'ABHY0065052', 16);
@@ -53,7 +53,7 @@ INSERT INTO bank_branch_t VALUES('Badlapur (EAST)', 'Kalyan', 'Kulgaon Grihnirma
 INSERT INTO bank_branch_t VALUES('Chembur', 'Mumbai', 'Shop NO.12 TO 19, BLDG. NO. 2, Tilaknagar Shramik Co-op HSG Society LTD., Tilaknagar, Chembur, Mumbai 400089.', '25262390', '400065054', 'ABHY0065054', 8);
 INSERT INTO bank_branch_t VALUES('Virar', 'Thane', 'Grnd & 1ST Floor, Mataji Krupa, OPP. Mahanagarpalika Library, Phool Pada Road,virar (E), Dist Thane 401303', '2524161', '400065055', 'ABHY0065055', 16);
 INSERT INTO bank_branch_t VALUES('Seawood', 'Mumbai', 'Shop NO. 13 TO 15, Giriraj Co-op HSG Society LTD., Plot NO.7&8, Sector NO.44, NRI Seawood Road, Seawood, Nerul 400706', '27719879', '400065056', 'ABHY0065056', 8);
-INSERT INTO bank_branch_t VALUES('Owale', 'Thane', 'Siddhivinayak Arcade, Kailash Tower, Owale Village, Owala Naka, Ghodbunder Road, Thane 400605.', '25971586', '400065057', 'ABHY0065057', 16);
+INSERT INTO bank_branch_t VALUES('Ghodbunder Road', 'Thane', 'Siddhivinayak Arcade, Kailash Tower, Owale Village, Owala Naka, Ghodbunder Road, Thane 400605.', '25971586', '400065057', 'ABHY0065057', 16);
 INSERT INTO bank_branch_t VALUES('Antop Hill', 'Mumbai', 'Shop NO..34 & 35, Ground Floor, Bldg NO. B-2, Kalpak Estate, Shaikh Mistry Road, Antop Hill, Mumbai 400037', '24092210', '400065058', 'ABHY0065058', 8);
 INSERT INTO bank_branch_t VALUES('Nallasopara', 'Thane', 'Shop NO. 1 & 2, Ground Floor, Olive Apartment, BLDG.NO.06, Sector Vii, Nallasopara, TAL Vasai, Dist THANE.', '3290277', '400065059', 'ABHY0065059', 16);
 INSERT INTO bank_branch_t VALUES('Divale CBD', 'Mumbai', 'Shop NO 8A & 9, Ground Floor, SAI Sangam, Sector-15, Sakal Bhavan Marg, CBD Belapur, Navi Mumbai 400 614', '27563509', '400065060', 'ABHY0065060', 8);

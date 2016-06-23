@@ -1,1 +1,1 @@
-INSERT INTO bank_branch_t VALUES('Mumbai Branch', 'Mumbai', 'National Bank OF ABU Dhabi,unit NOS.1101 AND 1201,platina Building C-59,g Block,bandra Kurla Complex,bandra East Mumbai 400051', '2147483647', 'NA', 'NBAD0000001', 13890);
+INSERT INTO bank_branch_t VALUES('Mumbai Branch', 'Mumbai', 'National Bank OF ABU Dhabi,unit NOS.1101 AND 1201,platina Building C-59,g Block,bandra Kurla Complex,bandra East Mumbai 400051', '2147483647', 'NA', 'NBAD0000001', 14159);
