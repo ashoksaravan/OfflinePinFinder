@@ -79,16 +79,16 @@ public class DisplayBankBranchResultActivity extends AppCompatActivity {
         showFav = intent.getBooleanExtra(MainActivity.EXTRA_SHOW_FAV, false);
         if (!showFav) {
             stateName =
-                    intent.getStringExtra(BankView.EXTRA_STATE).toLowerCase(l).replaceAll(" ", "")
+                    intent.getStringExtra(IFSCFragment.EXTRA_STATE).toLowerCase(l).replaceAll(" ", "")
                             .replaceAll("'", "''");
             districtName =
-                    intent.getStringExtra(BankView.EXTRA_DISTRICT).toLowerCase(l)
+                    intent.getStringExtra(IFSCFragment.EXTRA_DISTRICT).toLowerCase(l)
                             .replaceAll(" ", "")
                             .replaceAll("'", "''");
-            bankName = intent.getStringExtra(BankView.EXTRA_BANK).toLowerCase(l).replaceAll(" ", "")
+            bankName = intent.getStringExtra(IFSCFragment.EXTRA_BANK).toLowerCase(l).replaceAll(" ", "")
                     .replaceAll("'", "''");
             branchName =
-                    intent.getStringExtra(BankView.EXTRA_BRANCH).toLowerCase(l).replaceAll(" ", "")
+                    intent.getStringExtra(IFSCFragment.EXTRA_BRANCH).toLowerCase(l).replaceAll(" ", "")
                             .replaceAll("'", "''");
         }
         // load ad
@@ -149,11 +149,11 @@ public class DisplayBankBranchResultActivity extends AppCompatActivity {
                 if (showFav && getSupportActionBar() != null) {
                     getSupportActionBar().setTitle(c.getCount() + " Results Found");
                 } else if (getSupportActionBar() != null) {
-                    getSupportActionBar().setTitle(intent.getStringExtra(BankView.EXTRA_BANK));
+                    getSupportActionBar().setTitle(intent.getStringExtra(IFSCFragment.EXTRA_BANK));
                 }
                 if (c != null && c.getCount() > 0) {
                     adapter = new IFSCRecyclerViewAdapter(DisplayBankBranchResultActivity.this, c,
-                            intent.getStringExtra(BankView.EXTRA_BANK), sharedPreferences, showFav);
+                            intent.getStringExtra(IFSCFragment.EXTRA_BANK), sharedPreferences, showFav);
                     mRecyclerView.setAdapter(adapter);
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {

@@ -18,7 +18,11 @@ package com.ashoksm.pinfinder;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.NavigationView;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -37,13 +41,15 @@ public class MainActivity extends ActivityBase {
     private InterstitialAd mInterstitialAd;
     private Class clazz;
     public static final String EXTRA_SHOW_FAV = "EXTRA_SHOW_FAV";
+    private DrawerLayout mDrawerLayout;
+    private NavigationView mNavigationView;
+    private FragmentManager mFragmentManager;
+    private FragmentTransaction mFragmentTransaction;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.my_awesome_toolbar);
-        setSupportActionBar(toolbar);
 
         // add to fix crashes in 2.3.x devices due to google play services
         try {
@@ -51,40 +57,42 @@ public class MainActivity extends ActivityBase {
         } catch (ClassNotFoundException ignored) {
         }
 
+        /**
+         *Setup the DrawerLayout and NavigationView
+         */
+
+        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
+        mNavigationView = (NavigationView) findViewById(R.id.shitstuff);
+
+        /**
+         * Lets inflate the very first fragment
+         * Here , we are inflating the TabFragment as the first Fragment
+         */
+
+        mFragmentManager = getSupportFragmentManager();
+        mFragmentTransaction = mFragmentManager.beginTransaction();
+        mFragmentTransaction.replace(R.id.containerView, new TabFragment()).commit();
+
         // load ad
-        final LinearLayout adParent = (LinearLayout) this.findViewById(R.id.ad);
-        final AdView ad = new AdView(this);
-        ad.setAdUnitId(getString(R.string.admob_id));
-        ad.setAdSize(AdSize.SMART_BANNER);
+        loadAd();
 
-        final AdListener listener = new AdListener() {
-            @Override
-            public void onAdLoaded() {
-                adParent.setVisibility(View.VISIBLE);
-                super.onAdLoaded();
-            }
+        //load floating button
+        addFloatingButton();
 
-            @Override
-            public void onAdFailedToLoad(int errorCode) {
-                adParent.setVisibility(View.GONE);
-                super.onAdFailedToLoad(errorCode);
-            }
-        };
+        /**
+         * Setup Drawer Toggle of the Toolbar
+         */
 
-        ad.setAdListener(listener);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        ActionBarDrawerToggle mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout, toolbar, R.string.app_name,
+                R.string.app_name);
 
-        adParent.addView(ad);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        ad.loadAd(adRequest);
-        // Begin loading your interstitial.
+        mDrawerLayout.addDrawerListener(mDrawerToggle);
 
-        if (savedInstanceState == null) {
-            FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-            SlidingTabsBasicFragment fragment = new SlidingTabsBasicFragment();
-            transaction.replace(R.id.pinfinder_content_fragment, fragment);
-            transaction.commit();
-        }
+        mDrawerToggle.syncState();
+    }
 
+    private void addFloatingButton() {
         final FloatingActionMenu actionMenu = (FloatingActionMenu) findViewById(R.id.floatingActionMenu);
 
         FloatingActionButton pincodeButton =
@@ -130,6 +138,37 @@ public class MainActivity extends ActivityBase {
                 showInterstitial();
             }
         });
+    }
+
+    private void loadAd() {
+        final LinearLayout adParent = (LinearLayout) this.findViewById(R.id.ad);
+        final AdView ad = new AdView(this);
+        ad.setAdUnitId(getString(R.string.admob_id));
+        ad.setAdSize(AdSize.SMART_BANNER);
+
+        final AdListener listener = new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                adParent.setVisibility(View.VISIBLE);
+                super.onAdLoaded();
+            }
+
+            @Override
+            public void onAdFailedToLoad(int errorCode) {
+                adParent.setVisibility(View.GONE);
+                super.onAdFailedToLoad(errorCode);
+            }
+        };
+
+        ad.setAdListener(listener);
+
+        adParent.addView(ad);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        ad.loadAd(adRequest);
+
+        // Begin loading your interstitial.
+        mInterstitialAd = newInterstitialAd();
+        loadInterstitial();
     }
 
     @Override

@@ -75,9 +75,9 @@ public class DisplaySTDResultActivity extends ActivityBase {
         showFav = intent.getBooleanExtra(MainActivity.EXTRA_SHOW_FAV, false);
         if(!showFav) {
             stateName =
-                    intent.getStringExtra(STDView.EXTRA_STATE).toLowerCase(l).replaceAll(" ", "")
+                    intent.getStringExtra(STDFragment.EXTRA_STATE).toLowerCase(l).replaceAll(" ", "")
                             .replaceAll("'", "''");
-            cityName = intent.getStringExtra(STDView.EXTRA_CITY).toLowerCase(l).replaceAll(" ", "")
+            cityName = intent.getStringExtra(STDFragment.EXTRA_CITY).toLowerCase(l).replaceAll(" ", "")
                     .replaceAll("'", "''");
         }
 

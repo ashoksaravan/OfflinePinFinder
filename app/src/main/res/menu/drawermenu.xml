@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_item_pincode"
+        android:title="@string/pincode">
+        <menu>
+            <item
+                android:id="@+id/nav_office"
+                android:icon="@drawable/ic_floating_pincode"
+                android:title="@string/officename" />
+            <item
+                android:icon="@drawable/ic_floating_pincode"
+                android:title="@string/pincode" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/nav_item_ifsc"
+        android:title="@string/ifsc">
+        <menu>
+            <item
+                android:icon="@drawable/ic_floating_ifsc"
+                android:title="@string/bank_name" />
+            <item
+                android:icon="@drawable/ic_floating_ifsc"
+                android:title="@string/ifsc" />
+            <item
+                android:icon="@drawable/ic_floating_ifsc"
+                android:title="@string/micr" />
+        </menu>
+    </item>
+
+    <item
+        android:icon="@drawable/ic_floating_std"
+        android:title="@string/title_section3">
+    </item>
+
+    <item
+        android:icon="@drawable/ic_floating_rto"
+        android:title="@string/title_section4">
+    </item>
+</menu>

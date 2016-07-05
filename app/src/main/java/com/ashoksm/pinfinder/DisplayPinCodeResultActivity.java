@@ -80,11 +80,11 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
         Intent intent = getIntent();
         showFav = intent.getBooleanExtra(MainActivity.EXTRA_SHOW_FAV, false);
         if (!showFav) {
-            stateName = intent.getStringExtra(PinCodeView.EXTRA_STATE).toLowerCase(l).replaceAll(" ", "")
+            stateName = intent.getStringExtra(PincodeFragment.EXTRA_STATE).toLowerCase(l).replaceAll(" ", "")
                     .replaceAll("'", "''");
-            districtName = intent.getStringExtra(PinCodeView.EXTRA_DISTRICT).toLowerCase(l).replaceAll(" ", "")
+            districtName = intent.getStringExtra(PincodeFragment.EXTRA_DISTRICT).toLowerCase(l).replaceAll(" ", "")
                     .replaceAll("'", "''");
-            officeName = intent.getStringExtra(PinCodeView.EXTRA_OFFICE).toLowerCase(l).replaceAll(" ", "")
+            officeName = intent.getStringExtra(PincodeFragment.EXTRA_OFFICE).toLowerCase(l).replaceAll(" ", "")
                     .replaceAll("'", "''");
         }
 
