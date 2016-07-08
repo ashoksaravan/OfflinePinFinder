@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:card_view="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="5dp"
-    card_view:cardBackgroundColor="#ffffff"
-    card_view:cardCornerRadius="5dp"
-    card_view:elevation="5dp">
+                                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    card_view:cardBackgroundColor="#ffffff"
+                                    card_view:cardCornerRadius="5dp"
+                                    card_view:elevation="5dp">
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -27,13 +27,13 @@
                 android:layout_weight=".4"
                 android:text="@string/pincode"
                 android:textAppearance="?attr/textAppearanceListItem"
-                android:textIsSelectable="false" />
+                android:textIsSelectable="false"/>
 
             <TextView
                 android:id="@+id/id"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight=".6" />
+                android:layout_weight=".6"/>
 
         </LinearLayout>
 
@@ -50,13 +50,13 @@
                 android:layout_weight=".4"
                 android:text="@string/officename"
                 android:textAppearance="?attr/textAppearanceListItem"
-                android:textIsSelectable="false" />
+                android:textIsSelectable="false"/>
 
             <TextView
                 android:id="@+id/content"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight=".6" />
+                android:layout_weight=".6"/>
 
         </LinearLayout>
     </LinearLayout>

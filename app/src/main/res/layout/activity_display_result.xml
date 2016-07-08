@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="#f5f5f5">
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:background="#f5f5f5">
 
     <RelativeLayout
         android:layout_width="fill_parent"
@@ -21,7 +21,7 @@
             <ProgressBar
                 android:id="@+id/pbHeaderProgress"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"/>
 
             <TextView
                 android:layout_width="fill_parent"
@@ -32,7 +32,7 @@
                 android:textColor="@color/secondary_text"
                 android:textIsSelectable="false"
                 android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"/>
         </LinearLayout>
 
         <LinearLayout
@@ -52,7 +52,7 @@
                 android:textColor="@color/secondary_text"
                 android:textIsSelectable="false"
                 android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"/>
         </LinearLayout>
 
         <android.support.v7.widget.RecyclerView
@@ -60,13 +60,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:paddingTop="?attr/actionBarSize"
+            android:scrollbarThumbVertical="@drawable/scroll_bar"
             android:layout_above="@+id/adLayout"
             android:clipToPadding="false"
             android:scrollbars="vertical"
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
             android:paddingBottom="5dp"
-            android:visibility="gone" />
+            android:visibility="gone"/>
 
         <LinearLayout
             android:id="@+id/adLayout"
@@ -75,15 +76,15 @@
             android:layout_alignParentBottom="true"
             android:gravity="center"
             android:orientation="horizontal"
-            android:visibility="gone" />
+            android:visibility="gone"/>
     </RelativeLayout>
 
     <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/my_awesome_toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="?attr/colorPrimary"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+                                       android:id="@+id/my_awesome_toolbar"
+                                       android:layout_width="match_parent"
+                                       android:layout_height="?attr/actionBarSize"
+                                       android:background="?attr/colorPrimary"
+                                       app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                                       app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
 </FrameLayout>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:card_view="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/card_view"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="5dp"
-    card_view:cardBackgroundColor="@color/icons"
-    card_view:cardCornerRadius="5dp"
-    card_view:elevation="5dp">
+                                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                    android:id="@+id/card_view"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    card_view:cardBackgroundColor="@color/icons"
+                                    card_view:cardCornerRadius="5dp"
+                                    card_view:elevation="5dp">
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -30,7 +30,7 @@
                 android:layout_weight=".3"
                 android:text="@string/branch"
                 android:textColor="@color/accent"
-                android:textIsSelectable="false" />
+                android:textIsSelectable="false"/>
 
             <TextView
                 android:id="@+id/branch"
@@ -38,7 +38,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight=".65"
                 android:textColor="@color/secondary_text"
-                android:textIsSelectable="true" />
+                android:textIsSelectable="true"/>
 
             <ImageButton
                 android:id="@+id/options"
@@ -49,7 +49,7 @@
                 android:contentDescription="@string/options"
                 android:scaleType="fitEnd"
                 android:layout_gravity="end"
-                android:src="@drawable/button_bg" />
+                android:src="@drawable/button_bg"/>
         </LinearLayout>
 
         <LinearLayout
@@ -70,7 +70,7 @@
                 android:layout_weight=".3"
                 android:text="@string/bank_name"
                 android:textColor="@color/primary_text"
-                android:textIsSelectable="false" />
+                android:textIsSelectable="false"/>
 
             <TextView
                 android:id="@+id/bankName"
@@ -78,7 +78,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight=".7"
                 android:textColor="@color/secondary_text"
-                android:textIsSelectable="true" />
+                android:textIsSelectable="true"/>
         </LinearLayout>
 
         <LinearLayout
@@ -98,7 +98,7 @@
                 android:layout_weight=".3"
                 android:text="@string/city"
                 android:textColor="@color/accent"
-                android:textIsSelectable="false" />
+                android:textIsSelectable="false"/>
 
             <TextView
                 android:id="@+id/city"
@@ -106,7 +106,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight=".7"
                 android:textColor="@color/secondary_text"
-                android:textIsSelectable="true" />
+                android:textIsSelectable="true"/>
         </LinearLayout>
 
         <LinearLayout
@@ -126,7 +126,7 @@
                 android:layout_weight=".3"
                 android:text="@string/districts"
                 android:textColor="@color/accent"
-                android:textIsSelectable="false" />
+                android:textIsSelectable="false"/>
 
             <TextView
                 android:id="@+id/bankDistrict"
@@ -134,7 +134,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight=".7"
                 android:textColor="@color/secondary_text"
-                android:textIsSelectable="true" />
+                android:textIsSelectable="true"/>
         </LinearLayout>
 
         <LinearLayout
@@ -154,7 +154,7 @@
                 android:layout_weight=".3"
                 android:text="@string/state"
                 android:textColor="@color/accent"
-                android:textIsSelectable="false" />
+                android:textIsSelectable="false"/>
 
             <TextView
                 android:id="@+id/bankStateName"
@@ -162,7 +162,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight=".7"
                 android:textColor="@color/secondary_text"
-                android:textIsSelectable="true" />
+                android:textIsSelectable="true"/>
         </LinearLayout>
 
         <LinearLayout
@@ -182,7 +182,7 @@
                 android:layout_weight=".3"
                 android:text="@string/address"
                 android:textColor="@color/accent"
-                android:textIsSelectable="false" />
+                android:textIsSelectable="false"/>
 
             <TextView
                 android:id="@+id/address"
@@ -191,7 +191,7 @@
                 android:layout_weight=".7"
                 android:text="@string/NA"
                 android:textColor="@color/secondary_text"
-                android:textIsSelectable="true" />
+                android:textIsSelectable="true"/>
         </LinearLayout>
 
         <LinearLayout
@@ -211,7 +211,7 @@
                 android:layout_weight=".3"
                 android:text="@string/contact"
                 android:textColor="@color/accent"
-                android:textIsSelectable="false" />
+                android:textIsSelectable="false"/>
 
             <TextView
                 android:id="@+id/contact"
@@ -219,7 +219,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight=".7"
                 android:textColor="@color/secondary_text"
-                android:textIsSelectable="false" />
+                android:textIsSelectable="false"/>
         </LinearLayout>
 
         <LinearLayout
@@ -239,7 +239,7 @@
                 android:layout_weight=".3"
                 android:text="@string/ifsc"
                 android:textColor="@color/accent"
-                android:textIsSelectable="false" />
+                android:textIsSelectable="false"/>
 
             <TextView
                 android:id="@+id/ifsc"
@@ -248,7 +248,7 @@
                 android:layout_weight=".7"
                 android:text="@string/NA"
                 android:textColor="@color/secondary_text"
-                android:textIsSelectable="true" />
+                android:textIsSelectable="true"/>
         </LinearLayout>
 
         <LinearLayout
@@ -268,7 +268,7 @@
                 android:layout_weight=".3"
                 android:text="@string/micr"
                 android:textColor="@color/accent"
-                android:textIsSelectable="false" />
+                android:textIsSelectable="false"/>
 
             <TextView
                 android:id="@+id/micr"
@@ -277,7 +277,7 @@
                 android:layout_weight=".7"
                 android:text="@string/NA"
                 android:textColor="@color/secondary_text"
-                android:textIsSelectable="true" />
+                android:textIsSelectable="true"/>
         </LinearLayout>
     </LinearLayout>
 

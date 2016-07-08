@@ -2,6 +2,7 @@ package com.ashoksm.pinfinder;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -14,6 +15,7 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.Filter;
 import android.widget.Filterable;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.ashoksm.pinfinder.common.AllCodeItem;
@@ -62,29 +64,47 @@ public class AllCodeListActivity extends ActivityBase {
         }
     }
 
-    private void setupRecyclerView(@NonNull RecyclerView recyclerView) {
-        PinFinderSQLiteHelper pinFinderSQLiteHelper = new PinFinderSQLiteHelper(this);
-        final AllCodeListRecyclerViewAdapter adapter =
-                new AllCodeListRecyclerViewAdapter(pinFinderSQLiteHelper.getAllPinCodes());
-        recyclerView.setAdapter(
-                adapter);
-        EditText searchBar = (EditText) findViewById(R.id.search_bar);
-        if (searchBar != null) {
-            searchBar.addTextChangedListener(new TextWatcher() {
-                @Override
-                public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-                }
+    private void setupRecyclerView(@NonNull final RecyclerView recyclerView) {
+        new AsyncTask<Void, Void, Void>() {
+            LinearLayout progressLayout = (LinearLayout) findViewById(R.id.progressLayout);
+            PinFinderSQLiteHelper sqLiteHelper = new PinFinderSQLiteHelper
+                    (AllCodeListActivity.this);
+            EditText searchBar = (EditText) findViewById(R.id.search_bar);
+            AllCodeListRecyclerViewAdapter adapter;
 
-                @Override
-                public void onTextChanged(CharSequence s, int start, int before, int count) {
-                }
+            @Override
+            protected void onPreExecute() {
+                progressLayout.setVisibility(View.VISIBLE);
+                recyclerView.setVisibility(View.GONE);
+            }
 
-                @Override
-                public void afterTextChanged(Editable s) {
-                    adapter.getFilter().filter(s.toString());
-                }
-            });
-        }
+            @Override
+            protected Void doInBackground(Void... voids) {
+                adapter = new AllCodeListRecyclerViewAdapter(sqLiteHelper.getAllPinCodes());
+                return null;
+            }
+
+            @Override
+            protected void onPostExecute(Void aVoid) {
+                recyclerView.setAdapter(adapter);
+                searchBar.addTextChangedListener(new TextWatcher() {
+                    @Override
+                    public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                    }
+
+                    @Override
+                    public void onTextChanged(CharSequence s, int start, int before, int count) {
+                    }
+
+                    @Override
+                    public void afterTextChanged(Editable s) {
+                        adapter.getFilter().filter(s.toString());
+                    }
+                });
+                progressLayout.setVisibility(View.GONE);
+                recyclerView.setVisibility(View.VISIBLE);
+            }
+        }.execute();
     }
 
     public class AllCodeListRecyclerViewAdapter

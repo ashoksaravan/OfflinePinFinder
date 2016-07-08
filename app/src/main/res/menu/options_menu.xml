@@ -4,20 +4,20 @@
     <item
         android:id="@+id/share"
         android:icon="@drawable/ic_share"
-        android:title="@string/share" />
+        android:title="@string/share"/>
     <item
         android:id="@+id/viewOnMap"
         android:icon="@drawable/ic_location_place"
-        android:title="@string/location" />
+        android:title="@string/location"/>
 
     <item
         android:id="@+id/addToFav"
         android:icon="@drawable/ic_star_red"
-        android:title="@string/add_to_fav" />
+        android:title="@string/add_to_fav"/>
 
     <item
         android:id="@+id/deleteFav"
         android:icon="@drawable/ic_action_delete"
-        android:title="@string/del_fav" />
+        android:title="@string/del_fav"/>
 
 </menu>
