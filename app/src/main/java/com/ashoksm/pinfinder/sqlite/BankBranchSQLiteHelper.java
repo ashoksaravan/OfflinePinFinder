@@ -231,7 +231,8 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
         String select = "SELECT  l." + BANK + ", " + NAME + ", " + CITY + ", l." + STATE + ", l." +
                 DISTRICT + ", " + ADDRESS + ", "
                 + CONTACT + "," + MICR + ", " + IFSC + " AS _id FROM " + TABLE_BANK_BRANCH + " ps" +
-                " INNER JOIN " + TABLE_LOCATION + " l ON ps." + LOCATION + " = l." + LOCATION + " WHERE " + IFSC
+                " INNER JOIN " + TABLE_LOCATION + " l ON ps." + LOCATION + " = l." + LOCATION +
+                " WHERE " + IFSC
                 + " IN (" + ifsc + ")";
         return db.rawQuery(select, null);
     }

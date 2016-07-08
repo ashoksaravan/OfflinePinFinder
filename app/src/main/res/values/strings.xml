@@ -33998,5 +33998,7 @@
     <string name="bank_name">Bank Name</string>
     <string name="add_to_fav">Add Favorite</string>
     <string name="del_fav">Remove</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
 
 </resources>

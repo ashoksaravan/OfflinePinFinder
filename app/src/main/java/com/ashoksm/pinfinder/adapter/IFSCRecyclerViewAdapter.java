@@ -117,25 +117,31 @@ public class IFSCRecyclerViewAdapter
                             context.startActivity(Intent.createChooser(sharingIntent,
                                     context.getResources().getText(R.string.send_to)));
                         } else if (item.getTitle().toString()
-                                .equalsIgnoreCase(context.getResources().getString(R.string.add_to_fav))) {
+                                .equalsIgnoreCase(
+                                        context.getResources().getString(R.string.add_to_fav))) {
                             SharedPreferences.Editor editor = sharedPreferences.edit();
                             String ifscs = sharedPreferences.getString("ifscs", null);
                             String ifsc = viewHolder.ifsc.getText().toString().trim();
                             if (ifscs != null && ifscs.trim().length() > 0) {
                                 if (!ifscs.contains(ifsc)) {
-                                    ifscs = ifscs + ",'" + viewHolder.ifsc.getText().toString().trim() + "'";
-                                    Toast.makeText(context, "Added Successfully!!!", Toast.LENGTH_LONG).show();
+                                    ifscs = ifscs + ",'" +
+                                            viewHolder.ifsc.getText().toString().trim() + "'";
+                                    Toast.makeText(context, "Added Successfully!!!",
+                                            Toast.LENGTH_LONG).show();
                                 } else {
-                                    Toast.makeText(context, "Already Exist!!!", Toast.LENGTH_LONG).show();
+                                    Toast.makeText(context, "Already Exist!!!", Toast.LENGTH_LONG)
+                                            .show();
                                 }
                             } else {
                                 ifscs = "'" + viewHolder.ifsc.getText().toString().trim() + "'";
-                                Toast.makeText(context, "Added Successfully!!!", Toast.LENGTH_LONG).show();
+                                Toast.makeText(context, "Added Successfully!!!", Toast.LENGTH_LONG)
+                                        .show();
                             }
                             editor.putString("ifscs", ifscs);
                             editor.apply();
                         } else if (item.getTitle().toString()
-                                .equalsIgnoreCase(context.getResources().getString(R.string.del_fav))) {
+                                .equalsIgnoreCase(
+                                        context.getResources().getString(R.string.del_fav))) {
                             SharedPreferences.Editor editor = sharedPreferences.edit();
                             String ifscs = sharedPreferences.getString("ifscs", null);
                             String ifsc = "'" + viewHolder.ifsc.getText().toString().trim() + "'";
@@ -149,7 +155,8 @@ public class IFSCRecyclerViewAdapter
                                     ifscs = ifscs.substring(0, ifscs.length() - 1);
                                 }
                             }
-                            Toast.makeText(context, "Removed Successfully!!!", Toast.LENGTH_LONG).show();
+                            Toast.makeText(context, "Removed Successfully!!!", Toast.LENGTH_LONG)
+                                    .show();
                             editor.putString("ifscs", ifscs);
                             editor.apply();
                         } else {
@@ -193,7 +200,8 @@ public class IFSCRecyclerViewAdapter
         Linkify.addLinks(holder.contact, Linkify.ALL);
         if (showFav) {
             holder.bankNameRow.setVisibility(View.VISIBLE);
-            holder.bankName.setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.BANK)));
+            holder.bankName
+                    .setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.BANK)));
         } else {
             holder.bankNameRow.setVisibility(View.GONE);
         }

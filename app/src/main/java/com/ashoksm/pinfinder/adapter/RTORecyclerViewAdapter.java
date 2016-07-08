@@ -125,10 +125,12 @@ public class RTORecyclerViewAdapter
                             editor.putString("RTOCodes", rtoCodes);
                             editor.apply();
                         } else if (item.getTitle().toString()
-                                .equalsIgnoreCase(context.getResources().getString(R.string.del_fav))) {
+                                .equalsIgnoreCase(
+                                        context.getResources().getString(R.string.del_fav))) {
                             SharedPreferences.Editor editor = sharedPreferences.edit();
                             String rtoCodes = sharedPreferences.getString("RTOCodes", null);
-                            String rtoCode = "'" + viewHolder.rtoCode.getText().toString().trim() + "'";
+                            String rtoCode =
+                                    "'" + viewHolder.rtoCode.getText().toString().trim() + "'";
                             if (rtoCodes != null) {
                                 rtoCodes = rtoCodes.replaceAll(rtoCode, "");
                                 rtoCodes = rtoCodes.replaceAll(",,", ",");
@@ -139,7 +141,8 @@ public class RTORecyclerViewAdapter
                                     rtoCodes = rtoCodes.substring(0, rtoCodes.length() - 1);
                                 }
                             }
-                            Toast.makeText(context, "Removed Successfully!!!", Toast.LENGTH_LONG).show();
+                            Toast.makeText(context, "Removed Successfully!!!", Toast.LENGTH_LONG)
+                                    .show();
                             editor.putString("RTOCodes", rtoCodes);
                             editor.apply();
                         } else {

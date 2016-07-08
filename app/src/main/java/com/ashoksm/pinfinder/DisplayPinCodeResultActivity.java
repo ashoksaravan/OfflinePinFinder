@@ -80,11 +80,14 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
         Intent intent = getIntent();
         showFav = intent.getBooleanExtra(MainActivity.EXTRA_SHOW_FAV, false);
         if (!showFav) {
-            stateName = intent.getStringExtra(PincodeFragment.EXTRA_STATE).toLowerCase(l).replaceAll(" ", "")
+            stateName = intent.getStringExtra(PincodeFragment.EXTRA_STATE).toLowerCase(l)
+                    .replaceAll(" ", "")
                     .replaceAll("'", "''");
-            districtName = intent.getStringExtra(PincodeFragment.EXTRA_DISTRICT).toLowerCase(l).replaceAll(" ", "")
+            districtName = intent.getStringExtra(PincodeFragment.EXTRA_DISTRICT).toLowerCase(l)
+                    .replaceAll(" ", "")
                     .replaceAll("'", "''");
-            officeName = intent.getStringExtra(PincodeFragment.EXTRA_OFFICE).toLowerCase(l).replaceAll(" ", "")
+            officeName = intent.getStringExtra(PincodeFragment.EXTRA_OFFICE).toLowerCase(l)
+                    .replaceAll(" ", "")
                     .replaceAll("'", "''");
         }
 
@@ -131,7 +134,8 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
                     if (!showFav) {
                         c = sqLiteHelper.findMatchingOffices(stateName, districtName, officeName);
                     } else {
-                        c = sqLiteHelper.findFavOffices(sharedPreferences.getString("pincodes", null));
+                        c = sqLiteHelper
+                                .findFavOffices(sharedPreferences.getString("pincodes", null));
                     }
                 } catch (Exception ex) {
                     Log.e(this.getClass().getName(), ex.getMessage());
@@ -142,7 +146,8 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
             @Override
             protected void onPostExecute(Void result) {
                 if (c != null && c.getCount() > 0) {
-                    adapter = new PinCodeRecyclerViewAdapter(DisplayPinCodeResultActivity.this, c, sharedPreferences,
+                    adapter = new PinCodeRecyclerViewAdapter(DisplayPinCodeResultActivity.this, c,
+                            sharedPreferences,
                             showFav);
                     if (getSupportActionBar() != null) {
                         getSupportActionBar().setTitle(c.getCount() + " Results found");
@@ -150,7 +155,8 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
                     mRecyclerView.setAdapter(adapter);
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {
-                    LinearLayout noMatchingLayout = (LinearLayout) findViewById(R.id.noMatchingLayout);
+                    LinearLayout noMatchingLayout =
+                            (LinearLayout) findViewById(R.id.noMatchingLayout);
                     noMatchingLayout.setVisibility(View.VISIBLE);
                 }
                 // HIDE THE SPINNER AFTER LOADING FEEDS

@@ -40,7 +40,8 @@ public class IFSCFragment extends Fragment {
 
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.ifsc_layout, null);
         bankNameSpinner = (AutoCompleteTextView) v.findViewById(R.id.bankName);
         stateNameTextView = (AutoCompleteTextView) v.findViewById(R.id.stateName);
@@ -48,8 +49,9 @@ public class IFSCFragment extends Fragment {
         branchName = (EditText) v.findViewById(R.id.branchName);
         mInterstitialAd = newInterstitialAd();
         loadInterstitial();
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getActivity(), R.array.bank_names,
-                R.layout.spinner_dropdown_item);
+        ArrayAdapter<CharSequence> adapter =
+                ArrayAdapter.createFromResource(getActivity(), R.array.bank_names,
+                        R.layout.spinner_dropdown_item);
         // Apply the adapter to the spinner
         bankNameSpinner.setAdapter(adapter);
 
@@ -63,13 +65,16 @@ public class IFSCFragment extends Fragment {
                 Locale l = Locale.getDefault();
                 String bankName = parent.getItemAtPosition(position).toString();
                 String resourceName =
-                        bankName.toLowerCase(l).replace('.', ' ').replace('(', ' ').replace(')', ' ').replace('&', ' ')
+                        bankName.toLowerCase(l).replace('.', ' ').replace('(', ' ')
+                                .replace(')', ' ').replace('&', ' ')
                                 .replaceAll(" ", "").replaceAll("-", "_")
                                 + "_states";
-                int bankId = getActivity().getResources().getIdentifier(resourceName, "array", getActivity().getPackageName());
+                int bankId = getActivity().getResources()
+                        .getIdentifier(resourceName, "array", getActivity().getPackageName());
                 if (bankId != 0) {
-                    ArrayAdapter<CharSequence> stateAdapter = ArrayAdapter.createFromResource(getActivity(), bankId,
-                            R.layout.spinner_dropdown_item);
+                    ArrayAdapter<CharSequence> stateAdapter =
+                            ArrayAdapter.createFromResource(getActivity(), bankId,
+                                    R.layout.spinner_dropdown_item);
                     // Apply the adapter to the spinner
                     stateNameTextView.setAdapter(stateAdapter);
                 }
@@ -85,15 +90,19 @@ public class IFSCFragment extends Fragment {
                 String bankName = bankNameSpinner.getText().toString();
                 String stateName = stateNameTextView.getText().toString();
                 String resourceName =
-                        bankName.toLowerCase(l).replace('.', ' ').replace('(', ' ').replace(')', ' ').replace('&', ' ')
+                        bankName.toLowerCase(l).replace('.', ' ').replace('(', ' ')
+                                .replace(')', ' ').replace('&', ' ')
                                 .replaceAll(" ", "").replaceAll("-", "_")
                                 + "_"
-                                + stateName.toLowerCase(l).replace('.', ' ').replace('(', ' ').replace(')', ' ')
+                                + stateName.toLowerCase(l).replace('.', ' ').replace('(', ' ')
+                                .replace(')', ' ')
                                 .replaceAll(" ", "").replaceAll("-", "_") + "_districts";
-                int bankId = getActivity().getResources().getIdentifier(resourceName, "array", getActivity().getPackageName());
+                int bankId = getActivity().getResources()
+                        .getIdentifier(resourceName, "array", getActivity().getPackageName());
                 if (bankId != 0) {
-                    ArrayAdapter<CharSequence> districtAdapter = ArrayAdapter.createFromResource(getActivity(), bankId,
-                            R.layout.spinner_dropdown_item);
+                    ArrayAdapter<CharSequence> districtAdapter =
+                            ArrayAdapter.createFromResource(getActivity(), bankId,
+                                    R.layout.spinner_dropdown_item);
                     // Apply the adapter to the spinner
                     districtNameTextView.setAdapter(districtAdapter);
                 }
@@ -126,7 +135,8 @@ public class IFSCFragment extends Fragment {
         // hide keyboard
         InputMethodManager inputMethodManager = (InputMethodManager) context
                 .getSystemService(Context.INPUT_METHOD_SERVICE);
-        inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
+        inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
+                InputMethodManager.HIDE_NOT_ALWAYS);
 
         String bankName = bankNameSpinner.getText().toString();
         if (bankName.trim().length() > 0) {

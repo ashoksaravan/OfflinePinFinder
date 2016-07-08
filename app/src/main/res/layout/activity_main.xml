@@ -109,7 +109,7 @@
             android:layout_gravity="start"
             android:layout_marginTop="-24dp"
             app:itemTextColor="@android:color/black"
-            app:menu="@menu/drawermenu" />
+            app:menu="@menu/drawer_menu" />
 
 
     </android.support.v4.widget.DrawerLayout>

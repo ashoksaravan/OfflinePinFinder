@@ -1,21 +1,24 @@
 package com.ashoksm.pinfinder.sqlite;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import com.ashoksm.pinfinder.DisplayPinCodeResultActivity;
+import com.ashoksm.pinfinder.common.AllCodeItem;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
 
 public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
 
-    private DisplayPinCodeResultActivity context;
+    private Activity context;
     private ProgressDialog mProgressDialog;
 
     // Logcat tag
@@ -51,29 +54,42 @@ public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
     public static final String ID = "_id";
 
     // post_office_t table create statement
-    private static final String CREATE_STATE_TABLE = "CREATE TABLE " + TABLE_STATE + "(" + STATE + " INTEGER, "
-            + STATE_NAME + " TEXT, " + "PRIMARY KEY (" + STATE + "))";
+    private static final String CREATE_STATE_TABLE =
+            "CREATE TABLE " + TABLE_STATE + "(" + STATE + " INTEGER, "
+                    + STATE_NAME + " TEXT, " + "PRIMARY KEY (" + STATE + "))";
 
-    private static final String CREATE_DISTRICT_TABLE = "CREATE TABLE " + TABLE_DISTRICT + "(" + STATE + " INTEGER, "
-            + DISTRICT + " INTEGER, " + DISTRICT_NAME + " TEXT, " + "FOREIGN KEY(" + STATE + ") REFERENCES "
-            + TABLE_STATE + "(" + STATE + "), " + "PRIMARY KEY (" + STATE + ", " + DISTRICT + "))";
+    private static final String CREATE_DISTRICT_TABLE =
+            "CREATE TABLE " + TABLE_DISTRICT + "(" + STATE + " INTEGER, "
+                    + DISTRICT + " INTEGER, " + DISTRICT_NAME + " TEXT, " + "FOREIGN KEY(" + STATE +
+                    ") REFERENCES "
+                    + TABLE_STATE + "(" + STATE + "), " + "PRIMARY KEY (" + STATE + ", " +
+                    DISTRICT + "))";
 
-    private static final String CREATE_LOCATION_TABLE = "CREATE TABLE " + TABLE_LOCATION + "(" + LOCATION
-            + " INTEGER, " + LOCATION_NAME + " TEXT, " + "PRIMARY KEY (" + LOCATION + "))";
+    private static final String CREATE_LOCATION_TABLE =
+            "CREATE TABLE " + TABLE_LOCATION + "(" + LOCATION
+                    + " INTEGER, " + LOCATION_NAME + " TEXT, " + "PRIMARY KEY (" + LOCATION + "))";
 
-    private static final String CREATE_STATUS_TABLE = "CREATE TABLE " + TABLE_STATUS + "(" + STATUS_CODE
-            + " INTEGER, " + STATUS_NAME + " TEXT, " + "PRIMARY KEY (" + STATUS_CODE + "))";
+    private static final String CREATE_STATUS_TABLE =
+            "CREATE TABLE " + TABLE_STATUS + "(" + STATUS_CODE
+                    + " INTEGER, " + STATUS_NAME + " TEXT, " + "PRIMARY KEY (" + STATUS_CODE + "))";
 
-    private static final String CREATE_PINCODE_TABLE = "CREATE TABLE " + TABLE_POST_OFFICE + "(" + NAME + " TEXT,"
-            + PIN_CODE + " INTEGER, " + DISTRICT + " INTEGER, " + STATE + " INTEGER, " + STATUS_CODE + " INTEGER, "
-            + SUB_OFFICE + " TEXT, " + HEAD_OFFICE + " TEXT, " + LOCATION + " INTEGER, " + TELEPHONE + " TEXT, "
-            + "FOREIGN KEY(" + STATE + ") REFERENCES " + TABLE_STATE + "(" + STATE + "), " + "FOREIGN KEY(" + DISTRICT
-            + ") REFERENCES " + TABLE_DISTRICT + "(" + DISTRICT + "), " + "FOREIGN KEY(" + LOCATION + ") REFERENCES "
-            + TABLE_LOCATION + "(" + LOCATION + "), " + "FOREIGN KEY(" + STATUS_CODE + ") REFERENCES "
-            + TABLE_STATUS + "(" + STATUS_CODE + "), " + "PRIMARY KEY (" + NAME + "," + PIN_CODE + "," + DISTRICT + ","
-            + STATE + "))";
+    private static final String CREATE_PINCODE_TABLE =
+            "CREATE TABLE " + TABLE_POST_OFFICE + "(" + NAME + " TEXT,"
+                    + PIN_CODE + " INTEGER, " + DISTRICT + " INTEGER, " + STATE + " INTEGER, " +
+                    STATUS_CODE + " INTEGER, "
+                    + SUB_OFFICE + " TEXT, " + HEAD_OFFICE + " TEXT, " + LOCATION + " INTEGER, " +
+                    TELEPHONE + " TEXT, "
+                    + "FOREIGN KEY(" + STATE + ") REFERENCES " + TABLE_STATE + "(" + STATE + "), " +
+                    "FOREIGN KEY(" + DISTRICT
+                    + ") REFERENCES " + TABLE_DISTRICT + "(" + DISTRICT + "), " + "FOREIGN KEY(" +
+                    LOCATION + ") REFERENCES "
+                    + TABLE_LOCATION + "(" + LOCATION + "), " + "FOREIGN KEY(" + STATUS_CODE +
+                    ") REFERENCES "
+                    + TABLE_STATUS + "(" + STATUS_CODE + "), " + "PRIMARY KEY (" + NAME + "," +
+                    PIN_CODE + "," + DISTRICT + ","
+                    + STATE + "))";
 
-    public PinFinderSQLiteHelper(DisplayPinCodeResultActivity contextIn) {
+    public PinFinderSQLiteHelper(Activity contextIn) {
         super(contextIn, DATABASE_NAME, null, DATABASE_VERSION);
         context = contextIn;
     }
@@ -167,11 +183,13 @@ public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
             double i = 1.00d;
             String[] fileNames = context.getAssets().list("sql/pincode");
             for (String name : fileNames) {
-                if (name.endsWith(".sql") && !name.equals("states.sql") && !name.equals("district.sql")
+                if (name.endsWith(".sql") && !name.equals("states.sql") &&
+                        !name.equals("district.sql")
                         && !name.equals("locations.sql") && !name.equals("status.sql")) {
                     // Open the resource
                     InputStream insertsStream = context.getAssets().open("sql/pincode/" + name);
-                    BufferedReader insertReader = new BufferedReader(new InputStreamReader(insertsStream));
+                    BufferedReader insertReader =
+                            new BufferedReader(new InputStreamReader(insertsStream));
 
                     while (insertReader.ready()) {
                         String insertStmt = insertReader.readLine();
@@ -292,15 +310,22 @@ public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
      * @param nameOrCode nameOrCode
      * @return List<Office>
      */
-    public Cursor findMatchingOffices(final String stateName, final String districtIn, final String nameOrCode) {
+    public Cursor findMatchingOffices(final String stateName, final String districtIn,
+                                      final String nameOrCode) {
         SQLiteDatabase db = this.getReadableDatabase();
 
-        String select = "SELECT  " + NAME + " AS _id, " + PIN_CODE + ", " + STATUS_NAME + ", " + SUB_OFFICE + ", "
-                + HEAD_OFFICE + ", l." + LOCATION_NAME + ", d." + DISTRICT_NAME + ", s." + STATE_NAME + ", "
-                + TELEPHONE + " FROM " + TABLE_POST_OFFICE + " ps" + " INNER JOIN " + TABLE_STATE + " s ON ps." + STATE
-                + " = s." + STATE + " INNER JOIN " + TABLE_DISTRICT + " d ON ps." + DISTRICT + " = d." + DISTRICT
-                + " AND d." + STATE + " = s." + STATE + " INNER JOIN " + TABLE_LOCATION + " l ON ps." + LOCATION
-                + " = l." + LOCATION + " INNER JOIN " + TABLE_STATUS + " sc ON ps." + STATUS_CODE + " = sc."
+        String select = "SELECT  " + NAME + " AS _id, " + PIN_CODE + ", " + STATUS_NAME + ", " +
+                SUB_OFFICE + ", "
+                + HEAD_OFFICE + ", l." + LOCATION_NAME + ", d." + DISTRICT_NAME + ", s." +
+                STATE_NAME + ", "
+                + TELEPHONE + " FROM " + TABLE_POST_OFFICE + " ps" + " INNER JOIN " + TABLE_STATE +
+                " s ON ps." + STATE
+                + " = s." + STATE + " INNER JOIN " + TABLE_DISTRICT + " d ON ps." + DISTRICT +
+                " = d." + DISTRICT
+                + " AND d." + STATE + " = s." + STATE + " INNER JOIN " + TABLE_LOCATION +
+                " l ON ps." + LOCATION
+                + " = l." + LOCATION + " INNER JOIN " + TABLE_STATUS + " sc ON ps." + STATUS_CODE +
+                " = sc."
                 + STATUS_CODE;
         String where = "";
 
@@ -309,17 +334,21 @@ public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
         }
         if (districtIn.trim().length() > 0) {
             if (where.length() > 0) {
-                where = where + " AND LOWER(REPLACE(d." + DISTRICT_NAME + ",' ','')) LIKE '%" + districtIn + "%'";
+                where = where + " AND LOWER(REPLACE(d." + DISTRICT_NAME + ",' ','')) LIKE '%" +
+                        districtIn + "%'";
             } else {
-                where = " WHERE LOWER(REPLACE(d." + DISTRICT_NAME + ",' ','')) LIKE '%" + districtIn + "%'";
+                where = " WHERE LOWER(REPLACE(d." + DISTRICT_NAME + ",' ','')) LIKE '%" +
+                        districtIn + "%'";
             }
         }
         if (nameOrCode.trim().length() > 0) {
             if (where.length() > 0) {
-                where = where + " AND (LOWER(REPLACE(" + NAME + ",' ','')) LIKE '%" + nameOrCode + "%' OR LOWER("
+                where = where + " AND (LOWER(REPLACE(" + NAME + ",' ','')) LIKE '%" + nameOrCode +
+                        "%' OR LOWER("
                         + PIN_CODE + ") LIKE '%" + nameOrCode + "%')";
             } else {
-                where = " WHERE LOWER(REPLACE(" + NAME + ",' ','')) LIKE '%" + nameOrCode + "%' OR LOWER(" + PIN_CODE
+                where = " WHERE LOWER(REPLACE(" + NAME + ",' ','')) LIKE '%" + nameOrCode +
+                        "%' OR LOWER(" + PIN_CODE
                         + ") LIKE '%" + nameOrCode + "%'";
             }
         }
@@ -340,14 +369,61 @@ public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
     public Cursor findFavOffices(final String pincodes) {
         SQLiteDatabase db = this.getReadableDatabase();
 
-        String select = "SELECT  " + NAME + " AS _id, " + PIN_CODE + ", " + STATUS_NAME + ", " + SUB_OFFICE + ", "
-                + HEAD_OFFICE + ", l." + LOCATION_NAME + ", d." + DISTRICT_NAME + ", s." + STATE_NAME + ", "
-                + TELEPHONE + " FROM " + TABLE_POST_OFFICE + " ps" + " INNER JOIN " + TABLE_STATE + " s ON ps." + STATE
-                + " = s." + STATE + " INNER JOIN " + TABLE_DISTRICT + " d ON ps." + DISTRICT + " = d." + DISTRICT
-                + " AND d." + STATE + " = s." + STATE + " INNER JOIN " + TABLE_LOCATION + " l ON ps." + LOCATION
-                + " = l." + LOCATION + " INNER JOIN " + TABLE_STATUS + " sc ON ps." + STATUS_CODE + " = sc."
+        String select = "SELECT  " + NAME + " AS _id, " + PIN_CODE + ", " + STATUS_NAME + ", " +
+                SUB_OFFICE + ", "
+                + HEAD_OFFICE + ", l." + LOCATION_NAME + ", d." + DISTRICT_NAME + ", s." +
+                STATE_NAME + ", "
+                + TELEPHONE + " FROM " + TABLE_POST_OFFICE + " ps" + " INNER JOIN " + TABLE_STATE +
+                " s ON ps." + STATE
+                + " = s." + STATE + " INNER JOIN " + TABLE_DISTRICT + " d ON ps." + DISTRICT +
+                " = d." + DISTRICT
+                + " AND d." + STATE + " = s." + STATE + " INNER JOIN " + TABLE_LOCATION +
+                " l ON ps." + LOCATION
+                + " = l." + LOCATION + " INNER JOIN " + TABLE_STATUS + " sc ON ps." + STATUS_CODE +
+                " = sc."
                 + STATUS_CODE;
-        String where = " WHERE " +PIN_CODE + " IN (" + pincodes + ")";
+        String where = " WHERE " + PIN_CODE + " IN (" + pincodes + ")";
+        String selectQuery = select + where;
+        Log.d(CLASS_NAME, selectQuery);
+        return db.rawQuery(selectQuery, null);
+    }
+
+    public List<AllCodeItem> getAllPinCodes() {
+        SQLiteDatabase db = this.getReadableDatabase();
+        List<AllCodeItem> pinCodes = new ArrayList<>();
+        String select = "SELECT  " + NAME + ", " + PIN_CODE + " FROM " + TABLE_POST_OFFICE + " " +
+                "ORDER BY " + PIN_CODE;
+        Cursor c = db.rawQuery(select, null);
+        if (c != null) {
+            if (c.moveToFirst()) {
+                do {
+                    pinCodes.add(new AllCodeItem(c.getString(c.getColumnIndex(PIN_CODE)),
+                            c.getString(c.getColumnIndex(NAME))));
+                } while (c.moveToNext());
+            }
+            c.close();
+        }
+
+        return pinCodes;
+    }
+
+    public Cursor getOfficeDetail(String pincode, String officeName) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        String select = "SELECT  " + NAME + " AS _id, " + PIN_CODE + ", " + STATUS_NAME + ", " +
+                SUB_OFFICE + ", "
+                + HEAD_OFFICE + ", l." + LOCATION_NAME + ", d." + DISTRICT_NAME + ", s." +
+                STATE_NAME + ", "
+                + TELEPHONE + " FROM " + TABLE_POST_OFFICE + " ps" + " INNER JOIN " + TABLE_STATE +
+                " s ON ps." + STATE
+                + " = s." + STATE + " INNER JOIN " + TABLE_DISTRICT + " d ON ps." + DISTRICT +
+                " = d." + DISTRICT
+                + " AND d." + STATE + " = s." + STATE + " INNER JOIN " + TABLE_LOCATION +
+                " l ON ps." + LOCATION
+                + " = l." + LOCATION + " INNER JOIN " + TABLE_STATUS + " sc ON ps." + STATUS_CODE +
+                " = sc."
+                + STATUS_CODE;
+        String where =
+                " WHERE " + PIN_CODE + " ='" + pincode + "' AND " + NAME + " ='" + officeName + "'";
         String selectQuery = select + where;
         Log.d(CLASS_NAME, selectQuery);
         return db.rawQuery(selectQuery, null);

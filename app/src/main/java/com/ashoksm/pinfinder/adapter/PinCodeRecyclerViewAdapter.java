@@ -29,14 +29,16 @@ import com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-public class PinCodeRecyclerViewAdapter extends CursorRecyclerViewAdapter<PinCodeRecyclerViewAdapter.ViewHolder> {
+public class PinCodeRecyclerViewAdapter
+        extends CursorRecyclerViewAdapter<PinCodeRecyclerViewAdapter.ViewHolder> {
 
     private Context context;
     private int lastPosition = -1;
     private SharedPreferences sharedPreferences;
     private boolean showFav;
 
-    public PinCodeRecyclerViewAdapter(Context context, Cursor cursor, SharedPreferences sharedPreferencesIn,
+    public PinCodeRecyclerViewAdapter(Context context, Cursor cursor,
+                                      SharedPreferences sharedPreferencesIn,
                                       boolean showFavIn) {
         super(cursor);
         this.context = context;
@@ -68,8 +70,10 @@ public class PinCodeRecyclerViewAdapter extends CursorRecyclerViewAdapter<PinCod
                         if ("mPopup".equals(field.getName())) {
                             field.setAccessible(true);
                             Object menuPopupHelper = field.get(menu);
-                            Class<?> classPopupHelper = Class.forName(menuPopupHelper.getClass().getName());
-                            Method setForceIcons = classPopupHelper.getMethod("setForceShowIcon", boolean.class);
+                            Class<?> classPopupHelper =
+                                    Class.forName(menuPopupHelper.getClass().getName());
+                            Method setForceIcons =
+                                    classPopupHelper.getMethod("setForceShowIcon", boolean.class);
                             setForceIcons.invoke(menuPopupHelper, true);
                             break;
                         }
@@ -83,16 +87,20 @@ public class PinCodeRecyclerViewAdapter extends CursorRecyclerViewAdapter<PinCod
                 menu.setOnMenuItemClickListener(new OnMenuItemClickListener() {
                     @Override
                     public boolean onMenuItemClick(MenuItem item) {
-                        if (item.getTitle().toString().equals(context.getResources().getString(R.string.share))) {
+                        if (item.getTitle().toString()
+                                .equals(context.getResources().getString(R.string.share))) {
                             Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
                             sharingIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                             sharingIntent.setType("text/plain");
                             String shareSubject = "Pincode";
-                            String shareContent = "Office Name : " + viewHolder.officeName.getText().toString().trim()
+                            String shareContent = "Office Name : " +
+                                    viewHolder.officeName.getText().toString().trim()
                                     + "\n";
-                            shareContent = shareContent + "Pincode : " + viewHolder.pincode.getText().toString().trim()
+                            shareContent = shareContent + "Pincode : " +
+                                    viewHolder.pincode.getText().toString().trim()
                                     + "\n";
-                            shareContent = shareContent + "Status : " + viewHolder.status.getText().toString().trim()
+                            shareContent = shareContent + "Status : " +
+                                    viewHolder.status.getText().toString().trim()
                                     + "\n";
                             if (viewHolder.suboffice.getText().toString().trim().length() > 0) {
                                 shareContent = shareContent + "Sub Office : "
@@ -102,14 +110,18 @@ public class PinCodeRecyclerViewAdapter extends CursorRecyclerViewAdapter<PinCod
                                 shareContent = shareContent + "Head Office : "
                                         + viewHolder.headoffice.getText().toString() + "\n";
                             }
-                            shareContent = shareContent + "Location : " + viewHolder.location.getText().toString()
+                            shareContent = shareContent + "Location : " +
+                                    viewHolder.location.getText().toString()
                                     + "\n";
-                            shareContent = shareContent + "State : " + viewHolder.state.getText().toString() + "\n";
-                            if (viewHolder.telephoneNumber.getText().toString().trim().length() > 0) {
+                            shareContent = shareContent + "State : " +
+                                    viewHolder.state.getText().toString() + "\n";
+                            if (viewHolder.telephoneNumber.getText().toString().trim().length() >
+                                    0) {
                                 shareContent = shareContent + "Telephone : "
                                         + viewHolder.telephoneNumber.getText().toString() + "\n";
                             }
-                            sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, shareSubject);
+                            sharingIntent
+                                    .putExtra(android.content.Intent.EXTRA_SUBJECT, shareSubject);
                             sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareContent);
                             context.startActivity(Intent.createChooser(sharingIntent,
                                     context.getResources().getText(R.string.send_to)));
@@ -136,7 +148,8 @@ public class PinCodeRecyclerViewAdapter extends CursorRecyclerViewAdapter<PinCod
                             editor.putString("pincodes", pincodes);
                             editor.apply();
                         } else if (item.getTitle().toString()
-                                .equalsIgnoreCase(context.getResources().getString(R.string.del_fav))) {
+                                .equalsIgnoreCase(
+                                        context.getResources().getString(R.string.del_fav))) {
                             SharedPreferences.Editor editor = sharedPreferences.edit();
                             String pincodes = sharedPreferences.getString("pincodes", null);
                             String pincode = viewHolder.pincode.getText().toString().trim();
@@ -150,19 +163,23 @@ public class PinCodeRecyclerViewAdapter extends CursorRecyclerViewAdapter<PinCod
                                     pincodes = pincodes.substring(0, pincodes.length() - 1);
                                 }
                             }
-                            Toast.makeText(context, "Removed Successfully!!!", Toast.LENGTH_LONG).show();
+                            Toast.makeText(context, "Removed Successfully!!!", Toast.LENGTH_LONG)
+                                    .show();
                             editor.putString("pincodes", pincodes);
                             editor.apply();
                         } else {
                             String uri = "http://maps.google.com/maps?q="
                                     + viewHolder.state.getText().toString().trim() + " "
                                     + viewHolder.pincode.getText().toString().trim();
-                            Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(uri));
-                            intent.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
+                            Intent intent =
+                                    new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(uri));
+                            intent.setClassName("com.google.android.apps.maps",
+                                    "com.google.android.maps.MapsActivity");
                             try {
                                 context.startActivity(intent);
                             } catch (Exception e) {
-                                Toast.makeText(context, R.string.mapsNotFount, Toast.LENGTH_LONG).show();
+                                Toast.makeText(context, R.string.mapsNotFount, Toast.LENGTH_LONG)
+                                        .show();
                             }
                         }
 
@@ -173,45 +190,59 @@ public class PinCodeRecyclerViewAdapter extends CursorRecyclerViewAdapter<PinCod
             }
         });
 
-        holder.officeName.setText(cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.ID)));
-        holder.pincode.setText(cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.PIN_CODE)));
-        holder.status.setText(cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.STATUS_NAME)));
-        holder.state.setText(cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.STATE_NAME)));
+        holder.officeName
+                .setText(cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.ID)));
+        holder.pincode
+                .setText(cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.PIN_CODE)));
+        holder.status.setText(
+                cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.STATUS_NAME)));
+        holder.state
+                .setText(cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.STATE_NAME)));
 
         if (cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.SUB_OFFICE)) != null
-                && cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.SUB_OFFICE)).trim().length() > 0) {
+                && cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.SUB_OFFICE)).trim()
+                .length() > 0) {
             holder.subofficeRow.setVisibility(View.VISIBLE);
-            holder.suboffice.setText(cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.SUB_OFFICE)));
+            holder.suboffice.setText(
+                    cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.SUB_OFFICE)));
         } else {
             holder.suboffice.setText("");
             holder.subofficeRow.setVisibility(View.GONE);
         }
 
         if (cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.HEAD_OFFICE)) != null
-                && cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.HEAD_OFFICE)).trim().length() > 0) {
+                && cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.HEAD_OFFICE)).trim()
+                .length() > 0) {
             holder.headofficeRow.setVisibility(View.VISIBLE);
-            holder.headoffice.setText(cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.HEAD_OFFICE)));
+            holder.headoffice.setText(
+                    cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.HEAD_OFFICE)));
         } else {
             holder.headoffice.setText("");
             holder.headofficeRow.setVisibility(View.GONE);
         }
 
         if (cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.LOCATION_NAME)) != null
-                && cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.LOCATION_NAME)).trim().length() > 0) {
+                &&
+                cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.LOCATION_NAME)).trim()
+                        .length() > 0) {
             holder.locationRow.setVisibility(View.VISIBLE);
             String location =
-                    cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.LOCATION_NAME)) + " Taluk of " +
+                    cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.LOCATION_NAME)) +
+                            " Taluk of " +
                             cursor.getString(
-                                    cursor.getColumnIndex(PinFinderSQLiteHelper.DISTRICT_NAME)) + " District";
+                                    cursor.getColumnIndex(PinFinderSQLiteHelper.DISTRICT_NAME)) +
+                            " District";
             holder.location.setText(location);
         } else {
             holder.location.setText("");
             holder.locationRow.setVisibility(View.GONE);
         }
         if (cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.TELEPHONE)) != null
-                && cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.TELEPHONE)).trim().length() > 0) {
+                && cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.TELEPHONE)).trim()
+                .length() > 0) {
             holder.telephoneRow.setVisibility(View.VISIBLE);
-            holder.telephoneNumber.setText(cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.TELEPHONE)));
+            holder.telephoneNumber.setText(
+                    cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.TELEPHONE)));
             Linkify.addLinks(holder.telephoneNumber, Linkify.ALL);
         } else {
             holder.telephoneNumber.setText("");
@@ -232,7 +263,8 @@ public class PinCodeRecyclerViewAdapter extends CursorRecyclerViewAdapter<PinCod
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.office_custom_grid, parent, false);
+        View itemView = LayoutInflater.from(parent.getContext())
+                .inflate(R.layout.office_custom_grid, parent, false);
         return new ViewHolder(itemView);
     }
 

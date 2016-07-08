@@ -24,6 +24,7 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
 
@@ -42,9 +43,6 @@ public class MainActivity extends ActivityBase {
     private Class clazz;
     public static final String EXTRA_SHOW_FAV = "EXTRA_SHOW_FAV";
     private DrawerLayout mDrawerLayout;
-    private NavigationView mNavigationView;
-    private FragmentManager mFragmentManager;
-    private FragmentTransaction mFragmentTransaction;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,15 +60,15 @@ public class MainActivity extends ActivityBase {
          */
 
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
-        mNavigationView = (NavigationView) findViewById(R.id.shitstuff);
+        NavigationView mNavigationView = (NavigationView) findViewById(R.id.shitstuff);
 
         /**
          * Lets inflate the very first fragment
          * Here , we are inflating the TabFragment as the first Fragment
          */
 
-        mFragmentManager = getSupportFragmentManager();
-        mFragmentTransaction = mFragmentManager.beginTransaction();
+        FragmentManager mFragmentManager = getSupportFragmentManager();
+        FragmentTransaction mFragmentTransaction = mFragmentManager.beginTransaction();
         mFragmentTransaction.replace(R.id.containerView, new TabFragment()).commit();
 
         // load ad
@@ -80,12 +78,36 @@ public class MainActivity extends ActivityBase {
         addFloatingButton();
 
         /**
+         * Setup click events on the Navigation View Items.
+         */
+
+        mNavigationView.setNavigationItemSelectedListener(
+                new NavigationView.OnNavigationItemSelectedListener() {
+                    @Override
+                    public boolean onNavigationItemSelected(MenuItem menuItem) {
+                        mDrawerLayout.closeDrawers();
+
+
+                        if (menuItem.getItemId() == R.id.nav_office) {
+                            Intent intent =
+                                    new Intent(getApplicationContext(), AllCodeListActivity.class);
+                            startActivity(intent);
+                            overridePendingTransition(R.anim.slide_out_left, 0);
+                        }
+
+                        return false;
+                    }
+
+                });
+
+        /**
          * Setup Drawer Toggle of the Toolbar
          */
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        ActionBarDrawerToggle mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout, toolbar, R.string.app_name,
-                R.string.app_name);
+        ActionBarDrawerToggle mDrawerToggle =
+                new ActionBarDrawerToggle(this, mDrawerLayout, toolbar, R.string.app_name,
+                        R.string.app_name);
 
         mDrawerLayout.addDrawerListener(mDrawerToggle);
 
@@ -93,7 +115,8 @@ public class MainActivity extends ActivityBase {
     }
 
     private void addFloatingButton() {
-        final FloatingActionMenu actionMenu = (FloatingActionMenu) findViewById(R.id.floatingActionMenu);
+        final FloatingActionMenu actionMenu =
+                (FloatingActionMenu) findViewById(R.id.floatingActionMenu);
 
         FloatingActionButton pincodeButton =
                 (FloatingActionButton) findViewById(R.id.floating_pincode);

@@ -32,15 +32,17 @@ public class RTOFragment extends Fragment {
 
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.rto_layout, null);
         stateNameTextView = (AutoCompleteTextView) v.findViewById(R.id.rtoStates);
 
         mInterstitialAd = newInterstitialAd();
         loadInterstitial();
 
-        ArrayAdapter<CharSequence> stateAdapter = ArrayAdapter.createFromResource(getActivity(), R.array.states_array,
-                R.layout.spinner_dropdown_item);
+        ArrayAdapter<CharSequence> stateAdapter =
+                ArrayAdapter.createFromResource(getActivity(), R.array.states_array,
+                        R.layout.spinner_dropdown_item);
         // Apply the adapter to the spinner
         stateNameTextView.setAdapter(stateAdapter);
         cityName = (EditText) v.findViewById(R.id.rtoCityName);
@@ -70,7 +72,8 @@ public class RTOFragment extends Fragment {
         // hide keyboard
         InputMethodManager inputMethodManager = (InputMethodManager) context
                 .getSystemService(Context.INPUT_METHOD_SERVICE);
-        inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
+        inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
+                InputMethodManager.HIDE_NOT_ALWAYS);
 
         String stateName = stateNameTextView.getText().toString();
         String city = cityName.getText().toString();

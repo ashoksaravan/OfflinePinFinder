@@ -20,7 +20,8 @@ public class AppRater {
     private final static int LAUNCHES_UNTIL_PROMPT = 3;//Min number of launches
 
     public static void appLaunched(Context mContext) {
-        SharedPreferences prefs = mContext.getSharedPreferences("com.ashoksm.pinfinder.apprater", 0);
+        SharedPreferences prefs =
+                mContext.getSharedPreferences("com.ashoksm.pinfinder.apprater", 0);
         if (prefs.getBoolean("dontshowagain", false)) {
             return;
         }

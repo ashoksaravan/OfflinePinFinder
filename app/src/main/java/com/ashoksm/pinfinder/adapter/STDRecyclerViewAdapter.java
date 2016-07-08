@@ -27,7 +27,8 @@ import com.ashoksm.pinfinder.sqlite.STDSQLiteHelper;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-public class STDRecyclerViewAdapter extends CursorRecyclerViewAdapter<STDRecyclerViewAdapter.ViewHolder> {
+public class STDRecyclerViewAdapter
+        extends CursorRecyclerViewAdapter<STDRecyclerViewAdapter.ViewHolder> {
 
     private Context context;
     private int lastPosition = -1;
@@ -66,8 +67,10 @@ public class STDRecyclerViewAdapter extends CursorRecyclerViewAdapter<STDRecycle
                         if ("mPopup".equals(field.getName())) {
                             field.setAccessible(true);
                             Object menuPopupHelper = field.get(menu);
-                            Class<?> classPopupHelper = Class.forName(menuPopupHelper.getClass().getName());
-                            Method setForceIcons = classPopupHelper.getMethod("setForceShowIcon", boolean.class);
+                            Class<?> classPopupHelper =
+                                    Class.forName(menuPopupHelper.getClass().getName());
+                            Method setForceIcons =
+                                    classPopupHelper.getMethod("setForceShowIcon", boolean.class);
                             setForceIcons.invoke(menuPopupHelper, true);
                             break;
                         }
@@ -81,15 +84,20 @@ public class STDRecyclerViewAdapter extends CursorRecyclerViewAdapter<STDRecycle
                 menu.setOnMenuItemClickListener(new OnMenuItemClickListener() {
                     @Override
                     public boolean onMenuItemClick(MenuItem item) {
-                        if (item.getTitle().toString().equals(context.getResources().getString(R.string.share))) {
+                        if (item.getTitle().toString()
+                                .equals(context.getResources().getString(R.string.share))) {
                             Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
                             sharingIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                             sharingIntent.setType("text/plain");
                             String shareSubject = "STD Code";
-                            String shareContent = "STD Code : " + viewHolder.stdCode.getText().toString() + "\n";
-                            shareContent = shareContent + "City Name : " + viewHolder.city.getText().toString() + "\n";
-                            shareContent = shareContent + "State : " + viewHolder.state.getText().toString();
-                            sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, shareSubject);
+                            String shareContent =
+                                    "STD Code : " + viewHolder.stdCode.getText().toString() + "\n";
+                            shareContent = shareContent + "City Name : " +
+                                    viewHolder.city.getText().toString() + "\n";
+                            shareContent = shareContent + "State : " +
+                                    viewHolder.state.getText().toString();
+                            sharingIntent
+                                    .putExtra(android.content.Intent.EXTRA_SUBJECT, shareSubject);
                             sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareContent);
                             context.startActivity(Intent.createChooser(sharingIntent,
                                     context.getResources().getText(R.string.send_to)));
@@ -117,10 +125,12 @@ public class STDRecyclerViewAdapter extends CursorRecyclerViewAdapter<STDRecycle
                             editor.putString("STDcodes", stdCodes);
                             editor.apply();
                         } else if (item.getTitle().toString()
-                                .equalsIgnoreCase(context.getResources().getString(R.string.del_fav))) {
+                                .equalsIgnoreCase(
+                                        context.getResources().getString(R.string.del_fav))) {
                             SharedPreferences.Editor editor = sharedPreferences.edit();
                             String stdCodes = sharedPreferences.getString("STDcodes", null);
-                            String stdCode = "'" + viewHolder.stdCode.getText().toString().trim() + "'";
+                            String stdCode =
+                                    "'" + viewHolder.stdCode.getText().toString().trim() + "'";
                             if (stdCodes != null) {
                                 stdCodes = stdCodes.replaceAll(stdCode, "");
                                 stdCodes = stdCodes.replaceAll(",,", ",");
@@ -131,18 +141,23 @@ public class STDRecyclerViewAdapter extends CursorRecyclerViewAdapter<STDRecycle
                                     stdCodes = stdCodes.substring(0, stdCodes.length() - 1);
                                 }
                             }
-                            Toast.makeText(context, "Removed Successfully!!!", Toast.LENGTH_LONG).show();
+                            Toast.makeText(context, "Removed Successfully!!!", Toast.LENGTH_LONG)
+                                    .show();
                             editor.putString("STDcodes", stdCodes);
                             editor.apply();
                         } else {
-                            String uri = "http://maps.google.com/maps?q=" + viewHolder.city.getText().toString() + ", "
+                            String uri = "http://maps.google.com/maps?q=" +
+                                    viewHolder.city.getText().toString() + ", "
                                     + viewHolder.state.getText().toString();
-                            Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(uri));
-                            intent.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
+                            Intent intent =
+                                    new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(uri));
+                            intent.setClassName("com.google.android.apps.maps",
+                                    "com.google.android.maps.MapsActivity");
                             try {
                                 context.startActivity(intent);
                             } catch (Exception e) {
-                                Toast.makeText(context, R.string.mapsNotFount, Toast.LENGTH_LONG).show();
+                                Toast.makeText(context, R.string.mapsNotFount, Toast.LENGTH_LONG)
+                                        .show();
                             }
                         }
 
@@ -171,7 +186,8 @@ public class STDRecyclerViewAdapter extends CursorRecyclerViewAdapter<STDRecycle
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.std_custom_grid, parent, false);
+        View itemView = LayoutInflater.from(parent.getContext())
+                .inflate(R.layout.std_custom_grid, parent, false);
         return new ViewHolder(itemView);
     }
 

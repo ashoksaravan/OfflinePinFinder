@@ -39,7 +39,8 @@ public class PincodeFragment extends Fragment {
 
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.pincode_layout, null);
         states = (AutoCompleteTextView) v.findViewById(R.id.states);
         mInterstitialAd = newInterstitialAd();

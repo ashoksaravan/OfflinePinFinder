@@ -73,12 +73,14 @@ public class DisplayRTOResultActivity extends AppCompatActivity {
         // Get the message from the intent
         final Intent intent = getIntent();
         showFav = intent.getBooleanExtra(MainActivity.EXTRA_SHOW_FAV, false);
-        if(!showFav) {
+        if (!showFav) {
             stateName =
-                    intent.getStringExtra(RTOFragment.EXTRA_STATE).toLowerCase(l).replaceAll(" ", "")
+                    intent.getStringExtra(RTOFragment.EXTRA_STATE).toLowerCase(l)
+                            .replaceAll(" ", "")
                             .replaceAll("'", "''");
-            cityName = intent.getStringExtra(RTOFragment.EXTRA_CITY).toLowerCase(l).replaceAll(" ", "")
-                    .replaceAll("'", "''");
+            cityName =
+                    intent.getStringExtra(RTOFragment.EXTRA_CITY).toLowerCase(l).replaceAll(" ", "")
+                            .replaceAll("'", "''");
         }
         // load ad
         final LinearLayout adParent = (LinearLayout) this.findViewById(R.id.adLayout);
@@ -120,8 +122,9 @@ public class DisplayRTOResultActivity extends AppCompatActivity {
             protected Void doInBackground(Void... params) {
                 try {
                     sqLiteHelper = new RTOSQLiteHelper(DisplayRTOResultActivity.this);
-                    if(showFav) {
-                        c = sqLiteHelper.findFavRTOCodes(sharedPreferences.getString("RTOCodes", null));
+                    if (showFav) {
+                        c = sqLiteHelper
+                                .findFavRTOCodes(sharedPreferences.getString("RTOCodes", null));
                     } else {
                         c = sqLiteHelper.findRTOCodes(stateName, cityName);
                     }
@@ -137,7 +140,8 @@ public class DisplayRTOResultActivity extends AppCompatActivity {
                     if (getSupportActionBar() != null) {
                         getSupportActionBar().setTitle(c.getCount() + " Results found");
                     }
-                    adapter = new RTORecyclerViewAdapter(DisplayRTOResultActivity.this, c, sharedPreferences, showFav);
+                    adapter = new RTORecyclerViewAdapter(DisplayRTOResultActivity.this, c,
+                            sharedPreferences, showFav);
                     mRecyclerView.setAdapter(adapter);
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {

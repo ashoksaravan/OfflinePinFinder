@@ -73,12 +73,14 @@ public class DisplaySTDResultActivity extends ActivityBase {
         // Get the message from the intent
         final Intent intent = getIntent();
         showFav = intent.getBooleanExtra(MainActivity.EXTRA_SHOW_FAV, false);
-        if(!showFav) {
+        if (!showFav) {
             stateName =
-                    intent.getStringExtra(STDFragment.EXTRA_STATE).toLowerCase(l).replaceAll(" ", "")
+                    intent.getStringExtra(STDFragment.EXTRA_STATE).toLowerCase(l)
+                            .replaceAll(" ", "")
                             .replaceAll("'", "''");
-            cityName = intent.getStringExtra(STDFragment.EXTRA_CITY).toLowerCase(l).replaceAll(" ", "")
-                    .replaceAll("'", "''");
+            cityName =
+                    intent.getStringExtra(STDFragment.EXTRA_CITY).toLowerCase(l).replaceAll(" ", "")
+                            .replaceAll("'", "''");
         }
 
         // load ad
@@ -121,10 +123,11 @@ public class DisplaySTDResultActivity extends ActivityBase {
             protected Void doInBackground(Void... params) {
                 try {
                     sqLiteHelper = new STDSQLiteHelper(DisplaySTDResultActivity.this);
-                    if(!showFav) {
+                    if (!showFav) {
                         c = sqLiteHelper.findSTDCodes(stateName, cityName);
                     } else {
-                        c = sqLiteHelper.findFavSTDCodes(sharedPreferences.getString("STDcodes", null));
+                        c = sqLiteHelper
+                                .findFavSTDCodes(sharedPreferences.getString("STDcodes", null));
                     }
                 } catch (Exception ex) {
                     Log.e(this.getClass().getName(), ex.getMessage());
@@ -138,11 +141,13 @@ public class DisplaySTDResultActivity extends ActivityBase {
                     if (getSupportActionBar() != null) {
                         getSupportActionBar().setTitle(c.getCount() + " Results found");
                     }
-                    adapter = new STDRecyclerViewAdapter(DisplaySTDResultActivity.this, c, sharedPreferences, showFav);
+                    adapter = new STDRecyclerViewAdapter(DisplaySTDResultActivity.this, c,
+                            sharedPreferences, showFav);
                     mRecyclerView.setAdapter(adapter);
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {
-                    LinearLayout noMatchingLayout = (LinearLayout) findViewById(R.id.noMatchingLayout);
+                    LinearLayout noMatchingLayout =
+                            (LinearLayout) findViewById(R.id.noMatchingLayout);
                     noMatchingLayout.setVisibility(View.VISIBLE);
                 }
                 // HIDE THE SPINNER AFTER LOADING FEEDS

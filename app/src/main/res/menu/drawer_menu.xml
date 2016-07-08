@@ -10,6 +10,7 @@
                 android:icon="@drawable/ic_floating_pincode"
                 android:title="@string/officename" />
             <item
+                android:id="@+id/nav_pincode"
                 android:icon="@drawable/ic_floating_pincode"
                 android:title="@string/pincode" />
         </menu>

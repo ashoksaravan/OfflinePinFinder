@@ -79,16 +79,19 @@ public class DisplayBankBranchResultActivity extends AppCompatActivity {
         showFav = intent.getBooleanExtra(MainActivity.EXTRA_SHOW_FAV, false);
         if (!showFav) {
             stateName =
-                    intent.getStringExtra(IFSCFragment.EXTRA_STATE).toLowerCase(l).replaceAll(" ", "")
+                    intent.getStringExtra(IFSCFragment.EXTRA_STATE).toLowerCase(l)
+                            .replaceAll(" ", "")
                             .replaceAll("'", "''");
             districtName =
                     intent.getStringExtra(IFSCFragment.EXTRA_DISTRICT).toLowerCase(l)
                             .replaceAll(" ", "")
                             .replaceAll("'", "''");
-            bankName = intent.getStringExtra(IFSCFragment.EXTRA_BANK).toLowerCase(l).replaceAll(" ", "")
+            bankName = intent.getStringExtra(IFSCFragment.EXTRA_BANK).toLowerCase(l)
+                    .replaceAll(" ", "")
                     .replaceAll("'", "''");
             branchName =
-                    intent.getStringExtra(IFSCFragment.EXTRA_BRANCH).toLowerCase(l).replaceAll(" ", "")
+                    intent.getStringExtra(IFSCFragment.EXTRA_BRANCH).toLowerCase(l)
+                            .replaceAll(" ", "")
                             .replaceAll("'", "''");
         }
         // load ad
@@ -153,7 +156,8 @@ public class DisplayBankBranchResultActivity extends AppCompatActivity {
                 }
                 if (c != null && c.getCount() > 0) {
                     adapter = new IFSCRecyclerViewAdapter(DisplayBankBranchResultActivity.this, c,
-                            intent.getStringExtra(IFSCFragment.EXTRA_BANK), sharedPreferences, showFav);
+                            intent.getStringExtra(IFSCFragment.EXTRA_BANK), sharedPreferences,
+                            showFav);
                     mRecyclerView.setAdapter(adapter);
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {
