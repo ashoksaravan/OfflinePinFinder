@@ -1,11 +1,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               xmlns:app="http://schemas.android.com/apk/res-auto"
-              xmlns:card_view="http://schemas.android.com/apk/res-auto"
               xmlns:tools="http://schemas.android.com/tools"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:layout_marginLeft="16dp"
-              android:layout_marginRight="16dp"
               android:baselineAligned="false"
               android:divider="?android:attr/dividerHorizontal"
               android:orientation="horizontal"
@@ -15,7 +12,6 @@
     <!--
     This layout is a two-pane layout for the Items
     master/detail flow.
-    
     -->
 
 
@@ -23,25 +19,6 @@
         android:layout_width="@dimen/item_width"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
-        <android.support.v7.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="48dp"
-            android:layout_margin="6dip"
-            android:background="#ffffff"
-            card_view:cardCornerRadius="4dp"
-            card_view:cardElevation="2dp">
-
-            <EditText
-                android:id="@+id/search_bar"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="#ffffff"
-                android:drawableLeft="@drawable/ic_action_search"
-                android:drawableStart="@drawable/ic_action_search"
-                android:inputType="text"/>
-
-        </android.support.v7.widget.CardView>
 
         <LinearLayout
             android:id="@+id/progressLayout"
@@ -73,10 +50,10 @@
             android:name="com.ashoksm.pinfinder.AllCodeListFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:layoutManager="LinearLayoutManager"
-            tools:context=".AllCodeListActivity"
             android:scrollbarThumbVertical="@drawable/scroll_bar"
             android:scrollbars="vertical"
+            app:layoutManager="LinearLayoutManager"
+            tools:context=".AllCodeListActivity"
             tools:listitem="@layout/all_code_list_content"/>
     </LinearLayout>
 

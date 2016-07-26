@@ -59,14 +59,14 @@
             android:id="@+id/gridView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingTop="?attr/actionBarSize"
-            android:scrollbarThumbVertical="@drawable/scroll_bar"
             android:layout_above="@+id/adLayout"
             android:clipToPadding="false"
-            android:scrollbars="vertical"
+            android:paddingBottom="5dp"
             android:paddingLeft="5dp"
             android:paddingRight="5dp"
-            android:paddingBottom="5dp"
+            android:paddingTop="?attr/actionBarSize"
+            android:scrollbarThumbVertical="@drawable/scroll_bar"
+            android:scrollbars="vertical"
             android:visibility="gone"/>
 
         <LinearLayout
@@ -79,12 +79,13 @@
             android:visibility="gone"/>
     </RelativeLayout>
 
-    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
-                                       android:id="@+id/my_awesome_toolbar"
-                                       android:layout_width="match_parent"
-                                       android:layout_height="?attr/actionBarSize"
-                                       android:background="?attr/colorPrimary"
-                                       app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-                                       app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/my_awesome_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
 </FrameLayout>

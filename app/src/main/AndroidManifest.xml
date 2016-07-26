@@ -75,16 +75,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.ashoksm.pinfinder.MainActivity"/>
         </activity>
-        <activity
-            android:name=".AllCodeDetailActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_item_detail"
-            android:parentActivityName=".AllCodeListActivity"
-            android:theme="@style/AppTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".AllCodeListActivity"/>
-        </activity>
     </application>
 
 </manifest>

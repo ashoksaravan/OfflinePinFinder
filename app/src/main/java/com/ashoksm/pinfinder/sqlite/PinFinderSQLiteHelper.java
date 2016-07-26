@@ -7,14 +7,10 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import com.ashoksm.pinfinder.common.AllCodeItem;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
 
 public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
 
@@ -388,44 +384,18 @@ public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
         return db.rawQuery(selectQuery, null);
     }
 
-    public List<AllCodeItem> getAllPinCodes() {
+    public Cursor getAllPinCodes(String queryTxt) {
         SQLiteDatabase db = this.getReadableDatabase();
-        List<AllCodeItem> pinCodes = new ArrayList<>();
-        String select = "SELECT  " + NAME + ", " + PIN_CODE + " FROM " + TABLE_POST_OFFICE + " " +
-                "ORDER BY " + PIN_CODE;
-        Cursor c = db.rawQuery(select, null);
-        if (c != null) {
-            if (c.moveToFirst()) {
-                do {
-                    pinCodes.add(new AllCodeItem(c.getString(c.getColumnIndex(PIN_CODE)),
-                            c.getString(c.getColumnIndex(NAME))));
-                } while (c.moveToNext());
-            }
-            c.close();
-        }
-
-        return pinCodes;
+        String select = "SELECT  DISTINCT " + PIN_CODE + " AS _id FROM " + TABLE_POST_OFFICE +
+                " WHERE " + PIN_CODE + " LIKE '%" + queryTxt + "%' ORDER BY " + PIN_CODE;
+        return db.rawQuery(select, null);
     }
 
-    public Cursor getOfficeDetail(String pincode, String officeName) {
+    public Cursor getAllOfficeNames(String queryTxt) {
         SQLiteDatabase db = this.getReadableDatabase();
-        String select = "SELECT  " + NAME + " AS _id, " + PIN_CODE + ", " + STATUS_NAME + ", " +
-                SUB_OFFICE + ", "
-                + HEAD_OFFICE + ", l." + LOCATION_NAME + ", d." + DISTRICT_NAME + ", s." +
-                STATE_NAME + ", "
-                + TELEPHONE + " FROM " + TABLE_POST_OFFICE + " ps" + " INNER JOIN " + TABLE_STATE +
-                " s ON ps." + STATE
-                + " = s." + STATE + " INNER JOIN " + TABLE_DISTRICT + " d ON ps." + DISTRICT +
-                " = d." + DISTRICT
-                + " AND d." + STATE + " = s." + STATE + " INNER JOIN " + TABLE_LOCATION +
-                " l ON ps." + LOCATION
-                + " = l." + LOCATION + " INNER JOIN " + TABLE_STATUS + " sc ON ps." + STATUS_CODE +
-                " = sc."
-                + STATUS_CODE;
-        String where =
-                " WHERE " + PIN_CODE + " ='" + pincode + "' AND " + NAME + " ='" + officeName + "'";
-        String selectQuery = select + where;
-        Log.d(CLASS_NAME, selectQuery);
-        return db.rawQuery(selectQuery, null);
+        String select = "SELECT  DISTINCT " + NAME + " AS _id FROM " + TABLE_POST_OFFICE +
+                " WHERE " + NAME + " LIKE '%" + queryTxt + "%' ORDER BY " + NAME;
+        return db.rawQuery(select, null);
     }
+
 }

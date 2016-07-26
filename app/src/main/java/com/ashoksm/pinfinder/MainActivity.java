@@ -42,6 +42,7 @@ public class MainActivity extends ActivityBase {
     private InterstitialAd mInterstitialAd;
     private Class clazz;
     public static final String EXTRA_SHOW_FAV = "EXTRA_SHOW_FAV";
+    public static final String EXTRA_MENU_ID = "EXTRA_MENU_ID";
     private DrawerLayout mDrawerLayout;
 
     @Override
@@ -86,18 +87,13 @@ public class MainActivity extends ActivityBase {
                     @Override
                     public boolean onNavigationItemSelected(MenuItem menuItem) {
                         mDrawerLayout.closeDrawers();
-
-
-                        if (menuItem.getItemId() == R.id.nav_office) {
-                            Intent intent =
-                                    new Intent(getApplicationContext(), AllCodeListActivity.class);
-                            startActivity(intent);
-                            overridePendingTransition(R.anim.slide_out_left, 0);
-                        }
-
+                        Intent intent =
+                                new Intent(getApplicationContext(), AllCodeListActivity.class);
+                        intent.putExtra(EXTRA_MENU_ID, menuItem.getItemId());
+                        startActivity(intent);
+                        overridePendingTransition(R.anim.slide_out_left, 0);
                         return false;
                     }
-
                 });
 
         /**
