@@ -29,17 +29,12 @@ import java.util.Locale;
 public class DisplayBankBranchResultActivity extends AppCompatActivity {
 
     private BankBranchSQLiteHelper sqLiteHelper;
-
     private Cursor c;
-
     private String stateName;
-
     private String districtName;
-
     private String bankName;
-
     private String branchName;
-
+    private String action;
     private boolean showFav;
 
     private SharedPreferences sharedPreferences;
@@ -78,21 +73,20 @@ public class DisplayBankBranchResultActivity extends AppCompatActivity {
         final Intent intent = getIntent();
         showFav = intent.getBooleanExtra(MainActivity.EXTRA_SHOW_FAV, false);
         if (!showFav) {
-            stateName =
-                    intent.getStringExtra(IFSCFragment.EXTRA_STATE).toLowerCase(l)
-                            .replaceAll(" ", "")
-                            .replaceAll("'", "''");
-            districtName =
-                    intent.getStringExtra(IFSCFragment.EXTRA_DISTRICT).toLowerCase(l)
-                            .replaceAll(" ", "")
-                            .replaceAll("'", "''");
+            stateName = intent.getStringExtra(IFSCFragment.EXTRA_STATE).toLowerCase(l)
+                    .replaceAll(" ", "").replaceAll("'", "''");
+            districtName = intent.getStringExtra(IFSCFragment.EXTRA_DISTRICT).toLowerCase(l)
+                    .replaceAll(" ", "").replaceAll("'", "''");
             bankName = intent.getStringExtra(IFSCFragment.EXTRA_BANK).toLowerCase(l)
-                    .replaceAll(" ", "")
-                    .replaceAll("'", "''");
-            branchName =
-                    intent.getStringExtra(IFSCFragment.EXTRA_BRANCH).toLowerCase(l)
-                            .replaceAll(" ", "")
-                            .replaceAll("'", "''");
+                    .replaceAll(" ", "").replaceAll("'", "''");
+            action = intent.getStringExtra(IFSCFragment.EXTRA_ACTION);
+            if (action != null && action.length() > 0) {
+                branchName = intent.getStringExtra(IFSCFragment.EXTRA_BRANCH).toLowerCase(l);
+            } else {
+                branchName = intent.getStringExtra(IFSCFragment.EXTRA_BRANCH).toLowerCase(l)
+                        .replaceAll(" ", "").replaceAll("'", "''");
+            }
+
         }
         // load ad
         final LinearLayout adParent = (LinearLayout) this.findViewById(R.id.adLayout);
@@ -139,7 +133,8 @@ public class DisplayBankBranchResultActivity extends AppCompatActivity {
                                 .findFavIfscCodes(sharedPreferences.getString("ifscs", null));
                     } else {
                         c = sqLiteHelper
-                                .findIfscCodes(stateName, districtName, bankName, branchName);
+                                .findIfscCodes(stateName, districtName, bankName, branchName,
+                                        action);
                     }
                 } catch (Exception ex) {
                     Log.e(this.getClass().getName(), ex.getMessage());
@@ -149,7 +144,7 @@ public class DisplayBankBranchResultActivity extends AppCompatActivity {
 
             @Override
             protected void onPostExecute(Void result) {
-                if (showFav && getSupportActionBar() != null) {
+                if ((showFav || action.length() > 0) && getSupportActionBar() != null) {
                     getSupportActionBar().setTitle(c.getCount() + " Results Found");
                 } else if (getSupportActionBar() != null) {
                     getSupportActionBar().setTitle(intent.getStringExtra(IFSCFragment.EXTRA_BANK));

@@ -1,13 +1,12 @@
 package com.ashoksm.pinfinder.sqlite;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
-
-import com.ashoksm.pinfinder.DisplayBankBranchResultActivity;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -16,7 +15,7 @@ import java.io.InputStreamReader;
 
 public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
 
-    private DisplayBankBranchResultActivity context;
+    private Activity context;
     private ProgressDialog mProgressDialog;
     // Logcat tag
     private static final String CLASS_NAME = BankBranchSQLiteHelper.class.getName();
@@ -59,7 +58,7 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
                     TABLE_LOCATION + "(" + LOCATION
                     + "), " + "PRIMARY KEY (" + NAME + "," + IFSC + "," + LOCATION + "))";
 
-    public BankBranchSQLiteHelper(DisplayBankBranchResultActivity contextIn) {
+    public BankBranchSQLiteHelper(Activity contextIn) {
         super(contextIn, DATABASE_NAME, null, DATABASE_VERSION);
         context = contextIn;
     }
@@ -192,33 +191,35 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
      * @return Cursor
      */
     public Cursor findIfscCodes(final String stateName, final String districtIn,
-                                final String bankName,
-                                final String branchName) {
+                                final String bankName, final String branchName, String action) {
         SQLiteDatabase db = this.getReadableDatabase();
 
         String select =
-                "SELECT  " + NAME + ", " + CITY + ", l." + STATE + ", l." + DISTRICT + ", " +
-                        ADDRESS + ", "
-                        + CONTACT + "," + MICR + ", " + IFSC + " AS _id FROM " + TABLE_BANK_BRANCH +
-                        " ps" + " INNER JOIN "
-                        + TABLE_LOCATION + " l ON ps." + LOCATION + " = l." + LOCATION +
-                        " WHERE LOWER(REPLACE(l." + BANK
-                        + ",' ',''))" + " LIKE '%" + bankName + "%'";
+                "SELECT  " + NAME + ", " + CITY + ", l." + STATE + ", l." + DISTRICT + ", "
+                        + ADDRESS + ", " + CONTACT + "," + MICR + ", " + IFSC + " AS _id FROM "
+                        + TABLE_BANK_BRANCH + " ps" + " INNER JOIN " + TABLE_LOCATION + " l ON ps."
+                        + LOCATION + " = l." + LOCATION;
         String where = "";
 
-        if (stateName.trim().length() > 0) {
-            where = " AND LOWER(REPLACE(l." + STATE + ",' ','')) LIKE '%" + stateName + "%'";
-        }
-        if (districtIn.trim().length() > 0) {
-            where = where + " AND LOWER(REPLACE(l." + DISTRICT + ",' ','')) LIKE '%" + districtIn +
-                    "%'";
-        }
-        if (branchName.trim().length() > 0) {
-            where = where + " AND (LOWER(REPLACE(" + NAME + ",' ','')) LIKE '%" + branchName +
-                    "%' OR  LOWER(REPLACE("
-                    + IFSC + ",' ','')) LIKE '%" + branchName + "%' OR LOWER(REPLACE(" + MICR +
-                    ",' ','')) LIKE '%"
-                    + branchName + "%')";
+        if ("MICR".equals(action)) {
+            where = " WHERE LOWER(" + MICR + ") = '" + branchName + "'";
+        } else if ("IFSC".equals(action)) {
+            where = " WHERE LOWER(" + IFSC + ") = '" + branchName + "'";
+        } else {
+            select = select + " WHERE LOWER(REPLACE(l." + BANK + ",' ',''))" + " LIKE '%"
+                    + bankName + "%'";
+            if (stateName.trim().length() > 0) {
+                where = " AND LOWER(REPLACE(l." + STATE + ",' ','')) LIKE '%" + stateName + "%'";
+            }
+            if (districtIn.trim().length() > 0) {
+                where = where + " AND LOWER(REPLACE(l." + DISTRICT + ",' ','')) LIKE '%" +
+                        districtIn + "%'";
+            }
+            if (branchName.trim().length() > 0) {
+                where = where + " AND (LOWER(REPLACE(" + NAME + ",' ','')) LIKE '%" + branchName
+                        + "%' OR  LOWER(REPLACE(" + IFSC + ",' ','')) LIKE '%" + branchName
+                        + "%' OR LOWER(REPLACE(" + MICR + ",' ','')) LIKE '%" + branchName + "%')";
+            }
         }
         String selectQuery = select + where;
         Log.d(CLASS_NAME, selectQuery);
@@ -228,12 +229,25 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
 
     public Cursor findFavIfscCodes(String ifsc) {
         SQLiteDatabase db = this.getReadableDatabase();
-        String select = "SELECT  l." + BANK + ", " + NAME + ", " + CITY + ", l." + STATE + ", l." +
-                DISTRICT + ", " + ADDRESS + ", "
-                + CONTACT + "," + MICR + ", " + IFSC + " AS _id FROM " + TABLE_BANK_BRANCH + " ps" +
-                " INNER JOIN " + TABLE_LOCATION + " l ON ps." + LOCATION + " = l." + LOCATION +
-                " WHERE " + IFSC
-                + " IN (" + ifsc + ")";
+        String select = "SELECT  l." + BANK + ", " + NAME + ", " + CITY + ", l." + STATE + ", l."
+                + DISTRICT + ", " + ADDRESS + ", " + CONTACT + "," + MICR + ", " + IFSC
+                + " AS _id FROM " + TABLE_BANK_BRANCH + " ps" + " INNER JOIN " + TABLE_LOCATION
+                + " l ON ps." + LOCATION + " = l." + LOCATION + " WHERE " + IFSC + " IN (" + ifsc +
+                ")";
+        return db.rawQuery(select, null);
+    }
+
+    public Cursor getIFSCCodes(String queryTxt) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        String select = "SELECT  DISTINCT " + IFSC + " AS _id FROM " + TABLE_BANK_BRANCH + " WHERE "
+                + IFSC + " LIKE '%" + queryTxt + "%' ORDER BY " + IFSC;
+        return db.rawQuery(select, null);
+    }
+
+    public Cursor getMICRCodes(String queryTxt) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        String select = "SELECT  DISTINCT " + MICR + " AS _id FROM " + TABLE_BANK_BRANCH + " WHERE "
+                + MICR + " LIKE '%" + queryTxt + "%' AND " + MICR + "!='0'" + " ORDER BY " + MICR;
         return db.rawQuery(select, null);
     }
 

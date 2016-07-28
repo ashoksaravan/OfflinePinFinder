@@ -21,14 +21,13 @@
         android:title="@string/ifsc">
         <menu>
             <item
+                android:id="@+id/nav_ifsc"
                 android:icon="@drawable/ic_floating_ifsc"
-                android:title="@string/bank_name"/>
+                android:title="@string/search_by_ifsc"/>
             <item
+                android:id="@+id/nav_micr"
                 android:icon="@drawable/ic_floating_ifsc"
-                android:title="@string/ifsc"/>
-            <item
-                android:icon="@drawable/ic_floating_ifsc"
-                android:title="@string/micr"/>
+                android:title="@string/search_by_micr"/>
         </menu>
     </item>
 

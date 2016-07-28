@@ -32,6 +32,7 @@ public class IFSCFragment extends Fragment {
     public final static String EXTRA_DISTRICT = "com.ashoksm.offlinepinfinder.DISTRICT";
     public final static String EXTRA_BANK = "com.ashoksm.offlinepinfinder.BANK";
     public final static String EXTRA_BRANCH = "com.ashoksm.offlinepinfinder.BRANCH";
+    public final static String EXTRA_ACTION = "com.ashoksm.offlinepinfinder.ACTION";
     private static AutoCompleteTextView bankNameSpinner;
     private static AutoCompleteTextView stateNameTextView;
     private static AutoCompleteTextView districtNameTextView;
@@ -148,6 +149,7 @@ public class IFSCFragment extends Fragment {
             intent.putExtra(EXTRA_DISTRICT, districtName.trim());
             intent.putExtra(EXTRA_BANK, bankName.trim());
             intent.putExtra(EXTRA_BRANCH, branch.trim());
+            intent.putExtra(EXTRA_ACTION, "");
             intent.putExtra(MainActivity.EXTRA_SHOW_FAV, false);
             context.startActivity(intent);
             context.overridePendingTransition(R.anim.slide_out_left, 0);

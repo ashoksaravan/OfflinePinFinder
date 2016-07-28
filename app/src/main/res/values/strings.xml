@@ -34000,7 +34000,9 @@
     <string name="del_fav">Remove</string>
     <string name="title_item_list">Items</string>
     <string name="title_item_detail">Item Detail</string>
-    <string name="search_by_pincode">Search by pincode</string>
-    <string name="search_by_office_name">Search by office name</string>
+    <string name="search_by_pincode">Search by Pincode</string>
+    <string name="search_by_office_name">Search by Officename</string>
+    <string name="search_by_ifsc">Search by IFSC</string>
+    <string name="search_by_micr">Search by MICR</string>
 
 </resources>

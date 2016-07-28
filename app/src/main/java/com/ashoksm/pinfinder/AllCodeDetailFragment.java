@@ -15,15 +15,22 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
+import com.ashoksm.pinfinder.adapter.CursorRecyclerViewAdapter;
+import com.ashoksm.pinfinder.adapter.IFSCRecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.PinCodeRecyclerViewAdapter;
+import com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper;
 
 public class AllCodeDetailFragment extends Fragment {
 
     private PinFinderSQLiteHelper sqLiteHelper;
+    private BankBranchSQLiteHelper branchSQLiteHelper;
     private SharedPreferences sharedPreferences;
     private String officeName;
+    private String action;
+    private String branchName;
     private Cursor c;
+    public static final String EXTRA_ACTION = "com.ashoksm.pinfinder.AllCodeDetailFragment.ACTION";
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -59,14 +66,20 @@ public class AllCodeDetailFragment extends Fragment {
         // use a linear layout manager
         LinearLayoutManager mLayoutManager = new LinearLayoutManager(v.getContext());
         mRecyclerView.setLayoutManager(mLayoutManager);
-        String string = getArguments().getString(PincodeFragment.EXTRA_OFFICE);
-        if (string != null) {
-            officeName = string.toLowerCase().replaceAll(" ", "").replaceAll("'", "''");
+        action = getArguments().getString(EXTRA_ACTION);
+        if (action != null && action.length() == 0) {
+            String officeName = getArguments().getString(PincodeFragment.EXTRA_OFFICE);
+            if (officeName != null) {
+                this.officeName =
+                        officeName.toLowerCase().replaceAll(" ", "").replaceAll("'", "''");
+            }
+        } else {
+            branchName = getArguments().getString(IFSCFragment.EXTRA_BRANCH);
         }
 
         new AsyncTask<Void, Void, Void>() {
             LinearLayout progressLayout = (LinearLayout) v.findViewById(R.id.progressLayout);
-            PinCodeRecyclerViewAdapter adapter;
+            CursorRecyclerViewAdapter adapter;
 
             @Override
             protected void onPreExecute() {
@@ -77,8 +90,15 @@ public class AllCodeDetailFragment extends Fragment {
             @Override
             protected Void doInBackground(Void... params) {
                 try {
-                    sqLiteHelper = new PinFinderSQLiteHelper(getActivity());
-                    c = sqLiteHelper.findMatchingOffices("", "", officeName);
+                    if (action != null && action.length() == 0) {
+                        sqLiteHelper = new PinFinderSQLiteHelper(getActivity());
+                        c = sqLiteHelper.findMatchingOffices("", "",
+                                AllCodeDetailFragment.this.officeName);
+                    } else {
+                        branchSQLiteHelper = new BankBranchSQLiteHelper(getActivity());
+                        c = branchSQLiteHelper
+                                .findIfscCodes("", "", "", branchName.toLowerCase(), action);
+                    }
                 } catch (Exception ex) {
                     Log.e(this.getClass().getName(), ex.getMessage());
                 }
@@ -88,9 +108,13 @@ public class AllCodeDetailFragment extends Fragment {
             @Override
             protected void onPostExecute(Void result) {
                 if (c != null && c.getCount() > 0) {
-                    adapter = new PinCodeRecyclerViewAdapter(getActivity(), c,
-                            sharedPreferences,
-                            false);
+                    if (action != null && action.length() == 0) {
+                        adapter = new PinCodeRecyclerViewAdapter(getActivity(), c,
+                                sharedPreferences, false);
+                    } else {
+                        adapter = new IFSCRecyclerViewAdapter(getActivity(), c, "",
+                                sharedPreferences, false);
+                    }
                     mRecyclerView.setAdapter(adapter);
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {
