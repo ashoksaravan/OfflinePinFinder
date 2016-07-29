@@ -5,9 +5,11 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
+import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -19,6 +21,7 @@ import android.widget.LinearLayout;
 import com.ashoksm.pinfinder.adapter.PinCodeRecyclerViewAdapter;
 import com.ashoksm.pinfinder.common.AppRater;
 import com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper;
+import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
@@ -63,6 +66,10 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
         // use a linear layout manager
         LinearLayoutManager mLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(mLayoutManager);
+
+        // set item decorator
+        Drawable dividerDrawable = ContextCompat.getDrawable(this, R.drawable.item_divider_big);
+        mRecyclerView.addItemDecoration(new DividerItemDecoration(dividerDrawable));
 
         // add check to avoid toolbar animation for the devices before JELLY_BEAN
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.JELLY_BEAN) {

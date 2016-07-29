@@ -3,10 +3,12 @@ package com.ashoksm.pinfinder;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.database.Cursor;
+import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -20,6 +22,7 @@ import com.ashoksm.pinfinder.adapter.IFSCRecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.PinCodeRecyclerViewAdapter;
 import com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper;
+import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
 
 public class AllCodeDetailFragment extends Fragment {
 
@@ -62,6 +65,11 @@ public class AllCodeDetailFragment extends Fragment {
         // use this setting to improve performance if you know that changes
         // in content do not change the layout size of the RecyclerView
         mRecyclerView.setHasFixedSize(true);
+
+        // set item decorator
+        Drawable dividerDrawable =
+                ContextCompat.getDrawable(v.getContext(), R.drawable.item_divider_big);
+        mRecyclerView.addItemDecoration(new DividerItemDecoration(dividerDrawable));
 
         // use a linear layout manager
         LinearLayoutManager mLayoutManager = new LinearLayoutManager(v.getContext());

@@ -57,8 +57,6 @@
         android:layout_above="@+id/adLayout"
         android:clipToPadding="false"
         android:paddingBottom="5dp"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp"
         android:scrollbarThumbVertical="@drawable/scroll_bar"
         android:scrollbars="vertical"
         android:visibility="gone"/>

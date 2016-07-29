@@ -102,13 +102,13 @@ public class PinCodeRecyclerViewAdapter
                             shareContent = shareContent + "Status : " +
                                     viewHolder.status.getText().toString().trim()
                                     + "\n";
-                            if (viewHolder.suboffice.getText().toString().trim().length() > 0) {
+                            if (viewHolder.subOffice.getText().toString().trim().length() > 0) {
                                 shareContent = shareContent + "Sub Office : "
-                                        + viewHolder.suboffice.getText().toString() + "\n";
+                                        + viewHolder.subOffice.getText().toString() + "\n";
                             }
-                            if (viewHolder.headoffice.getText().toString().trim().length() > 0) {
+                            if (viewHolder.headOffice.getText().toString().trim().length() > 0) {
                                 shareContent = shareContent + "Head Office : "
-                                        + viewHolder.headoffice.getText().toString() + "\n";
+                                        + viewHolder.headOffice.getText().toString() + "\n";
                             }
                             shareContent = shareContent + "Location : " +
                                     viewHolder.location.getText().toString()
@@ -202,23 +202,23 @@ public class PinCodeRecyclerViewAdapter
         if (cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.SUB_OFFICE)) != null
                 && cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.SUB_OFFICE)).trim()
                 .length() > 0) {
-            holder.subofficeRow.setVisibility(View.VISIBLE);
-            holder.suboffice.setText(
+            holder.subOfficeRow.setVisibility(View.VISIBLE);
+            holder.subOffice.setText(
                     cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.SUB_OFFICE)));
         } else {
-            holder.suboffice.setText("");
-            holder.subofficeRow.setVisibility(View.GONE);
+            holder.subOffice.setText("");
+            holder.subOfficeRow.setVisibility(View.GONE);
         }
 
         if (cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.HEAD_OFFICE)) != null
                 && cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.HEAD_OFFICE)).trim()
                 .length() > 0) {
-            holder.headofficeRow.setVisibility(View.VISIBLE);
-            holder.headoffice.setText(
+            holder.headOfficeRow.setVisibility(View.VISIBLE);
+            holder.headOffice.setText(
                     cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.HEAD_OFFICE)));
         } else {
-            holder.headoffice.setText("");
-            holder.headofficeRow.setVisibility(View.GONE);
+            holder.headOffice.setText("");
+            holder.headOfficeRow.setVisibility(View.GONE);
         }
 
         if (cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.LOCATION_NAME)) != null
@@ -273,10 +273,10 @@ public class PinCodeRecyclerViewAdapter
         ImageButton options;
         TextView pincode;
         TextView status;
-        TextView suboffice;
-        LinearLayout subofficeRow;
-        TextView headoffice;
-        LinearLayout headofficeRow;
+        TextView subOffice;
+        LinearLayout subOfficeRow;
+        TextView headOffice;
+        LinearLayout headOfficeRow;
         TextView location;
         LinearLayout locationRow;
         TextView telephoneNumber;
@@ -290,10 +290,10 @@ public class PinCodeRecyclerViewAdapter
             options = (ImageButton) view.findViewById(R.id.options);
             pincode = (TextView) view.findViewById(R.id.pincode);
             status = (TextView) view.findViewById(R.id.status);
-            suboffice = (TextView) view.findViewById(R.id.subofficeName);
-            subofficeRow = (LinearLayout) view.findViewById(R.id.subofficeRow);
-            headoffice = (TextView) view.findViewById(R.id.headofficeName);
-            headofficeRow = (LinearLayout) view.findViewById(R.id.headofficeRow);
+            subOffice = (TextView) view.findViewById(R.id.subOfficeName);
+            subOfficeRow = (LinearLayout) view.findViewById(R.id.subOfficeRow);
+            headOffice = (TextView) view.findViewById(R.id.headOfficeName);
+            headOfficeRow = (LinearLayout) view.findViewById(R.id.headOfficeRow);
             location = (TextView) view.findViewById(R.id.locationName);
             locationRow = (LinearLayout) view.findViewById(R.id.locationRow);
             telephoneNumber = (TextView) view.findViewById(R.id.telephoneNumber);

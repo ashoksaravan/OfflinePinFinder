@@ -1,112 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-                                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                                    android:id="@+id/rto_card_view"
-                                    android:layout_width="fill_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_margin="5dp"
-                                    card_view:cardBackgroundColor="#ffffff"
-                                    card_view:cardCornerRadius="5dp"
-                                    card_view:elevation="5dp">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:background="@color/icons"
+              android:orientation="vertical">
 
     <LinearLayout
+        android:id="@+id/cityRow"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_centerHorizontal="true"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="4dp">
 
-        <LinearLayout
-            android:id="@+id/cityRow"
-            android:layout_width="fill_parent"
+        <TextView
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:paddingBottom="4dp"
-            android:paddingLeft="5dp"
-            android:paddingStart="5dp"
-            android:paddingTop="4dp">
+            android:layout_weight=".3"
+            android:text="@string/rtoCode"
+            android:textColor="@color/accent"
+            android:textIsSelectable="false"/>
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".3"
-                android:text="@string/rtoCode"
-                android:textColor="@color/accent"
-                android:textIsSelectable="false"/>
-
-            <TextView
-                android:id="@+id/rtoCode"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".65"
-                android:text="@string/NA"
-                android:textColor="@color/secondary_text"
-                android:textIsSelectable="true"/>
-
-            <ImageButton
-                android:id="@+id/options"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".05"
-                android:background="@android:color/transparent"
-                android:contentDescription="@string/options"
-                android:scaleType="fitEnd"
-                android:src="@drawable/button_bg"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/rtoRow"
-            android:layout_width="fill_parent"
+        <TextView
+            android:id="@+id/rtoCode"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:paddingBottom="4dp"
-            android:paddingEnd="5dp"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
-            android:paddingStart="5dp"
-            android:paddingTop="4dp">
+            android:layout_weight=".65"
+            android:text="@string/NA"
+            android:textColor="@color/secondary_text"
+            android:textIsSelectable="true"/>
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".3"
-                android:text="@string/city"
-                android:textColor="@color/accent"
-                android:textIsSelectable="false"/>
-
-            <TextView
-                android:id="@+id/rCityName"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".7"
-                android:textColor="@color/secondary_text"
-                android:textIsSelectable="true"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/stateRow"
-            android:layout_width="fill_parent"
+        <ImageButton
+            android:id="@+id/options"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:paddingBottom="4dp"
-            android:paddingEnd="5dp"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
-            android:paddingStart="5dp"
-            android:paddingTop="4dp">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".3"
-                android:text="@string/state"
-                android:textColor="@color/accent"
-                android:textIsSelectable="false"/>
-
-            <TextView
-                android:id="@+id/rtoStateName"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".7"
-                android:textColor="@color/secondary_text"
-                android:textIsSelectable="true"/>
-        </LinearLayout>
+            android:layout_weight=".05"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/options"
+            android:scaleType="fitEnd"
+            android:src="@drawable/button_bg"/>
     </LinearLayout>
 
-</android.support.v7.widget.CardView>
+    <LinearLayout
+        android:id="@+id/rtoRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:text="@string/city"
+            android:textColor="@color/accent"
+            android:textIsSelectable="false"/>
+
+        <TextView
+            android:id="@+id/rCityName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".7"
+            android:textColor="@color/secondary_text"
+            android:textIsSelectable="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/stateRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:text="@string/state"
+            android:textColor="@color/accent"
+            android:textIsSelectable="false"/>
+
+        <TextView
+            android:id="@+id/rtoStateName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".7"
+            android:textColor="@color/secondary_text"
+            android:textIsSelectable="true"/>
+    </LinearLayout>
+</LinearLayout>

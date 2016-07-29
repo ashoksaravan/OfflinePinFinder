@@ -1,259 +1,250 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-                                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                                    android:id="@+id/pincode_card_view"
-                                    android:layout_width="fill_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_margin="5dp"
-                                    card_view:cardBackgroundColor="#ffffff"
-                                    card_view:cardCornerRadius="5dp"
-                                    card_view:elevation="5dp">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:background="@color/icons"
+              android:orientation="vertical">
 
     <LinearLayout
+        android:id="@+id/officeRow"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_centerHorizontal="true"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:paddingLeft="5dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="4dp">
 
-        <LinearLayout
-            android:id="@+id/officeRow"
-            android:layout_width="fill_parent"
+        <TextView
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:paddingBottom="4dp"
-            android:paddingLeft="5dp"
-            android:paddingStart="5dp"
-            android:paddingTop="4dp">
+            android:layout_weight=".3"
+            android:text="@string/officename"
+            android:textColor="@color/accent"
+            android:textIsSelectable="false"/>
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".3"
-                android:text="@string/officename"
-                android:textColor="@color/accent"
-                android:textIsSelectable="false"/>
-
-            <TextView
-                android:id="@+id/officeName"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".65"
-                android:textColor="@color/secondary_text"
-                android:textIsSelectable="true"/>
-
-            <ImageButton
-                android:id="@+id/options"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".05"
-                android:background="@android:color/transparent"
-                android:contentDescription="@string/options"
-                android:scaleType="fitEnd"
-                android:src="@drawable/button_bg"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/pincodeRow"
-            android:layout_width="fill_parent"
+        <TextView
+            android:id="@+id/officeName"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:paddingBottom="4dp"
-            android:paddingEnd="5dp"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
-            android:paddingStart="5dp"
-            android:paddingTop="4dp">
+            android:layout_weight=".65"
+            android:textColor="@color/secondary_text"
+            android:textIsSelectable="true"/>
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".3"
-                android:text="@string/pincode"
-                android:textColor="@color/accent"
-                android:textIsSelectable="false"/>
-
-            <TextView
-                android:id="@+id/pincode"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".7"
-                android:textColor="@color/secondary_text"
-                android:textIsSelectable="true"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/statusRow"
-            android:layout_width="fill_parent"
+        <ImageButton
+            android:id="@+id/options"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:paddingBottom="4dp"
-            android:paddingEnd="5dp"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
-            android:paddingStart="5dp"
-            android:paddingTop="4dp">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".3"
-                android:text="@string/status"
-                android:textColor="@color/accent"
-                android:textIsSelectable="false"/>
-
-            <TextView
-                android:id="@+id/status"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".7"
-                android:textColor="@color/secondary_text"
-                android:textIsSelectable="true"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/subofficeRow"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:paddingBottom="4dp"
-            android:paddingEnd="5dp"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
-            android:paddingStart="5dp"
-            android:paddingTop="4dp">
-
-            <TextView
-                android:id="@+id/subofficeLabel"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".3"
-                android:text="@string/suboffice"
-                android:textColor="@color/accent"
-                android:textIsSelectable="false"/>
-
-            <TextView
-                android:id="@+id/subofficeName"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".7"
-                android:text="@string/NA"
-                android:textColor="@color/secondary_text"
-                android:textIsSelectable="true"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/headofficeRow"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:paddingBottom="4dp"
-            android:paddingEnd="5dp"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
-            android:paddingStart="5dp"
-            android:paddingTop="4dp">
-
-            <TextView
-                android:id="@+id/headofficeLabel"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".3"
-                android:text="@string/headoffice"
-                android:textColor="@color/accent"
-                android:textIsSelectable="false"/>
-
-            <TextView
-                android:id="@+id/headofficeName"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".7"
-                android:textColor="@color/secondary_text"
-                android:textIsSelectable="true"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/locationRow"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:paddingBottom="4dp"
-            android:paddingEnd="5dp"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
-            android:paddingStart="5dp"
-            android:paddingTop="4dp">
-
-            <TextView
-                android:id="@+id/locationLabel"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".3"
-                android:text="@string/location"
-                android:textColor="@color/accent"
-                android:textIsSelectable="false"/>
-
-            <TextView
-                android:id="@+id/locationName"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".7"
-                android:text="@string/NA"
-                android:textColor="@color/secondary_text"
-                android:textIsSelectable="true"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/stateRow"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:paddingBottom="4dp"
-            android:paddingEnd="5dp"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
-            android:paddingStart="5dp"
-            android:paddingTop="4dp">
-
-            <TextView
-                android:id="@+id/stateLabel"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".3"
-                android:text="@string/state"
-                android:textColor="@color/accent"
-                android:textIsSelectable="false"/>
-
-            <TextView
-                android:id="@+id/stateName"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".7"
-                android:textColor="@color/secondary_text"
-                android:textIsSelectable="true"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/telephoneRow"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:paddingBottom="4dp"
-            android:paddingEnd="5dp"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
-            android:paddingStart="5dp"
-            android:paddingTop="4dp">
-
-            <TextView
-                android:id="@+id/telephoneLabel"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".3"
-                android:text="@string/telephone"
-                android:textColor="@color/accent"
-                android:textIsSelectable="false"/>
-
-            <TextView
-                android:id="@+id/telephoneNumber"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".7"
-                android:text="@string/NA"
-                android:textColor="@color/secondary_text"
-                android:textIsSelectable="false"/>
-        </LinearLayout>
+            android:layout_weight=".05"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/options"
+            android:scaleType="fitEnd"
+            android:src="@drawable/button_bg"/>
     </LinearLayout>
 
-</android.support.v7.widget.CardView>
+    <LinearLayout
+        android:id="@+id/pincodeRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:text="@string/pincode"
+            android:textColor="@color/accent"
+            android:textIsSelectable="false"/>
+
+        <TextView
+            android:id="@+id/pincode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".7"
+            android:textColor="@color/secondary_text"
+            android:textIsSelectable="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/statusRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:text="@string/status"
+            android:textColor="@color/accent"
+            android:textIsSelectable="false"/>
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".7"
+            android:textColor="@color/secondary_text"
+            android:textIsSelectable="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/subOfficeRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:id="@+id/subOfficeLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:text="@string/suboffice"
+            android:textColor="@color/accent"
+            android:textIsSelectable="false"/>
+
+        <TextView
+            android:id="@+id/subOfficeName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".7"
+            android:text="@string/NA"
+            android:textColor="@color/secondary_text"
+            android:textIsSelectable="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/headOfficeRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:id="@+id/headOfficeLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:text="@string/headoffice"
+            android:textColor="@color/accent"
+            android:textIsSelectable="false"/>
+
+        <TextView
+            android:id="@+id/headOfficeName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".7"
+            android:textColor="@color/secondary_text"
+            android:textIsSelectable="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/locationRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:id="@+id/locationLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:text="@string/location"
+            android:textColor="@color/accent"
+            android:textIsSelectable="false"/>
+
+        <TextView
+            android:id="@+id/locationName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".7"
+            android:text="@string/NA"
+            android:textColor="@color/secondary_text"
+            android:textIsSelectable="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/stateRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:id="@+id/stateLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:text="@string/state"
+            android:textColor="@color/accent"
+            android:textIsSelectable="false"/>
+
+        <TextView
+            android:id="@+id/stateName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".7"
+            android:textColor="@color/secondary_text"
+            android:textIsSelectable="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/telephoneRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:id="@+id/telephoneLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:text="@string/telephone"
+            android:textColor="@color/accent"
+            android:textIsSelectable="false"/>
+
+        <TextView
+            android:id="@+id/telephoneNumber"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".7"
+            android:text="@string/NA"
+            android:textColor="@color/secondary_text"
+            android:textIsSelectable="false"/>
+    </LinearLayout>
+</LinearLayout>
