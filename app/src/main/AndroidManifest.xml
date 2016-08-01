@@ -28,7 +28,7 @@
         <activity
             android:name=".DisplayPinCodeResultActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_display_result"
+            android:label="@string/title_result"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -37,7 +37,7 @@
         <activity
             android:name=".DisplayBankBranchResultActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_display_result"
+            android:label="@string/title_result"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -46,7 +46,7 @@
         <activity
             android:name=".DisplaySTDResultActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_display_result"
+            android:label="@string/title_result"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -55,7 +55,7 @@
         <activity
             android:name=".DisplayRTOResultActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_display_result"
+            android:label="@string/title_result"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -67,7 +67,7 @@
             android:theme="@android:style/Theme.Translucent"/>
         <activity
             android:name=".AllCodeListActivity"
-            android:label="@string/title_item_list"
+            android:label="@string/title_result"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme"
             android:windowSoftInputMode="stateHidden|adjustResize">

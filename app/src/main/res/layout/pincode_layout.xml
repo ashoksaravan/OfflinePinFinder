@@ -39,7 +39,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:hint="@string/text1"
+            android:hint="@string/pincode_or_officename"
             android:imeOptions="actionSearch"
             android:singleLine="true"
             android:textColor="@color/accent"

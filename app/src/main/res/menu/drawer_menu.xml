@@ -18,7 +18,7 @@
 
     <item
         android:id="@+id/nav_item_ifsc"
-        android:title="@string/ifsc">
+        android:title="@string/title_ifsc">
         <menu>
             <item
                 android:id="@+id/nav_ifsc"
@@ -28,16 +28,20 @@
                 android:id="@+id/nav_micr"
                 android:icon="@drawable/ic_floating_ifsc"
                 android:title="@string/search_by_micr"/>
+            <item
+                android:id="@+id/nav_branch_name"
+                android:icon="@drawable/ic_floating_ifsc"
+                android:title="@string/search_by_branch_name"/>
         </menu>
     </item>
 
     <item
         android:icon="@drawable/ic_floating_std"
-        android:title="@string/title_section3">
+        android:title="@string/title_std">
     </item>
 
     <item
         android:icon="@drawable/ic_floating_rto"
-        android:title="@string/title_section4">
+        android:title="@string/title_rto">
     </item>
 </menu>

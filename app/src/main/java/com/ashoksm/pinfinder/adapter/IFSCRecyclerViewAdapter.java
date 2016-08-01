@@ -172,7 +172,7 @@ public class IFSCRecyclerViewAdapter
                             try {
                                 context.startActivity(intent);
                             } catch (Exception e) {
-                                Toast.makeText(context, R.string.mapsNotFount, Toast.LENGTH_LONG)
+                                Toast.makeText(context, R.string.maps_not_found, Toast.LENGTH_LONG)
                                         .show();
                             }
                         }

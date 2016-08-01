@@ -116,7 +116,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".3"
-            android:text="@string/suboffice"
+            android:text="@string/sub_office"
             android:textColor="@color/accent"
             android:textIsSelectable="false"/>
 
@@ -146,7 +146,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".3"
-            android:text="@string/headoffice"
+            android:text="@string/head_office"
             android:textColor="@color/accent"
             android:textIsSelectable="false"/>
 

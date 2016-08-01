@@ -4,41 +4,39 @@
     <string name="edit_message">Enter a message</string>
     <string name="button_search">Search</string>
     <string name="title_activity_main">Main Activity</string>
-    <string name="title_activity_display_message">Result</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="text1">Pincode/Officename</string>
+    <string name="title_result">Result</string>
+    <string name="pincode_or_officename">Pincode/Officename</string>
     <string name="state">State</string>
     <string name="districts">District</string>
     <string name="officename">Office Name</string>
     <string name="pincode">Pincode</string>
     <string name="status">Status</string>
-    <string name="suboffice">Sub Office</string>
-    <string name="headoffice">Head Office</string>
+    <string name="sub_office">Sub Office</string>
+    <string name="head_office">Head Office</string>
     <string name="location">Location</string>
     <string name="telephone">Telephone</string>
     <string name="NA">N/A</string>
     <string name="options">Options</string>
     <string name="share">Share</string>
-    <string name="noMatchingTxt">No matching records found</string>
+    <string name="no_matching_txt">No matching records found</string>
     <string name="admob_id">ca-app-pub-1841174173430884/1569279852</string>
     <string name="send_to">Share Via</string>
-    <string name="title_section1">PINCODE</string>
-    <string name="title_section2">IFSC</string>
-    <string name="title_section3">STD</string>
-    <string name="title_section4">RTO</string>
+    <string name="title_pincode">PINCODE</string>
+    <string name="title_ifsc">IFSC</string>
+    <string name="title_std">STD</string>
+    <string name="title_rto">RTO</string>
     <string name="branch">Branch</string>
-    <string name="branchIFSCMICR">Branch/IFSC/MICR</string>
+    <string name="branch_ifsc_micr">Branch/IFSC/MICR</string>
     <string name="city">City</string>
     <string name="address">Address</string>
     <string name="contact">Contact</string>
-    <string name="ifsc">IFSC</string>
     <string name="micr">MICR</string>
-    <string name="cityName">City Name/STD Code</string>
-    <string name="rtoCityName">City Name/RTO Code</string>
-    <string name="stdCode">STD Code</string>
-    <string name="rtoCode">RTO Code</string>
+    <string name="city_name">City Name/STD Code</string>
+    <string name="rto_city_name">City Name/RTO Code</string>
+    <string name="std_code">STD Code</string>
+    <string name="rto_code">RTO Code</string>
     <string name="loading">Loading…</string>
-    <string name="mapsNotFount">Google maps not found!!!</string>
+    <string name="maps_not_found">Google maps not found!!!</string>
     <string name="remind_me_later">Remind me later</string>
     <string name="no_thanks">No, thanks</string>
     <string name="rate_content">If you enjoy using this app, please take a moment to rate it. Thanks for your support!</string>
@@ -1421,9 +1419,6 @@
         <item>South Dinajpur</item>
         <item>West Midnapore</item>
     </string-array>
-
-
-    <string name="title_activity_display_result">Result</string>
 
     <string-array name="bank_names">
         <item>Abhyudaya Co-Op Bank Ltd</item>
@@ -33998,11 +33993,10 @@
     <string name="bank_name">Bank Name</string>
     <string name="add_to_fav">Add Favorite</string>
     <string name="del_fav">Remove</string>
-    <string name="title_item_list">Items</string>
-    <string name="title_item_detail">Item Detail</string>
     <string name="search_by_pincode">Search by Pincode</string>
-    <string name="search_by_office_name">Search by Officename</string>
+    <string name="search_by_office_name">Search by Office Name</string>
     <string name="search_by_ifsc">Search by IFSC</string>
     <string name="search_by_micr">Search by MICR</string>
+    <string name="search_by_branch_name">Search by Branch Name</string>
 
 </resources>
