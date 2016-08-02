@@ -20,20 +20,23 @@ import android.widget.LinearLayout;
 import com.ashoksm.pinfinder.adapter.CursorRecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.IFSCRecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.PinCodeRecyclerViewAdapter;
+import com.ashoksm.pinfinder.adapter.STDRecyclerViewAdapter;
 import com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper;
+import com.ashoksm.pinfinder.sqlite.STDSQLiteHelper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
 
 public class AllCodeDetailFragment extends Fragment {
 
     private PinFinderSQLiteHelper sqLiteHelper;
-    private BankBranchSQLiteHelper branchSQLiteHelper;
-    private SharedPreferences sharedPreferences;
+    private BankBranchSQLiteHelper bSQLiteHelper;
+    private STDSQLiteHelper stdsqLiteHelper;
+    private SharedPreferences sharedPref;
     private String officeName;
     private String action;
     private String branchName;
+    private String cityName;
     private Cursor c;
-    public static final String EXTRA_ACTION = "com.ashoksm.pinfinder.AllCodeDetailFragment.ACTION";
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -45,8 +48,7 @@ public class AllCodeDetailFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        sharedPreferences = getActivity().getSharedPreferences("AllCodeFinder", Context
-                .MODE_PRIVATE);
+        sharedPref = getActivity().getSharedPreferences("AllCodeFinder", Context.MODE_PRIVATE);
     }
 
     @Override
@@ -73,13 +75,14 @@ public class AllCodeDetailFragment extends Fragment {
         // use a linear layout manager
         LinearLayoutManager mLayoutManager = new LinearLayoutManager(v.getContext());
         mRecyclerView.setLayoutManager(mLayoutManager);
-        action = getArguments().getString(EXTRA_ACTION);
+        action = getArguments().getString(IFSCFragment.EXTRA_ACTION);
         if (action != null && action.length() == 0) {
-            String officeName = getArguments().getString(PincodeFragment.EXTRA_OFFICE);
-            if (officeName != null) {
-                this.officeName =
-                        officeName.toLowerCase().replaceAll(" ", "").replaceAll("'", "''");
+            String offName = getArguments().getString(PincodeFragment.EXTRA_OFFICE);
+            if (offName != null) {
+                officeName = offName.toLowerCase().replaceAll(" ", "").replaceAll("'", "''");
             }
+        } else if ("STD".equalsIgnoreCase(action)) {
+            cityName = getArguments().getString(STDFragment.EXTRA_CITY);
         } else {
             branchName = getArguments().getString(IFSCFragment.EXTRA_BRANCH);
         }
@@ -101,10 +104,13 @@ public class AllCodeDetailFragment extends Fragment {
                         sqLiteHelper = new PinFinderSQLiteHelper(getActivity());
                         c = sqLiteHelper.findMatchingOffices("", "",
                                 AllCodeDetailFragment.this.officeName);
+                    } else if ("STD".equalsIgnoreCase(action)) {
+                        stdsqLiteHelper = new STDSQLiteHelper(getActivity());
+                        c = stdsqLiteHelper.findSTDCodes("", cityName.toLowerCase(), action);
                     } else {
-                        branchSQLiteHelper = new BankBranchSQLiteHelper(getActivity());
-                        c = branchSQLiteHelper
-                                .findIfscCodes("", "", "", branchName.toLowerCase(), action);
+                        bSQLiteHelper = new BankBranchSQLiteHelper(getActivity());
+                        c = bSQLiteHelper.findIfscCodes("", "", "", branchName.toLowerCase(),
+                                action);
                     }
                 } catch (Exception ex) {
                     Log.e(this.getClass().getName(), ex.getMessage());
@@ -116,11 +122,13 @@ public class AllCodeDetailFragment extends Fragment {
             protected void onPostExecute(Void result) {
                 if (c != null && c.getCount() > 0) {
                     if (action != null && action.length() == 0) {
-                        adapter = new PinCodeRecyclerViewAdapter(getActivity(), c,
-                                sharedPreferences, false);
+                        adapter = new PinCodeRecyclerViewAdapter(getActivity(), c, sharedPref,
+                                false);
+                    } else if ("STD".equalsIgnoreCase(action)) {
+                        adapter = new STDRecyclerViewAdapter(getActivity(), c, sharedPref, false);
                     } else {
-                        adapter = new IFSCRecyclerViewAdapter(getActivity(), c, "",
-                                sharedPreferences, false);
+                        adapter = new IFSCRecyclerViewAdapter(getActivity(), c, "", sharedPref,
+                                false);
                     }
                     mRecyclerView.setAdapter(adapter);
                     mRecyclerView.setVisibility(View.VISIBLE);

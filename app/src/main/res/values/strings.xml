@@ -33998,5 +33998,7 @@
     <string name="search_by_ifsc">Search by IFSC</string>
     <string name="search_by_micr">Search by MICR</string>
     <string name="search_by_branch_name">Search by Branch Name</string>
+    <string name="search_by_city_name">Search by City Name</string>
+    <string name="search_by_std_code">Search by STD Code</string>
 
 </resources>

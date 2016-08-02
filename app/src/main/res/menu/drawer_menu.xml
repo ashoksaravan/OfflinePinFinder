@@ -35,9 +35,17 @@
         </menu>
     </item>
 
-    <item
-        android:icon="@drawable/ic_floating_std"
-        android:title="@string/title_std">
+    <item android:title="@string/title_std">
+        <menu>
+            <item
+                android:id="@+id/nav_std_city"
+                android:icon="@drawable/ic_floating_std"
+                android:title="@string/search_by_city_name"/>
+            <item
+                android:id="@+id/nav_std_code"
+                android:icon="@drawable/ic_floating_std"
+                android:title="@string/search_by_std_code"/>
+        </menu>
     </item>
 
     <item

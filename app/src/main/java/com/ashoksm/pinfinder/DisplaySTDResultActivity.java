@@ -32,16 +32,12 @@ import java.util.Locale;
 public class DisplaySTDResultActivity extends ActivityBase {
 
     private STDSQLiteHelper sqLiteHelper;
-
     private Cursor c;
-
     private String stateName;
-
     private String cityName;
-
+    private String action;
     private boolean showFav;
-
-    private SharedPreferences sharedPreferences;
+    private SharedPreferences sharedPref;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +46,7 @@ public class DisplaySTDResultActivity extends ActivityBase {
         final Toolbar toolbar = (Toolbar) findViewById(R.id.my_awesome_toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
         setSupportActionBar(toolbar);
-        sharedPreferences = getSharedPreferences("AllCodeFinder", Context.MODE_PRIVATE);
+        sharedPref = getSharedPreferences("AllCodeFinder", Context.MODE_PRIVATE);
 
         final RecyclerView mRecyclerView = (RecyclerView) findViewById(R.id.gridView);
 
@@ -81,13 +77,16 @@ public class DisplaySTDResultActivity extends ActivityBase {
         final Intent intent = getIntent();
         showFav = intent.getBooleanExtra(MainActivity.EXTRA_SHOW_FAV, false);
         if (!showFav) {
-            stateName =
-                    intent.getStringExtra(STDFragment.EXTRA_STATE).toLowerCase(l)
-                            .replaceAll(" ", "")
-                            .replaceAll("'", "''");
-            cityName =
-                    intent.getStringExtra(STDFragment.EXTRA_CITY).toLowerCase(l).replaceAll(" ", "")
-                            .replaceAll("'", "''");
+            stateName = intent.getStringExtra(STDFragment.EXTRA_STATE).toLowerCase(l)
+                    .replaceAll(" ", "").replaceAll("'", "''");
+            action = intent.getStringExtra(IFSCFragment.EXTRA_ACTION);
+            if (action.length() == 0) {
+                cityName = intent.getStringExtra(STDFragment.EXTRA_CITY).toLowerCase(l)
+                        .replaceAll(" ", "").replaceAll("'", "''");
+            } else {
+                cityName = intent.getStringExtra(STDFragment.EXTRA_CITY).toLowerCase(l)
+                        .replaceAll("'", "''");
+            }
         }
 
         // load ad
@@ -131,10 +130,9 @@ public class DisplaySTDResultActivity extends ActivityBase {
                 try {
                     sqLiteHelper = new STDSQLiteHelper(DisplaySTDResultActivity.this);
                     if (!showFav) {
-                        c = sqLiteHelper.findSTDCodes(stateName, cityName);
+                        c = sqLiteHelper.findSTDCodes(stateName, cityName, action);
                     } else {
-                        c = sqLiteHelper
-                                .findFavSTDCodes(sharedPreferences.getString("STDcodes", null));
+                        c = sqLiteHelper.findFavSTDCodes(sharedPref.getString("STDcodes", null));
                     }
                 } catch (Exception ex) {
                     Log.e(this.getClass().getName(), ex.getMessage());
@@ -149,7 +147,7 @@ public class DisplaySTDResultActivity extends ActivityBase {
                         getSupportActionBar().setTitle(c.getCount() + " Results found");
                     }
                     adapter = new STDRecyclerViewAdapter(DisplaySTDResultActivity.this, c,
-                            sharedPreferences, showFav);
+                            sharedPref, showFav);
                     mRecyclerView.setAdapter(adapter);
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {

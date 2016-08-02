@@ -1,12 +1,11 @@
 package com.ashoksm.pinfinder.sqlite;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
-
-import com.ashoksm.pinfinder.DisplaySTDResultActivity;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -15,7 +14,7 @@ import java.io.InputStreamReader;
 
 public class STDSQLiteHelper extends SQLiteOpenHelper {
 
-    private DisplaySTDResultActivity context;
+    private Activity context;
     private ProgressDialog mProgressDialog;
 
     // Logcat tag
@@ -39,19 +38,17 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
     public static final String ID = "_id";
 
     // post_office_t table create statement
-    private static final String CREATE_STATE_TABLE =
-            "CREATE TABLE " + TABLE_STATE + "(" + STATE + " INTEGER, "
-                    + STATE_NAME + " TEXT, " + "PRIMARY KEY (" + STATE + "))";
+    private static final String CREATE_STATE_TABLE = "CREATE TABLE " + TABLE_STATE + "(" + STATE
+            + " INTEGER, " + STATE_NAME + " TEXT, " + "PRIMARY KEY (" + STATE + "))";
 
-    private static final String CREATE_STD_TABLE =
-            "CREATE TABLE " + TABLE_STD + "(" + STATE + " INTEGER, " + CITY
-                    + " TEXT, " + STD_CODE + " TEXT, " + "FOREIGN KEY(" + STATE + ") REFERENCES " +
-                    TABLE_STATE + "(" + STATE
-                    + "), " + "PRIMARY KEY (" + STATE + "," + CITY + "," + STD_CODE + "))";
+    private static final String CREATE_STD_TABLE = "CREATE TABLE " + TABLE_STD + "(" + STATE
+            + " INTEGER, " + CITY + " TEXT, " + STD_CODE + " TEXT, " + "FOREIGN KEY(" + STATE
+            + ") REFERENCES " + TABLE_STATE + "(" + STATE + "), " + "PRIMARY KEY (" + STATE + ","
+            + CITY + "," + STD_CODE + "))";
 
-    public STDSQLiteHelper(DisplaySTDResultActivity displaySTDResultActivityIn) {
-        super(displaySTDResultActivityIn, DATABASE_NAME, null, DATABASE_VERSION);
-        context = displaySTDResultActivityIn;
+    public STDSQLiteHelper(Activity activity) {
+        super(activity, DATABASE_NAME, null, DATABASE_VERSION);
+        context = activity;
     }
 
     @Override
@@ -158,25 +155,30 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
      * @param cityName  cityName
      * @return Cursor
      */
-    public Cursor findSTDCodes(final String stateName, final String cityName) {
+    public Cursor findSTDCodes(final String stateName, final String cityName, final String action) {
         SQLiteDatabase db = this.getReadableDatabase();
 
-        String select =
-                "SELECT  s." + STATE_NAME + ", " + CITY + ", " + STD_CODE + " AS _id FROM " +
-                        TABLE_STD + " st"
-                        + " INNER JOIN " + TABLE_STATE + " s ON st." + STATE + " = s." + STATE;
+        String select = "SELECT  s." + STATE_NAME + ", " + CITY + ", " + STD_CODE + " AS _id FROM "
+                + TABLE_STD + " st INNER JOIN " + TABLE_STATE + " s ON st." + STATE + " = s."
+                + STATE;
         String where = "";
-
-        if (stateName.trim().length() > 0) {
-            where = " WHERE LOWER(REPLACE(s." + STATE_NAME + ",' ','')) LIKE '%" + stateName + "%'";
-        }
-        if (cityName.trim().length() > 0 && where.trim().length() > 0) {
-            where = where + " AND (LOWER(REPLACE(st." + CITY + ",' ','')) LIKE '%" + cityName
-                    + "%' OR LOWER(REPLACE(st." + STD_CODE + ",' ','')) LIKE '%" + cityName + "%')";
-        } else if (cityName.trim().length() > 0) {
-            where = " WHERE (LOWER(REPLACE(st." + CITY + ",' ','')) LIKE '%" + cityName +
-                    "%' OR LOWER(REPLACE(st."
-                    + STD_CODE + ",' ','')) LIKE '%" + cityName + "%')";
+        if (action.length() > 0) {
+            where = " WHERE (LOWER(st." + CITY + ") = '" + cityName + "' OR LOWER(st." + STD_CODE
+                    + ") = '" + cityName + "')";
+        } else {
+            if (stateName.trim().length() > 0) {
+                where = " WHERE LOWER(REPLACE(s." + STATE_NAME + ",' ','')) LIKE '%" + stateName +
+                        "%'";
+            }
+            if (cityName.trim().length() > 0 && where.trim().length() > 0) {
+                where = where + " AND (LOWER(REPLACE(st." + CITY + ",' ','')) LIKE '%" + cityName
+                        + "%' OR LOWER(REPLACE(st." + STD_CODE + ",' ','')) LIKE '%" + cityName +
+                        "%')";
+            } else if (cityName.trim().length() > 0) {
+                where = " WHERE (LOWER(REPLACE(st." + CITY + ",' ','')) LIKE '%" + cityName +
+                        "%' OR LOWER(REPLACE(st." + STD_CODE + ",' ','')) LIKE '%" + cityName +
+                        "%')";
+            }
         }
         String selectQuery = select + where;
         Log.d(CLASS_NAME, selectQuery);
@@ -192,13 +194,25 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
         }
     }
 
-    public Cursor findFavSTDCodes(String stdcodes) {
+    public Cursor findFavSTDCodes(String stdCodes) {
         SQLiteDatabase db = this.getReadableDatabase();
-        String select =
-                "SELECT  s." + STATE_NAME + ", " + CITY + ", " + STD_CODE + " AS _id FROM " +
-                        TABLE_STD + " st"
-                        + " INNER JOIN " + TABLE_STATE + " s ON st." + STATE + " = s." + STATE
-                        + " WHERE " + STD_CODE + " IN (" + stdcodes + ")";
+        String select = "SELECT  s." + STATE_NAME + ", " + CITY + ", " + STD_CODE + " AS _id FROM "
+                + TABLE_STD + " st INNER JOIN " + TABLE_STATE + " s ON st." + STATE + " = s."
+                + STATE + " WHERE " + STD_CODE + " IN (" + stdCodes + ")";
+        return db.rawQuery(select, null);
+    }
+
+    public Cursor getAllCityNames(String queryTxt) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        String select = "SELECT  " + CITY + " AS _id FROM " + TABLE_STD + " WHERE " + CITY
+                + " LIKE '%" + queryTxt + "%' ORDER BY " + CITY;
+        return db.rawQuery(select, null);
+    }
+
+    public Cursor getAllSTDCodes(String queryTxt) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        String select = "SELECT  " + STD_CODE + " AS _id FROM " + TABLE_STD + " WHERE " + STD_CODE
+                + " LIKE '%" + queryTxt + "%' ORDER BY " + STD_CODE;
         return db.rawQuery(select, null);
     }
 }
