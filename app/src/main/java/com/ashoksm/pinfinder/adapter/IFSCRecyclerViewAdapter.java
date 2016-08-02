@@ -116,9 +116,8 @@ public class IFSCRecyclerViewAdapter
                             sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareContent);
                             context.startActivity(Intent.createChooser(sharingIntent,
                                     context.getResources().getText(R.string.send_to)));
-                        } else if (item.getTitle().toString()
-                                .equalsIgnoreCase(
-                                        context.getResources().getString(R.string.add_to_fav))) {
+                        } else if (item.getTitle().toString().equalsIgnoreCase(
+                                context.getResources().getString(R.string.add_to_fav))) {
                             SharedPreferences.Editor editor = sharedPreferences.edit();
                             String ifscs = sharedPreferences.getString("ifscs", null);
                             String ifsc = viewHolder.ifsc.getText().toString().trim();
@@ -139,9 +138,8 @@ public class IFSCRecyclerViewAdapter
                             }
                             editor.putString("ifscs", ifscs);
                             editor.apply();
-                        } else if (item.getTitle().toString()
-                                .equalsIgnoreCase(
-                                        context.getResources().getString(R.string.del_fav))) {
+                        } else if (item.getTitle().toString().equalsIgnoreCase(
+                                context.getResources().getString(R.string.del_fav))) {
                             SharedPreferences.Editor editor = sharedPreferences.edit();
                             String ifscs = sharedPreferences.getString("ifscs", null);
                             String ifsc = "'" + viewHolder.ifsc.getText().toString().trim() + "'";
@@ -198,13 +196,9 @@ public class IFSCRecyclerViewAdapter
         holder.ifsc.setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.ID)));
         holder.micr.setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.MICR)));
         Linkify.addLinks(holder.contact, Linkify.ALL);
-        if (showFav) {
-            holder.bankNameRow.setVisibility(View.VISIBLE);
-            holder.bankName
-                    .setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.BANK)));
-        } else {
-            holder.bankNameRow.setVisibility(View.GONE);
-        }
+        holder.bankNameRow.setVisibility(View.VISIBLE);
+        holder.bankName
+                .setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.BANK)));
         setAnimation(holder.v, position);
     }
 

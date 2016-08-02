@@ -44,19 +44,15 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
     public static final String ID = "_id";
 
     // post_office_t table create statement
-    private static final String CREATE_LOCATION_TABLE =
-            "CREATE TABLE " + TABLE_LOCATION + "(" + LOCATION
-                    + " INTEGER, " + BANK + " TEXT, " + STATE + " TEXT, " + DISTRICT + " TEXT, " +
-                    "PRIMARY KEY (" + LOCATION
-                    + ", " + BANK + ", " + STATE + ", " + DISTRICT + "))";
+    private static final String CREATE_LOCATION_TABLE = "CREATE TABLE " + TABLE_LOCATION + "("
+            + LOCATION + " INTEGER, " + BANK + " TEXT, " + STATE + " TEXT, " + DISTRICT + " TEXT, "
+            + "PRIMARY KEY (" + LOCATION + ", " + BANK + ", " + STATE + ", " + DISTRICT + "))";
 
-    private static final String CREATE_BANK_BRANCH_TABLE =
-            "CREATE TABLE " + TABLE_BANK_BRANCH + "(" + NAME + " TEXT,"
-                    + CITY + " TEXT, " + ADDRESS + " TEXT, " + CONTACT + " TEXT, " + MICR +
-                    " INTEGER, " + IFSC + " TEXT, "
-                    + LOCATION + " INTEGER, " + "FOREIGN KEY(" + LOCATION + ") REFERENCES " +
-                    TABLE_LOCATION + "(" + LOCATION
-                    + "), " + "PRIMARY KEY (" + NAME + "," + IFSC + "," + LOCATION + "))";
+    private static final String CREATE_BANK_BRANCH_TABLE = "CREATE TABLE " + TABLE_BANK_BRANCH + "("
+            + NAME + " TEXT," + CITY + " TEXT, " + ADDRESS + " TEXT, " + CONTACT + " TEXT, " + MICR
+            + " INTEGER, " + IFSC + " TEXT, " + LOCATION + " INTEGER, " + "FOREIGN KEY("
+            + LOCATION + ") REFERENCES " + TABLE_LOCATION + "(" + LOCATION + "), " + "PRIMARY KEY ("
+            + NAME + "," + IFSC + "," + LOCATION + "))";
 
     public BankBranchSQLiteHelper(Activity contextIn) {
         super(contextIn, DATABASE_NAME, null, DATABASE_VERSION);
@@ -194,17 +190,30 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
                                 final String bankName, final String branchName, String action) {
         SQLiteDatabase db = this.getReadableDatabase();
 
-        String select =
-                "SELECT  " + NAME + ", " + CITY + ", l." + STATE + ", l." + DISTRICT + ", "
-                        + ADDRESS + ", " + CONTACT + "," + MICR + ", " + IFSC + " AS _id FROM "
-                        + TABLE_BANK_BRANCH + " ps" + " INNER JOIN " + TABLE_LOCATION + " l ON ps."
-                        + LOCATION + " = l." + LOCATION;
+        String select = "SELECT  l." + BANK + ", " + NAME + ", " + CITY + ", l." + STATE + ", l."
+                + DISTRICT + ", " + ADDRESS + ", " + CONTACT + "," + MICR + ", " + IFSC
+                + " AS _id FROM " + TABLE_BANK_BRANCH + " ps" + " INNER JOIN " + TABLE_LOCATION
+                + " l ON ps." + LOCATION + " = l." + LOCATION;
         String where = "";
 
         if ("MICR".equals(action)) {
             where = " WHERE LOWER(" + MICR + ") = '" + branchName + "'";
         } else if ("IFSC".equals(action)) {
             where = " WHERE LOWER(" + IFSC + ") = '" + branchName + "'";
+        } else if ("BRANCH".equals(action)) {
+            String branch;
+            String bank;
+            if (branchName.contains("\n")) {
+                branch = branchName.substring(0, branchName.indexOf("\n"));
+                bank = branchName.substring(branchName.indexOf("\n") + 1, branchName.length())
+                        .toLowerCase();
+            } else {
+                branch = branchName.substring(0, branchName.indexOf("<br\\>"));
+                bank = branchName.substring(branchName.indexOf("<br\\>") + 1, branchName.length())
+                        .toLowerCase();
+            }
+            where = " WHERE LOWER(" + NAME + ") = '" + branch + "' AND LOWER(" + BANK + ") = '"
+                    + bank + "'";
         } else {
             select = select + " WHERE LOWER(REPLACE(l." + BANK + ",' ',''))" + " LIKE '%"
                     + bankName + "%'";
@@ -230,8 +239,8 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
     public Cursor findFavIfscCodes(String ifsc) {
         SQLiteDatabase db = this.getReadableDatabase();
         String select = "SELECT  l." + BANK + ", " + NAME + ", " + CITY + ", l." + STATE + ", l."
-                + DISTRICT + ", " + ADDRESS + ", " + CONTACT + "," + MICR + ", " + IFSC
-                + " AS _id FROM " + TABLE_BANK_BRANCH + " ps" + " INNER JOIN " + TABLE_LOCATION
+                + DISTRICT + ", " + ADDRESS + ", " + CONTACT + ", " + MICR + ", " + IFSC
+                + " AS _id FROM " + TABLE_BANK_BRANCH + " ps INNER JOIN " + TABLE_LOCATION
                 + " l ON ps." + LOCATION + " = l." + LOCATION + " WHERE " + IFSC + " IN (" + ifsc +
                 ")";
         return db.rawQuery(select, null);
@@ -248,6 +257,16 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getReadableDatabase();
         String select = "SELECT  DISTINCT " + MICR + " AS _id FROM " + TABLE_BANK_BRANCH + " WHERE "
                 + MICR + " LIKE '%" + queryTxt + "%' AND " + MICR + "!='0'" + " ORDER BY " + MICR;
+        return db.rawQuery(select, null);
+    }
+
+    public Cursor getBranchNames(String queryTxt) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        String select = "SELECT  DISTINCT " + NAME + "|| "
+                + (queryTxt.length() == 0 ? "'\n'" : "'<br\\>'") + " || l." + BANK + " AS _id FROM "
+                + TABLE_BANK_BRANCH + " ps INNER JOIN " + TABLE_LOCATION + " l ON ps." + LOCATION
+                + " = l." + LOCATION + " WHERE "  + NAME + "<> '' AND "+ NAME + " LIKE '%"
+                + queryTxt + "%' " + "ORDER BY " + NAME;
         return db.rawQuery(select, null);
     }
 

@@ -93,14 +93,13 @@ public class AllCodeListActivity extends ActivityBase {
                 if (menuId == R.id.nav_pincode) {
                     adapter = new AllCodeListRecyclerViewAdapter(sqLiteHelper.getAllPinCodes(""));
                 } else if (menuId == R.id.nav_office) {
-                    adapter =
-                            new AllCodeListRecyclerViewAdapter(sqLiteHelper.getAllOfficeNames(""));
+                    adapter = new AllCodeListRecyclerViewAdapter(sqLiteHelper.getAllOfficeNames(""));
                 } else if (menuId == R.id.nav_ifsc) {
-                    adapter =
-                            new AllCodeListRecyclerViewAdapter(branchHelper.getIFSCCodes(""));
+                    adapter =  new AllCodeListRecyclerViewAdapter(branchHelper.getIFSCCodes(""));
                 } else if (menuId == R.id.nav_micr) {
-                    adapter =
-                            new AllCodeListRecyclerViewAdapter(branchHelper.getMICRCodes(""));
+                    adapter = new AllCodeListRecyclerViewAdapter(branchHelper.getMICRCodes(""));
+                } else if (menuId == R.id.nav_branch_name) {
+                    adapter = new AllCodeListRecyclerViewAdapter(branchHelper.getBranchNames(""));
                 }
                 return null;
             }
@@ -128,6 +127,8 @@ public class AllCodeListActivity extends ActivityBase {
                             adapter.changeCursor(branchHelper.getIFSCCodes(queryTxt));
                         } else if (menuId == R.id.nav_micr) {
                             adapter.changeCursor(branchHelper.getMICRCodes(queryTxt));
+                        } else if (menuId == R.id.nav_branch_name) {
+                            adapter.changeCursor(branchHelper.getBranchNames(queryTxt));
                         }
                     }
                 });
@@ -180,11 +181,14 @@ public class AllCodeListActivity extends ActivityBase {
                             arguments.putString(AllCodeDetailFragment.EXTRA_ACTION, "");
                             arguments.putString(PincodeFragment.EXTRA_OFFICE,
                                     holder.mContentView.getText().toString().trim());
-                        } else if (menuId == R.id.nav_ifsc || menuId == R.id.nav_micr) {
+                        } else if (menuId == R.id.nav_ifsc || menuId == R.id.nav_micr || menuId
+                                == R.id.nav_branch_name) {
                             if (menuId == R.id.nav_ifsc) {
                                 arguments.putString(AllCodeDetailFragment.EXTRA_ACTION, "IFSC");
                             } else if (menuId == R.id.nav_micr) {
                                 arguments.putString(AllCodeDetailFragment.EXTRA_ACTION, "MICR");
+                            } else {
+                                arguments.putString(AllCodeDetailFragment.EXTRA_ACTION, "BRANCH");
                             }
                             arguments.putString(IFSCFragment.EXTRA_BRANCH,
                                     holder.mContentView.getText().toString().trim());
@@ -204,7 +208,8 @@ public class AllCodeListActivity extends ActivityBase {
                             intent.putExtra(PincodeFragment.EXTRA_OFFICE,
                                     holder.mContentView.getText().toString().trim());
                             intent.putExtra(MainActivity.EXTRA_SHOW_FAV, false);
-                        } else if (menuId == R.id.nav_ifsc || menuId == R.id.nav_micr) {
+                        } else if (menuId == R.id.nav_ifsc || menuId == R.id.nav_micr || menuId
+                                == R.id.nav_branch_name) {
                             intent = new Intent(AllCodeListActivity.this,
                                     DisplayBankBranchResultActivity.class);
                             intent.putExtra(IFSCFragment.EXTRA_STATE, "");
@@ -217,6 +222,8 @@ public class AllCodeListActivity extends ActivityBase {
                                 intent.putExtra(IFSCFragment.EXTRA_ACTION, "IFSC");
                             } else if (menuId == R.id.nav_micr) {
                                 intent.putExtra(IFSCFragment.EXTRA_ACTION, "MICR");
+                            } else {
+                                intent.putExtra(IFSCFragment.EXTRA_ACTION, "BRANCH");
                             }
                         }
                         startActivity(intent);

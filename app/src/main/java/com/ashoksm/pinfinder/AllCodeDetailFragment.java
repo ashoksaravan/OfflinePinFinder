@@ -47,7 +47,6 @@ public class AllCodeDetailFragment extends Fragment {
         super.onCreate(savedInstanceState);
         sharedPreferences = getActivity().getSharedPreferences("AllCodeFinder", Context
                 .MODE_PRIVATE);
-        sqLiteHelper = new PinFinderSQLiteHelper(getActivity());
     }
 
     @Override

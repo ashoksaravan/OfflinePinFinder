@@ -88,7 +88,8 @@ public class DisplayBankBranchResultActivity extends AppCompatActivity {
                     .replaceAll(" ", "").replaceAll("'", "''");
             action = intent.getStringExtra(IFSCFragment.EXTRA_ACTION);
             if (action != null && action.length() > 0) {
-                branchName = intent.getStringExtra(IFSCFragment.EXTRA_BRANCH).toLowerCase(l);
+                branchName = intent.getStringExtra(IFSCFragment.EXTRA_BRANCH).toLowerCase(l)
+                        .replaceAll("'", "''");
             } else {
                 branchName = intent.getStringExtra(IFSCFragment.EXTRA_BRANCH).toLowerCase(l)
                         .replaceAll(" ", "").replaceAll("'", "''");
