@@ -20,7 +20,7 @@ import android.widget.LinearLayout;
 
 import com.ashoksm.pinfinder.adapter.IFSCRecyclerViewAdapter;
 import com.ashoksm.pinfinder.common.AppRater;
-import com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper;
+import com.ashoksm.pinfinder.sqlite.BankSQLiteHelper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -31,7 +31,7 @@ import java.util.Locale;
 
 public class DisplayBankBranchResultActivity extends AppCompatActivity {
 
-    private BankBranchSQLiteHelper sqLiteHelper;
+    private BankSQLiteHelper sqLiteHelper;
     private Cursor c;
     private String stateName;
     private String districtName;
@@ -135,7 +135,7 @@ public class DisplayBankBranchResultActivity extends AppCompatActivity {
             @Override
             protected Void doInBackground(Void... params) {
                 try {
-                    sqLiteHelper = new BankBranchSQLiteHelper(DisplayBankBranchResultActivity.this);
+                    sqLiteHelper = new BankSQLiteHelper(DisplayBankBranchResultActivity.this);
                     if (showFav) {
                         c = sqLiteHelper
                                 .findFavIfscCodes(sharedPreferences.getString("ifscs", null));

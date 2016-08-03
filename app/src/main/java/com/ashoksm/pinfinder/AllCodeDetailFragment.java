@@ -20,17 +20,20 @@ import android.widget.LinearLayout;
 import com.ashoksm.pinfinder.adapter.CursorRecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.IFSCRecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.PinCodeRecyclerViewAdapter;
+import com.ashoksm.pinfinder.adapter.RTORecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.STDRecyclerViewAdapter;
-import com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper;
-import com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper;
+import com.ashoksm.pinfinder.sqlite.BankSQLiteHelper;
+import com.ashoksm.pinfinder.sqlite.PinSQLiteHelper;
+import com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.STDSQLiteHelper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
 
 public class AllCodeDetailFragment extends Fragment {
 
-    private PinFinderSQLiteHelper sqLiteHelper;
-    private BankBranchSQLiteHelper bSQLiteHelper;
+    private PinSQLiteHelper sqLiteHelper;
+    private BankSQLiteHelper bSQLiteHelper;
     private STDSQLiteHelper stdsqLiteHelper;
+    private RTOSQLiteHelper rtosqLiteHelper;
     private SharedPreferences sharedPref;
     private String officeName;
     private String action;
@@ -81,7 +84,7 @@ public class AllCodeDetailFragment extends Fragment {
             if (offName != null) {
                 officeName = offName.toLowerCase().replaceAll(" ", "").replaceAll("'", "''");
             }
-        } else if ("STD".equalsIgnoreCase(action)) {
+        } else if ("STD".equalsIgnoreCase(action) || "RTO".equalsIgnoreCase(action)) {
             cityName = getArguments().getString(STDFragment.EXTRA_CITY);
         } else {
             branchName = getArguments().getString(IFSCFragment.EXTRA_BRANCH);
@@ -101,14 +104,17 @@ public class AllCodeDetailFragment extends Fragment {
             protected Void doInBackground(Void... params) {
                 try {
                     if (action != null && action.length() == 0) {
-                        sqLiteHelper = new PinFinderSQLiteHelper(getActivity());
+                        sqLiteHelper = new PinSQLiteHelper(getActivity());
                         c = sqLiteHelper.findMatchingOffices("", "",
                                 AllCodeDetailFragment.this.officeName);
                     } else if ("STD".equalsIgnoreCase(action)) {
                         stdsqLiteHelper = new STDSQLiteHelper(getActivity());
                         c = stdsqLiteHelper.findSTDCodes("", cityName.toLowerCase(), action);
+                    } else if ("RTO".equalsIgnoreCase(action)) {
+                        rtosqLiteHelper = new RTOSQLiteHelper(getActivity());
+                        c = rtosqLiteHelper.findRTOCodes("", cityName.toLowerCase(), action);
                     } else {
-                        bSQLiteHelper = new BankBranchSQLiteHelper(getActivity());
+                        bSQLiteHelper = new BankSQLiteHelper(getActivity());
                         c = bSQLiteHelper.findIfscCodes("", "", "", branchName.toLowerCase(),
                                 action);
                     }
@@ -126,6 +132,8 @@ public class AllCodeDetailFragment extends Fragment {
                                 false);
                     } else if ("STD".equalsIgnoreCase(action)) {
                         adapter = new STDRecyclerViewAdapter(getActivity(), c, sharedPref, false);
+                    } else if ("RTO".equalsIgnoreCase(action)) {
+                        adapter = new RTORecyclerViewAdapter(getActivity(), c, sharedPref, false);
                     } else {
                         adapter = new IFSCRecyclerViewAdapter(getActivity(), c, "", sharedPref,
                                 false);

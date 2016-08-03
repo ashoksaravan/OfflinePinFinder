@@ -39,11 +39,11 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
 
     // post_office_t table create statement
     private static final String CREATE_STATE_TABLE = "CREATE TABLE " + TABLE_STATE + "(" + STATE
-            + " INTEGER, " + STATE_NAME + " TEXT, " + "PRIMARY KEY (" + STATE + "))";
+            + " INTEGER, " + STATE_NAME + " TEXT, PRIMARY KEY (" + STATE + "))";
 
     private static final String CREATE_STD_TABLE = "CREATE TABLE " + TABLE_STD + "(" + STATE
-            + " INTEGER, " + CITY + " TEXT, " + STD_CODE + " TEXT, " + "FOREIGN KEY(" + STATE
-            + ") REFERENCES " + TABLE_STATE + "(" + STATE + "), " + "PRIMARY KEY (" + STATE + ","
+            + " INTEGER, " + CITY + " TEXT, " + STD_CODE + " TEXT, FOREIGN KEY(" + STATE
+            + ") REFERENCES " + TABLE_STATE + "(" + STATE + "), PRIMARY KEY (" + STATE + ","
             + CITY + "," + STD_CODE + "))";
 
     public STDSQLiteHelper(Activity activity) {

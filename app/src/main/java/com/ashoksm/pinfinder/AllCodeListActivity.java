@@ -23,8 +23,9 @@ import android.widget.TextView;
 
 import com.ashoksm.pinfinder.adapter.CursorRecyclerViewAdapter;
 import com.ashoksm.pinfinder.common.activities.ActivityBase;
-import com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper;
-import com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper;
+import com.ashoksm.pinfinder.sqlite.BankSQLiteHelper;
+import com.ashoksm.pinfinder.sqlite.PinSQLiteHelper;
+import com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.STDSQLiteHelper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
 
@@ -76,13 +77,12 @@ public class AllCodeListActivity extends ActivityBase {
     private void setupRecyclerView(@NonNull final RecyclerView recyclerView) {
         new AsyncTask<Void, Void, Void>() {
             LinearLayout progressLayout = (LinearLayout) findViewById(R.id.progressLayout);
-            PinFinderSQLiteHelper sqLiteHelper = new PinFinderSQLiteHelper(AllCodeListActivity
-                    .this);
-            BankBranchSQLiteHelper branchHelper = new BankBranchSQLiteHelper(AllCodeListActivity
-                    .this);
+            PinSQLiteHelper sqLiteHelper = new PinSQLiteHelper(AllCodeListActivity.this);
+            BankSQLiteHelper branchHelper = new BankSQLiteHelper(AllCodeListActivity.this);
             STDSQLiteHelper stdsqLiteHelper = new STDSQLiteHelper(AllCodeListActivity.this);
+            RTOSQLiteHelper rtosqLiteHelper = new RTOSQLiteHelper(AllCodeListActivity.this);
 
-            AllCodeListRecyclerViewAdapter adapter;
+            AllCodeViewAdapter adapter;
 
             @Override
             protected void onPreExecute() {
@@ -93,22 +93,23 @@ public class AllCodeListActivity extends ActivityBase {
             @Override
             protected Void doInBackground(Void... voids) {
                 if (menuId == R.id.nav_pincode) {
-                    adapter = new AllCodeListRecyclerViewAdapter(sqLiteHelper.getAllPinCodes(""));
+                    adapter = new AllCodeViewAdapter(sqLiteHelper.getAllPinCodes(""));
                 } else if (menuId == R.id.nav_office) {
-                    adapter =
-                            new AllCodeListRecyclerViewAdapter(sqLiteHelper.getAllOfficeNames(""));
+                    adapter = new AllCodeViewAdapter(sqLiteHelper.getAllOfficeNames(""));
                 } else if (menuId == R.id.nav_ifsc) {
-                    adapter = new AllCodeListRecyclerViewAdapter(branchHelper.getIFSCCodes(""));
+                    adapter = new AllCodeViewAdapter(branchHelper.getIFSCCodes(""));
                 } else if (menuId == R.id.nav_micr) {
-                    adapter = new AllCodeListRecyclerViewAdapter(branchHelper.getMICRCodes(""));
+                    adapter = new AllCodeViewAdapter(branchHelper.getMICRCodes(""));
                 } else if (menuId == R.id.nav_branch_name) {
-                    adapter = new AllCodeListRecyclerViewAdapter(branchHelper.getBranchNames(""));
+                    adapter = new AllCodeViewAdapter(branchHelper.getBranchNames(""));
                 } else if (menuId == R.id.nav_std_city) {
-                    adapter = new AllCodeListRecyclerViewAdapter(stdsqLiteHelper.getAllCityNames
-                            (""));
+                    adapter = new AllCodeViewAdapter(stdsqLiteHelper.getAllCityNames(""));
                 } else if (menuId == R.id.nav_std_code) {
-                    adapter =
-                            new AllCodeListRecyclerViewAdapter(stdsqLiteHelper.getAllSTDCodes(""));
+                    adapter = new AllCodeViewAdapter(stdsqLiteHelper.getAllSTDCodes(""));
+                } else if (menuId == R.id.nav_rto_code) {
+                    adapter = new AllCodeViewAdapter(rtosqLiteHelper.getAllRTOCodes(""));
+                } else if (menuId == R.id.nav_rto_city) {
+                    adapter = new AllCodeViewAdapter(rtosqLiteHelper.getAllCityNames(""));
                 }
                 return null;
             }
@@ -142,6 +143,10 @@ public class AllCodeListActivity extends ActivityBase {
                             adapter.changeCursor(stdsqLiteHelper.getAllCityNames(queryTxt));
                         } else if (menuId == R.id.nav_std_code) {
                             adapter.changeCursor(stdsqLiteHelper.getAllSTDCodes(queryTxt));
+                        } else if (menuId == R.id.nav_rto_city) {
+                            adapter.changeCursor(rtosqLiteHelper.getAllCityNames(queryTxt));
+                        } else if (menuId == R.id.nav_rto_code) {
+                            adapter.changeCursor(rtosqLiteHelper.getAllRTOCodes(queryTxt));
                         }
                     }
                 });
@@ -151,10 +156,10 @@ public class AllCodeListActivity extends ActivityBase {
         }.execute();
     }
 
-    public class AllCodeListRecyclerViewAdapter
-            extends CursorRecyclerViewAdapter<AllCodeListRecyclerViewAdapter.ViewHolder> {
+    public class AllCodeViewAdapter
+            extends CursorRecyclerViewAdapter<AllCodeViewAdapter.ViewHolder> {
 
-        public AllCodeListRecyclerViewAdapter(Cursor cursor) {
+        public AllCodeViewAdapter(Cursor cursor) {
             super(cursor);
         }
 
@@ -170,7 +175,7 @@ public class AllCodeListActivity extends ActivityBase {
             holder.mIdView
                     .setText(String.valueOf(position + 1));
             if (queryTxt != null && queryTxt.length() > 0) {
-                String origString = cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper
+                String origString = cursor.getString(cursor.getColumnIndex(PinSQLiteHelper
                         .ID));
                 origString = origString.replaceAll("(?i)" + Pattern.quote(queryTxt), "<font " +
                         "color='#ffc107'>" + queryTxt + "</font>");
@@ -182,80 +187,87 @@ public class AllCodeListActivity extends ActivityBase {
                 }
             } else {
                 holder.mContentView.setText(cursor.getString(cursor.getColumnIndex
-                        (PinFinderSQLiteHelper.ID)));
+                        (PinSQLiteHelper.ID)));
             }
 
             holder.mView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     if (mTwoPane) {
-                        Bundle arguments = new Bundle();
-                        if (menuId == R.id.nav_pincode || menuId == R.id.nav_office) {
-                            arguments.putString(IFSCFragment.EXTRA_ACTION, "");
-                            arguments.putString(PincodeFragment.EXTRA_OFFICE,
-                                    holder.mContentView.getText().toString().trim());
-                        } else if (menuId == R.id.nav_ifsc || menuId == R.id.nav_micr || menuId
-                                == R.id.nav_branch_name) {
-                            if (menuId == R.id.nav_ifsc) {
-                                arguments.putString(IFSCFragment.EXTRA_ACTION, "IFSC");
-                            } else if (menuId == R.id.nav_micr) {
-                                arguments.putString(IFSCFragment.EXTRA_ACTION, "MICR");
-                            } else {
-                                arguments.putString(IFSCFragment.EXTRA_ACTION, "BRANCH");
-                            }
-                            arguments.putString(IFSCFragment.EXTRA_BRANCH,
-                                    holder.mContentView.getText().toString().trim());
-                        } else if (menuId == R.id.nav_std_city || menuId == R.id.nav_std_code) {
-                            arguments.putString(IFSCFragment.EXTRA_ACTION, "STD");
-                            arguments.putString(STDFragment.EXTRA_CITY,
-                                    holder.mContentView.getText().toString().trim());
-                        }
-                        AllCodeDetailFragment fragment = new AllCodeDetailFragment();
-                        fragment.setArguments(arguments);
-                        getSupportFragmentManager().beginTransaction()
-                                .replace(R.id.item_detail_container, fragment)
-                                .commit();
+                        callFragment(holder.mContentView.getText().toString().trim());
                     } else {
-                        Intent intent = null;
-                        if (menuId == R.id.nav_pincode || menuId == R.id.nav_office) {
-                            intent = new Intent(getApplicationContext(),
-                                    DisplayPinCodeResultActivity.class);
-                            intent.putExtra(PincodeFragment.EXTRA_STATE, "");
-                            intent.putExtra(PincodeFragment.EXTRA_DISTRICT, "");
-                            intent.putExtra(PincodeFragment.EXTRA_OFFICE, holder.mContentView
-                                    .getText().toString().trim());
-                        } else if (menuId == R.id.nav_ifsc || menuId == R.id.nav_micr || menuId
-                                == R.id.nav_branch_name) {
-                            intent = new Intent(getApplicationContext(),
-                                    DisplayBankBranchResultActivity.class);
-                            intent.putExtra(IFSCFragment.EXTRA_STATE, "");
-                            intent.putExtra(IFSCFragment.EXTRA_DISTRICT, "");
-                            intent.putExtra(IFSCFragment.EXTRA_BANK, "");
-                            intent.putExtra(IFSCFragment.EXTRA_BRANCH, holder.mContentView.getText()
-                                    .toString().trim());
-                            if (menuId == R.id.nav_ifsc) {
-                                intent.putExtra(IFSCFragment.EXTRA_ACTION, "IFSC");
-                            } else if (menuId == R.id.nav_micr) {
-                                intent.putExtra(IFSCFragment.EXTRA_ACTION, "MICR");
-                            } else {
-                                intent.putExtra(IFSCFragment.EXTRA_ACTION, "BRANCH");
-                            }
-                        } else if (menuId == R.id.nav_std_city || menuId == R.id.nav_std_code) {
-                            intent = new Intent(getApplicationContext(),
-                                    DisplaySTDResultActivity.class);
-                            intent.putExtra(STDFragment.EXTRA_STATE, "");
-                            intent.putExtra(IFSCFragment.EXTRA_ACTION, "STD");
-                            intent.putExtra(STDFragment.EXTRA_CITY, holder.mContentView.getText()
-                                    .toString().trim());
-                        }
-                        if (intent != null) {
-                            intent.putExtra(MainActivity.EXTRA_SHOW_FAV, false);
-                        }
-                        startActivity(intent);
-                        overridePendingTransition(R.anim.slide_out_left, 0);
+                        callActivity(holder.mContentView.getText().toString().trim());
                     }
                 }
             });
+        }
+
+        private void callActivity(String name) {
+            Intent intent = null;
+            if (menuId == R.id.nav_pincode || menuId == R.id.nav_office) {
+                intent = new Intent(getApplicationContext(), DisplayPinCodeResultActivity.class);
+                intent.putExtra(PincodeFragment.EXTRA_STATE, "");
+                intent.putExtra(PincodeFragment.EXTRA_DISTRICT, "");
+                intent.putExtra(PincodeFragment.EXTRA_OFFICE, name);
+            } else if (menuId == R.id.nav_ifsc || menuId == R.id.nav_micr || menuId
+                    == R.id.nav_branch_name) {
+                intent = new Intent(getApplicationContext(), DisplayBankBranchResultActivity.class);
+                intent.putExtra(IFSCFragment.EXTRA_STATE, "");
+                intent.putExtra(IFSCFragment.EXTRA_DISTRICT, "");
+                intent.putExtra(IFSCFragment.EXTRA_BANK, "");
+                intent.putExtra(IFSCFragment.EXTRA_BRANCH, name);
+                if (menuId == R.id.nav_ifsc) {
+                    intent.putExtra(IFSCFragment.EXTRA_ACTION, "IFSC");
+                } else if (menuId == R.id.nav_micr) {
+                    intent.putExtra(IFSCFragment.EXTRA_ACTION, "MICR");
+                } else {
+                    intent.putExtra(IFSCFragment.EXTRA_ACTION, "BRANCH");
+                }
+            } else if (menuId == R.id.nav_std_city || menuId == R.id.nav_std_code) {
+                intent = new Intent(getApplicationContext(), DisplaySTDResultActivity.class);
+                intent.putExtra(STDFragment.EXTRA_STATE, "");
+                intent.putExtra(IFSCFragment.EXTRA_ACTION, "STD");
+                intent.putExtra(STDFragment.EXTRA_CITY, name);
+            } else if (menuId == R.id.nav_rto_city || menuId == R.id.nav_rto_code) {
+                intent = new Intent(getApplicationContext(), DisplayRTOResultActivity.class);
+                intent.putExtra(RTOFragment.EXTRA_STATE, "");
+                intent.putExtra(IFSCFragment.EXTRA_ACTION, "RTO");
+                intent.putExtra(RTOFragment.EXTRA_CITY, name);
+            }
+            if (intent != null) {
+                intent.putExtra(MainActivity.EXTRA_SHOW_FAV, false);
+            }
+            startActivity(intent);
+            overridePendingTransition(R.anim.slide_out_left, 0);
+        }
+
+        private void callFragment(String name) {
+            Bundle arguments = new Bundle();
+            if (menuId == R.id.nav_pincode || menuId == R.id.nav_office) {
+                arguments.putString(IFSCFragment.EXTRA_ACTION, "");
+                arguments.putString(PincodeFragment.EXTRA_OFFICE, name);
+            } else if (menuId == R.id.nav_ifsc || menuId == R.id.nav_micr || menuId
+                    == R.id.nav_branch_name) {
+                if (menuId == R.id.nav_ifsc) {
+                    arguments.putString(IFSCFragment.EXTRA_ACTION, "IFSC");
+                } else if (menuId == R.id.nav_micr) {
+                    arguments.putString(IFSCFragment.EXTRA_ACTION, "MICR");
+                } else {
+                    arguments.putString(IFSCFragment.EXTRA_ACTION, "BRANCH");
+                }
+                arguments.putString(IFSCFragment.EXTRA_BRANCH, name);
+            } else if (menuId == R.id.nav_std_city || menuId == R.id.nav_std_code) {
+                arguments.putString(IFSCFragment.EXTRA_ACTION, "STD");
+                arguments.putString(STDFragment.EXTRA_CITY, name);
+            } else if (menuId == R.id.nav_rto_city || menuId == R.id.nav_rto_code) {
+                arguments.putString(IFSCFragment.EXTRA_ACTION, "RTO");
+                arguments.putString(STDFragment.EXTRA_CITY, name);
+            }
+            AllCodeDetailFragment fragment = new AllCodeDetailFragment();
+            fragment.setArguments(arguments);
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.item_detail_container, fragment)
+                    .commit();
         }
 
         public class ViewHolder extends RecyclerView.ViewHolder {

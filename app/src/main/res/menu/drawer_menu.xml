@@ -48,8 +48,16 @@
         </menu>
     </item>
 
-    <item
-        android:icon="@drawable/ic_floating_rto"
-        android:title="@string/title_rto">
+    <item android:title="@string/title_rto">
+        <menu>
+            <item
+                android:id="@+id/nav_rto_city"
+                android:icon="@drawable/ic_floating_rto"
+                android:title="@string/search_by_city_name"/>
+            <item
+                android:id="@+id/nav_rto_code"
+                android:icon="@drawable/ic_floating_rto"
+                android:title="@string/search_by_rto_code"/>
+        </menu>
     </item>
 </menu>

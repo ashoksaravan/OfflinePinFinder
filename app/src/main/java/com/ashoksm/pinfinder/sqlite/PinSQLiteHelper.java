@@ -12,13 +12,13 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
+public class PinSQLiteHelper extends SQLiteOpenHelper {
 
     private Activity context;
     private ProgressDialog mProgressDialog;
 
     // Logcat tag
-    private static final String CLASS_NAME = PinFinderSQLiteHelper.class.getName();
+    private static final String CLASS_NAME = PinSQLiteHelper.class.getName();
 
     // Database Version
     private static final int DATABASE_VERSION = 13;
@@ -85,7 +85,7 @@ public class PinFinderSQLiteHelper extends SQLiteOpenHelper {
                     PIN_CODE + "," + DISTRICT + ","
                     + STATE + "))";
 
-    public PinFinderSQLiteHelper(Activity contextIn) {
+    public PinSQLiteHelper(Activity contextIn) {
         super(contextIn, DATABASE_NAME, null, DATABASE_VERSION);
         context = contextIn;
     }

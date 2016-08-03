@@ -24,7 +24,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.ashoksm.pinfinder.R;
-import com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper;
+import com.ashoksm.pinfinder.sqlite.BankSQLiteHelper;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -182,23 +182,23 @@ public class IFSCRecyclerViewAdapter
             }
         });
 
-        String branchName = cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.NAME));
+        String branchName = cursor.getString(cursor.getColumnIndex(BankSQLiteHelper.NAME));
         holder.branchName.setText(
                 branchName.equalsIgnoreCase("Rtgs-ho") ? branchName.toUpperCase() : branchName);
-        holder.city.setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.CITY)));
+        holder.city.setText(cursor.getString(cursor.getColumnIndex(BankSQLiteHelper.CITY)));
         holder.district
-                .setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.DISTRICT)));
-        holder.state.setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.STATE)));
-        String contact = cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.CONTACT));
+                .setText(cursor.getString(cursor.getColumnIndex(BankSQLiteHelper.DISTRICT)));
+        holder.state.setText(cursor.getString(cursor.getColumnIndex(BankSQLiteHelper.STATE)));
+        String contact = cursor.getString(cursor.getColumnIndex(BankSQLiteHelper.CONTACT));
         holder.contact.setText(contact.equalsIgnoreCase("0") ? "NA" : contact);
         holder.address
-                .setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.ADDRESS)));
-        holder.ifsc.setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.ID)));
-        holder.micr.setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.MICR)));
+                .setText(cursor.getString(cursor.getColumnIndex(BankSQLiteHelper.ADDRESS)));
+        holder.ifsc.setText(cursor.getString(cursor.getColumnIndex(BankSQLiteHelper.ID)));
+        holder.micr.setText(cursor.getString(cursor.getColumnIndex(BankSQLiteHelper.MICR)));
         Linkify.addLinks(holder.contact, Linkify.ALL);
         holder.bankNameRow.setVisibility(View.VISIBLE);
         holder.bankName
-                .setText(cursor.getString(cursor.getColumnIndex(BankBranchSQLiteHelper.BANK)));
+                .setText(cursor.getString(cursor.getColumnIndex(BankSQLiteHelper.BANK)));
         setAnimation(holder.v, position);
     }
 

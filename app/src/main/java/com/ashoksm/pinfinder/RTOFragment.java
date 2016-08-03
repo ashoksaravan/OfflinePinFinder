@@ -72,14 +72,17 @@ public class RTOFragment extends Fragment {
         // hide keyboard
         InputMethodManager inputMethodManager = (InputMethodManager) context
                 .getSystemService(Context.INPUT_METHOD_SERVICE);
-        inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
-                InputMethodManager.HIDE_NOT_ALWAYS);
+        if(getView() != null) {
+            inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
+                    InputMethodManager.HIDE_NOT_ALWAYS);
+        }
 
         String stateName = stateNameTextView.getText().toString();
         String city = cityName.getText().toString();
         Intent intent = new Intent(context, DisplayRTOResultActivity.class);
         intent.putExtra(EXTRA_STATE, stateName.trim());
         intent.putExtra(EXTRA_CITY, city.trim());
+        intent.putExtra(IFSCFragment.EXTRA_ACTION, "");
         intent.putExtra(MainActivity.EXTRA_SHOW_FAV, false);
         context.startActivity(intent);
         context.overridePendingTransition(R.anim.slide_out_left, 0);

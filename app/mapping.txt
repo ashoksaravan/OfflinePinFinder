@@ -18024,7 +18024,7 @@ com.ashoksm.pinfinder.BankView$5 -> com.ashoksm.pinfinder.f:
     void onAdFailedToLoad(int) -> a
     void onAdClosed() -> b
 com.ashoksm.pinfinder.DisplayBankBranchResultActivity -> com.ashoksm.pinfinder.DisplayBankBranchResultActivity:
-    com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper sqLiteHelper -> a
+    com.ashoksm.pinfinder.sqlite.BankSQLiteHelper sqLiteHelper -> a
     android.database.Cursor c -> b
     java.lang.String stateName -> c
     java.lang.String districtName -> d
@@ -18034,13 +18034,13 @@ com.ashoksm.pinfinder.DisplayBankBranchResultActivity -> com.ashoksm.pinfinder.D
     void onCreate(android.os.Bundle) -> onCreate
     void onBackPressed() -> onBackPressed
     void onDestroy() -> onDestroy
-    com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper access$002(com.ashoksm.pinfinder.DisplayBankBranchResultActivity,com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper) -> a
+    com.ashoksm.pinfinder.sqlite.BankSQLiteHelper access$002(com.ashoksm.pinfinder.DisplayBankBranchResultActivity,com.ashoksm.pinfinder.sqlite.BankSQLiteHelper) -> a
     android.database.Cursor access$102(com.ashoksm.pinfinder.DisplayBankBranchResultActivity,android.database.Cursor) -> a
     java.lang.String access$200(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> a
     java.lang.String access$300(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> b
     java.lang.String access$400(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> c
     java.lang.String access$500(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> d
-    com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper access$000(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> e
+    com.ashoksm.pinfinder.sqlite.BankSQLiteHelper access$000(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> e
     android.database.Cursor access$100(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> f
 com.ashoksm.pinfinder.DisplayBankBranchResultActivity$1 -> com.ashoksm.pinfinder.g:
     android.support.v7.widget.Toolbar val$toolbar -> a
@@ -18066,7 +18066,7 @@ com.ashoksm.pinfinder.DisplayBankBranchResultActivity$3 -> com.ashoksm.pinfinder
     void onPostExecute(java.lang.Object) -> onPostExecute
     java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
 com.ashoksm.pinfinder.DisplayPinCodeResultActivity -> com.ashoksm.pinfinder.DisplayPinCodeResultActivity:
-    com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper sqLiteHelper -> a
+    com.ashoksm.pinfinder.sqlite.PinSQLiteHelper sqLiteHelper -> a
     android.database.Cursor c -> b
     java.lang.String stateName -> c
     java.lang.String districtName -> d
@@ -18077,12 +18077,12 @@ com.ashoksm.pinfinder.DisplayPinCodeResultActivity -> com.ashoksm.pinfinder.Disp
     void onBackPressed() -> onBackPressed
     void onDestroy() -> onDestroy
     android.support.v7.widget.Toolbar access$000(com.ashoksm.pinfinder.DisplayPinCodeResultActivity) -> a
-    com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper access$102(com.ashoksm.pinfinder.DisplayPinCodeResultActivity,com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper) -> a
+    com.ashoksm.pinfinder.sqlite.PinSQLiteHelper access$102(com.ashoksm.pinfinder.DisplayPinCodeResultActivity,com.ashoksm.pinfinder.sqlite.PinSQLiteHelper) -> a
     android.database.Cursor access$202(com.ashoksm.pinfinder.DisplayPinCodeResultActivity,android.database.Cursor) -> a
     java.lang.String access$300(com.ashoksm.pinfinder.DisplayPinCodeResultActivity) -> b
     java.lang.String access$400(com.ashoksm.pinfinder.DisplayPinCodeResultActivity) -> c
     java.lang.String access$500(com.ashoksm.pinfinder.DisplayPinCodeResultActivity) -> d
-    com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper access$100(com.ashoksm.pinfinder.DisplayPinCodeResultActivity) -> e
+    com.ashoksm.pinfinder.sqlite.PinSQLiteHelper access$100(com.ashoksm.pinfinder.DisplayPinCodeResultActivity) -> e
     android.database.Cursor access$200(com.ashoksm.pinfinder.DisplayPinCodeResultActivity) -> f
 com.ashoksm.pinfinder.DisplayPinCodeResultActivity$1 -> com.ashoksm.pinfinder.j:
     com.ashoksm.pinfinder.DisplayPinCodeResultActivity this$0 -> a
@@ -18508,7 +18508,7 @@ com.ashoksm.pinfinder.common.view.SlidingTabStrip$SimpleTabColorizer -> com.asho
     void setIndicatorColors(int[]) -> a
     void setDividerColors(int[]) -> b
     void <init>(com.ashoksm.pinfinder.common.view.SlidingTabStrip$1) -> <init>
-com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper -> com.ashoksm.pinfinder.b.a:
+com.ashoksm.pinfinder.sqlite.BankSQLiteHelper -> com.ashoksm.pinfinder.b.a:
     com.ashoksm.pinfinder.DisplayBankBranchResultActivity context -> a
     android.app.ProgressDialog mProgressDialog -> b
     java.lang.String CLASS_NAME -> c
@@ -18519,32 +18519,32 @@ com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper -> com.ashoksm.pinfinder.b.a
     void insertLocations(android.database.sqlite.SQLiteDatabase) -> b
     android.database.Cursor findIfscCodes(java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> a
     void closeDB() -> a
-    android.app.ProgressDialog access$002(com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper,android.app.ProgressDialog) -> a
-    com.ashoksm.pinfinder.DisplayBankBranchResultActivity access$100(com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper) -> a
-    android.app.ProgressDialog access$000(com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper) -> b
+    android.app.ProgressDialog access$002(com.ashoksm.pinfinder.sqlite.BankSQLiteHelper,android.app.ProgressDialog) -> a
+    com.ashoksm.pinfinder.DisplayBankBranchResultActivity access$100(com.ashoksm.pinfinder.sqlite.BankSQLiteHelper) -> a
+    android.app.ProgressDialog access$000(com.ashoksm.pinfinder.sqlite.BankSQLiteHelper) -> b
     void <clinit>() -> <clinit>
-com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper$1 -> com.ashoksm.pinfinder.b.b:
-    com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper this$0 -> a
-    void <init>(com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper) -> <init>
+com.ashoksm.pinfinder.sqlite.BankSQLiteHelper$1 -> com.ashoksm.pinfinder.b.b:
+    com.ashoksm.pinfinder.sqlite.BankSQLiteHelper this$0 -> a
+    void <init>(com.ashoksm.pinfinder.sqlite.BankSQLiteHelper) -> <init>
     void run() -> run
-com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper$2 -> com.ashoksm.pinfinder.b.c:
-    com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper this$0 -> a
-    void <init>(com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper) -> <init>
+com.ashoksm.pinfinder.sqlite.BankSQLiteHelper$2 -> com.ashoksm.pinfinder.b.c:
+    com.ashoksm.pinfinder.sqlite.BankSQLiteHelper this$0 -> a
+    void <init>(com.ashoksm.pinfinder.sqlite.BankSQLiteHelper) -> <init>
     void run() -> run
-com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper$3 -> com.ashoksm.pinfinder.b.d:
+com.ashoksm.pinfinder.sqlite.BankSQLiteHelper$3 -> com.ashoksm.pinfinder.b.d:
     java.lang.Double val$percentage -> a
-    com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper this$0 -> b
-    void <init>(com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper,java.lang.Double) -> <init>
+    com.ashoksm.pinfinder.sqlite.BankSQLiteHelper this$0 -> b
+    void <init>(com.ashoksm.pinfinder.sqlite.BankSQLiteHelper,java.lang.Double) -> <init>
     void run() -> run
-com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper$4 -> com.ashoksm.pinfinder.b.e:
-    com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper this$0 -> a
-    void <init>(com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper) -> <init>
+com.ashoksm.pinfinder.sqlite.BankSQLiteHelper$4 -> com.ashoksm.pinfinder.b.e:
+    com.ashoksm.pinfinder.sqlite.BankSQLiteHelper this$0 -> a
+    void <init>(com.ashoksm.pinfinder.sqlite.BankSQLiteHelper) -> <init>
     void run() -> run
-com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper$5 -> com.ashoksm.pinfinder.b.f:
-    com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper this$0 -> a
-    void <init>(com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper) -> <init>
+com.ashoksm.pinfinder.sqlite.BankSQLiteHelper$5 -> com.ashoksm.pinfinder.b.f:
+    com.ashoksm.pinfinder.sqlite.BankSQLiteHelper this$0 -> a
+    void <init>(com.ashoksm.pinfinder.sqlite.BankSQLiteHelper) -> <init>
     void run() -> run
-com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper -> com.ashoksm.pinfinder.b.g:
+com.ashoksm.pinfinder.sqlite.PinSQLiteHelper -> com.ashoksm.pinfinder.b.g:
     com.ashoksm.pinfinder.DisplayPinCodeResultActivity context -> a
     android.app.ProgressDialog mProgressDialog -> b
     java.lang.String CLASS_NAME -> c
@@ -18558,38 +18558,38 @@ com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper -> com.ashoksm.pinfinder.b.g:
     void insertLocations(android.database.sqlite.SQLiteDatabase) -> e
     android.database.Cursor findMatchingOffices(java.lang.String,java.lang.String,java.lang.String) -> a
     void closeDB() -> a
-    android.app.ProgressDialog access$002(com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper,android.app.ProgressDialog) -> a
-    com.ashoksm.pinfinder.DisplayPinCodeResultActivity access$100(com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper) -> a
-    android.app.ProgressDialog access$000(com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper) -> b
+    android.app.ProgressDialog access$002(com.ashoksm.pinfinder.sqlite.PinSQLiteHelper,android.app.ProgressDialog) -> a
+    com.ashoksm.pinfinder.DisplayPinCodeResultActivity access$100(com.ashoksm.pinfinder.sqlite.PinSQLiteHelper) -> a
+    android.app.ProgressDialog access$000(com.ashoksm.pinfinder.sqlite.PinSQLiteHelper) -> b
     void <clinit>() -> <clinit>
-com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper$1 -> com.ashoksm.pinfinder.b.h:
-    com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper this$0 -> a
-    void <init>(com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper) -> <init>
+com.ashoksm.pinfinder.sqlite.PinSQLiteHelper$1 -> com.ashoksm.pinfinder.b.h:
+    com.ashoksm.pinfinder.sqlite.PinSQLiteHelper this$0 -> a
+    void <init>(com.ashoksm.pinfinder.sqlite.PinSQLiteHelper) -> <init>
     void run() -> run
-com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper$2 -> com.ashoksm.pinfinder.b.i:
-    com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper this$0 -> a
-    void <init>(com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper) -> <init>
+com.ashoksm.pinfinder.sqlite.PinSQLiteHelper$2 -> com.ashoksm.pinfinder.b.i:
+    com.ashoksm.pinfinder.sqlite.PinSQLiteHelper this$0 -> a
+    void <init>(com.ashoksm.pinfinder.sqlite.PinSQLiteHelper) -> <init>
     void run() -> run
-com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper$3 -> com.ashoksm.pinfinder.b.j:
-    com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper this$0 -> a
-    void <init>(com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper) -> <init>
+com.ashoksm.pinfinder.sqlite.PinSQLiteHelper$3 -> com.ashoksm.pinfinder.b.j:
+    com.ashoksm.pinfinder.sqlite.PinSQLiteHelper this$0 -> a
+    void <init>(com.ashoksm.pinfinder.sqlite.PinSQLiteHelper) -> <init>
     void run() -> run
-com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper$4 -> com.ashoksm.pinfinder.b.k:
-    com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper this$0 -> a
-    void <init>(com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper) -> <init>
+com.ashoksm.pinfinder.sqlite.PinSQLiteHelper$4 -> com.ashoksm.pinfinder.b.k:
+    com.ashoksm.pinfinder.sqlite.PinSQLiteHelper this$0 -> a
+    void <init>(com.ashoksm.pinfinder.sqlite.PinSQLiteHelper) -> <init>
     void run() -> run
-com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper$5 -> com.ashoksm.pinfinder.b.l:
-    com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper this$0 -> a
-    void <init>(com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper) -> <init>
+com.ashoksm.pinfinder.sqlite.PinSQLiteHelper$5 -> com.ashoksm.pinfinder.b.l:
+    com.ashoksm.pinfinder.sqlite.PinSQLiteHelper this$0 -> a
+    void <init>(com.ashoksm.pinfinder.sqlite.PinSQLiteHelper) -> <init>
     void run() -> run
-com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper$6 -> com.ashoksm.pinfinder.b.m:
-    com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper this$0 -> a
-    void <init>(com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper) -> <init>
+com.ashoksm.pinfinder.sqlite.PinSQLiteHelper$6 -> com.ashoksm.pinfinder.b.m:
+    com.ashoksm.pinfinder.sqlite.PinSQLiteHelper this$0 -> a
+    void <init>(com.ashoksm.pinfinder.sqlite.PinSQLiteHelper) -> <init>
     void run() -> run
-com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper$7 -> com.ashoksm.pinfinder.b.n:
+com.ashoksm.pinfinder.sqlite.PinSQLiteHelper$7 -> com.ashoksm.pinfinder.b.n:
     java.lang.Double val$percentage -> a
-    com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper this$0 -> b
-    void <init>(com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper,java.lang.Double) -> <init>
+    com.ashoksm.pinfinder.sqlite.PinSQLiteHelper this$0 -> b
+    void <init>(com.ashoksm.pinfinder.sqlite.PinSQLiteHelper,java.lang.Double) -> <init>
     void run() -> run
 com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper -> com.ashoksm.pinfinder.b.o:
     com.ashoksm.pinfinder.DisplayRTOResultActivity context -> a

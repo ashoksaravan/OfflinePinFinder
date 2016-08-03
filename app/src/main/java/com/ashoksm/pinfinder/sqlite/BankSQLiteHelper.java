@@ -13,12 +13,12 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
+public class BankSQLiteHelper extends SQLiteOpenHelper {
 
     private Activity context;
     private ProgressDialog mProgressDialog;
     // Logcat tag
-    private static final String CLASS_NAME = BankBranchSQLiteHelper.class.getName();
+    private static final String CLASS_NAME = BankSQLiteHelper.class.getName();
 
     // Database Version
     private static final int DATABASE_VERSION = 11;
@@ -54,7 +54,7 @@ public class BankBranchSQLiteHelper extends SQLiteOpenHelper {
             + LOCATION + ") REFERENCES " + TABLE_LOCATION + "(" + LOCATION + "), " + "PRIMARY KEY ("
             + NAME + "," + IFSC + "," + LOCATION + "))";
 
-    public BankBranchSQLiteHelper(Activity contextIn) {
+    public BankSQLiteHelper(Activity contextIn) {
         super(contextIn, DATABASE_NAME, null, DATABASE_VERSION);
         context = contextIn;
     }

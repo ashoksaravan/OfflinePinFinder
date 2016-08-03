@@ -20,7 +20,7 @@ import android.widget.LinearLayout;
 
 import com.ashoksm.pinfinder.adapter.PinCodeRecyclerViewAdapter;
 import com.ashoksm.pinfinder.common.AppRater;
-import com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper;
+import com.ashoksm.pinfinder.sqlite.PinSQLiteHelper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -31,7 +31,7 @@ import java.util.Locale;
 
 public class DisplayPinCodeResultActivity extends AppCompatActivity {
 
-    private PinFinderSQLiteHelper sqLiteHelper;
+    private PinSQLiteHelper sqLiteHelper;
 
     private Cursor c;
 
@@ -137,7 +137,7 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
             @Override
             protected Void doInBackground(Void... params) {
                 try {
-                    sqLiteHelper = new PinFinderSQLiteHelper(DisplayPinCodeResultActivity.this);
+                    sqLiteHelper = new PinSQLiteHelper(DisplayPinCodeResultActivity.this);
                     if (!showFav) {
                         c = sqLiteHelper.findMatchingOffices(stateName, districtName, officeName);
                     } else {

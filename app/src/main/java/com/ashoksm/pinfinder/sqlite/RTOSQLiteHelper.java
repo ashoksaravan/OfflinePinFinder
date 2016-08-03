@@ -1,12 +1,11 @@
 package com.ashoksm.pinfinder.sqlite;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
-
-import com.ashoksm.pinfinder.DisplayRTOResultActivity;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -15,7 +14,7 @@ import java.io.InputStreamReader;
 
 public class RTOSQLiteHelper extends SQLiteOpenHelper {
 
-    private DisplayRTOResultActivity context;
+    private Activity context;
     private ProgressDialog mProgressDialog;
 
     // Logcat tag
@@ -39,17 +38,15 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
     public static final String ID = "_id";
 
     // post_office_t table create statement
-    private static final String CREATE_STATE_TABLE =
-            "CREATE TABLE " + TABLE_STATE + "(" + STATE + " INTEGER, "
-                    + STATE_NAME + " TEXT, " + "PRIMARY KEY (" + STATE + "))";
+    private static final String CREATE_STATE_TABLE = "CREATE TABLE " + TABLE_STATE + "(" + STATE
+            + " INTEGER, " + STATE_NAME + " TEXT, PRIMARY KEY (" + STATE + "))";
 
-    private static final String CREATE_STD_TABLE =
-            "CREATE TABLE " + TABLE_RTO + "(" + STATE + " INTEGER, " + RTO_CODE
-                    + " TEXT, " + CITY + " TEXT, " + "FOREIGN KEY(" + STATE + ") REFERENCES " +
-                    TABLE_STATE + "(" + STATE
-                    + "), " + "PRIMARY KEY (" + STATE + "," + CITY + "," + RTO_CODE + "))";
+    private static final String CREATE_STD_TABLE = "CREATE TABLE " + TABLE_RTO + "(" + STATE
+            + " INTEGER, " + RTO_CODE + " TEXT, " + CITY + " TEXT, " + "FOREIGN KEY(" + STATE
+            + ") REFERENCES " + TABLE_STATE + "(" + STATE + "), PRIMARY KEY (" + STATE + "," + CITY
+            + "," + RTO_CODE + "))";
 
-    public RTOSQLiteHelper(DisplayRTOResultActivity contextIn) {
+    public RTOSQLiteHelper(Activity contextIn) {
         super(contextIn, DATABASE_NAME, null, DATABASE_VERSION);
         context = contextIn;
     }
@@ -75,7 +72,7 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
         // insert states
         insertStates(db);
 
-        // insert rtocodes
+        // insert rto codes
         insertRTOCodes(db);
         context.runOnUiThread(new Runnable() {
             public void run() {
@@ -155,27 +152,33 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
     /**
      * @param stateName stateName
      * @param cityName  cityName
+     * @param action    action
      * @return Cursor
      */
-    public Cursor findRTOCodes(final String stateName, final String cityName) {
+    public Cursor findRTOCodes(final String stateName, final String cityName, String action) {
         SQLiteDatabase db = this.getReadableDatabase();
 
-        String select =
-                "SELECT  s." + STATE_NAME + ", " + CITY + ", " + RTO_CODE + " AS _id FROM " +
-                        TABLE_RTO + " st"
-                        + " INNER JOIN " + TABLE_STATE + " s ON st." + STATE + " = s." + STATE;
+        String select = "SELECT  s." + STATE_NAME + ", " + CITY + ", " + RTO_CODE + " AS _id FROM "
+                + TABLE_RTO + " st INNER JOIN " + TABLE_STATE + " s ON st." + STATE + " = s."
+                + STATE;
         String where = "";
-
-        if (stateName.trim().length() > 0) {
-            where = " WHERE LOWER(REPLACE(s." + STATE_NAME + ",' ','')) LIKE '%" + stateName + "%'";
-        }
-        if (cityName.trim().length() > 0 && where.trim().length() > 0) {
-            where = where + " AND (LOWER(REPLACE(st." + CITY + ",' ','')) LIKE '%" + cityName
-                    + "%' OR LOWER(REPLACE(st." + RTO_CODE + ",' ','')) LIKE '%" + cityName + "%')";
-        } else if (cityName.trim().length() > 0) {
-            where = " WHERE (LOWER(REPLACE(st." + CITY + ",' ','')) LIKE '%" + cityName +
-                    "%' OR LOWER(REPLACE(st."
-                    + RTO_CODE + ",' ','')) LIKE '%" + cityName + "%')";
+        if (action.length() > 0) {
+            where = " WHERE (LOWER(st." + CITY + ") = '" + cityName + "' OR LOWER(st." + RTO_CODE
+                    + ") = '" + cityName + "')";
+        } else {
+            if (stateName.trim().length() > 0) {
+                where = " WHERE LOWER(REPLACE(s." + STATE_NAME + ",' ','')) LIKE '%" + stateName +
+                        "%'";
+            }
+            if (cityName.trim().length() > 0 && where.trim().length() > 0) {
+                where = where + " AND (LOWER(REPLACE(st." + CITY + ",' ','')) LIKE '%" + cityName
+                        + "%' OR LOWER(REPLACE(st." + RTO_CODE + ",' ','')) LIKE '%" + cityName +
+                        "%')";
+            } else if (cityName.trim().length() > 0) {
+                where = " WHERE (LOWER(REPLACE(st." + CITY + ",' ','')) LIKE '%" + cityName
+                        + "%' OR LOWER(REPLACE(st." + RTO_CODE + ",' ','')) LIKE '%" + cityName
+                        + "%')";
+            }
         }
         String orderBy = " ORDER BY 1, 3, 2";
         String selectQuery = select + where + orderBy;
@@ -191,16 +194,27 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
     public Cursor findFavRTOCodes(final String favRTOCodes) {
         SQLiteDatabase db = this.getReadableDatabase();
 
-        String select =
-                "SELECT  s." + STATE_NAME + ", " + CITY + ", " + RTO_CODE + " AS _id FROM " +
-                        TABLE_RTO + " st"
-                        + " INNER JOIN " + TABLE_STATE + " s ON st." + STATE + " = s." + STATE;
-        String where = " WHERE " + RTO_CODE + " IN (" + favRTOCodes + ")";
-        String orderBy = " ORDER BY 1, 3, 2";
-        String selectQuery = select + where + orderBy;
-        Log.d(CLASS_NAME, selectQuery);
+        String select = "SELECT  s." + STATE_NAME + ", " + CITY + ", " + RTO_CODE + " AS _id FROM "
+                + TABLE_RTO + " st INNER JOIN " + TABLE_STATE + " s ON st." + STATE + " = s."
+                + STATE + " WHERE " + RTO_CODE + " IN (" + favRTOCodes + ") ORDER BY 1, 3, 2";
+        Log.d(CLASS_NAME, select);
+        return db.rawQuery(select, null);
+    }
 
-        return db.rawQuery(selectQuery, null);
+    public Cursor getAllCityNames(String queryTxt) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        String select = "SELECT  " + CITY + " AS _id FROM " + TABLE_RTO + " WHERE " + CITY
+                + " LIKE '%" + queryTxt + "%' AND " + CITY + " NOT LIKE '%yet to be%' AND "
+                + CITY + " NOT LIKE '%temporary%' AND " + CITY + " NOT LIKE '%(dns)%' AND "
+                + CITY + " NOT LIKE '%--%' ORDER BY " + CITY;
+        return db.rawQuery(select, null);
+    }
+
+    public Cursor getAllRTOCodes(String queryTxt) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        String select = "SELECT  " + RTO_CODE + " AS _id FROM " + TABLE_RTO + " WHERE " + RTO_CODE
+                + " LIKE '%" + queryTxt + "%' ORDER BY " + RTO_CODE;
+        return db.rawQuery(select, null);
     }
 
     // closing database

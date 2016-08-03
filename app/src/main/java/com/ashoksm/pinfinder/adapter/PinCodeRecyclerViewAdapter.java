@@ -24,7 +24,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.ashoksm.pinfinder.R;
-import com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper;
+import com.ashoksm.pinfinder.sqlite.PinSQLiteHelper;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -191,58 +191,58 @@ public class PinCodeRecyclerViewAdapter
         });
 
         holder.officeName
-                .setText(cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.ID)));
+                .setText(cursor.getString(cursor.getColumnIndex(PinSQLiteHelper.ID)));
         holder.pincode
-                .setText(cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.PIN_CODE)));
+                .setText(cursor.getString(cursor.getColumnIndex(PinSQLiteHelper.PIN_CODE)));
         holder.status.setText(
-                cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.STATUS_NAME)));
+                cursor.getString(cursor.getColumnIndex(PinSQLiteHelper.STATUS_NAME)));
         holder.state
-                .setText(cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.STATE_NAME)));
+                .setText(cursor.getString(cursor.getColumnIndex(PinSQLiteHelper.STATE_NAME)));
 
-        if (cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.SUB_OFFICE)) != null
-                && cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.SUB_OFFICE)).trim()
+        if (cursor.getString(cursor.getColumnIndex(PinSQLiteHelper.SUB_OFFICE)) != null
+                && cursor.getString(cursor.getColumnIndex(PinSQLiteHelper.SUB_OFFICE)).trim()
                 .length() > 0) {
             holder.subOfficeRow.setVisibility(View.VISIBLE);
             holder.subOffice.setText(
-                    cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.SUB_OFFICE)));
+                    cursor.getString(cursor.getColumnIndex(PinSQLiteHelper.SUB_OFFICE)));
         } else {
             holder.subOffice.setText("");
             holder.subOfficeRow.setVisibility(View.GONE);
         }
 
-        if (cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.HEAD_OFFICE)) != null
-                && cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.HEAD_OFFICE)).trim()
+        if (cursor.getString(cursor.getColumnIndex(PinSQLiteHelper.HEAD_OFFICE)) != null
+                && cursor.getString(cursor.getColumnIndex(PinSQLiteHelper.HEAD_OFFICE)).trim()
                 .length() > 0) {
             holder.headOfficeRow.setVisibility(View.VISIBLE);
             holder.headOffice.setText(
-                    cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.HEAD_OFFICE)));
+                    cursor.getString(cursor.getColumnIndex(PinSQLiteHelper.HEAD_OFFICE)));
         } else {
             holder.headOffice.setText("");
             holder.headOfficeRow.setVisibility(View.GONE);
         }
 
-        if (cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.LOCATION_NAME)) != null
+        if (cursor.getString(cursor.getColumnIndex(PinSQLiteHelper.LOCATION_NAME)) != null
                 &&
-                cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.LOCATION_NAME)).trim()
+                cursor.getString(cursor.getColumnIndex(PinSQLiteHelper.LOCATION_NAME)).trim()
                         .length() > 0) {
             holder.locationRow.setVisibility(View.VISIBLE);
             String location =
-                    cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.LOCATION_NAME)) +
+                    cursor.getString(cursor.getColumnIndex(PinSQLiteHelper.LOCATION_NAME)) +
                             " Taluk of " +
                             cursor.getString(
-                                    cursor.getColumnIndex(PinFinderSQLiteHelper.DISTRICT_NAME)) +
+                                    cursor.getColumnIndex(PinSQLiteHelper.DISTRICT_NAME)) +
                             " District";
             holder.location.setText(location);
         } else {
             holder.location.setText("");
             holder.locationRow.setVisibility(View.GONE);
         }
-        if (cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.TELEPHONE)) != null
-                && cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.TELEPHONE)).trim()
+        if (cursor.getString(cursor.getColumnIndex(PinSQLiteHelper.TELEPHONE)) != null
+                && cursor.getString(cursor.getColumnIndex(PinSQLiteHelper.TELEPHONE)).trim()
                 .length() > 0) {
             holder.telephoneRow.setVisibility(View.VISIBLE);
             holder.telephoneNumber.setText(
-                    cursor.getString(cursor.getColumnIndex(PinFinderSQLiteHelper.TELEPHONE)));
+                    cursor.getString(cursor.getColumnIndex(PinSQLiteHelper.TELEPHONE)));
             Linkify.addLinks(holder.telephoneNumber, Linkify.ALL);
         } else {
             holder.telephoneNumber.setText("");

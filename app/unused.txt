@@ -3006,7 +3006,7 @@ com.ashoksm.pinfinder.common.view.SlidingTabStrip:
     private static final int DEFAULT_DIVIDER_THICKNESS_DIPS
     private static final byte DEFAULT_DIVIDER_COLOR_ALPHA
     private static final float DEFAULT_DIVIDER_HEIGHT
-com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper:
+com.ashoksm.pinfinder.sqlite.BankSQLiteHelper:
     private static final int DATABASE_VERSION
     private static final java.lang.String DATABASE_NAME
     private static final java.lang.String TABLE_BANK_BRANCH
@@ -3024,7 +3024,7 @@ com.ashoksm.pinfinder.sqlite.BankBranchSQLiteHelper:
     public static final java.lang.String ID
     private static final java.lang.String CREATE_LOCATION_TABLE
     private static final java.lang.String CREATE_BANK_BRANCH_TABLE
-com.ashoksm.pinfinder.sqlite.PinFinderSQLiteHelper:
+com.ashoksm.pinfinder.sqlite.PinSQLiteHelper:
     private static final int DATABASE_VERSION
     private static final java.lang.String DATABASE_NAME
     private static final java.lang.String TABLE_POST_OFFICE

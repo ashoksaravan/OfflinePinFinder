@@ -32,16 +32,12 @@ import java.util.Locale;
 public class DisplayRTOResultActivity extends AppCompatActivity {
 
     private RTOSQLiteHelper sqLiteHelper;
-
     private Cursor c;
-
     private String stateName;
-
     private String cityName;
-
+    private String action;
     private boolean showFav;
-
-    private SharedPreferences sharedPreferences;
+    private SharedPreferences sharedPref;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +46,7 @@ public class DisplayRTOResultActivity extends AppCompatActivity {
         final Toolbar toolbar = (Toolbar) findViewById(R.id.my_awesome_toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
         setSupportActionBar(toolbar);
-        sharedPreferences = getSharedPreferences("AllCodeFinder", Context.MODE_PRIVATE);
+        sharedPref = getSharedPreferences("AllCodeFinder", Context.MODE_PRIVATE);
 
         final RecyclerView mRecyclerView = (RecyclerView) findViewById(R.id.gridView);
 
@@ -81,13 +77,16 @@ public class DisplayRTOResultActivity extends AppCompatActivity {
         final Intent intent = getIntent();
         showFav = intent.getBooleanExtra(MainActivity.EXTRA_SHOW_FAV, false);
         if (!showFav) {
-            stateName =
-                    intent.getStringExtra(RTOFragment.EXTRA_STATE).toLowerCase(l)
-                            .replaceAll(" ", "")
-                            .replaceAll("'", "''");
-            cityName =
-                    intent.getStringExtra(RTOFragment.EXTRA_CITY).toLowerCase(l).replaceAll(" ", "")
-                            .replaceAll("'", "''");
+            stateName = intent.getStringExtra(RTOFragment.EXTRA_STATE).toLowerCase(l)
+                    .replaceAll(" ", "").replaceAll("'", "''");
+            action = intent.getStringExtra(IFSCFragment.EXTRA_ACTION);
+            if (action.length() == 0) {
+                cityName = intent.getStringExtra(RTOFragment.EXTRA_CITY).toLowerCase(l)
+                        .replaceAll(" ", "").replaceAll("'", "''");
+            } else {
+                cityName = intent.getStringExtra(RTOFragment.EXTRA_CITY).toLowerCase(l)
+                        .replaceAll("'", "''");
+            }
         }
         // load ad
         final LinearLayout adParent = (LinearLayout) this.findViewById(R.id.adLayout);
@@ -130,10 +129,9 @@ public class DisplayRTOResultActivity extends AppCompatActivity {
                 try {
                     sqLiteHelper = new RTOSQLiteHelper(DisplayRTOResultActivity.this);
                     if (showFav) {
-                        c = sqLiteHelper
-                                .findFavRTOCodes(sharedPreferences.getString("RTOCodes", null));
+                        c = sqLiteHelper.findFavRTOCodes(sharedPref.getString("RTOCodes", null));
                     } else {
-                        c = sqLiteHelper.findRTOCodes(stateName, cityName);
+                        c = sqLiteHelper.findRTOCodes(stateName, cityName, action);
                     }
                 } catch (Exception ex) {
                     Log.e("DisplayRTOResult", ex.getMessage());
@@ -148,13 +146,12 @@ public class DisplayRTOResultActivity extends AppCompatActivity {
                         getSupportActionBar().setTitle(c.getCount() + " Results found");
                     }
                     adapter = new RTORecyclerViewAdapter(DisplayRTOResultActivity.this, c,
-                            sharedPreferences, showFav);
+                            sharedPref, showFav);
                     mRecyclerView.setAdapter(adapter);
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {
-                    LinearLayout noMatchingLayout =
-                            (LinearLayout) findViewById(R.id.noMatchingLayout);
-                    noMatchingLayout.setVisibility(View.VISIBLE);
+                    LinearLayout noMatchingLt = (LinearLayout) findViewById(R.id.noMatchingLayout);
+                    noMatchingLt.setVisibility(View.VISIBLE);
                 }
                 // HIDE THE SPINNER AFTER LOADING FEEDS
                 progressLayout.setVisibility(View.GONE);
