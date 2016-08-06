@@ -67,6 +67,7 @@
             android:theme="@android:style/Theme.Translucent"/>
         <activity
             android:name=".AllCodeListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_result"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme"
