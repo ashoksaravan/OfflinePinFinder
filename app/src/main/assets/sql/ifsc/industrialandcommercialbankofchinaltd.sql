@@ -1,1 +1,1 @@
-INSERT INTO bank_branch_t VALUES('Rtgs-ho', 'Mumbai', 'Level 1, East Wing, Wockhardt Tower,c-2, G Block, Bandra Kurla Complex,bandra (E), Mumbai-400 051', '33155900', '400229256', 'ICBK0000001', 12871);
+INSERT INTO bank_branch_t VALUES('Rtgs-ho', 'Mumbai', 'Level 1, East Wing, Wockhardt Tower, C-2, G Block, Bandra Kurla Complex, Bandra (E), Mumbai-400 051', '33155900', '400229256', 'ICBK0000001', 12914);
