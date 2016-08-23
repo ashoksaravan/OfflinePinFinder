@@ -19,8 +19,10 @@ import android.widget.LinearLayout;
 
 import com.ashoksm.pinfinder.adapter.STDRecyclerViewAdapter;
 import com.ashoksm.pinfinder.common.AppRater;
+import com.ashoksm.pinfinder.common.ContentAdLayoutContext;
 import com.ashoksm.pinfinder.common.activities.ActivityBase;
 import com.ashoksm.pinfinder.sqlite.STDSQLiteHelper;
+import com.clockbyte.admobadapter.AdmobRecyclerAdapterWrapper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -38,6 +40,8 @@ public class DisplaySTDResultActivity extends ActivityBase {
     private String action;
     private boolean showFav;
     private SharedPreferences sharedPref;
+    private AdmobRecyclerAdapterWrapper adAdapterWrapper;
+    private STDRecyclerViewAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -117,7 +121,6 @@ public class DisplaySTDResultActivity extends ActivityBase {
 
         new AsyncTask<Void, Void, Void>() {
             LinearLayout progressLayout = (LinearLayout) findViewById(R.id.progressLayout);
-            STDRecyclerViewAdapter adapter;
 
             @Override
             protected void onPreExecute() {
@@ -148,7 +151,8 @@ public class DisplaySTDResultActivity extends ActivityBase {
                     }
                     adapter = new STDRecyclerViewAdapter(DisplaySTDResultActivity.this, c,
                             sharedPref, showFav);
-                    mRecyclerView.setAdapter(adapter);
+                    initNativeAd();
+                    mRecyclerView.setAdapter(adAdapterWrapper);
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {
                     LinearLayout noMatchingLayout =
@@ -179,5 +183,17 @@ public class DisplaySTDResultActivity extends ActivityBase {
         }
         super.onDestroy();
         overridePendingTransition(R.anim.slide_in_left, 0);
+    }
+
+    @SuppressWarnings("unchecked")
+    private void initNativeAd() {
+        String[] testDevicesIds = new String[]{AdRequest.DEVICE_ID_EMULATOR};
+        adAdapterWrapper = new AdmobRecyclerAdapterWrapper(this, testDevicesIds);
+        adAdapterWrapper.setContentAdsLayoutContext(new ContentAdLayoutContext(R.layout
+                .ad_content));
+        adAdapterWrapper.setAdapter((RecyclerView.Adapter)adapter);
+        adAdapterWrapper.setLimitOfAds(3);
+        adAdapterWrapper.setNoOfDataBetweenAds(10);
+        adAdapterWrapper.setFirstAdIndex(2);
     }
 }

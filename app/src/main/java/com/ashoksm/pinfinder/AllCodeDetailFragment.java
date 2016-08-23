@@ -22,11 +22,15 @@ import com.ashoksm.pinfinder.adapter.IFSCRecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.PinCodeRecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.RTORecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.STDRecyclerViewAdapter;
+import com.ashoksm.pinfinder.common.ContentAdLayoutContext;
 import com.ashoksm.pinfinder.sqlite.BankSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.PinSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.STDSQLiteHelper;
+import com.clockbyte.admobadapter.AdmobRecyclerAdapterWrapper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.MobileAds;
 
 public class AllCodeDetailFragment extends Fragment {
 
@@ -40,6 +44,8 @@ public class AllCodeDetailFragment extends Fragment {
     private String branchName;
     private String cityName;
     private Cursor c;
+    private AdmobRecyclerAdapterWrapper adAdapterWrapper;
+    private CursorRecyclerViewAdapter adapter;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -52,16 +58,17 @@ public class AllCodeDetailFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         sharedPref = getActivity().getSharedPreferences("AllCodeFinder", Context.MODE_PRIVATE);
+        MobileAds.initialize(getActivity(), getString(R.string.admob_small_native_ad_id));
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return getPincodeView(inflater, container);
+        return getView(inflater, container);
     }
 
     @NonNull
-    private View getPincodeView(LayoutInflater vi, ViewGroup container) {
+    private View getView(LayoutInflater vi, ViewGroup container) {
         final View v = vi.inflate(R.layout.all_code_fragment_content, container, false);
 
         final RecyclerView mRecyclerView = (RecyclerView) v.findViewById(R.id.gridView);
@@ -92,7 +99,6 @@ public class AllCodeDetailFragment extends Fragment {
 
         new AsyncTask<Void, Void, Void>() {
             LinearLayout progressLayout = (LinearLayout) v.findViewById(R.id.progressLayout);
-            CursorRecyclerViewAdapter adapter;
 
             @Override
             protected void onPreExecute() {
@@ -138,7 +144,8 @@ public class AllCodeDetailFragment extends Fragment {
                         adapter = new IFSCRecyclerViewAdapter(getActivity(), c, "", sharedPref,
                                 false);
                     }
-                    mRecyclerView.setAdapter(adapter);
+                    initNativeAd();
+                    mRecyclerView.setAdapter(adAdapterWrapper);
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {
                     LinearLayout noMatchingLayout =
@@ -151,5 +158,17 @@ public class AllCodeDetailFragment extends Fragment {
 
         }.execute();
         return v;
+    }
+
+    @SuppressWarnings("unchecked")
+    private void initNativeAd() {
+        String[] testDevicesIds = new String[]{AdRequest.DEVICE_ID_EMULATOR};
+        adAdapterWrapper = new AdmobRecyclerAdapterWrapper(getActivity(), testDevicesIds);
+        adAdapterWrapper.setContentAdsLayoutContext(new ContentAdLayoutContext(R.layout
+                .ad_content));
+        adAdapterWrapper.setAdapter(adapter);
+        adAdapterWrapper.setLimitOfAds(3);
+        adAdapterWrapper.setNoOfDataBetweenAds(10);
+        adAdapterWrapper.setFirstAdIndex(2);
     }
 }

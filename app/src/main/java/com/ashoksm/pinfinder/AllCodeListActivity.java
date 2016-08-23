@@ -23,14 +23,21 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
 import com.ashoksm.pinfinder.adapter.CursorRecyclerViewAdapter;
+import com.ashoksm.pinfinder.common.ContentAdLayoutContext;
 import com.ashoksm.pinfinder.common.activities.ActivityBase;
 import com.ashoksm.pinfinder.sqlite.BankSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.PinSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.STDSQLiteHelper;
+import com.clockbyte.admobadapter.AdmobRecyclerAdapterWrapper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
 
 import java.util.regex.Pattern;
 
@@ -44,6 +51,9 @@ public class AllCodeListActivity extends ActivityBase {
     private EditText searchBar;
     private int menuId;
     private String queryTxt;
+    private InterstitialAd mInterstitialAd;
+    private AdmobRecyclerAdapterWrapper adAdapterWrapper;
+    private AllCodeViewAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +63,7 @@ public class AllCodeListActivity extends ActivityBase {
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         }
 
+        MobileAds.initialize(getApplicationContext(), getString(R.string.admob_small_native_ad_id));
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
         setSupportActionBar(toolbar);
@@ -78,6 +89,8 @@ public class AllCodeListActivity extends ActivityBase {
             // activity should be in two-pane mode.
             mTwoPane = true;
         }
+
+        loadAd();
     }
 
     private void setupRecyclerView(@NonNull final RecyclerView recyclerView) {
@@ -87,8 +100,6 @@ public class AllCodeListActivity extends ActivityBase {
             BankSQLiteHelper branchHelper = new BankSQLiteHelper(AllCodeListActivity.this);
             STDSQLiteHelper stdsqLiteHelper = new STDSQLiteHelper(AllCodeListActivity.this);
             RTOSQLiteHelper rtosqLiteHelper = new RTOSQLiteHelper(AllCodeListActivity.this);
-
-            AllCodeViewAdapter adapter;
 
             @Override
             protected void onPreExecute() {
@@ -122,7 +133,8 @@ public class AllCodeListActivity extends ActivityBase {
 
             @Override
             protected void onPostExecute(Void aVoid) {
-                recyclerView.setAdapter(adapter);
+                initNativeAd();
+                recyclerView.setAdapter(adAdapterWrapper);
                 searchBar.addTextChangedListener(new TextWatcher() {
                     @Override
                     public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -295,8 +307,94 @@ public class AllCodeListActivity extends ActivityBase {
         }
     }
 
-    public boolean isXLargeScreen(Context context) {
+    private boolean isXLargeScreen(Context context) {
         return (context.getResources().getConfiguration().screenLayout & Configuration
                 .SCREENLAYOUT_SIZE_MASK) >= Configuration.SCREENLAYOUT_SIZE_XLARGE;
+    }
+
+    private void loadAd() {
+        final LinearLayout adParent = (LinearLayout) this.findViewById(R.id.ad);
+        final AdView ad = new AdView(this);
+        ad.setAdUnitId(getString(R.string.admob_id));
+        ad.setAdSize(AdSize.SMART_BANNER);
+
+        final AdListener listener = new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                adParent.setVisibility(View.VISIBLE);
+                super.onAdLoaded();
+            }
+
+            @Override
+            public void onAdFailedToLoad(int errorCode) {
+                adParent.setVisibility(View.GONE);
+                super.onAdFailedToLoad(errorCode);
+            }
+        };
+
+        ad.setAdListener(listener);
+
+        adParent.addView(ad);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        ad.loadAd(adRequest);
+
+        // Begin loading your interstitial.
+        mInterstitialAd = newInterstitialAd();
+        loadInterstitial();
+    }
+
+    private InterstitialAd newInterstitialAd() {
+        InterstitialAd interstitialAd = new InterstitialAd(this);
+        interstitialAd.setAdUnitId(getString(R.string.admob_id));
+        interstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+            }
+
+            @Override
+            public void onAdFailedToLoad(int errorCode) {
+            }
+
+            @Override
+            public void onAdClosed() {
+                AllCodeListActivity.super.onBackPressed();
+            }
+        });
+        return interstitialAd;
+    }
+
+    private void showInterstitial() {
+        // Show the ad if it's ready. Otherwise toast and reload the ad.
+        if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
+            mInterstitialAd.show();
+        } else {
+            AllCodeListActivity.super.onBackPressed();
+        }
+    }
+
+    private void loadInterstitial() {
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mInterstitialAd.loadAd(adRequest);
+    }
+
+    @SuppressWarnings("unchecked")
+    private void initNativeAd() {
+        String[] testDevicesIds = new String[]{AdRequest.DEVICE_ID_EMULATOR};
+        adAdapterWrapper = new AdmobRecyclerAdapterWrapper(this, testDevicesIds);
+        adAdapterWrapper.setContentAdsLayoutContext(new ContentAdLayoutContext(R.layout
+                .ad_content));
+        adAdapterWrapper.setAdapter((RecyclerView.Adapter)adapter);
+        adAdapterWrapper.setLimitOfAds(3);
+        adAdapterWrapper.setNoOfDataBetweenAds(10);
+        adAdapterWrapper.setFirstAdIndex(2);
+    }
+
+    @Override
+    public void onBackPressed() {
+        showInterstitial();
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
     }
 }

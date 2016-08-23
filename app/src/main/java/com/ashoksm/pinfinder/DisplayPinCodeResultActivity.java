@@ -20,40 +20,42 @@ import android.widget.LinearLayout;
 
 import com.ashoksm.pinfinder.adapter.PinCodeRecyclerViewAdapter;
 import com.ashoksm.pinfinder.common.AppRater;
+import com.ashoksm.pinfinder.common.ContentAdLayoutContext;
 import com.ashoksm.pinfinder.sqlite.PinSQLiteHelper;
+import com.clockbyte.admobadapter.AdmobRecyclerAdapterWrapper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 import java.util.Locale;
 
 public class DisplayPinCodeResultActivity extends AppCompatActivity {
 
     private PinSQLiteHelper sqLiteHelper;
-
     private Cursor c;
-
     private String stateName;
-
     private String districtName;
-
     private String officeName;
-
     private Toolbar toolbar;
-
     private boolean showFav;
-
     private SharedPreferences sharedPreferences;
+    private AdmobRecyclerAdapterWrapper adAdapterWrapper;
+    private PinCodeRecyclerViewAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_result);
+
         toolbar = (Toolbar) findViewById(R.id.my_awesome_toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
         setSupportActionBar(toolbar);
+
+        MobileAds.initialize(getApplicationContext(), getString(R.string.admob_small_native_ad_id));
+
         sharedPreferences = getSharedPreferences("AllCodeFinder", Context.MODE_PRIVATE);
 
 
@@ -126,7 +128,6 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
 
         new AsyncTask<Void, Void, Void>() {
             LinearLayout progressLayout = (LinearLayout) findViewById(R.id.progressLayout);
-            PinCodeRecyclerViewAdapter adapter;
 
             @Override
             protected void onPreExecute() {
@@ -156,10 +157,11 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
                     adapter = new PinCodeRecyclerViewAdapter(DisplayPinCodeResultActivity.this, c,
                             sharedPreferences,
                             showFav);
+                    initNativeAd();
                     if (getSupportActionBar() != null) {
                         getSupportActionBar().setTitle(c.getCount() + " Results found");
                     }
-                    mRecyclerView.setAdapter(adapter);
+                    mRecyclerView.setAdapter(adAdapterWrapper);
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {
                     LinearLayout noMatchingLayout =
@@ -190,5 +192,17 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
         }
         super.onDestroy();
         overridePendingTransition(R.anim.slide_in_left, 0);
+    }
+
+    @SuppressWarnings("unchecked")
+    private void initNativeAd() {
+        String[] testDevicesIds = new String[]{AdRequest.DEVICE_ID_EMULATOR};
+        adAdapterWrapper = new AdmobRecyclerAdapterWrapper(this, testDevicesIds);
+        adAdapterWrapper.setContentAdsLayoutContext(new ContentAdLayoutContext(R.layout
+                .ad_content));
+        adAdapterWrapper.setAdapter((RecyclerView.Adapter)adapter);
+        adAdapterWrapper.setLimitOfAds(3);
+        adAdapterWrapper.setNoOfDataBetweenAds(10);
+        adAdapterWrapper.setFirstAdIndex(2);
     }
 }
