@@ -20,9 +20,8 @@ import android.widget.LinearLayout;
 
 import com.ashoksm.pinfinder.adapter.PinCodeRecyclerViewAdapter;
 import com.ashoksm.pinfinder.common.AppRater;
-import com.ashoksm.pinfinder.common.ContentAdLayoutContext;
 import com.ashoksm.pinfinder.sqlite.PinSQLiteHelper;
-import com.clockbyte.admobadapter.AdmobRecyclerAdapterWrapper;
+import com.clockbyte.admobadapter.expressads.AdmobExpressRecyclerAdapterWrapper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -42,7 +41,7 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
     private Toolbar toolbar;
     private boolean showFav;
     private SharedPreferences sharedPreferences;
-    private AdmobRecyclerAdapterWrapper adAdapterWrapper;
+    private AdmobExpressRecyclerAdapterWrapper adAdapterWrapper;
     private PinCodeRecyclerViewAdapter adapter;
 
     @Override
@@ -197,9 +196,7 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
     @SuppressWarnings("unchecked")
     private void initNativeAd() {
         String[] testDevicesIds = new String[]{AdRequest.DEVICE_ID_EMULATOR};
-        adAdapterWrapper = new AdmobRecyclerAdapterWrapper(this, testDevicesIds);
-        adAdapterWrapper.setContentAdsLayoutContext(new ContentAdLayoutContext(R.layout
-                .ad_content));
+        adAdapterWrapper = new AdmobExpressRecyclerAdapterWrapper(this, testDevicesIds);
         adAdapterWrapper.setAdapter((RecyclerView.Adapter)adapter);
         adAdapterWrapper.setLimitOfAds(3);
         adAdapterWrapper.setNoOfDataBetweenAds(10);

@@ -22,12 +22,11 @@ import com.ashoksm.pinfinder.adapter.IFSCRecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.PinCodeRecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.RTORecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.STDRecyclerViewAdapter;
-import com.ashoksm.pinfinder.common.ContentAdLayoutContext;
 import com.ashoksm.pinfinder.sqlite.BankSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.PinSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.STDSQLiteHelper;
-import com.clockbyte.admobadapter.AdmobRecyclerAdapterWrapper;
+import com.clockbyte.admobadapter.expressads.AdmobExpressRecyclerAdapterWrapper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.MobileAds;
@@ -44,7 +43,7 @@ public class AllCodeDetailFragment extends Fragment {
     private String branchName;
     private String cityName;
     private Cursor c;
-    private AdmobRecyclerAdapterWrapper adAdapterWrapper;
+    private AdmobExpressRecyclerAdapterWrapper adAdapterWrapper;
     private CursorRecyclerViewAdapter adapter;
 
     /**
@@ -163,9 +162,7 @@ public class AllCodeDetailFragment extends Fragment {
     @SuppressWarnings("unchecked")
     private void initNativeAd() {
         String[] testDevicesIds = new String[]{AdRequest.DEVICE_ID_EMULATOR};
-        adAdapterWrapper = new AdmobRecyclerAdapterWrapper(getActivity(), testDevicesIds);
-        adAdapterWrapper.setContentAdsLayoutContext(new ContentAdLayoutContext(R.layout
-                .ad_content));
+        adAdapterWrapper = new AdmobExpressRecyclerAdapterWrapper(getActivity(), testDevicesIds);
         adAdapterWrapper.setAdapter(adapter);
         adAdapterWrapper.setLimitOfAds(3);
         adAdapterWrapper.setNoOfDataBetweenAds(10);

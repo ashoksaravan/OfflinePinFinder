@@ -23,14 +23,14 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
 import com.ashoksm.pinfinder.adapter.CursorRecyclerViewAdapter;
-import com.ashoksm.pinfinder.common.ContentAdLayoutContext;
 import com.ashoksm.pinfinder.common.activities.ActivityBase;
 import com.ashoksm.pinfinder.sqlite.BankSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.PinSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.STDSQLiteHelper;
-import com.clockbyte.admobadapter.AdmobRecyclerAdapterWrapper;
+import com.clockbyte.admobadapter.expressads.AdmobExpressRecyclerAdapterWrapper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -52,7 +52,7 @@ public class AllCodeListActivity extends ActivityBase {
     private int menuId;
     private String queryTxt;
     private InterstitialAd mInterstitialAd;
-    private AdmobRecyclerAdapterWrapper adAdapterWrapper;
+    private AdmobExpressRecyclerAdapterWrapper adAdapterWrapper;
     private AllCodeViewAdapter adapter;
 
     @Override
@@ -380,9 +380,7 @@ public class AllCodeListActivity extends ActivityBase {
     @SuppressWarnings("unchecked")
     private void initNativeAd() {
         String[] testDevicesIds = new String[]{AdRequest.DEVICE_ID_EMULATOR};
-        adAdapterWrapper = new AdmobRecyclerAdapterWrapper(this, testDevicesIds);
-        adAdapterWrapper.setContentAdsLayoutContext(new ContentAdLayoutContext(R.layout
-                .ad_content));
+        adAdapterWrapper = new AdmobExpressRecyclerAdapterWrapper(this, testDevicesIds);
         adAdapterWrapper.setAdapter((RecyclerView.Adapter)adapter);
         adAdapterWrapper.setLimitOfAds(3);
         adAdapterWrapper.setNoOfDataBetweenAds(10);
