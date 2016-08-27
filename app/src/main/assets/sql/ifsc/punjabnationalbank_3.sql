@@ -1,0 +1,11 @@
+INSERT INTO bank_branch_t VALUES('Cirlce Office Bilaspur', 'Bilaspur', 'Plot NO A 48 Ring Road NO 2 Gaurav Path Bilaspur Chattisgarh 495001', '0', 'WAITING', 'PUNB0999400', 16422);
+INSERT INTO bank_branch_t VALUES('Circle Office Bokaro', 'Bokaro', 'PNB Bokaro Circle Bokaro Steel City SEC IV, Bokaro Jharkhand 827001', '2147483647', 'WAITING', 'PUNB0999500', 17181);
+INSERT INTO bank_branch_t VALUES('Hadapsar', 'Hadapsar', 'Shop NO 37 40 Plot NO 58 Solapur Road Hadapsar Pune Maharashtra 411028', '2147483647', 'WAITING', 'PUNB0999600', 17809);
+INSERT INTO bank_branch_t VALUES('Undri', 'Pune', 'PNB Ward NO 3 Undri Near Hanuman Mandir Chowk TAL Haveli Dist Pune Maharashtra 411060', '2147483647', 'WAITING', 'PUNB0999700', 17809);
+INSERT INTO bank_branch_t VALUES('Gagaul', 'Meerut', 'Vill Gagaul Tehsil Meerut District Meerut Uttarpradesh 245206', '2147483647', 'WAITING', 'PUNB0999800', 19248);
+INSERT INTO bank_branch_t VALUES('Sfms Test Server', 'NEW Delhi', 'Head Office IT Division, 5, Sansad Marg, NEW Delhi', '0', 'NA', 'PUNB0999900', 16470);
+INSERT INTO bank_branch_t VALUES('Neft Nodal Branch HGB RRB', 'Rohtak', 'Neft Centralized Processing Centre Haryana Gramin Bank, Near Bajrang Bhawan, Delhi Road Rohtak, 124001', '0', 'NA', 'PUNB0HGB001', 16489);
+INSERT INTO bank_branch_t VALUES('Neft Nodal Branch Hpgb RRB', 'Mandi', 'Neft Centralized Processing Centre FOR Himachal Gramin Bank, Jawaharnagar Mandi PIN 175001', '0', 'NA', 'PUNB0HPGB04', 17021);
+INSERT INTO bank_branch_t VALUES('Neft Nodal Branch Mbgb RRB', 'Patna', 'Neft Centralized Processing Cntr Madhya Bihar Gramin Bank, Meena Plaza South OF Museaum, Patna 800001', '0', 'NA', 'PUNB0MBGB06', 19739);
+INSERT INTO bank_branch_t VALUES('Neft Nodal Branch PGB RRB', 'Kapurthala', 'Neft Centralized Processing Centre FOR Punjab Gramin Bank, Jalandhar Roadkapurthalapin 144601', '0', 'NA', 'PUNB0PGB003', 18178);
+INSERT INTO bank_branch_t VALUES('Neft Nodal Branch Supgb RRB', 'Meerut', 'Neft Processing Centre FOR Sarva U P Gramin Bank, C 39 Upon 5 Jagriti Vihar Meerut 250004 U P', '0', 'NA', 'PUNB0SUPGB5', 19248);
