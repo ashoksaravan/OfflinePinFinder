@@ -18,6 +18,7 @@ package com.ashoksm.pinfinder;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -85,10 +86,17 @@ public class MainActivity extends ActivityBase {
         mNavigationView.setNavigationItemSelectedListener(
                 new NavigationView.OnNavigationItemSelectedListener() {
                     @Override
-                    public boolean onNavigationItemSelected(MenuItem menuItem) {
+                    public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                         mDrawerLayout.closeDrawers();
-                        Intent intent =
-                                new Intent(getApplicationContext(), AllCodeListActivity.class);
+                        Intent intent;
+                        if (menuItem.getItemId() != R.id.nav_near_by_post_office && menuItem
+                                .getItemId() != R.id.nav_near_by_bank && menuItem.getItemId() !=
+                                R.id.nav_near_by_atm) {
+                            intent = new Intent(getApplicationContext(), AllCodeListActivity.class);
+                        } else {
+                            intent =
+                                    new Intent(getApplicationContext(), NearByPlacesActivity.class);
+                        }
                         intent.putExtra(EXTRA_MENU_ID, menuItem.getItemId());
                         startActivity(intent);
                         overridePendingTransition(R.anim.slide_out_left, 0);

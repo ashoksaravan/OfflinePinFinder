@@ -34105,13 +34105,17 @@
     <string name="bank_name">Bank Name</string>
     <string name="add_to_fav">Add Favorite</string>
     <string name="del_fav">Remove</string>
-    <string name="search_by_pincode">Pincode</string>
-    <string name="search_by_office_name">Office Name</string>
-    <string name="search_by_ifsc">IFSC</string>
-    <string name="search_by_micr">MICR</string>
-    <string name="search_by_branch_name">Branch Name</string>
-    <string name="search_by_city_name">City Name</string>
-    <string name="search_by_std_code">STD Code</string>
-    <string name="search_by_rto_code">RTO Code</string>
+    <string name="search_by_pincode">Search by Pincode</string>
+    <string name="search_by_office_name">Search by Office Name</string>
+    <string name="search_by_ifsc">Search by IFSC</string>
+    <string name="search_by_micr">Search by MICR</string>
+    <string name="search_by_branch_name">Search by Branch Name</string>
+    <string name="search_by_city_name">Search by City Name</string>
+    <string name="search_by_std_code">Search by STD Code</string>
+    <string name="search_by_rto_code">Search by RTO Code</string>
+    <string name="near_by_post_offices">Near by Post Office</string>
+    <string name="near_by_bank">Near by Banks\'s</string>
+    <string name="near_by_atm">Near by ATM\'s</string>
+    <string name="google_api_key">AIzaSyCxNecUelDuC_uZkU4TygbhCiFiBrRBIEc</string>
 
 </resources>

@@ -13,6 +13,10 @@
                 android:id="@+id/nav_office"
                 android:icon="@drawable/ic_floating_pincode"
                 android:title="@string/search_by_office_name"/>
+            <item
+                android:id="@+id/nav_near_by_post_office"
+                android:icon="@drawable/ic_floating_pincode"
+                android:title="@string/near_by_post_offices"/>
         </menu>
     </item>
 
@@ -32,6 +36,14 @@
                 android:id="@+id/nav_branch_name"
                 android:icon="@drawable/ic_floating_ifsc"
                 android:title="@string/search_by_branch_name"/>
+            <item
+                android:id="@+id/nav_near_by_bank"
+                android:icon="@drawable/ic_floating_ifsc"
+                android:title="@string/near_by_bank"/>
+            <item
+                android:id="@+id/nav_near_by_atm"
+                android:icon="@drawable/ic_floating_ifsc"
+                android:title="@string/near_by_atm"/>
         </menu>
     </item>
 
