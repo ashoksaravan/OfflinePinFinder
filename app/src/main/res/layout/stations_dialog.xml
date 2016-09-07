@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_weight="1"
+    android:background="@color/icons"
+    android:divider="?android:attr/dividerHorizontal"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:showDividers="middle">
+
+    <TextView
+        android:id="@+id/train_name"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight=".3"
+        android:text="@string/train_name"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/arrives"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight=".15"
+        android:gravity="center"
+        android:text="@string/arrives"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/departs"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight=".15"
+        android:gravity="center"
+        android:text="@string/departs"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/stop_time"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight=".15"
+        android:gravity="center"
+        android:text="@string/stop_time"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/days"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight=".25"
+        android:gravity="center"
+        android:text="@string/days"
+        android:textSize="14sp"/>
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/progress_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ProgressBar
+                android:id="@+id/pbHeaderProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/loading"
+                android:textColor="@color/accent"
+                android:textIsSelectable="false"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:visibility="gone">
+
+            <AutoCompleteTextView
+                android:id="@+id/station"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/station_code_name"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:textColor="@color/accent"
+                android:textCursorDrawable="@drawable/cursor_drawable"/>
+
+            <AutoCompleteTextView
+                android:id="@+id/stations_state"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/state"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:textColor="@color/accent"
+                android:textCursorDrawable="@drawable/cursor_drawable"/>
+
+            <AutoCompleteTextView
+                android:id="@+id/stations_city"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/city"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:textColor="@color/accent"
+                android:textCursorDrawable="@drawable/cursor_drawable"/>
+
+            <Button
+                android:id="@+id/station_search"
+                android:layout_width="100dp"
+                android:layout_height="36dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_selector"
+                android:elevation="5dp"
+                android:text="@string/button_search"
+                android:textColor="@color/icons"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

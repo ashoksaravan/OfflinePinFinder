@@ -37,12 +37,12 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
     public static final String RTO_CODE = "rto_code";
     public static final String ID = "_id";
 
-    // post_office_t table create statement
+    // table create statements
     private static final String CREATE_STATE_TABLE = "CREATE TABLE " + TABLE_STATE + "(" + STATE
             + " INTEGER, " + STATE_NAME + " TEXT, PRIMARY KEY (" + STATE + "))";
 
     private static final String CREATE_STD_TABLE = "CREATE TABLE " + TABLE_RTO + "(" + STATE
-            + " INTEGER, " + RTO_CODE + " TEXT, " + CITY + " TEXT, " + "FOREIGN KEY(" + STATE
+            + " INTEGER, " + RTO_CODE + " TEXT, " + CITY + " TEXT, FOREIGN KEY(" + STATE
             + ") REFERENCES " + TABLE_STATE + "(" + STATE + "), PRIMARY KEY (" + STATE + "," + CITY
             + "," + RTO_CODE + "))";
 

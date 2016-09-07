@@ -16,7 +16,7 @@ public class TabFragment extends Fragment {
 
     public static TabLayout tabLayout;
     public static ViewPager viewPager;
-    public static int int_items = 4;
+    public static int int_items = 6;
 
     @Nullable
     @Override
@@ -30,7 +30,7 @@ public class TabFragment extends Fragment {
         viewPager = (ViewPager) x.findViewById(R.id.viewpager);
 
         /**
-         *Set an Apater for the View Pager
+         *Set an Adapter for the View Pager
          */
         viewPager.setAdapter(new MyAdapter(getChildFragmentManager()));
 
@@ -69,8 +69,12 @@ public class TabFragment extends Fragment {
                 case 1:
                     return new IFSCFragment();
                 case 2:
-                    return new STDFragment();
+                    return new StationsFragment();
                 case 3:
+                    return new TrainsFragment();
+                case 4:
+                    return new STDFragment();
+                case 5:
                     return new RTOFragment();
             }
             return null;
@@ -96,8 +100,12 @@ public class TabFragment extends Fragment {
                 case 1:
                     return "IFSC";
                 case 2:
-                    return "STD";
+                    return "Stations";
                 case 3:
+                    return "Trains";
+                case 4:
+                    return "STD";
+                case 5:
                     return "RTO";
             }
             return null;

@@ -1,9 +1,8 @@
 package com.ashoksm.pinfinder;
 
+
 import android.annotation.TargetApi;
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
@@ -17,10 +16,10 @@ import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.ashoksm.pinfinder.adapter.RTORecyclerViewAdapter;
+import com.ashoksm.pinfinder.adapter.StationRecyclerViewAdapter;
 import com.ashoksm.pinfinder.common.AppRater;
 import com.ashoksm.pinfinder.common.activities.ActivityBase;
-import com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper;
+import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
 import com.clockbyte.admobadapter.expressads.AdmobExpressRecyclerAdapterWrapper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
 import com.google.android.gms.ads.AdListener;
@@ -30,26 +29,27 @@ import com.google.android.gms.ads.AdView;
 
 import java.util.Locale;
 
-public class DisplayRTOResultActivity extends ActivityBase {
+public class DisplayStationResultActivity extends ActivityBase {
 
-    private RTOSQLiteHelper sqLiteHelper;
+    private RailWaysSQLiteHelper sqLiteHelper;
     private Cursor c;
+    private String station;
     private String stateName;
     private String cityName;
-    private String action;
-    private boolean showFav;
-    private SharedPreferences sharedPref;
     private AdmobExpressRecyclerAdapterWrapper adAdapterWrapper;
-    private RTORecyclerViewAdapter adapter;
+    private StationRecyclerViewAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_result);
         final Toolbar toolbar = (Toolbar) findViewById(R.id.my_awesome_toolbar);
-        toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
         setSupportActionBar(toolbar);
-        sharedPref = getSharedPreferences("AllCodeFinder", Context.MODE_PRIVATE);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        // load ad
+        loadAd();
 
         final RecyclerView mRecyclerView = (RecyclerView) findViewById(R.id.gridView);
 
@@ -78,20 +78,56 @@ public class DisplayRTOResultActivity extends ActivityBase {
         Locale l = Locale.getDefault();
         // Get the message from the intent
         final Intent intent = getIntent();
-        showFav = intent.getBooleanExtra(MainActivity.EXTRA_SHOW_FAV, false);
-        if (!showFav) {
-            stateName = intent.getStringExtra(RTOFragment.EXTRA_STATE).toLowerCase(l)
-                    .replaceAll(" ", "").replaceAll("'", "''");
-            action = intent.getStringExtra(IFSCFragment.EXTRA_ACTION);
-            if (action.length() == 0) {
-                cityName = intent.getStringExtra(RTOFragment.EXTRA_CITY).toLowerCase(l)
-                        .replaceAll(" ", "").replaceAll("'", "''");
-            } else {
-                cityName = intent.getStringExtra(RTOFragment.EXTRA_CITY).toLowerCase(l)
-                        .replaceAll("'", "''");
+        stateName = intent.getStringExtra(StationsFragment.EXTRA_STATE).toLowerCase(l)
+                .replaceAll(" ", "").replaceAll("'", "''");
+        cityName = intent.getStringExtra(StationsFragment.EXTRA_CITY).toLowerCase(l)
+                .replaceAll(" ", "").replaceAll("'", "''");
+        station = intent.getStringExtra(StationsFragment.EXTRA_STATION).toLowerCase(l)
+                .replaceAll(" ", "").replaceAll("'", "''");
+
+        new AsyncTask<Void, Void, Void>() {
+            LinearLayout progressLayout = (LinearLayout) findViewById(R.id.progressLayout);
+
+            @Override
+            protected void onPreExecute() {
+                // SHOW THE SPINNER WHILE LOADING FEEDS
+                progressLayout.setVisibility(View.VISIBLE);
             }
-        }
-        // load ad
+
+            @Override
+            protected Void doInBackground(Void... params) {
+                try {
+                    sqLiteHelper = new RailWaysSQLiteHelper(DisplayStationResultActivity.this);
+                    c = sqLiteHelper.findStations(station, stateName, cityName);
+                } catch (Exception ex) {
+                    Log.e("DisplayStationActivity", ex.getMessage(), ex);
+                }
+                return null;
+            }
+
+            @Override
+            protected void onPostExecute(Void result) {
+                if (c != null && c.getCount() > 0) {
+                    if (getSupportActionBar() != null) {
+                        getSupportActionBar().setTitle(c.getCount() + " Results found");
+                    }
+                    adapter = new StationRecyclerViewAdapter(DisplayStationResultActivity.this, c);
+                    initNativeAd();
+                    mRecyclerView.setAdapter(adAdapterWrapper);
+                    mRecyclerView.setVisibility(View.VISIBLE);
+                } else {
+                    LinearLayout noMatchingLt = (LinearLayout) findViewById(R.id.noMatchingLayout);
+                    noMatchingLt.setVisibility(View.VISIBLE);
+                }
+                // HIDE THE SPINNER AFTER LOADING FEEDS
+                progressLayout.setVisibility(View.GONE);
+            }
+
+        }.execute();
+        AppRater.appLaunched(this);
+    }
+
+    private void loadAd() {
         final LinearLayout adParent = (LinearLayout) this.findViewById(R.id.adLayout);
         final AdView ad = new AdView(this);
         ad.setAdUnitId(getString(R.string.admob_id));
@@ -116,52 +152,6 @@ public class DisplayRTOResultActivity extends ActivityBase {
         adParent.addView(ad);
         AdRequest adRequest = new AdRequest.Builder().build();
         ad.loadAd(adRequest);
-
-        new AsyncTask<Void, Void, Void>() {
-            LinearLayout progressLayout = (LinearLayout) findViewById(R.id.progressLayout);
-
-            @Override
-            protected void onPreExecute() {
-                // SHOW THE SPINNER WHILE LOADING FEEDS
-                progressLayout.setVisibility(View.VISIBLE);
-            }
-
-            @Override
-            protected Void doInBackground(Void... params) {
-                try {
-                    sqLiteHelper = new RTOSQLiteHelper(DisplayRTOResultActivity.this);
-                    if (showFav) {
-                        c = sqLiteHelper.findFavRTOCodes(sharedPref.getString("RTOCodes", null));
-                    } else {
-                        c = sqLiteHelper.findRTOCodes(stateName, cityName, action);
-                    }
-                } catch (Exception ex) {
-                    Log.e("DisplayRTOResult", ex.getMessage(), ex);
-                }
-                return null;
-            }
-
-            @Override
-            protected void onPostExecute(Void result) {
-                if (c != null && c.getCount() > 0) {
-                    if (getSupportActionBar() != null) {
-                        getSupportActionBar().setTitle(c.getCount() + " Results found");
-                    }
-                    adapter = new RTORecyclerViewAdapter(DisplayRTOResultActivity.this, c,
-                            sharedPref, showFav);
-                    initNativeAd();
-                    mRecyclerView.setAdapter(adAdapterWrapper);
-                    mRecyclerView.setVisibility(View.VISIBLE);
-                } else {
-                    LinearLayout noMatchingLt = (LinearLayout) findViewById(R.id.noMatchingLayout);
-                    noMatchingLt.setVisibility(View.VISIBLE);
-                }
-                // HIDE THE SPINNER AFTER LOADING FEEDS
-                progressLayout.setVisibility(View.GONE);
-            }
-
-        }.execute();
-        AppRater.appLaunched(this);
     }
 
     @Override
@@ -186,9 +176,10 @@ public class DisplayRTOResultActivity extends ActivityBase {
     private void initNativeAd() {
         String[] testDevicesIds = new String[]{AdRequest.DEVICE_ID_EMULATOR};
         adAdapterWrapper = new AdmobExpressRecyclerAdapterWrapper(this, testDevicesIds);
-        adAdapterWrapper.setAdapter((RecyclerView.Adapter)adapter);
+        adAdapterWrapper.setAdapter((RecyclerView.Adapter) adapter);
         adAdapterWrapper.setLimitOfAds(3);
         adAdapterWrapper.setNoOfDataBetweenAds(10);
         adAdapterWrapper.setFirstAdIndex(2);
     }
+
 }

@@ -116,23 +116,15 @@ public class NearByPlacesActivity extends ActivityBase
                 type = "atm";
             }
 
-            StringBuilder sb = new StringBuilder(
-                    "https://maps.googleapis.com/maps/api/place/nearbysearch/json?");
-            sb.append("location=");
-            sb.append(mLatitude);
-            sb.append(",");
-            sb.append(mLongitude);
-            sb.append("&radius=5000");
-            sb.append("&types=");
-            sb.append(type);
-            sb.append("&sensor=true");
-            sb.append("&key=").append(getString(R.string.google_api_key));
+            String sb = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location="
+                    + mLatitude + "," + mLongitude + "&radius=5000&types=" + type +
+                    "&sensor=true&key=" + getString(R.string.google_api_key);
 
             // Creating a new non-ui thread task to download json data
             PlacesTask placesTask = new PlacesTask();
 
             // Invokes the "doInBackground()" method of the class PlaceTask
-            placesTask.execute(sb.toString());
+            placesTask.execute(sb);
         }
     }
 
@@ -169,7 +161,7 @@ public class NearByPlacesActivity extends ActivityBase
             br.close();
 
         } catch (Exception e) {
-            Log.e(this.getLocalClassName(), e.toString());
+            Log.e(this.getLocalClassName(), e.getLocalizedMessage(), e);
         } finally {
             if (iStream != null) {
                 iStream.close();
@@ -204,6 +196,7 @@ public class NearByPlacesActivity extends ActivityBase
         map.setBuildingsEnabled(true);
         map.getUiSettings().setZoomControlsEnabled(true);
         mGoogleMap = map;
+        mGoogleMap.animateCamera(CameraUpdateFactory.zoomTo(12));
     }
 
     /**
@@ -258,7 +251,7 @@ public class NearByPlacesActivity extends ActivityBase
                 places = placeJsonParser.parse(jObject);
 
             } catch (Exception e) {
-                Log.d("Exception", e.toString());
+                Log.e(this.getClass().getSimpleName(), e.getLocalizedMessage(), e);
             }
             return places;
         }
@@ -270,13 +263,10 @@ public class NearByPlacesActivity extends ActivityBase
             // Clears all the existing markers
             mGoogleMap.clear();
 
-            for (int i = 0; i < list.size(); i++) {
+            for (HashMap<String, String> hmPlace : list) {
 
                 // Creating a marker
                 MarkerOptions markerOptions = new MarkerOptions();
-
-                // Getting a place from the places list
-                HashMap<String, String> hmPlace = list.get(i);
 
                 // Getting latitude of the place
                 double lat = Double.parseDouble(hmPlace.get("lat"));
@@ -313,22 +303,18 @@ public class NearByPlacesActivity extends ActivityBase
 
         if (mGoogleMap != null) {
             mGoogleMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
-            mGoogleMap.animateCamera(CameraUpdateFactory.zoomTo(12));
         }
     }
 
     @Override
     public void onProviderDisabled(String provider) {
-        // TODO Auto-generated method stub
     }
 
     @Override
     public void onProviderEnabled(String provider) {
-        // TODO Auto-generated method stub
     }
 
     @Override
     public void onStatusChanged(String provider, int status, Bundle extras) {
-        // TODO Auto-generated method stub
     }
 }

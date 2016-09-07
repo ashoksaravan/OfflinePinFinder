@@ -34156,13 +34156,25 @@
     <string name="search_by_office_name">Search by Office Name</string>
     <string name="search_by_ifsc">Search by IFSC</string>
     <string name="search_by_micr">Search by MICR</string>
-    <string name="search_by_branch_name">Search by Branch Name</string>
-    <string name="search_by_city_name">Search by City Name</string>
+    <string name="search_by_branch_name">Search by Branch</string>
+    <string name="search_by_city_name">Search by City</string>
     <string name="search_by_std_code">Search by STD Code</string>
     <string name="search_by_rto_code">Search by RTO Code</string>
     <string name="near_by_post_offices">Near by Post Office</string>
     <string name="near_by_bank">Near by Banks\'s</string>
     <string name="near_by_atm">Near by ATM\'s</string>
     <string name="google_api_key">AIzaSyCxNecUelDuC_uZkU4TygbhCiFiBrRBIEc</string>
+    <string name="station_code_name">Station Code/Name</string>
+    <string name="start">Starts</string>
+    <string name="ends">Ends</string>
+    <string name="train_number_name">Train number/name</string>
+    <string name="station_code">Station Code</string>
+    <string name="station_name">Station Name</string>
+    <string name="trains_passing_via">Trains Passing Via</string>
+    <string name="train_name">Train name</string>
+    <string name="days">Days</string>
+    <string name="stop_time">Stop Time</string>
+    <string name="departs">Departs</string>
+    <string name="arrives">Arrives</string>
 
 </resources>
