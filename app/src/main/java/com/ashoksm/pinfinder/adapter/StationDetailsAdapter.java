@@ -84,7 +84,7 @@ public class StationDetailsAdapter
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.stations_dialog, parent, false);
+                .inflate(R.layout.stations_details_grid, parent, false);
         if (viewType == TYPE_ITEM) {
             return new ViewHolder(itemView);
         } else if (viewType == TYPE_HEADER) {
