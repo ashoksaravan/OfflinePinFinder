@@ -91,7 +91,8 @@ public class MainActivity extends ActivityBase {
                         Intent intent;
                         if (menuItem.getItemId() != R.id.nav_near_by_post_office && menuItem
                                 .getItemId() != R.id.nav_near_by_bank && menuItem.getItemId() !=
-                                R.id.nav_near_by_atm) {
+                                R.id.nav_near_by_atm && menuItem.getItemId() != R.id
+                                .nav_near_by_railway_station) {
                             intent = new Intent(getApplicationContext(), AllCodeListActivity.class);
                         } else {
                             intent =

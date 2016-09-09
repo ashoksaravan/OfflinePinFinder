@@ -114,6 +114,8 @@ public class NearByPlacesActivity extends ActivityBase
                 type = "bank";
             } else if (menuId == R.id.nav_near_by_atm) {
                 type = "atm";
+            } else if (menuId == R.id.nav_near_by_railway_station) {
+                type = "train_station";
             }
 
             String sb = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location="

@@ -13,23 +13,6 @@ import java.io.InputStreamReader;
 
 public class RailWaysSQLiteHelper extends SQLiteOpenHelper {
 
-    // Activity
-    private Activity context;
-
-    // Logcat tag
-    private static final String CLASS_NAME = RTOSQLiteHelper.class.getName();
-
-    // Database Version
-    private static final int DATABASE_VERSION = 3;
-
-    // Database Name
-    private static final String DATABASE_NAME = "ashoksm.railways";
-
-    // Table Names
-    private static final String TABLE_STATIONS = "stations_t";
-    private static final String TABLE_TRAINS = "trains_t";
-    private static final String TABLE_STATION_DETAIL = "station_detail_t";
-
     // Common column names
     public static final String ID = "_id";
     public static final String STATION_CODE = "station_code";
@@ -52,16 +35,23 @@ public class RailWaysSQLiteHelper extends SQLiteOpenHelper {
     public static final String FRI = "fri";
     public static final String SAT = "sat";
     public static final String SUN = "sun";
-
+    // Logcat tag
+    private static final String CLASS_NAME = RTOSQLiteHelper.class.getName();
+    // Database Version
+    private static final int DATABASE_VERSION = 3;
+    // Database Name
+    private static final String DATABASE_NAME = "ashoksm.railways";
+    // Table Names
+    private static final String TABLE_STATIONS = "stations_t";
+    private static final String TABLE_TRAINS = "trains_t";
+    private static final String TABLE_STATION_DETAIL = "station_detail_t";
     private static final String CREATE_STATIONS_TABLE = "CREATE TABLE " + TABLE_STATIONS + "("
             + STATION_CODE + " TEXT, " + STATION_NAME + " TEXT, " + LOCATION + " TEXT, "
             + TRAINS_PASSING_VIA + " INTEGER, " + STATE + " TEXT, " + CITY + " TEXT, PRIMARY KEY ("
             + STATION_CODE + "))";
-
     private static final String CREATE_TRAINS_TABLE = "CREATE TABLE " + TABLE_TRAINS + "("
             + TRAIN_NO + " INTEGER, " + TRAIN_NAME + " TEXT, " + STARTS + " TEXT, " + ENDS
             + " TEXT, " + DAYS + " TEXT, " + PANTRY + " TEXT, PRIMARY KEY (" + TRAIN_NO + "))";
-
     private static final String CREATE_STATION_DETAIL_TABLE = "CREATE TABLE " + TABLE_STATION_DETAIL
             + "(" + STATION_CODE + " TEXT, " + TRAIN_NO + " INTEGER, " + STARTS + " TEXT, " + ENDS
             + " TEXT, " + STOP_TIME + " TEXT, " + MON + " TEXT, " + TUE + " TEXT, " + WED
@@ -69,6 +59,8 @@ public class RailWaysSQLiteHelper extends SQLiteOpenHelper {
             + " TEXT, FOREIGN KEY(" + STATION_CODE + ") REFERENCES " + TABLE_STATIONS + "("
             + STATION_CODE + "), FOREIGN KEY(" + TRAIN_NO + ") REFERENCES " + TABLE_TRAINS + "("
             + TRAIN_NO + ") PRIMARY " + "KEY (" + STATION_CODE + ", " + TRAIN_NO + "))";
+    // Activity
+    private Activity context;
 
     public RailWaysSQLiteHelper(Activity contextIn) {
         super(contextIn, DATABASE_NAME, null, DATABASE_VERSION);
@@ -182,14 +174,20 @@ public class RailWaysSQLiteHelper extends SQLiteOpenHelper {
         return getCodes(query);
     }
 
-    public Cursor findStations(String station, String state, String city) {
+    public Cursor findStations(String station, String state, String city, String action) {
         SQLiteDatabase db = this.getReadableDatabase();
         String query = "SELECT " + STATION_CODE + " AS _id, " + STATION_NAME + ", " + LOCATION + ","
                 + TRAINS_PASSING_VIA + ", " + STATE + ", " + CITY + " FROM " + TABLE_STATIONS
                 + " WHERE LOWER(REPLACE(" + STATE + ",' ','')) LIKE '%" + state + "%'"
-                + " AND LOWER(REPLACE(" + CITY + ",' ','')) LIKE '%" + city + "%' "
-                + " AND (LOWER(REPLACE(" + STATION_CODE + ",' ','')) LIKE '%" + station + "%' "
-                + " OR LOWER(REPLACE(" + STATION_NAME + ",' ','')) LIKE '%" + station + "%') ";
+                + " AND LOWER(REPLACE(" + CITY + ",' ','')) LIKE '%" + city + "%' ";
+        if (action != null && action.trim().length() > 0) {
+            query = query + " AND (LOWER(" + STATION_CODE + ") = '" + station + "' OR LOWER("
+                    + STATION_NAME + ") = '" + station + "') ";
+        } else {
+            query = query + " AND (LOWER(REPLACE(" + STATION_CODE + ",' ','')) LIKE '%"
+                    + station + "%' OR LOWER(REPLACE(" + STATION_NAME + ",' ','')) LIKE '%"
+                    + station + "%') ";
+        }
         return db.rawQuery(query, null);
     }
 
@@ -212,7 +210,20 @@ public class RailWaysSQLiteHelper extends SQLiteOpenHelper {
                 + TABLE_STATION_DETAIL + " sd INNER JOIN " + TABLE_TRAINS + " t ON sd." + TRAIN_NO
                 + " = t." + TRAIN_NO + " WHERE " + STATION_CODE + " = '" + stationCode + "'"
                 + " ORDER BY order_by";
-        Log.e("Query", query);
+        return db.rawQuery(query, null);
+    }
+
+    public Cursor getStationCodes(String s) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        String query = "SELECT " + STATION_CODE + " AS _id FROM " + TABLE_STATIONS + " WHERE "
+                + "LOWER(REPLACE(" + STATION_CODE + ",' ','')) LIKE '%" + s + "%' ";
+        return db.rawQuery(query, null);
+    }
+
+    public Cursor getStationNames(String s) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        String query = "SELECT " + STATION_NAME + " AS _id FROM " + TABLE_STATIONS + " WHERE "
+                + "LOWER(REPLACE(" + STATION_NAME + ",' ','')) LIKE '%" + s + "%' ";
         return db.rawQuery(query, null);
     }
 }

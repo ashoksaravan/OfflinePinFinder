@@ -34170,5 +34170,9 @@
     <string name="stop_time">Stop Time</string>
     <string name="departs">Departs</string>
     <string name="arrives">Arrives</string>
+    <string name="railways">Railways</string>
+    <string name="search_by_station_code">Search by Station Code</string>
+    <string name="search_by_station_name">Search by Station Name</string>
+    <string name="near_by_railway_station">Near by Railway Station</string>
 
 </resources>

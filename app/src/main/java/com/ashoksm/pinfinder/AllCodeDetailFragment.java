@@ -22,9 +22,11 @@ import com.ashoksm.pinfinder.adapter.IFSCRecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.PinCodeRecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.RTORecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.STDRecyclerViewAdapter;
+import com.ashoksm.pinfinder.adapter.StationRecyclerViewAdapter;
 import com.ashoksm.pinfinder.sqlite.BankSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.PinSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper;
+import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.STDSQLiteHelper;
 import com.clockbyte.admobadapter.expressads.AdmobExpressRecyclerAdapterWrapper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
@@ -37,12 +39,14 @@ public class AllCodeDetailFragment extends Fragment {
     private BankSQLiteHelper bSQLiteHelper;
     private STDSQLiteHelper stdsqLiteHelper;
     private RTOSQLiteHelper rtosqLiteHelper;
+    private RailWaysSQLiteHelper railWaysSQLiteHelper;
     private SharedPreferences sharedPref;
     private String officeName;
     private String action;
     private String branchName;
     private String cityName;
     private Cursor c;
+    private String station;
     private AdmobExpressRecyclerAdapterWrapper adAdapterWrapper;
     private CursorRecyclerViewAdapter adapter;
 
@@ -92,6 +96,11 @@ public class AllCodeDetailFragment extends Fragment {
             }
         } else if ("STD".equalsIgnoreCase(action) || "RTO".equalsIgnoreCase(action)) {
             cityName = getArguments().getString(STDFragment.EXTRA_CITY);
+        } else if ("RAIL".equalsIgnoreCase(action)) {
+            String stn = getArguments().getString(StationsFragment.EXTRA_STATION);
+            if (stn != null) {
+                station = stn.replaceAll("'", "''").toLowerCase();
+            }
         } else {
             branchName = getArguments().getString(IFSCFragment.EXTRA_BRANCH);
         }
@@ -118,6 +127,9 @@ public class AllCodeDetailFragment extends Fragment {
                     } else if ("RTO".equalsIgnoreCase(action)) {
                         rtosqLiteHelper = new RTOSQLiteHelper(getActivity());
                         c = rtosqLiteHelper.findRTOCodes("", cityName.toLowerCase(), action);
+                    } else if ("RAIL".equalsIgnoreCase(action)) {
+                        railWaysSQLiteHelper = new RailWaysSQLiteHelper(getActivity());
+                        c = railWaysSQLiteHelper.findStations(station, "", "", action);
                     } else {
                         bSQLiteHelper = new BankSQLiteHelper(getActivity());
                         c = bSQLiteHelper.findIfscCodes("", "", "", branchName.toLowerCase(),
@@ -139,6 +151,8 @@ public class AllCodeDetailFragment extends Fragment {
                         adapter = new STDRecyclerViewAdapter(getActivity(), c, sharedPref, false);
                     } else if ("RTO".equalsIgnoreCase(action)) {
                         adapter = new RTORecyclerViewAdapter(getActivity(), c, sharedPref, false);
+                    } else if ("RAIL".equalsIgnoreCase(action)) {
+                        adapter = new StationRecyclerViewAdapter(getActivity(), c);
                     } else {
                         adapter = new IFSCRecyclerViewAdapter(getActivity(), c, "", sharedPref,
                                 false);

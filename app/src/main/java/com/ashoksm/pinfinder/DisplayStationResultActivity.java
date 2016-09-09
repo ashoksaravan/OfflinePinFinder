@@ -36,6 +36,7 @@ public class DisplayStationResultActivity extends ActivityBase {
     private String station;
     private String stateName;
     private String cityName;
+    private String action;
     private AdmobExpressRecyclerAdapterWrapper adAdapterWrapper;
     private StationRecyclerViewAdapter adapter;
 
@@ -46,7 +47,9 @@ public class DisplayStationResultActivity extends ActivityBase {
         final Toolbar toolbar = (Toolbar) findViewById(R.id.my_awesome_toolbar);
         setSupportActionBar(toolbar);
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        if(getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        }
 
         // load ad
         loadAd();
@@ -78,12 +81,17 @@ public class DisplayStationResultActivity extends ActivityBase {
         Locale l = Locale.getDefault();
         // Get the message from the intent
         final Intent intent = getIntent();
+        action = intent.getStringExtra(IFSCFragment.EXTRA_ACTION);
         stateName = intent.getStringExtra(StationsFragment.EXTRA_STATE).toLowerCase(l)
                 .replaceAll(" ", "").replaceAll("'", "''");
         cityName = intent.getStringExtra(StationsFragment.EXTRA_CITY).toLowerCase(l)
                 .replaceAll(" ", "").replaceAll("'", "''");
-        station = intent.getStringExtra(StationsFragment.EXTRA_STATION).toLowerCase(l)
-                .replaceAll(" ", "").replaceAll("'", "''");
+        if(action != null) {
+            station = intent.getStringExtra(StationsFragment.EXTRA_STATION).toLowerCase();
+        } else {
+            station = intent.getStringExtra(StationsFragment.EXTRA_STATION).toLowerCase(l)
+                    .replaceAll(" ", "").replaceAll("'", "''");
+        }
 
         new AsyncTask<Void, Void, Void>() {
             LinearLayout progressLayout = (LinearLayout) findViewById(R.id.progressLayout);
@@ -98,7 +106,7 @@ public class DisplayStationResultActivity extends ActivityBase {
             protected Void doInBackground(Void... params) {
                 try {
                     sqLiteHelper = new RailWaysSQLiteHelper(DisplayStationResultActivity.this);
-                    c = sqLiteHelper.findStations(station, stateName, cityName);
+                    c = sqLiteHelper.findStations(station, stateName, cityName, action);
                 } catch (Exception ex) {
                     Log.e("DisplayStationActivity", ex.getMessage(), ex);
                 }

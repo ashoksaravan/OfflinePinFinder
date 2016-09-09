@@ -29,6 +29,7 @@ import com.ashoksm.pinfinder.common.activities.ActivityBase;
 import com.ashoksm.pinfinder.sqlite.BankSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.PinSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper;
+import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.STDSQLiteHelper;
 import com.clockbyte.admobadapter.expressads.AdmobExpressRecyclerAdapterWrapper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
@@ -59,7 +60,7 @@ public class AllCodeListActivity extends ActivityBase {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_all_code_list);
-        if(isXLargeScreen(this)) {
+        if (isXLargeScreen(this)) {
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         }
 
@@ -67,6 +68,8 @@ public class AllCodeListActivity extends ActivityBase {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
         setSupportActionBar(toolbar);
+
+        loadAd();
 
         searchBar = (EditText) findViewById(R.id.search_bar);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -89,8 +92,6 @@ public class AllCodeListActivity extends ActivityBase {
             // activity should be in two-pane mode.
             mTwoPane = true;
         }
-
-        loadAd();
     }
 
     private void setupRecyclerView(@NonNull final RecyclerView recyclerView) {
@@ -100,6 +101,8 @@ public class AllCodeListActivity extends ActivityBase {
             BankSQLiteHelper branchHelper = new BankSQLiteHelper(AllCodeListActivity.this);
             STDSQLiteHelper stdsqLiteHelper = new STDSQLiteHelper(AllCodeListActivity.this);
             RTOSQLiteHelper rtosqLiteHelper = new RTOSQLiteHelper(AllCodeListActivity.this);
+            RailWaysSQLiteHelper railSQLiteHelper = new RailWaysSQLiteHelper(AllCodeListActivity
+                    .this);
 
             @Override
             protected void onPreExecute() {
@@ -109,24 +112,42 @@ public class AllCodeListActivity extends ActivityBase {
 
             @Override
             protected Void doInBackground(Void... voids) {
-                if (menuId == R.id.nav_pincode) {
-                    adapter = new AllCodeViewAdapter(sqLiteHelper.getAllPinCodes(""));
-                } else if (menuId == R.id.nav_office) {
-                    adapter = new AllCodeViewAdapter(sqLiteHelper.getAllOfficeNames(""));
-                } else if (menuId == R.id.nav_ifsc) {
-                    adapter = new AllCodeViewAdapter(branchHelper.getIFSCCodes(""));
-                } else if (menuId == R.id.nav_micr) {
-                    adapter = new AllCodeViewAdapter(branchHelper.getMICRCodes(""));
-                } else if (menuId == R.id.nav_branch_name) {
-                    adapter = new AllCodeViewAdapter(branchHelper.getBranchNames(""));
-                } else if (menuId == R.id.nav_std_city) {
-                    adapter = new AllCodeViewAdapter(stdsqLiteHelper.getAllCityNames(""));
-                } else if (menuId == R.id.nav_std_code) {
-                    adapter = new AllCodeViewAdapter(stdsqLiteHelper.getAllSTDCodes(""));
-                } else if (menuId == R.id.nav_rto_code) {
-                    adapter = new AllCodeViewAdapter(rtosqLiteHelper.getAllRTOCodes(""));
-                } else if (menuId == R.id.nav_rto_city) {
-                    adapter = new AllCodeViewAdapter(rtosqLiteHelper.getAllCityNames(""));
+                switch (menuId) {
+                    case R.id.nav_pincode:
+                        adapter = new AllCodeViewAdapter(sqLiteHelper.getAllPinCodes(""));
+                        break;
+                    case R.id.nav_office:
+                        adapter = new AllCodeViewAdapter(sqLiteHelper.getAllOfficeNames(""));
+                        break;
+                    case R.id.nav_ifsc:
+                        adapter = new AllCodeViewAdapter(branchHelper.getIFSCCodes(""));
+                        break;
+                    case R.id.nav_micr:
+                        adapter = new AllCodeViewAdapter(branchHelper.getMICRCodes(""));
+                        break;
+                    case R.id.nav_branch_name:
+                        adapter = new AllCodeViewAdapter(branchHelper.getBranchNames(""));
+                        break;
+                    case R.id.nav_std_city:
+                        adapter = new AllCodeViewAdapter(stdsqLiteHelper.getAllCityNames(""));
+                        break;
+                    case R.id.nav_std_code:
+                        adapter = new AllCodeViewAdapter(stdsqLiteHelper.getAllSTDCodes(""));
+                        break;
+                    case R.id.nav_rto_code:
+                        adapter = new AllCodeViewAdapter(rtosqLiteHelper.getAllRTOCodes(""));
+                        break;
+                    case R.id.nav_rto_city:
+                        adapter = new AllCodeViewAdapter(rtosqLiteHelper.getAllCityNames(""));
+                        break;
+                    case R.id.nav_station_code:
+                        adapter = new AllCodeViewAdapter(railSQLiteHelper.getStationCodes(""));
+                        break;
+                    case R.id.nav_station_name:
+                        adapter = new AllCodeViewAdapter(railSQLiteHelper.getStationNames(""));
+                        break;
+                    default:
+                        break;
                 }
                 return null;
             }
@@ -147,24 +168,42 @@ public class AllCodeListActivity extends ActivityBase {
                     @Override
                     public void afterTextChanged(Editable s) {
                         queryTxt = s.toString();
-                        if (menuId == R.id.nav_pincode) {
-                            adapter.changeCursor(sqLiteHelper.getAllPinCodes(queryTxt));
-                        } else if (menuId == R.id.nav_office) {
-                            adapter.changeCursor(sqLiteHelper.getAllOfficeNames(queryTxt));
-                        } else if (menuId == R.id.nav_ifsc) {
-                            adapter.changeCursor(branchHelper.getIFSCCodes(queryTxt));
-                        } else if (menuId == R.id.nav_micr) {
-                            adapter.changeCursor(branchHelper.getMICRCodes(queryTxt));
-                        } else if (menuId == R.id.nav_branch_name) {
-                            adapter.changeCursor(branchHelper.getBranchNames(queryTxt));
-                        } else if (menuId == R.id.nav_std_city) {
-                            adapter.changeCursor(stdsqLiteHelper.getAllCityNames(queryTxt));
-                        } else if (menuId == R.id.nav_std_code) {
-                            adapter.changeCursor(stdsqLiteHelper.getAllSTDCodes(queryTxt));
-                        } else if (menuId == R.id.nav_rto_city) {
-                            adapter.changeCursor(rtosqLiteHelper.getAllCityNames(queryTxt));
-                        } else if (menuId == R.id.nav_rto_code) {
-                            adapter.changeCursor(rtosqLiteHelper.getAllRTOCodes(queryTxt));
+                        switch (menuId) {
+                            case R.id.nav_pincode:
+                                adapter.changeCursor(sqLiteHelper.getAllPinCodes(queryTxt));
+                                break;
+                            case R.id.nav_office:
+                                adapter.changeCursor(sqLiteHelper.getAllOfficeNames(queryTxt));
+                                break;
+                            case R.id.nav_ifsc:
+                                adapter.changeCursor(branchHelper.getIFSCCodes(queryTxt));
+                                break;
+                            case R.id.nav_micr:
+                                adapter.changeCursor(branchHelper.getMICRCodes(queryTxt));
+                                break;
+                            case R.id.nav_branch_name:
+                                adapter.changeCursor(branchHelper.getBranchNames(queryTxt));
+                                break;
+                            case R.id.nav_std_city:
+                                adapter.changeCursor(stdsqLiteHelper.getAllCityNames(queryTxt));
+                                break;
+                            case R.id.nav_std_code:
+                                adapter.changeCursor(stdsqLiteHelper.getAllSTDCodes(queryTxt));
+                                break;
+                            case R.id.nav_rto_code:
+                                adapter.changeCursor(rtosqLiteHelper.getAllCityNames(queryTxt));
+                                break;
+                            case R.id.nav_rto_city:
+                                adapter.changeCursor(rtosqLiteHelper.getAllRTOCodes(queryTxt));
+                                break;
+                            case R.id.nav_station_code:
+                                adapter.changeCursor(railSQLiteHelper.getStationCodes(queryTxt));
+                                break;
+                            case R.id.nav_station_name:
+                                adapter.changeCursor(railSQLiteHelper.getStationNames(queryTxt));
+                                break;
+                            default:
+                                break;
                         }
                     }
                 });
@@ -251,6 +290,12 @@ public class AllCodeListActivity extends ActivityBase {
                 intent.putExtra(RTOFragment.EXTRA_STATE, "");
                 intent.putExtra(IFSCFragment.EXTRA_ACTION, "RTO");
                 intent.putExtra(RTOFragment.EXTRA_CITY, name);
+            } else if(menuId == R.id.nav_station_code || menuId == R.id.nav_station_name) {
+                intent = new Intent(getApplicationContext(), DisplayStationResultActivity.class);
+                intent.putExtra(StationsFragment.EXTRA_STATE, "");
+                intent.putExtra(StationsFragment.EXTRA_CITY, "");
+                intent.putExtra(IFSCFragment.EXTRA_ACTION, "RAIL");
+                intent.putExtra(StationsFragment.EXTRA_STATION, name);
             }
             if (intent != null) {
                 intent.putExtra(MainActivity.EXTRA_SHOW_FAV, false);
@@ -280,6 +325,9 @@ public class AllCodeListActivity extends ActivityBase {
             } else if (menuId == R.id.nav_rto_city || menuId == R.id.nav_rto_code) {
                 arguments.putString(IFSCFragment.EXTRA_ACTION, "RTO");
                 arguments.putString(STDFragment.EXTRA_CITY, name);
+            } else if(menuId == R.id.nav_station_code || menuId == R.id.nav_station_name) {
+                arguments.putString(IFSCFragment.EXTRA_ACTION, "RAIL");
+                arguments.putString(StationsFragment.EXTRA_STATION, name);
             }
             AllCodeDetailFragment fragment = new AllCodeDetailFragment();
             fragment.setArguments(arguments);
@@ -381,7 +429,7 @@ public class AllCodeListActivity extends ActivityBase {
     private void initNativeAd() {
         String[] testDevicesIds = new String[]{AdRequest.DEVICE_ID_EMULATOR};
         adAdapterWrapper = new AdmobExpressRecyclerAdapterWrapper(this, testDevicesIds);
-        adAdapterWrapper.setAdapter((RecyclerView.Adapter)adapter);
+        adAdapterWrapper.setAdapter((RecyclerView.Adapter) adapter);
         adAdapterWrapper.setLimitOfAds(3);
         adAdapterWrapper.setNoOfDataBetweenAds(10);
         adAdapterWrapper.setFirstAdIndex(2);
