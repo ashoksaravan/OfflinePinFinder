@@ -199,17 +199,21 @@ public class RailWaysSQLiteHelper extends SQLiteOpenHelper {
         }
     }
 
-    public Cursor getStationDetails(String stationCode) {
+    public Cursor getStationDetails(String stationCode, boolean xLargeScreen) {
         SQLiteDatabase db = this.getReadableDatabase();
-        String query = "SELECT 0 AS order_by, 'Train Name(Train No)' AS _id, 'Arrives' AS starts, "
-                + "'Departs' AS ends, 'Stop Time' AS stop_time, 'y' AS mon, 'y' AS tue, 'y' AS "
-                + "wed, 'y' AS thu, 'y' AS fri, 'y' AS sat, 'y' AS sun UNION SELECT 1 AS order_by,"
-                + TRAIN_NAME + " || '(' || t." + TRAIN_NO + " || ')'" + " AS _id, sd." + STARTS
-                + ", " + "sd." + ENDS + ", " + "sd." + STOP_TIME + ", " + MON + ", " + TUE + ", "
-                + WED + ", " + THU + ", " + FRI + ", " + SAT + ", " + SUN + " FROM "
-                + TABLE_STATION_DETAIL + " sd INNER JOIN " + TABLE_TRAINS + " t ON sd." + TRAIN_NO
-                + " = t." + TRAIN_NO + " WHERE " + STATION_CODE + " = '" + stationCode + "'"
-                + " ORDER BY order_by";
+        String query = "";
+        if (xLargeScreen) {
+            query = "SELECT 0 AS order_by, 'Train Name(Train No)' AS _id, 'Arrives' AS starts, "
+                    + "'Departs' AS ends, 'Stop Time' AS stop_time, 'y' AS mon, 'y' AS tue, 'y' AS "
+                    + "wed, 'y' AS thu, 'y' AS fri, 'y' AS sat, 'y' AS sun UNION ";
+        }
+        query = query + "SELECT 1 AS order_by," + TRAIN_NAME + " || '(' || t." + TRAIN_NO
+                + " || ')'" + " AS _id, sd." + STARTS + ", " + "sd." + ENDS + ", " + "sd."
+                + STOP_TIME + ", " + MON + ", " + TUE + ", " + WED + ", " + THU + ", " + FRI + ", "
+                + SAT + ", " + SUN + " FROM " + TABLE_STATION_DETAIL + " sd INNER JOIN "
+                + TABLE_TRAINS + " t ON sd." + TRAIN_NO + " = t." + TRAIN_NO + " WHERE "
+                + STATION_CODE + " = '" + stationCode + "' ";
+        query = query + (xLargeScreen ? "ORDER BY order_by" : "ORDER BY " + TRAIN_NAME);
         return db.rawQuery(query, null);
     }
 

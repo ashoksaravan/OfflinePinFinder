@@ -15,8 +15,11 @@ import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
 public class StationDetailsAdapter
         extends CursorRecyclerViewAdapter<RecyclerView.ViewHolder> {
 
-    public StationDetailsAdapter(Cursor cursor) {
+    private boolean largeScreen;
+
+    public StationDetailsAdapter(Cursor cursor, boolean xLargeScreen) {
         super(cursor);
+        largeScreen = xLargeScreen;
     }
 
     private static final int TYPE_HEADER = 0;
@@ -33,8 +36,12 @@ public class StationDetailsAdapter
                     .setText(cursor.getString(cursor.getColumnIndex(RailWaysSQLiteHelper.STARTS)));
             holder.departs
                     .setText(cursor.getString(cursor.getColumnIndex(RailWaysSQLiteHelper.ENDS)));
-            holder.stopTime.setText(cursor.getString(cursor.getColumnIndex
-                    (RailWaysSQLiteHelper.STOP_TIME)));
+            String stopTime =
+                    cursor.getString(cursor.getColumnIndex(RailWaysSQLiteHelper.STOP_TIME));
+            if (stopTime != null && stopTime.trim().length() == 0) {
+                stopTime = "N/A";
+            }
+            holder.stopTime.setText(stopTime);
             StringBuilder sb = new StringBuilder();
             if ("Y".equalsIgnoreCase(cursor.getString(cursor.getColumnIndex
                     (RailWaysSQLiteHelper.MON)))) {
@@ -88,7 +95,11 @@ public class StationDetailsAdapter
         if (viewType == TYPE_ITEM) {
             return new ViewHolder(itemView);
         } else if (viewType == TYPE_HEADER) {
-            return new ViewHeaderHolder(itemView);
+            if (largeScreen) {
+                return new ViewHeaderHolder(itemView);
+            } else {
+                return new ViewHolder(itemView);
+            }
         }
         return null;
     }
@@ -142,5 +153,4 @@ public class StationDetailsAdapter
     private boolean isPositionHeader(int position) {
         return position == 0;
     }
-
 }

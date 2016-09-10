@@ -1,6 +1,8 @@
 package com.ashoksm.pinfinder;
 
 import android.annotation.TargetApi;
+import android.content.Context;
+import android.content.res.Configuration;
 import android.database.Cursor;
 import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
@@ -50,7 +52,13 @@ public class StationDetailsActivity extends AppCompatActivity {
         mRecyclerView.setHasFixedSize(true);
 
         // set item decorator
-        Drawable dividerDrawable = ContextCompat.getDrawable(this, R.drawable.item_divider);
+        Drawable dividerDrawable;
+        final boolean xLargeScreen = isXLargeScreen(this);
+        if(xLargeScreen) {
+            dividerDrawable = ContextCompat.getDrawable(this, R.drawable.item_divider);
+        } else {
+            dividerDrawable = ContextCompat.getDrawable(this, R.drawable.item_divider_big);
+        }
         mRecyclerView.addItemDecoration(new DividerItemDecoration(dividerDrawable));
 
         // use a linear layout manager
@@ -84,7 +92,7 @@ public class StationDetailsActivity extends AppCompatActivity {
             protected Void doInBackground(Void... params) {
                 try {
                     sqLiteHelper = new RailWaysSQLiteHelper(StationDetailsActivity.this);
-                    c = sqLiteHelper.getStationDetails(stationName);
+                    c = sqLiteHelper.getStationDetails(stationName, xLargeScreen);
                 } catch (Exception ex) {
                     Log.e("StationDetailsActivity", ex.getMessage(), ex);
                 }
@@ -97,7 +105,7 @@ public class StationDetailsActivity extends AppCompatActivity {
                     if (getSupportActionBar() != null) {
                         getSupportActionBar().setTitle(stationName);
                     }
-                    adapter = new StationDetailsAdapter(c);
+                    adapter = new StationDetailsAdapter(c, xLargeScreen);
                     mRecyclerView.setAdapter(adapter);
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {
@@ -166,5 +174,10 @@ public class StationDetailsActivity extends AppCompatActivity {
                 return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private boolean isXLargeScreen(Context context) {
+        return (context.getResources().getConfiguration().screenLayout & Configuration
+                .SCREENLAYOUT_SIZE_MASK) >= Configuration.SCREENLAYOUT_SIZE_XLARGE;
     }
 }
