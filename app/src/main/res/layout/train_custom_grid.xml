@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:background="@color/icons"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/train_no_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:text="@string/train_no"
+            android:textColor="@color/accent"
+            android:textIsSelectable="false"/>
+
+        <TextView
+            android:id="@+id/train_no"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".55"
+            android:text="@string/NA"
+            android:textColor="@color/secondary_text"
+            android:textIsSelectable="true"/>
+
+        <ImageButton
+            android:id="@+id/options"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".05"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/options"
+            android:scaleType="fitEnd"
+            android:src="@drawable/button_bg"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/train_name_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:text="@string/train_name"
+            android:textColor="@color/accent"
+            android:textIsSelectable="false"/>
+
+        <TextView
+            android:id="@+id/train_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".6"
+            android:autoLink="all"
+            android:clickable="true"
+            android:textColor="@color/accent"
+            android:textIsSelectable="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/start_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:text="@string/start"
+            android:textColor="@color/accent"
+            android:textIsSelectable="false"/>
+
+        <TextView
+            android:id="@+id/starts"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".6"
+            android:textColor="@color/secondary_text"
+            android:textIsSelectable="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ends_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:text="@string/ends"
+            android:textColor="@color/accent"
+            android:textIsSelectable="false"/>
+
+        <TextView
+            android:id="@+id/ends"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".6"
+            android:textColor="@color/secondary_text"
+            android:textIsSelectable="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/days_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:text="@string/days"
+            android:textColor="@color/accent"
+            android:textIsSelectable="false"/>
+
+        <TextView
+            android:id="@+id/days"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".6"
+            android:textColor="@color/secondary_text"
+            android:textIsSelectable="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pantry_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:text="@string/pantry"
+            android:textColor="@color/accent"
+            android:textIsSelectable="false"/>
+
+        <TextView
+            android:id="@+id/pantry"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".6"
+            android:textColor="@color/secondary_text"
+            android:textIsSelectable="true"/>
+    </LinearLayout>
+</LinearLayout>

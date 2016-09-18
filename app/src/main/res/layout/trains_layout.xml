@@ -6,43 +6,96 @@
     android:fillViewport="true">
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:orientation="vertical"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp">
+        android:orientation="vertical">
 
-        <AutoCompleteTextView
-            android:id="@+id/start"
+        <LinearLayout
+            android:id="@+id/progress_layout"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:hint="@string/start"
-            android:imeOptions="actionNext"
-            android:singleLine="true"
-            android:textColor="@color/accent"
-            android:textCursorDrawable="@drawable/cursor_drawable"/>
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
 
-        <AutoCompleteTextView
-            android:id="@+id/train"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:hint="@string/train_number_name"
-            android:imeOptions="actionSearch"
-            android:singleLine="true"
-            android:textColor="@color/accent"
-            android:textCursorDrawable="@drawable/cursor_drawable"/>
+            <ProgressBar
+                android:id="@+id/pbHeaderProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
 
-        <Button
-            android:id="@+id/train_search"
-            android:layout_width="100dp"
-            android:layout_height="36dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/button_selector"
-            android:elevation="5dp"
-            android:text="@string/button_search"
-            android:textColor="@color/icons"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/loading"
+                android:textColor="@color/accent"
+                android:textIsSelectable="false"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:visibility="gone">
+
+            <Switch
+                android:id="@+id/train_switch"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/search_by_stations"/>
+
+            <AutoCompleteTextView
+                android:id="@+id/train_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/train_number_name"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:textColor="@color/accent"
+                android:textCursorDrawable="@drawable/cursor_drawable"/>
+
+            <AutoCompleteTextView
+                android:id="@+id/starts"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/start"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:textColor="@color/accent"
+                android:textCursorDrawable="@drawable/cursor_drawable"
+                android:visibility="gone"/>
+
+            <AutoCompleteTextView
+                android:id="@+id/ends"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/ends"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:textColor="@color/accent"
+                android:textCursorDrawable="@drawable/cursor_drawable"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/train_search"
+                android:layout_width="100dp"
+                android:layout_height="36dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_selector"
+                android:elevation="5dp"
+                android:text="@string/button_search"
+                android:textColor="@color/icons"/>
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>

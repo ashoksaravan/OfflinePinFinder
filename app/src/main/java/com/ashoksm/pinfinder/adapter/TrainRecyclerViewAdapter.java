@@ -1,0 +1,175 @@
+package com.ashoksm.pinfinder.adapter;
+
+import android.content.Context;
+import android.content.Intent;
+import android.database.Cursor;
+import android.support.v7.widget.PopupMenu;
+import android.support.v7.widget.PopupMenu.OnMenuItemClickListener;
+import android.support.v7.widget.RecyclerView;
+import android.text.SpannableString;
+import android.text.style.UnderlineSpan;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageButton;
+import android.widget.TextView;
+
+import com.ashoksm.pinfinder.R;
+import com.ashoksm.pinfinder.StationDetailsActivity;
+import com.ashoksm.pinfinder.StationsFragment;
+import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
+
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+
+public class TrainRecyclerViewAdapter
+        extends CursorRecyclerViewAdapter<TrainRecyclerViewAdapter.ViewHolder> {
+
+    private Context context;
+    private int lastPosition = -1;
+
+    public TrainRecyclerViewAdapter(Context context, Cursor cursor) {
+        super(cursor);
+        this.context = context;
+    }
+
+    @Override
+    public void onBindViewHolder(final ViewHolder holder, Cursor cursor, int position) {
+        holder.options.setTag(holder);
+
+        holder.options.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                PopupMenu menu = new PopupMenu(context, v);
+                menu.getMenuInflater().inflate(R.menu.options_menu, menu.getMenu());
+
+                Menu popupMenu = menu.getMenu();
+                popupMenu.findItem(R.id.addToFav).setVisible(false);
+                popupMenu.findItem(R.id.deleteFav).setVisible(false);
+                popupMenu.findItem(R.id.viewOnMap).setVisible(false);
+
+                try {
+                    Field[] fields = menu.getClass().getDeclaredFields();
+                    for (Field field : fields) {
+                        if ("mPopup".equals(field.getName())) {
+                            field.setAccessible(true);
+                            Object menuPopupHelper = field.get(menu);
+                            Class<?> classPopupHelper =
+                                    Class.forName(menuPopupHelper.getClass().getName());
+                            Method setForceIcons =
+                                    classPopupHelper.getMethod("setForceShowIcon", boolean.class);
+                            setForceIcons.invoke(menuPopupHelper, true);
+                            break;
+                        }
+                    }
+                } catch (Exception e) {
+                    Log.e(this.getClass().getName(), e.getMessage());
+                }
+
+                menu.show();
+                final ViewHolder viewHolder = (ViewHolder) v.getTag();
+                menu.setOnMenuItemClickListener(new OnMenuItemClickListener() {
+                    @Override
+                    public boolean onMenuItemClick(MenuItem item) {
+                        share(viewHolder);
+                        return false;
+                    }
+
+                });
+            }
+        });
+
+        holder.trainName.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, StationDetailsActivity.class);
+                intent.putExtra(StationsFragment.EXTRA_STATION,
+                        holder.trainNo.getText().toString());
+                context.startActivity(intent);
+            }
+        });
+
+        String pantry = cursor.getString(cursor.getColumnIndex(RailWaysSQLiteHelper.PANTRY));
+        if (pantry != null && pantry.trim().length() > 0) {
+            holder.pantry.setText(pantry);
+        } else {
+            holder.pantry.setText(context.getResources().getText(R.string.no));
+        }
+        holder.days.setText(cursor.getString(cursor.getColumnIndex(RailWaysSQLiteHelper.DAYS)));
+        holder.trainNo.setText(cursor.getString(cursor.getColumnIndex(RailWaysSQLiteHelper.ID)));
+        String trainName = cursor.getString(cursor.getColumnIndex(RailWaysSQLiteHelper.TRAIN_NAME));
+        SpannableString spanString = new SpannableString(trainName);
+        spanString.setSpan(new UnderlineSpan(), 0, spanString.length(), 0);
+        holder.trainName.setText(spanString);
+        holder.starts.setText(cursor.getString(cursor.getColumnIndex(RailWaysSQLiteHelper.STARTS)));
+        holder.ends.setText(cursor.getString(cursor.getColumnIndex(RailWaysSQLiteHelper.ENDS)));
+        setAnimation(holder.v, position);
+    }
+
+    private void share(ViewHolder vh) {
+        Intent sharingIntent = new Intent(Intent.ACTION_SEND);
+        sharingIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        sharingIntent.setType("text/plain");
+        String shareSubject = "Train Details";
+        String shareContent = "Train No : " + vh.trainNo.getText().toString() + "\n";
+        shareContent = shareContent + "Train Name : " + vh.trainName.getText().toString() + "\n";
+        shareContent = shareContent + "Starts : " + vh.starts.getText().toString() + "\n";
+        shareContent = shareContent + "Ends : " + vh.ends.getText().toString() + "\n";
+        shareContent = shareContent + "Days : " + vh.days.getText().toString() + "\n";
+        shareContent = shareContent + "Pantry : " + vh.pantry.getText().toString();
+        sharingIntent.putExtra(Intent.EXTRA_SUBJECT, shareSubject);
+        sharingIntent.putExtra(Intent.EXTRA_TEXT, shareContent);
+        context.startActivity(Intent.createChooser(sharingIntent,
+                context.getResources().getText(R.string.send_to)));
+    }
+
+    private void setAnimation(View viewToAnimate, int position) {
+        // If the bound view wasn't previously displayed on screen, it's
+        // animated
+        if (position > lastPosition) {
+            Animation animation = AnimationUtils.loadAnimation(context, R.anim.up_from_bottom);
+            viewToAnimate.startAnimation(animation);
+        }
+        lastPosition = position;
+    }
+
+    @Override
+    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View itemView = LayoutInflater.from(parent.getContext())
+                .inflate(R.layout.train_custom_grid, parent, false);
+        return new ViewHolder(itemView);
+    }
+
+    public static class ViewHolder extends RecyclerView.ViewHolder {
+
+        TextView trainNo;
+        TextView trainName;
+        TextView starts;
+        TextView ends;
+        ImageButton options;
+        TextView days;
+        TextView pantry;
+        View v;
+
+        public ViewHolder(View view) {
+            super(view);
+            options = (ImageButton) view.findViewById(R.id.options);
+            trainNo = (TextView) view.findViewById(R.id.train_no);
+            trainName = (TextView) view.findViewById(R.id.train_name);
+            starts = (TextView) view.findViewById(R.id.starts);
+            ends = (TextView) view.findViewById(R.id.ends);
+            days = (TextView) view.findViewById(R.id.days);
+            pantry = (TextView) view.findViewById(R.id.pantry);
+            v = view;
+        }
+
+    }
+
+}

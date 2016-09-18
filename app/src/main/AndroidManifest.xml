@@ -109,6 +109,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.ashoksm.pinfinder.DisplayStationResultActivity"/>
         </activity>
+        <activity android:name=".DisplayTrainResultActivity">
+        </activity>
     </application>
 
 </manifest>

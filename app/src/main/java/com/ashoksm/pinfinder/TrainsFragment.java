@@ -3,6 +3,7 @@ package com.ashoksm.pinfinder;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -15,9 +16,13 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.Switch;
 import android.widget.TextView;
 
+import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
@@ -26,27 +31,59 @@ public class TrainsFragment extends Fragment {
 
     private AutoCompleteTextView starts;
     private AutoCompleteTextView ends;
-    public final static String EXTRA_STATE = "com.ashoksm.offlinepinfinder.STATE";
-    public final static String EXTRA_CITY = "com.ashoksm.offlinepinfinder.CITY";
+    private AutoCompleteTextView trainName;
+    private Switch aSwitch;
+    public final static String EXTRA_STARTS = "com.ashoksm.offlinepinfinder.STARTS";
+    public final static String EXTRA_ENDS = "com.ashoksm.offlinepinfinder.ENDS";
+    public final static String EXTRA_TRAIN = "com.ashoksm.offlinepinfinder.TRAIN";
     private InterstitialAd mInterstitialAd;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.trains_layout, null);
-        starts = (AutoCompleteTextView) v.findViewById(R.id.start);
+        final View v = inflater.inflate(R.layout.trains_layout, null);
 
         mInterstitialAd = newInterstitialAd();
         loadInterstitial();
 
-        ArrayAdapter<CharSequence> stateAdapter =
-                ArrayAdapter.createFromResource(getActivity(), R.array.states_array,
-                        R.layout.spinner_dropdown_item);
-        // Apply the adapter to the spinner
-        starts.setAdapter(stateAdapter);
-        ends = (AutoCompleteTextView) v.findViewById(R.id.end);
+        starts = (AutoCompleteTextView) v.findViewById(R.id.starts);
+        ends = (AutoCompleteTextView) v.findViewById(R.id.ends);
+        trainName = (AutoCompleteTextView) v.findViewById(R.id.train_name);
         Button btnSubmit = (Button) v.findViewById(R.id.train_search);
+        aSwitch = (Switch) v.findViewById(R.id.train_switch);
+
+        new AsyncTask<Void, Void, Void>() {
+
+            LinearLayout progressLayout = (LinearLayout) v.findViewById(R.id.progress_layout);
+            LinearLayout contentLayout = (LinearLayout) v.findViewById(R.id.content_layout);
+            RailWaysSQLiteHelper sqLiteHelper = new RailWaysSQLiteHelper(getActivity());
+            String[] stationCodes;
+            String[] trainNos;
+
+            @Override
+            protected Void doInBackground(Void... voids) {
+                stationCodes = sqLiteHelper.getStationCodes();
+                trainNos = sqLiteHelper.getTrainNos();
+                return null;
+            }
+
+            @Override
+            protected void onPostExecute(Void aVoid) {
+                ArrayAdapter<String> startAdapter = new ArrayAdapter<>(getContext(),
+                        R.layout.spinner_dropdown_item, stationCodes);
+                ArrayAdapter<String> endAdapter = new ArrayAdapter<>(getContext(),
+                        R.layout.spinner_dropdown_item, stationCodes);
+                ArrayAdapter<String> trainAdapter = new ArrayAdapter<>(getContext(),
+                        R.layout.spinner_dropdown_item, trainNos);
+                starts.setAdapter(startAdapter);
+                ends.setAdapter(endAdapter);
+                trainName.setAdapter(trainAdapter);
+                progressLayout.setVisibility(View.GONE);
+                contentLayout.setVisibility(View.VISIBLE);
+            }
+        }.execute();
+
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -54,31 +91,65 @@ public class TrainsFragment extends Fragment {
             }
         });
 
-        starts.setOnEditorActionListener(new EditText.OnEditorActionListener() {
+        ends.setOnEditorActionListener(new EditText.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-                if (actionId == EditorInfo.IME_ACTION_SEARCH) {
-                    showInterstitial();
-                    return true;
-                }
-                return false;
+                return editorAction(actionId);
             }
         });
+
+        trainName.setOnEditorActionListener(new EditText.OnEditorActionListener() {
+            @Override
+            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+                return editorAction(actionId);
+            }
+        });
+
+        aSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(!b) {
+                    trainName.setVisibility(View.VISIBLE);
+                    starts.setVisibility(View.GONE);
+                    ends.setVisibility(View.GONE);
+                } else {
+                    trainName.setVisibility(View.GONE);
+                    starts.setVisibility(View.VISIBLE);
+                    ends.setVisibility(View.VISIBLE);
+                }
+            }
+        });
+
         return v;
+    }
+
+    private boolean editorAction(int actionId) {
+        if (actionId == EditorInfo.IME_ACTION_SEARCH) {
+            showInterstitial();
+            return true;
+        }
+        return false;
     }
 
     private void performSearch(Activity context) {
         // hide keyboard
         InputMethodManager inputMethodManager = (InputMethodManager) context
                 .getSystemService(Context.INPUT_METHOD_SERVICE);
-        if(getView() != null) {
+        if (getView() != null) {
             inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
                     InputMethodManager.HIDE_NOT_ALWAYS);
         }
 
-        Intent intent = new Intent(context, DisplayRTOResultActivity.class);
-        intent.putExtra(EXTRA_STATE, starts.getText().toString().trim());
-        intent.putExtra(EXTRA_CITY, ends.getText().toString().trim());
+        Intent intent = new Intent(context, DisplayTrainResultActivity.class);
+        if(aSwitch.isChecked()) {
+            intent.putExtra(EXTRA_STARTS, starts.getText().toString().trim());
+            intent.putExtra(EXTRA_ENDS, ends.getText().toString().trim());
+            intent.putExtra(EXTRA_TRAIN, "");
+        } else {
+            intent.putExtra(EXTRA_TRAIN, trainName.getText().toString().trim());
+            intent.putExtra(EXTRA_STARTS, "");
+            intent.putExtra(EXTRA_ENDS, "");
+        }
         intent.putExtra(IFSCFragment.EXTRA_ACTION, "");
         intent.putExtra(MainActivity.EXTRA_SHOW_FAV, false);
         context.startActivity(intent);

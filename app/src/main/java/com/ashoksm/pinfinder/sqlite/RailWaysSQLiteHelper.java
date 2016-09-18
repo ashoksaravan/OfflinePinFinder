@@ -35,16 +35,22 @@ public class RailWaysSQLiteHelper extends SQLiteOpenHelper {
     public static final String FRI = "fri";
     public static final String SAT = "sat";
     public static final String SUN = "sun";
+    public static final String STATION_NO = "station_no";
+    public static final String DISTANCE_TRAVELED = "distance_traveled";
+    public static final String ROUTE = "route";
+
     // Logcat tag
     private static final String CLASS_NAME = RTOSQLiteHelper.class.getName();
     // Database Version
-    private static final int DATABASE_VERSION = 3;
+    private static final int DATABASE_VERSION = 4;
     // Database Name
     private static final String DATABASE_NAME = "ashoksm.railways";
     // Table Names
     private static final String TABLE_STATIONS = "stations_t";
     private static final String TABLE_TRAINS = "trains_t";
     private static final String TABLE_STATION_DETAIL = "station_detail_t";
+    private static final String TABLE_TRAIN_DETAIL = "train_detail_t";
+    // Create Statement
     private static final String CREATE_STATIONS_TABLE = "CREATE TABLE " + TABLE_STATIONS + "("
             + STATION_CODE + " TEXT, " + STATION_NAME + " TEXT, " + LOCATION + " TEXT, "
             + TRAINS_PASSING_VIA + " INTEGER, " + STATE + " TEXT, " + CITY + " TEXT, PRIMARY KEY ("
@@ -59,6 +65,13 @@ public class RailWaysSQLiteHelper extends SQLiteOpenHelper {
             + " TEXT, FOREIGN KEY(" + STATION_CODE + ") REFERENCES " + TABLE_STATIONS + "("
             + STATION_CODE + "), FOREIGN KEY(" + TRAIN_NO + ") REFERENCES " + TABLE_TRAINS + "("
             + TRAIN_NO + ") PRIMARY " + "KEY (" + STATION_CODE + ", " + TRAIN_NO + "))";
+    private static final String CREATE_TRAIN_DETAIL_TABLE = "CREATE TABLE " + TABLE_TRAIN_DETAIL
+            + "(" + STATION_NO + " INTEGER, " + TRAIN_NO + " INTEGER, " + STATION_CODE + " TEXT, "
+            + STARTS + " TEXT, " + ENDS + " TEXT, " + STOP_TIME + " TEXT, " + DISTANCE_TRAVELED
+            + " TEXT, " + DAYS + " TEXT, " + ROUTE + " TEXT, " + " FOREIGN KEY(" + STATION_CODE
+            + ") REFERENCES " + TABLE_STATIONS + "(" + STATION_CODE + "), FOREIGN KEY(" + TRAIN_NO
+            + ") REFERENCES " + TABLE_TRAINS + "(" + TRAIN_NO + ") PRIMARY " + "KEY (" + STATION_NO
+            + ", " + STATION_CODE + ", " + TRAIN_NO + "))";
     // Activity
     private Activity context;
 
@@ -77,6 +90,9 @@ public class RailWaysSQLiteHelper extends SQLiteOpenHelper {
 
         Log.d(CLASS_NAME, CREATE_STATION_DETAIL_TABLE);
         db.execSQL(CREATE_STATION_DETAIL_TABLE);
+
+        Log.d(CLASS_NAME, CREATE_TRAIN_DETAIL_TABLE);
+        db.execSQL(CREATE_TRAIN_DETAIL_TABLE);
 
         String insertStmt;
         try {
@@ -121,6 +137,24 @@ public class RailWaysSQLiteHelper extends SQLiteOpenHelper {
                     insertReader.close();
                 }
             }
+
+            //insert station details
+            String[] trainDetails = context.getAssets().list("sql/railway");
+            for (String trainDetail : trainDetails) {
+                if (trainDetail.startsWith("traindetails")) {
+                    insertReader =
+                            new BufferedReader(new InputStreamReader(
+                                    context.getAssets().open("sql/railway/" + trainDetail)));
+                    while (insertReader.ready()) {
+                        insertStmt = insertReader.readLine();
+                        if (insertStmt != null) {
+                            db.execSQL(insertStmt);
+                        }
+                    }
+                    insertReader.close();
+                }
+            }
+
             db.setTransactionSuccessful();
         } catch (IOException e) {
             Log.e(CLASS_NAME, e.getMessage(), e);
@@ -132,6 +166,7 @@ public class RailWaysSQLiteHelper extends SQLiteOpenHelper {
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         // on upgrade drop older tables
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_TRAIN_DETAIL);
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_STATION_DETAIL);
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_STATIONS);
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_TRAINS);
@@ -143,6 +178,12 @@ public class RailWaysSQLiteHelper extends SQLiteOpenHelper {
     public String[] getStationCodes() {
         String query = "SELECT " + STATION_CODE + " || ' - ' || " + STATION_NAME + " AS _id FROM "
                 + TABLE_STATIONS;
+        return getCodes(query);
+    }
+
+    public String[] getTrainNos() {
+        String query = "SELECT " + TRAIN_NO + " || ' - ' || " + TRAIN_NAME + " AS _id FROM "
+                + TABLE_TRAINS;
         return getCodes(query);
     }
 
@@ -228,6 +269,23 @@ public class RailWaysSQLiteHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getReadableDatabase();
         String query = "SELECT " + STATION_NAME + " AS _id FROM " + TABLE_STATIONS + " WHERE "
                 + "LOWER(REPLACE(" + STATION_NAME + ",' ','')) LIKE '%" + s + "%' ";
+        return db.rawQuery(query, null);
+    }
+
+    public Cursor findTrainsByNoOrName(String trainNo) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        String query = "SELECT " + TRAIN_NO + " AS _id, " + TRAIN_NAME + ", " + STARTS + ", "
+                + ENDS + ", " + DAYS + ", " + PANTRY + " FROM " + TABLE_TRAINS;
+        if (trainNo.contains(" - ")) {
+            String[] params = trainNo.split(" - ");
+            query = query + " WHERE " + TRAIN_NO + " = " + params[0] + " AND " + TRAIN_NAME
+                    + " = '" + params[1] + "'";
+        } else if (trainNo.trim().length() > 0) {
+            query = query + " WHERE " + TRAIN_NO + " LIKE '%" + trainNo + "%' OR LOWER(REPLACE("
+                    + TRAIN_NAME + ",' ','')) LIKE '%" + trainNo.toLowerCase().replaceAll(" ", "")
+                    + "%'";
+        }
+        Log.e("QUERY", query);
         return db.rawQuery(query, null);
     }
 }

@@ -30,10 +30,10 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:recyclerview-v7:24.2.0'
-    compile 'com.android.support:appcompat-v7:24.2.0'
-    compile 'com.android.support:design:24.2.0'
-    compile 'com.android.support:support-v4:24.2.0'
+    compile 'com.android.support:recyclerview-v7:24.2.1'
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:design:24.2.1'
+    compile 'com.android.support:support-v4:24.2.1'
     compile 'com.google.android.gms:play-services-ads:9.4.0'
     compile 'com.github.clans:fab:1.6.2'
     compile 'com.bignerdranch.android:simple-item-decoration:1.0.0'

@@ -34174,5 +34174,10 @@
     <string name="search_by_station_code">Search by Station Code</string>
     <string name="search_by_station_name">Search by Station Name</string>
     <string name="near_by_railway_station">Near by Railway Station</string>
+    <string name="stations_passing_via">Stations passing via</string>
+    <string name="search_by_stations">Search by Stations</string>
+    <string name="train_no">Train Number</string>
+    <string name="pantry">Pantry</string>
+    <string name="no">No</string>
 
 </resources>
