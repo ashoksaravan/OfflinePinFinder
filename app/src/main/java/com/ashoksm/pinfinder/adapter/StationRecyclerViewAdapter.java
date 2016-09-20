@@ -134,9 +134,9 @@ public class StationRecyclerViewAdapter
         setAnimation(holder.v, position);
     }
 
-    private void openGMAP(ViewHolder viewHolder) {
-        String uri = "http://maps.google.com/maps?q=" +
-                viewHolder.city.getText().toString() + ", " + viewHolder.state.getText().toString();
+    private void openGMAP(ViewHolder h) {
+        String uri = "http://maps.google.com/maps?q=" + h.stationName.getText().toString()
+                + " train station";
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
         intent.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
         try {
@@ -146,22 +146,18 @@ public class StationRecyclerViewAdapter
         }
     }
 
-    private void share(ViewHolder viewHolder) {
+    private void share(ViewHolder h) {
         Intent sharingIntent = new Intent(Intent.ACTION_SEND);
         sharingIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         sharingIntent.setType("text/plain");
-        String shareSubject = "Station Code";
-        String shareContent =
-                "Station Code : " + viewHolder.stationCode.getText().toString() + "\n";
-        shareContent =
-                shareContent + "Station Name : " + viewHolder.stationName.getText().toString() +
-                        "\n";
-        shareContent =
-                shareContent + "Location : " + viewHolder.location.getText().toString() + "\n";
-        shareContent = shareContent + "Trains Passing Via : " +
-                viewHolder.trainsPassingVia.getText().toString() + "\n";
-        shareContent = shareContent + "State : " + viewHolder.state.getText().toString();
-        shareContent = shareContent + "City Name : " + viewHolder.city.getText().toString() + "\n";
+        String shareSubject = "Station Details";
+        String shareContent = "Station Code : " + h.stationCode.getText().toString() + "\n";
+        shareContent = shareContent + "Station Name : " + h.stationName.getText().toString() + "\n";
+        shareContent = shareContent + "Location : " + h.location.getText().toString() + "\n";
+        shareContent = shareContent + "Trains Passing Via : " + h.trainsPassingVia.getText()
+                .toString() + "\n";
+        shareContent = shareContent + "State : " + h.state.getText().toString();
+        shareContent = shareContent + "City Name : " + h.city.getText().toString() + "\n";
         sharingIntent.putExtra(Intent.EXTRA_SUBJECT, shareSubject);
         sharingIntent.putExtra(Intent.EXTRA_TEXT, shareContent);
         context.startActivity(Intent.createChooser(sharingIntent,

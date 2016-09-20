@@ -14,6 +14,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
 
@@ -183,6 +184,17 @@ public class DisplayRTOResultActivity extends ActivityBase {
         }
         super.onDestroy();
         overridePendingTransition(R.anim.slide_in_left, 0);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                super.onBackPressed();
+                overridePendingTransition(R.anim.slide_in_left, 0);
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     @SuppressWarnings("unchecked")

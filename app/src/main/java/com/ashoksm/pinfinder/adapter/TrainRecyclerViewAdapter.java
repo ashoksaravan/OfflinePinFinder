@@ -3,6 +3,7 @@ package com.ashoksm.pinfinder.adapter;
 import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
+import android.net.Uri;
 import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.PopupMenu.OnMenuItemClickListener;
 import android.support.v7.widget.RecyclerView;
@@ -19,6 +20,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.ashoksm.pinfinder.R;
 import com.ashoksm.pinfinder.RouteAndScheduleActivity;
@@ -53,7 +55,7 @@ public class TrainRecyclerViewAdapter
                 Menu popupMenu = menu.getMenu();
                 popupMenu.findItem(R.id.addToFav).setVisible(false);
                 popupMenu.findItem(R.id.deleteFav).setVisible(false);
-                popupMenu.findItem(R.id.viewOnMap).setVisible(false);
+                popupMenu.findItem(R.id.viewOnMap).setTitle("Navigate");
 
                 try {
                     Field[] fields = menu.getClass().getDeclaredFields();
@@ -78,7 +80,12 @@ public class TrainRecyclerViewAdapter
                 menu.setOnMenuItemClickListener(new OnMenuItemClickListener() {
                     @Override
                     public boolean onMenuItemClick(MenuItem item) {
-                        share(viewHolder);
+                        if (item.getTitle().toString()
+                                .equals(context.getResources().getString(R.string.share))) {
+                            share(viewHolder);
+                        } else {
+                            openGMAP(viewHolder);
+                        }
                         return false;
                     }
 
@@ -129,6 +136,18 @@ public class TrainRecyclerViewAdapter
         sharingIntent.putExtra(Intent.EXTRA_TEXT, shareContent);
         context.startActivity(Intent.createChooser(sharingIntent,
                 context.getResources().getText(R.string.send_to)));
+    }
+
+    private void openGMAP(ViewHolder h) {
+        String uri = "http://maps.google.com/maps?saddr=" + h.starts.getText().toString()
+                + " train station&daddr="+ h.ends.getText().toString() + " train station&dirflg=r";
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
+        intent.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
+        try {
+            context.startActivity(intent);
+        } catch (Exception e) {
+            Toast.makeText(context, R.string.maps_not_found, Toast.LENGTH_LONG).show();
+        }
     }
 
     private void setAnimation(View viewToAnimate, int position) {

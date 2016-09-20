@@ -53,7 +53,7 @@ public class AppRater {
     private static void showRateDialog(final Context mContext,
                                        final SharedPreferences.Editor editor) {
         final Dialog dialog = new Dialog(mContext);
-        dialog.setTitle("Rate " + APP_TITLE);
+        dialog.setTitle("Rate " + mContext.getResources().getString(R.string.app_name));
 
         LinearLayout ll = new LinearLayout(mContext);
         LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(
