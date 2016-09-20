@@ -2886,6 +2886,7 @@ INSERT INTO bank_branch_t VALUES('Bankipur', 'Singur', 'Mirzapur Bankipur, Singu
 INSERT INTO bank_branch_t VALUES('Gurgaon SEC Sixty Nine', 'Gurgaon', 'Spaze Plazo, SEC 69, Gurgaon, Haryana, 122001', '2147483647', 'NA', 'ANDB0003012', 729);
 INSERT INTO bank_branch_t VALUES('Jharapali', 'Bheden', 'Jharajpali, VI Thuapali, VIA Remuda, Bargarh, Odisha, 768103', '2147483647', '768011513', 'ANDB0003014', 856);
 INSERT INTO bank_branch_t VALUES('Haridwar Bypass Road', 'Dehradun', 'Vishnu Vihar, Haridwar Bypass Road, OPP Kanishk Hospital, Dehradun, Uttarakhand, 248001', '2147483647', '248011006', 'ANDB0003015', 1040);
+INSERT INTO bank_branch_t VALUES('Kutbi', 'Baghra', 'Khasra NO 477, ????pargana Baghra Tehsil Sadar, Muzaffarnagar, 251318', '2147483647', '251011052', 'ANDB0003017', 1027);
 INSERT INTO bank_branch_t VALUES('Billori', 'Kurandi', 'Mahila Prashikshan Kendra Bhavan, Billori, Kurandi, Jagdalpur, Bastar, Chhattisgarh - 494001', '2556487', '494011502', 'ANDB0003018', 691);
 INSERT INTO bank_branch_t VALUES('Bauxite Road Belgaum', 'Belgaum', 'Groud Floor, Ataide Plaza, CTS NO 851, Shahu Nagar, Kangrali Main Off, Bauxite Road, Belgaum, 590010', '2478892', '590011003', 'ANDB0003019', 768);
 INSERT INTO bank_branch_t VALUES('ZOO Narengi Road', 'Guwahati', 'H NO 357 A, 1ST Floor, Mother Teressa Road, ZOO Narengi Tiniali, Guwahati', '2147483647', '781011006', 'ANDB0003020', 654);
@@ -2894,6 +2895,7 @@ INSERT INTO bank_branch_t VALUES('Mahanadi Vihar', 'Cuttack', 'Plot NO 1337, Mah
 INSERT INTO bank_branch_t VALUES('Model Town Jalandhar', 'Jalandhar', '272, Model Town, Jalandhar, Punjab, 144001', '2273023', 'NA', 'ANDB0003023', 902);
 INSERT INTO bank_branch_t VALUES('Ranchi Ratu Road', 'Ranchi', 'Shop NO 129 130, Block 1, Aastha Regency, Hehal, Piska More, Ratu Road, Ranchi, Jharkhand, 834001', '2147483647', '834011005', 'ANDB0003024', 764);
 INSERT INTO bank_branch_t VALUES('Srinivasa Nagar Colony', 'Ramachandrapuram', 'HNO 7, BDL Housing Colony, Ramachandrapuram, Medak District, Telangana, 502032', '2147483647', '502011503', 'ANDB0003025', 985);
+INSERT INTO bank_branch_t VALUES('Chandanagar', 'Chandannagar', 'Arka Apartment, Boro Thana, GT Road, PO Chandannagar, Hooghly, West Bengal, 712136', '26850015', '700011043', 'ANDB0003026', 1054);
 INSERT INTO bank_branch_t VALUES('Bommakal', 'Karimnagar', '10 20 1, Chanakyapuri, Near Sripuram Colony, Bommakal Village, Karimnagar, Telangana, 505002', '2147483647', 'NA', 'ANDB0003027', 982);
 INSERT INTO bank_branch_t VALUES('Vijayapuri Colony Vanasthalipuram', 'Hyderabad', 'Plot NO 3, SY NO 228 229, Vijayapuri Colony, Vanasthalipuram, Hyderabad, 500070', '23467831', '500011216', 'ANDB0003028', 981);
 INSERT INTO bank_branch_t VALUES('??shatabdi Nagar', 'Meerut', 'BC 23, Sector 1, Shatabdi Nagar, Delhi Road, Meerut, Uttarpradesh, 250103', '2147483647', '251011007', 'ANDB0003029', 1025);

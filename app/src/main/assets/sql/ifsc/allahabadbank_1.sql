@@ -903,7 +903,7 @@ INSERT INTO bank_branch_t VALUES('Mahengi', 'Mahanghi', 'V&po-mehangi DISTT. Sah
 INSERT INTO bank_branch_t VALUES('Badram ??', 'Badram', 'Vill-po- Badram Dist-siwan', '244884', '841010701', 'ALLA0210935', 125);
 INSERT INTO bank_branch_t VALUES('Hasua ??', 'Hasuan', 'Vill-po-hasua Dist-siwan', '263737', '841010701', 'ALLA0210936', 125);
 INSERT INTO bank_branch_t VALUES('Motirajpur ??', 'Motirajpur', 'Vill-pi-matirajpur Dist-chhapra', '258681', '841010503', 'ALLA0210937', 122);
-INSERT INTO bank_branch_t VALUES('Nawada Bazar', 'Digwani', 'Vill AND P.O Nawada Bazar, Dist Banka, Bihar  813105', '0', '480010502', 'ALLA0210938', 277);
+INSERT INTO bank_branch_t VALUES('Nawada Bazar', 'Digwani', 'Vill AND P.O Nawada Bazar, Dist Banka, Bihar  813105', '0', '480010502', 'ALLA0210938', 92);
 INSERT INTO bank_branch_t VALUES('Baddopur', 'Pandarak', 'VILL. & P.O.-PANDARK (barh), Dist-patna, PIN -803221', '0', '800010504', 'ALLA0210939', 115);
 INSERT INTO bank_branch_t VALUES('Sivakasi', 'Sivakasi', '18 / 1A, Sattur Road, Near Olympic Theat, Sivakasi, Virudhunagar, Tamilnadu', '226984', '626010002', 'ALLA0210940', 455);
 INSERT INTO bank_branch_t VALUES('Kanhaiya Ghat Chowk', 'Kanhaia Ghat Chak', 'Vill & Po-kanhaiya Ghat Chowk, Via-parbatta, Dist-khagaria(bihar)', '257224', '851010502', 'ALLA0210941', 105);

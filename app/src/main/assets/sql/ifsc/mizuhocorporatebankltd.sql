@@ -1,6 +1,6 @@
-INSERT INTO bank_branch_t VALUES('Nariman Point', 'Mumbai', 'Level 17, Tower A, Peninsula Business Park, Senapati Bapat Marg, Lower Parel, Mumbai 400 013', '22886638', '400694002', 'MHCB0000002', 14218);
-INSERT INTO bank_branch_t VALUES('Rtgs-ho', 'Mumbai', 'Level 17, Tower A, Peninsula Business Park, Senapati Bapat Marg, Lower Parel, Mumbai 400 013', '22886638', '400694002', 'MHCB0000532', 14218);
-INSERT INTO bank_branch_t VALUES('Devanahalli', 'Bangalore', 'N.H. 7/4-207, B.B. Road, Vijayapura Cross', '30807304', '560017251', 'MHCB0000716', 14217);
-INSERT INTO bank_branch_t VALUES('Chennai', 'Chennai', 'Prestige Palladium Bayan, Greams Road, Chennai', '42986648', '600694002', 'MHCB0000717', 14219);
-INSERT INTO bank_branch_t VALUES('Ahmedabad Branch', 'Ahmedabad', 'Mizuho Bank, LTD., NO. 402, 4TH Floor, Commerce House-5, NR. Vodafone House, Prahaladnagar Corporate RD., Ahmedabad-380051', '49112047', '380694002', 'MHCB0000718', 14216);
-INSERT INTO bank_branch_t VALUES('NEW Delhi Branch', 'NEW Delhi', '4 Floor, East Tower Sood Tower, Barakhamba Road', '30410900', '100694002', 'MHCB0000793', 14215);
+INSERT INTO bank_branch_t VALUES('Nariman Point', 'Mumbai', 'Level 17, Tower A, Peninsula Business Park, Senapati Bapat Marg, Lower Parel, Mumbai 400 013', '22886638', '400694002', 'MHCB0000002', 14236);
+INSERT INTO bank_branch_t VALUES('Rtgs-ho', 'Mumbai', 'Level 17, Tower A, Peninsula Business Park, Senapati Bapat Marg, Lower Parel, Mumbai 400 013', '22886638', '400694002', 'MHCB0000532', 14236);
+INSERT INTO bank_branch_t VALUES('Devanahalli', 'Bangalore', 'N.H. 7/4-207, B.B. Road, Vijayapura Cross', '30807304', '560017251', 'MHCB0000716', 14235);
+INSERT INTO bank_branch_t VALUES('Chennai', 'Chennai', 'Prestige Palladium Bayan, Greams Road, Chennai', '42986648', '600694002', 'MHCB0000717', 14237);
+INSERT INTO bank_branch_t VALUES('Ahmedabad Branch', 'Ahmedabad', 'Mizuho Bank, LTD., NO. 402, 4TH Floor, Commerce House-5, NR. Vodafone House, Prahaladnagar Corporate RD., Ahmedabad-380051', '49112047', '380694002', 'MHCB0000718', 14234);
+INSERT INTO bank_branch_t VALUES('NEW Delhi Branch', 'NEW Delhi', '4 Floor, East Tower Sood Tower, Barakhamba Road', '30410900', '100694002', 'MHCB0000793', 14233);
