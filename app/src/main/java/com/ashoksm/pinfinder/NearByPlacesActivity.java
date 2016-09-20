@@ -170,7 +170,11 @@ public class NearByPlacesActivity extends ActivityBase
             Log.e(this.getLocalClassName(), e.getLocalizedMessage(), e);
         } finally {
             if (iStream != null) {
-                iStream.close();
+                try {
+                    iStream.close();
+                } catch (Exception e) {
+                    Log.e(this.getLocalClassName(), e.getLocalizedMessage(), e);
+                }
             }
             if (urlConnection != null) {
                 urlConnection.disconnect();

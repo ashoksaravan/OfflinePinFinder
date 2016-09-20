@@ -32,9 +32,9 @@ public class PincodeFragment extends Fragment {
     public final static String EXTRA_STATE = "com.ashoksm.offlinepinfinder.STATE";
     public final static String EXTRA_DISTRICT = "com.ashoksm.offlinepinfinder.DISTRICT";
     public final static String EXTRA_OFFICE = "com.ashoksm.offlinepinfinder.OFFICE";
-    private static AutoCompleteTextView states;
-    private static AutoCompleteTextView districts;
-    private static EditText text;
+    private AutoCompleteTextView states;
+    private AutoCompleteTextView districts;
+    private EditText text;
     private static InterstitialAd mInterstitialAd;
 
     @Nullable
@@ -116,8 +116,10 @@ public class PincodeFragment extends Fragment {
         // hide keyboard
         InputMethodManager inputMethodManager = (InputMethodManager) context
                 .getSystemService(Context.INPUT_METHOD_SERVICE);
-        inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
-                InputMethodManager.HIDE_NOT_ALWAYS);
+        if(getView() != null) {
+            inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
+                    InputMethodManager.HIDE_NOT_ALWAYS);
+        }
         String stateName = states.getText().toString();
         String districtName = districts.getText().toString();
         String officeName = text.getText().toString();

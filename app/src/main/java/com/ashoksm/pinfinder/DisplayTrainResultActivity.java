@@ -34,7 +34,6 @@ public class DisplayTrainResultActivity extends ActivityBase {
     private String trainNo;
     private String start;
     private String ends;
-    private String action;
     private AdmobExpressRecyclerAdapterWrapper adAdapterWrapper;
     private TrainRecyclerViewAdapter adapter;
 
@@ -80,7 +79,6 @@ public class DisplayTrainResultActivity extends ActivityBase {
         }
         // Get the message from the intent
         final Intent intent = getIntent();
-        action = intent.getStringExtra(IFSCFragment.EXTRA_ACTION);
         start = intent.getStringExtra(TrainsFragment.EXTRA_STARTS).replaceAll("'", "''");
         ends = intent.getStringExtra(TrainsFragment.EXTRA_ENDS).replaceAll("'", "''");
         trainNo = intent.getStringExtra(TrainsFragment.EXTRA_TRAIN).replaceAll("'", "''");

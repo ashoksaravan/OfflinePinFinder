@@ -14,8 +14,8 @@ import android.view.ViewGroup;
 
 public class TabFragment extends Fragment {
 
-    public static TabLayout tabLayout;
-    public static ViewPager viewPager;
+    public TabLayout tabLayout;
+    public ViewPager viewPager;
     public static int int_items = 6;
 
     @Nullable
@@ -53,7 +53,7 @@ public class TabFragment extends Fragment {
 
     class MyAdapter extends FragmentPagerAdapter {
 
-        public MyAdapter(FragmentManager fm) {
+        MyAdapter(FragmentManager fm) {
             super(fm);
         }
 

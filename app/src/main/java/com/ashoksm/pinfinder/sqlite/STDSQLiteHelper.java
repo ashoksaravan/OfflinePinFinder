@@ -34,7 +34,7 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
     public static final String CITY = "city";
     private static final String STATE = "state";
     public static final String STATE_NAME = "state_name";
-    public static final String STD_CODE = "std_code";
+    private static final String STD_CODE = "std_code";
     public static final String ID = "_id";
 
     // post_office_t table create statement

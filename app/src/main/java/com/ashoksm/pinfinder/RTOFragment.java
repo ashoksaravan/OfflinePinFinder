@@ -24,8 +24,8 @@ import com.google.android.gms.ads.InterstitialAd;
 
 public class RTOFragment extends Fragment {
 
-    private static AutoCompleteTextView stateNameTextView;
-    private static EditText cityName;
+    private AutoCompleteTextView stateNameTextView;
+    private EditText cityName;
     public final static String EXTRA_STATE = "com.ashoksm.offlinepinfinder.STATE";
     public final static String EXTRA_CITY = "com.ashoksm.offlinepinfinder.CITY";
     private static InterstitialAd mInterstitialAd;

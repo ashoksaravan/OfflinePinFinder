@@ -33,10 +33,10 @@ public class IFSCFragment extends Fragment {
     public final static String EXTRA_BANK = "com.ashoksm.offlinepinfinder.BANK";
     public final static String EXTRA_BRANCH = "com.ashoksm.offlinepinfinder.BRANCH";
     public final static String EXTRA_ACTION = "com.ashoksm.offlinepinfinder.ACTION";
-    private static AutoCompleteTextView bankNameSpinner;
-    private static AutoCompleteTextView stateNameTextView;
-    private static AutoCompleteTextView districtNameTextView;
-    private static EditText branchName;
+    private AutoCompleteTextView bankNameSpinner;
+    private AutoCompleteTextView stateNameTextView;
+    private AutoCompleteTextView districtNameTextView;
+    private EditText branchName;
     private static InterstitialAd mInterstitialAd;
 
     @Nullable
@@ -136,9 +136,10 @@ public class IFSCFragment extends Fragment {
         // hide keyboard
         InputMethodManager inputMethodManager = (InputMethodManager) context
                 .getSystemService(Context.INPUT_METHOD_SERVICE);
-        inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
-                InputMethodManager.HIDE_NOT_ALWAYS);
-
+        if(getView() != null) {
+            inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
+                    InputMethodManager.HIDE_NOT_ALWAYS);
+        }
         String bankName = bankNameSpinner.getText().toString();
         if (bankName.trim().length() > 0) {
             String stateName = stateNameTextView.getText().toString();

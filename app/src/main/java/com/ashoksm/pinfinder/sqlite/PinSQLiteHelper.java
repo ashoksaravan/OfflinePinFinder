@@ -34,7 +34,7 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
     private static final String TABLE_STATUS = "status_t";
 
     // Common column names
-    public static final String NAME = "name";
+    private static final String NAME = "name";
     public static final String PIN_CODE = "pin_code";
     private static final String STATUS_CODE = "status_code";
     public static final String SUB_OFFICE = "sub_office";

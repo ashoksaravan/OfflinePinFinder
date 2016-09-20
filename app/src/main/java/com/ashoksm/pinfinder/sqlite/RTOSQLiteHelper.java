@@ -34,7 +34,7 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
     public static final String CITY = "city";
     private static final String STATE = "state";
     public static final String STATE_NAME = "state_name";
-    public static final String RTO_CODE = "rto_code";
+    private static final String RTO_CODE = "rto_code";
     public static final String ID = "_id";
 
     // table create statements
