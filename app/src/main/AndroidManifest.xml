@@ -40,7 +40,7 @@
                 android:value="com.ashoksm.pinfinder.MainActivity"/>
         </activity>
         <activity
-            android:name=".DisplayBankBranchResultActivity"
+            android:name=".DisplayBankResultActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_result"
             android:parentActivityName=".MainActivity">
@@ -76,6 +76,15 @@
                 android:value="com.ashoksm.pinfinder.MainActivity"/>
         </activity>
         <activity
+            android:name=".DisplayTrainResultActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_result"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ashoksm.pinfinder.MainActivity"/>
+        </activity>
+        <activity
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:theme="@android:style/Theme.Translucent"/>
@@ -101,15 +110,21 @@
         </activity>
         <activity
             android:name=".StationDetailsActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:launchMode="singleTop"
+            android:configChanges="keyboardHidden|screenSize"
             android:parentActivityName=".DisplayStationResultActivity"
             android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.ashoksm.pinfinder.DisplayStationResultActivity"/>
         </activity>
-        <activity android:name=".DisplayTrainResultActivity">
+        <activity
+            android:name=".RouteAndScheduleActivity"
+            android:configChanges="keyboardHidden|screenSize"
+            android:parentActivityName=".DisplayTrainResultActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ashoksm.pinfinder.DisplayTrainResultActivity"/>
         </activity>
     </application>
 

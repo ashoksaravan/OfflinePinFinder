@@ -14588,8 +14588,8 @@ android.support.v7.widget.util.SortedListAdapterCallback: void onInserted(int,in
 android.support.v7.widget.util.SortedListAdapterCallback: void onRemoved(int,int)
 android.support.v7.widget.util.SortedListAdapterCallback: void onMoved(int,int)
 android.support.v7.widget.util.SortedListAdapterCallback: void onChanged(int,int)
-com.ashoksm.pinfinder.DisplayBankBranchResultActivity
-com.ashoksm.pinfinder.DisplayBankBranchResultActivity: DisplayBankBranchResultActivity()
+com.ashoksm.pinfinder.DisplayBankResultActivity
+com.ashoksm.pinfinder.DisplayBankResultActivity: DisplayBankBranchResultActivity()
 com.ashoksm.pinfinder.DisplayPinCodeResultActivity
 com.ashoksm.pinfinder.DisplayPinCodeResultActivity: DisplayPinCodeResultActivity()
 com.ashoksm.pinfinder.DisplayRTOResultActivity

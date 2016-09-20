@@ -146,6 +146,12 @@ public class AllCodeListActivity extends ActivityBase {
                     case R.id.nav_station_name:
                         adapter = new AllCodeViewAdapter(railSQLiteHelper.getStationNames(""));
                         break;
+                    case R.id.nav_train_name_or_no:
+                        adapter = new AllCodeViewAdapter(railSQLiteHelper.getTrains(""));
+                        break;
+                    case R.id.nav_train_via_station:
+                        adapter = new AllCodeViewAdapter(railSQLiteHelper.getStns(""));
+                        break;
                     default:
                         break;
                 }
@@ -202,6 +208,12 @@ public class AllCodeListActivity extends ActivityBase {
                             case R.id.nav_station_name:
                                 adapter.changeCursor(railSQLiteHelper.getStationNames(queryTxt));
                                 break;
+                            case R.id.nav_train_name_or_no:
+                                adapter.changeCursor(railSQLiteHelper.getTrains(queryTxt));
+                                break;
+                            case R.id.nav_train_via_station:
+                                adapter.changeCursor(railSQLiteHelper.getStns(queryTxt));
+                                break;
                             default:
                                 break;
                         }
@@ -216,7 +228,7 @@ public class AllCodeListActivity extends ActivityBase {
     public class AllCodeViewAdapter
             extends CursorRecyclerViewAdapter<AllCodeViewAdapter.ViewHolder> {
 
-        public AllCodeViewAdapter(Cursor cursor) {
+        AllCodeViewAdapter(Cursor cursor) {
             super(cursor);
         }
 
@@ -268,7 +280,7 @@ public class AllCodeListActivity extends ActivityBase {
                 intent.putExtra(PincodeFragment.EXTRA_OFFICE, name);
             } else if (menuId == R.id.nav_ifsc || menuId == R.id.nav_micr || menuId
                     == R.id.nav_branch_name) {
-                intent = new Intent(getApplicationContext(), DisplayBankBranchResultActivity.class);
+                intent = new Intent(getApplicationContext(), DisplayBankResultActivity.class);
                 intent.putExtra(IFSCFragment.EXTRA_STATE, "");
                 intent.putExtra(IFSCFragment.EXTRA_DISTRICT, "");
                 intent.putExtra(IFSCFragment.EXTRA_BANK, "");
@@ -290,12 +302,22 @@ public class AllCodeListActivity extends ActivityBase {
                 intent.putExtra(RTOFragment.EXTRA_STATE, "");
                 intent.putExtra(IFSCFragment.EXTRA_ACTION, "RTO");
                 intent.putExtra(RTOFragment.EXTRA_CITY, name);
-            } else if(menuId == R.id.nav_station_code || menuId == R.id.nav_station_name) {
+            } else if (menuId == R.id.nav_station_code || menuId == R.id.nav_station_name) {
                 intent = new Intent(getApplicationContext(), DisplayStationResultActivity.class);
                 intent.putExtra(StationsFragment.EXTRA_STATE, "");
                 intent.putExtra(StationsFragment.EXTRA_CITY, "");
                 intent.putExtra(IFSCFragment.EXTRA_ACTION, "RAIL");
                 intent.putExtra(StationsFragment.EXTRA_STATION, name);
+            } else if (menuId == R.id.nav_train_name_or_no) {
+                intent = new Intent(getApplicationContext(), DisplayTrainResultActivity.class);
+                intent.putExtra(TrainsFragment.EXTRA_TRAIN, name);
+                intent.putExtra(TrainsFragment.EXTRA_STARTS, "");
+                intent.putExtra(TrainsFragment.EXTRA_ENDS, "");
+            } else if (menuId == R.id.nav_train_via_station) {
+                intent = new Intent(getApplicationContext(), DisplayTrainResultActivity.class);
+                intent.putExtra(TrainsFragment.EXTRA_TRAIN, "");
+                intent.putExtra(TrainsFragment.EXTRA_STARTS, name);
+                intent.putExtra(TrainsFragment.EXTRA_ENDS, "");
             }
             if (intent != null) {
                 intent.putExtra(MainActivity.EXTRA_SHOW_FAV, false);
@@ -325,9 +347,19 @@ public class AllCodeListActivity extends ActivityBase {
             } else if (menuId == R.id.nav_rto_city || menuId == R.id.nav_rto_code) {
                 arguments.putString(IFSCFragment.EXTRA_ACTION, "RTO");
                 arguments.putString(STDFragment.EXTRA_CITY, name);
-            } else if(menuId == R.id.nav_station_code || menuId == R.id.nav_station_name) {
+            } else if (menuId == R.id.nav_station_code || menuId == R.id.nav_station_name) {
                 arguments.putString(IFSCFragment.EXTRA_ACTION, "RAIL");
                 arguments.putString(StationsFragment.EXTRA_STATION, name);
+            } else if (menuId == R.id.nav_train_name_or_no) {
+                arguments.putString(TrainsFragment.EXTRA_TRAIN, name);
+                arguments.putString(TrainsFragment.EXTRA_STARTS, "");
+                arguments.putString(TrainsFragment.EXTRA_ENDS, "");
+                arguments.putString(IFSCFragment.EXTRA_ACTION, "TRAIN");
+            } else if (menuId == R.id.nav_train_via_station) {
+                arguments.putString(TrainsFragment.EXTRA_TRAIN, "");
+                arguments.putString(TrainsFragment.EXTRA_STARTS, name);
+                arguments.putString(TrainsFragment.EXTRA_ENDS, "");
+                arguments.putString(IFSCFragment.EXTRA_ACTION, "TRAIN");
             }
             AllCodeDetailFragment fragment = new AllCodeDetailFragment();
             fragment.setArguments(arguments);
@@ -337,9 +369,9 @@ public class AllCodeListActivity extends ActivityBase {
         }
 
         public class ViewHolder extends RecyclerView.ViewHolder {
-            public final View mView;
-            public final TextView mIdView;
-            public final TextView mContentView;
+            final View mView;
+            final TextView mIdView;
+            final TextView mContentView;
 
             public ViewHolder(View view) {
                 super(view);

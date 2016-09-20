@@ -18023,7 +18023,7 @@ com.ashoksm.pinfinder.BankView$5 -> com.ashoksm.pinfinder.f:
     void onAdLoaded() -> a
     void onAdFailedToLoad(int) -> a
     void onAdClosed() -> b
-com.ashoksm.pinfinder.DisplayBankBranchResultActivity -> com.ashoksm.pinfinder.DisplayBankBranchResultActivity:
+com.ashoksm.pinfinder.DisplayBankResultActivity -> com.ashoksm.pinfinder.DisplayBankResultActivity:
     com.ashoksm.pinfinder.sqlite.BankSQLiteHelper sqLiteHelper -> a
     android.database.Cursor c -> b
     java.lang.String stateName -> c
@@ -18034,32 +18034,32 @@ com.ashoksm.pinfinder.DisplayBankBranchResultActivity -> com.ashoksm.pinfinder.D
     void onCreate(android.os.Bundle) -> onCreate
     void onBackPressed() -> onBackPressed
     void onDestroy() -> onDestroy
-    com.ashoksm.pinfinder.sqlite.BankSQLiteHelper access$002(com.ashoksm.pinfinder.DisplayBankBranchResultActivity,com.ashoksm.pinfinder.sqlite.BankSQLiteHelper) -> a
-    android.database.Cursor access$102(com.ashoksm.pinfinder.DisplayBankBranchResultActivity,android.database.Cursor) -> a
-    java.lang.String access$200(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> a
-    java.lang.String access$300(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> b
-    java.lang.String access$400(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> c
-    java.lang.String access$500(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> d
-    com.ashoksm.pinfinder.sqlite.BankSQLiteHelper access$000(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> e
-    android.database.Cursor access$100(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> f
-com.ashoksm.pinfinder.DisplayBankBranchResultActivity$1 -> com.ashoksm.pinfinder.g:
+    com.ashoksm.pinfinder.sqlite.BankSQLiteHelper access$002(com.ashoksm.pinfinder.DisplayBankResultActivity,com.ashoksm.pinfinder.sqlite.BankSQLiteHelper) -> a
+    android.database.Cursor access$102(com.ashoksm.pinfinder.DisplayBankResultActivity,android.database.Cursor) -> a
+    java.lang.String access$200(com.ashoksm.pinfinder.DisplayBankResultActivity) -> a
+    java.lang.String access$300(com.ashoksm.pinfinder.DisplayBankResultActivity) -> b
+    java.lang.String access$400(com.ashoksm.pinfinder.DisplayBankResultActivity) -> c
+    java.lang.String access$500(com.ashoksm.pinfinder.DisplayBankResultActivity) -> d
+    com.ashoksm.pinfinder.sqlite.BankSQLiteHelper access$000(com.ashoksm.pinfinder.DisplayBankResultActivity) -> e
+    android.database.Cursor access$100(com.ashoksm.pinfinder.DisplayBankResultActivity) -> f
+com.ashoksm.pinfinder.DisplayBankResultActivity$1 -> com.ashoksm.pinfinder.g:
     android.support.v7.widget.Toolbar val$toolbar -> a
-    com.ashoksm.pinfinder.DisplayBankBranchResultActivity this$0 -> b
-    void <init>(com.ashoksm.pinfinder.DisplayBankBranchResultActivity,android.content.Context,android.support.v7.widget.Toolbar) -> <init>
+    com.ashoksm.pinfinder.DisplayBankResultActivity this$0 -> b
+    void <init>(com.ashoksm.pinfinder.DisplayBankResultActivity,android.content.Context,android.support.v7.widget.Toolbar) -> <init>
     void onMoved(int) -> a
-com.ashoksm.pinfinder.DisplayBankBranchResultActivity$2 -> com.ashoksm.pinfinder.h:
+com.ashoksm.pinfinder.DisplayBankResultActivity$2 -> com.ashoksm.pinfinder.h:
     android.widget.LinearLayout val$adParent -> a
-    com.ashoksm.pinfinder.DisplayBankBranchResultActivity this$0 -> b
-    void <init>(com.ashoksm.pinfinder.DisplayBankBranchResultActivity,android.widget.LinearLayout) -> <init>
+    com.ashoksm.pinfinder.DisplayBankResultActivity this$0 -> b
+    void <init>(com.ashoksm.pinfinder.DisplayBankResultActivity,android.widget.LinearLayout) -> <init>
     void onAdLoaded() -> a
     void onAdFailedToLoad(int) -> a
-com.ashoksm.pinfinder.DisplayBankBranchResultActivity$3 -> com.ashoksm.pinfinder.i:
+com.ashoksm.pinfinder.DisplayBankResultActivity$3 -> com.ashoksm.pinfinder.i:
     android.widget.LinearLayout progressLayout -> a
     com.ashoksm.pinfinder.adapter.IFSCRecyclerViewAdapter adapter -> b
     android.content.Intent val$intent -> c
     android.support.v7.widget.RecyclerView val$mRecyclerView -> d
-    com.ashoksm.pinfinder.DisplayBankBranchResultActivity this$0 -> e
-    void <init>(com.ashoksm.pinfinder.DisplayBankBranchResultActivity,android.content.Intent,android.support.v7.widget.RecyclerView) -> <init>
+    com.ashoksm.pinfinder.DisplayBankResultActivity this$0 -> e
+    void <init>(com.ashoksm.pinfinder.DisplayBankResultActivity,android.content.Intent,android.support.v7.widget.RecyclerView) -> <init>
     void onPreExecute() -> onPreExecute
     java.lang.Void doInBackground(java.lang.Void[]) -> a
     void onPostExecute(java.lang.Void) -> a
@@ -18509,10 +18509,10 @@ com.ashoksm.pinfinder.common.view.SlidingTabStrip$SimpleTabColorizer -> com.asho
     void setDividerColors(int[]) -> b
     void <init>(com.ashoksm.pinfinder.common.view.SlidingTabStrip$1) -> <init>
 com.ashoksm.pinfinder.sqlite.BankSQLiteHelper -> com.ashoksm.pinfinder.b.a:
-    com.ashoksm.pinfinder.DisplayBankBranchResultActivity context -> a
+    com.ashoksm.pinfinder.DisplayBankResultActivity context -> a
     android.app.ProgressDialog mProgressDialog -> b
     java.lang.String CLASS_NAME -> c
-    void <init>(com.ashoksm.pinfinder.DisplayBankBranchResultActivity) -> <init>
+    void <init>(com.ashoksm.pinfinder.DisplayBankResultActivity) -> <init>
     void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
     void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
     void insertBankBranches(android.database.sqlite.SQLiteDatabase) -> a
@@ -18520,7 +18520,7 @@ com.ashoksm.pinfinder.sqlite.BankSQLiteHelper -> com.ashoksm.pinfinder.b.a:
     android.database.Cursor findIfscCodes(java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> a
     void closeDB() -> a
     android.app.ProgressDialog access$002(com.ashoksm.pinfinder.sqlite.BankSQLiteHelper,android.app.ProgressDialog) -> a
-    com.ashoksm.pinfinder.DisplayBankBranchResultActivity access$100(com.ashoksm.pinfinder.sqlite.BankSQLiteHelper) -> a
+    com.ashoksm.pinfinder.DisplayBankResultActivity access$100(com.ashoksm.pinfinder.sqlite.BankSQLiteHelper) -> a
     android.app.ProgressDialog access$000(com.ashoksm.pinfinder.sqlite.BankSQLiteHelper) -> b
     void <clinit>() -> <clinit>
 com.ashoksm.pinfinder.sqlite.BankSQLiteHelper$1 -> com.ashoksm.pinfinder.b.b:

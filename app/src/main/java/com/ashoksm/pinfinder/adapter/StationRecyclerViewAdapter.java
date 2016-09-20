@@ -1,6 +1,6 @@
 package com.ashoksm.pinfinder.adapter;
 
-import android.content.Context;
+import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
@@ -34,10 +34,10 @@ import java.lang.reflect.Method;
 public class StationRecyclerViewAdapter
         extends CursorRecyclerViewAdapter<StationRecyclerViewAdapter.ViewHolder> {
 
-    private Context context;
+    private Activity context;
     private int lastPosition = -1;
 
-    public StationRecyclerViewAdapter(Context context, Cursor cursor) {
+    public StationRecyclerViewAdapter(Activity context, Cursor cursor) {
         super(cursor);
         this.context = context;
     }
@@ -99,7 +99,10 @@ public class StationRecyclerViewAdapter
                 Intent intent = new Intent(context, StationDetailsActivity.class);
                 intent.putExtra(StationsFragment.EXTRA_STATION, holder.stationCode.getText()
                         .toString());
+                intent.putExtra(StationsFragment.EXTRA_CITY, holder.stationName.getText()
+                        .toString() + " (" + holder.stationCode.getText().toString() + ")");
                 context.startActivity(intent);
+                context.overridePendingTransition(R.anim.slide_out_left, 0);
             }
         });
 

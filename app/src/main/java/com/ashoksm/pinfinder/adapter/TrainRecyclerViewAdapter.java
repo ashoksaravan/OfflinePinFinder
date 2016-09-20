@@ -1,6 +1,6 @@
 package com.ashoksm.pinfinder.adapter;
 
-import android.content.Context;
+import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.support.v7.widget.PopupMenu;
@@ -21,8 +21,8 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.ashoksm.pinfinder.R;
-import com.ashoksm.pinfinder.StationDetailsActivity;
-import com.ashoksm.pinfinder.StationsFragment;
+import com.ashoksm.pinfinder.RouteAndScheduleActivity;
+import com.ashoksm.pinfinder.TrainsFragment;
 import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
 
 import java.lang.reflect.Field;
@@ -31,10 +31,10 @@ import java.lang.reflect.Method;
 public class TrainRecyclerViewAdapter
         extends CursorRecyclerViewAdapter<TrainRecyclerViewAdapter.ViewHolder> {
 
-    private Context context;
+    private Activity context;
     private int lastPosition = -1;
 
-    public TrainRecyclerViewAdapter(Context context, Cursor cursor) {
+    public TrainRecyclerViewAdapter(Activity context, Cursor cursor) {
         super(cursor);
         this.context = context;
     }
@@ -89,10 +89,11 @@ public class TrainRecyclerViewAdapter
         holder.trainName.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, StationDetailsActivity.class);
-                intent.putExtra(StationsFragment.EXTRA_STATION,
-                        holder.trainNo.getText().toString());
+                Intent intent = new Intent(context, RouteAndScheduleActivity.class);
+                intent.putExtra(TrainsFragment.EXTRA_TRAIN, holder.trainNo.getText().toString());
+                intent.putExtra(TrainsFragment.EXTRA_STARTS, holder.trainName.getText().toString());
                 context.startActivity(intent);
+                context.overridePendingTransition(R.anim.slide_out_left, 0);
             }
         });
 

@@ -23,6 +23,7 @@ import com.ashoksm.pinfinder.adapter.PinCodeRecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.RTORecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.STDRecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.StationRecyclerViewAdapter;
+import com.ashoksm.pinfinder.adapter.TrainRecyclerViewAdapter;
 import com.ashoksm.pinfinder.sqlite.BankSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.PinSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper;
@@ -39,7 +40,7 @@ public class AllCodeDetailFragment extends Fragment {
     private BankSQLiteHelper bSQLiteHelper;
     private STDSQLiteHelper stdsqLiteHelper;
     private RTOSQLiteHelper rtosqLiteHelper;
-    private RailWaysSQLiteHelper railWaysSQLiteHelper;
+    private RailWaysSQLiteHelper railSQLiteHelper;
     private SharedPreferences sharedPref;
     private String officeName;
     private String action;
@@ -47,6 +48,7 @@ public class AllCodeDetailFragment extends Fragment {
     private String cityName;
     private Cursor c;
     private String station;
+    private String trainNo;
     private AdmobExpressRecyclerAdapterWrapper adAdapterWrapper;
     private CursorRecyclerViewAdapter adapter;
 
@@ -101,6 +103,9 @@ public class AllCodeDetailFragment extends Fragment {
             if (stn != null) {
                 station = stn.replaceAll("'", "''").toLowerCase();
             }
+        } else if ("TRAIN".equalsIgnoreCase(action)) {
+            trainNo = getArguments().getString(TrainsFragment.EXTRA_TRAIN);
+            station = getArguments().getString(TrainsFragment.EXTRA_STARTS);
         } else {
             branchName = getArguments().getString(IFSCFragment.EXTRA_BRANCH);
         }
@@ -119,8 +124,7 @@ public class AllCodeDetailFragment extends Fragment {
                 try {
                     if (action != null && action.length() == 0) {
                         sqLiteHelper = new PinSQLiteHelper(getActivity());
-                        c = sqLiteHelper.findMatchingOffices("", "",
-                                AllCodeDetailFragment.this.officeName);
+                        c = sqLiteHelper.findMatchingOffices("", "", officeName);
                     } else if ("STD".equalsIgnoreCase(action)) {
                         stdsqLiteHelper = new STDSQLiteHelper(getActivity());
                         c = stdsqLiteHelper.findSTDCodes("", cityName.toLowerCase(), action);
@@ -128,8 +132,17 @@ public class AllCodeDetailFragment extends Fragment {
                         rtosqLiteHelper = new RTOSQLiteHelper(getActivity());
                         c = rtosqLiteHelper.findRTOCodes("", cityName.toLowerCase(), action);
                     } else if ("RAIL".equalsIgnoreCase(action)) {
-                        railWaysSQLiteHelper = new RailWaysSQLiteHelper(getActivity());
-                        c = railWaysSQLiteHelper.findStations(station, "", "", action);
+                        railSQLiteHelper = new RailWaysSQLiteHelper(getActivity());
+                        c = railSQLiteHelper.findStations(station, "", "", action);
+                    } else if ("TRAIN".equalsIgnoreCase(action)) {
+                        railSQLiteHelper = new RailWaysSQLiteHelper(getActivity());
+                        if (trainNo.length() > 0) {
+                            c = railSQLiteHelper.findTrainsByNoOrName(trainNo.replaceAll("'",
+                                    "''"));
+                        } else {
+                            c = railSQLiteHelper.findTrainsByStation(station.replaceAll("'",
+                                    "''"), "");
+                        }
                     } else {
                         bSQLiteHelper = new BankSQLiteHelper(getActivity());
                         c = bSQLiteHelper.findIfscCodes("", "", "", branchName.toLowerCase(),
@@ -153,6 +166,8 @@ public class AllCodeDetailFragment extends Fragment {
                         adapter = new RTORecyclerViewAdapter(getActivity(), c, sharedPref, false);
                     } else if ("RAIL".equalsIgnoreCase(action)) {
                         adapter = new StationRecyclerViewAdapter(getActivity(), c);
+                    } else if ("TRAIN".equalsIgnoreCase(action)) {
+                        adapter = new TrainRecyclerViewAdapter(getActivity(), c);
                     } else {
                         adapter = new IFSCRecyclerViewAdapter(getActivity(), c, "", sharedPref,
                                 false);

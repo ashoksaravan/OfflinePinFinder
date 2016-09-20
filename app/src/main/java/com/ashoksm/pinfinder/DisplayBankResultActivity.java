@@ -31,7 +31,7 @@ import com.google.android.gms.ads.MobileAds;
 
 import java.util.Locale;
 
-public class DisplayBankBranchResultActivity extends AppCompatActivity {
+public class DisplayBankResultActivity extends AppCompatActivity {
 
     private BankSQLiteHelper sqLiteHelper;
     private Cursor c;
@@ -140,7 +140,7 @@ public class DisplayBankBranchResultActivity extends AppCompatActivity {
             @Override
             protected Void doInBackground(Void... params) {
                 try {
-                    sqLiteHelper = new BankSQLiteHelper(DisplayBankBranchResultActivity.this);
+                    sqLiteHelper = new BankSQLiteHelper(DisplayBankResultActivity.this);
                     if (showFav) {
                         c = sqLiteHelper
                                 .findFavIfscCodes(sharedPreferences.getString("ifscs", null));
@@ -163,7 +163,7 @@ public class DisplayBankBranchResultActivity extends AppCompatActivity {
                     getSupportActionBar().setTitle(intent.getStringExtra(IFSCFragment.EXTRA_BANK));
                 }
                 if (c != null && c.getCount() > 0) {
-                    adapter = new IFSCRecyclerViewAdapter(DisplayBankBranchResultActivity.this, c,
+                    adapter = new IFSCRecyclerViewAdapter(DisplayBankResultActivity.this, c,
                             intent.getStringExtra(IFSCFragment.EXTRA_BANK), sharedPreferences,
                             showFav);
                     initNativeAd();
@@ -204,7 +204,7 @@ public class DisplayBankBranchResultActivity extends AppCompatActivity {
     private void initNativeAd() {
         String[] testDevicesIds = new String[]{AdRequest.DEVICE_ID_EMULATOR};
         adAdapterWrapper = new AdmobExpressRecyclerAdapterWrapper(this, testDevicesIds);
-        adAdapterWrapper.setAdapter((RecyclerView.Adapter)adapter);
+        adAdapterWrapper.setAdapter((RecyclerView.Adapter) adapter);
         adAdapterWrapper.setLimitOfAds(3);
         adAdapterWrapper.setNoOfDataBetweenAds(10);
         adAdapterWrapper.setFirstAdIndex(2);

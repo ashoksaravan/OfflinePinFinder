@@ -265,7 +265,7 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
         String select = "SELECT  DISTINCT " + NAME + "|| "
                 + (queryTxt.length() == 0 ? "'\n'" : "'<br\\>'") + " || l." + BANK + " AS _id FROM "
                 + TABLE_BANK_BRANCH + " ps INNER JOIN " + TABLE_LOCATION + " l ON ps." + LOCATION
-                + " = l." + LOCATION + " WHERE "  + NAME + "<> '' AND "+ NAME + " LIKE '%"
+                + " = l." + LOCATION + " WHERE " + NAME + "<> '' AND " + NAME + " LIKE '%"
                 + queryTxt + "%' " + "ORDER BY " + NAME;
         return db.rawQuery(select, null);
     }

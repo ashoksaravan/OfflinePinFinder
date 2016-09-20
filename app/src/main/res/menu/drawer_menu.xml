@@ -58,6 +58,14 @@
                 android:icon="@drawable/ic_maps_directions_transit"
                 android:title="@string/search_by_station_name"/>
             <item
+                android:id="@+id/nav_train_name_or_no"
+                android:icon="@drawable/ic_maps_directions_transit"
+                android:title="@string/search_by_train_no_name"/>
+            <item
+                android:id="@+id/nav_train_via_station"
+                android:icon="@drawable/ic_maps_directions_transit"
+                android:title="@string/trains_passing_via_station"/>
+            <item
                 android:id="@+id/nav_near_by_railway_station"
                 android:icon="@drawable/ic_maps_place"
                 android:title="@string/near_by_railway_station"/>

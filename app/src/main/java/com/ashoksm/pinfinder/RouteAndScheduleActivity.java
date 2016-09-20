@@ -16,7 +16,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.ashoksm.pinfinder.adapter.StationDetailsAdapter;
+import com.ashoksm.pinfinder.adapter.RouteAndScheduleAdapter;
 import com.ashoksm.pinfinder.common.AppRater;
 import com.ashoksm.pinfinder.common.activities.ActivityBase;
 import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
@@ -26,12 +26,12 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 
-public class StationDetailsActivity extends ActivityBase {
+public class RouteAndScheduleActivity extends ActivityBase {
 
     private RailWaysSQLiteHelper sqLiteHelper;
     private Cursor c;
-    private StationDetailsAdapter adapter;
-    private String stationCode;
+    private RouteAndScheduleAdapter adapter;
+    private String trainNo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,7 +76,7 @@ public class StationDetailsActivity extends ActivityBase {
         }
 
         // Get the message from the intent
-        stationCode = getIntent().getStringExtra(StationsFragment.EXTRA_STATION);
+        trainNo = getIntent().getStringExtra(TrainsFragment.EXTRA_TRAIN);
 
         new AsyncTask<Void, Void, Void>() {
             LinearLayout progressLayout = (LinearLayout) findViewById(R.id.progressLayout);
@@ -90,10 +90,10 @@ public class StationDetailsActivity extends ActivityBase {
             @Override
             protected Void doInBackground(Void... params) {
                 try {
-                    sqLiteHelper = new RailWaysSQLiteHelper(StationDetailsActivity.this);
-                    c = sqLiteHelper.getStationDetails(stationCode, xLargeScreen);
+                    sqLiteHelper = new RailWaysSQLiteHelper(RouteAndScheduleActivity.this);
+                    c = sqLiteHelper.getRouteAndSchedule(trainNo, xLargeScreen);
                 } catch (Exception ex) {
-                    Log.e("StationDetailsActivity", ex.getMessage(), ex);
+                    Log.e("RouteScheduleActivity", ex.getMessage(), ex);
                 }
                 return null;
             }
@@ -103,10 +103,11 @@ public class StationDetailsActivity extends ActivityBase {
                 if (c != null && c.getCount() > 0) {
                     if (getSupportActionBar() != null) {
                         getSupportActionBar()
-                                .setTitle(getIntent().getStringExtra(StationsFragment.EXTRA_CITY));
+                                .setTitle(getIntent().getStringExtra(TrainsFragment.EXTRA_STARTS)
+                                        + " (" + trainNo + ")");
                     }
-                    adapter =
-                            new StationDetailsAdapter(c, xLargeScreen, StationDetailsActivity.this);
+                    adapter = new RouteAndScheduleAdapter(c, xLargeScreen,
+                            RouteAndScheduleActivity.this);
                     mRecyclerView.setAdapter(adapter);
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {

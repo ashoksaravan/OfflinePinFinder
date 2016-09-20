@@ -27,14 +27,13 @@ import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 
-import java.util.Locale;
-
 public class DisplayTrainResultActivity extends ActivityBase {
 
     private RailWaysSQLiteHelper sqLiteHelper;
     private Cursor c;
     private String trainNo;
     private String start;
+    private String ends;
     private String action;
     private AdmobExpressRecyclerAdapterWrapper adAdapterWrapper;
     private TrainRecyclerViewAdapter adapter;
@@ -79,12 +78,11 @@ public class DisplayTrainResultActivity extends ActivityBase {
                 }
             });
         }
-        Locale l = Locale.getDefault();
         // Get the message from the intent
         final Intent intent = getIntent();
         action = intent.getStringExtra(IFSCFragment.EXTRA_ACTION);
-        start = intent.getStringExtra(TrainsFragment.EXTRA_STARTS).toLowerCase(l)
-                .replaceAll(" ", "").replaceAll("'", "''");
+        start = intent.getStringExtra(TrainsFragment.EXTRA_STARTS).replaceAll("'", "''");
+        ends = intent.getStringExtra(TrainsFragment.EXTRA_ENDS).replaceAll("'", "''");
         trainNo = intent.getStringExtra(TrainsFragment.EXTRA_TRAIN).replaceAll("'", "''");
 
         new AsyncTask<Void, Void, Void>() {
@@ -100,7 +98,11 @@ public class DisplayTrainResultActivity extends ActivityBase {
             protected Void doInBackground(Void... params) {
                 try {
                     sqLiteHelper = new RailWaysSQLiteHelper(DisplayTrainResultActivity.this);
-                    c = sqLiteHelper.findTrainsByNoOrName(trainNo);
+                    if (trainNo.trim().length() > 0) {
+                        c = sqLiteHelper.findTrainsByNoOrName(trainNo);
+                    } else {
+                        c = sqLiteHelper.findTrainsByStation(start, ends);
+                    }
                 } catch (Exception ex) {
                     Log.e("TrainResultActivity", ex.getMessage(), ex);
                 }

@@ -108,7 +108,7 @@ public class TrainsFragment extends Fragment {
         aSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if(!b) {
+                if (!b) {
                     trainName.setVisibility(View.VISIBLE);
                     starts.setVisibility(View.GONE);
                     ends.setVisibility(View.GONE);
@@ -141,7 +141,7 @@ public class TrainsFragment extends Fragment {
         }
 
         Intent intent = new Intent(context, DisplayTrainResultActivity.class);
-        if(aSwitch.isChecked()) {
+        if (aSwitch.isChecked()) {
             intent.putExtra(EXTRA_STARTS, starts.getText().toString().trim());
             intent.putExtra(EXTRA_ENDS, ends.getText().toString().trim());
             intent.putExtra(EXTRA_TRAIN, "");

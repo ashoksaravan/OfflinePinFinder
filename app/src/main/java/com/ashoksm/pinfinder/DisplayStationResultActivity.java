@@ -50,7 +50,7 @@ public class DisplayStationResultActivity extends ActivityBase {
         final Toolbar toolbar = (Toolbar) findViewById(R.id.my_awesome_toolbar);
         setSupportActionBar(toolbar);
 
-        if(getSupportActionBar() != null) {
+        if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
@@ -89,7 +89,7 @@ public class DisplayStationResultActivity extends ActivityBase {
                 .replaceAll(" ", "").replaceAll("'", "''");
         cityName = intent.getStringExtra(StationsFragment.EXTRA_CITY).toLowerCase(l)
                 .replaceAll(" ", "").replaceAll("'", "''");
-        if(action != null) {
+        if (action != null) {
             station = intent.getStringExtra(StationsFragment.EXTRA_STATION).toLowerCase();
         } else {
             station = intent.getStringExtra(StationsFragment.EXTRA_STATION).toLowerCase(l)

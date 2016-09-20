@@ -6,10 +6,13 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.support.annotation.NonNull;
 import android.util.Log;
+import android.util.SparseIntArray;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
 
 public class RailWaysSQLiteHelper extends SQLiteOpenHelper {
 
@@ -21,7 +24,7 @@ public class RailWaysSQLiteHelper extends SQLiteOpenHelper {
     public static final String TRAINS_PASSING_VIA = "trains_passing_via";
     public static final String CITY = "city";
     public static final String STATE = "state";
-    public static final String TRAIN_NO = "train_no";
+    private static final String TRAIN_NO = "train_no";
     public static final String TRAIN_NAME = "train_name";
     public static final String STARTS = "starts";
     public static final String ENDS = "ends";
@@ -35,7 +38,7 @@ public class RailWaysSQLiteHelper extends SQLiteOpenHelper {
     public static final String FRI = "fri";
     public static final String SAT = "sat";
     public static final String SUN = "sun";
-    public static final String STATION_NO = "station_no";
+    private static final String STATION_NO = "station_no";
     public static final String DISTANCE_TRAVELED = "distance_traveled";
     public static final String ROUTE = "route";
 
@@ -248,7 +251,7 @@ public class RailWaysSQLiteHelper extends SQLiteOpenHelper {
                     + "'Departs' AS ends, 'Stop Time' AS stop_time, 'y' AS mon, 'y' AS tue, 'y' AS "
                     + "wed, 'y' AS thu, 'y' AS fri, 'y' AS sat, 'y' AS sun UNION ";
         }
-        query = query + "SELECT 1 AS order_by," + TRAIN_NAME + " || '(' || t." + TRAIN_NO
+        query = query + "SELECT 1 AS order_by," + TRAIN_NAME + " || ' (' || t." + TRAIN_NO
                 + " || ')'" + " AS _id, sd." + STARTS + ", " + "sd." + ENDS + ", " + "sd."
                 + STOP_TIME + ", " + MON + ", " + TUE + ", " + WED + ", " + THU + ", " + FRI + ", "
                 + SAT + ", " + SUN + " FROM " + TABLE_STATION_DETAIL + " sd INNER JOIN "
@@ -278,14 +281,112 @@ public class RailWaysSQLiteHelper extends SQLiteOpenHelper {
                 + ENDS + ", " + DAYS + ", " + PANTRY + " FROM " + TABLE_TRAINS;
         if (trainNo.contains(" - ")) {
             String[] params = trainNo.split(" - ");
-            query = query + " WHERE " + TRAIN_NO + " = " + params[0] + " AND " + TRAIN_NAME
-                    + " = '" + params[1] + "'";
+            query = query + " WHERE " + TRAIN_NO + " = " + params[0] + " AND LOWER(" + TRAIN_NAME
+                    + ") = '" + params[1].toLowerCase() + "'";
         } else if (trainNo.trim().length() > 0) {
             query = query + " WHERE " + TRAIN_NO + " LIKE '%" + trainNo + "%' OR LOWER(REPLACE("
                     + TRAIN_NAME + ",' ','')) LIKE '%" + trainNo.toLowerCase().replaceAll(" ", "")
                     + "%'";
         }
+        return db.rawQuery(query, null);
+    }
+
+    public Cursor findTrainsByStation(String start, String ends) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        String query = "SELECT " + TRAIN_NO + " AS _id, " + TRAIN_NAME + ", " + STARTS
+                + ", " + ENDS + ", " + DAYS + ", " + PANTRY + " FROM " + TABLE_TRAINS;
+
+        List<Integer> trainNos = new ArrayList<>();
+
+        //get trains from starting station
+        SparseIntArray stationMap = new SparseIntArray();
+        String startStnQuery = "SELECT " + TRAIN_NO + " AS _id, " + STATION_NO + " FROM "
+                + TABLE_TRAIN_DETAIL + " WHERE LOWER(" + STATION_CODE + ") = '" + start.split(" -"
+                + " ")[0].toLowerCase() + "'";
+        Cursor c = db.rawQuery(startStnQuery, null);
+        c.moveToFirst();
+        while (!c.isAfterLast()) {
+            stationMap.put(c.getInt(c.getColumnIndex("_id")),
+                    c.getInt(c.getColumnIndex(STATION_NO)));
+            c.moveToNext();
+        }
+        c.close();
+
+        //get trains from starting station
+        if (ends.length() > 0) {
+            String stopStnQuery = "SELECT " + TRAIN_NO + " AS _id, " + STATION_NO + " FROM "
+                    + TABLE_TRAIN_DETAIL + " WHERE " + STATION_CODE + " = '" + ends.split(" - ")[0]
+                    + "'";
+            c = db.rawQuery(stopStnQuery, null);
+            c.moveToFirst();
+            while (!c.isAfterLast()) {
+                Integer startNo = stationMap.get(c.getInt(c.getColumnIndex("_id")));
+                if (startNo != 0 && c.getInt(c.getColumnIndex(STATION_NO)) - startNo > 0) {
+                    trainNos.add(c.getInt(c.getColumnIndex("_id")));
+                }
+                c.moveToNext();
+            }
+            c.close();
+        } else {
+            for (int i = 0; i < stationMap.size(); i++) {
+                trainNos.add(stationMap.keyAt(i));
+            }
+        }
+
+        if (!trainNos.isEmpty()) {
+            StringBuilder sb = new StringBuilder();
+            boolean flag = false;
+            for (Integer trainNo : trainNos) {
+                if (flag) {
+                    sb.append(", ");
+                }
+                sb.append("'");
+                sb.append(trainNo);
+                sb.append("'");
+                flag = true;
+            }
+            query = query + " WHERE " + TRAIN_NO + " IN (" + sb.toString() + ")";
+        }
         Log.e("QUERY", query);
+        return db.rawQuery(query, null);
+    }
+
+    public Cursor getTrains(String queryTxt) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        String query = "SELECT " + TRAIN_NO + " || ' - ' || " + TRAIN_NAME + " AS _id FROM "
+                + TABLE_TRAINS;
+        if (queryTxt.length() > 0) {
+            query = query + " WHERE " + TRAIN_NO + " LIKE '%" + queryTxt + "%' OR " + TRAIN_NAME
+                    + " LIKE '%" + queryTxt + "%'";
+        }
+        return db.rawQuery(query, null);
+    }
+
+    public Cursor getStns(String queryTxt) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        String query = "SELECT " + STATION_CODE + " || ' - ' || " + STATION_NAME + " AS _id FROM "
+                + TABLE_STATIONS;
+        if (queryTxt.length() > 0) {
+            query = query + " WHERE " + STATION_CODE + " LIKE '%" + queryTxt + "%' OR " +
+                    STATION_NAME + " LIKE '%" + queryTxt + "%'";
+        }
+        return db.rawQuery(query, null);
+    }
+
+    public Cursor getRouteAndSchedule(String trainNo, boolean xLargeScreen) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        String query = "";
+        if (xLargeScreen) {
+            query = "SELECT 0 AS _id, 'Station Name(Code)' AS station_code, 'Arrives' AS starts, "
+                    + "'Departs' AS ends, 'Stop Time' AS stop_time, 'Distance travelled' "
+                    + "AS distance_traveled, 'Day' AS days, 'Route' AS route UNION ";
+        }
+        query = query + "SELECT " + STATION_NO + " AS _id, " + STATION_NAME + " || ' (' || t."
+                + STATION_CODE + " || ')'" + " AS " + STATION_CODE + ", " + STARTS + ", " + ENDS
+                + ", " + STOP_TIME + ", " + DISTANCE_TRAVELED + ", " + DAYS + ", " + ROUTE
+                + " FROM " + TABLE_TRAIN_DETAIL + " t INNER JOIN " + TABLE_STATIONS
+                + " sd ON sd." + STATION_CODE + " = t." + STATION_CODE + " WHERE "
+                + TRAIN_NO + " = '" + trainNo + "' ORDER BY _id";
         return db.rawQuery(query, null);
     }
 }

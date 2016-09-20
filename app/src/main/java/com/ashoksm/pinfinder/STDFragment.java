@@ -72,7 +72,7 @@ public class STDFragment extends Fragment {
         //hide keyboard
         InputMethodManager inputMethodManager =
                 (InputMethodManager) context.getSystemService(Context.INPUT_METHOD_SERVICE);
-        if(getView() != null) {
+        if (getView() != null) {
             inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
                     InputMethodManager.HIDE_NOT_ALWAYS);
         }

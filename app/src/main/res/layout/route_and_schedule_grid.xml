@@ -18,16 +18,38 @@
             android:layout_width="0px"
             android:layout_height="wrap_content"
             android:layout_weight=".3"
-            android:text="@string/train_name"
+            android:text="@string/no"
             android:textColor="@color/accent"
             android:textSize="14sp"/>
 
         <TextView
-            android:id="@+id/train_name"
+            android:id="@+id/no"
             android:layout_width="0px"
             android:layout_height="wrap_content"
             android:layout_weight=".7"
-            android:text="@string/train_name"
+            android:text="@string/no"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:text="@string/station_name"
+            android:textColor="@color/accent"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/station_name"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight=".7"
+            android:text="@string/station_name"
             android:textSize="14sp"/>
     </LinearLayout>
 
@@ -108,16 +130,61 @@
             android:layout_width="0px"
             android:layout_height="wrap_content"
             android:layout_weight=".3"
-            android:text="@string/days"
+            android:text="@string/stop_time"
             android:textColor="@color/accent"
             android:textSize="14sp"/>
 
         <TextView
-            android:id="@+id/days"
+            android:id="@+id/distance_travelled"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight=".7"
+            android:text="@string/distance_travelled"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:text="@string/day"
+            android:textColor="@color/accent"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/day"
             android:layout_width="0px"
             android:layout_height="wrap_content"
             android:layout_weight=".7"
             android:text="@string/days"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:text="@string/day"
+            android:textColor="@color/accent"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/route"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight=".7"
+            android:text="@string/route"
             android:textSize="14sp"/>
     </LinearLayout>
 </LinearLayout>

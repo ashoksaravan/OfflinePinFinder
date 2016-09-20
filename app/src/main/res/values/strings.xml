@@ -34171,13 +34171,18 @@
     <string name="departs">Departs</string>
     <string name="arrives">Arrives</string>
     <string name="railways">Railways</string>
-    <string name="search_by_station_code">Search by Station Code</string>
-    <string name="search_by_station_name">Search by Station Name</string>
+    <string name="search_by_station_code">Search Station by Code</string>
+    <string name="search_by_station_name">Search Station by Name</string>
     <string name="near_by_railway_station">Near by Railway Station</string>
     <string name="stations_passing_via">Stations passing via</string>
     <string name="search_by_stations">Search by Stations</string>
     <string name="train_no">Train Number</string>
     <string name="pantry">Pantry</string>
     <string name="no">No</string>
+    <string name="search_by_train_no_name">Search by Train no/name</string>
+    <string name="trains_passing_via_station">Trains passing via Station</string>
+    <string name="day">Day</string>
+    <string name="distance_travelled">Distance travelled</string>
+    <string name="route">Route</string>
 
 </resources>

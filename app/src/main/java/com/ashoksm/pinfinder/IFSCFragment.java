@@ -144,7 +144,7 @@ public class IFSCFragment extends Fragment {
             String stateName = stateNameTextView.getText().toString();
             String districtName = districtNameTextView.getText().toString();
             String branch = branchName.getText().toString();
-            Intent intent = new Intent(context, DisplayBankBranchResultActivity.class);
+            Intent intent = new Intent(context, DisplayBankResultActivity.class);
             intent.putExtra(EXTRA_STATE, stateName.trim());
             intent.putExtra(EXTRA_DISTRICT, districtName.trim());
             intent.putExtra(EXTRA_BANK, bankName.trim());

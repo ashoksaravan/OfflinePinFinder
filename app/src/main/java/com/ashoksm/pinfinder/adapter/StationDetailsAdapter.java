@@ -1,25 +1,33 @@
 package com.ashoksm.pinfinder.adapter;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Color;
 import android.graphics.Typeface;
+import android.os.Build;
 import android.support.v7.widget.RecyclerView;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.ashoksm.pinfinder.R;
+import com.ashoksm.pinfinder.RouteAndScheduleActivity;
+import com.ashoksm.pinfinder.TrainsFragment;
 import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
 
 public class StationDetailsAdapter
         extends CursorRecyclerViewAdapter<RecyclerView.ViewHolder> {
 
+    private Activity context;
     private boolean largeScreen;
 
-    public StationDetailsAdapter(Cursor cursor, boolean xLargeScreen) {
+    public StationDetailsAdapter(Cursor cursor, boolean xLargeScreen, Activity contextIn) {
         super(cursor);
         largeScreen = xLargeScreen;
+        context = contextIn;
     }
 
     private static final int TYPE_HEADER = 0;
@@ -29,9 +37,16 @@ public class StationDetailsAdapter
     public void onBindViewHolder(final RecyclerView.ViewHolder viewHolder, Cursor cursor, int
             position) {
         if (viewHolder instanceof ViewHolder) {
-            ViewHolder holder = (ViewHolder) viewHolder;
-            holder.trainName
-                    .setText(cursor.getString(cursor.getColumnIndex(RailWaysSQLiteHelper.ID)));
+            final ViewHolder holder = (ViewHolder) viewHolder;
+            String trainName = cursor.getString(cursor.getColumnIndex(RailWaysSQLiteHelper.ID));
+            trainName = "<font color='#FF5252'><u>" + trainName.replaceAll("[(]",
+                    "</u></font>(");
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                holder.trainName.setText(Html.fromHtml(trainName,
+                        Html.FROM_HTML_OPTION_USE_CSS_COLORS));
+            } else {
+                holder.trainName.setText(Html.fromHtml(trainName));
+            }
             holder.arrives
                     .setText(cursor.getString(cursor.getColumnIndex(RailWaysSQLiteHelper.STARTS)));
             holder.departs
@@ -72,6 +87,19 @@ public class StationDetailsAdapter
                 sb.append(sb.length() > 0 ? "-SU" : "SU");
             }
             holder.days.setText(sb.toString());
+            holder.trainName.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(context, RouteAndScheduleActivity.class);
+                    String value = holder.trainName.getText().toString();
+                    intent.putExtra(TrainsFragment.EXTRA_TRAIN, value.substring(value.indexOf
+                            ("(") + 1, value.indexOf(")")));
+                    intent.putExtra(TrainsFragment.EXTRA_STARTS, value.substring(0, value.indexOf
+                            ("(")));
+                    context.startActivity(intent);
+                    context.overridePendingTransition(R.anim.slide_out_left, 0);
+                }
+            });
         } else {
             ViewHeaderHolder holder = (ViewHeaderHolder) viewHolder;
             holder.trainName.setTextColor(Color.parseColor("#FF5252"));
@@ -123,7 +151,7 @@ public class StationDetailsAdapter
 
     }
 
-    public static class ViewHeaderHolder extends RecyclerView.ViewHolder {
+    private static class ViewHeaderHolder extends RecyclerView.ViewHolder {
 
         TextView trainName;
         TextView arrives;
@@ -131,7 +159,7 @@ public class StationDetailsAdapter
         TextView stopTime;
         TextView days;
 
-        public ViewHeaderHolder(View view) {
+        ViewHeaderHolder(View view) {
             super(view);
             days = (TextView) view.findViewById(R.id.days);
             trainName = (TextView) view.findViewById(R.id.train_name);
