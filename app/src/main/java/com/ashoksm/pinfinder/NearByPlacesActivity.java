@@ -4,7 +4,6 @@ import android.Manifest;
 import android.app.Dialog;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
@@ -36,16 +35,18 @@ import java.net.URL;
 import java.util.HashMap;
 import java.util.List;
 
-public class NearByPlacesActivity extends ActivityBase
-        implements LocationListener, OnMapReadyCallback {
+public class NearByPlacesActivity extends ActivityBase implements LocationListener,
+        OnMapReadyCallback {
 
     private GoogleMap mGoogleMap;
     private double mLatitude = 0;
     private double mLongitude = 0;
     private static final int MY_PERMISSIONS_REQUEST_LOCATION = 1;
+    private LocationManager locationManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_near_by_places);
 
@@ -78,60 +79,24 @@ public class NearByPlacesActivity extends ActivityBase
                     PackageManager.PERMISSION_GRANTED && ActivityCompat
                     .checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) !=
                     PackageManager.PERMISSION_GRANTED) {
-                // TODO: Consider calling
-                //    ActivityCompat#requestPermissions
-                // here to request the missing permissions, and then overriding
-                //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-                //                                          int[] grantResults)
-                // to handle the case where the user grants the permission. See the documentation
-                // for ActivityCompat#requestPermissions for more details.
                 ActivityCompat.requestPermissions(this,
-                        new String[]{Manifest.permission.ACCESS_FINE_LOCATION,
-                                Manifest.permission.ACCESS_COARSE_LOCATION},
+                        new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION,
+                                android.Manifest.permission.ACCESS_COARSE_LOCATION},
                         MY_PERMISSIONS_REQUEST_LOCATION);
             }
 
             // Getting LocationManager object from System Service LOCATION_SERVICE
-            LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
-
-            // Creating a criteria object to retrieve provider
-            Criteria criteria = new Criteria();
-
-            // Getting the name of the best provider
-            String provider = locationManager.getBestProvider(criteria, true);
+            locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
 
             // Getting Current Location From GPS
-            Location location = locationManager.getLastKnownLocation(provider);
+            Location location = getLastKnownLocation();
 
             if (location != null) {
                 onLocationChanged(location);
             }
 
-            locationManager.requestLocationUpdates(provider, 20000, 0, this);
-
-            final Intent intent = getIntent();
-            Integer menuId = intent.getIntExtra(MainActivity.EXTRA_MENU_ID, 0);
-            String type = null;
-            if (menuId == R.id.nav_near_by_post_office) {
-                type = "post_office";
-            } else if (menuId == R.id.nav_near_by_bank) {
-                type = "bank";
-            } else if (menuId == R.id.nav_near_by_atm) {
-                type = "atm";
-            } else if (menuId == R.id.nav_near_by_railway_station) {
-                type = "train_station";
-            }
-
-            String sb = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location="
-                    + mLatitude + "," + mLongitude + "&radius=5000&types=" + type +
-                    "&sensor=true&key=" + getString(R.string.google_api_key);
-
-            // Creating a new non-ui thread task to download json data
-            PlacesTask placesTask = new PlacesTask();
-
-            // Invokes the "doInBackground()" method of the class PlaceTask
-            placesTask.execute(sb);
         }
+
     }
 
     /**
@@ -167,13 +132,13 @@ public class NearByPlacesActivity extends ActivityBase
             br.close();
 
         } catch (Exception e) {
-            Log.e(this.getLocalClassName(), e.getLocalizedMessage(), e);
+            Log.e(this.getLocalClassName(), e.toString(), e);
         } finally {
             if (iStream != null) {
                 try {
                     iStream.close();
                 } catch (Exception e) {
-                    Log.e(this.getLocalClassName(), e.getLocalizedMessage(), e);
+                    Log.e(this.getLocalClassName(), e.toString(), e);
                 }
             }
             if (urlConnection != null) {
@@ -186,14 +151,14 @@ public class NearByPlacesActivity extends ActivityBase
 
     @Override
     public void onMapReady(GoogleMap map) {
-        map.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+        map.setMapType(GoogleMap.MAP_TYPE_TERRAIN);
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) !=
                 PackageManager.PERMISSION_GRANTED && ActivityCompat
                 .checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) !=
                 PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this,
-                    new String[]{Manifest.permission.ACCESS_FINE_LOCATION,
-                            Manifest.permission.ACCESS_COARSE_LOCATION},
+                    new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION,
+                            android.Manifest.permission.ACCESS_COARSE_LOCATION},
                     MY_PERMISSIONS_REQUEST_LOCATION);
         }
         map.setMyLocationEnabled(true);
@@ -201,8 +166,33 @@ public class NearByPlacesActivity extends ActivityBase
         map.setIndoorEnabled(true);
         map.setBuildingsEnabled(true);
         map.getUiSettings().setZoomControlsEnabled(true);
+        map.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(mLatitude, mLongitude)));
+        map.animateCamera(CameraUpdateFactory.zoomTo(12));
         mGoogleMap = map;
-        mGoogleMap.animateCamera(CameraUpdateFactory.zoomTo(12));
+
+        final Intent intent = getIntent();
+        Integer menuId = intent.getIntExtra(MainActivity.EXTRA_MENU_ID, 0);
+        String type = null;
+        if (menuId == R.id.nav_near_by_post_office) {
+            type = "post_office";
+        } else if (menuId == R.id.nav_near_by_bank) {
+            type = "bank";
+        } else if (menuId == R.id.nav_near_by_atm) {
+            type = "atm";
+        } else if (menuId == R.id.nav_near_by_railway_station) {
+            type = "train_station";
+        }
+
+
+        String s = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location="
+                + mLatitude + "," + mLongitude + "&radius=5000&types=" + type
+                + "&sensor=true&key=" + getString(R.string.google_api_key);
+
+        // Creating a new non-ui thread task to download json data
+        PlacesTask placesTask = new PlacesTask();
+
+        // Invokes the "doInBackground()" method of the class PlaceTask
+        placesTask.execute(s);
     }
 
     /**
@@ -257,7 +247,7 @@ public class NearByPlacesActivity extends ActivityBase
                 places = placeJsonParser.parse(jObject);
 
             } catch (Exception e) {
-                Log.e(this.getClass().getSimpleName(), e.getLocalizedMessage(), e);
+                Log.d("Exception", e.toString());
             }
             return places;
         }
@@ -269,34 +259,42 @@ public class NearByPlacesActivity extends ActivityBase
             // Clears all the existing markers
             mGoogleMap.clear();
 
-            for (HashMap<String, String> hmPlace : list) {
+            if (list != null) {
+                for (int i = 0; i < list.size(); i++) {
 
-                // Creating a marker
-                MarkerOptions markerOptions = new MarkerOptions();
+                    // Creating a marker
+                    MarkerOptions markerOptions = new MarkerOptions();
 
-                // Getting latitude of the place
-                double lat = Double.parseDouble(hmPlace.get("lat"));
+                    // Getting a place from the places list
+                    HashMap<String, String> hmPlace = list.get(i);
 
-                // Getting longitude of the place
-                double lng = Double.parseDouble(hmPlace.get("lng"));
+                    // Getting latitude of the place
+                    double lat = Double.parseDouble(hmPlace.get("lat"));
 
-                // Getting name
-                String name = hmPlace.get("place_name");
+                    // Getting longitude of the place
+                    double lng = Double.parseDouble(hmPlace.get("lng"));
 
-                // Getting vicinity
-                String vicinity = hmPlace.get("vicinity");
+                    // Getting name
+                    String name = hmPlace.get("place_name");
 
-                LatLng latLng = new LatLng(lat, lng);
+                    // Getting vicinity
+                    String vicinity = hmPlace.get("vicinity");
 
-                // Setting the position for the marker
-                markerOptions.position(latLng);
+                    LatLng latLng = new LatLng(lat, lng);
 
-                // Setting the title for the marker.
-                //This will be displayed on taping the marker
-                markerOptions.title(name + " : " + vicinity);
+                    // Setting the position for the marker
+                    markerOptions.position(latLng);
 
-                // Placing a marker on the touched position
-                mGoogleMap.addMarker(markerOptions);
+                    // Setting the title for the marker.
+                    //This will be displayed on taping the marker
+                    markerOptions.title(name + " : " + vicinity);
+
+                    // Placing a marker on the touched position
+                    mGoogleMap.addMarker(markerOptions);
+                }
+            }
+            if(getSupportActionBar() != null && list != null) {
+                getSupportActionBar().setTitle(list.size() + " Results found");
             }
         }
     }
@@ -309,6 +307,7 @@ public class NearByPlacesActivity extends ActivityBase
 
         if (mGoogleMap != null) {
             mGoogleMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+            mGoogleMap.animateCamera(CameraUpdateFactory.zoomTo(12));
         }
     }
 
@@ -322,5 +321,33 @@ public class NearByPlacesActivity extends ActivityBase
 
     @Override
     public void onStatusChanged(String provider, int status, Bundle extras) {
+    }
+
+    private Location getLastKnownLocation() {
+        if (ActivityCompat
+                .checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) !=
+                PackageManager.PERMISSION_GRANTED && ActivityCompat
+                .checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) !=
+                PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this,
+                    new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION,
+                            android.Manifest.permission.ACCESS_COARSE_LOCATION},
+                    MY_PERMISSIONS_REQUEST_LOCATION);
+        }
+
+        List<String> providers = locationManager.getProviders(true);
+        Location bestLocation = null;
+        for (String provider : providers) {
+            Location l = locationManager.getLastKnownLocation(provider);
+            if (l == null) {
+                continue;
+            }
+            if (bestLocation == null || l.getAccuracy() < bestLocation.getAccuracy()) {
+                // Found best last known location: %s", l);
+                bestLocation = l;
+                locationManager.requestLocationUpdates(provider, 20000, 0, this);
+            }
+        }
+        return bestLocation;
     }
 }

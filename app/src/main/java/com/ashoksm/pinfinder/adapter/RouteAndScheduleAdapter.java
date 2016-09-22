@@ -8,7 +8,6 @@ import android.graphics.Typeface;
 import android.os.Build;
 import android.support.v7.widget.RecyclerView;
 import android.text.Html;
-import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -54,20 +53,16 @@ public class RouteAndScheduleAdapter
             holder.arrives.setText(start);
             if ("Starts".equalsIgnoreCase(start)) {
                 holder.arrives.setTypeface(null, Typeface.BOLD);
-                holder.arrives.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);
             } else {
                 holder.arrives.setTypeface(null, Typeface.NORMAL);
-                holder.arrives.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
 
             }
             String end = cursor.getString(cursor.getColumnIndex(RailWaysSQLiteHelper.ENDS));
             holder.departs.setText(end);
             if ("Ends".equalsIgnoreCase(end)) {
                 holder.departs.setTypeface(null, Typeface.BOLD);
-                holder.departs.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);
             } else {
                 holder.departs.setTypeface(null, Typeface.NORMAL);
-                holder.departs.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
             }
             holder.stopTime.setText(
                     cursor.getString(cursor.getColumnIndex(RailWaysSQLiteHelper.STOP_TIME)));

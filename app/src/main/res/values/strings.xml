@@ -34209,5 +34209,6 @@
     <string name="day">Day</string>
     <string name="distance_travelled">Distance travelled</string>
     <string name="route">Route</string>
+    <string name="stop_number">Stop Number</string>
 
 </resources>

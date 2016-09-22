@@ -15,6 +15,7 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import com.ashoksm.pinfinder.adapter.StationDetailsAdapter;
 import com.ashoksm.pinfinder.common.AppRater;
@@ -52,7 +53,7 @@ public class StationDetailsActivity extends ActivityBase {
 
         // set item decorator
         Drawable dividerDrawable;
-        final boolean xLargeScreen = isXLargeScreen();
+        final boolean xLargeScreen = isLargeScreen();
         if (xLargeScreen) {
             dividerDrawable = ContextCompat.getDrawable(this, R.drawable.item_divider);
         } else {
@@ -118,6 +119,9 @@ public class StationDetailsActivity extends ActivityBase {
             }
 
         }.execute();
+        if(!xLargeScreen) {
+            Toast.makeText(this, "Use Landscape for better experience", Toast.LENGTH_LONG).show();
+        }
         AppRater.appLaunched(this);
     }
 
@@ -176,9 +180,9 @@ public class StationDetailsActivity extends ActivityBase {
         return super.onOptionsItemSelected(item);
     }
 
-    private boolean isXLargeScreen() {
+    private boolean isLargeScreen() {
         return (getResources().getConfiguration().screenLayout & Configuration
-                .SCREENLAYOUT_SIZE_MASK) >= Configuration.SCREENLAYOUT_SIZE_XLARGE ||
+                .SCREENLAYOUT_SIZE_MASK) >= Configuration.SCREENLAYOUT_SIZE_LARGE ||
                 getResources().getConfiguration().orientation ==
                         Configuration.ORIENTATION_LANDSCAPE;
     }

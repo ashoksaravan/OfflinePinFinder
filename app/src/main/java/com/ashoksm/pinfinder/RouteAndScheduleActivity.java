@@ -15,6 +15,7 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import com.ashoksm.pinfinder.adapter.RouteAndScheduleAdapter;
 import com.ashoksm.pinfinder.common.AppRater;
@@ -119,6 +120,9 @@ public class RouteAndScheduleActivity extends ActivityBase {
             }
 
         }.execute();
+        if(!xLargeScreen) {
+            Toast.makeText(this, "Use Landscape for better experience", Toast.LENGTH_LONG).show();
+        }
         AppRater.appLaunched(this);
     }
 
@@ -179,7 +183,7 @@ public class RouteAndScheduleActivity extends ActivityBase {
 
     private boolean isXLargeScreen() {
         return (getResources().getConfiguration().screenLayout & Configuration
-                .SCREENLAYOUT_SIZE_MASK) >= Configuration.SCREENLAYOUT_SIZE_XLARGE ||
+                .SCREENLAYOUT_SIZE_MASK) >= Configuration.SCREENLAYOUT_SIZE_LARGE ||
                 getResources().getConfiguration().orientation ==
                         Configuration.ORIENTATION_LANDSCAPE;
     }
