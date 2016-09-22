@@ -180,7 +180,7 @@ public class NearByPlacesActivity extends ActivityBase implements LocationListen
         map.getUiSettings().setMapToolbarEnabled(true);
         map.getUiSettings().setZoomControlsEnabled(true);
         map.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(mLatitude, mLongitude)));
-        map.animateCamera(CameraUpdateFactory.zoomTo(15));
+        map.animateCamera(CameraUpdateFactory.zoomTo(13));
         mGoogleMap = map;
 
         final Intent intent = getIntent();
@@ -320,7 +320,7 @@ public class NearByPlacesActivity extends ActivityBase implements LocationListen
 
         if (mGoogleMap != null) {
             mGoogleMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
-            mGoogleMap.animateCamera(CameraUpdateFactory.zoomTo(15));
+            mGoogleMap.animateCamera(CameraUpdateFactory.zoomTo(13));
             if(getSupportActionBar() != null && getSupportActionBar().getTitle() != null) {
                 String title = getSupportActionBar().getTitle().toString();
                 if(!title.contains("Results found")) {
