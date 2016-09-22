@@ -34,9 +34,10 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.2.1'
     compile 'com.android.support:design:24.2.1'
     compile 'com.android.support:support-v4:24.2.1'
-    compile 'com.google.android.gms:play-services-ads:9.4.0'
     compile 'com.github.clans:fab:1.6.2'
     compile 'com.bignerdranch.android:simple-item-decoration:1.0.0'
     compile 'com.github.clockbyte:admobadapter:1.2.2'
-    compile 'com.google.android.gms:play-services-maps:9.4.0'
+    compile 'com.google.android.gms:play-services-ads:9.6.0'
+    compile 'com.google.android.gms:play-services-maps:9.6.0'
+    compile 'com.google.firebase:firebase-ads:9.6.0'
 }

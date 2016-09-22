@@ -15,11 +15,26 @@
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
-    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
-              android:id="@+id/map"
-              class="com.google.android.gms.maps.SupportMapFragment"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:layout_below="@+id/my_awesome_toolbar"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/my_awesome_toolbar">
+
+        <fragment
+            android:id="@+id/map"
+            class="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/adLayout"/>
+
+        <LinearLayout
+            android:id="@+id/adLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone"/>
+    </RelativeLayout>
 
 </RelativeLayout>

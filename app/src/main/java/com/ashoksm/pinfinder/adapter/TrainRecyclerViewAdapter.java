@@ -55,7 +55,8 @@ public class TrainRecyclerViewAdapter
                 Menu popupMenu = menu.getMenu();
                 popupMenu.findItem(R.id.addToFav).setVisible(false);
                 popupMenu.findItem(R.id.deleteFav).setVisible(false);
-                popupMenu.findItem(R.id.viewOnMap).setTitle("Navigate");
+                popupMenu.findItem(R.id.viewOnMap).setTitle("Navigate")
+                        .setIcon(R.drawable.ic_maps_navigation);
 
                 try {
                     Field[] fields = menu.getClass().getDeclaredFields();
@@ -140,7 +141,7 @@ public class TrainRecyclerViewAdapter
 
     private void openGMAP(ViewHolder h) {
         String uri = "http://maps.google.com/maps?saddr=" + h.starts.getText().toString()
-                + " train station&daddr="+ h.ends.getText().toString() + " train station&dirflg=r";
+                + " train station&daddr=" + h.ends.getText().toString() + " train station&dirflg=r";
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
         intent.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
         try {

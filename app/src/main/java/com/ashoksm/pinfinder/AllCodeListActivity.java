@@ -389,7 +389,7 @@ public class AllCodeListActivity extends ActivityBase {
 
     private boolean isXLargeScreen(Context context) {
         return (context.getResources().getConfiguration().screenLayout & Configuration
-                .SCREENLAYOUT_SIZE_MASK) >= Configuration.SCREENLAYOUT_SIZE_XLARGE;
+                .SCREENLAYOUT_SIZE_MASK) >= Configuration.SCREENLAYOUT_SIZE_LARGE;
     }
 
     private void loadAd() {

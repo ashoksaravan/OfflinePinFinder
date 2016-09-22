@@ -12,9 +12,16 @@ import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.View;
+import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import com.ashoksm.pinfinder.common.PlaceJSONParser;
 import com.ashoksm.pinfinder.common.activities.ActivityBase;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -43,6 +50,7 @@ public class NearByPlacesActivity extends ActivityBase implements LocationListen
     private double mLongitude = 0;
     private static final int MY_PERMISSIONS_REQUEST_LOCATION = 1;
     private LocationManager locationManager;
+    private String type = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +61,8 @@ public class NearByPlacesActivity extends ActivityBase implements LocationListen
         Toolbar toolbar = (Toolbar) findViewById(R.id.my_awesome_toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
         setSupportActionBar(toolbar);
+
+        loadAd();
 
         // Getting Google Play availability status
         GoogleApiAvailability googleApiAvailability = GoogleApiAvailability.getInstance();
@@ -93,6 +103,8 @@ public class NearByPlacesActivity extends ActivityBase implements LocationListen
 
             if (location != null) {
                 onLocationChanged(location);
+            } else {
+                Toast.makeText(this, "Can't load", Toast.LENGTH_LONG).show();
             }
 
         }
@@ -165,14 +177,15 @@ public class NearByPlacesActivity extends ActivityBase implements LocationListen
         map.setTrafficEnabled(true);
         map.setIndoorEnabled(true);
         map.setBuildingsEnabled(true);
+        map.getUiSettings().setMapToolbarEnabled(true);
         map.getUiSettings().setZoomControlsEnabled(true);
         map.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(mLatitude, mLongitude)));
-        map.animateCamera(CameraUpdateFactory.zoomTo(12));
+        map.animateCamera(CameraUpdateFactory.zoomTo(15));
         mGoogleMap = map;
 
         final Intent intent = getIntent();
         Integer menuId = intent.getIntExtra(MainActivity.EXTRA_MENU_ID, 0);
-        String type = null;
+
         if (menuId == R.id.nav_near_by_post_office) {
             type = "post_office";
         } else if (menuId == R.id.nav_near_by_bank) {
@@ -307,7 +320,21 @@ public class NearByPlacesActivity extends ActivityBase implements LocationListen
 
         if (mGoogleMap != null) {
             mGoogleMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
-            mGoogleMap.animateCamera(CameraUpdateFactory.zoomTo(12));
+            mGoogleMap.animateCamera(CameraUpdateFactory.zoomTo(15));
+            if(getSupportActionBar() != null && getSupportActionBar().getTitle() != null) {
+                String title = getSupportActionBar().getTitle().toString();
+                if(!title.contains("Results found")) {
+                    String s = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location="
+                            + mLatitude + "," + mLongitude + "&radius=5000&types=" + type
+                            + "&sensor=true&key=" + getString(R.string.google_api_key);
+
+                    // Creating a new non-ui thread task to download json data
+                    PlacesTask placesTask = new PlacesTask();
+
+                    // Invokes the "doInBackground()" method of the class PlaceTask
+                    placesTask.execute(s);
+                }
+            }
         }
     }
 
@@ -349,5 +376,32 @@ public class NearByPlacesActivity extends ActivityBase implements LocationListen
             }
         }
         return bestLocation;
+    }
+
+    private void loadAd() {
+        final LinearLayout adParent = (LinearLayout) this.findViewById(R.id.adLayout);
+        final AdView ad = new AdView(this);
+        ad.setAdUnitId(getString(R.string.admob_id));
+        ad.setAdSize(AdSize.SMART_BANNER);
+
+        final AdListener listener = new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                adParent.setVisibility(View.VISIBLE);
+                super.onAdLoaded();
+            }
+
+            @Override
+            public void onAdFailedToLoad(int errorCode) {
+                adParent.setVisibility(View.GONE);
+                super.onAdFailedToLoad(errorCode);
+            }
+        };
+
+        ad.setAdListener(listener);
+
+        adParent.addView(ad);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        ad.loadAd(adRequest);
     }
 }
