@@ -19,9 +19,9 @@
             android:layout_height="wrap_content"
             android:hint="@string/state"
             android:imeOptions="actionNext"
-            android:singleLine="true"
             android:textColor="@color/accent"
-            android:textCursorDrawable="@drawable/cursor_drawable"/>
+            android:textCursorDrawable="@drawable/cursor_drawable"
+            android:maxLines="1"/>
 
         <AutoCompleteTextView
             android:id="@+id/districts"
@@ -30,9 +30,9 @@
             android:layout_marginTop="20dp"
             android:hint="@string/districts"
             android:imeOptions="actionNext"
-            android:singleLine="true"
             android:textColor="@color/accent"
-            android:textCursorDrawable="@drawable/cursor_drawable"/>
+            android:textCursorDrawable="@drawable/cursor_drawable"
+            android:maxLines="1"/>
 
         <EditText
             android:id="@+id/text1"
@@ -41,9 +41,9 @@
             android:layout_marginTop="20dp"
             android:hint="@string/pincode_or_officename"
             android:imeOptions="actionSearch"
-            android:singleLine="true"
             android:textColor="@color/accent"
-            android:textCursorDrawable="@drawable/cursor_drawable"/>
+            android:textCursorDrawable="@drawable/cursor_drawable"
+            android:maxLines="1"/>
 
         <Button
             android:id="@+id/Search"

@@ -17,7 +17,6 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
@@ -51,8 +50,6 @@ public class StationsFragment extends Fragment {
 
         new AsyncTask<Void, Void, Void>() {
 
-            LinearLayout progressLayout = (LinearLayout) v.findViewById(R.id.progress_layout);
-            LinearLayout contentLayout = (LinearLayout) v.findViewById(R.id.content_layout);
             RailWaysSQLiteHelper sqLiteHelper = new RailWaysSQLiteHelper(getActivity());
             String[] stationCodes;
             String[] states;
@@ -77,8 +74,6 @@ public class StationsFragment extends Fragment {
                 station.setAdapter(stationAdapter);
                 state.setAdapter(stateAdapter);
                 city.setAdapter(cityAdapter);
-                progressLayout.setVisibility(View.GONE);
-                contentLayout.setVisibility(View.VISIBLE);
             }
         }.execute();
 
@@ -133,6 +128,7 @@ public class StationsFragment extends Fragment {
         intent.putExtra(EXTRA_STATE, state.getText().toString().trim());
         intent.putExtra(EXTRA_CITY, city.getText().toString().trim());
         String station = this.station.getText().toString();
+
         if (station.contains(" - ")) {
             intent.putExtra(EXTRA_STATION, station
                     .substring(0, station.indexOf(" - ")).trim());

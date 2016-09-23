@@ -19,9 +19,9 @@
             android:layout_height="wrap_content"
             android:hint="@string/state"
             android:imeOptions="actionNext"
-            android:singleLine="true"
             android:textColor="@color/accent"
-            android:textCursorDrawable="@drawable/cursor_drawable"/>
+            android:textCursorDrawable="@drawable/cursor_drawable"
+            android:maxLines="1"/>
 
         <EditText
             android:id="@+id/rtoCityName"
@@ -30,9 +30,9 @@
             android:layout_marginTop="20dp"
             android:hint="@string/rto_city_name"
             android:imeOptions="actionSearch"
-            android:singleLine="true"
             android:textColor="@color/accent"
-            android:textCursorDrawable="@drawable/cursor_drawable"/>
+            android:textCursorDrawable="@drawable/cursor_drawable"
+            android:maxLines="1"/>
 
         <Button
             android:id="@+id/rtoSearch"

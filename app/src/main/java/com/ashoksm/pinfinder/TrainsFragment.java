@@ -18,7 +18,6 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.Switch;
 import android.widget.TextView;
 
@@ -55,8 +54,6 @@ public class TrainsFragment extends Fragment {
 
         new AsyncTask<Void, Void, Void>() {
 
-            LinearLayout progressLayout = (LinearLayout) v.findViewById(R.id.progress_layout);
-            LinearLayout contentLayout = (LinearLayout) v.findViewById(R.id.content_layout);
             RailWaysSQLiteHelper sqLiteHelper = new RailWaysSQLiteHelper(getActivity());
             String[] stationCodes;
             String[] trainNos;
@@ -79,8 +76,6 @@ public class TrainsFragment extends Fragment {
                 starts.setAdapter(startAdapter);
                 ends.setAdapter(endAdapter);
                 trainName.setAdapter(trainAdapter);
-                progressLayout.setVisibility(View.GONE);
-                contentLayout.setVisibility(View.VISIBLE);
             }
         }.execute();
 
