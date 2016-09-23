@@ -189,7 +189,8 @@ public class DisplayTrainResultActivity extends ActivityBase {
     @SuppressWarnings("unchecked")
     private void initNativeAd() {
         String[] testDevicesIds = new String[]{AdRequest.DEVICE_ID_EMULATOR};
-        adAdapterWrapper = new AdmobExpressRecyclerAdapterWrapper(this, testDevicesIds);
+        adAdapterWrapper = new AdmobExpressRecyclerAdapterWrapper(this, getString(R.string
+                .admob_small_native_ad_id), testDevicesIds);
         adAdapterWrapper.setAdapter((RecyclerView.Adapter) adapter);
         adAdapterWrapper.setLimitOfAds(3);
         adAdapterWrapper.setNoOfDataBetweenAds(10);

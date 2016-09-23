@@ -191,7 +191,8 @@ public class AllCodeDetailFragment extends Fragment {
     @SuppressWarnings("unchecked")
     private void initNativeAd() {
         String[] testDevicesIds = new String[]{AdRequest.DEVICE_ID_EMULATOR};
-        adAdapterWrapper = new AdmobExpressRecyclerAdapterWrapper(getActivity(), testDevicesIds);
+        adAdapterWrapper = new AdmobExpressRecyclerAdapterWrapper(getActivity(), getString(R.string
+                .admob_small_native_ad_id), testDevicesIds);
         adAdapterWrapper.setAdapter(adapter);
         adAdapterWrapper.setLimitOfAds(3);
         adAdapterWrapper.setNoOfDataBetweenAds(10);
