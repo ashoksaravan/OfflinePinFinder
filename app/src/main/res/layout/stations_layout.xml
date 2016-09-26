@@ -21,6 +21,7 @@
             android:layout_marginTop="20dp"
             android:hint="@string/station_code_name"
             android:imeOptions="actionSearch"
+            android:inputType="text"
             android:maxLines="1"
             android:textColor="@color/accent"
             android:textCursorDrawable="@drawable/cursor_drawable"/>
@@ -32,6 +33,7 @@
             android:layout_marginTop="20dp"
             android:hint="@string/state"
             android:imeOptions="actionSearch"
+            android:inputType="text"
             android:maxLines="1"
             android:textColor="@color/accent"
             android:textCursorDrawable="@drawable/cursor_drawable"/>
@@ -43,6 +45,7 @@
             android:layout_marginTop="20dp"
             android:hint="@string/city"
             android:imeOptions="actionSearch"
+            android:inputType="text"
             android:maxLines="1"
             android:textColor="@color/accent"
             android:textCursorDrawable="@drawable/cursor_drawable"/>

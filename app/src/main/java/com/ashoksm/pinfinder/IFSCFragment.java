@@ -43,7 +43,7 @@ public class IFSCFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.ifsc_layout, null);
+        View v = inflater.inflate(R.layout.ifsc_layout, container, false);
         bankNameSpinner = (AutoCompleteTextView) v.findViewById(R.id.bankName);
         stateNameTextView = (AutoCompleteTextView) v.findViewById(R.id.stateName);
         districtNameTextView = (AutoCompleteTextView) v.findViewById(R.id.districtName);
@@ -133,13 +133,7 @@ public class IFSCFragment extends Fragment {
     }
 
     private void performSearch(Activity context) {
-        // hide keyboard
-        InputMethodManager inputMethodManager = (InputMethodManager) context
-                .getSystemService(Context.INPUT_METHOD_SERVICE);
-        if(getView() != null) {
-            inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
-                    InputMethodManager.HIDE_NOT_ALWAYS);
-        }
+
         String bankName = bankNameSpinner.getText().toString();
         if (bankName.trim().length() > 0) {
             String stateName = stateNameTextView.getText().toString();
@@ -181,6 +175,13 @@ public class IFSCFragment extends Fragment {
     }
 
     private void showInterstitial() {
+        // hide keyboard
+        InputMethodManager inputMethodManager = (InputMethodManager) getContext()
+                .getSystemService(Context.INPUT_METHOD_SERVICE);
+        if (getView() != null) {
+            inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
+                    InputMethodManager.HIDE_NOT_ALWAYS);
+        }
         if (bankNameSpinner.getText().toString().trim().length() > 0) {
             // Show the ad if it's ready. Otherwise toast and reload the ad.
             if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {

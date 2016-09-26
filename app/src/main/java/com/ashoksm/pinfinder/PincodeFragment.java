@@ -113,13 +113,6 @@ public class PincodeFragment extends Fragment {
     }
 
     private void performSearch(Activity context) {
-        // hide keyboard
-        InputMethodManager inputMethodManager = (InputMethodManager) context
-                .getSystemService(Context.INPUT_METHOD_SERVICE);
-        if(getView() != null) {
-            inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
-                    InputMethodManager.HIDE_NOT_ALWAYS);
-        }
         String stateName = states.getText().toString();
         String districtName = districts.getText().toString();
         String officeName = text.getText().toString();
@@ -154,6 +147,14 @@ public class PincodeFragment extends Fragment {
     }
 
     private void showInterstitial() {
+        // hide keyboard
+        InputMethodManager inputMethodManager =
+                (InputMethodManager) getContext().getSystemService(Context
+                        .INPUT_METHOD_SERVICE);
+        if (getView() != null) {
+            inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
+                    InputMethodManager.HIDE_NOT_ALWAYS);
+        }
         String stateName = states.getText().toString();
         String districtName = districts.getText().toString();
         String officeName = text.getText().toString();

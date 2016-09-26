@@ -19,9 +19,10 @@
             android:layout_height="wrap_content"
             android:hint="@string/bank_name"
             android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLines="1"
             android:textColor="@color/accent"
-            android:textCursorDrawable="@drawable/cursor_drawable"
-            android:maxLines="1"/>
+            android:textCursorDrawable="@drawable/cursor_drawable"/>
 
         <AutoCompleteTextView
             android:id="@+id/stateName"
@@ -30,9 +31,10 @@
             android:layout_marginTop="20dp"
             android:hint="@string/state"
             android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLines="1"
             android:textColor="@color/accent"
-            android:textCursorDrawable="@drawable/cursor_drawable"
-            android:maxLines="1"/>
+            android:textCursorDrawable="@drawable/cursor_drawable"/>
 
         <AutoCompleteTextView
             android:id="@+id/districtName"
@@ -41,9 +43,10 @@
             android:layout_marginTop="20dp"
             android:hint="@string/districts"
             android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLines="1"
             android:textColor="@color/accent"
-            android:textCursorDrawable="@drawable/cursor_drawable"
-            android:maxLines="1"/>
+            android:textCursorDrawable="@drawable/cursor_drawable"/>
 
         <EditText
             android:id="@+id/branchName"
@@ -52,9 +55,10 @@
             android:layout_marginTop="20dp"
             android:hint="@string/branch_ifsc_micr"
             android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:maxLines="1"
             android:textColor="@color/accent"
-            android:textCursorDrawable="@drawable/cursor_drawable"
-            android:maxLines="1"/>
+            android:textCursorDrawable="@drawable/cursor_drawable"/>
 
         <Button
             android:id="@+id/ifscSearch"

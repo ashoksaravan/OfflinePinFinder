@@ -7,8 +7,8 @@ android {
         applicationId "com.ashoksm.pinfinder"
         minSdkVersion 14
         targetSdkVersion 24
-        versionCode 44
-        versionName "10.3"
+        versionCode 47
+        versionName "10.6"
     }
     signingConfigs {
 
@@ -37,7 +37,7 @@ dependencies {
     compile 'com.github.clans:fab:1.6.2'
     compile 'com.bignerdranch.android:simple-item-decoration:1.0.0'
     compile 'com.github.clockbyte:admobadapter:1.2.2'
-    compile 'com.google.android.gms:play-services-ads:9.6.0'
-    compile 'com.google.android.gms:play-services-maps:9.6.0'
+    compile 'com.google.android.gms:play-services-ads:9.6.1'
+    compile 'com.google.android.gms:play-services-maps:9.6.1'
     compile 'com.google.firebase:firebase-ads:9.6.0'
 }

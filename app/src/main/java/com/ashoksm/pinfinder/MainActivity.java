@@ -16,8 +16,10 @@
 
 package com.ashoksm.pinfinder;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.location.LocationManager;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
@@ -30,6 +32,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import com.ashoksm.pinfinder.common.activities.ActivityBase;
 import com.github.clans.fab.FloatingActionButton;
@@ -48,6 +51,8 @@ public class MainActivity extends ActivityBase {
     public static final String EXTRA_MENU_ID = "EXTRA_MENU_ID";
     private DrawerLayout mDrawerLayout;
     private static final int MY_PERMISSIONS_REQUEST_LOCATION = 1;
+    private LocationManager locationManager ;
+    private boolean gpsStatus ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -102,19 +107,29 @@ public class MainActivity extends ActivityBase {
                     @Override
                     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                         mDrawerLayout.closeDrawers();
-                        Intent intent;
+                        Intent intent = null;
                         if (menuItem.getItemId() != R.id.nav_near_by_post_office && menuItem
                                 .getItemId() != R.id.nav_near_by_bank && menuItem.getItemId() !=
                                 R.id.nav_near_by_atm && menuItem.getItemId() != R.id
                                 .nav_near_by_railway_station) {
                             intent = new Intent(getApplicationContext(), AllCodeListActivity.class);
                         } else {
-                            intent =
-                                    new Intent(getApplicationContext(), NearByPlacesActivity.class);
+                            locationManager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
+                            gpsStatus = locationManager.isProviderEnabled(LocationManager
+                                    .GPS_PROVIDER);
+                            if(gpsStatus) {
+                                intent =  new Intent(getApplicationContext(),
+                                                NearByPlacesActivity.class);
+                            } else {
+                                Toast.makeText(MainActivity.this, "Please turn on the GPS!!!",
+                                        Toast.LENGTH_LONG).show();
+                            }
                         }
-                        intent.putExtra(EXTRA_MENU_ID, menuItem.getItemId());
-                        startActivity(intent);
-                        overridePendingTransition(R.anim.slide_out_left, 0);
+                        if(intent != null) {
+                            intent.putExtra(EXTRA_MENU_ID, menuItem.getItemId());
+                            startActivity(intent);
+                            overridePendingTransition(R.anim.slide_out_left, 0);
+                        }
                         return false;
                     }
                 });

@@ -27,6 +27,7 @@
             android:layout_marginTop="20dp"
             android:hint="@string/train_number_name"
             android:imeOptions="actionSearch"
+            android:inputType="text"
             android:maxLines="1"
             android:textColor="@color/accent"
             android:textCursorDrawable="@drawable/cursor_drawable"/>
@@ -38,6 +39,7 @@
             android:layout_marginTop="20dp"
             android:hint="@string/start"
             android:imeOptions="actionSearch"
+            android:inputType="text"
             android:maxLines="1"
             android:textColor="@color/accent"
             android:textCursorDrawable="@drawable/cursor_drawable"
@@ -50,6 +52,7 @@
             android:layout_marginTop="20dp"
             android:hint="@string/ends"
             android:imeOptions="actionSearch"
+            android:inputType="text"
             android:maxLines="1"
             android:textColor="@color/accent"
             android:textCursorDrawable="@drawable/cursor_drawable"
