@@ -20,10 +20,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.InterstitialAd;
-
 import java.util.Locale;
 
 public class IFSCFragment extends Fragment {
@@ -37,7 +33,6 @@ public class IFSCFragment extends Fragment {
     private AutoCompleteTextView stateNameTextView;
     private AutoCompleteTextView districtNameTextView;
     private EditText branchName;
-    private static InterstitialAd mInterstitialAd;
 
     @Nullable
     @Override
@@ -48,8 +43,6 @@ public class IFSCFragment extends Fragment {
         stateNameTextView = (AutoCompleteTextView) v.findViewById(R.id.stateName);
         districtNameTextView = (AutoCompleteTextView) v.findViewById(R.id.districtName);
         branchName = (EditText) v.findViewById(R.id.branchName);
-        mInterstitialAd = newInterstitialAd();
-        loadInterstitial();
         ArrayAdapter<CharSequence> adapter =
                 ArrayAdapter.createFromResource(getActivity(), R.array.bank_names,
                         R.layout.spinner_dropdown_item);
@@ -114,7 +107,7 @@ public class IFSCFragment extends Fragment {
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showInterstitial();
+                performSearch(getActivity());
             }
 
         });
@@ -123,7 +116,7 @@ public class IFSCFragment extends Fragment {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
                 if (actionId == EditorInfo.IME_ACTION_SEARCH) {
-                    showInterstitial();
+                    performSearch(getActivity());
                     return true;
                 }
                 return false;
@@ -133,6 +126,14 @@ public class IFSCFragment extends Fragment {
     }
 
     private void performSearch(Activity context) {
+
+        // hide keyboard
+        InputMethodManager inputMethodManager = (InputMethodManager) context
+                .getSystemService(Context.INPUT_METHOD_SERVICE);
+        if (getView() != null) {
+            inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
+                    InputMethodManager.HIDE_NOT_ALWAYS);
+        }
 
         String bankName = bankNameSpinner.getText().toString();
         if (bankName.trim().length() > 0) {
@@ -151,51 +152,5 @@ public class IFSCFragment extends Fragment {
         } else {
             Toast.makeText(context, "Please Select a Bank!!!", Toast.LENGTH_LONG).show();
         }
-    }
-
-    private InterstitialAd newInterstitialAd() {
-        InterstitialAd interstitialAd = new InterstitialAd(getActivity());
-        interstitialAd.setAdUnitId(getActivity().getString(R.string.admob_id));
-        interstitialAd.setAdListener(new AdListener() {
-            @Override
-            public void onAdLoaded() {
-            }
-
-            @Override
-            public void onAdFailedToLoad(int errorCode) {
-            }
-
-            @Override
-            public void onAdClosed() {
-                // Proceed to the next level.
-                performSearch(getActivity());
-            }
-        });
-        return interstitialAd;
-    }
-
-    private void showInterstitial() {
-        // hide keyboard
-        InputMethodManager inputMethodManager = (InputMethodManager) getContext()
-                .getSystemService(Context.INPUT_METHOD_SERVICE);
-        if (getView() != null) {
-            inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
-                    InputMethodManager.HIDE_NOT_ALWAYS);
-        }
-        if (bankNameSpinner.getText().toString().trim().length() > 0) {
-            // Show the ad if it's ready. Otherwise toast and reload the ad.
-            if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
-                mInterstitialAd.show();
-            } else {
-                performSearch(getActivity());
-            }
-        } else {
-            Toast.makeText(getActivity(), "Please Select a Bank!!!", Toast.LENGTH_LONG).show();
-        }
-    }
-
-    private static void loadInterstitial() {
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mInterstitialAd.loadAd(adRequest);
     }
 }

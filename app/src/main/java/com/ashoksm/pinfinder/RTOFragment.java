@@ -18,27 +18,19 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.InterstitialAd;
-
 public class RTOFragment extends Fragment {
 
     private AutoCompleteTextView stateNameTextView;
     private EditText cityName;
     public final static String EXTRA_STATE = "com.ashoksm.offlinepinfinder.STATE";
     public final static String EXTRA_CITY = "com.ashoksm.offlinepinfinder.CITY";
-    private static InterstitialAd mInterstitialAd;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.rto_layout, null);
+        View v = inflater.inflate(R.layout.rto_layout, container, false);
         stateNameTextView = (AutoCompleteTextView) v.findViewById(R.id.rtoStates);
-
-        mInterstitialAd = newInterstitialAd();
-        loadInterstitial();
 
         ArrayAdapter<CharSequence> stateAdapter =
                 ArrayAdapter.createFromResource(getActivity(), R.array.states_array,
@@ -50,7 +42,7 @@ public class RTOFragment extends Fragment {
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showInterstitial();
+                performSearch(getActivity());
             }
 
         });
@@ -59,7 +51,7 @@ public class RTOFragment extends Fragment {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
                 if (actionId == EditorInfo.IME_ACTION_SEARCH) {
-                    showInterstitial();
+                    performSearch(getActivity());
                     return true;
                 }
                 return false;
@@ -86,40 +78,5 @@ public class RTOFragment extends Fragment {
         intent.putExtra(MainActivity.EXTRA_SHOW_FAV, false);
         context.startActivity(intent);
         context.overridePendingTransition(R.anim.slide_out_left, 0);
-    }
-
-    private InterstitialAd newInterstitialAd() {
-        InterstitialAd interstitialAd = new InterstitialAd(getActivity());
-        interstitialAd.setAdUnitId(getActivity().getString(R.string.admob_id));
-        interstitialAd.setAdListener(new AdListener() {
-            @Override
-            public void onAdLoaded() {
-            }
-
-            @Override
-            public void onAdFailedToLoad(int errorCode) {
-            }
-
-            @Override
-            public void onAdClosed() {
-                // Proceed to the next level.
-                performSearch(getActivity());
-            }
-        });
-        return interstitialAd;
-    }
-
-    private void showInterstitial() {
-        // Show the ad if it's ready. Otherwise toast and reload the ad.
-        if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
-            mInterstitialAd.show();
-        } else {
-            performSearch(getActivity());
-        }
-    }
-
-    private static void loadInterstitial() {
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mInterstitialAd.loadAd(adRequest);
     }
 }

@@ -348,7 +348,7 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
                         + ") LIKE '%" + nameOrCode + "%'";
             }
         }
-        String selectQuery = select + where;
+        String selectQuery = select + where + " order by " + NAME;
         Log.d(CLASS_NAME, selectQuery);
 
         return db.rawQuery(selectQuery, null);

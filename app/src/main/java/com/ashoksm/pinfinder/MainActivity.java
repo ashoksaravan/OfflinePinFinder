@@ -159,7 +159,7 @@ public class MainActivity extends ActivityBase {
             public void onClick(View v) {
                 actionMenu.close(true);
                 clazz = DisplayPinCodeResultActivity.class;
-                showInterstitial();
+                performSearch();
             }
         });
 
@@ -170,7 +170,7 @@ public class MainActivity extends ActivityBase {
             public void onClick(View v) {
                 actionMenu.close(true);
                 clazz = DisplayBankResultActivity.class;
-                showInterstitial();
+                performSearch();
             }
         });
 
@@ -181,7 +181,7 @@ public class MainActivity extends ActivityBase {
             public void onClick(View v) {
                 actionMenu.close(true);
                 clazz = DisplaySTDResultActivity.class;
-                showInterstitial();
+                performSearch();
             }
         });
 
@@ -192,7 +192,7 @@ public class MainActivity extends ActivityBase {
             public void onClick(View v) {
                 actionMenu.close(true);
                 clazz = DisplayRTOResultActivity.class;
-                showInterstitial();
+                performSearch();
             }
         });
     }
@@ -250,8 +250,7 @@ public class MainActivity extends ActivityBase {
 
             @Override
             public void onAdClosed() {
-                // Proceed to the next level.
-                performSearch();
+                MainActivity.super.onBackPressed();
             }
         });
         return interstitialAd;
@@ -262,7 +261,7 @@ public class MainActivity extends ActivityBase {
         if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
             mInterstitialAd.show();
         } else {
-            performSearch();
+            super.onBackPressed();
         }
     }
 
@@ -276,5 +275,10 @@ public class MainActivity extends ActivityBase {
         intent.putExtra(EXTRA_SHOW_FAV, true);
         startActivity(intent);
         overridePendingTransition(R.anim.slide_out_left, 0);
+    }
+
+    @Override
+    public void onBackPressed() {
+        showInterstitial();
     }
 }

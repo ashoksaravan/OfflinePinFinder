@@ -20,17 +20,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/primary"
-            android:padding="0dp"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            app:contentInsetEnd="0dp"
-            app:contentInsetLeft="0dp"
-            app:contentInsetRight="0dp"
-            app:contentInsetStart="0dp">
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
             <EditText
                 android:id="@+id/search_bar"
                 android:layout_width="match_parent"
                 android:layout_height="48dip"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="0dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginRight="10dp"
                 android:hint="@string/button_search"

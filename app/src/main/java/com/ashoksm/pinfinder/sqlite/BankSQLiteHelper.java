@@ -21,7 +21,7 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
     private static final String CLASS_NAME = BankSQLiteHelper.class.getName();
 
     // Database Version
-    private static final int DATABASE_VERSION = 14;
+    private static final int DATABASE_VERSION = 15;
 
     // Database Name
     private static final String DATABASE_NAME = "ashoksm.bankbranch";
@@ -230,7 +230,7 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
                         + "%' OR LOWER(REPLACE(" + MICR + ",' ','')) LIKE '%" + branchName + "%')";
             }
         }
-        String selectQuery = select + where;
+        String selectQuery = select + where + " ORDER BY " + IFSC;
         Log.d(CLASS_NAME, selectQuery);
 
         return db.rawQuery(selectQuery, null);

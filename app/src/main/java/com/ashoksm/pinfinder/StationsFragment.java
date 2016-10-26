@@ -20,9 +20,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.InterstitialAd;
 
 public class StationsFragment extends Fragment {
 
@@ -32,16 +29,12 @@ public class StationsFragment extends Fragment {
     public final static String EXTRA_STATE = "com.ashoksm.offlinepinfinder.STATE";
     public final static String EXTRA_CITY = "com.ashoksm.offlinepinfinder.CITY";
     public final static String EXTRA_STATION = "com.ashoksm.offlinepinfinder.STATION";
-    private InterstitialAd mInterstitialAd;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        final View v = inflater.inflate(R.layout.stations_layout, null);
-
-        mInterstitialAd = newInterstitialAd();
-        loadInterstitial();
+        final View v = inflater.inflate(R.layout.stations_layout, container, false);
 
         station = (AutoCompleteTextView) v.findViewById(R.id.station);
         state = (AutoCompleteTextView) v.findViewById(R.id.stations_state);
@@ -65,22 +58,24 @@ public class StationsFragment extends Fragment {
 
             @Override
             protected void onPostExecute(Void result) {
-                ArrayAdapter<String> stationAdapter = new ArrayAdapter<>(getContext(),
-                        R.layout.spinner_dropdown_item, stationCodes);
-                ArrayAdapter<String> stateAdapter = new ArrayAdapter<>(getContext(),
-                        R.layout.spinner_dropdown_item, states);
-                ArrayAdapter<String> cityAdapter = new ArrayAdapter<>(getContext(),
-                        R.layout.spinner_dropdown_item, cities);
-                station.setAdapter(stationAdapter);
-                state.setAdapter(stateAdapter);
-                city.setAdapter(cityAdapter);
+                if (isAdded()) {
+                    ArrayAdapter<String> stationAdapter = new ArrayAdapter<>(getContext(),
+                            R.layout.spinner_dropdown_item, stationCodes);
+                    ArrayAdapter<String> stateAdapter = new ArrayAdapter<>(getContext(),
+                            R.layout.spinner_dropdown_item, states);
+                    ArrayAdapter<String> cityAdapter = new ArrayAdapter<>(getContext(),
+                            R.layout.spinner_dropdown_item, cities);
+                    station.setAdapter(stationAdapter);
+                    state.setAdapter(stateAdapter);
+                    city.setAdapter(cityAdapter);
+                }
             }
         }.execute();
 
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showInterstitial();
+                performSearch(getActivity());
             }
         });
 
@@ -109,7 +104,7 @@ public class StationsFragment extends Fragment {
 
     private boolean editorAction(int actionId) {
         if (actionId == EditorInfo.IME_ACTION_SEARCH) {
-            showInterstitial();
+            performSearch(getActivity());
             return true;
         }
         return false;
@@ -139,40 +134,5 @@ public class StationsFragment extends Fragment {
         intent.putExtra(MainActivity.EXTRA_SHOW_FAV, false);
         context.startActivity(intent);
         context.overridePendingTransition(R.anim.slide_out_left, 0);
-    }
-
-    private InterstitialAd newInterstitialAd() {
-        InterstitialAd interstitialAd = new InterstitialAd(getActivity());
-        interstitialAd.setAdUnitId(getActivity().getString(R.string.admob_id));
-        interstitialAd.setAdListener(new AdListener() {
-            @Override
-            public void onAdLoaded() {
-            }
-
-            @Override
-            public void onAdFailedToLoad(int errorCode) {
-            }
-
-            @Override
-            public void onAdClosed() {
-                // Proceed to the next level.
-                performSearch(getActivity());
-            }
-        });
-        return interstitialAd;
-    }
-
-    private void showInterstitial() {
-        // Show the ad if it's ready. Otherwise toast and reload the ad.
-        if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
-            mInterstitialAd.show();
-        } else {
-            performSearch(getActivity());
-        }
-    }
-
-    private void loadInterstitial() {
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mInterstitialAd.loadAd(adRequest);
     }
 }
