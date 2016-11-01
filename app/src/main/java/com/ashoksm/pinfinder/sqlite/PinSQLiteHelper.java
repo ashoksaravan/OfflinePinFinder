@@ -310,19 +310,14 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
                                       final String nameOrCode) {
         SQLiteDatabase db = this.getReadableDatabase();
 
-        String select = "SELECT  " + NAME + " AS _id, " + PIN_CODE + ", " + STATUS_NAME + ", " +
-                SUB_OFFICE + ", "
-                + HEAD_OFFICE + ", l." + LOCATION_NAME + ", d." + DISTRICT_NAME + ", s." +
-                STATE_NAME + ", "
-                + TELEPHONE + " FROM " + TABLE_POST_OFFICE + " ps" + " INNER JOIN " + TABLE_STATE +
-                " s ON ps." + STATE
-                + " = s." + STATE + " INNER JOIN " + TABLE_DISTRICT + " d ON ps." + DISTRICT +
-                " = d." + DISTRICT
-                + " AND d." + STATE + " = s." + STATE + " INNER JOIN " + TABLE_LOCATION +
-                " l ON ps." + LOCATION
-                + " = l." + LOCATION + " INNER JOIN " + TABLE_STATUS + " sc ON ps." + STATUS_CODE +
-                " = sc."
-                + STATUS_CODE;
+        String select = "SELECT  " + NAME + " AS _id, " + PIN_CODE + ", " + STATUS_NAME + ", "
+                + SUB_OFFICE + ", " + HEAD_OFFICE + ", l." + LOCATION_NAME + ", d." + DISTRICT_NAME
+                + ", s." + STATE_NAME + ", " + TELEPHONE + " FROM " + TABLE_POST_OFFICE + " ps"
+                + " INNER JOIN " + TABLE_STATE + " s ON ps." + STATE + " = s." + STATE
+                + " INNER JOIN " + TABLE_DISTRICT + " d ON ps." + DISTRICT + " = d." + DISTRICT
+                + " AND d." + STATE + " = s." + STATE + " INNER JOIN " + TABLE_LOCATION
+                + " l ON ps." + LOCATION + " = l." + LOCATION + " INNER JOIN " + TABLE_STATUS
+                + " sc ON ps." + STATUS_CODE + " = sc." + STATUS_CODE;
         String where = "";
 
         if (stateName.trim().length() > 0) {
@@ -348,7 +343,7 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
                         + ") LIKE '%" + nameOrCode + "%'";
             }
         }
-        String selectQuery = select + where + " order by " + NAME;
+        String selectQuery = select + where + " ORDER BY " + NAME;
         Log.d(CLASS_NAME, selectQuery);
 
         return db.rawQuery(selectQuery, null);
@@ -365,19 +360,14 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
     public Cursor findFavOffices(final String pincodes) {
         SQLiteDatabase db = this.getReadableDatabase();
 
-        String select = "SELECT  " + NAME + " AS _id, " + PIN_CODE + ", " + STATUS_NAME + ", " +
-                SUB_OFFICE + ", "
-                + HEAD_OFFICE + ", l." + LOCATION_NAME + ", d." + DISTRICT_NAME + ", s." +
-                STATE_NAME + ", "
-                + TELEPHONE + " FROM " + TABLE_POST_OFFICE + " ps" + " INNER JOIN " + TABLE_STATE +
-                " s ON ps." + STATE
-                + " = s." + STATE + " INNER JOIN " + TABLE_DISTRICT + " d ON ps." + DISTRICT +
-                " = d." + DISTRICT
-                + " AND d." + STATE + " = s." + STATE + " INNER JOIN " + TABLE_LOCATION +
-                " l ON ps." + LOCATION
-                + " = l." + LOCATION + " INNER JOIN " + TABLE_STATUS + " sc ON ps." + STATUS_CODE +
-                " = sc."
-                + STATUS_CODE;
+        String select = "SELECT  " + NAME + " AS _id, " + PIN_CODE + ", " + STATUS_NAME + ", "
+                + SUB_OFFICE + ", " + HEAD_OFFICE + ", l." + LOCATION_NAME + ", d." + DISTRICT_NAME
+                + ", s." + STATE_NAME + ", " + TELEPHONE + " FROM " + TABLE_POST_OFFICE + " ps"
+                + " INNER JOIN " + TABLE_STATE + " s ON ps." + STATE + " = s." + STATE
+                + " INNER JOIN " + TABLE_DISTRICT + " d ON ps." + DISTRICT + " = d." + DISTRICT
+                + " AND d." + STATE + " = s." + STATE + " INNER JOIN " + TABLE_LOCATION
+                + " l ON ps." + LOCATION + " = l." + LOCATION + " INNER JOIN " + TABLE_STATUS
+                + " sc ON ps." + STATUS_CODE + " = sc." + STATUS_CODE;
         String where = " WHERE " + PIN_CODE + " IN (" + pincodes + ")";
         String selectQuery = select + where;
         Log.d(CLASS_NAME, selectQuery);

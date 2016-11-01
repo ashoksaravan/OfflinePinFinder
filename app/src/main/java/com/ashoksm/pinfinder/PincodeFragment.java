@@ -21,6 +21,11 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.ashoksm.pinfinder.common.AdCounter;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+
 import java.util.Locale;
 
 public class PincodeFragment extends Fragment {
@@ -31,6 +36,7 @@ public class PincodeFragment extends Fragment {
     private AutoCompleteTextView states;
     private AutoCompleteTextView districts;
     private EditText text;
+    private static InterstitialAd mInterstitialAd;
 
     @Nullable
     @Override
@@ -38,6 +44,8 @@ public class PincodeFragment extends Fragment {
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.pincode_layout, container, false);
         states = (AutoCompleteTextView) v.findViewById(R.id.states);
+        mInterstitialAd = newInterstitialAd();
+        loadInterstitial();
         // Get the string array
         String[] statesArr = getActivity().getResources().getStringArray(R.array.states_array);
         // Create the adapter and set it to the AutoCompleteTextView
@@ -89,7 +97,7 @@ public class PincodeFragment extends Fragment {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
                 if (actionId == EditorInfo.IME_ACTION_SEARCH) {
-                    performSearch(getActivity());
+                    showInterstitial();
                     return true;
                 }
                 return false;
@@ -99,13 +107,47 @@ public class PincodeFragment extends Fragment {
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                performSearch(getActivity());
+                showInterstitial();
             }
 
         });
     }
 
     private void performSearch(Activity context) {
+        String stateName = states.getText().toString();
+        String districtName = districts.getText().toString();
+        String officeName = text.getText().toString();
+        Intent intent = new Intent(context, DisplayPinCodeResultActivity.class);
+        intent.putExtra(EXTRA_STATE, stateName.trim());
+        intent.putExtra(EXTRA_DISTRICT, districtName.trim());
+        intent.putExtra(EXTRA_OFFICE, officeName.trim());
+        intent.putExtra(MainActivity.EXTRA_SHOW_FAV, false);
+        context.startActivity(intent);
+        context.overridePendingTransition(R.anim.slide_out_left, 0);
+    }
+
+    private InterstitialAd newInterstitialAd() {
+        InterstitialAd interstitialAd = new InterstitialAd(this.getActivity());
+        interstitialAd.setAdUnitId(this.getActivity().getString(R.string.admob_id));
+        interstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+            }
+
+            @Override
+            public void onAdFailedToLoad(int errorCode) {
+            }
+
+            @Override
+            public void onAdClosed() {
+                // Proceed to the next level.
+                performSearch(PincodeFragment.this.getActivity());
+            }
+        });
+        return interstitialAd;
+    }
+
+    private void showInterstitial() {
         // hide keyboard
         InputMethodManager inputMethodManager =
                 (InputMethodManager) getContext().getSystemService(Context
@@ -122,13 +164,19 @@ public class PincodeFragment extends Fragment {
             Toast.makeText(getActivity(), "All search fields can't be empty!!!", Toast.LENGTH_LONG)
                     .show();
         } else {
-            Intent intent = new Intent(context, DisplayPinCodeResultActivity.class);
-            intent.putExtra(EXTRA_STATE, stateName.trim());
-            intent.putExtra(EXTRA_DISTRICT, districtName.trim());
-            intent.putExtra(EXTRA_OFFICE, officeName.trim());
-            intent.putExtra(MainActivity.EXTRA_SHOW_FAV, false);
-            context.startActivity(intent);
-            context.overridePendingTransition(R.anim.slide_out_left, 0);
+            // Show the ad if it's ready. Otherwise toast and reload the ad.
+            if (mInterstitialAd != null && mInterstitialAd.isLoaded() && AdCounter.getInstance()
+                    .getCount() % 5 == 0) {
+                mInterstitialAd.show();
+            } else {
+                performSearch(PincodeFragment.this.getActivity());
+            }
         }
+        AdCounter.getInstance().incrementCount();
+    }
+
+    private static void loadInterstitial() {
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mInterstitialAd.loadAd(adRequest);
     }
 }

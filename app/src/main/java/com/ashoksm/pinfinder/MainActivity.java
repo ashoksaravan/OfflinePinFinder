@@ -34,6 +34,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
+import com.ashoksm.pinfinder.common.AdCounter;
 import com.ashoksm.pinfinder.common.activities.ActivityBase;
 import com.github.clans.fab.FloatingActionButton;
 import com.github.clans.fab.FloatingActionMenu;
@@ -159,7 +160,7 @@ public class MainActivity extends ActivityBase {
             public void onClick(View v) {
                 actionMenu.close(true);
                 clazz = DisplayPinCodeResultActivity.class;
-                performSearch();
+                showInterstitial();
             }
         });
 
@@ -170,7 +171,7 @@ public class MainActivity extends ActivityBase {
             public void onClick(View v) {
                 actionMenu.close(true);
                 clazz = DisplayBankResultActivity.class;
-                performSearch();
+                showInterstitial();
             }
         });
 
@@ -181,7 +182,7 @@ public class MainActivity extends ActivityBase {
             public void onClick(View v) {
                 actionMenu.close(true);
                 clazz = DisplaySTDResultActivity.class;
-                performSearch();
+                showInterstitial();
             }
         });
 
@@ -192,7 +193,7 @@ public class MainActivity extends ActivityBase {
             public void onClick(View v) {
                 actionMenu.close(true);
                 clazz = DisplayRTOResultActivity.class;
-                performSearch();
+                showInterstitial();
             }
         });
     }
@@ -250,7 +251,8 @@ public class MainActivity extends ActivityBase {
 
             @Override
             public void onAdClosed() {
-                MainActivity.super.onBackPressed();
+                // Proceed to the next level.
+                performSearch();
             }
         });
         return interstitialAd;
@@ -258,11 +260,13 @@ public class MainActivity extends ActivityBase {
 
     private void showInterstitial() {
         // Show the ad if it's ready. Otherwise toast and reload the ad.
-        if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
+        if (mInterstitialAd != null && mInterstitialAd.isLoaded() && AdCounter.getInstance()
+                .getCount() % 5 == 0) {
             mInterstitialAd.show();
         } else {
-            super.onBackPressed();
+            performSearch();
         }
+        AdCounter.getInstance().incrementCount();
     }
 
     private void loadInterstitial() {
@@ -275,10 +279,5 @@ public class MainActivity extends ActivityBase {
         intent.putExtra(EXTRA_SHOW_FAV, true);
         startActivity(intent);
         overridePendingTransition(R.anim.slide_out_left, 0);
-    }
-
-    @Override
-    public void onBackPressed() {
-        showInterstitial();
     }
 }

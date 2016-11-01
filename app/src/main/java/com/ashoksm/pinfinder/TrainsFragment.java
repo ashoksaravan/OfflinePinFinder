@@ -21,7 +21,11 @@ import android.widget.EditText;
 import android.widget.Switch;
 import android.widget.TextView;
 
+import com.ashoksm.pinfinder.common.AdCounter;
 import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
 
 public class TrainsFragment extends Fragment {
 
@@ -32,12 +36,16 @@ public class TrainsFragment extends Fragment {
     public final static String EXTRA_STARTS = "com.ashoksm.offlinepinfinder.STARTS";
     public final static String EXTRA_ENDS = "com.ashoksm.offlinepinfinder.ENDS";
     public final static String EXTRA_TRAIN = "com.ashoksm.offlinepinfinder.TRAIN";
+    private InterstitialAd mInterstitialAd;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         final View v = inflater.inflate(R.layout.trains_layout, container, false);
+
+        mInterstitialAd = newInterstitialAd();
+        loadInterstitial();
 
         starts = (AutoCompleteTextView) v.findViewById(R.id.starts);
         ends = (AutoCompleteTextView) v.findViewById(R.id.ends);
@@ -60,7 +68,7 @@ public class TrainsFragment extends Fragment {
 
             @Override
             protected void onPostExecute(Void aVoid) {
-                if (isAdded()) {
+                if (getContext() != null) {
                     ArrayAdapter<String> startAdapter = new ArrayAdapter<>(getContext(),
                             R.layout.spinner_dropdown_item, stationCodes);
                     ArrayAdapter<String> endAdapter = new ArrayAdapter<>(getContext(),
@@ -77,7 +85,7 @@ public class TrainsFragment extends Fragment {
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                performSearch(getActivity());
+                showInterstitial();
             }
         });
 
@@ -115,7 +123,7 @@ public class TrainsFragment extends Fragment {
 
     private boolean editorAction(int actionId) {
         if (actionId == EditorInfo.IME_ACTION_SEARCH) {
-            performSearch(getActivity());
+            showInterstitial();
             return true;
         }
         return false;
@@ -144,5 +152,42 @@ public class TrainsFragment extends Fragment {
         intent.putExtra(MainActivity.EXTRA_SHOW_FAV, false);
         context.startActivity(intent);
         context.overridePendingTransition(R.anim.slide_out_left, 0);
+    }
+
+    private InterstitialAd newInterstitialAd() {
+        InterstitialAd interstitialAd = new InterstitialAd(getActivity());
+        interstitialAd.setAdUnitId(getActivity().getString(R.string.admob_id));
+        interstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+            }
+
+            @Override
+            public void onAdFailedToLoad(int errorCode) {
+            }
+
+            @Override
+            public void onAdClosed() {
+                // Proceed to the next level.
+                performSearch(getActivity());
+            }
+        });
+        return interstitialAd;
+    }
+
+    private void showInterstitial() {
+        // Show the ad if it's ready. Otherwise toast and reload the ad.
+        if (mInterstitialAd != null && mInterstitialAd.isLoaded() && AdCounter.getInstance()
+                .getCount() % 5 == 0) {
+            mInterstitialAd.show();
+        } else {
+            performSearch(getActivity());
+        }
+        AdCounter.getInstance().incrementCount();
+    }
+
+    private void loadInterstitial() {
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mInterstitialAd.loadAd(adRequest);
     }
 }

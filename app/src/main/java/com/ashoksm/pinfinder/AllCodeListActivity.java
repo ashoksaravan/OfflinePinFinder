@@ -25,6 +25,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.ashoksm.pinfinder.adapter.CursorRecyclerViewAdapter;
+import com.ashoksm.pinfinder.common.AdCounter;
 import com.ashoksm.pinfinder.common.activities.ActivityBase;
 import com.ashoksm.pinfinder.sqlite.BankSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.PinSQLiteHelper;
@@ -37,6 +38,7 @@ import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
 
 import java.util.regex.Pattern;
@@ -51,6 +53,7 @@ public class AllCodeListActivity extends ActivityBase {
     private EditText searchBar;
     private int menuId;
     private String queryTxt;
+    private InterstitialAd mInterstitialAd;
     private AdmobExpressRecyclerAdapterWrapper adAdapterWrapper;
     private AllCodeViewAdapter adapter;
 
@@ -415,8 +418,47 @@ public class AllCodeListActivity extends ActivityBase {
         adParent.addView(ad);
         AdRequest adRequest = new AdRequest.Builder().build();
         ad.loadAd(adRequest);
+
+        // Begin loading your interstitial.
+        mInterstitialAd = newInterstitialAd();
+        loadInterstitial();
     }
 
+    private InterstitialAd newInterstitialAd() {
+        InterstitialAd interstitialAd = new InterstitialAd(this);
+        interstitialAd.setAdUnitId(getString(R.string.admob_id));
+        interstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+            }
+
+            @Override
+            public void onAdFailedToLoad(int errorCode) {
+            }
+
+            @Override
+            public void onAdClosed() {
+                AllCodeListActivity.super.onBackPressed();
+            }
+        });
+        return interstitialAd;
+    }
+
+    private void showInterstitial() {
+        // Show the ad if it's ready. Otherwise toast and reload the ad.
+        if (mInterstitialAd != null && mInterstitialAd.isLoaded() && AdCounter.getInstance()
+                .getCount() % 5 == 0) {
+            mInterstitialAd.show();
+        } else {
+            AllCodeListActivity.super.onBackPressed();
+        }
+        AdCounter.getInstance().incrementCount();
+    }
+
+    private void loadInterstitial() {
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mInterstitialAd.loadAd(adRequest);
+    }
 
     @SuppressWarnings("unchecked")
     private void initNativeAd() {
@@ -427,6 +469,11 @@ public class AllCodeListActivity extends ActivityBase {
         adAdapterWrapper.setLimitOfAds(3);
         adAdapterWrapper.setNoOfDataBetweenAds(10);
         adAdapterWrapper.setFirstAdIndex(2);
+    }
+
+    @Override
+    public void onBackPressed() {
+        showInterstitial();
     }
 
     @Override
