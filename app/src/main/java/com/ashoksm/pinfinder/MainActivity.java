@@ -196,6 +196,7 @@ public class MainActivity extends ActivityBase {
                 showInterstitial();
             }
         });
+        actionMenu.setClosedOnTouchOutside(true);
     }
 
     private void loadAd() {
