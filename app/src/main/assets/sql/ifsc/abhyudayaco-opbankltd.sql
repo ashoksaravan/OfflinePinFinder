@@ -74,7 +74,6 @@ INSERT INTO bank_branch_t VALUES('Kausa Mumbra', 'Thane', 'Virani Business Centr
 INSERT INTO bank_branch_t VALUES('Ulwe', 'Panvel', 'Shop NO. 1, 2,3 Prathmesh Pride, Plot NO. 06, Sector 19, Ulwe, TAL  Panvel, Dist Raigad  410206', '0', '400065075', 'ABHY0065075', 14);
 INSERT INTO bank_branch_t VALUES('Kurla (W)', 'Mumbai', 'Shop NO. 1 AND 2, Sanghavi Palace, Belgrami Road, Kurla W, Mumbai - 400070', '26503002', '400065076', 'ABHY0065076', 7);
 INSERT INTO bank_branch_t VALUES('PEN', 'PEN', 'Shop NO.4 AND 6, Redwood City Plaza, Plot NO. C 13, Survey NO 242b, ICE Factory, PEN 402107.', '24140961', '402065051', 'ABHY0065077', 14);
-INSERT INTO bank_branch_t VALUES('Pune Service Branch', 'Pune', '598  Dhanvant Plaza Bhudwar Peth Pune- 411002', '0', 'NA', 'ABHY0065101', 13);
 INSERT INTO bank_branch_t VALUES('Nana Peth', 'Pune', '355, Nana Peth, Pune-411002', '26356923', '411065002', 'ABHY0065102', 13);
 INSERT INTO bank_branch_t VALUES('Laxmi Road', 'Pune', '867, Budhwar Peth, Laxmi Road, Pune-411002', '24470805', '411065003', 'ABHY0065103', 13);
 INSERT INTO bank_branch_t VALUES('Yerwada', 'Pune', 'OM Mahavir Chs, Shop NO. D1-2-3, Survey NO. 1-a, Pune Nagar RD., Yerwada, Pune-411006', '26613493', '411065004', 'ABHY0065104', 13);
