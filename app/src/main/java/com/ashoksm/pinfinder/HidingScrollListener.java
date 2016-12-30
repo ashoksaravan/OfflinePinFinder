@@ -3,12 +3,12 @@ package com.ashoksm.pinfinder;
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 
-public abstract class HidingScrollListener extends RecyclerView.OnScrollListener {
+abstract class HidingScrollListener extends RecyclerView.OnScrollListener {
 
     private int mToolbarOffset = 0;
     private int mToolbarHeight;
 
-    public HidingScrollListener(Context context) {
+    HidingScrollListener(Context context) {
         mToolbarHeight = Utils.getToolbarHeight(context);
     }
 

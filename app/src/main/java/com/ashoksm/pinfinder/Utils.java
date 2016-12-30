@@ -3,7 +3,7 @@ package com.ashoksm.pinfinder;
 import android.content.Context;
 import android.content.res.TypedArray;
 
-public class Utils {
+class Utils {
 
     static int getToolbarHeight(Context context) {
         final TypedArray styledAttributes = context.getTheme().obtainStyledAttributes(

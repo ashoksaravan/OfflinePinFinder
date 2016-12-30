@@ -8,25 +8,30 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.ashoksm.pinfinder.adapter.TrainRecyclerViewAdapter;
 import com.ashoksm.pinfinder.common.AppRater;
 import com.ashoksm.pinfinder.common.activities.ActivityBase;
 import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
 import com.clockbyte.admobadapter.expressads.AdmobExpressRecyclerAdapterWrapper;
+import com.clockbyte.admobadapter.expressads.NativeExpressAdViewHolder;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.NativeExpressAdView;
 
 public class DisplayTrainResultActivity extends ActivityBase {
 
@@ -173,6 +178,9 @@ public class DisplayTrainResultActivity extends ActivityBase {
         }
         super.onDestroy();
         overridePendingTransition(R.anim.slide_in_left, 0);
+        if(adAdapterWrapper != null) {
+            adAdapterWrapper.release();
+        }
     }
 
     @Override
@@ -190,7 +198,34 @@ public class DisplayTrainResultActivity extends ActivityBase {
     private void initNativeAd() {
         String[] testDevicesIds = new String[]{AdRequest.DEVICE_ID_EMULATOR};
         adAdapterWrapper = new AdmobExpressRecyclerAdapterWrapper(this, getString(R.string
-                .admob_small_native_ad_id), testDevicesIds);
+                .admob_small_native_ad_id), testDevicesIds) {
+            @Override
+            protected ViewGroup wrapAdView(NativeExpressAdViewHolder adViewHolder, ViewGroup parent, int viewType) {
+
+                //get ad view
+                NativeExpressAdView adView = adViewHolder.getAdView();
+
+                RecyclerView.LayoutParams lp = new RecyclerView.LayoutParams(RecyclerView.LayoutParams.MATCH_PARENT,
+                        RecyclerView.LayoutParams.WRAP_CONTENT);
+                CardView cardView = new CardView(DisplayTrainResultActivity.this);
+                cardView.setLayoutParams(lp);
+
+                TextView textView = new TextView(DisplayTrainResultActivity.this);
+                textView.setLayoutParams(lp);
+                textView.setText(R.string.ad_loading);
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                    textView.setTextColor(getResources().getColor(R.color.accent, getTheme()));
+                } else {
+                    textView.setTextColor(getResources().getColor(R.color.accent));
+                }
+
+                cardView.addView(textView);
+                //wrapping
+                cardView.addView(adView);
+                //return wrapper view
+                return cardView;
+            }
+        };
         adAdapterWrapper.setAdapter((RecyclerView.Adapter) adapter);
         adAdapterWrapper.setLimitOfAds(3);
         adAdapterWrapper.setNoOfDataBetweenAds(10);

@@ -21,7 +21,7 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
     private static final String CLASS_NAME = BankSQLiteHelper.class.getName();
 
     // Database Version
-    private static final int DATABASE_VERSION = 16;
+    private static final int DATABASE_VERSION = 17;
 
     // Database Name
     private static final String DATABASE_NAME = "ashoksm.bankbranch";
@@ -43,7 +43,7 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
     public static final String MICR = "micr";
     public static final String ID = "_id";
 
-    // post_office_t table create statement
+    // table create statement
     private static final String CREATE_LOCATION_TABLE = "CREATE TABLE " + TABLE_LOCATION + "("
             + LOCATION + " INTEGER, " + BANK + " TEXT, " + STATE + " TEXT, " + DISTRICT + " TEXT, "
             + "PRIMARY KEY (" + LOCATION + ", " + BANK + ", " + STATE + ", " + DISTRICT + "))";
