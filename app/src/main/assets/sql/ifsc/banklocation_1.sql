@@ -1879,7 +1879,7 @@ INSERT INTO bank_loc_t VALUES(1879, 'Bandhan Bank Ltd', 'West Bengal', 'Siliguri
 INSERT INTO bank_loc_t VALUES(1880, 'Bank Internasional Indonesia', 'Maharashtra', 'Mumbai');
 INSERT INTO bank_loc_t VALUES(1881, 'Bank Of America', 'Delhi', 'NEW Delhi');
 INSERT INTO bank_loc_t VALUES(1882, 'Bank Of America', 'Karnataka', 'Bangalore');
-INSERT INTO bank_loc_t VALUES(1883, 'Bank Of America', 'Maharashtra', '??mumbai');
+INSERT INTO bank_loc_t VALUES(1883, 'Bank Of America', 'Maharashtra', 'Mumbai');
 INSERT INTO bank_loc_t VALUES(1884, 'Bank Of America', 'Tamil Nadu', 'Chennai');
 INSERT INTO bank_loc_t VALUES(1885, 'Bank Of Bahrain And Kuwait BSC', 'Andhra Pradesh', 'Hyderabad');
 INSERT INTO bank_loc_t VALUES(1886, 'Bank Of Bahrain And Kuwait BSC', 'Delhi', 'NEW Delhi');
