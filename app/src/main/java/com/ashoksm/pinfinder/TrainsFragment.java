@@ -44,8 +44,13 @@ public class TrainsFragment extends Fragment {
                              Bundle savedInstanceState) {
         final View v = inflater.inflate(R.layout.trains_layout, container, false);
 
-        mInterstitialAd = newInterstitialAd();
-        loadInterstitial();
+        AdCounter.getInstance().incrementCount();
+        //load ad
+        if(AdCounter.getInstance().getCount() % 5 == 0) {
+            mInterstitialAd = newInterstitialAd();
+            loadInterstitial();
+            AdCounter.getInstance().incrementCount();
+        }
 
         starts = (AutoCompleteTextView) v.findViewById(R.id.starts);
         ends = (AutoCompleteTextView) v.findViewById(R.id.ends);
@@ -176,14 +181,12 @@ public class TrainsFragment extends Fragment {
     }
 
     private void showInterstitial() {
-        // Show the ad if it's ready. Otherwise toast and reload the ad.
-        if (mInterstitialAd != null && mInterstitialAd.isLoaded() && AdCounter.getInstance()
-                .getCount() % 5 == 0) {
+        // Show the ad if it's ready.
+        if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
             mInterstitialAd.show();
         } else {
             performSearch(getActivity());
         }
-        AdCounter.getInstance().incrementCount();
     }
 
     private void loadInterstitial() {

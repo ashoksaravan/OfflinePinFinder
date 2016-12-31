@@ -347,7 +347,6 @@ public class RailWaysSQLiteHelper extends SQLiteOpenHelper {
             }
             query = query + " WHERE " + TRAIN_NO + " IN (" + sb.toString() + ")";
         }
-        Log.e("QUERY", query);
         return db.rawQuery(query, null);
     }
 

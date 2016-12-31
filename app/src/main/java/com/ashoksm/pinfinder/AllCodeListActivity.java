@@ -68,12 +68,13 @@ public class AllCodeListActivity extends ActivityBase {
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         }
 
+        AdCounter.getInstance().incrementCount();
         MobileAds.initialize(getApplicationContext(), getString(R.string.admob_small_native_ad_id));
+        loadAd();
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
         setSupportActionBar(toolbar);
-
-        loadAd();
 
         searchBar = (EditText) findViewById(R.id.search_bar);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -422,9 +423,12 @@ public class AllCodeListActivity extends ActivityBase {
         AdRequest adRequest = new AdRequest.Builder().build();
         ad.loadAd(adRequest);
 
-        // Begin loading your interstitial.
-        mInterstitialAd = newInterstitialAd();
-        loadInterstitial();
+        //load ad
+        if(AdCounter.getInstance().getCount() % 5 == 0) {
+            mInterstitialAd = newInterstitialAd();
+            loadInterstitial();
+            AdCounter.getInstance().incrementCount();
+        }
     }
 
     private InterstitialAd newInterstitialAd() {
@@ -448,14 +452,12 @@ public class AllCodeListActivity extends ActivityBase {
     }
 
     private void showInterstitial() {
-        // Show the ad if it's ready. Otherwise toast and reload the ad.
-        if (mInterstitialAd != null && mInterstitialAd.isLoaded() && AdCounter.getInstance()
-                .getCount() % 5 == 0) {
+        // Show the ad if it's ready.
+        if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
             mInterstitialAd.show();
         } else {
             AllCodeListActivity.super.onBackPressed();
         }
-        AdCounter.getInstance().incrementCount();
     }
 
     private void loadInterstitial() {

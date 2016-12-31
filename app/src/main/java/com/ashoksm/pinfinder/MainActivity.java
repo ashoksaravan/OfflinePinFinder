@@ -52,19 +52,16 @@ public class MainActivity extends ActivityBase {
     public static final String EXTRA_MENU_ID = "EXTRA_MENU_ID";
     private DrawerLayout mDrawerLayout;
     private static final int MY_PERMISSIONS_REQUEST_LOCATION = 1;
-    private LocationManager locationManager ;
-    private boolean gpsStatus ;
+    private LocationManager locationManager;
+    private boolean gpsStatus;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // add to fix crashes in 2.3.x devices due to google play services
-        try {
-            Class.forName("android.os.AsyncTask");
-        } catch (ClassNotFoundException ignored) {
-        }
+        // load ad
+        loadAd();
 
         /**
          *Setup the DrawerLayout and NavigationView
@@ -81,9 +78,6 @@ public class MainActivity extends ActivityBase {
         FragmentManager mFragmentManager = getSupportFragmentManager();
         FragmentTransaction mFragmentTransaction = mFragmentManager.beginTransaction();
         mFragmentTransaction.replace(R.id.containerView, new TabFragment()).commit();
-
-        // load ad
-        loadAd();
 
         if (ActivityCompat
                 .checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) !=
@@ -115,18 +109,18 @@ public class MainActivity extends ActivityBase {
                                 .nav_near_by_railway_station) {
                             intent = new Intent(getApplicationContext(), AllCodeListActivity.class);
                         } else {
-                            locationManager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
+                            locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
                             gpsStatus = locationManager.isProviderEnabled(LocationManager
                                     .GPS_PROVIDER);
-                            if(gpsStatus) {
-                                intent =  new Intent(getApplicationContext(),
-                                                NearByPlacesActivity.class);
+                            if (gpsStatus) {
+                                intent = new Intent(getApplicationContext(),
+                                        NearByPlacesActivity.class);
                             } else {
                                 Toast.makeText(MainActivity.this, "Please turn on the GPS!!!",
                                         Toast.LENGTH_LONG).show();
                             }
                         }
-                        if(intent != null) {
+                        if (intent != null) {
                             intent.putExtra(EXTRA_MENU_ID, menuItem.getItemId());
                             startActivity(intent);
                             overridePendingTransition(R.anim.slide_out_left, 0);
@@ -225,7 +219,7 @@ public class MainActivity extends ActivityBase {
         AdRequest adRequest = new AdRequest.Builder().build();
         ad.loadAd(adRequest);
 
-        // Begin loading your interstitial.
+        //load ad
         mInterstitialAd = newInterstitialAd();
         loadInterstitial();
     }
@@ -234,8 +228,12 @@ public class MainActivity extends ActivityBase {
     protected void onResume() {
         super.onResume();
         overridePendingTransition(R.anim.slide_in_left, 0);
-        mInterstitialAd = newInterstitialAd();
-        loadInterstitial();
+        //load ad
+        if (AdCounter.getInstance().getCount() % 5 == 0) {
+            mInterstitialAd = newInterstitialAd();
+            loadInterstitial();
+            AdCounter.getInstance().incrementCount();
+        }
     }
 
     private InterstitialAd newInterstitialAd() {
@@ -260,14 +258,13 @@ public class MainActivity extends ActivityBase {
     }
 
     private void showInterstitial() {
+        AdCounter.getInstance().incrementCount();
         // Show the ad if it's ready. Otherwise toast and reload the ad.
-        if (mInterstitialAd != null && mInterstitialAd.isLoaded() && AdCounter.getInstance()
-                .getCount() % 5 == 0) {
+        if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
             mInterstitialAd.show();
         } else {
             performSearch();
         }
-        AdCounter.getInstance().incrementCount();
     }
 
     private void loadInterstitial() {

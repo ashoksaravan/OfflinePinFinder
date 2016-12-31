@@ -35,11 +35,16 @@ public class STDFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        AdCounter.getInstance().incrementCount();
         View v = inflater.inflate(R.layout.std_layout, container, false);
         stateNameTextView = (AutoCompleteTextView) v.findViewById(R.id.stdStates);
 
-        mInterstitialAd = newInterstitialAd();
-        loadInterstitial();
+        //load ad
+        if(AdCounter.getInstance().getCount() % 5 == 0) {
+            mInterstitialAd = newInterstitialAd();
+            loadInterstitial();
+            AdCounter.getInstance().incrementCount();
+        }
 
         ArrayAdapter<CharSequence> stateAdapter =
                 ArrayAdapter.createFromResource(getActivity(), R.array.states_array,
@@ -111,14 +116,12 @@ public class STDFragment extends Fragment {
     }
 
     private void showInterstitial() {
-        // Show the ad if it's ready. Otherwise toast and reload the ad.
-        if (mInterstitialAd != null && mInterstitialAd.isLoaded() && AdCounter.getInstance()
-                .getCount() % 5 == 0) {
+        // Show the ad if it's ready.
+        if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
             mInterstitialAd.show();
         } else {
             performSearch(getActivity());
         }
-        AdCounter.getInstance().incrementCount();
     }
 
     private void loadInterstitial() {

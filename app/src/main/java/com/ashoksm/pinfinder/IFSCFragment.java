@@ -45,12 +45,20 @@ public class IFSCFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.ifsc_layout, container, false);
+
+        AdCounter.getInstance().incrementCount();
+
+        //load ad
+        if(AdCounter.getInstance().getCount() % 5 == 0) {
+            mInterstitialAd = newInterstitialAd();
+            loadInterstitial();
+        }
+
         bankNameSpinner = (AutoCompleteTextView) v.findViewById(R.id.bankName);
         stateNameTextView = (AutoCompleteTextView) v.findViewById(R.id.stateName);
         districtNameTextView = (AutoCompleteTextView) v.findViewById(R.id.districtName);
         branchName = (EditText) v.findViewById(R.id.branchName);
-        mInterstitialAd = newInterstitialAd();
-        loadInterstitial();
+
         ArrayAdapter<CharSequence> adapter =
                 ArrayAdapter.createFromResource(getActivity(), R.array.bank_names,
                         R.layout.spinner_dropdown_item);
@@ -180,8 +188,7 @@ public class IFSCFragment extends Fragment {
         }
         if (bankNameSpinner.getText().toString().trim().length() > 0) {
             // Show the ad if it's ready. Otherwise toast and reload the ad.
-            if (mInterstitialAd != null && mInterstitialAd.isLoaded() && AdCounter.getInstance()
-                    .getCount() % 5 == 0) {
+            if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
                 mInterstitialAd.show();
             } else {
                 performSearch(getActivity());
@@ -189,7 +196,6 @@ public class IFSCFragment extends Fragment {
         } else {
             Toast.makeText(getActivity(), "Please Select a Bank!!!", Toast.LENGTH_LONG).show();
         }
-        AdCounter.getInstance().incrementCount();
     }
 
     private static void loadInterstitial() {

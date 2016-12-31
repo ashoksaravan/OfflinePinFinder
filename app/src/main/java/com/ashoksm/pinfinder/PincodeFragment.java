@@ -42,10 +42,17 @@ public class PincodeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        AdCounter.getInstance().incrementCount();
         View v = inflater.inflate(R.layout.pincode_layout, container, false);
         states = (AutoCompleteTextView) v.findViewById(R.id.states);
-        mInterstitialAd = newInterstitialAd();
-        loadInterstitial();
+
+        //load ad
+        if(AdCounter.getInstance().getCount() % 5 == 0) {
+            mInterstitialAd = newInterstitialAd();
+            loadInterstitial();
+            AdCounter.getInstance().incrementCount();
+        }
+
         // Get the string array
         String[] statesArr = getActivity().getResources().getStringArray(R.array.states_array);
         // Create the adapter and set it to the AutoCompleteTextView
@@ -165,14 +172,12 @@ public class PincodeFragment extends Fragment {
                     .show();
         } else {
             // Show the ad if it's ready. Otherwise toast and reload the ad.
-            if (mInterstitialAd != null && mInterstitialAd.isLoaded() && AdCounter.getInstance()
-                    .getCount() % 5 == 0) {
+            if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
                 mInterstitialAd.show();
             } else {
                 performSearch(PincodeFragment.this.getActivity());
             }
         }
-        AdCounter.getInstance().incrementCount();
     }
 
     private static void loadInterstitial() {

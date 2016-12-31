@@ -39,10 +39,15 @@ public class StationsFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        AdCounter.getInstance().incrementCount();
         final View v = inflater.inflate(R.layout.stations_layout, container, false);
 
-        mInterstitialAd = newInterstitialAd();
-        loadInterstitial();
+        //load ad
+        if(AdCounter.getInstance().getCount() % 5 == 0) {
+            mInterstitialAd = newInterstitialAd();
+            loadInterstitial();
+            AdCounter.getInstance().incrementCount();
+        }
 
         station = (AutoCompleteTextView) v.findViewById(R.id.station);
         state = (AutoCompleteTextView) v.findViewById(R.id.stations_state);
@@ -166,14 +171,12 @@ public class StationsFragment extends Fragment {
     }
 
     private void showInterstitial() {
-        // Show the ad if it's ready. Otherwise toast and reload the ad.
-        if (mInterstitialAd != null && mInterstitialAd.isLoaded() && AdCounter.getInstance()
-                .getCount() % 5 == 0) {
+        // Show the ad if it's ready.
+        if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
             mInterstitialAd.show();
         } else {
             performSearch(getActivity());
         }
-        AdCounter.getInstance().incrementCount();
     }
 
     private void loadInterstitial() {
