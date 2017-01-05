@@ -61,6 +61,7 @@ public class MainActivity extends ActivityBase {
         setContentView(R.layout.activity_main);
 
         // load ad
+        AdCounter.getInstance().setShowAd(true);
         loadAd();
 
         /**

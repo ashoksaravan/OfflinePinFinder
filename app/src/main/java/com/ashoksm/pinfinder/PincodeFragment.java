@@ -36,7 +36,7 @@ public class PincodeFragment extends Fragment {
     private AutoCompleteTextView states;
     private AutoCompleteTextView districts;
     private EditText text;
-    private static InterstitialAd mInterstitialAd;
+    private InterstitialAd mInterstitialAd;
 
     @Nullable
     @Override
@@ -47,7 +47,7 @@ public class PincodeFragment extends Fragment {
         states = (AutoCompleteTextView) v.findViewById(R.id.states);
 
         //load ad
-        if(AdCounter.getInstance().getCount() % 5 == 0) {
+        if(AdCounter.getInstance().getCount() % 5 == 0 || AdCounter.getInstance().isShowAd()) {
             mInterstitialAd = newInterstitialAd();
             loadInterstitial();
             AdCounter.getInstance().incrementCount();
@@ -156,10 +156,10 @@ public class PincodeFragment extends Fragment {
 
     private void showInterstitial() {
         // hide keyboard
-        InputMethodManager inputMethodManager =
-                (InputMethodManager) getContext().getSystemService(Context
-                        .INPUT_METHOD_SERVICE);
         if (getView() != null) {
+            InputMethodManager inputMethodManager =
+                    (InputMethodManager) getContext().getSystemService(Context
+                            .INPUT_METHOD_SERVICE);
             inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
                     InputMethodManager.HIDE_NOT_ALWAYS);
         }
@@ -171,16 +171,17 @@ public class PincodeFragment extends Fragment {
             Toast.makeText(getActivity(), "All search fields can't be empty!!!", Toast.LENGTH_LONG)
                     .show();
         } else {
-            // Show the ad if it's ready. Otherwise toast and reload the ad.
+            // Show the ad if it's ready.
             if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
                 mInterstitialAd.show();
+                AdCounter.getInstance().setShowAd(false);
             } else {
                 performSearch(PincodeFragment.this.getActivity());
             }
         }
     }
 
-    private static void loadInterstitial() {
+    private void loadInterstitial() {
         AdRequest adRequest = new AdRequest.Builder().build();
         mInterstitialAd.loadAd(adRequest);
     }

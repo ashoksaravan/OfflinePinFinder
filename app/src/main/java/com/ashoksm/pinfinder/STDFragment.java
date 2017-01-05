@@ -40,7 +40,7 @@ public class STDFragment extends Fragment {
         stateNameTextView = (AutoCompleteTextView) v.findViewById(R.id.stdStates);
 
         //load ad
-        if(AdCounter.getInstance().getCount() % 5 == 0) {
+        if(AdCounter.getInstance().getCount() % 5 == 0 || AdCounter.getInstance().isShowAd()) {
             mInterstitialAd = newInterstitialAd();
             loadInterstitial();
             AdCounter.getInstance().incrementCount();
@@ -119,6 +119,7 @@ public class STDFragment extends Fragment {
         // Show the ad if it's ready.
         if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
             mInterstitialAd.show();
+            AdCounter.getInstance().setShowAd(false);
         } else {
             performSearch(getActivity());
         }

@@ -424,7 +424,7 @@ public class AllCodeListActivity extends ActivityBase {
         ad.loadAd(adRequest);
 
         //load ad
-        if(AdCounter.getInstance().getCount() % 5 == 0) {
+        if (AdCounter.getInstance().getCount() % 5 == 0 || AdCounter.getInstance().isShowAd()) {
             mInterstitialAd = newInterstitialAd();
             loadInterstitial();
             AdCounter.getInstance().incrementCount();
@@ -455,6 +455,7 @@ public class AllCodeListActivity extends ActivityBase {
         // Show the ad if it's ready.
         if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
             mInterstitialAd.show();
+            AdCounter.getInstance().setShowAd(false);
         } else {
             AllCodeListActivity.super.onBackPressed();
         }
@@ -469,7 +470,7 @@ public class AllCodeListActivity extends ActivityBase {
     private void initNativeAd() {
         String[] testDevicesIds = new String[]{AdRequest.DEVICE_ID_EMULATOR};
         adAdapterWrapper = new AdmobExpressRecyclerAdapterWrapper(this, getString(R.string
-                .admob_small_native_ad_id), testDevicesIds){
+                .admob_small_native_ad_id), testDevicesIds) {
             @Override
             protected ViewGroup wrapAdView(NativeExpressAdViewHolder adViewHolder, ViewGroup parent, int viewType) {
 
@@ -515,7 +516,7 @@ public class AllCodeListActivity extends ActivityBase {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        if(adAdapterWrapper != null) {
+        if (adAdapterWrapper != null) {
             adAdapterWrapper.release();
         }
     }

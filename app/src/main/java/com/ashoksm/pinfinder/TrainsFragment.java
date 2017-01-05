@@ -46,7 +46,7 @@ public class TrainsFragment extends Fragment {
 
         AdCounter.getInstance().incrementCount();
         //load ad
-        if(AdCounter.getInstance().getCount() % 5 == 0) {
+        if (AdCounter.getInstance().getCount() % 5 == 0 || AdCounter.getInstance().isShowAd()) {
             mInterstitialAd = newInterstitialAd();
             loadInterstitial();
             AdCounter.getInstance().incrementCount();
@@ -136,9 +136,10 @@ public class TrainsFragment extends Fragment {
 
     private void performSearch(Activity context) {
         // hide keyboard
-        InputMethodManager inputMethodManager = (InputMethodManager) context
-                .getSystemService(Context.INPUT_METHOD_SERVICE);
         if (getView() != null) {
+            InputMethodManager inputMethodManager =
+                    (InputMethodManager) getContext().getSystemService(Context
+                            .INPUT_METHOD_SERVICE);
             inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
                     InputMethodManager.HIDE_NOT_ALWAYS);
         }

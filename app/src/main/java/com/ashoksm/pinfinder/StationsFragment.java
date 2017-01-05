@@ -43,7 +43,7 @@ public class StationsFragment extends Fragment {
         final View v = inflater.inflate(R.layout.stations_layout, container, false);
 
         //load ad
-        if(AdCounter.getInstance().getCount() % 5 == 0) {
+        if(AdCounter.getInstance().getCount() % 5 == 0 || AdCounter.getInstance().isShowAd()) {
             mInterstitialAd = newInterstitialAd();
             loadInterstitial();
             AdCounter.getInstance().incrementCount();
@@ -125,9 +125,10 @@ public class StationsFragment extends Fragment {
 
     private void performSearch(Activity context) {
         // hide keyboard
-        InputMethodManager inputMethodManager = (InputMethodManager) context
-                .getSystemService(Context.INPUT_METHOD_SERVICE);
         if (getView() != null) {
+            InputMethodManager inputMethodManager =
+                    (InputMethodManager) getContext().getSystemService(Context
+                            .INPUT_METHOD_SERVICE);
             inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
                     InputMethodManager.HIDE_NOT_ALWAYS);
         }
@@ -174,6 +175,7 @@ public class StationsFragment extends Fragment {
         // Show the ad if it's ready.
         if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
             mInterstitialAd.show();
+            AdCounter.getInstance().setShowAd(false);
         } else {
             performSearch(getActivity());
         }

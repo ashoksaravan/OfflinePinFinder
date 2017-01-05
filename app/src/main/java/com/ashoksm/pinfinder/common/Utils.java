@@ -1,11 +1,13 @@
-package com.ashoksm.pinfinder;
+package com.ashoksm.pinfinder.common;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 
-class Utils {
+import com.ashoksm.pinfinder.R;
 
-    static int getToolbarHeight(Context context) {
+public class Utils {
+
+    public static int getToolbarHeight(Context context) {
         final TypedArray styledAttributes = context.getTheme().obtainStyledAttributes(
                 new int[]{R.attr.actionBarSize});
         int toolbarHeight = (int) styledAttributes.getDimension(0, 0);

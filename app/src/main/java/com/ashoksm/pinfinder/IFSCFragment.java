@@ -49,7 +49,7 @@ public class IFSCFragment extends Fragment {
         AdCounter.getInstance().incrementCount();
 
         //load ad
-        if(AdCounter.getInstance().getCount() % 5 == 0) {
+        if (AdCounter.getInstance().getCount() % 5 == 0 || AdCounter.getInstance().isShowAd()) {
             mInterstitialAd = newInterstitialAd();
             loadInterstitial();
         }
@@ -180,16 +180,17 @@ public class IFSCFragment extends Fragment {
 
     private void showInterstitial() {
         // hide keyboard
-        InputMethodManager inputMethodManager = (InputMethodManager) getContext()
-                .getSystemService(Context.INPUT_METHOD_SERVICE);
         if (getView() != null) {
+            InputMethodManager inputMethodManager = (InputMethodManager) getContext()
+                    .getSystemService(Context.INPUT_METHOD_SERVICE);
             inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
                     InputMethodManager.HIDE_NOT_ALWAYS);
         }
         if (bankNameSpinner.getText().toString().trim().length() > 0) {
-            // Show the ad if it's ready. Otherwise toast and reload the ad.
+            // Show the ad if it's ready.
             if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
                 mInterstitialAd.show();
+                AdCounter.getInstance().setShowAd(false);
             } else {
                 performSearch(getActivity());
             }
