@@ -53,15 +53,17 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        context.runOnUiThread(new Runnable() {
-            public void run() {
-                mProgressDialog = new ProgressDialog(context);
-                mProgressDialog.setMessage("Initializing Database…");
-                mProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
-                mProgressDialog.setCancelable(false);
-                mProgressDialog.show();
-            }
-        });
+        if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    mProgressDialog = new ProgressDialog(context);
+                    mProgressDialog.setMessage("Initializing Database…");
+                    mProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+                    mProgressDialog.setCancelable(false);
+                    mProgressDialog.show();
+                }
+            });
+        }
         // crate tables
         Log.d(CLASS_NAME, CREATE_STATE_TABLE);
         db.execSQL(CREATE_STATE_TABLE);
@@ -75,11 +77,13 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
         // insert pincodes
         insertSTDCodes(db);
 
-        context.runOnUiThread(new Runnable() {
-            public void run() {
-                mProgressDialog.dismiss();
-            }
-        });
+        if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    mProgressDialog.dismiss();
+                }
+            });
+        }
     }
 
     @Override
@@ -112,12 +116,14 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
                     }
                     insertReader.close();
                 }
-                final Double percentage = (i / (double) fileNames.length) * 100.00d;
-                context.runOnUiThread(new Runnable() {
-                    public void run() {
-                        mProgressDialog.setProgress(percentage.intValue());
-                    }
-                });
+                if (!context.isFinishing()) {
+                    final Double percentage = (i / (double) fileNames.length) * 100.00d;
+                    context.runOnUiThread(new Runnable() {
+                        public void run() {
+                            mProgressDialog.setProgress(percentage.intValue());
+                        }
+                    });
+                }
                 i++;
             }
             db.setTransactionSuccessful();

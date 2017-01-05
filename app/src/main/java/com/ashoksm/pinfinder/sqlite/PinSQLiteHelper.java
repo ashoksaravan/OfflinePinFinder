@@ -93,15 +93,17 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
 
-        context.runOnUiThread(new Runnable() {
-            public void run() {
-                mProgressDialog = new ProgressDialog(context);
-                mProgressDialog.setMessage("Initializing Database…");
-                mProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
-                mProgressDialog.setCancelable(false);
-                mProgressDialog.show();
-            }
-        });
+        if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    mProgressDialog = new ProgressDialog(context);
+                    mProgressDialog.setMessage("Initializing Database…");
+                    mProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+                    mProgressDialog.setCancelable(false);
+                    mProgressDialog.show();
+                }
+            });
+        }
 
         // creating required tables
         Log.d(CLASS_NAME, CREATE_STATE_TABLE);
@@ -121,43 +123,53 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
 
         // insert state
         insertStates(db);
-        context.runOnUiThread(new Runnable() {
-            public void run() {
-                mProgressDialog.setProgress(1);
-            }
-        });
+        if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    mProgressDialog.setProgress(1);
+                }
+            });
+        }
 
         //insert status
         insertStatus(db);
-        context.runOnUiThread(new Runnable() {
-            public void run() {
-                mProgressDialog.setProgress(2);
-            }
-        });
+        if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    mProgressDialog.setProgress(2);
+                }
+            });
+        }
 
         // insert districts
         insertDistricts(db);
-        context.runOnUiThread(new Runnable() {
-            public void run() {
-                mProgressDialog.setProgress(3);
-            }
-        });
+        if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    mProgressDialog.setProgress(3);
+                }
+            });
+        }
 
         // insert locations
         insertLocations(db);
-        context.runOnUiThread(new Runnable() {
-            public void run() {
-                mProgressDialog.setProgress(5);
-            }
-        });
+        if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    mProgressDialog.setProgress(5);
+                }
+            });
+        }
 
         // insert pincodes
         insertPincodes(db);
-        context.runOnUiThread(new Runnable() {
-            public void run() {
-                mProgressDialog.dismiss();
-            }
-        });
+        if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    mProgressDialog.dismiss();
+                }
+            });
+        }
     }
 
     @Override
@@ -194,12 +206,14 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
                         }
                     }
                     insertReader.close();
-                    final Double percentage = (i / ((double) fileNames.length - 4.00d)) * 95.00d;
-                    context.runOnUiThread(new Runnable() {
-                        public void run() {
-                            mProgressDialog.setProgress(percentage.intValue() + 5);
-                        }
-                    });
+                    if (!context.isFinishing()) {
+                        final Double percentage = (i / ((double) fileNames.length - 4.00d)) * 95.00d;
+                        context.runOnUiThread(new Runnable() {
+                            public void run() {
+                                mProgressDialog.setProgress(percentage.intValue() + 5);
+                            }
+                        });
+                    }
                     i++;
                 }
             }

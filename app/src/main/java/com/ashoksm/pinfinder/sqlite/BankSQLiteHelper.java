@@ -61,15 +61,17 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        context.runOnUiThread(new Runnable() {
-            public void run() {
-                mProgressDialog = new ProgressDialog(context);
-                mProgressDialog.setMessage("Initializing Database…");
-                mProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
-                mProgressDialog.setCancelable(false);
-                mProgressDialog.show();
-            }
-        });
+        if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    mProgressDialog = new ProgressDialog(context);
+                    mProgressDialog.setMessage("Initializing Database…");
+                    mProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+                    mProgressDialog.setCancelable(false);
+                    mProgressDialog.show();
+                }
+            });
+        }
         // crate tables
         Log.d(CLASS_NAME, CREATE_LOCATION_TABLE);
         db.execSQL(CREATE_LOCATION_TABLE);
@@ -82,11 +84,13 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
 
         // insert bank branches
         insertBankBranches(db);
-        context.runOnUiThread(new Runnable() {
-            public void run() {
-                mProgressDialog.dismiss();
-            }
-        });
+        if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    mProgressDialog.dismiss();
+                }
+            });
+        }
     }
 
     @Override
@@ -125,12 +129,14 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
                     }
                     insertReader.close();
                 }
-                final Double percentage = (i / (double) fileNames.length) * 90.00d;
-                context.runOnUiThread(new Runnable() {
-                    public void run() {
-                        mProgressDialog.setProgress(percentage.intValue() + 10);
-                    }
-                });
+                if (!context.isFinishing()) {
+                    final Double percentage = (i / (double) fileNames.length) * 90.00d;
+                    context.runOnUiThread(new Runnable() {
+                        public void run() {
+                            mProgressDialog.setProgress(percentage.intValue() + 10);
+                        }
+                    });
+                }
                 i++;
             }
             db.setTransactionSuccessful();
@@ -159,19 +165,23 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
                         }
                     }
                     insertReader.close();
-                    context.runOnUiThread(new Runnable() {
-                        public void run() {
-                            mProgressDialog.setProgress(3);
-                        }
-                    });
+                    if (!context.isFinishing()) {
+                        context.runOnUiThread(new Runnable() {
+                            public void run() {
+                                mProgressDialog.setProgress(3);
+                            }
+                        });
+                    }
                 }
             }
             db.setTransactionSuccessful();
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    mProgressDialog.setProgress(10);
-                }
-            });
+            if (!context.isFinishing()) {
+                context.runOnUiThread(new Runnable() {
+                    public void run() {
+                        mProgressDialog.setProgress(10);
+                    }
+                });
+            }
         } catch (IOException ioEx) {
             Log.e(CLASS_NAME, ioEx.getMessage());
         } finally {
