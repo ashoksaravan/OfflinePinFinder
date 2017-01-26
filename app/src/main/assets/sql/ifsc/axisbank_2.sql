@@ -1,0 +1,15 @@
+INSERT INTO bank_branch_t VALUES('Kankurgachi', 'Kolkata', 'P-35, CIT Road, Scheme VII (M)  Manicktala Main Road, Kolkata', '0', '700211004', 'UTIB0000017', 1785);
+INSERT INTO bank_branch_t VALUES('Anna Nagar, Chennai', 'Chennai', 'F 33, II ND Avenue, Anna Nagar East', '0', '600211004', 'UTIB0000016', 1633);
+INSERT INTO bank_branch_t VALUES('Green Park', 'Delhi', 'K-12, Green Park Main  NEW Delhi', '0', '110211003', 'UTIB0000015', 1245);
+INSERT INTO bank_branch_t VALUES('T Nagar', 'Chennai', '79, G N Chetty Road  T. Nagar', '0', '600211003', 'UTIB0000014', 1633);
+INSERT INTO bank_branch_t VALUES('Vadodara', 'Vadodara', 'Vardhaman Complex, OPP. G.E.B  Race Course Circle (NORTH)', '0', '390211002', 'UTIB0000013', 1282);
+INSERT INTO bank_branch_t VALUES('Jamshedpur', 'Jamshedpur', 'Voltas House, Main Road  Bistupur', '0', '831211002', 'UTIB0000012', 1349);
+INSERT INTO bank_branch_t VALUES('Golpark', 'Kolkata', '20, Gariahat Road  Golpark', '0', '700211003', 'UTIB0000011', 1785);
+INSERT INTO bank_branch_t VALUES('Jaipur', 'Jaipur', 'O-15, Green House  Ashok Marg, C-scheme', '0', '302211002', 'UTIB0000010', 1610);
+INSERT INTO bank_branch_t VALUES('Bangalore', 'Bangalore', 'NO. 9, M.G. Road, Block ''A''', '0', '560211002', 'UTIB0000009', 1359);
+INSERT INTO bank_branch_t VALUES('Hyderabad', 'Hyderabad', '6-3-879/b First Floor, G Pulla Reddy BL  Greenlands, Begumpet Road', '0', '500211002', 'UTIB0000008', 1117);
+INSERT INTO bank_branch_t VALUES('NEW Delhi', 'Delhi', 'Statesman House, 148, Barakhamba Road', '0', '110211002', 'UTIB0000007', 1245);
+INSERT INTO bank_branch_t VALUES('Chennai', 'Chennai', '82 DR Radhakrishnan Salai  Mylapore, Chennai', '0', '600211002', 'UTIB0000006', 1633);
+INSERT INTO bank_branch_t VALUES('Kolkata Branch', 'Kolkata', '7,shakespeare Sarani  Kolkata', '0', '700211002', 'UTIB0000005', 1785);
+INSERT INTO bank_branch_t VALUES('Mumbai Branch', 'Mumbai', 'Universal Insurance Building, Ground Floor  SIR P M Road, Fort, Maharashtra, 400001', '0', '400211002', 'UTIB0000004', 1477);
+INSERT INTO bank_branch_t VALUES('Ahmedabad Branch', 'Ahmedabad', 'Trishul-opposite Samartheshwar Temple  LAW Garden, Ellis Bridge-380006', '0', '380211002', 'UTIB0000003', 1251);
