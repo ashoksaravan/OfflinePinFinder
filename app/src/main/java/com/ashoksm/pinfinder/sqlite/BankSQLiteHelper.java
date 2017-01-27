@@ -21,7 +21,7 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
     private static final String CLASS_NAME = BankSQLiteHelper.class.getName();
 
     // Database Version
-    private static final int DATABASE_VERSION = 17;
+    private static final int DATABASE_VERSION = 18;
 
     // Database Name
     private static final String DATABASE_NAME = "ashoksm.bankbranch";
@@ -150,30 +150,18 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
     private void insertLocations(SQLiteDatabase db) {
         try {
             db.beginTransaction();
-            String[] fileNames = context.getAssets().list("sql/ifsc");
-            for (String name : fileNames) {
-                if (name.endsWith(".sql") && name.startsWith("banklocation")) {
-                    // Open the resource
-                    InputStream insertsStream = context.getAssets().open("sql/ifsc/" + name);
-                    BufferedReader insertReader =
-                            new BufferedReader(new InputStreamReader(insertsStream));
+            // Open the resource
+            InputStream insertsStream = context.getAssets().open("sql/ifsc/banklocation.sql");
+            BufferedReader insertReader =
+                    new BufferedReader(new InputStreamReader(insertsStream));
 
-                    while (insertReader.ready()) {
-                        String insertStmt = insertReader.readLine();
-                        if (insertStmt != null) {
-                            db.execSQL(insertStmt);
-                        }
-                    }
-                    insertReader.close();
-                    if (!context.isFinishing()) {
-                        context.runOnUiThread(new Runnable() {
-                            public void run() {
-                                mProgressDialog.setProgress(3);
-                            }
-                        });
-                    }
+            while (insertReader.ready()) {
+                String insertStmt = insertReader.readLine();
+                if (insertStmt != null) {
+                    db.execSQL(insertStmt);
                 }
             }
+            insertReader.close();
             db.setTransactionSuccessful();
             if (!context.isFinishing()) {
                 context.runOnUiThread(new Runnable() {

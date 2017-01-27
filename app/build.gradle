@@ -7,8 +7,8 @@ android {
         applicationId "com.ashoksm.pinfinder"
         minSdkVersion 14
         targetSdkVersion 25
-        versionCode 53
-        versionName "11.05"
+        versionCode 54
+        versionName "11.06"
     }
     signingConfigs {
 
@@ -22,6 +22,7 @@ android {
     buildTypes {
         release {
             minifyEnabled true
+            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
             debuggable false
             signingConfig signingConfigs.release
