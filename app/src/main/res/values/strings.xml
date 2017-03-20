@@ -34084,6 +34084,6 @@
     <string name="route">Route</string>
     <string name="stop_number">Stop Number</string>
     <string name="show_on_map">Show on Map</string>
-    <string name="ad_loading">Ad is loading...</string>
+    <string name="ad_loading">Ad is loading…</string>
 
 </resources>
