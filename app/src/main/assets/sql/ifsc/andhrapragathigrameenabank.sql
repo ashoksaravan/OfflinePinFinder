@@ -292,6 +292,7 @@ INSERT INTO bank_branch_t VALUES('Nandivargam', 'Nandivargam', 'Nandivargam-5181
 INSERT INTO bank_branch_t VALUES('Kurnool-main', 'Kurnool', 'Kurnool Main Branch Club Road, Railway Station Road, Kurnool, Kurnool DISTRICT.  PIN  518004', '220176', '518703002', 'APGB0003009', 1085);
 INSERT INTO bank_branch_t VALUES('Parla', 'Parla', 'Parla-518478 (via) K.NAGALAPURAM, Kallur Mandal Kurnool District', '200055', 'WAITING', 'APGB0003004', 1085);
 INSERT INTO bank_branch_t VALUES('Adoni', 'Adoni', 'Adoni ?? 518301 Door NO.268-12, 1ST Floor, Achari Archade, Near Police Control Room, Yemmiganur Road, Kurnool District', '253537', '518703202', 'APGB0003003', 1085);
+INSERT INTO bank_branch_t VALUES('Velidandla', 'Velidandla', 'D NO 1/27, Velidandla, Lingala(mandal), YSR Kadapa(dist), Andhra PRADESHE.PIN-516396', '2147483647', 'NA', 'APGB0002200', 1090);
 INSERT INTO bank_branch_t VALUES('Tangatur', 'Tangatur', '4/51, Tangatur Village, Rajupalem Mandal, YSR Kadapa(dist), Andhra Pradesh', '2147483647', 'NA', 'APGB0002199', 1090);
 INSERT INTO bank_branch_t VALUES('Kamalapuram X Roads', 'Kamalapuram', 'DNO 15/3008-1, Kamalapuram X Roads, Kamalapuram YSR Kadapa(dist) Andhra Pradesh Pin-516310', '2147483647', 'NA', 'APGB0002198', 1090);
 INSERT INTO bank_branch_t VALUES('Utukuru', 'Utukuru', 'Door NO 1/121-a-1, Balija Street, Utukuru (village & Post), Rajampeta Mandal, YSR Kadapa(dist), Andhra PRADESH. Pin-516126', '2147483647', 'NA', 'APGB0002197', 1090);
