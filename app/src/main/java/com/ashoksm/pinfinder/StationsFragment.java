@@ -19,11 +19,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.ashoksm.pinfinder.common.AdCounter;
 import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.InterstitialAd;
 
 public class StationsFragment extends Fragment {
 
@@ -33,21 +29,12 @@ public class StationsFragment extends Fragment {
     public final static String EXTRA_STATE = "com.ashoksm.offlinepinfinder.STATE";
     public final static String EXTRA_CITY = "com.ashoksm.offlinepinfinder.CITY";
     public final static String EXTRA_STATION = "com.ashoksm.offlinepinfinder.STATION";
-    private InterstitialAd mInterstitialAd;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        AdCounter.getInstance().incrementCount();
         final View v = inflater.inflate(R.layout.stations_layout, container, false);
-
-        //load ad
-        if(AdCounter.getInstance().getCount() % 5 == 0 || AdCounter.getInstance().isShowAd()) {
-            mInterstitialAd = newInterstitialAd();
-            loadInterstitial();
-            AdCounter.getInstance().incrementCount();
-        }
 
         station = (AutoCompleteTextView) v.findViewById(R.id.station);
         state = (AutoCompleteTextView) v.findViewById(R.id.stations_state);
@@ -88,7 +75,7 @@ public class StationsFragment extends Fragment {
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showInterstitial();
+                performSearch(getActivity());
             }
         });
 
@@ -117,7 +104,7 @@ public class StationsFragment extends Fragment {
 
     private boolean editorAction(int actionId) {
         if (actionId == EditorInfo.IME_ACTION_SEARCH) {
-            showInterstitial();
+            performSearch(getActivity());
             return true;
         }
         return false;
@@ -150,39 +137,4 @@ public class StationsFragment extends Fragment {
         context.overridePendingTransition(R.anim.slide_out_left, 0);
     }
 
-    private InterstitialAd newInterstitialAd() {
-        InterstitialAd interstitialAd = new InterstitialAd(getActivity());
-        interstitialAd.setAdUnitId(getActivity().getString(R.string.admob_id));
-        interstitialAd.setAdListener(new AdListener() {
-            @Override
-            public void onAdLoaded() {
-            }
-
-            @Override
-            public void onAdFailedToLoad(int errorCode) {
-            }
-
-            @Override
-            public void onAdClosed() {
-                // Proceed to the next level.
-                performSearch(getActivity());
-            }
-        });
-        return interstitialAd;
-    }
-
-    private void showInterstitial() {
-        // Show the ad if it's ready.
-        if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
-            mInterstitialAd.show();
-            AdCounter.getInstance().setShowAd(false);
-        } else {
-            performSearch(getActivity());
-        }
-    }
-
-    private void loadInterstitial() {
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mInterstitialAd.loadAd(adRequest);
-    }
 }

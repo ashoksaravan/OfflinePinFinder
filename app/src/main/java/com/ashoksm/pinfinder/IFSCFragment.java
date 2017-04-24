@@ -1,7 +1,6 @@
 package com.ashoksm.pinfinder;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -11,7 +10,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.EditorInfo;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
@@ -19,11 +17,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.ashoksm.pinfinder.common.AdCounter;
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.InterstitialAd;
 
 import java.util.Locale;
 
@@ -38,21 +31,12 @@ public class IFSCFragment extends Fragment {
     private AutoCompleteTextView stateNameTextView;
     private AutoCompleteTextView districtNameTextView;
     private EditText branchName;
-    private static InterstitialAd mInterstitialAd;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.ifsc_layout, container, false);
-
-        AdCounter.getInstance().incrementCount();
-
-        //load ad
-        if (AdCounter.getInstance().getCount() % 5 == 0 || AdCounter.getInstance().isShowAd()) {
-            mInterstitialAd = newInterstitialAd();
-            loadInterstitial();
-        }
 
         bankNameSpinner = (AutoCompleteTextView) v.findViewById(R.id.bankName);
         stateNameTextView = (AutoCompleteTextView) v.findViewById(R.id.stateName);
@@ -118,7 +102,7 @@ public class IFSCFragment extends Fragment {
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showInterstitial();
+                performSearch(getActivity());
             }
 
         });
@@ -127,7 +111,7 @@ public class IFSCFragment extends Fragment {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
                 if (actionId == EditorInfo.IME_ACTION_SEARCH) {
-                    showInterstitial();
+                    performSearch(getActivity());
                     return true;
                 }
                 return false;
@@ -157,50 +141,4 @@ public class IFSCFragment extends Fragment {
         }
     }
 
-    private InterstitialAd newInterstitialAd() {
-        InterstitialAd interstitialAd = new InterstitialAd(getActivity());
-        interstitialAd.setAdUnitId(getActivity().getString(R.string.admob_id));
-        interstitialAd.setAdListener(new AdListener() {
-            @Override
-            public void onAdLoaded() {
-            }
-
-            @Override
-            public void onAdFailedToLoad(int errorCode) {
-            }
-
-            @Override
-            public void onAdClosed() {
-                // Proceed to the next level.
-                performSearch(getActivity());
-            }
-        });
-        return interstitialAd;
-    }
-
-    private void showInterstitial() {
-        // hide keyboard
-        if (getView() != null) {
-            InputMethodManager inputMethodManager = (InputMethodManager) getContext()
-                    .getSystemService(Context.INPUT_METHOD_SERVICE);
-            inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
-                    InputMethodManager.HIDE_NOT_ALWAYS);
-        }
-        if (bankNameSpinner.getText().toString().trim().length() > 0) {
-            // Show the ad if it's ready.
-            if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
-                mInterstitialAd.show();
-                AdCounter.getInstance().setShowAd(false);
-            } else {
-                performSearch(getActivity());
-            }
-        } else {
-            Toast.makeText(getActivity(), "Please Select a Bank!!!", Toast.LENGTH_LONG).show();
-        }
-    }
-
-    private static void loadInterstitial() {
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mInterstitialAd.loadAd(adRequest);
-    }
 }

@@ -34,7 +34,6 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import com.ashoksm.pinfinder.common.AdCounter;
 import com.ashoksm.pinfinder.common.activities.ActivityBase;
 import com.github.clans.fab.FloatingActionButton;
 import com.github.clans.fab.FloatingActionMenu;
@@ -61,19 +60,18 @@ public class MainActivity extends ActivityBase {
         setContentView(R.layout.activity_main);
 
         // load ad
-        AdCounter.getInstance().setShowAd(true);
         loadAd();
 
-        /**
-         *Setup the DrawerLayout and NavigationView
+        /*
+         Setup the DrawerLayout and NavigationView
          */
 
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
         NavigationView mNavigationView = (NavigationView) findViewById(R.id.shitstuff);
 
-        /**
-         * Lets inflate the very first fragment
-         * Here , we are inflating the TabFragment as the first Fragment
+        /*
+          Lets inflate the very first fragment
+          Here , we are inflating the TabFragment as the first Fragment
          */
 
         FragmentManager mFragmentManager = getSupportFragmentManager();
@@ -94,8 +92,8 @@ public class MainActivity extends ActivityBase {
         //load floating button
         addFloatingButton();
 
-        /**
-         * Setup click events on the Navigation View Items.
+        /*
+          Setup click events on the Navigation View Items.
          */
 
         mNavigationView.setNavigationItemSelectedListener(
@@ -130,8 +128,8 @@ public class MainActivity extends ActivityBase {
                     }
                 });
 
-        /**
-         * Setup Drawer Toggle of the Toolbar
+        /*
+          Setup Drawer Toggle of the Toolbar
          */
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -155,7 +153,7 @@ public class MainActivity extends ActivityBase {
             public void onClick(View v) {
                 actionMenu.close(true);
                 clazz = DisplayPinCodeResultActivity.class;
-                showInterstitial();
+                performSearch();
             }
         });
 
@@ -166,7 +164,7 @@ public class MainActivity extends ActivityBase {
             public void onClick(View v) {
                 actionMenu.close(true);
                 clazz = DisplayBankResultActivity.class;
-                showInterstitial();
+                performSearch();
             }
         });
 
@@ -177,7 +175,7 @@ public class MainActivity extends ActivityBase {
             public void onClick(View v) {
                 actionMenu.close(true);
                 clazz = DisplaySTDResultActivity.class;
-                showInterstitial();
+                performSearch();
             }
         });
 
@@ -188,7 +186,7 @@ public class MainActivity extends ActivityBase {
             public void onClick(View v) {
                 actionMenu.close(true);
                 clazz = DisplayRTOResultActivity.class;
-                showInterstitial();
+                performSearch();
             }
         });
         actionMenu.setClosedOnTouchOutside(true);
@@ -230,11 +228,8 @@ public class MainActivity extends ActivityBase {
         super.onResume();
         overridePendingTransition(R.anim.slide_in_left, 0);
         //load ad
-        if (AdCounter.getInstance().getCount() % 5 == 0) {
-            mInterstitialAd = newInterstitialAd();
-            loadInterstitial();
-            AdCounter.getInstance().incrementCount();
-        }
+        mInterstitialAd = newInterstitialAd();
+        loadInterstitial();
     }
 
     private InterstitialAd newInterstitialAd() {
@@ -251,20 +246,18 @@ public class MainActivity extends ActivityBase {
 
             @Override
             public void onAdClosed() {
-                // Proceed to the next level.
-                performSearch();
+                MainActivity.super.onBackPressed();
             }
         });
         return interstitialAd;
     }
 
     private void showInterstitial() {
-        AdCounter.getInstance().incrementCount();
         // Show the ad if it's ready. Otherwise toast and reload the ad.
         if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
             mInterstitialAd.show();
         } else {
-            performSearch();
+            super.onBackPressed();
         }
     }
 
@@ -278,5 +271,10 @@ public class MainActivity extends ActivityBase {
         intent.putExtra(EXTRA_SHOW_FAV, true);
         startActivity(intent);
         overridePendingTransition(R.anim.slide_out_left, 0);
+    }
+
+    @Override
+    public void onBackPressed() {
+        showInterstitial();
     }
 }
