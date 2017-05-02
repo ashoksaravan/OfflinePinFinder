@@ -255,6 +255,6 @@ public class DisplayBankResultActivity extends AppCompatActivity {
         adAdapterWrapper.setAdapter((RecyclerView.Adapter) adapter);
         adAdapterWrapper.setLimitOfAds(3);
         adAdapterWrapper.setNoOfDataBetweenAds(10);
-        adAdapterWrapper.setFirstAdIndex(2);
+        adAdapterWrapper.setFirstAdIndex(3);
     }
 }

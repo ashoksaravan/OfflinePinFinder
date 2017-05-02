@@ -73,10 +73,11 @@ public class MainActivity extends ActivityBase {
           Lets inflate the very first fragment
           Here , we are inflating the TabFragment as the first Fragment
          */
-
-        FragmentManager mFragmentManager = getSupportFragmentManager();
-        FragmentTransaction mFragmentTransaction = mFragmentManager.beginTransaction();
-        mFragmentTransaction.replace(R.id.containerView, new TabFragment()).commitAllowingStateLoss();
+        if (!isFinishing()) {
+            FragmentManager mFragmentManager = getSupportFragmentManager();
+            FragmentTransaction mFragmentTransaction = mFragmentManager.beginTransaction();
+            mFragmentTransaction.replace(R.id.containerView, new TabFragment()).commitAllowingStateLoss();
+        }
 
         if (ActivityCompat
                 .checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) !=
@@ -228,8 +229,10 @@ public class MainActivity extends ActivityBase {
         super.onResume();
         overridePendingTransition(R.anim.slide_in_left, 0);
         //load ad
-        mInterstitialAd = newInterstitialAd();
-        loadInterstitial();
+        if (!isFinishing()) {
+            mInterstitialAd = newInterstitialAd();
+            loadInterstitial();
+        }
     }
 
     private InterstitialAd newInterstitialAd() {
@@ -246,7 +249,7 @@ public class MainActivity extends ActivityBase {
 
             @Override
             public void onAdClosed() {
-                MainActivity.super.onBackPressed();
+                finish();
             }
         });
         return interstitialAd;
