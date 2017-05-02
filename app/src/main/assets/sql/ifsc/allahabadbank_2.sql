@@ -1,3 +1,4 @@
+INSERT INTO bank_branch_t VALUES('Hirma', 'Jharsuguda', 'Rajeev Gandhi Seva Kendra, At/po - Hirma, DT. Jharsuguda, PIN - 768202, Odisha', '2147483647', '768010503', 'ALLA0213477', 368);
 INSERT INTO bank_branch_t VALUES('Marufganj', 'Patna', 'Allahabad Bank, Marufganj Branch, Opposite Babua JI KA Hata, Marufganj, Patna City, District - Patna', '2147483647', '800010511', 'ALLA0213478', 117);
 INSERT INTO bank_branch_t VALUES('Contai', 'East Midnapore', 'Digha Bypass Road, AT & P.O.-CONTAI, District-purba Midnapore, Pin-721401', '2147483647', '721010402', 'ALLA0213479', 583);
 INSERT INTO bank_branch_t VALUES('Dhanori', 'Pune', 'Allahabad Bank, Dhanori Branch, S NO. 55/3, Bhairavnagar, Near Matoshri Karyalya, Dhanori Road, Dhanori, Pune - 411015', '2147483647', '411010009', 'ALLA0213480', 336);
@@ -17,6 +18,7 @@ INSERT INTO bank_branch_t VALUES('Sanpada', 'Mumbai', 'Allahabad Bank, Sanpada B
 INSERT INTO bank_branch_t VALUES('Dalanwala', 'Dehradun', 'Allahabad Bank, Main Sahastra Dhara Chauraha/dalanwala Road, Dehradun, State Uttarakhand, PIN -248001', '2713949', '248010009', 'ALLA0213494', 563);
 INSERT INTO bank_branch_t VALUES('Barkhera', 'Malakhera', '(SMT. Shanti Devi C/O Prahlad RAM Sani) Devi JI Kothi, Vill & Post Barkhera, Tehsil-maalkhera, PIN Code-301406', '2147483647', '301010503', 'ALLA0213499', 408);
 INSERT INTO bank_branch_t VALUES('Bambloo', 'Bikaner', 'Grampanchayat, Bambloo, Bikaner, Rajasthan, Pin-334022', '2147483647', '334010006', 'ALLA0213500', 414);
+INSERT INTO bank_branch_t VALUES('Newadhiya', 'Jaunpur', 'Newadhiya Branch, Newadhiya BYE Pass Road, Near RAM Janaki Mandir, Distt Jaunpur UP, PIN 222128', '2147483647', '222010056', 'ALLA0213501', 507);
 INSERT INTO bank_branch_t VALUES('Vikas Bhawan', 'Chitrakoot', 'NEW Vikas Bhawan, Soneypur, Karwi', '2147483647', '210010005', 'ALLA0213502', 486);
 INSERT INTO bank_branch_t VALUES('Allahabad UP Gramin-orai Main', 'Orai', 'Rath Road, DVC Orai, Dakor, Jalaun-285001', '2147483647', '285699102', 'ALLA0AU1002', 506);
 INSERT INTO bank_branch_t VALUES('Allahabad UP Gramin-hamirpur', 'Mahoba', 'Ramedi, Kurara, Hamirpur-210301', '2147483647', '210699102', 'ALLA0AU1003', 503);
@@ -397,4 +399,3 @@ INSERT INTO bank_branch_t VALUES('Allahabad UP Gramin -pahelwara  (P.B. Adda)', 
 INSERT INTO bank_branch_t VALUES('Allahabad UP Gramin -bhaggarwa Bazar', 'Bahraich', 'Bhaggarwa Bazar, TEH.BAHRAICH', '2147483647', '271699542', 'ALLA0AU1384', 472);
 INSERT INTO bank_branch_t VALUES('Allahabad UP Gramin -kutti Premdas', 'Bahraich', 'Kutti Premdas, TEH.BAHRAICH', '2147483647', '271699583', 'ALLA0AU1385', 472);
 INSERT INTO bank_branch_t VALUES('Allahabad UP Gramin -begam PUR', 'Bahraich', 'Begampur, TEH.BAHRAICH', '2147483647', '271699008', 'ALLA0AU1386', 472);
-INSERT INTO bank_branch_t VALUES('Allahabad UP Gramin -purena', 'Bahraich', 'Purena, TEH.BAHRAICH, 271801', '2147483647', '271699560', 'ALLA0AU1387', 544);

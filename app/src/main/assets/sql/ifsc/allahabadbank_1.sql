@@ -269,6 +269,7 @@ INSERT INTO bank_branch_t VALUES('Allahabad UP Gramin -ratnapur', 'Bhinga', 'Rat
 INSERT INTO bank_branch_t VALUES('Allahabad UP Gramin-subhikha', 'Bhinga', 'Gilaula, Sravasti-271835', '2147483647', '271699511', 'ALLA0AU1390', 544);
 INSERT INTO bank_branch_t VALUES('Allahabad UP Gramin -gambhirwa Bazar', 'Bahraich', 'Gambhirwa Bazar, TEH.BAHRAICH., 271801', '2147483647', '271699011', 'ALLA0AU1389', 472);
 INSERT INTO bank_branch_t VALUES('Allahabad UP Gramin -itaha(basthanwa)', 'Bahraich', 'Basthanwa, Shivpurpakara Dewaria', '2147483647', '271699513', 'ALLA0AU1388', 472);
+INSERT INTO bank_branch_t VALUES('Allahabad UP Gramin -purena', 'Bahraich', 'Purena, TEH.BAHRAICH, 271801', '2147483647', '271699560', 'ALLA0AU1387', 544);
 INSERT INTO bank_branch_t VALUES('Guwahati Main Branch', 'Guwahati', 'H. B. Road, Machowa, OPP. OF Astc BUS Stand Machkhowa, Guwahati', '2545218', '781010005', 'ALLA0210001', 82);
 INSERT INTO bank_branch_t VALUES('Patna University', 'Patna', 'Patna UNIVERSITY.GANESH Road, Dist-patna', '2671644', 'NA', 'ALLA0210002', 117);
 INSERT INTO bank_branch_t VALUES('Patna Main', 'Patna', 'Budh Marg, Dist-patna, Pin-800001', '2235237', '800010002', 'ALLA0210003', 117);
@@ -3497,4 +3498,3 @@ INSERT INTO bank_branch_t VALUES('Thanwara', 'Lalitpur', 'Vill-thanwara Po-thanw
 INSERT INTO bank_branch_t VALUES('Ladpur', 'Bareilly', 'Allahabad Bank, Ladpur Branch, C/O SRI Nathu Lal, Vill  Ladpur, PO - Bhojipura, DISTT.  Bareilly (U.P. ) - 243122', '2147483647', '243010503', 'ALLA0213474', 479);
 INSERT INTO bank_branch_t VALUES('MVP Colony', 'Visakhapatnam', 'Plot No-11, Sector-3, Mig-i, MVP Colony, Visakhapatnam-530017', '2147483647', '530010005', 'ALLA0213475', 63);
 INSERT INTO bank_branch_t VALUES('Mangalagiri', 'Hyderabad', '1 By448, Goutam Buddha Road, MANGALAGIRI. 522503', '2147483647', '520010302', 'ALLA0213476', 461);
-INSERT INTO bank_branch_t VALUES('Hirma', 'Jharsuguda', 'Rajeev Gandhi Seva Kendra, At/po - Hirma, DT. Jharsuguda, PIN - 768202, Odisha', '2147483647', '768010503', 'ALLA0213477', 368);
