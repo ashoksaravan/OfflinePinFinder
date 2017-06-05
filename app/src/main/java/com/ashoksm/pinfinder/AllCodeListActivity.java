@@ -13,6 +13,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.CardView;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.text.Editable;
@@ -82,6 +83,9 @@ public class AllCodeListActivity extends ActivityBase {
         menuId = intent.getIntExtra(MainActivity.EXTRA_MENU_ID, 0);
 
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.item_list);
+        recyclerView.setHasFixedSize(false);
+        NpaLinearLayoutManager layoutManager = new NpaLinearLayoutManager(this);
+        recyclerView.setLayoutManager(layoutManager);
         Drawable dividerDrawable = ContextCompat.getDrawable(this, R.drawable.item_divider);
         recyclerView.addItemDecoration(new DividerItemDecoration(dividerDrawable));
         setupRecyclerView(recyclerView);
@@ -175,6 +179,7 @@ public class AllCodeListActivity extends ActivityBase {
                     @Override
                     public void afterTextChanged(Editable s) {
                         queryTxt = s.toString();
+                        recyclerView.stopScroll();
                         switch (menuId) {
                             case R.id.nav_pincode:
                                 adapter.changeCursor(sqLiteHelper.getAllPinCodes(queryTxt));
@@ -469,5 +474,28 @@ public class AllCodeListActivity extends ActivityBase {
         if (adAdapterWrapper != null) {
             adAdapterWrapper.release();
         }
+    }
+
+    /**
+     * No Predictive Animations LinearLayoutManager
+     */
+    private static class NpaLinearLayoutManager extends LinearLayoutManager {
+
+
+        NpaLinearLayoutManager(Context context) {
+            super(context);
+        }
+
+        /**
+         * Disable predictive animations. There is a bug in RecyclerView which causes views that
+         * are being reloaded to pull invalid ViewHolders from the internal recycler stack if the
+         * adapter size has decreased since the ViewHolder was recycled.
+         */
+        @Override
+        public boolean supportsPredictiveItemAnimations() {
+            return false;
+        }
+
+
     }
 }
