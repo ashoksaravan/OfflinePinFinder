@@ -204,7 +204,7 @@ public class DisplayBankResultActivity extends AppCompatActivity {
         }
         super.onDestroy();
         overridePendingTransition(R.anim.slide_in_left, 0);
-        if(adAdapterWrapper != null) {
+        if (adAdapterWrapper != null) {
             adAdapterWrapper.release();
         }
     }
@@ -224,7 +224,7 @@ public class DisplayBankResultActivity extends AppCompatActivity {
     private void initNativeAd() {
         String[] testDevicesIds = new String[]{AdRequest.DEVICE_ID_EMULATOR};
         adAdapterWrapper = new AdmobExpressRecyclerAdapterWrapper(this, getString(R.string
-                .admob_small_native_ad_id), testDevicesIds){
+                .admob_small_native_ad_id), testDevicesIds) {
             @Override
             protected ViewGroup wrapAdView(NativeExpressAdViewHolder adViewHolder, ViewGroup parent, int viewType) {
 
