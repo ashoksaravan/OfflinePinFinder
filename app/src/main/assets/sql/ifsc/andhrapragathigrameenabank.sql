@@ -187,6 +187,7 @@ INSERT INTO bank_branch_t VALUES('Jagadevipeta', 'Jagadevipeta', 'Jagadevipeta ?
 INSERT INTO bank_branch_t VALUES('Pellakuru', 'Pellakuru', 'Pellakuru ?? 524129 Pellakuru Mandal Nellore District', '278524', '524703664', 'APGB0004003', 1244);
 INSERT INTO bank_branch_t VALUES('Vakadu', 'Vakadu', 'Vakadu ?? 524415 Vakadu Mandal Nellore District', '240256', '524703662', 'APGB0004002', 1244);
 INSERT INTO bank_branch_t VALUES('Nellore Main', 'Nellore', 'Nellore Main Branch  Srinivasa Agraharam, Near Vijaya Mahal Gate  Nellore, Nellore Districtpin 524001', '2328514', '524703003', 'APGB0004001', 1244);
+INSERT INTO bank_branch_t VALUES('Dudyala', 'Dudyala', 'Door NO 4/8, Boddurayi Street, Dudyala Village, Kothapalle Mandal, Kurnool Dist, Andhra Pradesh-518422', '2147483647', 'NA', 'APGB0003205', 1243);
 INSERT INTO bank_branch_t VALUES('Ellavathula', 'Ellavathula', 'Door NO 3/45, Peddamma Bayalu, Ellavathula Village, Rudravaram(mandal), Kurnool(dist), Andhra Pradesh- 518583', '2147483647', 'NA', 'APGB0003204', 1243);
 INSERT INTO bank_branch_t VALUES('Nagaladinne', 'Nagaladinne', 'Mantralayam Road, Nagaladinne Village, Nandavaram Mandal, Kurnool (dist), Andhra PRADESH. Pin- 513360', '2147483647', 'NA', 'APGB0003203', 1243);
 INSERT INTO bank_branch_t VALUES('Nandyal SBI Colony', 'Nandyal', 'Door NO 29/178/f2/af, Beside Rani Prameela Hospital, SBI Colony, Nandyal, Kurnool(dist), Andhra PRADESH.PIN- 518502', '2147483647', 'NA', 'APGB0003202', 1243);
