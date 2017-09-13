@@ -1,3 +1,4 @@
+INSERT INTO bank_branch_t VALUES('Mehkar', 'Mehkar', 'Rajiv Gandhi Nagar Parishad Commercial Complex, Near Nagar Parishad, Athavadhi Bazar, Mehkar', '224555', '443364503', 'AKJB0000041', 180);
 INSERT INTO bank_branch_t VALUES('Wani', 'Wani', 'Near Abad Bhavan Taor Chowk Wani 445304', '228383', '445364503', 'AKJB0000040', 189);
 INSERT INTO bank_branch_t VALUES('Lonar', 'Lonar', 'Loni Road Plot NO4 Survey NO 168/4 Lonar 443302', '221288', '443364502', 'AKJB0000039', 180);
 INSERT INTO bank_branch_t VALUES('Vashi', 'Navi Mumbai', 'Shivaji Market 2, Ground Floor, Shop NO 10, 11, 29, 30, Plot NO 8 9, Croma Road, Sector 19d, Infornt OF Apmc Dana Market, Vashi', '2147483647', 'NA', 'AKJB0000038', 187);

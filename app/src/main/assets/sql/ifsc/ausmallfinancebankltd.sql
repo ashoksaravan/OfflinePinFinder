@@ -1,12 +1,16 @@
+INSERT INTO bank_branch_t VALUES('Pune', 'Pune', 'Wing 4TH Floor Office NO 504 505 506 Mega Center Pune Solapur Road Hadapsar Pune Maharashtra 411028', '0', '411765001', 'AUBL0009116', 93);
 INSERT INTO bank_branch_t VALUES('Jodhpur', 'Jodhpur', '3rdfloorsundervillaabovevodafonestore12throadcrossresidencyroadjodhpurrajasthan342001', '0', '342765001', 'AUBL0009034', 138);
 INSERT INTO bank_branch_t VALUES('Udaipur', 'Udaipur', '2ND Floor Kesav Tower Near Baroda Narsari OPP Pandit Paratha Savina Main Road Hiran Magri Sector 8 Udaipur Rajasthan 313008', '0', '313765001', 'AUBL0009010', 148);
+INSERT INTO bank_branch_t VALUES('Gailpur', 'Alwar', 'Khasra NO 304 Main BUS Stand VPO Gailpur Tehsil Tijara 301707', '0', '301765009', 'AUBL0002414', 120);
 INSERT INTO bank_branch_t VALUES('Khuri', 'Sikar', 'Nh11 Khuri Chhoti Khuri Badi Rajasthan', '0', '332765011', 'AUBL0002413', 145);
 INSERT INTO bank_branch_t VALUES('Chakwada', 'Jaipur', 'Main BUS Stand Chakwada 303005', '0', '303765022', 'AUBL0002412', 133);
+INSERT INTO bank_branch_t VALUES('Raiwana', 'Alwar', 'Raiwana Talwana SUB Tehsil Neemrana Tehsil Behror Alwar 301703', '0', '301765008', 'AUBL0002411', 120);
 INSERT INTO bank_branch_t VALUES('Chharsa MOD', 'Jaipur', 'Main BUS Stand Chharsa Mode 303120', '0', '303765021', 'AUBL0002410', 133);
 INSERT INTO bank_branch_t VALUES('Hathideh', 'Sikar', 'Main BUS Stand Hathideh 332705', '0', '332765010', 'AUBL0002409', 145);
 INSERT INTO bank_branch_t VALUES('Hanuthpura', 'Jaipur', 'Ward NO 8 Dhanota Walon KA Mohalla Village Hanuthpura Tehsil Shahpura 303120', '0', '303765020', 'AUBL0002408', 133);
 INSERT INTO bank_branch_t VALUES('Paaldi', 'Jaipur', 'NEW BUS Stand Village AND Post Paaldi Tehsil Viratnagar 303003', '0', '303765019', 'AUBL0002407', 133);
 INSERT INTO bank_branch_t VALUES('Theekaria', 'Jaipur', 'Main BUS Stand Thikaria Ward NO 11 Tehsil Jaipur 303106', '0', '303765023', 'AUBL0002406', 133);
+INSERT INTO bank_branch_t VALUES('Jawanpura', 'Jaipur', 'Khasra NO 2131 Rakba 1.57 Jawanpura BUS Stand Jawanpura Viratnagar 303119', '0', '303765024', 'AUBL0002405', 133);
 INSERT INTO bank_branch_t VALUES('Jaipur', 'Jaipur', 'Plot NO.6 C-6, Harikishan Somani Marg, Ajmer Road Jaipur', '0', '302765006', 'AUBL0002404', 133);
 INSERT INTO bank_branch_t VALUES('Gurgaon-ii', 'Gurgaon', 'GF 5 6 7 Ninex City Mart Sector 49 Sohna Road Gurgaon 122101', '0', '110765011', 'AUBL0002403', 37);
 INSERT INTO bank_branch_t VALUES('Sangrur-grain Market', 'Sangrur', 'Khasra NO 1988 2 3 0 10 1 4 1988 3 2 0 6 1 4 191 2 3 Min0 4 1 4 Gaushala Road OPP Grain Market Sangrur Punjab 148001', '0', '148765002', 'AUBL0002402', 117);
@@ -190,6 +194,8 @@ INSERT INTO bank_branch_t VALUES('Beawar-jodhpur Road', 'Ajmer', '8 243 Gali NO 
 INSERT INTO bank_branch_t VALUES('Ajmer-anasagar Road', 'Ajmer', 'Gurukripa Building Anasagar Road Chaupati KE Samne Ajmer 305001', '0', '305765002', 'AUBL0002220', 119);
 INSERT INTO bank_branch_t VALUES('Tonk', 'Tonk', 'Nazar BAG Road Sunaro KA Mandir Tonk 304001', '0', '304765002', 'AUBL0002219', 147);
 INSERT INTO bank_branch_t VALUES('Phagi-jaipur Road', 'Jaipur', 'Patta NO 93 Jaipur Road Near UCO Bank Phagi 303005', '0', '303765017', 'AUBL0002218', 133);
+INSERT INTO bank_branch_t VALUES('Jaipur Raja Park', 'Jaipur', 'Business Avenue B12 Govind Marg Raja Park Jaipur 302004', '0', '302765013', 'AUBL0002217', 133);
+INSERT INTO bank_branch_t VALUES('Jaipur Pratap Nagar', 'Jaipur', 'Plot NO A Sector 8 Haldighati Marg Main Tonk Road Pratap Nagar 302033', '0', '302765014', 'AUBL0002216', 133);
 INSERT INTO bank_branch_t VALUES('Jaipur Gopalpura BYE Pass', 'Jaipur', 'Plot NO 22 TO 25 91 92 Gopal Nagar A Ashok Vihar EXT Gopalpura Bypass Jaipur 302018', '0', '302765012', 'AUBL0002215', 133);
 INSERT INTO bank_branch_t VALUES('Jaipur-mansarovar Madhyam Marg', 'Jaipur', 'Shoping Centre Sector 9 Madhyam Marg 302020', '0', '302765003', 'AUBL0002214', 133);
 INSERT INTO bank_branch_t VALUES('Chaksu-kotkhavada MOD', 'Jaipur', 'Kotkhavada MOD Near Shyam Tower Chaksu 303901', '0', '303765016', 'AUBL0002213', 133);
