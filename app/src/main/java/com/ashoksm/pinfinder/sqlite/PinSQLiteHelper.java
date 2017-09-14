@@ -207,7 +207,8 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
                     }
                     insertReader.close();
                     if (!context.isFinishing()) {
-                        final Double percentage = (i / ((double) fileNames.length - 4.00d)) * 95.00d;
+                        final Double percentage =
+                                (i / ((double) fileNames.length - 4.00d)) * 95.00d;
                         context.runOnUiThread(new Runnable() {
                             public void run() {
                                 mProgressDialog.setProgress(percentage.intValue() + 5);

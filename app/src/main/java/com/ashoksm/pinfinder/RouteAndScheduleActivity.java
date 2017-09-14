@@ -120,7 +120,7 @@ public class RouteAndScheduleActivity extends ActivityBase {
             }
 
         }.execute();
-        if(!xLargeScreen) {
+        if (!xLargeScreen) {
             Toast.makeText(this, "Use Landscape for better experience", Toast.LENGTH_LONG).show();
         }
         AppRater.appLaunched(this);

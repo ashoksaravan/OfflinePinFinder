@@ -8,15 +8,15 @@
             <item
                 android:id="@+id/nav_pincode"
                 android:icon="@drawable/ic_floating_pincode"
-                android:title="@string/search_by_pincode"/>
+                android:title="@string/search_by_pincode" />
             <item
                 android:id="@+id/nav_office"
                 android:icon="@drawable/ic_floating_pincode"
-                android:title="@string/search_by_office_name"/>
+                android:title="@string/search_by_office_name" />
             <item
                 android:id="@+id/nav_near_by_post_office"
                 android:icon="@drawable/ic_maps_place"
-                android:title="@string/near_by_post_offices"/>
+                android:title="@string/near_by_post_offices" />
         </menu>
     </item>
 
@@ -27,23 +27,23 @@
             <item
                 android:id="@+id/nav_ifsc"
                 android:icon="@drawable/ic_floating_ifsc"
-                android:title="@string/search_by_ifsc"/>
+                android:title="@string/search_by_ifsc" />
             <item
                 android:id="@+id/nav_micr"
                 android:icon="@drawable/ic_floating_ifsc"
-                android:title="@string/search_by_micr"/>
+                android:title="@string/search_by_micr" />
             <item
                 android:id="@+id/nav_branch_name"
                 android:icon="@drawable/ic_floating_ifsc"
-                android:title="@string/search_by_branch_name"/>
+                android:title="@string/search_by_branch_name" />
             <item
                 android:id="@+id/nav_near_by_bank"
                 android:icon="@drawable/ic_maps_place"
-                android:title="@string/near_by_bank"/>
+                android:title="@string/near_by_bank" />
             <item
                 android:id="@+id/nav_near_by_atm"
                 android:icon="@drawable/ic_maps_place"
-                android:title="@string/near_by_atm"/>
+                android:title="@string/near_by_atm" />
         </menu>
     </item>
 
@@ -52,23 +52,23 @@
             <item
                 android:id="@+id/nav_station_code"
                 android:icon="@drawable/ic_maps_directions_transit"
-                android:title="@string/search_by_station_code"/>
+                android:title="@string/search_by_station_code" />
             <item
                 android:id="@+id/nav_station_name"
                 android:icon="@drawable/ic_maps_directions_transit"
-                android:title="@string/search_by_station_name"/>
+                android:title="@string/search_by_station_name" />
             <item
                 android:id="@+id/nav_train_name_or_no"
                 android:icon="@drawable/ic_maps_directions_transit"
-                android:title="@string/search_by_train_no_name"/>
+                android:title="@string/search_by_train_no_name" />
             <item
                 android:id="@+id/nav_train_via_station"
                 android:icon="@drawable/ic_maps_directions_transit"
-                android:title="@string/trains_passing_via_station"/>
+                android:title="@string/trains_passing_via_station" />
             <item
                 android:id="@+id/nav_near_by_railway_station"
                 android:icon="@drawable/ic_maps_place"
-                android:title="@string/near_by_railway_station"/>
+                android:title="@string/near_by_railway_station" />
         </menu>
     </item>
 
@@ -77,11 +77,11 @@
             <item
                 android:id="@+id/nav_std_city"
                 android:icon="@drawable/ic_floating_std"
-                android:title="@string/search_by_city_name"/>
+                android:title="@string/search_by_city_name" />
             <item
                 android:id="@+id/nav_std_code"
                 android:icon="@drawable/ic_floating_std"
-                android:title="@string/search_by_std_code"/>
+                android:title="@string/search_by_std_code" />
         </menu>
     </item>
 
@@ -90,11 +90,11 @@
             <item
                 android:id="@+id/nav_rto_city"
                 android:icon="@drawable/ic_floating_rto"
-                android:title="@string/search_by_city_name"/>
+                android:title="@string/search_by_city_name" />
             <item
                 android:id="@+id/nav_rto_code"
                 android:icon="@drawable/ic_floating_rto"
-                android:title="@string/search_by_rto_code"/>
+                android:title="@string/search_by_rto_code" />
         </menu>
     </item>
 </menu>

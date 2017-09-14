@@ -306,7 +306,7 @@ public class NearByPlacesActivity extends ActivityBase implements LocationListen
                     mGoogleMap.addMarker(markerOptions);
                 }
             }
-            if(getSupportActionBar() != null && list != null) {
+            if (getSupportActionBar() != null && list != null) {
                 getSupportActionBar().setTitle(list.size() + " Results found");
             }
         }
@@ -321,12 +321,13 @@ public class NearByPlacesActivity extends ActivityBase implements LocationListen
         if (mGoogleMap != null) {
             mGoogleMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
             mGoogleMap.animateCamera(CameraUpdateFactory.zoomTo(13));
-            if(getSupportActionBar() != null && getSupportActionBar().getTitle() != null) {
+            if (getSupportActionBar() != null && getSupportActionBar().getTitle() != null) {
                 String title = getSupportActionBar().getTitle().toString();
-                if(!title.contains("Results found")) {
-                    String s = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location="
-                            + mLatitude + "," + mLongitude + "&radius=5000&types=" + type
-                            + "&sensor=true&key=" + getString(R.string.google_api_key);
+                if (!title.contains("Results found")) {
+                    String s =
+                            "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location="
+                                    + mLatitude + "," + mLongitude + "&radius=5000&types=" + type
+                                    + "&sensor=true&key=" + getString(R.string.google_api_key);
 
                     // Creating a new non-ui thread task to download json data
                     PlacesTask placesTask = new PlacesTask();

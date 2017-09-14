@@ -187,7 +187,7 @@ public class DisplayStationResultActivity extends ActivityBase {
         }
         super.onDestroy();
         overridePendingTransition(R.anim.slide_in_left, 0);
-        if(adAdapterWrapper != null) {
+        if (adAdapterWrapper != null) {
             adAdapterWrapper.release();
         }
     }
@@ -209,13 +209,15 @@ public class DisplayStationResultActivity extends ActivityBase {
         adAdapterWrapper = new AdmobExpressRecyclerAdapterWrapper(this, getString(R.string
                 .admob_small_native_ad_id), testDevicesIds) {
             @Override
-            protected ViewGroup wrapAdView(NativeExpressAdViewHolder adViewHolder, ViewGroup parent, int viewType) {
+            protected ViewGroup wrapAdView(NativeExpressAdViewHolder adViewHolder, ViewGroup parent,
+                                           int viewType) {
 
                 //get ad view
                 NativeExpressAdView adView = adViewHolder.getAdView();
 
-                RecyclerView.LayoutParams lp = new RecyclerView.LayoutParams(RecyclerView.LayoutParams.MATCH_PARENT,
-                        RecyclerView.LayoutParams.WRAP_CONTENT);
+                RecyclerView.LayoutParams lp =
+                        new RecyclerView.LayoutParams(RecyclerView.LayoutParams.MATCH_PARENT,
+                                RecyclerView.LayoutParams.WRAP_CONTENT);
                 CardView cardView = new CardView(DisplayStationResultActivity.this);
                 cardView.setLayoutParams(lp);
 

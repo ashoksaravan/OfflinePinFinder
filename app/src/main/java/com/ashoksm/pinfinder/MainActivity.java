@@ -76,7 +76,8 @@ public class MainActivity extends ActivityBase {
         if (!isFinishing()) {
             FragmentManager mFragmentManager = getSupportFragmentManager();
             FragmentTransaction mFragmentTransaction = mFragmentManager.beginTransaction();
-            mFragmentTransaction.replace(R.id.containerView, new TabFragment()).commitAllowingStateLoss();
+            mFragmentTransaction.replace(R.id.containerView, new TabFragment())
+                    .commitAllowingStateLoss();
         }
 
         if (ActivityCompat
@@ -109,7 +110,8 @@ public class MainActivity extends ActivityBase {
                                 .nav_near_by_railway_station) {
                             intent = new Intent(getApplicationContext(), AllCodeListActivity.class);
                         } else {
-                            locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+                            locationManager =
+                                    (LocationManager) getSystemService(Context.LOCATION_SERVICE);
                             gpsStatus = locationManager.isProviderEnabled(LocationManager
                                     .GPS_PROVIDER);
                             if (gpsStatus) {

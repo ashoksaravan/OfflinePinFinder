@@ -226,13 +226,15 @@ public class DisplayBankResultActivity extends AppCompatActivity {
         adAdapterWrapper = new AdmobExpressRecyclerAdapterWrapper(this, getString(R.string
                 .admob_small_native_ad_id), testDevicesIds) {
             @Override
-            protected ViewGroup wrapAdView(NativeExpressAdViewHolder adViewHolder, ViewGroup parent, int viewType) {
+            protected ViewGroup wrapAdView(NativeExpressAdViewHolder adViewHolder, ViewGroup parent,
+                                           int viewType) {
 
                 //get ad view
                 NativeExpressAdView adView = adViewHolder.getAdView();
 
-                RecyclerView.LayoutParams lp = new RecyclerView.LayoutParams(RecyclerView.LayoutParams.MATCH_PARENT,
-                        RecyclerView.LayoutParams.WRAP_CONTENT);
+                RecyclerView.LayoutParams lp =
+                        new RecyclerView.LayoutParams(RecyclerView.LayoutParams.MATCH_PARENT,
+                                RecyclerView.LayoutParams.WRAP_CONTENT);
                 CardView cardView = new CardView(DisplayBankResultActivity.this);
                 cardView.setLayoutParams(lp);
 

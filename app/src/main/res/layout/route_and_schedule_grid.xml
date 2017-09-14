@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:layout_centerHorizontal="true"
@@ -20,7 +19,7 @@
             android:layout_weight=".4"
             android:text="@string/stop_number"
             android:textColor="@color/accent"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/no"
@@ -28,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".6"
             android:text="@string/no"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -42,7 +41,7 @@
             android:layout_weight=".4"
             android:text="@string/station_name"
             android:textColor="@color/accent"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/station_name"
@@ -50,7 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".6"
             android:text="@string/station_name"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -64,7 +63,7 @@
             android:layout_weight=".4"
             android:text="@string/arrives"
             android:textColor="@color/accent"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/arrives"
@@ -72,7 +71,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".6"
             android:text="@string/arrives"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -86,7 +85,7 @@
             android:layout_weight=".4"
             android:text="@string/departs"
             android:textColor="@color/accent"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/departs"
@@ -94,7 +93,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".6"
             android:text="@string/departs"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
 
     </LinearLayout>
 
@@ -109,7 +108,7 @@
             android:layout_weight=".4"
             android:text="@string/stop_time"
             android:textColor="@color/accent"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/stop_time"
@@ -117,7 +116,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".6"
             android:text="@string/stop_time"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
 
     </LinearLayout>
 
@@ -132,7 +131,7 @@
             android:layout_weight=".4"
             android:text="@string/distance_travelled"
             android:textColor="@color/accent"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/distance_travelled"
@@ -140,7 +139,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".6"
             android:text="@string/distance_travelled"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
 
     </LinearLayout>
 
@@ -155,7 +154,7 @@
             android:layout_weight=".4"
             android:text="@string/day"
             android:textColor="@color/accent"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/day"
@@ -163,7 +162,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".6"
             android:text="@string/days"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -177,7 +176,7 @@
             android:layout_weight=".4"
             android:text="@string/route"
             android:textColor="@color/accent"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/route"
@@ -185,6 +184,6 @@
             android:layout_height="wrap_content"
             android:layout_weight=".6"
             android:text="@string/route"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
     </LinearLayout>
 </LinearLayout>

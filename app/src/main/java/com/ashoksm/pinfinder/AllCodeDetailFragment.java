@@ -199,13 +199,15 @@ public class AllCodeDetailFragment extends Fragment {
         adAdapterWrapper = new AdmobExpressRecyclerAdapterWrapper(getActivity(), getString(R.string
                 .admob_small_native_ad_id), testDevicesIds) {
             @Override
-            protected ViewGroup wrapAdView(NativeExpressAdViewHolder adViewHolder, ViewGroup parent, int viewType) {
+            protected ViewGroup wrapAdView(NativeExpressAdViewHolder adViewHolder, ViewGroup parent,
+                                           int viewType) {
 
                 //get ad view
                 NativeExpressAdView adView = adViewHolder.getAdView();
 
-                RecyclerView.LayoutParams lp = new RecyclerView.LayoutParams(RecyclerView.LayoutParams.MATCH_PARENT,
-                        RecyclerView.LayoutParams.WRAP_CONTENT);
+                RecyclerView.LayoutParams lp =
+                        new RecyclerView.LayoutParams(RecyclerView.LayoutParams.MATCH_PARENT,
+                                RecyclerView.LayoutParams.WRAP_CONTENT);
                 CardView cardView = new CardView(AllCodeDetailFragment.this.getActivity());
                 cardView.setLayoutParams(lp);
 
@@ -213,7 +215,8 @@ public class AllCodeDetailFragment extends Fragment {
                 textView.setLayoutParams(lp);
                 textView.setText(R.string.ad_loading);
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                    textView.setTextColor(getResources().getColor(R.color.accent, AllCodeDetailFragment.this.getActivity().getTheme()));
+                    textView.setTextColor(getResources().getColor(R.color.accent,
+                            AllCodeDetailFragment.this.getActivity().getTheme()));
                 } else {
                     textView.setTextColor(getResources().getColor(R.color.accent));
                 }
@@ -234,7 +237,7 @@ public class AllCodeDetailFragment extends Fragment {
     @Override
     public void onDestroy() {
         super.onDestroy();
-        if(adAdapterWrapper != null) {
+        if (adAdapterWrapper != null) {
             adAdapterWrapper.release();
         }
     }

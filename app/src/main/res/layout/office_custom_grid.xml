@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="fill_parent"
-              android:layout_height="wrap_content"
-              android:layout_centerHorizontal="true"
-              android:background="@color/icons"
-              android:orientation="vertical">
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:background="@color/icons"
+    android:orientation="vertical">
 
     <LinearLayout
         android:id="@+id/officeRow"
@@ -23,7 +23,7 @@
             android:layout_weight=".3"
             android:text="@string/officename"
             android:textColor="@color/accent"
-            android:textIsSelectable="false"/>
+            android:textIsSelectable="false" />
 
         <TextView
             android:id="@+id/officeName"
@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".65"
             android:textColor="@color/secondary_text"
-            android:textIsSelectable="true"/>
+            android:textIsSelectable="true" />
 
         <ImageButton
             android:id="@+id/options"
@@ -41,7 +41,7 @@
             android:background="@android:color/transparent"
             android:contentDescription="@string/options"
             android:scaleType="fitEnd"
-            android:src="@drawable/button_bg"/>
+            android:src="@drawable/button_bg" />
     </LinearLayout>
 
     <LinearLayout
@@ -61,7 +61,7 @@
             android:layout_weight=".3"
             android:text="@string/pincode"
             android:textColor="@color/accent"
-            android:textIsSelectable="false"/>
+            android:textIsSelectable="false" />
 
         <TextView
             android:id="@+id/pincode"
@@ -69,7 +69,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".7"
             android:textColor="@color/secondary_text"
-            android:textIsSelectable="true"/>
+            android:textIsSelectable="true" />
     </LinearLayout>
 
     <LinearLayout
@@ -89,7 +89,7 @@
             android:layout_weight=".3"
             android:text="@string/status"
             android:textColor="@color/accent"
-            android:textIsSelectable="false"/>
+            android:textIsSelectable="false" />
 
         <TextView
             android:id="@+id/status"
@@ -97,7 +97,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".7"
             android:textColor="@color/secondary_text"
-            android:textIsSelectable="true"/>
+            android:textIsSelectable="true" />
     </LinearLayout>
 
     <LinearLayout
@@ -118,7 +118,7 @@
             android:layout_weight=".3"
             android:text="@string/sub_office"
             android:textColor="@color/accent"
-            android:textIsSelectable="false"/>
+            android:textIsSelectable="false" />
 
         <TextView
             android:id="@+id/subOfficeName"
@@ -127,7 +127,7 @@
             android:layout_weight=".7"
             android:text="@string/NA"
             android:textColor="@color/secondary_text"
-            android:textIsSelectable="true"/>
+            android:textIsSelectable="true" />
     </LinearLayout>
 
     <LinearLayout
@@ -148,7 +148,7 @@
             android:layout_weight=".3"
             android:text="@string/head_office"
             android:textColor="@color/accent"
-            android:textIsSelectable="false"/>
+            android:textIsSelectable="false" />
 
         <TextView
             android:id="@+id/headOfficeName"
@@ -156,7 +156,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".7"
             android:textColor="@color/secondary_text"
-            android:textIsSelectable="true"/>
+            android:textIsSelectable="true" />
     </LinearLayout>
 
     <LinearLayout
@@ -177,7 +177,7 @@
             android:layout_weight=".3"
             android:text="@string/location"
             android:textColor="@color/accent"
-            android:textIsSelectable="false"/>
+            android:textIsSelectable="false" />
 
         <TextView
             android:id="@+id/locationName"
@@ -186,7 +186,7 @@
             android:layout_weight=".7"
             android:text="@string/NA"
             android:textColor="@color/secondary_text"
-            android:textIsSelectable="true"/>
+            android:textIsSelectable="true" />
     </LinearLayout>
 
     <LinearLayout
@@ -207,7 +207,7 @@
             android:layout_weight=".3"
             android:text="@string/state"
             android:textColor="@color/accent"
-            android:textIsSelectable="false"/>
+            android:textIsSelectable="false" />
 
         <TextView
             android:id="@+id/stateName"
@@ -215,7 +215,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".7"
             android:textColor="@color/secondary_text"
-            android:textIsSelectable="true"/>
+            android:textIsSelectable="true" />
     </LinearLayout>
 
     <LinearLayout
@@ -236,7 +236,7 @@
             android:layout_weight=".3"
             android:text="@string/telephone"
             android:textColor="@color/accent"
-            android:textIsSelectable="false"/>
+            android:textIsSelectable="false" />
 
         <TextView
             android:id="@+id/telephoneNumber"
@@ -245,6 +245,6 @@
             android:layout_weight=".7"
             android:text="@string/NA"
             android:textColor="@color/secondary_text"
-            android:textIsSelectable="false"/>
+            android:textIsSelectable="false" />
     </LinearLayout>
 </LinearLayout>

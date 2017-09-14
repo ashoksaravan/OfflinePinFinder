@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="fill_parent"
-              android:layout_height="wrap_content"
-              android:layout_centerHorizontal="true"
-              android:background="@color/icons"
-              android:orientation="vertical">
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:background="@color/icons"
+    android:orientation="vertical">
 
     <LinearLayout
         android:id="@+id/cityRow"
@@ -23,7 +23,7 @@
             android:layout_weight=".3"
             android:text="@string/std_code"
             android:textColor="@color/accent"
-            android:textIsSelectable="false"/>
+            android:textIsSelectable="false" />
 
         <TextView
             android:id="@+id/stdCode"
@@ -32,7 +32,7 @@
             android:layout_weight=".65"
             android:text="@string/NA"
             android:textColor="@color/secondary_text"
-            android:textIsSelectable="true"/>
+            android:textIsSelectable="true" />
 
         <ImageButton
             android:id="@+id/options"
@@ -42,7 +42,7 @@
             android:background="@android:color/transparent"
             android:contentDescription="@string/options"
             android:scaleType="fitEnd"
-            android:src="@drawable/button_bg"/>
+            android:src="@drawable/button_bg" />
     </LinearLayout>
 
     <LinearLayout
@@ -62,7 +62,7 @@
             android:layout_weight=".3"
             android:text="@string/city"
             android:textColor="@color/accent"
-            android:textIsSelectable="false"/>
+            android:textIsSelectable="false" />
 
         <TextView
             android:id="@+id/cityName"
@@ -70,7 +70,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".7"
             android:textColor="@color/secondary_text"
-            android:textIsSelectable="true"/>
+            android:textIsSelectable="true" />
     </LinearLayout>
 
     <LinearLayout
@@ -90,7 +90,7 @@
             android:layout_weight=".3"
             android:text="@string/state"
             android:textColor="@color/accent"
-            android:textIsSelectable="false"/>
+            android:textIsSelectable="false" />
 
         <TextView
             android:id="@+id/stdStateName"
@@ -98,6 +98,6 @@
             android:layout_height="wrap_content"
             android:layout_weight=".7"
             android:textColor="@color/secondary_text"
-            android:textIsSelectable="true"/>
+            android:textIsSelectable="true" />
     </LinearLayout>
 </LinearLayout>
