@@ -39,11 +39,11 @@ public class TrainsFragment extends Fragment {
                              Bundle savedInstanceState) {
         final View v = inflater.inflate(R.layout.trains_layout, container, false);
 
-        starts = (AutoCompleteTextView) v.findViewById(R.id.starts);
-        ends = (AutoCompleteTextView) v.findViewById(R.id.ends);
-        trainName = (AutoCompleteTextView) v.findViewById(R.id.train_name);
-        Button btnSubmit = (Button) v.findViewById(R.id.train_search);
-        aSwitch = (Switch) v.findViewById(R.id.train_switch);
+        starts = v.findViewById(R.id.starts);
+        ends = v.findViewById(R.id.ends);
+        trainName = v.findViewById(R.id.train_name);
+        Button btnSubmit = v.findViewById(R.id.train_search);
+        aSwitch = v.findViewById(R.id.train_switch);
 
         new AsyncTask<Void, Void, Void>() {
 

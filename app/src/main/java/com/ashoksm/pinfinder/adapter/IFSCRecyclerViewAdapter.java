@@ -235,17 +235,17 @@ public class IFSCRecyclerViewAdapter
 
         public ViewHolder(View view) {
             super(view);
-            branchName = (TextView) view.findViewById(R.id.branch);
-            options = (ImageButton) view.findViewById(R.id.options);
-            city = (TextView) view.findViewById(R.id.city);
-            district = (TextView) view.findViewById(R.id.bankDistrict);
-            state = (TextView) view.findViewById(R.id.bankStateName);
-            address = (TextView) view.findViewById(R.id.address);
-            contact = (TextView) view.findViewById(R.id.contact);
-            ifsc = (TextView) view.findViewById(R.id.ifsc);
-            micr = (TextView) view.findViewById(R.id.micr);
-            bankNameRow = (LinearLayout) view.findViewById(R.id.bankNameRow);
-            bankName = (TextView) view.findViewById(R.id.bankName);
+            branchName = view.findViewById(R.id.branch);
+            options = view.findViewById(R.id.options);
+            city = view.findViewById(R.id.city);
+            district = view.findViewById(R.id.bankDistrict);
+            state = view.findViewById(R.id.bankStateName);
+            address = view.findViewById(R.id.address);
+            contact = view.findViewById(R.id.contact);
+            ifsc = view.findViewById(R.id.ifsc);
+            micr = view.findViewById(R.id.micr);
+            bankNameRow = view.findViewById(R.id.bankNameRow);
+            bankName = view.findViewById(R.id.bankName);
             v = view;
         }
 

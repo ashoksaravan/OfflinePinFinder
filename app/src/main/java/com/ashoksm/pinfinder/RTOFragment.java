@@ -31,15 +31,15 @@ public class RTOFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         View v = inflater.inflate(R.layout.rto_layout, container, false);
-        stateNameTextView = (AutoCompleteTextView) v.findViewById(R.id.rtoStates);
+        stateNameTextView = v.findViewById(R.id.rtoStates);
 
         ArrayAdapter<CharSequence> stateAdapter =
                 ArrayAdapter.createFromResource(getActivity(), R.array.states_array,
                         R.layout.spinner_dropdown_item);
         // Apply the adapter to the spinner
         stateNameTextView.setAdapter(stateAdapter);
-        cityName = (EditText) v.findViewById(R.id.rtoCityName);
-        Button btnSubmit = (Button) v.findViewById(R.id.rtoSearch);
+        cityName = v.findViewById(R.id.rtoCityName);
+        Button btnSubmit = v.findViewById(R.id.rtoSearch);
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -81,7 +81,7 @@ public class AllCodeDetailFragment extends Fragment {
     private View getView(LayoutInflater vi, ViewGroup container) {
         final View v = vi.inflate(R.layout.all_code_fragment_content, container, false);
 
-        final RecyclerView mRecyclerView = (RecyclerView) v.findViewById(R.id.gridView);
+        final RecyclerView mRecyclerView = v.findViewById(R.id.gridView);
 
         // use this setting to improve performance if you know that changes
         // in content do not change the layout size of the RecyclerView
@@ -182,7 +182,7 @@ public class AllCodeDetailFragment extends Fragment {
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {
                     LinearLayout noMatchingLayout =
-                            (LinearLayout) v.findViewById(R.id.noMatchingLayout);
+                            v.findViewById(R.id.noMatchingLayout);
                     noMatchingLayout.setVisibility(View.VISIBLE);
                 }
                 // HIDE THE SPINNER AFTER LOADING FEEDS

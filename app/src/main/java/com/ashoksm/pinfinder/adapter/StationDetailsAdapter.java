@@ -142,11 +142,11 @@ public class StationDetailsAdapter
 
         public ViewHolder(View view) {
             super(view);
-            days = (TextView) view.findViewById(R.id.days);
-            trainName = (TextView) view.findViewById(R.id.train_name);
-            arrives = (TextView) view.findViewById(R.id.arrives);
-            departs = (TextView) view.findViewById(R.id.departs);
-            stopTime = (TextView) view.findViewById(R.id.stop_time);
+            days = view.findViewById(R.id.days);
+            trainName = view.findViewById(R.id.train_name);
+            arrives = view.findViewById(R.id.arrives);
+            departs = view.findViewById(R.id.departs);
+            stopTime = view.findViewById(R.id.stop_time);
         }
 
     }
@@ -161,11 +161,11 @@ public class StationDetailsAdapter
 
         ViewHeaderHolder(View view) {
             super(view);
-            days = (TextView) view.findViewById(R.id.days);
-            trainName = (TextView) view.findViewById(R.id.train_name);
-            arrives = (TextView) view.findViewById(R.id.arrives);
-            departs = (TextView) view.findViewById(R.id.departs);
-            stopTime = (TextView) view.findViewById(R.id.stop_time);
+            days = view.findViewById(R.id.days);
+            trainName = view.findViewById(R.id.train_name);
+            arrives = view.findViewById(R.id.arrives);
+            departs = view.findViewById(R.id.departs);
+            stopTime = view.findViewById(R.id.stop_time);
         }
 
     }

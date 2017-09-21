@@ -200,10 +200,10 @@ public class STDRecyclerViewAdapter
 
         public ViewHolder(View view) {
             super(view);
-            city = (TextView) view.findViewById(R.id.cityName);
-            state = (TextView) view.findViewById(R.id.stdStateName);
-            stdCode = (TextView) view.findViewById(R.id.stdCode);
-            options = (ImageButton) view.findViewById(R.id.options);
+            city = view.findViewById(R.id.cityName);
+            state = view.findViewById(R.id.stdStateName);
+            stdCode = view.findViewById(R.id.stdCode);
+            options = view.findViewById(R.id.options);
             v = view;
         }
     }

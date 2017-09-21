@@ -201,10 +201,10 @@ public class RTORecyclerViewAdapter
 
         public ViewHolder(View view) {
             super(view);
-            options = (ImageButton) view.findViewById(R.id.options);
-            city = (TextView) view.findViewById(R.id.rCityName);
-            state = (TextView) view.findViewById(R.id.rtoStateName);
-            rtoCode = (TextView) view.findViewById(R.id.rtoCode);
+            options = view.findViewById(R.id.options);
+            city = view.findViewById(R.id.rCityName);
+            state = view.findViewById(R.id.rtoStateName);
+            rtoCode = view.findViewById(R.id.rtoCode);
             v = view;
         }
 

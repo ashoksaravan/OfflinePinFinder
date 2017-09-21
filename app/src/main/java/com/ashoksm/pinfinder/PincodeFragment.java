@@ -34,7 +34,7 @@ public class PincodeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.pincode_layout, container, false);
-        states = (AutoCompleteTextView) v.findViewById(R.id.states);
+        states = v.findViewById(R.id.states);
 
         // Get the string array
         String[] statesArr = getActivity().getResources().getStringArray(R.array.states_array);
@@ -44,7 +44,7 @@ public class PincodeFragment extends Fragment {
                 new ArrayAdapter<>(getActivity(), R.layout.spinner_dropdown_item, statesArr);
         states.setAdapter(statesAdapter);
         // populate all districts
-        districts = (AutoCompleteTextView) v.findViewById(R.id.districts);
+        districts = v.findViewById(R.id.districts);
         String[] allDistricts = getActivity().getResources().getStringArray(R.array.district_all);
         districts.setAdapter(
                 new ArrayAdapter<>(getActivity(), R.layout.spinner_dropdown_item, allDistricts));
@@ -55,7 +55,7 @@ public class PincodeFragment extends Fragment {
 
     private void addStateChangeListener(View rootView, final Resources resources,
                                         final Activity context) {
-        districts = (AutoCompleteTextView) rootView.findViewById(R.id.districts);
+        districts = rootView.findViewById(R.id.districts);
         states.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long rowId) {
@@ -78,10 +78,10 @@ public class PincodeFragment extends Fragment {
     }
 
     private void addListenerOnButton(View rootView) {
-        states = (AutoCompleteTextView) rootView.findViewById(R.id.states);
-        districts = (AutoCompleteTextView) rootView.findViewById(R.id.districts);
-        text = (EditText) rootView.findViewById(R.id.text1);
-        Button btnSubmit = (Button) rootView.findViewById(R.id.Search);
+        states = rootView.findViewById(R.id.states);
+        districts = rootView.findViewById(R.id.districts);
+        text = rootView.findViewById(R.id.text1);
+        Button btnSubmit = rootView.findViewById(R.id.Search);
 
         text.setOnEditorActionListener(new EditText.OnEditorActionListener() {
             @Override

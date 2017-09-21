@@ -196,15 +196,15 @@ public class StationRecyclerViewAdapter
 
         public ViewHolder(View view) {
             super(view);
-            options = (ImageButton) view.findViewById(R.id.options);
-            city = (TextView) view.findViewById(R.id.city);
-            state = (TextView) view.findViewById(R.id.state);
-            stationCode = (TextView) view.findViewById(R.id.station_code);
-            stationName = (TextView) view.findViewById(R.id.station_name);
-            location = (TextView) view.findViewById(R.id.location);
-            trainsPassingVia = (TextView) view.findViewById(R.id.trains_passing_via);
-            stateRow = (LinearLayout) view.findViewById(R.id.state_row);
-            cityRow = (LinearLayout) view.findViewById(R.id.city_row);
+            options = view.findViewById(R.id.options);
+            city = view.findViewById(R.id.city);
+            state = view.findViewById(R.id.state);
+            stationCode = view.findViewById(R.id.station_code);
+            stationName = view.findViewById(R.id.station_name);
+            location = view.findViewById(R.id.location);
+            trainsPassingVia = view.findViewById(R.id.trains_passing_via);
+            stateRow = view.findViewById(R.id.state_row);
+            cityRow = view.findViewById(R.id.city_row);
             v = view;
         }
 

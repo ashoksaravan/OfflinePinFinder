@@ -38,14 +38,14 @@ public class RouteAndScheduleActivity extends ActivityBase {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_result);
-        final Toolbar toolbar = (Toolbar) findViewById(R.id.my_awesome_toolbar);
+        final Toolbar toolbar = findViewById(R.id.my_awesome_toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
         setSupportActionBar(toolbar);
 
         // load ad
         loadAd();
 
-        final RecyclerView mRecyclerView = (RecyclerView) findViewById(R.id.gridView);
+        final RecyclerView mRecyclerView = findViewById(R.id.gridView);
 
         // use this setting to improve performance if you know that changes
         // in content do not change the layout size of the RecyclerView
@@ -112,7 +112,7 @@ public class RouteAndScheduleActivity extends ActivityBase {
                     mRecyclerView.setAdapter(adapter);
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {
-                    LinearLayout noMatchingLt = (LinearLayout) findViewById(R.id.noMatchingLayout);
+                    LinearLayout noMatchingLt = findViewById(R.id.noMatchingLayout);
                     noMatchingLt.setVisibility(View.VISIBLE);
                 }
                 // HIDE THE SPINNER AFTER LOADING FEEDS
@@ -127,7 +127,7 @@ public class RouteAndScheduleActivity extends ActivityBase {
     }
 
     private void loadAd() {
-        final LinearLayout adParent = (LinearLayout) this.findViewById(R.id.adLayout);
+        final LinearLayout adParent = this.findViewById(R.id.adLayout);
         final AdView ad = new AdView(this);
         ad.setAdUnitId(getString(R.string.admob_id));
         ad.setAdSize(AdSize.SMART_BANNER);

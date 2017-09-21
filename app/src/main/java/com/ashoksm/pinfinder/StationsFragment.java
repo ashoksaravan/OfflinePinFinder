@@ -36,10 +36,10 @@ public class StationsFragment extends Fragment {
                              Bundle savedInstanceState) {
         final View v = inflater.inflate(R.layout.stations_layout, container, false);
 
-        station = (AutoCompleteTextView) v.findViewById(R.id.station);
-        state = (AutoCompleteTextView) v.findViewById(R.id.stations_state);
-        city = (AutoCompleteTextView) v.findViewById(R.id.stations_city);
-        Button btnSubmit = (Button) v.findViewById(R.id.station_search);
+        station = v.findViewById(R.id.station);
+        state = v.findViewById(R.id.stations_state);
+        city = v.findViewById(R.id.stations_city);
+        Button btnSubmit = v.findViewById(R.id.station_search);
 
         new AsyncTask<Void, Void, Void>() {
 

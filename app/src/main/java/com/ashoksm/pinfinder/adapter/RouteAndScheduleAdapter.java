@@ -136,14 +136,14 @@ public class RouteAndScheduleAdapter
 
         public ViewHolder(View view) {
             super(view);
-            no = (TextView) view.findViewById(R.id.no);
-            stationName = (TextView) view.findViewById(R.id.station_name);
-            arrives = (TextView) view.findViewById(R.id.arrives);
-            departs = (TextView) view.findViewById(R.id.departs);
-            stopTime = (TextView) view.findViewById(R.id.stop_time);
-            distanceTravelled = (TextView) view.findViewById(R.id.distance_travelled);
-            day = (TextView) view.findViewById(R.id.day);
-            route = (TextView) view.findViewById(R.id.route);
+            no = view.findViewById(R.id.no);
+            stationName = view.findViewById(R.id.station_name);
+            arrives = view.findViewById(R.id.arrives);
+            departs = view.findViewById(R.id.departs);
+            stopTime = view.findViewById(R.id.stop_time);
+            distanceTravelled = view.findViewById(R.id.distance_travelled);
+            day = view.findViewById(R.id.day);
+            route = view.findViewById(R.id.route);
         }
 
     }
@@ -161,14 +161,14 @@ public class RouteAndScheduleAdapter
 
         ViewHeaderHolder(View view) {
             super(view);
-            no = (TextView) view.findViewById(R.id.no);
-            stationName = (TextView) view.findViewById(R.id.station_name);
-            arrives = (TextView) view.findViewById(R.id.arrives);
-            departs = (TextView) view.findViewById(R.id.departs);
-            stopTime = (TextView) view.findViewById(R.id.stop_time);
-            distanceTravelled = (TextView) view.findViewById(R.id.distance_travelled);
-            day = (TextView) view.findViewById(R.id.day);
-            route = (TextView) view.findViewById(R.id.route);
+            no = view.findViewById(R.id.no);
+            stationName = view.findViewById(R.id.station_name);
+            arrives = view.findViewById(R.id.arrives);
+            departs = view.findViewById(R.id.departs);
+            stopTime = view.findViewById(R.id.stop_time);
+            distanceTravelled = view.findViewById(R.id.distance_travelled);
+            day = view.findViewById(R.id.day);
+            route = view.findViewById(R.id.route);
         }
 
     }

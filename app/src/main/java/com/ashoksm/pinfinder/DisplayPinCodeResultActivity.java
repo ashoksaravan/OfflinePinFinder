@@ -55,7 +55,7 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_result);
 
-        toolbar = (Toolbar) findViewById(R.id.my_awesome_toolbar);
+        toolbar = findViewById(R.id.my_awesome_toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
         setSupportActionBar(toolbar);
 
@@ -64,7 +64,7 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
         sharedPreferences = getSharedPreferences("AllCodeFinder", Context.MODE_PRIVATE);
 
 
-        final RecyclerView mRecyclerView = (RecyclerView) findViewById(R.id.gridView);
+        final RecyclerView mRecyclerView = findViewById(R.id.gridView);
 
         // use this setting to improve performance if you know that changes
         // in content do not change the layout size of the RecyclerView
@@ -106,7 +106,7 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
         }
 
         // load ad
-        final LinearLayout adParent = (LinearLayout) this.findViewById(R.id.adLayout);
+        final LinearLayout adParent = this.findViewById(R.id.adLayout);
         final AdView ad = new AdView(this);
         ad.setAdUnitId(getString(R.string.admob_id));
         ad.setAdSize(AdSize.SMART_BANNER);
@@ -170,7 +170,7 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {
                     LinearLayout noMatchingLayout =
-                            (LinearLayout) findViewById(R.id.noMatchingLayout);
+                            findViewById(R.id.noMatchingLayout);
                     noMatchingLayout.setVisibility(View.VISIBLE);
                 }
                 // HIDE THE SPINNER AFTER LOADING FEEDS

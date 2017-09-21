@@ -69,11 +69,11 @@ public class AllCodeListActivity extends ActivityBase {
         MobileAds.initialize(getApplicationContext(), getString(R.string.admob_small_native_ad_id));
         loadAd();
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
         setSupportActionBar(toolbar);
 
-        searchBar = (EditText) findViewById(R.id.search_bar);
+        searchBar = findViewById(R.id.search_bar);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             searchBar.getBackground().mutate().setColorFilter(getResources().getColor(R.color.icons,
                     getTheme()), PorterDuff.Mode.SRC_ATOP);
@@ -82,7 +82,7 @@ public class AllCodeListActivity extends ActivityBase {
         Intent intent = getIntent();
         menuId = intent.getIntExtra(MainActivity.EXTRA_MENU_ID, 0);
 
-        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.item_list);
+        RecyclerView recyclerView = findViewById(R.id.item_list);
         recyclerView.setHasFixedSize(false);
         NpaLinearLayoutManager layoutManager = new NpaLinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
@@ -382,8 +382,8 @@ public class AllCodeListActivity extends ActivityBase {
             public ViewHolder(View view) {
                 super(view);
                 mView = view;
-                mIdView = (TextView) view.findViewById(R.id.id);
-                mContentView = (TextView) view.findViewById(R.id.content);
+                mIdView = view.findViewById(R.id.id);
+                mContentView = view.findViewById(R.id.content);
             }
 
             @Override
@@ -399,7 +399,7 @@ public class AllCodeListActivity extends ActivityBase {
     }
 
     private void loadAd() {
-        final LinearLayout adParent = (LinearLayout) this.findViewById(R.id.ad);
+        final LinearLayout adParent = this.findViewById(R.id.ad);
         final AdView ad = new AdView(this);
         ad.setAdUnitId(getString(R.string.admob_id));
         ad.setAdSize(AdSize.SMART_BANNER);
@@ -464,10 +464,6 @@ public class AllCodeListActivity extends ActivityBase {
         adAdapterWrapper.setLimitOfAds(3);
         adAdapterWrapper.setNoOfDataBetweenAds(10);
         adAdapterWrapper.setFirstAdIndex(2);
-    }
-
-    @Override
-    public void onSaveInstanceState(Bundle outState) {
     }
 
     @Override

@@ -38,10 +38,10 @@ public class IFSCFragment extends Fragment {
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.ifsc_layout, container, false);
 
-        bankNameSpinner = (AutoCompleteTextView) v.findViewById(R.id.bankName);
-        stateNameTextView = (AutoCompleteTextView) v.findViewById(R.id.stateName);
-        districtNameTextView = (AutoCompleteTextView) v.findViewById(R.id.districtName);
-        branchName = (EditText) v.findViewById(R.id.branchName);
+        bankNameSpinner = v.findViewById(R.id.bankName);
+        stateNameTextView = v.findViewById(R.id.stateName);
+        districtNameTextView = v.findViewById(R.id.districtName);
+        branchName = v.findViewById(R.id.branchName);
 
         ArrayAdapter<CharSequence> adapter =
                 ArrayAdapter.createFromResource(getActivity(), R.array.bank_names,
@@ -98,7 +98,7 @@ public class IFSCFragment extends Fragment {
             }
         });
 
-        Button btnSubmit = (Button) v.findViewById(R.id.ifscSearch);
+        Button btnSubmit = v.findViewById(R.id.ifscSearch);
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

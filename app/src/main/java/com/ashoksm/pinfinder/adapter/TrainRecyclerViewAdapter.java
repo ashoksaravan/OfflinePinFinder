@@ -181,13 +181,13 @@ public class TrainRecyclerViewAdapter
 
         public ViewHolder(View view) {
             super(view);
-            options = (ImageButton) view.findViewById(R.id.options);
-            trainNo = (TextView) view.findViewById(R.id.train_no);
-            trainName = (TextView) view.findViewById(R.id.train_name);
-            starts = (TextView) view.findViewById(R.id.starts);
-            ends = (TextView) view.findViewById(R.id.ends);
-            days = (TextView) view.findViewById(R.id.days);
-            pantry = (TextView) view.findViewById(R.id.pantry);
+            options = view.findViewById(R.id.options);
+            trainNo = view.findViewById(R.id.train_no);
+            trainName = view.findViewById(R.id.train_name);
+            starts = view.findViewById(R.id.starts);
+            ends = view.findViewById(R.id.ends);
+            days = view.findViewById(R.id.days);
+            pantry = view.findViewById(R.id.pantry);
             v = view;
         }
 

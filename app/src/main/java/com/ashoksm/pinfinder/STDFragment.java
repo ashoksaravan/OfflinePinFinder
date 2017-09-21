@@ -30,7 +30,7 @@ public class STDFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.std_layout, container, false);
-        stateNameTextView = (AutoCompleteTextView) v.findViewById(R.id.stdStates);
+        stateNameTextView = v.findViewById(R.id.stdStates);
 
 
         ArrayAdapter<CharSequence> stateAdapter =
@@ -38,8 +38,8 @@ public class STDFragment extends Fragment {
                         R.layout.spinner_dropdown_item);
         // Apply the adapter to the spinner
         stateNameTextView.setAdapter(stateAdapter);
-        cityName = (EditText) v.findViewById(R.id.cityName);
-        Button btnSubmit = (Button) v.findViewById(R.id.stdSearch);
+        cityName = v.findViewById(R.id.cityName);
+        Button btnSubmit = v.findViewById(R.id.stdSearch);
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

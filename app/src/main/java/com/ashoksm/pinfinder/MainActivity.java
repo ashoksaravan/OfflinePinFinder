@@ -66,8 +66,8 @@ public class MainActivity extends ActivityBase {
          Setup the DrawerLayout and NavigationView
          */
 
-        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
-        NavigationView mNavigationView = (NavigationView) findViewById(R.id.shitstuff);
+        mDrawerLayout = findViewById(R.id.drawerLayout);
+        NavigationView mNavigationView = findViewById(R.id.shitstuff);
 
         /*
           Lets inflate the very first fragment
@@ -135,7 +135,7 @@ public class MainActivity extends ActivityBase {
           Setup Drawer Toggle of the Toolbar
          */
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         ActionBarDrawerToggle mDrawerToggle =
                 new ActionBarDrawerToggle(this, mDrawerLayout, toolbar, R.string.app_name,
                         R.string.app_name);
@@ -147,10 +147,10 @@ public class MainActivity extends ActivityBase {
 
     private void addFloatingButton() {
         final FloatingActionMenu actionMenu =
-                (FloatingActionMenu) findViewById(R.id.floatingActionMenu);
+                findViewById(R.id.floatingActionMenu);
 
         FloatingActionButton pincodeButton =
-                (FloatingActionButton) findViewById(R.id.floating_pincode);
+                findViewById(R.id.floating_pincode);
         pincodeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -161,7 +161,7 @@ public class MainActivity extends ActivityBase {
         });
 
         FloatingActionButton ifscButton =
-                (FloatingActionButton) findViewById(R.id.floating_ifsc);
+                findViewById(R.id.floating_ifsc);
         ifscButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -172,7 +172,7 @@ public class MainActivity extends ActivityBase {
         });
 
         FloatingActionButton stdButton =
-                (FloatingActionButton) findViewById(R.id.floating_std);
+                findViewById(R.id.floating_std);
         stdButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -183,7 +183,7 @@ public class MainActivity extends ActivityBase {
         });
 
         FloatingActionButton rtoButton =
-                (FloatingActionButton) findViewById(R.id.floating_rto);
+                findViewById(R.id.floating_rto);
         rtoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -196,7 +196,7 @@ public class MainActivity extends ActivityBase {
     }
 
     private void loadAd() {
-        final LinearLayout adParent = (LinearLayout) this.findViewById(R.id.ad);
+        final LinearLayout adParent = this.findViewById(R.id.ad);
         final AdView ad = new AdView(this);
         ad.setAdUnitId(getString(R.string.admob_id));
         ad.setAdSize(AdSize.SMART_BANNER);

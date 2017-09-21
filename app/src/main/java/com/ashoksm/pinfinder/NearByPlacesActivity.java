@@ -58,7 +58,7 @@ public class NearByPlacesActivity extends ActivityBase implements LocationListen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_near_by_places);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.my_awesome_toolbar);
+        Toolbar toolbar = findViewById(R.id.my_awesome_toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
         setSupportActionBar(toolbar);
 
@@ -380,7 +380,7 @@ public class NearByPlacesActivity extends ActivityBase implements LocationListen
     }
 
     private void loadAd() {
-        final LinearLayout adParent = (LinearLayout) this.findViewById(R.id.adLayout);
+        final LinearLayout adParent = this.findViewById(R.id.adLayout);
         final AdView ad = new AdView(this);
         ad.setAdUnitId(getString(R.string.admob_id));
         ad.setAdSize(AdSize.SMART_BANNER);

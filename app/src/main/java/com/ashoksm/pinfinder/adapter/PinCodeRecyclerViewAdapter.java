@@ -286,19 +286,19 @@ public class PinCodeRecyclerViewAdapter
 
         public ViewHolder(View view) {
             super(view);
-            officeName = (TextView) view.findViewById(R.id.officeName);
-            options = (ImageButton) view.findViewById(R.id.options);
-            pincode = (TextView) view.findViewById(R.id.pincode);
-            status = (TextView) view.findViewById(R.id.status);
-            subOffice = (TextView) view.findViewById(R.id.subOfficeName);
-            subOfficeRow = (LinearLayout) view.findViewById(R.id.subOfficeRow);
-            headOffice = (TextView) view.findViewById(R.id.headOfficeName);
-            headOfficeRow = (LinearLayout) view.findViewById(R.id.headOfficeRow);
-            location = (TextView) view.findViewById(R.id.locationName);
-            locationRow = (LinearLayout) view.findViewById(R.id.locationRow);
-            telephoneNumber = (TextView) view.findViewById(R.id.telephoneNumber);
-            telephoneRow = (LinearLayout) view.findViewById(R.id.telephoneRow);
-            state = (TextView) view.findViewById(R.id.stateName);
+            officeName = view.findViewById(R.id.officeName);
+            options = view.findViewById(R.id.options);
+            pincode = view.findViewById(R.id.pincode);
+            status = view.findViewById(R.id.status);
+            subOffice = view.findViewById(R.id.subOfficeName);
+            subOfficeRow = view.findViewById(R.id.subOfficeRow);
+            headOffice = view.findViewById(R.id.headOfficeName);
+            headOfficeRow = view.findViewById(R.id.headOfficeRow);
+            location = view.findViewById(R.id.locationName);
+            locationRow = view.findViewById(R.id.locationRow);
+            telephoneNumber = view.findViewById(R.id.telephoneNumber);
+            telephoneRow = view.findViewById(R.id.telephoneRow);
+            state = view.findViewById(R.id.stateName);
             v = view;
         }
 
