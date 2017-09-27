@@ -203,6 +203,7 @@ INSERT INTO bank_branch_t VALUES('Bassi', 'Jaipur', 'Khasra NO 1070 1071 Khadi G
 INSERT INTO bank_branch_t VALUES('Barna', 'Jaipur', 'Main Market Barna 305801', '0', '303765018', 'AUBL0002211', 133);
 INSERT INTO bank_branch_t VALUES('Renwal-agrasen Market', 'Jaipur', 'Ward NO 13 Chomu Bazar Road Agrasen Market Renwal 303603', '0', '303765014', 'AUBL0002210', 133);
 INSERT INTO bank_branch_t VALUES('Jaipur-santokba Durlabji', 'Jaipur', 'Santokba Durlabhji Hospital Near Rambagh Circle Jaipur 302004', '0', '302765004', 'AUBL0002209', 133);
+INSERT INTO bank_branch_t VALUES('Jaipur Malviya Nagar', 'Jaipur', 'Plot NO 3 JEN Enclave Calgiri Road Malviya Nagar Jaipur 302017', '0', '302765011', 'AUBL0002208', 133);
 INSERT INTO bank_branch_t VALUES('Jaipur-c-scheme', 'Jaipur', 'Shop NO 5 6 AT GF Axis Mall Bhagwan DAS Road C Scheme Jaipur 302007', '0', '302765002', 'AUBL0002207', 133);
 INSERT INTO bank_branch_t VALUES('Jaipur-vaishali Nagar', 'Jaipur', '10 Shivraj Niketan OPP Sbbj Bank Gautam Marg Vaishali Nagar Jaipur 302021', '0', '302765005', 'AUBL0002206', 133);
 INSERT INTO bank_branch_t VALUES('Dudu-main Chauraha', 'Jaipur', 'Shiv Auto Agency Dudu Main Chauraha Jaipur Road 303008', '0', '303765013', 'AUBL0002205', 133);

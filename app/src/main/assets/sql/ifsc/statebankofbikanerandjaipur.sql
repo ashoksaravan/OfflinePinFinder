@@ -1,1 +1,1 @@
-INSERT INTO bank_branch_t VALUES('Rtgs-ho', 'Mumbai', '7TH Floor, SBI LHO Building, Plot NO C-6, G Block, Bandra Kurla Complex, Bandra (EAST), Mumbai - 400 051', '26445803', 'NA', 'SBBJ0010303', 19214);
+INSERT INTO bank_branch_t VALUES('Rtgs-ho', 'Mumbai', '7TH Floor, SBI LHO Building, Plot NO C-6, G Block, Bandra Kurla Complex, Bandra (EAST), Mumbai - 400 051', '26445803', 'NA', 'SBBJ0010303', 19232);
