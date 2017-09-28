@@ -5,12 +5,10 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
-import android.support.v7.widget.CardView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -18,7 +16,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import com.ashoksm.pinfinder.adapter.CursorRecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.IFSCRecyclerViewAdapter;
@@ -27,17 +24,15 @@ import com.ashoksm.pinfinder.adapter.RTORecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.STDRecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.StationRecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.TrainRecyclerViewAdapter;
+import com.ashoksm.pinfinder.common.CreateNativeExpressAd;
 import com.ashoksm.pinfinder.sqlite.BankSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.PinSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.STDSQLiteHelper;
 import com.clockbyte.admobadapter.expressads.AdmobExpressRecyclerAdapterWrapper;
-import com.clockbyte.admobadapter.expressads.NativeExpressAdViewHolder;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
-import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.NativeExpressAdView;
 
 public class AllCodeDetailFragment extends Fragment {
 
@@ -177,7 +172,7 @@ public class AllCodeDetailFragment extends Fragment {
                         adapter = new IFSCRecyclerViewAdapter(getActivity(), c, "", sharedPref,
                                 false);
                     }
-                    initNativeAd();
+                    adAdapterWrapper = CreateNativeExpressAd.initNativeAd(getActivity(), adapter);
                     mRecyclerView.setAdapter(adAdapterWrapper);
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {
@@ -191,47 +186,6 @@ public class AllCodeDetailFragment extends Fragment {
 
         }.execute();
         return v;
-    }
-
-    @SuppressWarnings("unchecked")
-    private void initNativeAd() {
-        String[] testDevicesIds = new String[]{AdRequest.DEVICE_ID_EMULATOR};
-        adAdapterWrapper = new AdmobExpressRecyclerAdapterWrapper(getActivity(), getString(R.string
-                .admob_small_native_ad_id), testDevicesIds) {
-            @Override
-            protected ViewGroup wrapAdView(NativeExpressAdViewHolder adViewHolder, ViewGroup parent,
-                                           int viewType) {
-
-                //get ad view
-                NativeExpressAdView adView = adViewHolder.getAdView();
-
-                RecyclerView.LayoutParams lp =
-                        new RecyclerView.LayoutParams(RecyclerView.LayoutParams.MATCH_PARENT,
-                                RecyclerView.LayoutParams.WRAP_CONTENT);
-                CardView cardView = new CardView(AllCodeDetailFragment.this.getActivity());
-                cardView.setLayoutParams(lp);
-
-                TextView textView = new TextView(AllCodeDetailFragment.this.getActivity());
-                textView.setLayoutParams(lp);
-                textView.setText(R.string.ad_loading);
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                    textView.setTextColor(getResources().getColor(R.color.accent,
-                            AllCodeDetailFragment.this.getActivity().getTheme()));
-                } else {
-                    textView.setTextColor(getResources().getColor(R.color.accent));
-                }
-
-                cardView.addView(textView);
-                //wrapping
-                cardView.addView(adView);
-                //return wrapper view
-                return cardView;
-            }
-        };
-        adAdapterWrapper.setAdapter(adapter);
-        adAdapterWrapper.setLimitOfAds(3);
-        adAdapterWrapper.setNoOfDataBetweenAds(10);
-        adAdapterWrapper.setFirstAdIndex(2);
     }
 
     @Override

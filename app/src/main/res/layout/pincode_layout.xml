@@ -41,7 +41,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:hint="@string/pincode_or_officename"
+            android:hint="@string/pincode_or_office_name"
             android:imeOptions="actionSearch"
             android:inputType="text"
             android:maxLines="1"

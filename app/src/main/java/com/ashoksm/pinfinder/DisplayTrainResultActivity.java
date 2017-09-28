@@ -7,24 +7,25 @@ import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
-import android.support.v7.widget.CardView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import com.ashoksm.pinfinder.adapter.TrainRecyclerViewAdapter;
 import com.ashoksm.pinfinder.common.AppRater;
+import com.ashoksm.pinfinder.common.CreateNativeExpressAd;
 import com.ashoksm.pinfinder.common.activities.ActivityBase;
 import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
+import com.clockbyte.admobadapter.expressads.AdViewWrappingStrategyBase;
 import com.clockbyte.admobadapter.expressads.AdmobExpressRecyclerAdapterWrapper;
-import com.clockbyte.admobadapter.expressads.NativeExpressAdViewHolder;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -41,7 +42,6 @@ public class DisplayTrainResultActivity extends ActivityBase {
     private String start;
     private String ends;
     private AdmobExpressRecyclerAdapterWrapper adAdapterWrapper;
-    private TrainRecyclerViewAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -119,8 +119,9 @@ public class DisplayTrainResultActivity extends ActivityBase {
                     if (getSupportActionBar() != null) {
                         getSupportActionBar().setTitle(c.getCount() + " Results found");
                     }
-                    adapter = new TrainRecyclerViewAdapter(DisplayTrainResultActivity.this, c);
-                    initNativeAd();
+                    TrainRecyclerViewAdapter adapter = new TrainRecyclerViewAdapter(DisplayTrainResultActivity.this, c);
+                    adAdapterWrapper = CreateNativeExpressAd
+                            .initNativeAd(DisplayTrainResultActivity.this, adapter);
                     mRecyclerView.setAdapter(adAdapterWrapper);
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {
@@ -192,45 +193,5 @@ public class DisplayTrainResultActivity extends ActivityBase {
                 return true;
         }
         return super.onOptionsItemSelected(item);
-    }
-
-    @SuppressWarnings("unchecked")
-    private void initNativeAd() {
-        String[] testDevicesIds = new String[]{AdRequest.DEVICE_ID_EMULATOR};
-        adAdapterWrapper = new AdmobExpressRecyclerAdapterWrapper(this, getString(R.string
-                .admob_small_native_ad_id), testDevicesIds) {
-            @Override
-            protected ViewGroup wrapAdView(NativeExpressAdViewHolder adViewHolder, ViewGroup parent,
-                                           int viewType) {
-
-                //get ad view
-                NativeExpressAdView adView = adViewHolder.getAdView();
-
-                RecyclerView.LayoutParams lp =
-                        new RecyclerView.LayoutParams(RecyclerView.LayoutParams.MATCH_PARENT,
-                                RecyclerView.LayoutParams.WRAP_CONTENT);
-                CardView cardView = new CardView(DisplayTrainResultActivity.this);
-                cardView.setLayoutParams(lp);
-
-                TextView textView = new TextView(DisplayTrainResultActivity.this);
-                textView.setLayoutParams(lp);
-                textView.setText(R.string.ad_loading);
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                    textView.setTextColor(getResources().getColor(R.color.accent, getTheme()));
-                } else {
-                    textView.setTextColor(getResources().getColor(R.color.accent));
-                }
-
-                cardView.addView(textView);
-                //wrapping
-                cardView.addView(adView);
-                //return wrapper view
-                return cardView;
-            }
-        };
-        adAdapterWrapper.setAdapter((RecyclerView.Adapter) adapter);
-        adAdapterWrapper.setLimitOfAds(3);
-        adAdapterWrapper.setNoOfDataBetweenAds(10);
-        adAdapterWrapper.setFirstAdIndex(2);
     }
 }

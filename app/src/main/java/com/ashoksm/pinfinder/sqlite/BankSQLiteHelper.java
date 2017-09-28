@@ -21,7 +21,7 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
     private static final String CLASS_NAME = BankSQLiteHelper.class.getName();
 
     // Database Version
-    private static final int DATABASE_VERSION = 28;
+    private static final int DATABASE_VERSION = 29;
 
     // Database Name
     private static final String DATABASE_NAME = "ashoksm.bankbranch";
