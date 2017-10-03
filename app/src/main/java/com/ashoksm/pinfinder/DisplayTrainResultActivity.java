@@ -7,32 +7,24 @@ import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
 import com.ashoksm.pinfinder.adapter.TrainRecyclerViewAdapter;
 import com.ashoksm.pinfinder.common.AppRater;
-import com.ashoksm.pinfinder.common.CreateNativeExpressAd;
 import com.ashoksm.pinfinder.common.activities.ActivityBase;
 import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
-import com.clockbyte.admobadapter.expressads.AdViewWrappingStrategyBase;
-import com.clockbyte.admobadapter.expressads.AdmobExpressRecyclerAdapterWrapper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.NativeExpressAdView;
 
 public class DisplayTrainResultActivity extends ActivityBase {
 
@@ -41,14 +33,12 @@ public class DisplayTrainResultActivity extends ActivityBase {
     private String trainNo;
     private String start;
     private String ends;
-    private AdmobExpressRecyclerAdapterWrapper adAdapterWrapper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_result);
 
-        MobileAds.initialize(getApplicationContext(), getString(R.string.admob_small_native_ad_id));
         final Toolbar toolbar = findViewById(R.id.my_awesome_toolbar);
         setSupportActionBar(toolbar);
 
@@ -120,9 +110,7 @@ public class DisplayTrainResultActivity extends ActivityBase {
                         getSupportActionBar().setTitle(c.getCount() + " Results found");
                     }
                     TrainRecyclerViewAdapter adapter = new TrainRecyclerViewAdapter(DisplayTrainResultActivity.this, c);
-                    adAdapterWrapper = CreateNativeExpressAd
-                            .initNativeAd(DisplayTrainResultActivity.this, adapter);
-                    mRecyclerView.setAdapter(adAdapterWrapper);
+                    mRecyclerView.setAdapter(adapter);
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {
                     LinearLayout noMatchingLt = findViewById(R.id.noMatchingLayout);
@@ -179,9 +167,6 @@ public class DisplayTrainResultActivity extends ActivityBase {
         }
         super.onDestroy();
         overridePendingTransition(R.anim.slide_in_left, 0);
-        if (adAdapterWrapper != null) {
-            adAdapterWrapper.release();
-        }
     }
 
     @Override

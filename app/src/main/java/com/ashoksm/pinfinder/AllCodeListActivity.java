@@ -26,20 +26,17 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.ashoksm.pinfinder.adapter.CursorRecyclerViewAdapter;
-import com.ashoksm.pinfinder.common.CreateNativeExpressAd;
 import com.ashoksm.pinfinder.common.activities.ActivityBase;
 import com.ashoksm.pinfinder.sqlite.BankSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.PinSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.STDSQLiteHelper;
-import com.clockbyte.admobadapter.expressads.AdmobExpressRecyclerAdapterWrapper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
 
 import java.util.regex.Pattern;
 
@@ -53,7 +50,6 @@ public class AllCodeListActivity extends ActivityBase {
     private EditText searchBar;
     private int menuId;
     private String queryTxt;
-    private AdmobExpressRecyclerAdapterWrapper adAdapterWrapper;
     private AllCodeViewAdapter adapter;
 
     @Override
@@ -64,7 +60,6 @@ public class AllCodeListActivity extends ActivityBase {
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         }
 
-        MobileAds.initialize(getApplicationContext(), getString(R.string.admob_small_native_ad_id));
         loadAd();
 
         Toolbar toolbar = findViewById(R.id.toolbar);
@@ -163,8 +158,7 @@ public class AllCodeListActivity extends ActivityBase {
 
             @Override
             protected void onPostExecute(Void aVoid) {
-                adAdapterWrapper = CreateNativeExpressAd.initNativeAd(AllCodeListActivity.this, adapter);
-                recyclerView.setAdapter(adAdapterWrapper);
+                recyclerView.setAdapter(adapter);
                 searchBar.addTextChangedListener(new TextWatcher() {
                     @Override
                     public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -421,14 +415,6 @@ public class AllCodeListActivity extends ActivityBase {
         adParent.addView(ad);
         AdRequest adRequest = new AdRequest.Builder().build();
         ad.loadAd(adRequest);
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        if (adAdapterWrapper != null) {
-            adAdapterWrapper.release();
-        }
     }
 
     /**

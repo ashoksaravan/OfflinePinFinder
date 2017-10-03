@@ -24,15 +24,12 @@ import com.ashoksm.pinfinder.adapter.RTORecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.STDRecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.StationRecyclerViewAdapter;
 import com.ashoksm.pinfinder.adapter.TrainRecyclerViewAdapter;
-import com.ashoksm.pinfinder.common.CreateNativeExpressAd;
 import com.ashoksm.pinfinder.sqlite.BankSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.PinSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.STDSQLiteHelper;
-import com.clockbyte.admobadapter.expressads.AdmobExpressRecyclerAdapterWrapper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
-import com.google.android.gms.ads.MobileAds;
 
 public class AllCodeDetailFragment extends Fragment {
 
@@ -49,7 +46,6 @@ public class AllCodeDetailFragment extends Fragment {
     private Cursor c;
     private String station;
     private String trainNo;
-    private AdmobExpressRecyclerAdapterWrapper adAdapterWrapper;
     private CursorRecyclerViewAdapter adapter;
 
     /**
@@ -63,7 +59,6 @@ public class AllCodeDetailFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         sharedPref = getActivity().getSharedPreferences("AllCodeFinder", Context.MODE_PRIVATE);
-        MobileAds.initialize(getActivity(), getString(R.string.admob_small_native_ad_id));
     }
 
     @Override
@@ -172,8 +167,7 @@ public class AllCodeDetailFragment extends Fragment {
                         adapter = new IFSCRecyclerViewAdapter(getActivity(), c, "", sharedPref,
                                 false);
                     }
-                    adAdapterWrapper = CreateNativeExpressAd.initNativeAd(getActivity(), adapter);
-                    mRecyclerView.setAdapter(adAdapterWrapper);
+                    mRecyclerView.setAdapter(adapter);
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {
                     LinearLayout noMatchingLayout =
@@ -186,13 +180,5 @@ public class AllCodeDetailFragment extends Fragment {
 
         }.execute();
         return v;
-    }
-
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        if (adAdapterWrapper != null) {
-            adAdapterWrapper.release();
-        }
     }
 }

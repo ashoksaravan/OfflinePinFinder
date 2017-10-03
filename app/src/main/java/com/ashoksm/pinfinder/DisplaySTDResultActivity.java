@@ -20,16 +20,13 @@ import android.widget.LinearLayout;
 
 import com.ashoksm.pinfinder.adapter.STDRecyclerViewAdapter;
 import com.ashoksm.pinfinder.common.AppRater;
-import com.ashoksm.pinfinder.common.CreateNativeExpressAd;
 import com.ashoksm.pinfinder.common.activities.ActivityBase;
 import com.ashoksm.pinfinder.sqlite.STDSQLiteHelper;
-import com.clockbyte.admobadapter.expressads.AdmobExpressRecyclerAdapterWrapper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
 
 import java.util.Locale;
 
@@ -42,14 +39,12 @@ public class DisplaySTDResultActivity extends ActivityBase {
     private String action;
     private boolean showFav;
     private SharedPreferences sharedPref;
-    private AdmobExpressRecyclerAdapterWrapper adAdapterWrapper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_result);
 
-        MobileAds.initialize(getApplicationContext(), getString(R.string.admob_small_native_ad_id));
         final Toolbar toolbar = findViewById(R.id.my_awesome_toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
         setSupportActionBar(toolbar);
@@ -154,8 +149,7 @@ public class DisplaySTDResultActivity extends ActivityBase {
                     }
                     STDRecyclerViewAdapter adapter = new STDRecyclerViewAdapter(DisplaySTDResultActivity.this, c,
                             sharedPref, showFav);
-                    adAdapterWrapper = CreateNativeExpressAd.initNativeAd(DisplaySTDResultActivity.this, adapter);
-                    mRecyclerView.setAdapter(adAdapterWrapper);
+                    mRecyclerView.setAdapter(adapter);
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {
                     LinearLayout noMatchingLayout =
@@ -186,9 +180,6 @@ public class DisplaySTDResultActivity extends ActivityBase {
         }
         super.onDestroy();
         overridePendingTransition(R.anim.slide_in_left, 0);
-        if (adAdapterWrapper != null) {
-            adAdapterWrapper.release();
-        }
     }
 
     @Override
