@@ -1,12 +1,13 @@
 package com.ashoksm.pinfinder.sqlite;
 
 import android.app.Activity;
-import android.app.ProgressDialog;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
+
+import com.github.lzyzsd.circleprogress.DonutProgress;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -15,8 +16,11 @@ import java.io.InputStreamReader;
 
 public class BankSQLiteHelper extends SQLiteOpenHelper {
 
+    //Progress Bar
     private Activity context;
-    private ProgressDialog mProgressDialog;
+    private DonutProgress progressBar;
+    private static boolean ON_CREATE;
+
     // Logcat tag
     private static final String CLASS_NAME = BankSQLiteHelper.class.getName();
 
@@ -54,24 +58,15 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
             + LOCATION + ") REFERENCES " + TABLE_LOCATION + "(" + LOCATION + "), " + "PRIMARY KEY ("
             + NAME + "," + IFSC + "," + LOCATION + "))";
 
-    public BankSQLiteHelper(Activity contextIn) {
+    public BankSQLiteHelper(Activity contextIn, DonutProgress progressBarIn) {
         super(contextIn, DATABASE_NAME, null, DATABASE_VERSION);
         context = contextIn;
+        progressBar = progressBarIn;
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        if (!context.isFinishing()) {
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    mProgressDialog = new ProgressDialog(context);
-                    mProgressDialog.setMessage("Initializing Database…");
-                    mProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
-                    mProgressDialog.setCancelable(false);
-                    mProgressDialog.show();
-                }
-            });
-        }
+        ON_CREATE = true;
         // crate tables
         Log.d(CLASS_NAME, CREATE_LOCATION_TABLE);
         db.execSQL(CREATE_LOCATION_TABLE);
@@ -84,13 +79,6 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
 
         // insert bank branches
         insertBankBranches(db);
-        if (!context.isFinishing()) {
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    mProgressDialog.dismiss();
-                }
-            });
-        }
     }
 
     @Override
@@ -133,7 +121,7 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
                     final Double percentage = (i / (double) fileNames.length) * 90.00d;
                     context.runOnUiThread(new Runnable() {
                         public void run() {
-                            mProgressDialog.setProgress(percentage.intValue() + 10);
+                            progressBar.setProgress(percentage.intValue() + 10);
                         }
                     });
                 }
@@ -166,7 +154,7 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
             if (!context.isFinishing()) {
                 context.runOnUiThread(new Runnable() {
                     public void run() {
-                        mProgressDialog.setProgress(10);
+                        progressBar.setProgress(10);
                     }
                 });
             }
@@ -185,7 +173,8 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
      * @return Cursor
      */
     public Cursor findIfscCodes(final String stateName, final String districtIn,
-                                final String bankName, final String branchName, String action) {
+                                final String bankName, final String branchName,
+                                final String action) {
         SQLiteDatabase db = this.getReadableDatabase();
 
         String select = "SELECT  l." + BANK + ", " + NAME + ", " + CITY + ", l." + STATE + ", l."
@@ -231,6 +220,16 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
         String selectQuery = select + where + " ORDER BY " + IFSC;
         Log.d(CLASS_NAME, selectQuery);
 
+        if (ON_CREATE) {
+            ON_CREATE = false;
+        } else if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    progressBar.setProgress(50);
+                }
+            });
+        }
+
         return db.rawQuery(selectQuery, null);
     }
 
@@ -241,6 +240,15 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
                 + " AS _id FROM " + TABLE_BANK_BRANCH + " ps INNER JOIN " + TABLE_LOCATION
                 + " l ON ps." + LOCATION + " = l." + LOCATION + " WHERE " + IFSC + " IN (" + ifsc +
                 ")";
+        if (ON_CREATE) {
+            ON_CREATE = false;
+        } else if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    progressBar.setProgress(50);
+                }
+            });
+        }
         return db.rawQuery(select, null);
     }
 
@@ -248,6 +256,15 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getReadableDatabase();
         String select = "SELECT  DISTINCT " + IFSC + " AS _id FROM " + TABLE_BANK_BRANCH + " WHERE "
                 + IFSC + " LIKE '%" + queryTxt + "%' ORDER BY " + IFSC;
+        if (ON_CREATE) {
+            ON_CREATE = false;
+        } else if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    progressBar.setProgress(50);
+                }
+            });
+        }
         return db.rawQuery(select, null);
     }
 
@@ -255,6 +272,15 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getReadableDatabase();
         String select = "SELECT  DISTINCT " + MICR + " AS _id FROM " + TABLE_BANK_BRANCH + " WHERE "
                 + MICR + " LIKE '%" + queryTxt + "%' AND " + MICR + "!='0'" + " ORDER BY " + MICR;
+        if (ON_CREATE) {
+            ON_CREATE = false;
+        } else if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    progressBar.setProgress(50);
+                }
+            });
+        }
         return db.rawQuery(select, null);
     }
 
@@ -265,6 +291,15 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
                 + TABLE_BANK_BRANCH + " ps INNER JOIN " + TABLE_LOCATION + " l ON ps." + LOCATION
                 + " = l." + LOCATION + " WHERE " + NAME + "<> '' AND " + NAME + " LIKE '%"
                 + queryTxt + "%' " + "ORDER BY " + NAME;
+        if (ON_CREATE) {
+            ON_CREATE = false;
+        } else if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    progressBar.setProgress(50);
+                }
+            });
+        }
         return db.rawQuery(select, null);
     }
 

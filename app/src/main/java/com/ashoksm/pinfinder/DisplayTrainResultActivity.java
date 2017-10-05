@@ -109,7 +109,8 @@ public class DisplayTrainResultActivity extends ActivityBase {
                     if (getSupportActionBar() != null) {
                         getSupportActionBar().setTitle(c.getCount() + " Results found");
                     }
-                    TrainRecyclerViewAdapter adapter = new TrainRecyclerViewAdapter(DisplayTrainResultActivity.this, c);
+                    TrainRecyclerViewAdapter adapter =
+                            new TrainRecyclerViewAdapter(DisplayTrainResultActivity.this, c);
                     mRecyclerView.setAdapter(adapter);
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {

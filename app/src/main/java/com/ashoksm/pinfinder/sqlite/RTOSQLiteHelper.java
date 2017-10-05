@@ -1,11 +1,12 @@
 package com.ashoksm.pinfinder.sqlite;
 
 import android.app.Activity;
-import android.app.ProgressDialog;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
+
+import com.github.lzyzsd.circleprogress.DonutProgress;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -15,7 +16,8 @@ import java.io.InputStreamReader;
 public class RTOSQLiteHelper extends SQLiteOpenHelper {
 
     private Activity context;
-    private ProgressDialog mProgressDialog;
+    private DonutProgress progressBar;
+    private static boolean ON_CREATE;
 
     // Logcat tag
     private static final String CLASS_NAME = RTOSQLiteHelper.class.getName();
@@ -46,24 +48,15 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
             + ") REFERENCES " + TABLE_STATE + "(" + STATE + "), PRIMARY KEY (" + STATE + "," + CITY
             + "," + RTO_CODE + "))";
 
-    public RTOSQLiteHelper(Activity contextIn) {
+    public RTOSQLiteHelper(Activity contextIn, DonutProgress progressBarIn) {
         super(contextIn, DATABASE_NAME, null, DATABASE_VERSION);
         context = contextIn;
+        progressBar = progressBarIn;
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        if (!context.isFinishing()) {
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    mProgressDialog = new ProgressDialog(context);
-                    mProgressDialog.setMessage("Initializing Database…");
-                    mProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
-                    mProgressDialog.setCancelable(false);
-                    mProgressDialog.show();
-                }
-            });
-        }
+        ON_CREATE = true;
         // crate tables
         Log.d(CLASS_NAME, CREATE_STATE_TABLE);
         db.execSQL(CREATE_STATE_TABLE);
@@ -76,13 +69,6 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
 
         // insert rto codes
         insertRTOCodes(db);
-        if (!context.isFinishing()) {
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    mProgressDialog.dismiss();
-                }
-            });
-        }
     }
 
     @Override
@@ -119,12 +105,13 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
                     final Double percentage = (i / (double) fileNames.length) * 100.00d;
                     context.runOnUiThread(new Runnable() {
                         public void run() {
-                            mProgressDialog.setProgress(percentage.intValue());
+                            progressBar.setProgress(percentage.intValue());
                         }
                     });
                 }
                 i++;
             }
+
             db.setTransactionSuccessful();
         } catch (IOException ioEx) {
             Log.e(CLASS_NAME, ioEx.getMessage());
@@ -190,6 +177,15 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
         String selectQuery = select + where + orderBy;
         Log.d(CLASS_NAME, selectQuery);
 
+        if (ON_CREATE) {
+            ON_CREATE = false;
+        } else if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    progressBar.setProgress(50);
+                }
+            });
+        }
         return db.rawQuery(selectQuery, null);
     }
 
@@ -204,6 +200,17 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
                 + TABLE_RTO + " st INNER JOIN " + TABLE_STATE + " s ON st." + STATE + " = s."
                 + STATE + " WHERE " + RTO_CODE + " IN (" + favRTOCodes + ") ORDER BY 1, 3, 2";
         Log.d(CLASS_NAME, select);
+
+        if (ON_CREATE) {
+            ON_CREATE = false;
+        } else if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    progressBar.setProgress(50);
+                }
+            });
+        }
+
         return db.rawQuery(select, null);
     }
 
@@ -213,6 +220,16 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
                 + " LIKE '%" + queryTxt + "%' AND " + CITY + " NOT LIKE '%yet to be%' AND "
                 + CITY + " NOT LIKE '%temporary%' AND " + CITY + " NOT LIKE '%(dns)%' AND "
                 + CITY + " NOT LIKE '%--%' ORDER BY " + CITY;
+
+        if (ON_CREATE) {
+            ON_CREATE = false;
+        } else if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    progressBar.setProgress(50);
+                }
+            });
+        }
         return db.rawQuery(select, null);
     }
 
@@ -220,6 +237,17 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getReadableDatabase();
         String select = "SELECT  " + RTO_CODE + " AS _id FROM " + TABLE_RTO + " WHERE " + RTO_CODE
                 + " LIKE '%" + queryTxt + "%' ORDER BY " + RTO_CODE;
+
+        if (ON_CREATE) {
+            ON_CREATE = false;
+        } else if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    progressBar.setProgress(50);
+                }
+            });
+        }
+
         return db.rawQuery(select, null);
     }
 

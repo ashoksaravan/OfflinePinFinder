@@ -1,11 +1,12 @@
 package com.ashoksm.pinfinder.sqlite;
 
 import android.app.Activity;
-import android.app.ProgressDialog;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
+
+import com.github.lzyzsd.circleprogress.DonutProgress;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,8 +15,10 @@ import java.io.InputStreamReader;
 
 public class PinSQLiteHelper extends SQLiteOpenHelper {
 
+    //Progress Bar
     private Activity context;
-    private ProgressDialog mProgressDialog;
+    private DonutProgress progressBar;
+    private static boolean ON_CREATE;
 
     // Logcat tag
     private static final String CLASS_NAME = PinSQLiteHelper.class.getName();
@@ -85,26 +88,15 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
                     PIN_CODE + "," + DISTRICT + ","
                     + STATE + "))";
 
-    public PinSQLiteHelper(Activity contextIn) {
+    public PinSQLiteHelper(Activity contextIn, DonutProgress progressBarIn) {
         super(contextIn, DATABASE_NAME, null, DATABASE_VERSION);
         context = contextIn;
+        progressBar = progressBarIn;
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-
-        if (!context.isFinishing()) {
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    mProgressDialog = new ProgressDialog(context);
-                    mProgressDialog.setMessage("Initializing Database…");
-                    mProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
-                    mProgressDialog.setCancelable(false);
-                    mProgressDialog.show();
-                }
-            });
-        }
-
+        ON_CREATE = true;
         // creating required tables
         Log.d(CLASS_NAME, CREATE_STATE_TABLE);
         db.execSQL(CREATE_STATE_TABLE);
@@ -126,7 +118,7 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
         if (!context.isFinishing()) {
             context.runOnUiThread(new Runnable() {
                 public void run() {
-                    mProgressDialog.setProgress(1);
+                    progressBar.setProgress(1);
                 }
             });
         }
@@ -136,7 +128,7 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
         if (!context.isFinishing()) {
             context.runOnUiThread(new Runnable() {
                 public void run() {
-                    mProgressDialog.setProgress(2);
+                    progressBar.setProgress(2);
                 }
             });
         }
@@ -146,7 +138,7 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
         if (!context.isFinishing()) {
             context.runOnUiThread(new Runnable() {
                 public void run() {
-                    mProgressDialog.setProgress(3);
+                    progressBar.setProgress(3);
                 }
             });
         }
@@ -156,20 +148,13 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
         if (!context.isFinishing()) {
             context.runOnUiThread(new Runnable() {
                 public void run() {
-                    mProgressDialog.setProgress(5);
+                    progressBar.setProgress(5);
                 }
             });
         }
 
         // insert pincodes
         insertPincodes(db);
-        if (!context.isFinishing()) {
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    mProgressDialog.dismiss();
-                }
-            });
-        }
     }
 
     @Override
@@ -211,7 +196,7 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
                                 (i / ((double) fileNames.length - 4.00d)) * 95.00d;
                         context.runOnUiThread(new Runnable() {
                             public void run() {
-                                mProgressDialog.setProgress(percentage.intValue() + 5);
+                                progressBar.setProgress(percentage.intValue() + 5);
                             }
                         });
                     }
@@ -361,6 +346,16 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
         String selectQuery = select + where + " ORDER BY " + NAME;
         Log.d(CLASS_NAME, selectQuery);
 
+        if (ON_CREATE) {
+            ON_CREATE = false;
+        } else if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    progressBar.setProgress(50);
+                }
+            });
+        }
+
         return db.rawQuery(selectQuery, null);
     }
 
@@ -386,6 +381,17 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
         String where = " WHERE " + PIN_CODE + " IN (" + pincodes + ")";
         String selectQuery = select + where;
         Log.d(CLASS_NAME, selectQuery);
+
+        if (ON_CREATE) {
+            ON_CREATE = false;
+        } else if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    progressBar.setProgress(50);
+                }
+            });
+        }
+
         return db.rawQuery(selectQuery, null);
     }
 
@@ -393,6 +399,17 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getReadableDatabase();
         String select = "SELECT  DISTINCT " + PIN_CODE + " AS _id FROM " + TABLE_POST_OFFICE +
                 " WHERE " + PIN_CODE + " LIKE '%" + queryTxt + "%' ORDER BY " + PIN_CODE;
+
+        if (ON_CREATE) {
+            ON_CREATE = false;
+        } else if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    progressBar.setProgress(50);
+                }
+            });
+        }
+
         return db.rawQuery(select, null);
     }
 
@@ -400,6 +417,17 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getReadableDatabase();
         String select = "SELECT  DISTINCT " + NAME + " AS _id FROM " + TABLE_POST_OFFICE +
                 " WHERE " + NAME + " LIKE '%" + queryTxt + "%' ORDER BY " + NAME;
+
+        if (ON_CREATE) {
+            ON_CREATE = false;
+        } else if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    progressBar.setProgress(50);
+                }
+            });
+        }
+
         return db.rawQuery(select, null);
     }
 

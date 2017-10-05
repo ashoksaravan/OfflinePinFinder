@@ -33,6 +33,7 @@ import com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.STDSQLiteHelper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
+import com.github.lzyzsd.circleprogress.DonutProgress;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
@@ -95,10 +96,15 @@ public class AllCodeListActivity extends ActivityBase {
     private void setupRecyclerView(@NonNull final RecyclerView recyclerView) {
         new AsyncTask<Void, Void, Void>() {
             LinearLayout progressLayout = (LinearLayout) findViewById(R.id.progressLayout);
-            PinSQLiteHelper sqLiteHelper = new PinSQLiteHelper(AllCodeListActivity.this);
-            BankSQLiteHelper branchHelper = new BankSQLiteHelper(AllCodeListActivity.this);
-            STDSQLiteHelper stdsqLiteHelper = new STDSQLiteHelper(AllCodeListActivity.this);
-            RTOSQLiteHelper rtosqLiteHelper = new RTOSQLiteHelper(AllCodeListActivity.this);
+            DonutProgress progressBar = progressLayout.findViewById(R.id.pbHeaderProgress);
+            PinSQLiteHelper sqLiteHelper = new PinSQLiteHelper(AllCodeListActivity.this,
+                    progressBar);
+            BankSQLiteHelper branchHelper = new BankSQLiteHelper(AllCodeListActivity.this,
+                    progressBar);
+            STDSQLiteHelper stdsqLiteHelper = new STDSQLiteHelper(AllCodeListActivity.this,
+                    progressBar);
+            RTOSQLiteHelper rtosqLiteHelper = new RTOSQLiteHelper(AllCodeListActivity.this,
+                    progressBar);
             RailWaysSQLiteHelper railSQLiteHelper = new RailWaysSQLiteHelper(AllCodeListActivity
                     .this);
 

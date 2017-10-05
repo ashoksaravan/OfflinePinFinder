@@ -30,6 +30,7 @@ import com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.STDSQLiteHelper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
+import com.github.lzyzsd.circleprogress.DonutProgress;
 
 public class AllCodeDetailFragment extends Fragment {
 
@@ -107,24 +108,26 @@ public class AllCodeDetailFragment extends Fragment {
 
         new AsyncTask<Void, Void, Void>() {
             LinearLayout progressLayout = (LinearLayout) v.findViewById(R.id.progressLayout);
+            DonutProgress progressBar;
 
             @Override
             protected void onPreExecute() {
                 // SHOW THE SPINNER WHILE LOADING FEEDS
                 progressLayout.setVisibility(View.VISIBLE);
+                progressBar = progressLayout.findViewById(R.id.pbHeaderProgress);
             }
 
             @Override
             protected Void doInBackground(Void... params) {
                 try {
                     if (action != null && action.length() == 0) {
-                        sqLiteHelper = new PinSQLiteHelper(getActivity());
+                        sqLiteHelper = new PinSQLiteHelper(getActivity(), progressBar);
                         c = sqLiteHelper.findMatchingOffices("", "", officeName);
                     } else if ("STD".equalsIgnoreCase(action)) {
-                        stdsqLiteHelper = new STDSQLiteHelper(getActivity());
+                        stdsqLiteHelper = new STDSQLiteHelper(getActivity(), progressBar);
                         c = stdsqLiteHelper.findSTDCodes("", cityName.toLowerCase(), action);
                     } else if ("RTO".equalsIgnoreCase(action)) {
-                        rtosqLiteHelper = new RTOSQLiteHelper(getActivity());
+                        rtosqLiteHelper = new RTOSQLiteHelper(getActivity(), progressBar);
                         c = rtosqLiteHelper.findRTOCodes("", cityName.toLowerCase(), action);
                     } else if ("RAIL".equalsIgnoreCase(action)) {
                         railSQLiteHelper = new RailWaysSQLiteHelper(getActivity());
@@ -139,7 +142,7 @@ public class AllCodeDetailFragment extends Fragment {
                                     "''"), "");
                         }
                     } else {
-                        bSQLiteHelper = new BankSQLiteHelper(getActivity());
+                        bSQLiteHelper = new BankSQLiteHelper(getActivity(), progressBar);
                         c = bSQLiteHelper.findIfscCodes("", "", "", branchName.toLowerCase(),
                                 action);
                     }
@@ -170,8 +173,7 @@ public class AllCodeDetailFragment extends Fragment {
                     mRecyclerView.setAdapter(adapter);
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {
-                    LinearLayout noMatchingLayout =
-                            v.findViewById(R.id.noMatchingLayout);
+                    LinearLayout noMatchingLayout = v.findViewById(R.id.noMatchingLayout);
                     noMatchingLayout.setVisibility(View.VISIBLE);
                 }
                 // HIDE THE SPINNER AFTER LOADING FEEDS

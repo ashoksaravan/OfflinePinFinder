@@ -23,6 +23,7 @@ import com.ashoksm.pinfinder.adapter.IFSCRecyclerViewAdapter;
 import com.ashoksm.pinfinder.common.AppRater;
 import com.ashoksm.pinfinder.sqlite.BankSQLiteHelper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
+import com.github.lzyzsd.circleprogress.DonutProgress;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
@@ -41,6 +42,7 @@ public class DisplayBankResultActivity extends AppCompatActivity {
     private String action;
     private boolean showFav;
     private SharedPreferences sharedPreferences;
+    private DonutProgress progressBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -130,12 +132,14 @@ public class DisplayBankResultActivity extends AppCompatActivity {
             protected void onPreExecute() {
                 // SHOW THE SPINNER WHILE LOADING FEEDS
                 progressLayout.setVisibility(View.VISIBLE);
+                progressBar = progressLayout.findViewById(R.id.pbHeaderProgress);
             }
 
             @Override
             protected Void doInBackground(Void... params) {
                 try {
-                    sqLiteHelper = new BankSQLiteHelper(DisplayBankResultActivity.this);
+                    sqLiteHelper =
+                            new BankSQLiteHelper(DisplayBankResultActivity.this, progressBar);
                     if (showFav) {
                         c = sqLiteHelper
                                 .findFavIfscCodes(sharedPreferences.getString("ifscs", null));
@@ -170,6 +174,7 @@ public class DisplayBankResultActivity extends AppCompatActivity {
                             findViewById(R.id.noMatchingLayout);
                     noMatchingLayout.setVisibility(View.VISIBLE);
                 }
+                progressBar.setProgress(100);
                 // HIDE THE SPINNER AFTER LOADING FEEDS
                 progressLayout.setVisibility(View.GONE);
             }
@@ -180,11 +185,13 @@ public class DisplayBankResultActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        if (sqLiteHelper != null) {
-            sqLiteHelper.closeDB();
+        if (Float.floatToIntBits(progressBar.getProgress()) == Float.floatToIntBits(100F)) {
+            if (sqLiteHelper != null) {
+                sqLiteHelper.closeDB();
+            }
+            super.onBackPressed();
+            overridePendingTransition(R.anim.slide_in_left, 0);
         }
-        super.onBackPressed();
-        overridePendingTransition(R.anim.slide_in_left, 0);
     }
 
     @Override
@@ -200,8 +207,10 @@ public class DisplayBankResultActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home:
-                super.onBackPressed();
-                overridePendingTransition(R.anim.slide_in_left, 0);
+                if (Float.floatToIntBits(progressBar.getProgress()) == Float.floatToIntBits(100F)) {
+                    super.onBackPressed();
+                    overridePendingTransition(R.anim.slide_in_left, 0);
+                }
                 return true;
         }
         return super.onOptionsItemSelected(item);

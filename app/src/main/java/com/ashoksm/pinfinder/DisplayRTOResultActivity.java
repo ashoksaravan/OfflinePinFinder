@@ -23,6 +23,7 @@ import com.ashoksm.pinfinder.common.AppRater;
 import com.ashoksm.pinfinder.common.activities.ActivityBase;
 import com.ashoksm.pinfinder.sqlite.RTOSQLiteHelper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
+import com.github.lzyzsd.circleprogress.DonutProgress;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
@@ -39,6 +40,7 @@ public class DisplayRTOResultActivity extends ActivityBase {
     private String action;
     private boolean showFav;
     private SharedPreferences sharedPref;
+    private DonutProgress progressBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -123,12 +125,13 @@ public class DisplayRTOResultActivity extends ActivityBase {
             protected void onPreExecute() {
                 // SHOW THE SPINNER WHILE LOADING FEEDS
                 progressLayout.setVisibility(View.VISIBLE);
+                progressBar = progressLayout.findViewById(R.id.pbHeaderProgress);
             }
 
             @Override
             protected Void doInBackground(Void... params) {
                 try {
-                    sqLiteHelper = new RTOSQLiteHelper(DisplayRTOResultActivity.this);
+                    sqLiteHelper = new RTOSQLiteHelper(DisplayRTOResultActivity.this, progressBar);
                     if (showFav) {
                         c = sqLiteHelper.findFavRTOCodes(sharedPref.getString("RTOCodes", null));
                     } else {
@@ -155,6 +158,7 @@ public class DisplayRTOResultActivity extends ActivityBase {
                     LinearLayout noMatchingLt = findViewById(R.id.noMatchingLayout);
                     noMatchingLt.setVisibility(View.VISIBLE);
                 }
+                progressBar.setProgress(100F);
                 // HIDE THE SPINNER AFTER LOADING FEEDS
                 progressLayout.setVisibility(View.GONE);
             }
@@ -165,11 +169,13 @@ public class DisplayRTOResultActivity extends ActivityBase {
 
     @Override
     public void onBackPressed() {
-        if (sqLiteHelper != null) {
-            sqLiteHelper.closeDB();
+        if (Float.floatToIntBits(progressBar.getProgress()) == Float.floatToIntBits(100F)) {
+            if (sqLiteHelper != null) {
+                sqLiteHelper.closeDB();
+            }
+            super.onBackPressed();
+            overridePendingTransition(R.anim.slide_in_left, 0);
         }
-        super.onBackPressed();
-        overridePendingTransition(R.anim.slide_in_left, 0);
     }
 
     @Override
@@ -185,8 +191,10 @@ public class DisplayRTOResultActivity extends ActivityBase {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home:
-                super.onBackPressed();
-                overridePendingTransition(R.anim.slide_in_left, 0);
+                if (Float.floatToIntBits(progressBar.getProgress()) == Float.floatToIntBits(100F)) {
+                    super.onBackPressed();
+                    overridePendingTransition(R.anim.slide_in_left, 0);
+                }
                 return true;
         }
         return super.onOptionsItemSelected(item);

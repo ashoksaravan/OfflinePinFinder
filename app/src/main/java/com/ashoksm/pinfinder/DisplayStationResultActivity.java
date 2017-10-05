@@ -118,7 +118,8 @@ public class DisplayStationResultActivity extends ActivityBase {
                     if (getSupportActionBar() != null) {
                         getSupportActionBar().setTitle(c.getCount() + " Results found");
                     }
-                    StationRecyclerViewAdapter adapter = new StationRecyclerViewAdapter(DisplayStationResultActivity.this, c);
+                    StationRecyclerViewAdapter adapter =
+                            new StationRecyclerViewAdapter(DisplayStationResultActivity.this, c);
                     mRecyclerView.setAdapter(adapter);
                     mRecyclerView.setVisibility(View.VISIBLE);
                 } else {

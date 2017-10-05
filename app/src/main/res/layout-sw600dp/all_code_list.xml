@@ -1,4 +1,5 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -28,21 +29,13 @@
             android:orientation="vertical"
             android:visibility="gone">
 
-            <ProgressBar
+            <com.github.lzyzsd.circleprogress.DonutProgress
                 android:id="@+id/pbHeaderProgress"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <TextView
-                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:gravity="center"
-                android:text="@string/loading"
-                android:textColor="@color/accent"
-                android:textIsSelectable="false"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                app:donut_finished_color="@color/accent"
+                app:donut_unfinished_color="@color/divider"/>
+
         </LinearLayout>
 
         <android.support.v7.widget.RecyclerView
@@ -55,13 +48,13 @@
             android:scrollbars="vertical"
             app:layoutManager="LinearLayoutManager"
             tools:context=".AllCodeListActivity"
-            tools:listitem="@layout/all_code_list_content" />
+            tools:listitem="@layout/all_code_list_content"/>
     </LinearLayout>
 
     <FrameLayout
         android:id="@+id/item_detail_container"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="3" />
+        android:layout_weight="3"/>
 
 </LinearLayout>

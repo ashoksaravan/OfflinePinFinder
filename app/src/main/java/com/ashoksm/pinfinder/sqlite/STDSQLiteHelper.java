@@ -1,11 +1,12 @@
 package com.ashoksm.pinfinder.sqlite;
 
 import android.app.Activity;
-import android.app.ProgressDialog;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
+
+import com.github.lzyzsd.circleprogress.DonutProgress;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -15,7 +16,8 @@ import java.io.InputStreamReader;
 public class STDSQLiteHelper extends SQLiteOpenHelper {
 
     private Activity context;
-    private ProgressDialog mProgressDialog;
+    private DonutProgress progressBar;
+    private static boolean ON_CREATE;
 
     // Logcat tag
     private static final String CLASS_NAME = STDSQLiteHelper.class.getName();
@@ -46,24 +48,15 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
             + ") REFERENCES " + TABLE_STATE + "(" + STATE + "), PRIMARY KEY (" + STATE + ","
             + CITY + "," + STD_CODE + "))";
 
-    public STDSQLiteHelper(Activity activity) {
+    public STDSQLiteHelper(Activity activity, DonutProgress progressBarIn) {
         super(activity, DATABASE_NAME, null, DATABASE_VERSION);
         context = activity;
+        progressBar = progressBarIn;
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        if (!context.isFinishing()) {
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    mProgressDialog = new ProgressDialog(context);
-                    mProgressDialog.setMessage("Initializing Database…");
-                    mProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
-                    mProgressDialog.setCancelable(false);
-                    mProgressDialog.show();
-                }
-            });
-        }
+        ON_CREATE = true;
         // crate tables
         Log.d(CLASS_NAME, CREATE_STATE_TABLE);
         db.execSQL(CREATE_STATE_TABLE);
@@ -76,14 +69,6 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
 
         // insert pincodes
         insertSTDCodes(db);
-
-        if (!context.isFinishing()) {
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    mProgressDialog.dismiss();
-                }
-            });
-        }
     }
 
     @Override
@@ -120,7 +105,7 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
                     final Double percentage = (i / (double) fileNames.length) * 100.00d;
                     context.runOnUiThread(new Runnable() {
                         public void run() {
-                            mProgressDialog.setProgress(percentage.intValue());
+                            progressBar.setProgress(percentage.intValue());
                         }
                     });
                 }
@@ -189,6 +174,16 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
         String selectQuery = select + where;
         Log.d(CLASS_NAME, selectQuery);
 
+        if (ON_CREATE) {
+            ON_CREATE = false;
+        } else if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    progressBar.setProgress(50);
+                }
+            });
+        }
+
         return db.rawQuery(selectQuery, null);
     }
 
@@ -205,6 +200,17 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
         String select = "SELECT  s." + STATE_NAME + ", " + CITY + ", " + STD_CODE + " AS _id FROM "
                 + TABLE_STD + " st INNER JOIN " + TABLE_STATE + " s ON st." + STATE + " = s."
                 + STATE + " WHERE " + STD_CODE + " IN (" + stdCodes + ")";
+
+        if (ON_CREATE) {
+            ON_CREATE = false;
+        } else if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    progressBar.setProgress(50);
+                }
+            });
+        }
+
         return db.rawQuery(select, null);
     }
 
@@ -212,6 +218,17 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getReadableDatabase();
         String select = "SELECT  " + CITY + " AS _id FROM " + TABLE_STD + " WHERE " + CITY
                 + " LIKE '%" + queryTxt + "%' ORDER BY " + CITY;
+
+        if (ON_CREATE) {
+            ON_CREATE = false;
+        } else if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    progressBar.setProgress(50);
+                }
+            });
+        }
+
         return db.rawQuery(select, null);
     }
 
@@ -219,6 +236,17 @@ public class STDSQLiteHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getReadableDatabase();
         String select = "SELECT  " + STD_CODE + " AS _id FROM " + TABLE_STD + " WHERE " + STD_CODE
                 + " LIKE '%" + queryTxt + "%' ORDER BY " + STD_CODE;
+
+        if (ON_CREATE) {
+            ON_CREATE = false;
+        } else if (!context.isFinishing()) {
+            context.runOnUiThread(new Runnable() {
+                public void run() {
+                    progressBar.setProgress(50);
+                }
+            });
+        }
+
         return db.rawQuery(select, null);
     }
 }
