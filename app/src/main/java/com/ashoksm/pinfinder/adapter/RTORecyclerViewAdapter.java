@@ -15,8 +15,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -31,7 +29,6 @@ public class RTORecyclerViewAdapter
         extends CursorRecyclerViewAdapter<RTORecyclerViewAdapter.ViewHolder> {
 
     private Context context;
-    private int lastPosition = -1;
     private SharedPreferences sharedPreferences;
     private boolean showFav;
 
@@ -171,17 +168,6 @@ public class RTORecyclerViewAdapter
         holder.city.setText(cursor.getString(cursor.getColumnIndex(RTOSQLiteHelper.CITY)));
         holder.state.setText(cursor.getString(cursor.getColumnIndex(RTOSQLiteHelper.STATE_NAME)));
         holder.rtoCode.setText(cursor.getString(cursor.getColumnIndex(RTOSQLiteHelper.ID)));
-        setAnimation(holder.v, position);
-    }
-
-    private void setAnimation(View viewToAnimate, int position) {
-        // If the bound view wasn't previously displayed on screen, it's
-        // animated
-        if (position > lastPosition) {
-            Animation animation = AnimationUtils.loadAnimation(context, R.anim.up_from_bottom);
-            viewToAnimate.startAnimation(animation);
-        }
-        lastPosition = position;
     }
 
     @Override

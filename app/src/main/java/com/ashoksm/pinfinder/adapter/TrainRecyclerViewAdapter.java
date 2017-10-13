@@ -16,8 +16,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -34,7 +32,6 @@ public class TrainRecyclerViewAdapter
         extends CursorRecyclerViewAdapter<TrainRecyclerViewAdapter.ViewHolder> {
 
     private Activity context;
-    private int lastPosition = -1;
 
     public TrainRecyclerViewAdapter(Activity context, Cursor cursor) {
         super(cursor);
@@ -119,7 +116,6 @@ public class TrainRecyclerViewAdapter
         holder.trainName.setText(spanString);
         holder.starts.setText(cursor.getString(cursor.getColumnIndex(RailWaysSQLiteHelper.STARTS)));
         holder.ends.setText(cursor.getString(cursor.getColumnIndex(RailWaysSQLiteHelper.ENDS)));
-        setAnimation(holder.v, position);
     }
 
     private void share(ViewHolder vh) {
@@ -149,16 +145,6 @@ public class TrainRecyclerViewAdapter
         } catch (Exception e) {
             Toast.makeText(context, R.string.maps_not_found, Toast.LENGTH_LONG).show();
         }
-    }
-
-    private void setAnimation(View viewToAnimate, int position) {
-        // If the bound view wasn't previously displayed on screen, it's
-        // animated
-        if (position > lastPosition) {
-            Animation animation = AnimationUtils.loadAnimation(context, R.anim.up_from_bottom);
-            viewToAnimate.startAnimation(animation);
-        }
-        lastPosition = position;
     }
 
     @Override

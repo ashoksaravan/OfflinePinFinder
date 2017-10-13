@@ -16,8 +16,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -34,7 +32,6 @@ public class IFSCRecyclerViewAdapter
 
     private Context context;
     private String bankName;
-    private int lastPosition = -1;
     private SharedPreferences sharedPreferences;
     private boolean showFav;
 
@@ -199,17 +196,6 @@ public class IFSCRecyclerViewAdapter
         holder.bankNameRow.setVisibility(View.VISIBLE);
         holder.bankName
                 .setText(cursor.getString(cursor.getColumnIndex(BankSQLiteHelper.BANK)));
-        setAnimation(holder.v, position);
-    }
-
-    private void setAnimation(View viewToAnimate, int position) {
-        // If the bound view wasn't previously displayed on screen, it's
-        // animated
-        if (position > lastPosition) {
-            Animation animation = AnimationUtils.loadAnimation(context, R.anim.up_from_bottom);
-            viewToAnimate.startAnimation(animation);
-        }
-        lastPosition = position;
     }
 
     @Override

@@ -16,8 +16,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -33,7 +31,6 @@ public class PinCodeRecyclerViewAdapter
         extends CursorRecyclerViewAdapter<PinCodeRecyclerViewAdapter.ViewHolder> {
 
     private Context context;
-    private int lastPosition = -1;
     private SharedPreferences sharedPreferences;
     private boolean showFav;
 
@@ -248,17 +245,6 @@ public class PinCodeRecyclerViewAdapter
             holder.telephoneNumber.setText("");
             holder.telephoneRow.setVisibility(View.GONE);
         }
-        setAnimation(holder.v, position);
-    }
-
-    private void setAnimation(View viewToAnimate, int position) {
-        // If the bound view wasn't previously displayed on screen, it's
-        // animated
-        if (position > lastPosition) {
-            Animation animation = AnimationUtils.loadAnimation(context, R.anim.up_from_bottom);
-            viewToAnimate.startAnimation(animation);
-        }
-        lastPosition = position;
     }
 
     @Override

@@ -16,8 +16,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -35,7 +33,6 @@ public class StationRecyclerViewAdapter
         extends CursorRecyclerViewAdapter<StationRecyclerViewAdapter.ViewHolder> {
 
     private Activity context;
-    private int lastPosition = -1;
 
     public StationRecyclerViewAdapter(Activity context, Cursor cursor) {
         super(cursor);
@@ -131,7 +128,6 @@ public class StationRecyclerViewAdapter
                 .setText(cursor.getString(cursor.getColumnIndex(RailWaysSQLiteHelper.LOCATION)));
         holder.trainsPassingVia.setText(cursor.getString(cursor.getColumnIndex
                 (RailWaysSQLiteHelper.TRAINS_PASSING_VIA)));
-        setAnimation(holder.v, position);
     }
 
     private void openGMAP(ViewHolder h) {
@@ -162,16 +158,6 @@ public class StationRecyclerViewAdapter
         sharingIntent.putExtra(Intent.EXTRA_TEXT, shareContent);
         context.startActivity(Intent.createChooser(sharingIntent,
                 context.getResources().getText(R.string.send_to)));
-    }
-
-    private void setAnimation(View viewToAnimate, int position) {
-        // If the bound view wasn't previously displayed on screen, it's
-        // animated
-        if (position > lastPosition) {
-            Animation animation = AnimationUtils.loadAnimation(context, R.anim.up_from_bottom);
-            viewToAnimate.startAnimation(animation);
-        }
-        lastPosition = position;
     }
 
     @Override

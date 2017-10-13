@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:fillViewport="true">
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fillViewport="true">
 
     <LinearLayout
         android:id="@+id/content_layout"
@@ -23,7 +23,7 @@
             android:inputType="text"
             android:maxLines="1"
             android:textColor="@color/accent"
-            android:textCursorDrawable="@drawable/cursor_drawable" />
+            android:textCursorDrawable="@drawable/cursor_drawable"/>
 
         <AutoCompleteTextView
             android:id="@+id/stations_state"
@@ -35,7 +35,7 @@
             android:inputType="text"
             android:maxLines="1"
             android:textColor="@color/accent"
-            android:textCursorDrawable="@drawable/cursor_drawable" />
+            android:textCursorDrawable="@drawable/cursor_drawable"/>
 
         <AutoCompleteTextView
             android:id="@+id/stations_city"
@@ -47,7 +47,7 @@
             android:inputType="text"
             android:maxLines="1"
             android:textColor="@color/accent"
-            android:textCursorDrawable="@drawable/cursor_drawable" />
+            android:textCursorDrawable="@drawable/cursor_drawable"/>
 
         <Button
             android:id="@+id/station_search"
@@ -57,6 +57,6 @@
             android:background="@drawable/button_selector"
             android:elevation="5dp"
             android:text="@string/button_search"
-            android:textColor="@color/icons" />
+            android:textColor="@color/icons"/>
     </LinearLayout>
 </ScrollView>

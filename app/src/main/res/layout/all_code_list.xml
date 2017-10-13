@@ -37,6 +37,7 @@
         android:scrollbars="vertical"
         app:layoutManager="LinearLayoutManager"
         tools:context=".AllCodeListActivity"
+        android:layoutAnimation="@anim/layout_animation_from_bottom"
         tools:listitem="@layout/all_code_list_content"/>
 
 </LinearLayout>

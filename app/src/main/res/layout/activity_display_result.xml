@@ -58,6 +58,7 @@
             android:paddingTop="?attr/actionBarSize"
             android:scrollbarThumbVertical="@drawable/scroll_bar"
             android:scrollbars="vertical"
+            android:layoutAnimation="@anim/layout_animation_slide_right"
             android:visibility="gone"/>
 
         <LinearLayout

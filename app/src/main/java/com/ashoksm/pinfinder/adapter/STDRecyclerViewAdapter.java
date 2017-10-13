@@ -15,8 +15,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -31,7 +29,6 @@ public class STDRecyclerViewAdapter
         extends CursorRecyclerViewAdapter<STDRecyclerViewAdapter.ViewHolder> {
 
     private Context context;
-    private int lastPosition = -1;
     private SharedPreferences sharedPreferences;
     private boolean showFav;
 
@@ -171,17 +168,6 @@ public class STDRecyclerViewAdapter
         holder.city.setText(cursor.getString(cursor.getColumnIndex(STDSQLiteHelper.CITY)));
         holder.state.setText(cursor.getString(cursor.getColumnIndex(STDSQLiteHelper.STATE_NAME)));
         holder.stdCode.setText(cursor.getString(cursor.getColumnIndex(STDSQLiteHelper.ID)));
-        setAnimation(holder.v, position);
-    }
-
-    private void setAnimation(View viewToAnimate, int position) {
-        // If the bound view wasn't previously displayed on screen, it's
-        // animated
-        if (position > lastPosition) {
-            Animation animation = AnimationUtils.loadAnimation(context, R.anim.up_from_bottom);
-            viewToAnimate.startAnimation(animation);
-        }
-        lastPosition = position;
     }
 
     @Override

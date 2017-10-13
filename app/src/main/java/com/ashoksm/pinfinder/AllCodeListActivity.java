@@ -178,6 +178,7 @@ public class AllCodeListActivity extends ActivityBase {
                     public void afterTextChanged(Editable s) {
                         queryTxt = s.toString();
                         recyclerView.stopScroll();
+                        recyclerView.getRecycledViewPool().clear();
                         switch (menuId) {
                             case R.id.nav_pincode:
                                 adapter.changeCursor(sqLiteHelper.getAllPinCodes(queryTxt));
