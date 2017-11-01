@@ -10,6 +10,7 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -29,20 +30,20 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 
+import java.lang.ref.WeakReference;
 import java.util.Locale;
 
 public class DisplayBankResultActivity extends AppCompatActivity {
 
-    private BankSQLiteHelper sqLiteHelper;
-    private Cursor c;
-    private String stateName;
-    private String districtName;
-    private String bankName;
-    private String branchName;
-    private String action;
-    private boolean showFav;
-    private SharedPreferences sharedPreferences;
-    private DonutProgress progressBar;
+    private static String stateName;
+    private static String districtName;
+    private static String bankName;
+    private static String branchName;
+    private static String action;
+    private static boolean showFav;
+    private static SharedPreferences sharedPreferences;
+    private static DonutProgress progressBar;
+    private static WeakReference<BankSQLiteHelper> sqLiteHelperWeakReference;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -125,69 +126,15 @@ public class DisplayBankResultActivity extends AppCompatActivity {
         AdRequest adRequest = new AdRequest.Builder().build();
         ad.loadAd(adRequest);
 
-        new AsyncTask<Void, Void, Void>() {
-            LinearLayout progressLayout = (LinearLayout) findViewById(R.id.progressLayout);
-
-            @Override
-            protected void onPreExecute() {
-                // SHOW THE SPINNER WHILE LOADING FEEDS
-                progressLayout.setVisibility(View.VISIBLE);
-                progressBar = progressLayout.findViewById(R.id.pbHeaderProgress);
-            }
-
-            @Override
-            protected Void doInBackground(Void... params) {
-                try {
-                    sqLiteHelper =
-                            new BankSQLiteHelper(DisplayBankResultActivity.this, progressBar);
-                    if (showFav) {
-                        c = sqLiteHelper
-                                .findFavIfscCodes(sharedPreferences.getString("ifscs", null));
-                    } else {
-                        c = sqLiteHelper
-                                .findIfscCodes(stateName, districtName, bankName, branchName,
-                                        action);
-                    }
-                } catch (Exception ex) {
-                    Log.e(this.getClass().getName(), ex.getMessage());
-                }
-                return null;
-            }
-
-            @Override
-            protected void onPostExecute(Void result) {
-                if ((showFav || action.length() > 0) && getSupportActionBar() != null) {
-                    getSupportActionBar().setTitle(c.getCount() + " Results Found");
-                } else if (getSupportActionBar() != null) {
-                    getSupportActionBar().setTitle(intent.getStringExtra(IFSCFragment.EXTRA_BANK));
-                }
-                if (c != null && c.getCount() > 0) {
-                    IFSCRecyclerViewAdapter adapter =
-                            new IFSCRecyclerViewAdapter(DisplayBankResultActivity.this, c,
-                                    intent.getStringExtra(IFSCFragment.EXTRA_BANK),
-                                    sharedPreferences,
-                                    showFav);
-                    mRecyclerView.setAdapter(adapter);
-                    mRecyclerView.setVisibility(View.VISIBLE);
-                } else {
-                    LinearLayout noMatchingLayout =
-                            findViewById(R.id.noMatchingLayout);
-                    noMatchingLayout.setVisibility(View.VISIBLE);
-                }
-                progressBar.setProgress(100);
-                // HIDE THE SPINNER AFTER LOADING FEEDS
-                progressLayout.setVisibility(View.GONE);
-            }
-
-        }.execute();
+        new MyAsyncTask(this).execute();
         AppRater.appLaunched(this);
     }
 
     @Override
     public void onBackPressed() {
         if (Float.floatToIntBits(progressBar.getProgress()) == Float.floatToIntBits(100F)) {
-            if (sqLiteHelper != null) {
-                sqLiteHelper.closeDB();
+            if (sqLiteHelperWeakReference.get() != null) {
+                sqLiteHelperWeakReference.get().closeDB();
             }
             super.onBackPressed();
             overridePendingTransition(R.anim.slide_in_left, 0);
@@ -196,8 +143,8 @@ public class DisplayBankResultActivity extends AppCompatActivity {
 
     @Override
     protected void onDestroy() {
-        if (sqLiteHelper != null) {
-            sqLiteHelper.closeDB();
+        if (sqLiteHelperWeakReference.get() != null) {
+            sqLiteHelperWeakReference.get().closeDB();
         }
         super.onDestroy();
         overridePendingTransition(R.anim.slide_in_left, 0);
@@ -214,6 +161,67 @@ public class DisplayBankResultActivity extends AppCompatActivity {
                 return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private static class MyAsyncTask extends AsyncTask<Void, Void, Cursor> {
+
+        private WeakReference<AppCompatActivity> activity;
+
+        MyAsyncTask(AppCompatActivity activityIn) {
+            this.activity = new WeakReference<>(activityIn);
+        }
+
+        @Override
+        protected void onPreExecute() {
+            // SHOW THE SPINNER WHILE LOADING FEEDS
+            activity.get().findViewById(R.id.progressLayout).setVisibility(View.VISIBLE);
+            progressBar = activity.get().findViewById(R.id.pbHeaderProgress);
+        }
+
+        @Override
+        protected Cursor doInBackground(Void... params) {
+            Cursor c = null;
+            try {
+                BankSQLiteHelper sqLiteHelper = new BankSQLiteHelper(activity.get(), progressBar);
+                sqLiteHelperWeakReference = new WeakReference<>(sqLiteHelper);
+                if (showFav) {
+                    c = sqLiteHelper
+                            .findFavIfscCodes(sharedPreferences.getString("ifscs", null));
+                } else {
+                    c = sqLiteHelper
+                            .findIfscCodes(stateName, districtName, bankName, branchName,
+                                    action);
+                }
+            } catch (Exception ex) {
+                Log.e(DisplayBankResultActivity.class.getName(), ex.getMessage());
+            }
+            return c;
+        }
+
+        @Override
+        protected void onPostExecute(Cursor c) {
+            ActionBar actionBar = activity.get().getSupportActionBar();
+            String bankName = activity.get().getIntent().getStringExtra(IFSCFragment.EXTRA_BANK);
+            if ((showFav || action.length() > 0) && actionBar != null) {
+                actionBar.setTitle(c.getCount() + " Results Found");
+            } else if (actionBar != null) {
+                actionBar.setTitle(bankName);
+            }
+            if (c != null && c.getCount() > 0) {
+                IFSCRecyclerViewAdapter adapter =
+                        new IFSCRecyclerViewAdapter(activity.get(), c, bankName, sharedPreferences,
+                                showFav);
+                RecyclerView mRecyclerView = activity.get().findViewById(R.id.gridView);
+                mRecyclerView.setAdapter(adapter);
+                mRecyclerView.setVisibility(View.VISIBLE);
+            } else {
+                activity.get().findViewById(R.id.noMatchingLayout).setVisibility(View.VISIBLE);
+            }
+            progressBar.setProgress(100);
+            // HIDE THE SPINNER AFTER LOADING FEEDS
+            activity.get().findViewById(R.id.progressLayout).setVisibility(View.GONE);
+        }
+
     }
 
 }

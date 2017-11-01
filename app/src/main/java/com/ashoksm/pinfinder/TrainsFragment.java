@@ -23,15 +23,17 @@ import android.widget.TextView;
 
 import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
 
+import java.lang.ref.WeakReference;
+
 public class TrainsFragment extends Fragment {
 
+    public static final String EXTRA_STARTS = "com.ashoksm.offlinepinfinder.STARTS";
+    public static final String EXTRA_ENDS = "com.ashoksm.offlinepinfinder.ENDS";
+    public static final String EXTRA_TRAIN = "com.ashoksm.offlinepinfinder.TRAIN";
     private AutoCompleteTextView starts;
     private AutoCompleteTextView ends;
     private AutoCompleteTextView trainName;
     private Switch aSwitch;
-    public final static String EXTRA_STARTS = "com.ashoksm.offlinepinfinder.STARTS";
-    public final static String EXTRA_ENDS = "com.ashoksm.offlinepinfinder.ENDS";
-    public final static String EXTRA_TRAIN = "com.ashoksm.offlinepinfinder.TRAIN";
 
     @Nullable
     @Override
@@ -45,34 +47,7 @@ public class TrainsFragment extends Fragment {
         Button btnSubmit = v.findViewById(R.id.train_search);
         aSwitch = v.findViewById(R.id.train_switch);
 
-        new AsyncTask<Void, Void, Void>() {
-
-            RailWaysSQLiteHelper sqLiteHelper = new RailWaysSQLiteHelper(getActivity());
-            String[] stationCodes;
-            String[] trainNos;
-
-            @Override
-            protected Void doInBackground(Void... voids) {
-                stationCodes = sqLiteHelper.getStationCodes();
-                trainNos = sqLiteHelper.getTrainNos();
-                return null;
-            }
-
-            @Override
-            protected void onPostExecute(Void aVoid) {
-                if (getContext() != null) {
-                    ArrayAdapter<String> startAdapter = new ArrayAdapter<>(getContext(),
-                            R.layout.spinner_dropdown_item, stationCodes);
-                    ArrayAdapter<String> endAdapter = new ArrayAdapter<>(getContext(),
-                            R.layout.spinner_dropdown_item, stationCodes);
-                    ArrayAdapter<String> trainAdapter = new ArrayAdapter<>(getContext(),
-                            R.layout.spinner_dropdown_item, trainNos);
-                    starts.setAdapter(startAdapter);
-                    ends.setAdapter(endAdapter);
-                    trainName.setAdapter(trainAdapter);
-                }
-            }
-        }.execute();
+        new MyAsyncTask(this).execute();
 
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -127,8 +102,10 @@ public class TrainsFragment extends Fragment {
             InputMethodManager inputMethodManager =
                     (InputMethodManager) getContext().getSystemService(Context
                             .INPUT_METHOD_SERVICE);
-            inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
-                    InputMethodManager.HIDE_NOT_ALWAYS);
+            if (inputMethodManager != null) {
+                inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
+                        InputMethodManager.HIDE_NOT_ALWAYS);
+            }
         }
 
         Intent intent = new Intent(context, DisplayTrainResultActivity.class);
@@ -145,6 +122,49 @@ public class TrainsFragment extends Fragment {
         intent.putExtra(MainActivity.EXTRA_SHOW_FAV, false);
         context.startActivity(intent);
         context.overridePendingTransition(R.anim.slide_out_left, 0);
+    }
+
+    private static class MyAsyncTask extends AsyncTask<Void, Void, Void> {
+
+        private String[] stationCodes;
+        private String[] trainNos;
+        private WeakReference<Fragment> fragment;
+
+
+        MyAsyncTask(Fragment trainsFragment) {
+            this.fragment = new WeakReference<>(trainsFragment);
+        }
+
+        @Override
+        protected Void doInBackground(Void... voids) {
+            RailWaysSQLiteHelper sqLiteHelper =
+                    new RailWaysSQLiteHelper(fragment.get().getActivity());
+            stationCodes = sqLiteHelper.getStationCodes();
+            trainNos = sqLiteHelper.getTrainNos();
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void aVoid) {
+            if (fragment.get().getContext() != null) {
+                AutoCompleteTextView starts =
+                        fragment.get().getActivity().findViewById(R.id.starts);
+                AutoCompleteTextView ends = fragment.get().getActivity().findViewById(R.id.ends);
+                AutoCompleteTextView trainName =
+                        fragment.get().getActivity().findViewById(R.id.train_name);
+
+                ArrayAdapter<String> startAdapter = new ArrayAdapter<>(fragment.get().getContext(),
+                        R.layout.spinner_dropdown_item, stationCodes);
+                ArrayAdapter<String> endAdapter = new ArrayAdapter<>(fragment.get().getContext(),
+                        R.layout.spinner_dropdown_item, stationCodes);
+                ArrayAdapter<String> trainAdapter = new ArrayAdapter<>(fragment.get().getContext(),
+                        R.layout.spinner_dropdown_item, trainNos);
+
+                starts.setAdapter(startAdapter);
+                ends.setAdapter(endAdapter);
+                trainName.setAdapter(trainAdapter);
+            }
+        }
     }
 
 }

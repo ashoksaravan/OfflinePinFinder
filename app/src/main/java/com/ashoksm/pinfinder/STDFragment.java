@@ -20,10 +20,10 @@ import android.widget.TextView;
 
 public class STDFragment extends Fragment {
 
-    private AutoCompleteTextView stateNameTextView;
-    private EditText cityName;
     public final static String EXTRA_STATE = "com.ashoksm.offlinepinfinder.STATE";
     public final static String EXTRA_CITY = "com.ashoksm.offlinepinfinder.CITY";
+    private AutoCompleteTextView stateNameTextView;
+    private EditText cityName;
 
     @Nullable
     @Override
@@ -65,7 +65,7 @@ public class STDFragment extends Fragment {
         //hide keyboard
         InputMethodManager inputMethodManager =
                 (InputMethodManager) context.getSystemService(Context.INPUT_METHOD_SERVICE);
-        if (getView() != null) {
+        if (getView() != null && inputMethodManager != null) {
             inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
                     InputMethodManager.HIDE_NOT_ALWAYS);
         }

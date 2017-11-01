@@ -8,6 +8,8 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -27,12 +29,13 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 
+import java.lang.ref.WeakReference;
+
 public class StationDetailsActivity extends ActivityBase {
 
-    private RailWaysSQLiteHelper sqLiteHelper;
-    private Cursor c;
-    private StationDetailsAdapter adapter;
-    private String stationCode;
+    private static WeakReference<RailWaysSQLiteHelper> sqLiteHelperWeakReference;
+    private static String stationCode;
+    private static boolean xLargeScreen;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +56,7 @@ public class StationDetailsActivity extends ActivityBase {
 
         // set item decorator
         Drawable dividerDrawable;
-        final boolean xLargeScreen = isLargeScreen();
+        xLargeScreen = isLargeScreen();
         if (xLargeScreen) {
             dividerDrawable = ContextCompat.getDrawable(this, R.drawable.item_divider);
         } else {
@@ -79,46 +82,7 @@ public class StationDetailsActivity extends ActivityBase {
         // Get the message from the intent
         stationCode = getIntent().getStringExtra(StationsFragment.EXTRA_STATION);
 
-        new AsyncTask<Void, Void, Void>() {
-            LinearLayout progressLayout = (LinearLayout) findViewById(R.id.progressLayout);
-
-            @Override
-            protected void onPreExecute() {
-                // SHOW THE SPINNER WHILE LOADING FEEDS
-                progressLayout.setVisibility(View.VISIBLE);
-            }
-
-            @Override
-            protected Void doInBackground(Void... params) {
-                try {
-                    sqLiteHelper = new RailWaysSQLiteHelper(StationDetailsActivity.this);
-                    c = sqLiteHelper.getStationDetails(stationCode, xLargeScreen);
-                } catch (Exception ex) {
-                    Log.e("StationDetailsActivity", ex.getMessage(), ex);
-                }
-                return null;
-            }
-
-            @Override
-            protected void onPostExecute(Void result) {
-                if (c != null && c.getCount() > 0) {
-                    if (getSupportActionBar() != null) {
-                        getSupportActionBar()
-                                .setTitle(getIntent().getStringExtra(StationsFragment.EXTRA_CITY));
-                    }
-                    adapter =
-                            new StationDetailsAdapter(c, xLargeScreen, StationDetailsActivity.this);
-                    mRecyclerView.setAdapter(adapter);
-                    mRecyclerView.setVisibility(View.VISIBLE);
-                } else {
-                    LinearLayout noMatchingLt = findViewById(R.id.noMatchingLayout);
-                    noMatchingLt.setVisibility(View.VISIBLE);
-                }
-                // HIDE THE SPINNER AFTER LOADING FEEDS
-                progressLayout.setVisibility(View.GONE);
-            }
-
-        }.execute();
+        new MyAsyncTask(this).execute();
         if (!xLargeScreen) {
             Toast.makeText(this, "Use Landscape for better experience", Toast.LENGTH_LONG).show();
         }
@@ -154,8 +118,8 @@ public class StationDetailsActivity extends ActivityBase {
 
     @Override
     public void onBackPressed() {
-        if (sqLiteHelper != null) {
-            sqLiteHelper.closeDB();
+        if (sqLiteHelperWeakReference.get() != null) {
+            sqLiteHelperWeakReference.get().closeDB();
         }
         super.onBackPressed();
         overridePendingTransition(R.anim.slide_in_left, 0);
@@ -163,8 +127,8 @@ public class StationDetailsActivity extends ActivityBase {
 
     @Override
     protected void onDestroy() {
-        if (sqLiteHelper != null) {
-            sqLiteHelper.closeDB();
+        if (sqLiteHelperWeakReference.get() != null) {
+            sqLiteHelperWeakReference.get().closeDB();
         }
         super.onDestroy();
     }
@@ -185,5 +149,55 @@ public class StationDetailsActivity extends ActivityBase {
                 .SCREENLAYOUT_SIZE_MASK) >= Configuration.SCREENLAYOUT_SIZE_LARGE ||
                 getResources().getConfiguration().orientation ==
                         Configuration.ORIENTATION_LANDSCAPE;
+    }
+
+    private static class MyAsyncTask extends AsyncTask<Void, Void, Cursor> {
+
+        private WeakReference<AppCompatActivity> activity;
+
+        public MyAsyncTask(AppCompatActivity activityIn) {
+            activity = new WeakReference<>(activityIn);
+        }
+
+        @Override
+        protected void onPreExecute() {
+            // SHOW THE SPINNER WHILE LOADING FEEDS
+            activity.get().findViewById(R.id.progressLayout).setVisibility(View.VISIBLE);
+        }
+
+        @Override
+        protected Cursor doInBackground(Void... params) {
+            Cursor c = null;
+            try {
+                RailWaysSQLiteHelper sqLiteHelper = new RailWaysSQLiteHelper(activity.get());
+                c = sqLiteHelper.getStationDetails(stationCode, xLargeScreen);
+                sqLiteHelperWeakReference = new WeakReference<>(sqLiteHelper);
+            } catch (Exception ex) {
+                Log.e("StationDetailsActivity", ex.getMessage(), ex);
+            }
+            return c;
+        }
+
+        @Override
+        protected void onPostExecute(Cursor c) {
+            if (c != null && c.getCount() > 0) {
+                ActionBar actionBar = activity.get().getSupportActionBar();
+                if (actionBar != null) {
+                    actionBar
+                            .setTitle(activity.get().getIntent()
+                                    .getStringExtra(StationsFragment.EXTRA_CITY));
+                }
+                StationDetailsAdapter adapter =
+                        new StationDetailsAdapter(c, xLargeScreen, activity.get());
+                RecyclerView mRecyclerView = activity.get().findViewById(R.id.gridView);
+                mRecyclerView.setAdapter(adapter);
+                mRecyclerView.setVisibility(View.VISIBLE);
+            } else {
+                activity.get().findViewById(R.id.noMatchingLayout).setVisibility(View.VISIBLE);
+            }
+            // HIDE THE SPINNER AFTER LOADING FEEDS
+            activity.get().findViewById(R.id.progressLayout).setVisibility(View.GONE);
+        }
+
     }
 }

@@ -20,10 +20,10 @@ import android.widget.TextView;
 
 public class RTOFragment extends Fragment {
 
-    private AutoCompleteTextView stateNameTextView;
-    private EditText cityName;
     public final static String EXTRA_STATE = "com.ashoksm.offlinepinfinder.STATE";
     public final static String EXTRA_CITY = "com.ashoksm.offlinepinfinder.CITY";
+    private AutoCompleteTextView stateNameTextView;
+    private EditText cityName;
 
     @Nullable
     @Override
@@ -62,11 +62,11 @@ public class RTOFragment extends Fragment {
     }
 
     private void performSearch(Activity context) {
+        InputMethodManager inputMethodManager =
+                (InputMethodManager) getContext().getSystemService(Context
+                        .INPUT_METHOD_SERVICE);
         // hide keyboard
-        if (getView() != null) {
-            InputMethodManager inputMethodManager =
-                    (InputMethodManager) getContext().getSystemService(Context
-                            .INPUT_METHOD_SERVICE);
+        if (getView() != null && inputMethodManager != null) {
             inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
                     InputMethodManager.HIDE_NOT_ALWAYS);
         }

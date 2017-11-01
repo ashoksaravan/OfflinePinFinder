@@ -14,30 +14,30 @@ import android.view.ViewGroup;
 
 public class TabFragment extends Fragment {
 
+    public static int int_items = 6;
     public TabLayout tabLayout;
     public ViewPager viewPager;
-    public static int int_items = 6;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        /**
-         *Inflate tab_layout and setup Views.
+        /*
+         Inflate tab_layout and setup Views.
          */
         View x = inflater.inflate(R.layout.tab_layout, container, false);
         tabLayout = x.findViewById(R.id.tabs);
         viewPager = x.findViewById(R.id.viewpager);
 
-        /**
-         *Set an Adapter for the View Pager
+        /*
+         Set an Adapter for the View Pager
          */
         viewPager.setAdapter(new MyAdapter(getChildFragmentManager()));
 
-        /**
-         * Now , this is a workaround ,
-         * The setupWithViewPager dose't works without the runnable .
-         * Maybe a Support Library Bug .
+        /*
+          Now , this is a workaround ,
+          The setupWithViewPager dose't works without the runnable .
+          Maybe a Support Library Bug .
          */
 
         tabLayout.post(new Runnable() {

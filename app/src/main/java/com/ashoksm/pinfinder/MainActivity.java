@@ -45,12 +45,12 @@ import com.google.android.gms.ads.InterstitialAd;
 
 public class MainActivity extends ActivityBase {
 
-    private InterstitialAd mInterstitialAd;
-    private Class clazz;
     public static final String EXTRA_SHOW_FAV = "EXTRA_SHOW_FAV";
     public static final String EXTRA_MENU_ID = "EXTRA_MENU_ID";
-    private DrawerLayout mDrawerLayout;
     private static final int MY_PERMISSIONS_REQUEST_LOCATION = 1;
+    private InterstitialAd mInterstitialAd;
+    private Class clazz;
+    private DrawerLayout mDrawerLayout;
     private LocationManager locationManager;
     private boolean gpsStatus;
 
@@ -112,8 +112,10 @@ public class MainActivity extends ActivityBase {
                         } else {
                             locationManager =
                                     (LocationManager) getSystemService(Context.LOCATION_SERVICE);
-                            gpsStatus = locationManager.isProviderEnabled(LocationManager
-                                    .GPS_PROVIDER);
+                            if (locationManager != null) {
+                                gpsStatus = locationManager.isProviderEnabled(LocationManager
+                                        .GPS_PROVIDER);
+                            }
                             if (gpsStatus) {
                                 intent = new Intent(getApplicationContext(),
                                         NearByPlacesActivity.class);

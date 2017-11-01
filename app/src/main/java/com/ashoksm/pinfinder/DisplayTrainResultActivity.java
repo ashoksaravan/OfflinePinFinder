@@ -8,6 +8,8 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -26,13 +28,14 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 
+import java.lang.ref.WeakReference;
+
 public class DisplayTrainResultActivity extends ActivityBase {
 
-    private RailWaysSQLiteHelper sqLiteHelper;
-    private Cursor c;
-    private String trainNo;
-    private String start;
-    private String ends;
+    private static WeakReference<RailWaysSQLiteHelper> sqLiteHelperWeakReference;
+    private static String trainNo;
+    private static String start;
+    private static String ends;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -79,49 +82,7 @@ public class DisplayTrainResultActivity extends ActivityBase {
         ends = intent.getStringExtra(TrainsFragment.EXTRA_ENDS).replaceAll("'", "''");
         trainNo = intent.getStringExtra(TrainsFragment.EXTRA_TRAIN).replaceAll("'", "''");
 
-        new AsyncTask<Void, Void, Void>() {
-            LinearLayout progressLayout = (LinearLayout) findViewById(R.id.progressLayout);
-
-            @Override
-            protected void onPreExecute() {
-                // SHOW THE SPINNER WHILE LOADING FEEDS
-                progressLayout.setVisibility(View.VISIBLE);
-            }
-
-            @Override
-            protected Void doInBackground(Void... params) {
-                try {
-                    sqLiteHelper = new RailWaysSQLiteHelper(DisplayTrainResultActivity.this);
-                    if (trainNo.trim().length() > 0) {
-                        c = sqLiteHelper.findTrainsByNoOrName(trainNo);
-                    } else {
-                        c = sqLiteHelper.findTrainsByStation(start, ends);
-                    }
-                } catch (Exception ex) {
-                    Log.e("TrainResultActivity", ex.getMessage(), ex);
-                }
-                return null;
-            }
-
-            @Override
-            protected void onPostExecute(Void result) {
-                if (c != null && c.getCount() > 0) {
-                    if (getSupportActionBar() != null) {
-                        getSupportActionBar().setTitle(c.getCount() + " Results found");
-                    }
-                    TrainRecyclerViewAdapter adapter =
-                            new TrainRecyclerViewAdapter(DisplayTrainResultActivity.this, c);
-                    mRecyclerView.setAdapter(adapter);
-                    mRecyclerView.setVisibility(View.VISIBLE);
-                } else {
-                    LinearLayout noMatchingLt = findViewById(R.id.noMatchingLayout);
-                    noMatchingLt.setVisibility(View.VISIBLE);
-                }
-                // HIDE THE SPINNER AFTER LOADING FEEDS
-                progressLayout.setVisibility(View.GONE);
-            }
-
-        }.execute();
+        new MyAsyncTask(this).execute();
         AppRater.appLaunched(this);
     }
 
@@ -154,8 +115,8 @@ public class DisplayTrainResultActivity extends ActivityBase {
 
     @Override
     public void onBackPressed() {
-        if (sqLiteHelper != null) {
-            sqLiteHelper.closeDB();
+        if (sqLiteHelperWeakReference.get() != null) {
+            sqLiteHelperWeakReference.get().closeDB();
         }
         super.onBackPressed();
         overridePendingTransition(R.anim.slide_in_left, 0);
@@ -163,8 +124,8 @@ public class DisplayTrainResultActivity extends ActivityBase {
 
     @Override
     protected void onDestroy() {
-        if (sqLiteHelper != null) {
-            sqLiteHelper.closeDB();
+        if (sqLiteHelperWeakReference.get() != null) {
+            sqLiteHelperWeakReference.get().closeDB();
         }
         super.onDestroy();
         overridePendingTransition(R.anim.slide_in_left, 0);
@@ -179,5 +140,56 @@ public class DisplayTrainResultActivity extends ActivityBase {
                 return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private static class MyAsyncTask extends AsyncTask<Void, Void, Cursor> {
+
+        private WeakReference<AppCompatActivity> activity;
+
+        MyAsyncTask(AppCompatActivity activityIn) {
+            activity = new WeakReference<>(activityIn);
+        }
+
+        @Override
+        protected void onPreExecute() {
+            // SHOW THE SPINNER WHILE LOADING FEEDS
+            activity.get().findViewById(R.id.progressLayout).setVisibility(View.VISIBLE);
+        }
+
+        @Override
+        protected Cursor doInBackground(Void... params) {
+            Cursor c = null;
+            try {
+                RailWaysSQLiteHelper sqLiteHelper = new RailWaysSQLiteHelper(activity.get());
+                sqLiteHelperWeakReference = new WeakReference<>(sqLiteHelper);
+                if (trainNo.trim().length() > 0) {
+                    c = sqLiteHelper.findTrainsByNoOrName(trainNo);
+                } else {
+                    c = sqLiteHelper.findTrainsByStation(start, ends);
+                }
+            } catch (Exception ex) {
+                Log.e("TrainResultActivity", ex.getMessage(), ex);
+            }
+            return c;
+        }
+
+        @Override
+        protected void onPostExecute(Cursor c) {
+            ActionBar actionBar = activity.get().getSupportActionBar();
+            if (c != null && c.getCount() > 0) {
+                if (actionBar != null) {
+                    actionBar.setTitle(c.getCount() + " Results found");
+                }
+                TrainRecyclerViewAdapter adapter = new TrainRecyclerViewAdapter(activity.get(), c);
+                RecyclerView mRecyclerView = activity.get().findViewById(R.id.gridView);
+                mRecyclerView.setAdapter(adapter);
+                mRecyclerView.setVisibility(View.VISIBLE);
+            } else {
+                activity.get().findViewById(R.id.noMatchingLayout).setVisibility(View.VISIBLE);
+            }
+            // HIDE THE SPINNER AFTER LOADING FEEDS
+            activity.get().findViewById(R.id.progressLayout).setVisibility(View.GONE);
+        }
+
     }
 }

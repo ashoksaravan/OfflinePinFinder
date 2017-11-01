@@ -9,6 +9,8 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -27,16 +29,16 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 
+import java.lang.ref.WeakReference;
 import java.util.Locale;
 
 public class DisplayStationResultActivity extends ActivityBase {
 
-    private RailWaysSQLiteHelper sqLiteHelper;
-    private Cursor c;
-    private String station;
-    private String stateName;
-    private String cityName;
-    private String action;
+    private static WeakReference<RailWaysSQLiteHelper> sqLiteHelperWeakReference;
+    private static String station;
+    private static String stateName;
+    private static String cityName;
+    private static String action;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,11 +46,8 @@ public class DisplayStationResultActivity extends ActivityBase {
         setContentView(R.layout.activity_display_result);
 
         final Toolbar toolbar = findViewById(R.id.my_awesome_toolbar);
+        toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
         setSupportActionBar(toolbar);
-
-        if (getSupportActionBar() != null) {
-            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        }
 
         // load ad
         loadAd();
@@ -92,45 +91,7 @@ public class DisplayStationResultActivity extends ActivityBase {
                     .replaceAll(" ", "").replaceAll("'", "''");
         }
 
-        new AsyncTask<Void, Void, Void>() {
-            LinearLayout progressLayout = (LinearLayout) findViewById(R.id.progressLayout);
-
-            @Override
-            protected void onPreExecute() {
-                // SHOW THE SPINNER WHILE LOADING FEEDS
-                progressLayout.setVisibility(View.VISIBLE);
-            }
-
-            @Override
-            protected Void doInBackground(Void... params) {
-                try {
-                    sqLiteHelper = new RailWaysSQLiteHelper(DisplayStationResultActivity.this);
-                    c = sqLiteHelper.findStations(station, stateName, cityName, action);
-                } catch (Exception ex) {
-                    Log.e("DisplayStationActivity", ex.getMessage(), ex);
-                }
-                return null;
-            }
-
-            @Override
-            protected void onPostExecute(Void result) {
-                if (c != null && c.getCount() > 0) {
-                    if (getSupportActionBar() != null) {
-                        getSupportActionBar().setTitle(c.getCount() + " Results found");
-                    }
-                    StationRecyclerViewAdapter adapter =
-                            new StationRecyclerViewAdapter(DisplayStationResultActivity.this, c);
-                    mRecyclerView.setAdapter(adapter);
-                    mRecyclerView.setVisibility(View.VISIBLE);
-                } else {
-                    LinearLayout noMatchingLt = findViewById(R.id.noMatchingLayout);
-                    noMatchingLt.setVisibility(View.VISIBLE);
-                }
-                // HIDE THE SPINNER AFTER LOADING FEEDS
-                progressLayout.setVisibility(View.GONE);
-            }
-
-        }.execute();
+        new MyAsyncTask(this).execute();
         AppRater.appLaunched(this);
     }
 
@@ -163,8 +124,8 @@ public class DisplayStationResultActivity extends ActivityBase {
 
     @Override
     public void onBackPressed() {
-        if (sqLiteHelper != null) {
-            sqLiteHelper.closeDB();
+        if (sqLiteHelperWeakReference.get() != null) {
+            sqLiteHelperWeakReference.get().closeDB();
         }
         super.onBackPressed();
         overridePendingTransition(R.anim.slide_in_left, 0);
@@ -172,8 +133,8 @@ public class DisplayStationResultActivity extends ActivityBase {
 
     @Override
     protected void onDestroy() {
-        if (sqLiteHelper != null) {
-            sqLiteHelper.closeDB();
+        if (sqLiteHelperWeakReference.get() != null) {
+            sqLiteHelperWeakReference.get().closeDB();
         }
         super.onDestroy();
         overridePendingTransition(R.anim.slide_in_left, 0);
@@ -188,5 +149,53 @@ public class DisplayStationResultActivity extends ActivityBase {
                 return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private static class MyAsyncTask extends AsyncTask<Void, Void, Cursor> {
+
+        private WeakReference<AppCompatActivity> activity;
+
+        MyAsyncTask(AppCompatActivity activityIn) {
+            activity = new WeakReference<>(activityIn);
+        }
+
+        @Override
+        protected void onPreExecute() {
+            // SHOW THE SPINNER WHILE LOADING FEEDS
+            activity.get().findViewById(R.id.progressLayout).setVisibility(View.VISIBLE);
+        }
+
+        @Override
+        protected Cursor doInBackground(Void... params) {
+            Cursor c = null;
+            try {
+                RailWaysSQLiteHelper sqLiteHelper = new RailWaysSQLiteHelper(activity.get());
+                c = sqLiteHelper.findStations(station, stateName, cityName, action);
+                sqLiteHelperWeakReference = new WeakReference<>(sqLiteHelper);
+            } catch (Exception ex) {
+                Log.e("DisplayStationActivity", ex.getMessage(), ex);
+            }
+            return c;
+        }
+
+        @Override
+        protected void onPostExecute(Cursor c) {
+            ActionBar actionBar = activity.get().getSupportActionBar();
+            if (c != null && c.getCount() > 0) {
+                if (actionBar != null) {
+                    actionBar.setTitle(c.getCount() + " Results found");
+                }
+                StationRecyclerViewAdapter adapter =
+                        new StationRecyclerViewAdapter(activity.get(), c);
+                RecyclerView mRecyclerView = activity.get().findViewById(R.id.gridView);
+                mRecyclerView.setAdapter(adapter);
+                mRecyclerView.setVisibility(View.VISIBLE);
+            } else {
+                activity.get().findViewById(R.id.noMatchingLayout).setVisibility(View.VISIBLE);
+            }
+            // HIDE THE SPINNER AFTER LOADING FEEDS
+            activity.get().findViewById(R.id.progressLayout).setVisibility(View.GONE);
+        }
+
     }
 }

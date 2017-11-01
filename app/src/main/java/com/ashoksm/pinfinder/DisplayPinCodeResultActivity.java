@@ -10,6 +10,7 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -29,33 +30,32 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 
+import java.lang.ref.WeakReference;
 import java.util.Locale;
 
 public class DisplayPinCodeResultActivity extends AppCompatActivity {
 
-    private PinSQLiteHelper sqLiteHelper;
-    private Cursor c;
-    private String stateName;
-    private String districtName;
-    private String officeName;
-    private Toolbar toolbar;
-    private boolean showFav;
-    private SharedPreferences sharedPreferences;
-    private DonutProgress progressBar;
+    private static WeakReference<PinSQLiteHelper> sqLiteHelperWeakReference;
+    private static String stateName;
+    private static String districtName;
+    private static String officeName;
+    private static boolean showFav;
+    private static SharedPreferences sharedPreferences;
+    private static DonutProgress progressBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_result);
 
-        toolbar = findViewById(R.id.my_awesome_toolbar);
+        final Toolbar toolbar = findViewById(R.id.my_awesome_toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
         setSupportActionBar(toolbar);
 
         sharedPreferences = getSharedPreferences("AllCodeFinder", Context.MODE_PRIVATE);
 
 
-        final RecyclerView mRecyclerView = findViewById(R.id.gridView);
+        RecyclerView mRecyclerView = findViewById(R.id.gridView);
 
         // use this setting to improve performance if you know that changes
         // in content do not change the layout size of the RecyclerView
@@ -122,63 +122,15 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
         AdRequest adRequest = new AdRequest.Builder().build();
         ad.loadAd(adRequest);
 
-        new AsyncTask<Void, Void, Void>() {
-            LinearLayout progressLayout = (LinearLayout) findViewById(R.id.progressLayout);
-
-            @Override
-            protected void onPreExecute() {
-                // SHOW THE SPINNER WHILE LOADING FEEDS
-                progressLayout.setVisibility(View.VISIBLE);
-                progressBar = progressLayout.findViewById(R.id.pbHeaderProgress);
-            }
-
-            @Override
-            protected Void doInBackground(Void... params) {
-                try {
-                    sqLiteHelper =
-                            new PinSQLiteHelper(DisplayPinCodeResultActivity.this, progressBar);
-                    if (!showFav) {
-                        c = sqLiteHelper.findMatchingOffices(stateName, districtName, officeName);
-                    } else {
-                        c = sqLiteHelper
-                                .findFavOffices(sharedPreferences.getString("pincodes", null));
-                    }
-                } catch (Exception ex) {
-                    Log.e(this.getClass().getName(), ex.getMessage());
-                }
-                return null;
-            }
-
-            @Override
-            protected void onPostExecute(Void result) {
-                if (c != null && c.getCount() > 0) {
-                    PinCodeRecyclerViewAdapter adapter =
-                            new PinCodeRecyclerViewAdapter(DisplayPinCodeResultActivity.this, c,
-                                    sharedPreferences, showFav);
-                    if (getSupportActionBar() != null) {
-                        getSupportActionBar().setTitle(c.getCount() + " Results found");
-                    }
-                    mRecyclerView.setAdapter(adapter);
-                    mRecyclerView.setVisibility(View.VISIBLE);
-                } else {
-                    LinearLayout noMatchingLayout =
-                            findViewById(R.id.noMatchingLayout);
-                    noMatchingLayout.setVisibility(View.VISIBLE);
-                }
-                progressBar.setProgress(100F);
-                // HIDE THE SPINNER AFTER LOADING FEEDS
-                progressLayout.setVisibility(View.GONE);
-            }
-
-        }.execute();
+        new MyAsyncTask(this).execute();
         AppRater.appLaunched(this);
     }
 
     @Override
     public void onBackPressed() {
         if (Float.floatToIntBits(progressBar.getProgress()) == Float.floatToIntBits(100F)) {
-            if (sqLiteHelper != null) {
-                sqLiteHelper.closeDB();
+            if (sqLiteHelperWeakReference.get() != null) {
+                sqLiteHelperWeakReference.get().closeDB();
             }
             super.onBackPressed();
             overridePendingTransition(R.anim.slide_in_left, 0);
@@ -187,8 +139,8 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
 
     @Override
     protected void onDestroy() {
-        if (sqLiteHelper != null) {
-            sqLiteHelper.closeDB();
+        if (sqLiteHelperWeakReference.get() != null) {
+            sqLiteHelperWeakReference.get().closeDB();
         }
         super.onDestroy();
         overridePendingTransition(R.anim.slide_in_left, 0);
@@ -205,5 +157,59 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
                 return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private static class MyAsyncTask extends AsyncTask<Void, Void, Cursor> {
+        private WeakReference<AppCompatActivity> activity;
+
+        MyAsyncTask(AppCompatActivity activityIn) {
+            this.activity = new WeakReference<>(activityIn);
+        }
+
+        @Override
+        protected void onPreExecute() {
+            // SHOW THE SPINNER WHILE LOADING FEEDS
+            activity.get().findViewById(R.id.progressLayout).setVisibility(View.VISIBLE);
+            progressBar = activity.get().findViewById(R.id.pbHeaderProgress);
+        }
+
+        @Override
+        protected Cursor doInBackground(Void... params) {
+            Cursor c = null;
+            try {
+                PinSQLiteHelper sqLiteHelper = new PinSQLiteHelper(activity.get(), progressBar);
+                sqLiteHelperWeakReference = new WeakReference<>(sqLiteHelper);
+                if (!showFav) {
+                    c = sqLiteHelper.findMatchingOffices(stateName, districtName, officeName);
+                } else {
+                    c = sqLiteHelper.findFavOffices(sharedPreferences.getString("pincodes", null));
+                }
+            } catch (Exception ex) {
+                Log.e(this.getClass().getName(), ex.getMessage());
+            }
+            return c;
+        }
+
+        @Override
+        protected void onPostExecute(Cursor c) {
+            ActionBar actionBar = activity.get().getSupportActionBar();
+            if (c != null && c.getCount() > 0) {
+                PinCodeRecyclerViewAdapter adapter =
+                        new PinCodeRecyclerViewAdapter(activity.get(), c, sharedPreferences,
+                                showFav);
+                if (actionBar != null) {
+                    actionBar.setTitle(c.getCount() + " Results found");
+                }
+                RecyclerView mRecyclerView = activity.get().findViewById(R.id.gridView);
+                mRecyclerView.setAdapter(adapter);
+                mRecyclerView.setVisibility(View.VISIBLE);
+            } else {
+                activity.get().findViewById(R.id.noMatchingLayout).setVisibility(View.VISIBLE);
+            }
+            progressBar.setProgress(100F);
+            // HIDE THE SPINNER AFTER LOADING FEEDS
+            activity.get().findViewById(R.id.progressLayout).setVisibility(View.GONE);
+        }
+
     }
 }

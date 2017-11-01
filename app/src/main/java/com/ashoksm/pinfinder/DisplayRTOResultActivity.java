@@ -10,6 +10,8 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -29,18 +31,18 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 
+import java.lang.ref.WeakReference;
 import java.util.Locale;
 
 public class DisplayRTOResultActivity extends ActivityBase {
 
-    private RTOSQLiteHelper sqLiteHelper;
-    private Cursor c;
-    private String stateName;
-    private String cityName;
-    private String action;
-    private boolean showFav;
-    private SharedPreferences sharedPref;
-    private DonutProgress progressBar;
+    private static WeakReference<RTOSQLiteHelper> sqLiteHelperWeakReference;
+    private static String stateName;
+    private static String cityName;
+    private static String action;
+    private static boolean showFav;
+    private static SharedPreferences sharedPref;
+    private static DonutProgress progressBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -118,60 +120,15 @@ public class DisplayRTOResultActivity extends ActivityBase {
         AdRequest adRequest = new AdRequest.Builder().build();
         ad.loadAd(adRequest);
 
-        new AsyncTask<Void, Void, Void>() {
-            LinearLayout progressLayout = (LinearLayout) findViewById(R.id.progressLayout);
-
-            @Override
-            protected void onPreExecute() {
-                // SHOW THE SPINNER WHILE LOADING FEEDS
-                progressLayout.setVisibility(View.VISIBLE);
-                progressBar = progressLayout.findViewById(R.id.pbHeaderProgress);
-            }
-
-            @Override
-            protected Void doInBackground(Void... params) {
-                try {
-                    sqLiteHelper = new RTOSQLiteHelper(DisplayRTOResultActivity.this, progressBar);
-                    if (showFav) {
-                        c = sqLiteHelper.findFavRTOCodes(sharedPref.getString("RTOCodes", null));
-                    } else {
-                        c = sqLiteHelper.findRTOCodes(stateName, cityName, action);
-                    }
-                } catch (Exception ex) {
-                    Log.e("DisplayRTOResult", ex.getMessage(), ex);
-                }
-                return null;
-            }
-
-            @Override
-            protected void onPostExecute(Void result) {
-                if (c != null && c.getCount() > 0) {
-                    if (getSupportActionBar() != null) {
-                        getSupportActionBar().setTitle(c.getCount() + " Results found");
-                    }
-                    RTORecyclerViewAdapter adapter =
-                            new RTORecyclerViewAdapter(DisplayRTOResultActivity.this, c,
-                                    sharedPref, showFav);
-                    mRecyclerView.setAdapter(adapter);
-                    mRecyclerView.setVisibility(View.VISIBLE);
-                } else {
-                    LinearLayout noMatchingLt = findViewById(R.id.noMatchingLayout);
-                    noMatchingLt.setVisibility(View.VISIBLE);
-                }
-                progressBar.setProgress(100F);
-                // HIDE THE SPINNER AFTER LOADING FEEDS
-                progressLayout.setVisibility(View.GONE);
-            }
-
-        }.execute();
+        new MyAsyncTask(this).execute();
         AppRater.appLaunched(this);
     }
 
     @Override
     public void onBackPressed() {
         if (Float.floatToIntBits(progressBar.getProgress()) == Float.floatToIntBits(100F)) {
-            if (sqLiteHelper != null) {
-                sqLiteHelper.closeDB();
+            if (sqLiteHelperWeakReference.get() != null) {
+                sqLiteHelperWeakReference.get().closeDB();
             }
             super.onBackPressed();
             overridePendingTransition(R.anim.slide_in_left, 0);
@@ -180,8 +137,8 @@ public class DisplayRTOResultActivity extends ActivityBase {
 
     @Override
     protected void onDestroy() {
-        if (sqLiteHelper != null) {
-            sqLiteHelper.closeDB();
+        if (sqLiteHelperWeakReference.get() != null) {
+            sqLiteHelperWeakReference.get().closeDB();
         }
         super.onDestroy();
         overridePendingTransition(R.anim.slide_in_left, 0);
@@ -198,5 +155,60 @@ public class DisplayRTOResultActivity extends ActivityBase {
                 return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private static class MyAsyncTask extends AsyncTask<Void, Void, Cursor> {
+
+        private WeakReference<AppCompatActivity> activity;
+
+        MyAsyncTask(AppCompatActivity activityIn) {
+            this.activity = new WeakReference<>(activityIn);
+        }
+
+        @Override
+        protected void onPreExecute() {
+            // SHOW THE SPINNER WHILE LOADING FEEDS
+            activity.get().findViewById(R.id.progressLayout).setVisibility(View.VISIBLE);
+            progressBar = activity.get().findViewById(R.id.progressLayout)
+                    .findViewById(R.id.pbHeaderProgress);
+        }
+
+        @Override
+        protected Cursor doInBackground(Void... params) {
+            Cursor c = null;
+            try {
+                RTOSQLiteHelper sqLiteHelper = new RTOSQLiteHelper(activity.get(), progressBar);
+                sqLiteHelperWeakReference = new WeakReference<>(sqLiteHelper);
+                if (showFav) {
+                    c = sqLiteHelper.findFavRTOCodes(sharedPref.getString("RTOCodes", null));
+                } else {
+                    c = sqLiteHelper.findRTOCodes(stateName, cityName, action);
+                }
+            } catch (Exception ex) {
+                Log.e("DisplayRTOResult", ex.getMessage(), ex);
+            }
+            return c;
+        }
+
+        @Override
+        protected void onPostExecute(Cursor c) {
+            ActionBar actionBar = activity.get().getSupportActionBar();
+            if (c != null && c.getCount() > 0) {
+                if (actionBar != null) {
+                    actionBar.setTitle(c.getCount() + " Results found");
+                }
+                RTORecyclerViewAdapter adapter =
+                        new RTORecyclerViewAdapter(activity.get(), c, sharedPref, showFav);
+                RecyclerView mRecyclerView = activity.get().findViewById(R.id.gridView);
+                mRecyclerView.setAdapter(adapter);
+                mRecyclerView.setVisibility(View.VISIBLE);
+            } else {
+                activity.get().findViewById(R.id.noMatchingLayout).setVisibility(View.VISIBLE);
+            }
+            progressBar.setProgress(100F);
+            // HIDE THE SPINNER AFTER LOADING FEEDS
+            activity.get().findViewById(R.id.progressLayout).setVisibility(View.GONE);
+        }
+
     }
 }

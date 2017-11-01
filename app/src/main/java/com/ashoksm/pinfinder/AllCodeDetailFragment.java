@@ -8,6 +8,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -32,22 +33,12 @@ import com.ashoksm.pinfinder.sqlite.STDSQLiteHelper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
 import com.github.lzyzsd.circleprogress.DonutProgress;
 
+import java.lang.ref.WeakReference;
+
 public class AllCodeDetailFragment extends Fragment {
 
-    private PinSQLiteHelper sqLiteHelper;
-    private BankSQLiteHelper bSQLiteHelper;
-    private STDSQLiteHelper stdsqLiteHelper;
-    private RTOSQLiteHelper rtosqLiteHelper;
-    private RailWaysSQLiteHelper railSQLiteHelper;
-    private SharedPreferences sharedPref;
-    private String officeName;
-    private String action;
-    private String branchName;
-    private String cityName;
-    private Cursor c;
-    private String station;
-    private String trainNo;
-    private CursorRecyclerViewAdapter adapter;
+    private static SharedPreferences sharedPref;
+
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -86,101 +77,125 @@ public class AllCodeDetailFragment extends Fragment {
         // use a linear layout manager
         LinearLayoutManager mLayoutManager = new LinearLayoutManager(v.getContext());
         mRecyclerView.setLayoutManager(mLayoutManager);
-        action = getArguments().getString(IFSCFragment.EXTRA_ACTION);
-        if (action != null && action.length() == 0) {
-            String offName = getArguments().getString(PincodeFragment.EXTRA_OFFICE);
-            if (offName != null) {
-                officeName = offName.toLowerCase().replaceAll(" ", "").replaceAll("'", "''");
+
+
+        new MyAsyncTask(getActivity(), getArguments()).execute();
+        return v;
+    }
+
+    private static class MyAsyncTask extends AsyncTask<Void, Void, Cursor> {
+        private WeakReference<View> progressLayout;
+        private WeakReference<View> progressBar;
+        private WeakReference<FragmentActivity> activity;
+        private String officeName;
+        private String action;
+        private String branchName;
+        private String cityName;
+        private String station;
+        private String trainNo;
+
+        MyAsyncTask(FragmentActivity activityIn, Bundle argumentsIn) {
+            progressLayout = new WeakReference<>(activityIn.findViewById(R.id.progressLayout));
+            activity = new WeakReference<>(activityIn);
+            action = argumentsIn.getString(IFSCFragment.EXTRA_ACTION);
+            if (action != null && action.length() == 0) {
+                String offName = argumentsIn.getString(PincodeFragment.EXTRA_OFFICE);
+                if (offName != null) {
+                    officeName = offName.toLowerCase().replaceAll(" ", "").replaceAll("'", "''");
+                }
+            } else if ("STD".equalsIgnoreCase(action) || "RTO".equalsIgnoreCase(action)) {
+                cityName = argumentsIn.getString(STDFragment.EXTRA_CITY);
+            } else if ("RAIL".equalsIgnoreCase(action)) {
+                String stn = argumentsIn.getString(StationsFragment.EXTRA_STATION);
+                if (stn != null) {
+                    station = stn.replaceAll("'", "''").toLowerCase();
+                }
+            } else if ("TRAIN".equalsIgnoreCase(action)) {
+                trainNo = argumentsIn.getString(TrainsFragment.EXTRA_TRAIN);
+                station = argumentsIn.getString(TrainsFragment.EXTRA_STARTS);
+            } else {
+                branchName = argumentsIn.getString(IFSCFragment.EXTRA_BRANCH);
             }
-        } else if ("STD".equalsIgnoreCase(action) || "RTO".equalsIgnoreCase(action)) {
-            cityName = getArguments().getString(STDFragment.EXTRA_CITY);
-        } else if ("RAIL".equalsIgnoreCase(action)) {
-            String stn = getArguments().getString(StationsFragment.EXTRA_STATION);
-            if (stn != null) {
-                station = stn.replaceAll("'", "''").toLowerCase();
-            }
-        } else if ("TRAIN".equalsIgnoreCase(action)) {
-            trainNo = getArguments().getString(TrainsFragment.EXTRA_TRAIN);
-            station = getArguments().getString(TrainsFragment.EXTRA_STARTS);
-        } else {
-            branchName = getArguments().getString(IFSCFragment.EXTRA_BRANCH);
         }
 
-        new AsyncTask<Void, Void, Void>() {
-            LinearLayout progressLayout = (LinearLayout) v.findViewById(R.id.progressLayout);
-            DonutProgress progressBar;
+        @Override
+        protected void onPreExecute() {
+            // SHOW THE SPINNER WHILE LOADING FEEDS
+            progressLayout.get().setVisibility(View.VISIBLE);
+            progressBar =
+                    new WeakReference<>(progressLayout.get().findViewById(R.id.pbHeaderProgress));
+        }
 
-            @Override
-            protected void onPreExecute() {
-                // SHOW THE SPINNER WHILE LOADING FEEDS
-                progressLayout.setVisibility(View.VISIBLE);
-                progressBar = progressLayout.findViewById(R.id.pbHeaderProgress);
-            }
-
-            @Override
-            protected Void doInBackground(Void... params) {
-                try {
-                    if (action != null && action.length() == 0) {
-                        sqLiteHelper = new PinSQLiteHelper(getActivity(), progressBar);
-                        c = sqLiteHelper.findMatchingOffices("", "", officeName);
-                    } else if ("STD".equalsIgnoreCase(action)) {
-                        stdsqLiteHelper = new STDSQLiteHelper(getActivity(), progressBar);
-                        c = stdsqLiteHelper.findSTDCodes("", cityName.toLowerCase(), action);
-                    } else if ("RTO".equalsIgnoreCase(action)) {
-                        rtosqLiteHelper = new RTOSQLiteHelper(getActivity(), progressBar);
-                        c = rtosqLiteHelper.findRTOCodes("", cityName.toLowerCase(), action);
-                    } else if ("RAIL".equalsIgnoreCase(action)) {
-                        railSQLiteHelper = new RailWaysSQLiteHelper(getActivity());
-                        c = railSQLiteHelper.findStations(station, "", "", action);
-                    } else if ("TRAIN".equalsIgnoreCase(action)) {
-                        railSQLiteHelper = new RailWaysSQLiteHelper(getActivity());
-                        if (trainNo.length() > 0) {
-                            c = railSQLiteHelper.findTrainsByNoOrName(trainNo.replaceAll("'",
-                                    "''"));
-                        } else {
-                            c = railSQLiteHelper.findTrainsByStation(station.replaceAll("'",
-                                    "''"), "");
-                        }
+        @Override
+        protected Cursor doInBackground(Void... params) {
+            Cursor c = null;
+            try {
+                RailWaysSQLiteHelper railSQLiteHelper;
+                if (action != null && action.length() == 0) {
+                    PinSQLiteHelper sqLiteHelper =
+                            new PinSQLiteHelper(activity.get(), (DonutProgress) progressBar.get());
+                    c = sqLiteHelper.findMatchingOffices("", "", officeName);
+                } else if ("STD".equalsIgnoreCase(action)) {
+                    STDSQLiteHelper stdsqLiteHelper =
+                            new STDSQLiteHelper(activity.get(), (DonutProgress) progressBar.get());
+                    c = stdsqLiteHelper.findSTDCodes("", cityName.toLowerCase(), action);
+                } else if ("RTO".equalsIgnoreCase(action)) {
+                    RTOSQLiteHelper rtosqLiteHelper =
+                            new RTOSQLiteHelper(activity.get(), (DonutProgress) progressBar.get());
+                    c = rtosqLiteHelper.findRTOCodes("", cityName.toLowerCase(), action);
+                } else if ("RAIL".equalsIgnoreCase(action)) {
+                    railSQLiteHelper = new RailWaysSQLiteHelper(activity.get());
+                    c = railSQLiteHelper.findStations(station, "", "", action);
+                } else if ("TRAIN".equalsIgnoreCase(action)) {
+                    railSQLiteHelper = new RailWaysSQLiteHelper(activity.get());
+                    if (trainNo.length() > 0) {
+                        c = railSQLiteHelper.findTrainsByNoOrName(trainNo.replaceAll("'",
+                                "''"));
                     } else {
-                        bSQLiteHelper = new BankSQLiteHelper(getActivity(), progressBar);
-                        c = bSQLiteHelper.findIfscCodes("", "", "", branchName.toLowerCase(),
-                                action);
+                        c = railSQLiteHelper.findTrainsByStation(station.replaceAll("'",
+                                "''"), "");
                     }
-                } catch (Exception ex) {
-                    Log.e(this.getClass().getName(), ex.getMessage());
-                }
-                return null;
-            }
-
-            @Override
-            protected void onPostExecute(Void result) {
-                if (c != null && c.getCount() > 0) {
-                    if (action != null && action.length() == 0) {
-                        adapter = new PinCodeRecyclerViewAdapter(getActivity(), c, sharedPref,
-                                false);
-                    } else if ("STD".equalsIgnoreCase(action)) {
-                        adapter = new STDRecyclerViewAdapter(getActivity(), c, sharedPref, false);
-                    } else if ("RTO".equalsIgnoreCase(action)) {
-                        adapter = new RTORecyclerViewAdapter(getActivity(), c, sharedPref, false);
-                    } else if ("RAIL".equalsIgnoreCase(action)) {
-                        adapter = new StationRecyclerViewAdapter(getActivity(), c);
-                    } else if ("TRAIN".equalsIgnoreCase(action)) {
-                        adapter = new TrainRecyclerViewAdapter(getActivity(), c);
-                    } else {
-                        adapter = new IFSCRecyclerViewAdapter(getActivity(), c, "", sharedPref,
-                                false);
-                    }
-                    mRecyclerView.setAdapter(adapter);
-                    mRecyclerView.setVisibility(View.VISIBLE);
                 } else {
-                    LinearLayout noMatchingLayout = v.findViewById(R.id.noMatchingLayout);
-                    noMatchingLayout.setVisibility(View.VISIBLE);
+                    BankSQLiteHelper bSQLiteHelper =
+                            new BankSQLiteHelper(activity.get(), (DonutProgress) progressBar.get());
+                    c = bSQLiteHelper.findIfscCodes("", "", "", branchName.toLowerCase(),
+                            action);
                 }
-                // HIDE THE SPINNER AFTER LOADING FEEDS
-                progressLayout.setVisibility(View.GONE);
+            } catch (Exception ex) {
+                Log.e(this.getClass().getName(), ex.getMessage());
             }
+            return c;
+        }
 
-        }.execute();
-        return v;
+        @Override
+        protected void onPostExecute(Cursor c) {
+            if (c != null && c.getCount() > 0) {
+                CursorRecyclerViewAdapter adapter;
+                if (action != null && action.length() == 0) {
+                    adapter = new PinCodeRecyclerViewAdapter(activity.get(), c, sharedPref,
+                            false);
+                } else if ("STD".equalsIgnoreCase(action)) {
+                    adapter = new STDRecyclerViewAdapter(activity.get(), c, sharedPref, false);
+                } else if ("RTO".equalsIgnoreCase(action)) {
+                    adapter = new RTORecyclerViewAdapter(activity.get(), c, sharedPref, false);
+                } else if ("RAIL".equalsIgnoreCase(action)) {
+                    adapter = new StationRecyclerViewAdapter(activity.get(), c);
+                } else if ("TRAIN".equalsIgnoreCase(action)) {
+                    adapter = new TrainRecyclerViewAdapter(activity.get(), c);
+                } else {
+                    adapter = new IFSCRecyclerViewAdapter(activity.get(), c, "", sharedPref,
+                            false);
+                }
+                RecyclerView mRecyclerView = activity.get().findViewById(R.id.gridView);
+                mRecyclerView.setAdapter(adapter);
+                mRecyclerView.setVisibility(View.VISIBLE);
+            } else {
+                LinearLayout noMatchingLayout = activity.get().findViewById(R.id.noMatchingLayout);
+                noMatchingLayout.setVisibility(View.VISIBLE);
+            }
+            // HIDE THE SPINNER AFTER LOADING FEEDS
+            progressLayout.get().setVisibility(View.GONE);
+        }
+
     }
 }

@@ -21,14 +21,16 @@ import android.widget.TextView;
 
 import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
 
+import java.lang.ref.WeakReference;
+
 public class StationsFragment extends Fragment {
 
+    public static final String EXTRA_STATE = "com.ashoksm.offlinepinfinder.STATE";
+    public static final String EXTRA_CITY = "com.ashoksm.offlinepinfinder.CITY";
+    public static final String EXTRA_STATION = "com.ashoksm.offlinepinfinder.STATION";
     private AutoCompleteTextView station;
     private AutoCompleteTextView state;
     private AutoCompleteTextView city;
-    public final static String EXTRA_STATE = "com.ashoksm.offlinepinfinder.STATE";
-    public final static String EXTRA_CITY = "com.ashoksm.offlinepinfinder.CITY";
-    public final static String EXTRA_STATION = "com.ashoksm.offlinepinfinder.STATION";
 
     @Nullable
     @Override
@@ -41,36 +43,7 @@ public class StationsFragment extends Fragment {
         city = v.findViewById(R.id.stations_city);
         Button btnSubmit = v.findViewById(R.id.station_search);
 
-        new AsyncTask<Void, Void, Void>() {
-
-            RailWaysSQLiteHelper sqLiteHelper = new RailWaysSQLiteHelper(getActivity());
-            String[] stationCodes;
-            String[] states;
-            String[] cities;
-
-            @Override
-            protected Void doInBackground(Void... params) {
-                stationCodes = sqLiteHelper.getStationCodes();
-                states = sqLiteHelper.getStates();
-                cities = sqLiteHelper.getCities();
-                return null;
-            }
-
-            @Override
-            protected void onPostExecute(Void result) {
-                if (getContext() != null) {
-                    ArrayAdapter<String> stationAdapter = new ArrayAdapter<>(getContext(),
-                            R.layout.spinner_dropdown_item, stationCodes);
-                    ArrayAdapter<String> stateAdapter = new ArrayAdapter<>(getContext(),
-                            R.layout.spinner_dropdown_item, states);
-                    ArrayAdapter<String> cityAdapter = new ArrayAdapter<>(getContext(),
-                            R.layout.spinner_dropdown_item, cities);
-                    station.setAdapter(stationAdapter);
-                    state.setAdapter(stateAdapter);
-                    city.setAdapter(cityAdapter);
-                }
-            }
-        }.execute();
+        new MyAsyncTask(this).execute();
 
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -112,10 +85,10 @@ public class StationsFragment extends Fragment {
 
     private void performSearch(Activity context) {
         // hide keyboard
-        if (getView() != null) {
-            InputMethodManager inputMethodManager =
-                    (InputMethodManager) getContext().getSystemService(Context
-                            .INPUT_METHOD_SERVICE);
+        InputMethodManager inputMethodManager =
+                (InputMethodManager) getContext().getSystemService(Context
+                        .INPUT_METHOD_SERVICE);
+        if (inputMethodManager != null && getView() != null) {
             inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
                     InputMethodManager.HIDE_NOT_ALWAYS);
         }
@@ -137,4 +110,49 @@ public class StationsFragment extends Fragment {
         context.overridePendingTransition(R.anim.slide_out_left, 0);
     }
 
+    private static class MyAsyncTask extends AsyncTask<Void, Void, Void> {
+
+        String[] stationCodes;
+        String[] states;
+        String[] cities;
+
+        private WeakReference<Fragment> fragment;
+
+        public MyAsyncTask(Fragment fragmentIn) {
+            fragment = new WeakReference<>(fragmentIn);
+        }
+
+        @Override
+        protected Void doInBackground(Void... params) {
+            RailWaysSQLiteHelper sqLiteHelper =
+                    new RailWaysSQLiteHelper(fragment.get().getActivity());
+            stationCodes = sqLiteHelper.getStationCodes();
+            states = sqLiteHelper.getStates();
+            cities = sqLiteHelper.getCities();
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void result) {
+            if (fragment.get().getContext() != null) {
+                AutoCompleteTextView station =
+                        fragment.get().getActivity().findViewById(R.id.station);
+                AutoCompleteTextView state =
+                        fragment.get().getActivity().findViewById(R.id.stations_state);
+                AutoCompleteTextView city =
+                        fragment.get().getActivity().findViewById(R.id.stations_city);
+
+                ArrayAdapter<String> stationAdapter =
+                        new ArrayAdapter<>(fragment.get().getContext(),
+                                R.layout.spinner_dropdown_item, stationCodes);
+                ArrayAdapter<String> stateAdapter = new ArrayAdapter<>(fragment.get().getContext(),
+                        R.layout.spinner_dropdown_item, states);
+                ArrayAdapter<String> cityAdapter = new ArrayAdapter<>(fragment.get().getContext(),
+                        R.layout.spinner_dropdown_item, cities);
+                station.setAdapter(stationAdapter);
+                state.setAdapter(stateAdapter);
+                city.setAdapter(cityAdapter);
+            }
+        }
+    }
 }
