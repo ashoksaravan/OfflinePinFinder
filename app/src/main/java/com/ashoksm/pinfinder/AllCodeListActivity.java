@@ -23,10 +23,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.ashoksm.pinfinder.adapter.CursorRecyclerViewAdapter;
+import com.ashoksm.pinfinder.common.AdService;
 import com.ashoksm.pinfinder.common.activities.ActivityBase;
 import com.ashoksm.pinfinder.sqlite.BankSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.PinSQLiteHelper;
@@ -35,10 +35,6 @@ import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
 import com.ashoksm.pinfinder.sqlite.STDSQLiteHelper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
 import com.github.lzyzsd.circleprogress.DonutProgress;
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdSize;
-import com.google.android.gms.ads.AdView;
 
 import java.lang.ref.WeakReference;
 import java.util.regex.Pattern;
@@ -61,7 +57,7 @@ public class AllCodeListActivity extends ActivityBase {
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         }
 
-        loadAd();
+        AdService.loadBannerAd(this);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
@@ -96,33 +92,6 @@ public class AllCodeListActivity extends ActivityBase {
     private boolean isXLargeScreen(Context context) {
         return (context.getResources().getConfiguration().screenLayout & Configuration
                 .SCREENLAYOUT_SIZE_MASK) >= Configuration.SCREENLAYOUT_SIZE_LARGE;
-    }
-
-    private void loadAd() {
-        final LinearLayout adParent = this.findViewById(R.id.ad);
-        final AdView ad = new AdView(this);
-        ad.setAdUnitId(getString(R.string.admob_id));
-        ad.setAdSize(AdSize.SMART_BANNER);
-
-        final AdListener listener = new AdListener() {
-            @Override
-            public void onAdLoaded() {
-                adParent.setVisibility(View.VISIBLE);
-                super.onAdLoaded();
-            }
-
-            @Override
-            public void onAdFailedToLoad(int errorCode) {
-                adParent.setVisibility(View.GONE);
-                super.onAdFailedToLoad(errorCode);
-            }
-        };
-
-        ad.setAdListener(listener);
-
-        adParent.addView(ad);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        ad.loadAd(adRequest);
     }
 
     private static class MyAsyncTask extends AsyncTask<Void, Void, AllCodeViewAdapter> {

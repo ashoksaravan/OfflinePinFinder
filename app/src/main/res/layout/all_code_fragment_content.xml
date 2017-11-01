@@ -8,7 +8,7 @@
         android:id="@+id/progressLayout"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_above="@+id/adLayout"
+        android:layout_above="@+id/ad"
         android:gravity="center"
         android:orientation="vertical"
         android:visibility="gone">
@@ -34,7 +34,7 @@
         android:id="@+id/noMatchingLayout"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_above="@+id/adLayout"
+        android:layout_above="@+id/ad"
         android:gravity="center"
         android:orientation="vertical"
         android:visibility="gone">
@@ -54,7 +54,7 @@
         android:id="@+id/gridView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/adLayout"
+        android:layout_above="@+id/ad"
         android:clipToPadding="false"
         android:paddingBottom="5dp"
         android:scrollbarThumbVertical="@drawable/scroll_bar"
@@ -62,7 +62,7 @@
         android:visibility="gone"/>
 
     <LinearLayout
-        android:id="@+id/adLayout"
+        android:id="@+id/ad"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

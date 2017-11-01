@@ -31,16 +31,14 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.LinearLayout;
 import android.widget.Toast;
 
+import com.ashoksm.pinfinder.common.AdService;
 import com.ashoksm.pinfinder.common.activities.ActivityBase;
 import com.github.clans.fab.FloatingActionButton;
 import com.github.clans.fab.FloatingActionMenu;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdSize;
-import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 
 public class MainActivity extends ActivityBase {
@@ -148,11 +146,9 @@ public class MainActivity extends ActivityBase {
     }
 
     private void addFloatingButton() {
-        final FloatingActionMenu actionMenu =
-                findViewById(R.id.floatingActionMenu);
+        final FloatingActionMenu actionMenu = findViewById(R.id.floatingActionMenu);
 
-        FloatingActionButton pincodeButton =
-                findViewById(R.id.floating_pincode);
+        FloatingActionButton pincodeButton = findViewById(R.id.floating_pincode);
         pincodeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -162,8 +158,7 @@ public class MainActivity extends ActivityBase {
             }
         });
 
-        FloatingActionButton ifscButton =
-                findViewById(R.id.floating_ifsc);
+        FloatingActionButton ifscButton = findViewById(R.id.floating_ifsc);
         ifscButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -173,8 +168,7 @@ public class MainActivity extends ActivityBase {
             }
         });
 
-        FloatingActionButton stdButton =
-                findViewById(R.id.floating_std);
+        FloatingActionButton stdButton = findViewById(R.id.floating_std);
         stdButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -184,8 +178,7 @@ public class MainActivity extends ActivityBase {
             }
         });
 
-        FloatingActionButton rtoButton =
-                findViewById(R.id.floating_rto);
+        FloatingActionButton rtoButton = findViewById(R.id.floating_rto);
         rtoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -198,32 +191,10 @@ public class MainActivity extends ActivityBase {
     }
 
     private void loadAd() {
-        final LinearLayout adParent = this.findViewById(R.id.ad);
-        final AdView ad = new AdView(this);
-        ad.setAdUnitId(getString(R.string.admob_id));
-        ad.setAdSize(AdSize.SMART_BANNER);
+        // load banner ad
+        AdService.loadBannerAd(this);
 
-        final AdListener listener = new AdListener() {
-            @Override
-            public void onAdLoaded() {
-                adParent.setVisibility(View.VISIBLE);
-                super.onAdLoaded();
-            }
-
-            @Override
-            public void onAdFailedToLoad(int errorCode) {
-                adParent.setVisibility(View.GONE);
-                super.onAdFailedToLoad(errorCode);
-            }
-        };
-
-        ad.setAdListener(listener);
-
-        adParent.addView(ad);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        ad.loadAd(adRequest);
-
-        //load ad
+        //load Interstitial ad
         mInterstitialAd = newInterstitialAd();
         loadInterstitial();
     }

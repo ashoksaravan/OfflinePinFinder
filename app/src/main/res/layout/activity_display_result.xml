@@ -14,7 +14,7 @@
             android:id="@+id/progressLayout"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_above="@+id/adLayout"
+            android:layout_above="@+id/ad"
             android:gravity="center"
             android:orientation="vertical"
             android:visibility="gone">
@@ -32,7 +32,7 @@
             android:id="@+id/noMatchingLayout"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_above="@+id/adLayout"
+            android:layout_above="@+id/ad"
             android:gravity="center"
             android:orientation="vertical"
             android:visibility="gone">
@@ -52,17 +52,17 @@
             android:id="@+id/gridView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_above="@+id/adLayout"
+            android:layout_above="@+id/ad"
             android:clipToPadding="false"
+            android:layoutAnimation="@anim/layout_animation_slide_right"
             android:paddingBottom="5dp"
             android:paddingTop="?attr/actionBarSize"
             android:scrollbarThumbVertical="@drawable/scroll_bar"
             android:scrollbars="vertical"
-            android:layoutAnimation="@anim/layout_animation_slide_right"
             android:visibility="gone"/>
 
         <LinearLayout
-            android:id="@+id/adLayout"
+            android:id="@+id/ad"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"

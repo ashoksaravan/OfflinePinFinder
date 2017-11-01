@@ -18,17 +18,13 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.LinearLayout;
 
 import com.ashoksm.pinfinder.adapter.PinCodeRecyclerViewAdapter;
+import com.ashoksm.pinfinder.common.AdService;
 import com.ashoksm.pinfinder.common.AppRater;
 import com.ashoksm.pinfinder.sqlite.PinSQLiteHelper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
 import com.github.lzyzsd.circleprogress.DonutProgress;
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdSize;
-import com.google.android.gms.ads.AdView;
 
 import java.lang.ref.WeakReference;
 import java.util.Locale;
@@ -51,6 +47,9 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
         final Toolbar toolbar = findViewById(R.id.my_awesome_toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
         setSupportActionBar(toolbar);
+
+        // load ad
+        AdService.loadBannerAd(this);
 
         sharedPreferences = getSharedPreferences("AllCodeFinder", Context.MODE_PRIVATE);
 
@@ -95,32 +94,6 @@ public class DisplayPinCodeResultActivity extends AppCompatActivity {
                     .replaceAll(" ", "")
                     .replaceAll("'", "''");
         }
-
-        // load ad
-        final LinearLayout adParent = this.findViewById(R.id.adLayout);
-        final AdView ad = new AdView(this);
-        ad.setAdUnitId(getString(R.string.admob_id));
-        ad.setAdSize(AdSize.SMART_BANNER);
-
-        final AdListener listener = new AdListener() {
-            @Override
-            public void onAdLoaded() {
-                adParent.setVisibility(View.VISIBLE);
-                super.onAdLoaded();
-            }
-
-            @Override
-            public void onAdFailedToLoad(int errorCode) {
-                adParent.setVisibility(View.GONE);
-                super.onAdFailedToLoad(errorCode);
-            }
-        };
-
-        ad.setAdListener(listener);
-
-        adParent.addView(ad);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        ad.loadAd(adRequest);
 
         new MyAsyncTask(this).execute();
         AppRater.appLaunched(this);

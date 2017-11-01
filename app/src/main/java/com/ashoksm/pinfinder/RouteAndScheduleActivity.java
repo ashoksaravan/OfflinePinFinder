@@ -16,18 +16,14 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.ashoksm.pinfinder.adapter.RouteAndScheduleAdapter;
+import com.ashoksm.pinfinder.common.AdService;
 import com.ashoksm.pinfinder.common.AppRater;
 import com.ashoksm.pinfinder.common.activities.ActivityBase;
 import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
 import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration;
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdSize;
-import com.google.android.gms.ads.AdView;
 
 import java.lang.ref.WeakReference;
 
@@ -46,7 +42,7 @@ public class RouteAndScheduleActivity extends ActivityBase {
         setSupportActionBar(toolbar);
 
         // load ad
-        loadAd();
+        AdService.loadBannerAd(this);
 
         final RecyclerView mRecyclerView = findViewById(R.id.gridView);
 
@@ -87,33 +83,6 @@ public class RouteAndScheduleActivity extends ActivityBase {
             Toast.makeText(this, "Use Landscape for better experience", Toast.LENGTH_LONG).show();
         }
         AppRater.appLaunched(this);
-    }
-
-    private void loadAd() {
-        final LinearLayout adParent = this.findViewById(R.id.adLayout);
-        final AdView ad = new AdView(this);
-        ad.setAdUnitId(getString(R.string.admob_id));
-        ad.setAdSize(AdSize.SMART_BANNER);
-
-        final AdListener listener = new AdListener() {
-            @Override
-            public void onAdLoaded() {
-                adParent.setVisibility(View.VISIBLE);
-                super.onAdLoaded();
-            }
-
-            @Override
-            public void onAdFailedToLoad(int errorCode) {
-                adParent.setVisibility(View.GONE);
-                super.onAdFailedToLoad(errorCode);
-            }
-        };
-
-        ad.setAdListener(listener);
-
-        adParent.addView(ad);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        ad.loadAd(adRequest);
     }
 
     @Override

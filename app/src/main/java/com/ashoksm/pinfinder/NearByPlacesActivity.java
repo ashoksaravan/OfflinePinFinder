@@ -14,16 +14,11 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.view.View;
-import android.widget.LinearLayout;
 import android.widget.Toast;
 
+import com.ashoksm.pinfinder.common.AdService;
 import com.ashoksm.pinfinder.common.PlaceJSONParser;
 import com.ashoksm.pinfinder.common.activities.ActivityBase;
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdSize;
-import com.google.android.gms.ads.AdView;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -115,7 +110,8 @@ public class NearByPlacesActivity extends ActivityBase implements LocationListen
         toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
         setSupportActionBar(toolbar);
 
-        loadAd();
+        // load ad
+        AdService.loadBannerAd(this);
 
         // Getting Google Play availability status
         GoogleApiAvailability googleApiAvailability = GoogleApiAvailability.getInstance();
@@ -276,33 +272,6 @@ public class NearByPlacesActivity extends ActivityBase implements LocationListen
             }
         }
         return bestLocation;
-    }
-
-    private void loadAd() {
-        final LinearLayout adParent = this.findViewById(R.id.adLayout);
-        final AdView ad = new AdView(this);
-        ad.setAdUnitId(getString(R.string.admob_id));
-        ad.setAdSize(AdSize.SMART_BANNER);
-
-        final AdListener listener = new AdListener() {
-            @Override
-            public void onAdLoaded() {
-                adParent.setVisibility(View.VISIBLE);
-                super.onAdLoaded();
-            }
-
-            @Override
-            public void onAdFailedToLoad(int errorCode) {
-                adParent.setVisibility(View.GONE);
-                super.onAdFailedToLoad(errorCode);
-            }
-        };
-
-        ad.setAdListener(listener);
-
-        adParent.addView(ad);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        ad.loadAd(adRequest);
     }
 
     /**
