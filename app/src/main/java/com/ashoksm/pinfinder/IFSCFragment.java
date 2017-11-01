@@ -5,17 +5,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.EditorInfo;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.Locale;
@@ -50,72 +47,57 @@ public class IFSCFragment extends Fragment {
         bankNameSpinner.setAdapter(adapter);
 
         // add listener
-        bankNameSpinner.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                stateNameTextView.setText("");
-                districtNameTextView.setText("");
-                branchName.setText("");
-                Locale l = Locale.getDefault();
-                String bankName = parent.getItemAtPosition(position).toString();
-                String resourceName = bankName.toLowerCase(l).replace('.', ' ').replace('(', ' ')
-                        .replace(')', ' ').replace('&', ' ').replaceAll(" ", "")
-                        .replaceAll("-", "_") + "_states";
-                int bankId = getActivity().getResources()
-                        .getIdentifier(resourceName, "array", getActivity().getPackageName());
-                if (bankId != 0) {
-                    ArrayAdapter<CharSequence> stateAdapter =
-                            ArrayAdapter.createFromResource(getActivity(), bankId,
-                                    R.layout.spinner_dropdown_item);
-                    // Apply the adapter to the spinner
-                    stateNameTextView.setAdapter(stateAdapter);
-                }
+        bankNameSpinner.setOnItemClickListener((parent, view, position, id) -> {
+            stateNameTextView.setText("");
+            districtNameTextView.setText("");
+            branchName.setText("");
+            Locale l = Locale.getDefault();
+            String bankName = parent.getItemAtPosition(position).toString();
+            String resourceName = bankName.toLowerCase(l).replace('.', ' ').replace('(', ' ')
+                    .replace(')', ' ').replace('&', ' ').replaceAll(" ", "")
+                    .replaceAll("-", "_") + "_states";
+            int bankId = getActivity().getResources()
+                    .getIdentifier(resourceName, "array", getActivity().getPackageName());
+            if (bankId != 0) {
+                ArrayAdapter<CharSequence> stateAdapter =
+                        ArrayAdapter.createFromResource(getActivity(), bankId,
+                                R.layout.spinner_dropdown_item);
+                // Apply the adapter to the spinner
+                stateNameTextView.setAdapter(stateAdapter);
             }
         });
 
-        stateNameTextView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                districtNameTextView.setText("");
-                branchName.setText("");
-                Locale l = Locale.getDefault();
-                String bankName = bankNameSpinner.getText().toString();
-                String stateName = stateNameTextView.getText().toString();
-                String resourceName = bankName.toLowerCase(l).replace('.', ' ').replace('(', ' ')
-                        .replace(')', ' ').replace('&', ' ').replaceAll(" ", "")
-                        .replaceAll("-", "_") + "_" + stateName.toLowerCase(l)
-                        .replace('.', ' ').replace('(', ' ').replace(')', ' ')
-                        .replaceAll(" ", "").replaceAll("-", "_") + "_districts";
-                int bankId = getActivity().getResources()
-                        .getIdentifier(resourceName, "array", getActivity().getPackageName());
-                if (bankId != 0) {
-                    ArrayAdapter<CharSequence> districtAdapter =
-                            ArrayAdapter.createFromResource(getActivity(), bankId,
-                                    R.layout.spinner_dropdown_item);
-                    // Apply the adapter to the spinner
-                    districtNameTextView.setAdapter(districtAdapter);
-                }
+        stateNameTextView.setOnItemClickListener((parent, view, position, id) -> {
+            districtNameTextView.setText("");
+            branchName.setText("");
+            Locale l = Locale.getDefault();
+            String bankName = bankNameSpinner.getText().toString();
+            String stateName = stateNameTextView.getText().toString();
+            String resourceName = bankName.toLowerCase(l).replace('.', ' ').replace('(', ' ')
+                    .replace(')', ' ').replace('&', ' ').replaceAll(" ", "")
+                    .replaceAll("-", "_") + "_" + stateName.toLowerCase(l)
+                    .replace('.', ' ').replace('(', ' ').replace(')', ' ')
+                    .replaceAll(" ", "").replaceAll("-", "_") + "_districts";
+            int bankId = getActivity().getResources()
+                    .getIdentifier(resourceName, "array", getActivity().getPackageName());
+            if (bankId != 0) {
+                ArrayAdapter<CharSequence> districtAdapter =
+                        ArrayAdapter.createFromResource(getActivity(), bankId,
+                                R.layout.spinner_dropdown_item);
+                // Apply the adapter to the spinner
+                districtNameTextView.setAdapter(districtAdapter);
             }
         });
 
         Button btnSubmit = v.findViewById(R.id.ifscSearch);
-        btnSubmit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        btnSubmit.setOnClickListener(v12 -> performSearch(getActivity()));
+
+        branchName.setOnEditorActionListener((v1, actionId, event) -> {
+            if (actionId == EditorInfo.IME_ACTION_SEARCH) {
                 performSearch(getActivity());
+                return true;
             }
-
-        });
-
-        branchName.setOnEditorActionListener(new EditText.OnEditorActionListener() {
-            @Override
-            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-                if (actionId == EditorInfo.IME_ACTION_SEARCH) {
-                    performSearch(getActivity());
-                    return true;
-                }
-                return false;
-            }
+            return false;
         });
         return v;
     }

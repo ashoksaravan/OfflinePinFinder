@@ -6,12 +6,10 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.net.Uri;
 import android.support.v7.widget.PopupMenu;
-import android.support.v7.widget.PopupMenu.OnMenuItemClickListener;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
@@ -78,89 +76,85 @@ public class STDRecyclerViewAdapter
 
                 menu.show();
                 final ViewHolder viewHolder = (ViewHolder) v.getTag();
-                menu.setOnMenuItemClickListener(new OnMenuItemClickListener() {
-                    @Override
-                    public boolean onMenuItemClick(MenuItem item) {
-                        if (item.getTitle().toString()
-                                .equals(context.getResources().getString(R.string.share))) {
-                            Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
-                            sharingIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                            sharingIntent.setType("text/plain");
-                            String shareSubject = "STD Code";
-                            String shareContent =
-                                    "STD Code : " + viewHolder.stdCode.getText().toString() + "\n";
-                            shareContent = shareContent + "City Name : " +
-                                    viewHolder.city.getText().toString() + "\n";
-                            shareContent = shareContent + "State : " +
-                                    viewHolder.state.getText().toString();
-                            sharingIntent
-                                    .putExtra(android.content.Intent.EXTRA_SUBJECT, shareSubject);
-                            sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareContent);
-                            context.startActivity(Intent.createChooser(sharingIntent,
-                                    context.getResources().getText(R.string.send_to)));
-                        } else if (item.getTitle().toString()
-                                .equals(context.getResources().getString(R.string.add_to_fav))) {
-                            SharedPreferences.Editor editor = sharedPreferences.edit();
-                            String stdCodes = sharedPreferences.getString("STDcodes", null);
-                            String stdCode = viewHolder.stdCode.getText().toString().trim();
-                            if (stdCodes != null && stdCodes.trim().length() > 0) {
-                                if (!stdCodes.contains(stdCode)) {
-                                    stdCodes = stdCodes + ",'" +
-                                            viewHolder.stdCode.getText().toString().trim() + "'";
-                                    Toast.makeText(context, "Added Successfully!!!",
-                                            Toast.LENGTH_LONG).show();
-                                } else {
-                                    Toast.makeText(context, "Already Exist!!!", Toast.LENGTH_LONG)
-                                            .show();
-                                }
+                menu.setOnMenuItemClickListener(item -> {
+                    if (item.getTitle().toString()
+                            .equals(context.getResources().getString(R.string.share))) {
+                        Intent sharingIntent = new Intent(Intent.ACTION_SEND);
+                        sharingIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        sharingIntent.setType("text/plain");
+                        String shareSubject = "STD Code";
+                        String shareContent =
+                                "STD Code : " + viewHolder.stdCode.getText().toString() + "\n";
+                        shareContent = shareContent + "City Name : " +
+                                viewHolder.city.getText().toString() + "\n";
+                        shareContent = shareContent + "State : " +
+                                viewHolder.state.getText().toString();
+                        sharingIntent
+                                .putExtra(Intent.EXTRA_SUBJECT, shareSubject);
+                        sharingIntent.putExtra(Intent.EXTRA_TEXT, shareContent);
+                        context.startActivity(Intent.createChooser(sharingIntent,
+                                context.getResources().getText(R.string.send_to)));
+                    } else if (item.getTitle().toString()
+                            .equals(context.getResources().getString(R.string.add_to_fav))) {
+                        SharedPreferences.Editor editor = sharedPreferences.edit();
+                        String stdCodes = sharedPreferences.getString("STDcodes", null);
+                        String stdCode = viewHolder.stdCode.getText().toString().trim();
+                        if (stdCodes != null && stdCodes.trim().length() > 0) {
+                            if (!stdCodes.contains(stdCode)) {
+                                stdCodes = stdCodes + ",'" +
+                                        viewHolder.stdCode.getText().toString().trim() + "'";
+                                Toast.makeText(context, "Added Successfully!!!",
+                                        Toast.LENGTH_LONG).show();
                             } else {
-                                stdCodes =
-                                        "'" + viewHolder.stdCode.getText().toString().trim() + "'";
-                                Toast.makeText(context, "Added Successfully!!!", Toast.LENGTH_LONG)
+                                Toast.makeText(context, "Already Exist!!!", Toast.LENGTH_LONG)
                                         .show();
                             }
-                            editor.putString("STDcodes", stdCodes);
-                            editor.apply();
-                        } else if (item.getTitle().toString()
-                                .equalsIgnoreCase(
-                                        context.getResources().getString(R.string.del_fav))) {
-                            SharedPreferences.Editor editor = sharedPreferences.edit();
-                            String stdCodes = sharedPreferences.getString("STDcodes", null);
-                            String stdCode =
-                                    "'" + viewHolder.stdCode.getText().toString().trim() + "'";
-                            if (stdCodes != null) {
-                                stdCodes = stdCodes.replaceAll(stdCode, "");
-                                stdCodes = stdCodes.replaceAll(",,", ",");
-                                if (stdCodes.startsWith(",")) {
-                                    stdCodes = stdCodes.replaceFirst(",", "");
-                                }
-                                if (stdCodes.endsWith(",")) {
-                                    stdCodes = stdCodes.substring(0, stdCodes.length() - 1);
-                                }
-                            }
-                            Toast.makeText(context, "Removed Successfully!!!", Toast.LENGTH_LONG)
-                                    .show();
-                            editor.putString("STDcodes", stdCodes);
-                            editor.apply();
                         } else {
-                            String uri = "http://maps.google.com/maps?q=" +
-                                    viewHolder.city.getText().toString() + ", "
-                                    + viewHolder.state.getText().toString();
-                            Intent intent =
-                                    new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(uri));
-                            intent.setClassName("com.google.android.apps.maps",
-                                    "com.google.android.maps.MapsActivity");
-                            try {
-                                context.startActivity(intent);
-                            } catch (Exception e) {
-                                Toast.makeText(context, R.string.maps_not_found, Toast.LENGTH_LONG)
-                                        .show();
+                            stdCodes =
+                                    "'" + viewHolder.stdCode.getText().toString().trim() + "'";
+                            Toast.makeText(context, "Added Successfully!!!", Toast.LENGTH_LONG)
+                                    .show();
+                        }
+                        editor.putString("STDcodes", stdCodes);
+                        editor.apply();
+                    } else if (item.getTitle().toString()
+                            .equalsIgnoreCase(
+                                    context.getResources().getString(R.string.del_fav))) {
+                        SharedPreferences.Editor editor = sharedPreferences.edit();
+                        String stdCodes = sharedPreferences.getString("STDcodes", null);
+                        String stdCode =
+                                "'" + viewHolder.stdCode.getText().toString().trim() + "'";
+                        if (stdCodes != null) {
+                            stdCodes = stdCodes.replaceAll(stdCode, "");
+                            stdCodes = stdCodes.replaceAll(",,", ",");
+                            if (stdCodes.startsWith(",")) {
+                                stdCodes = stdCodes.replaceFirst(",", "");
+                            }
+                            if (stdCodes.endsWith(",")) {
+                                stdCodes = stdCodes.substring(0, stdCodes.length() - 1);
                             }
                         }
-
-                        return false;
+                        Toast.makeText(context, "Removed Successfully!!!", Toast.LENGTH_LONG)
+                                .show();
+                        editor.putString("STDcodes", stdCodes);
+                        editor.apply();
+                    } else {
+                        String uri = "http://maps.google.com/maps?q=" +
+                                viewHolder.city.getText().toString() + ", "
+                                + viewHolder.state.getText().toString();
+                        Intent intent =
+                                new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
+                        intent.setClassName("com.google.android.apps.maps",
+                                "com.google.android.maps.MapsActivity");
+                        try {
+                            context.startActivity(intent);
+                        } catch (Exception e) {
+                            Toast.makeText(context, R.string.maps_not_found, Toast.LENGTH_LONG)
+                                    .show();
+                        }
                     }
 
+                    return false;
                 });
             }
         });

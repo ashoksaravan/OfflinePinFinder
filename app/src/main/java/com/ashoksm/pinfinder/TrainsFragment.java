@@ -7,7 +7,6 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,10 +15,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
-import android.widget.CompoundButton;
-import android.widget.EditText;
 import android.widget.Switch;
-import android.widget.TextView;
 
 import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
 
@@ -49,39 +45,21 @@ public class TrainsFragment extends Fragment {
 
         new MyAsyncTask(this).execute();
 
-        btnSubmit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                performSearch(getActivity());
-            }
-        });
+        btnSubmit.setOnClickListener(v13 -> performSearch(getActivity()));
 
-        ends.setOnEditorActionListener(new EditText.OnEditorActionListener() {
-            @Override
-            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-                return editorAction(actionId);
-            }
-        });
+        ends.setOnEditorActionListener((v12, actionId, event) -> editorAction(actionId));
 
-        trainName.setOnEditorActionListener(new EditText.OnEditorActionListener() {
-            @Override
-            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-                return editorAction(actionId);
-            }
-        });
+        trainName.setOnEditorActionListener((v1, actionId, event) -> editorAction(actionId));
 
-        aSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if (!b) {
-                    trainName.setVisibility(View.VISIBLE);
-                    starts.setVisibility(View.GONE);
-                    ends.setVisibility(View.GONE);
-                } else {
-                    trainName.setVisibility(View.GONE);
-                    starts.setVisibility(View.VISIBLE);
-                    ends.setVisibility(View.VISIBLE);
-                }
+        aSwitch.setOnCheckedChangeListener((compoundButton, b) -> {
+            if (!b) {
+                trainName.setVisibility(View.VISIBLE);
+                starts.setVisibility(View.GONE);
+                ends.setVisibility(View.GONE);
+            } else {
+                trainName.setVisibility(View.GONE);
+                starts.setVisibility(View.VISIBLE);
+                ends.setVisibility(View.VISIBLE);
             }
         });
 

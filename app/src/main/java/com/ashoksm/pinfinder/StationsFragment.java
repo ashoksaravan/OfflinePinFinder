@@ -7,7 +7,6 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,8 +15,6 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
 
 import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
 
@@ -45,33 +42,13 @@ public class StationsFragment extends Fragment {
 
         new MyAsyncTask(this).execute();
 
-        btnSubmit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                performSearch(getActivity());
-            }
-        });
+        btnSubmit.setOnClickListener(v14 -> performSearch(getActivity()));
 
-        station.setOnEditorActionListener(new EditText.OnEditorActionListener() {
-            @Override
-            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-                return editorAction(actionId);
-            }
-        });
+        station.setOnEditorActionListener((v13, actionId, event) -> editorAction(actionId));
 
-        state.setOnEditorActionListener(new EditText.OnEditorActionListener() {
-            @Override
-            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-                return editorAction(actionId);
-            }
-        });
+        state.setOnEditorActionListener((v12, actionId, event) -> editorAction(actionId));
 
-        city.setOnEditorActionListener(new EditText.OnEditorActionListener() {
-            @Override
-            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-                return editorAction(actionId);
-            }
-        });
+        city.setOnEditorActionListener((v1, actionId, event) -> editorAction(actionId));
         return v;
     }
 

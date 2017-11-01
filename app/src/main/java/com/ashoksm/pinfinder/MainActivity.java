@@ -21,7 +21,6 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.LocationManager;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentManager;
@@ -29,8 +28,6 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
-import android.view.MenuItem;
-import android.view.View;
 import android.widget.Toast;
 
 import com.ashoksm.pinfinder.common.AdService;
@@ -97,38 +94,35 @@ public class MainActivity extends ActivityBase {
          */
 
         mNavigationView.setNavigationItemSelectedListener(
-                new NavigationView.OnNavigationItemSelectedListener() {
-                    @Override
-                    public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-                        mDrawerLayout.closeDrawers();
-                        Intent intent = null;
-                        if (menuItem.getItemId() != R.id.nav_near_by_post_office && menuItem
-                                .getItemId() != R.id.nav_near_by_bank && menuItem.getItemId() !=
-                                R.id.nav_near_by_atm && menuItem.getItemId() != R.id
-                                .nav_near_by_railway_station) {
-                            intent = new Intent(getApplicationContext(), AllCodeListActivity.class);
+                menuItem -> {
+                    mDrawerLayout.closeDrawers();
+                    Intent intent = null;
+                    if (menuItem.getItemId() != R.id.nav_near_by_post_office && menuItem
+                            .getItemId() != R.id.nav_near_by_bank && menuItem.getItemId() !=
+                            R.id.nav_near_by_atm && menuItem.getItemId() != R.id
+                            .nav_near_by_railway_station) {
+                        intent = new Intent(getApplicationContext(), AllCodeListActivity.class);
+                    } else {
+                        locationManager =
+                                (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+                        if (locationManager != null) {
+                            gpsStatus = locationManager.isProviderEnabled(LocationManager
+                                    .GPS_PROVIDER);
+                        }
+                        if (gpsStatus) {
+                            intent = new Intent(getApplicationContext(),
+                                    NearByPlacesActivity.class);
                         } else {
-                            locationManager =
-                                    (LocationManager) getSystemService(Context.LOCATION_SERVICE);
-                            if (locationManager != null) {
-                                gpsStatus = locationManager.isProviderEnabled(LocationManager
-                                        .GPS_PROVIDER);
-                            }
-                            if (gpsStatus) {
-                                intent = new Intent(getApplicationContext(),
-                                        NearByPlacesActivity.class);
-                            } else {
-                                Toast.makeText(MainActivity.this, "Please turn on the GPS!!!",
-                                        Toast.LENGTH_LONG).show();
-                            }
+                            Toast.makeText(MainActivity.this, "Please turn on the GPS!!!",
+                                    Toast.LENGTH_LONG).show();
                         }
-                        if (intent != null) {
-                            intent.putExtra(EXTRA_MENU_ID, menuItem.getItemId());
-                            startActivity(intent);
-                            overridePendingTransition(R.anim.slide_out_left, 0);
-                        }
-                        return false;
                     }
+                    if (intent != null) {
+                        intent.putExtra(EXTRA_MENU_ID, menuItem.getItemId());
+                        startActivity(intent);
+                        overridePendingTransition(R.anim.slide_out_left, 0);
+                    }
+                    return false;
                 });
 
         /*
@@ -149,43 +143,31 @@ public class MainActivity extends ActivityBase {
         final FloatingActionMenu actionMenu = findViewById(R.id.floatingActionMenu);
 
         FloatingActionButton pincodeButton = findViewById(R.id.floating_pincode);
-        pincodeButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                actionMenu.close(true);
-                clazz = DisplayPinCodeResultActivity.class;
-                performSearch();
-            }
+        pincodeButton.setOnClickListener(v -> {
+            actionMenu.close(true);
+            clazz = DisplayPinCodeResultActivity.class;
+            performSearch();
         });
 
         FloatingActionButton ifscButton = findViewById(R.id.floating_ifsc);
-        ifscButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                actionMenu.close(true);
-                clazz = DisplayBankResultActivity.class;
-                performSearch();
-            }
+        ifscButton.setOnClickListener(v -> {
+            actionMenu.close(true);
+            clazz = DisplayBankResultActivity.class;
+            performSearch();
         });
 
         FloatingActionButton stdButton = findViewById(R.id.floating_std);
-        stdButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                actionMenu.close(true);
-                clazz = DisplaySTDResultActivity.class;
-                performSearch();
-            }
+        stdButton.setOnClickListener(v -> {
+            actionMenu.close(true);
+            clazz = DisplaySTDResultActivity.class;
+            performSearch();
         });
 
         FloatingActionButton rtoButton = findViewById(R.id.floating_rto);
-        rtoButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                actionMenu.close(true);
-                clazz = DisplayRTOResultActivity.class;
-                performSearch();
-            }
+        rtoButton.setOnClickListener(v -> {
+            actionMenu.close(true);
+            clazz = DisplayRTOResultActivity.class;
+            performSearch();
         });
         actionMenu.setClosedOnTouchOutside(true);
     }

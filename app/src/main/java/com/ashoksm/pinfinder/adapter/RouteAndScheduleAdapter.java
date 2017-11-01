@@ -21,17 +21,15 @@ import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
 public class RouteAndScheduleAdapter
         extends CursorRecyclerViewAdapter<RecyclerView.ViewHolder> {
 
+    private static final int TYPE_HEADER = 0;
+    private static final int TYPE_ITEM = 1;
     private Activity context;
     private boolean largeScreen;
-
     public RouteAndScheduleAdapter(Cursor cursor, boolean xLargeScreen, Activity contextIn) {
         super(cursor);
         largeScreen = xLargeScreen;
         context = contextIn;
     }
-
-    private static final int TYPE_HEADER = 0;
-    private static final int TYPE_ITEM = 1;
 
     @Override
     public void onBindViewHolder(final RecyclerView.ViewHolder viewHolder, Cursor cursor, int
@@ -73,17 +71,14 @@ public class RouteAndScheduleAdapter
             holder.route.setText(cursor.getString(cursor.getColumnIndex(RailWaysSQLiteHelper
                     .ROUTE)));
 
-            holder.stationName.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent intent = new Intent(context, StationDetailsActivity.class);
-                    String s = holder.stationName.getText().toString();
-                    intent.putExtra(StationsFragment.EXTRA_STATION,
-                            s.substring(s.indexOf("(") + 1, s.indexOf(")")));
-                    intent.putExtra(StationsFragment.EXTRA_CITY, s);
-                    context.startActivity(intent);
-                    context.overridePendingTransition(R.anim.slide_out_left, 0);
-                }
+            holder.stationName.setOnClickListener(v -> {
+                Intent intent = new Intent(context, StationDetailsActivity.class);
+                String s = holder.stationName.getText().toString();
+                intent.putExtra(StationsFragment.EXTRA_STATION,
+                        s.substring(s.indexOf("(") + 1, s.indexOf(")")));
+                intent.putExtra(StationsFragment.EXTRA_CITY, s);
+                context.startActivity(intent);
+                context.overridePendingTransition(R.anim.slide_out_left, 0);
             });
         } else {
             ViewHeaderHolder holder = (ViewHeaderHolder) viewHolder;
@@ -121,6 +116,18 @@ public class RouteAndScheduleAdapter
             }
         }
         return null;
+    }
+
+    @Override
+    public int getItemViewType(int position) {
+        if (isPositionHeader(position)) {
+            return TYPE_HEADER;
+        }
+        return TYPE_ITEM;
+    }
+
+    private boolean isPositionHeader(int position) {
+        return position == 0;
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
@@ -171,17 +178,5 @@ public class RouteAndScheduleAdapter
             route = view.findViewById(R.id.route);
         }
 
-    }
-
-    @Override
-    public int getItemViewType(int position) {
-        if (isPositionHeader(position)) {
-            return TYPE_HEADER;
-        }
-        return TYPE_ITEM;
-    }
-
-    private boolean isPositionHeader(int position) {
-        return position == 0;
     }
 }

@@ -260,14 +260,11 @@ public class AllCodeListActivity extends ActivityBase {
                         (PinSQLiteHelper.ID)));
             }
 
-            holder.mView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if (mTwoPane) {
-                        callFragment(holder.mContentView.getText().toString().trim());
-                    } else {
-                        callActivity(holder.mContentView.getText().toString().trim());
-                    }
+            holder.mView.setOnClickListener(v -> {
+                if (mTwoPane) {
+                    callFragment(holder.mContentView.getText().toString().trim());
+                } else {
+                    callActivity(holder.mContentView.getText().toString().trim());
                 }
             });
         }

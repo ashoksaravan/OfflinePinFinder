@@ -5,14 +5,12 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
 import android.support.v7.widget.PopupMenu;
-import android.support.v7.widget.PopupMenu.OnMenuItemClickListener;
 import android.support.v7.widget.RecyclerView;
 import android.text.SpannableString;
 import android.text.style.UnderlineSpan;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
@@ -75,31 +73,24 @@ public class TrainRecyclerViewAdapter
 
                 menu.show();
                 final ViewHolder viewHolder = (ViewHolder) v.getTag();
-                menu.setOnMenuItemClickListener(new OnMenuItemClickListener() {
-                    @Override
-                    public boolean onMenuItemClick(MenuItem item) {
-                        if (item.getTitle().toString()
-                                .equals(context.getResources().getString(R.string.share))) {
-                            share(viewHolder);
-                        } else {
-                            openGMAP(viewHolder);
-                        }
-                        return false;
+                menu.setOnMenuItemClickListener(item -> {
+                    if (item.getTitle().toString()
+                            .equals(context.getResources().getString(R.string.share))) {
+                        share(viewHolder);
+                    } else {
+                        openGMAP(viewHolder);
                     }
-
+                    return false;
                 });
             }
         });
 
-        holder.trainName.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(context, RouteAndScheduleActivity.class);
-                intent.putExtra(TrainsFragment.EXTRA_TRAIN, holder.trainNo.getText().toString());
-                intent.putExtra(TrainsFragment.EXTRA_STARTS, holder.trainName.getText().toString());
-                context.startActivity(intent);
-                context.overridePendingTransition(R.anim.slide_out_left, 0);
-            }
+        holder.trainName.setOnClickListener(view -> {
+            Intent intent = new Intent(context, RouteAndScheduleActivity.class);
+            intent.putExtra(TrainsFragment.EXTRA_TRAIN, holder.trainNo.getText().toString());
+            intent.putExtra(TrainsFragment.EXTRA_STARTS, holder.trainName.getText().toString());
+            context.startActivity(intent);
+            context.overridePendingTransition(R.anim.slide_out_left, 0);
         });
 
         String pantry = cursor.getString(cursor.getColumnIndex(RailWaysSQLiteHelper.PANTRY));

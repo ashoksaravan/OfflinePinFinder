@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
-import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -13,7 +12,6 @@ import android.widget.TextView;
 import com.ashoksm.pinfinder.R;
 
 public class AppRater {
-    private final static String APP_TITLE = "Pincode, IFSC, STD, RTO Finder";// App Name
     private final static String APP_NAME = "com.ashoksm.pinfinder";// Package Name
 
     private final static int DAYS_UNTIL_PROMPT = 3;//Min number of days
@@ -71,36 +69,28 @@ public class AppRater {
 
         Button b1 = new Button(mContext);
         b1.setText(R.string.rate_title);
-        b1.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                mContext.startActivity(new Intent(Intent.ACTION_VIEW, Uri
-                        .parse("market://details?id=" + APP_NAME)));
-                editor.putBoolean("dontshowagain", true);
-                editor.commit();
-                dialog.dismiss();
-            }
+        b1.setOnClickListener(v -> {
+            mContext.startActivity(new Intent(Intent.ACTION_VIEW, Uri
+                    .parse("market://details?id=" + APP_NAME)));
+            editor.putBoolean("dontshowagain", true);
+            editor.commit();
+            dialog.dismiss();
         });
         ll.addView(b1);
 
         Button b2 = new Button(mContext);
         b2.setText(R.string.remind_me_later);
-        b2.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                dialog.dismiss();
-            }
-        });
+        b2.setOnClickListener(v -> dialog.dismiss());
         ll.addView(b2);
 
         Button b3 = new Button(mContext);
         b3.setText(R.string.no_thanks);
-        b3.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                if (editor != null) {
-                    editor.putBoolean("dontshowagain", true);
-                    editor.commit();
-                }
-                dialog.dismiss();
+        b3.setOnClickListener(v -> {
+            if (editor != null) {
+                editor.putBoolean("dontshowagain", true);
+                editor.commit();
             }
+            dialog.dismiss();
         });
         ll.addView(b3);
 

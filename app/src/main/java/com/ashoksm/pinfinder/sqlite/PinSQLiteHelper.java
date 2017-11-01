@@ -15,63 +15,49 @@ import java.io.InputStreamReader;
 
 public class PinSQLiteHelper extends SQLiteOpenHelper {
 
-    //Progress Bar
-    private Activity context;
-    private DonutProgress progressBar;
-    private static boolean ON_CREATE;
-
-    // Logcat tag
-    private static final String CLASS_NAME = PinSQLiteHelper.class.getName();
-
-    // Database Version
-    private static final int DATABASE_VERSION = 13;
-
-    // Database Name
-    private static final String DATABASE_NAME = "ashoksm.pinfinder";
-
-    // Table Names
-    private static final String TABLE_POST_OFFICE = "post_office_t";
-    private static final String TABLE_STATE = "state_t";
-    private static final String TABLE_DISTRICT = "district_t";
-    private static final String TABLE_LOCATION = "location_t";
-    private static final String TABLE_STATUS = "status_t";
-
-    // Common column names
-    private static final String NAME = "name";
     public static final String PIN_CODE = "pin_code";
-    private static final String STATUS_CODE = "status_code";
     public static final String SUB_OFFICE = "sub_office";
     public static final String HEAD_OFFICE = "head_office";
-    private static final String LOCATION = "location";
-    private static final String DISTRICT = "district";
-    private static final String STATE = "state";
     public static final String TELEPHONE = "telephone";
     public static final String STATE_NAME = "state_name";
     public static final String DISTRICT_NAME = "district_name";
     public static final String LOCATION_NAME = "location_name";
     public static final String STATUS_NAME = "status_name";
     public static final String ID = "_id";
-
+    // Logcat tag
+    private static final String CLASS_NAME = PinSQLiteHelper.class.getName();
+    // Database Version
+    private static final int DATABASE_VERSION = 13;
+    // Database Name
+    private static final String DATABASE_NAME = "ashoksm.pinfinder";
+    // Table Names
+    private static final String TABLE_POST_OFFICE = "post_office_t";
+    private static final String TABLE_STATE = "state_t";
+    private static final String TABLE_DISTRICT = "district_t";
+    private static final String TABLE_LOCATION = "location_t";
+    private static final String TABLE_STATUS = "status_t";
+    // Common column names
+    private static final String NAME = "name";
+    private static final String STATUS_CODE = "status_code";
+    private static final String LOCATION = "location";
+    private static final String DISTRICT = "district";
+    private static final String STATE = "state";
     // post_office_t table create statement
     private static final String CREATE_STATE_TABLE =
             "CREATE TABLE " + TABLE_STATE + "(" + STATE + " INTEGER, "
                     + STATE_NAME + " TEXT, " + "PRIMARY KEY (" + STATE + "))";
-
     private static final String CREATE_DISTRICT_TABLE =
             "CREATE TABLE " + TABLE_DISTRICT + "(" + STATE + " INTEGER, "
                     + DISTRICT + " INTEGER, " + DISTRICT_NAME + " TEXT, " + "FOREIGN KEY(" + STATE +
                     ") REFERENCES "
                     + TABLE_STATE + "(" + STATE + "), " + "PRIMARY KEY (" + STATE + ", " +
                     DISTRICT + "))";
-
     private static final String CREATE_LOCATION_TABLE =
             "CREATE TABLE " + TABLE_LOCATION + "(" + LOCATION
                     + " INTEGER, " + LOCATION_NAME + " TEXT, " + "PRIMARY KEY (" + LOCATION + "))";
-
     private static final String CREATE_STATUS_TABLE =
             "CREATE TABLE " + TABLE_STATUS + "(" + STATUS_CODE
                     + " INTEGER, " + STATUS_NAME + " TEXT, " + "PRIMARY KEY (" + STATUS_CODE + "))";
-
     private static final String CREATE_PINCODE_TABLE =
             "CREATE TABLE " + TABLE_POST_OFFICE + "(" + NAME + " TEXT,"
                     + PIN_CODE + " INTEGER, " + DISTRICT + " INTEGER, " + STATE + " INTEGER, " +
@@ -87,6 +73,10 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
                     + TABLE_STATUS + "(" + STATUS_CODE + "), " + "PRIMARY KEY (" + NAME + "," +
                     PIN_CODE + "," + DISTRICT + ","
                     + STATE + "))";
+    private static boolean ON_CREATE;
+    //Progress Bar
+    private Activity context;
+    private DonutProgress progressBar;
 
     public PinSQLiteHelper(Activity contextIn, DonutProgress progressBarIn) {
         super(contextIn, DATABASE_NAME, null, DATABASE_VERSION);
@@ -116,41 +106,25 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
         // insert state
         insertStates(db);
         if (!context.isFinishing()) {
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    progressBar.setProgress(1);
-                }
-            });
+            context.runOnUiThread(() -> progressBar.setProgress(1));
         }
 
         //insert status
         insertStatus(db);
         if (!context.isFinishing()) {
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    progressBar.setProgress(2);
-                }
-            });
+            context.runOnUiThread(() -> progressBar.setProgress(2));
         }
 
         // insert districts
         insertDistricts(db);
         if (!context.isFinishing()) {
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    progressBar.setProgress(3);
-                }
-            });
+            context.runOnUiThread(() -> progressBar.setProgress(3));
         }
 
         // insert locations
         insertLocations(db);
         if (!context.isFinishing()) {
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    progressBar.setProgress(5);
-                }
-            });
+            context.runOnUiThread(() -> progressBar.setProgress(5));
         }
 
         // insert pincodes
@@ -194,11 +168,8 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
                     if (!context.isFinishing()) {
                         final Double percentage =
                                 (i / ((double) fileNames.length - 4.00d)) * 95.00d;
-                        context.runOnUiThread(new Runnable() {
-                            public void run() {
-                                progressBar.setProgress(percentage.intValue() + 5);
-                            }
-                        });
+                        context.runOnUiThread(
+                                () -> progressBar.setProgress(percentage.intValue() + 5));
                     }
                     i++;
                 }
@@ -349,11 +320,7 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
         if (ON_CREATE) {
             ON_CREATE = false;
         } else if (!context.isFinishing()) {
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    progressBar.setProgress(50);
-                }
-            });
+            context.runOnUiThread(() -> progressBar.setProgress(50));
         }
 
         return db.rawQuery(selectQuery, null);
@@ -385,11 +352,7 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
         if (ON_CREATE) {
             ON_CREATE = false;
         } else if (!context.isFinishing()) {
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    progressBar.setProgress(50);
-                }
-            });
+            context.runOnUiThread(() -> progressBar.setProgress(50));
         }
 
         return db.rawQuery(selectQuery, null);
@@ -403,11 +366,7 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
         if (ON_CREATE) {
             ON_CREATE = false;
         } else if (!context.isFinishing()) {
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    progressBar.setProgress(50);
-                }
-            });
+            context.runOnUiThread(() -> progressBar.setProgress(50));
         }
 
         return db.rawQuery(select, null);
@@ -421,11 +380,7 @@ public class PinSQLiteHelper extends SQLiteOpenHelper {
         if (ON_CREATE) {
             ON_CREATE = false;
         } else if (!context.isFinishing()) {
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    progressBar.setProgress(50);
-                }
-            });
+            context.runOnUiThread(() -> progressBar.setProgress(50));
         }
 
         return db.rawQuery(select, null);

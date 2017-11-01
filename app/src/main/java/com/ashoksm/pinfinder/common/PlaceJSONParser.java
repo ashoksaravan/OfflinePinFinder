@@ -19,13 +19,13 @@ public class PlaceJSONParser {
 
         JSONArray jPlaces = null;
         try {
-            /** Retrieves all the elements in the 'places' array */
+            /* Retrieves all the elements in the 'places' array */
             jPlaces = jObject.getJSONArray("results");
         } catch (JSONException e) {
             Log.e("PlaceJSONParser", e.getLocalizedMessage(), e);
         }
-        /** Invoking getPlaces with the array of json object
-         * where each json object represent a place
+        /* Invoking getPlaces with the array of json object
+          where each json object represent a place
          */
         return getPlaces(jPlaces);
     }
@@ -35,10 +35,10 @@ public class PlaceJSONParser {
         List<HashMap<String, String>> placesList = new ArrayList<>();
         HashMap<String, String> place;
 
-        /** Taking each place, parses and adds to list object */
+        /* Taking each place, parses and adds to list object */
         for (int i = 0; i < placesCount; i++) {
             try {
-                /** Call getPlace with place JSON object to parse the place */
+                /* Call getPlace with place JSON object to parse the place */
                 place = getPlace((JSONObject) jPlaces.get(i));
                 placesList.add(place);
 

@@ -16,47 +16,40 @@ import java.io.InputStreamReader;
 
 public class BankSQLiteHelper extends SQLiteOpenHelper {
 
-    //Progress Bar
-    private Activity context;
-    private DonutProgress progressBar;
-    private static boolean ON_CREATE;
-
-    // Logcat tag
-    private static final String CLASS_NAME = BankSQLiteHelper.class.getName();
-
-    // Database Version
-    private static final int DATABASE_VERSION = 30;
-
-    // Database Name
-    private static final String DATABASE_NAME = "ashoksm.bankbranch";
-
-    // Table Names
-    private static final String TABLE_BANK_BRANCH = "bank_branch_t";
-    private static final String TABLE_LOCATION = "bank_loc_t";
-
     // Common column names
     public static final String NAME = "name";
     public static final String CITY = "city";
     public static final String ADDRESS = "address";
     public static final String CONTACT = "contact";
-    private static final String LOCATION = "location";
     public static final String DISTRICT = "district";
     public static final String STATE = "state";
     public static final String BANK = "bank";
-    private static final String IFSC = "ifsc";
     public static final String MICR = "micr";
     public static final String ID = "_id";
-
+    // Logcat tag
+    private static final String CLASS_NAME = BankSQLiteHelper.class.getName();
+    // Database Version
+    private static final int DATABASE_VERSION = 30;
+    // Database Name
+    private static final String DATABASE_NAME = "ashoksm.bankbranch";
+    // Table Names
+    private static final String TABLE_BANK_BRANCH = "bank_branch_t";
+    private static final String TABLE_LOCATION = "bank_loc_t";
+    private static final String LOCATION = "location";
+    private static final String IFSC = "ifsc";
     // table create statement
     private static final String CREATE_LOCATION_TABLE = "CREATE TABLE " + TABLE_LOCATION + "("
             + LOCATION + " INTEGER, " + BANK + " TEXT, " + STATE + " TEXT, " + DISTRICT + " TEXT, "
             + "PRIMARY KEY (" + LOCATION + ", " + BANK + ", " + STATE + ", " + DISTRICT + "))";
-
     private static final String CREATE_BANK_BRANCH_TABLE = "CREATE TABLE " + TABLE_BANK_BRANCH + "("
             + NAME + " TEXT," + CITY + " TEXT, " + ADDRESS + " TEXT, " + CONTACT + " TEXT, " + MICR
             + " INTEGER, " + IFSC + " TEXT, " + LOCATION + " INTEGER, " + "FOREIGN KEY("
             + LOCATION + ") REFERENCES " + TABLE_LOCATION + "(" + LOCATION + "), " + "PRIMARY KEY ("
             + NAME + "," + IFSC + "," + LOCATION + "))";
+    private static boolean ON_CREATE;
+    //Progress Bar
+    private Activity context;
+    private DonutProgress progressBar;
 
     public BankSQLiteHelper(Activity contextIn, DonutProgress progressBarIn) {
         super(contextIn, DATABASE_NAME, null, DATABASE_VERSION);
@@ -119,11 +112,8 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
                 }
                 if (!context.isFinishing()) {
                     final Double percentage = (i / (double) fileNames.length) * 90.00d;
-                    context.runOnUiThread(new Runnable() {
-                        public void run() {
-                            progressBar.setProgress(percentage.intValue() + 10);
-                        }
-                    });
+                    context.runOnUiThread(
+                            () -> progressBar.setProgress(percentage.intValue() + 10));
                 }
                 i++;
             }
@@ -152,11 +142,7 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
             insertReader.close();
             db.setTransactionSuccessful();
             if (!context.isFinishing()) {
-                context.runOnUiThread(new Runnable() {
-                    public void run() {
-                        progressBar.setProgress(10);
-                    }
-                });
+                context.runOnUiThread(() -> progressBar.setProgress(10));
             }
         } catch (IOException ioEx) {
             Log.e(CLASS_NAME, ioEx.getMessage());
@@ -223,11 +209,7 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
         if (ON_CREATE) {
             ON_CREATE = false;
         } else if (!context.isFinishing()) {
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    progressBar.setProgress(50);
-                }
-            });
+            context.runOnUiThread(() -> progressBar.setProgress(50));
         }
 
         return db.rawQuery(selectQuery, null);
@@ -243,11 +225,7 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
         if (ON_CREATE) {
             ON_CREATE = false;
         } else if (!context.isFinishing()) {
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    progressBar.setProgress(50);
-                }
-            });
+            context.runOnUiThread(() -> progressBar.setProgress(50));
         }
         return db.rawQuery(select, null);
     }
@@ -259,11 +237,7 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
         if (ON_CREATE) {
             ON_CREATE = false;
         } else if (!context.isFinishing()) {
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    progressBar.setProgress(50);
-                }
-            });
+            context.runOnUiThread(() -> progressBar.setProgress(50));
         }
         return db.rawQuery(select, null);
     }
@@ -275,11 +249,7 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
         if (ON_CREATE) {
             ON_CREATE = false;
         } else if (!context.isFinishing()) {
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    progressBar.setProgress(50);
-                }
-            });
+            context.runOnUiThread(() -> progressBar.setProgress(50));
         }
         return db.rawQuery(select, null);
     }
@@ -294,11 +264,7 @@ public class BankSQLiteHelper extends SQLiteOpenHelper {
         if (ON_CREATE) {
             ON_CREATE = false;
         } else if (!context.isFinishing()) {
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    progressBar.setProgress(50);
-                }
-            });
+            context.runOnUiThread(() -> progressBar.setProgress(50));
         }
         return db.rawQuery(select, null);
     }

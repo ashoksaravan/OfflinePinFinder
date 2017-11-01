@@ -15,10 +15,10 @@ import java.io.InputStreamReader;
 
 public class RTOSQLiteHelper extends SQLiteOpenHelper {
 
-    private Activity context;
-    private DonutProgress progressBar;
-    private static boolean ON_CREATE;
-
+    // Common column names
+    public static final String CITY = "city";
+    public static final String STATE_NAME = "state_name";
+    public static final String ID = "_id";
     // Logcat tag
     private static final String CLASS_NAME = RTOSQLiteHelper.class.getName();
 
@@ -31,22 +31,18 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
     // Table Names
     private static final String TABLE_RTO = "rto_t";
     private static final String TABLE_STATE = "state_t";
-
-    // Common column names
-    public static final String CITY = "city";
     private static final String STATE = "state";
-    public static final String STATE_NAME = "state_name";
     private static final String RTO_CODE = "rto_code";
-    public static final String ID = "_id";
-
     // table create statements
     private static final String CREATE_STATE_TABLE = "CREATE TABLE " + TABLE_STATE + "(" + STATE
             + " INTEGER, " + STATE_NAME + " TEXT, PRIMARY KEY (" + STATE + "))";
-
     private static final String CREATE_STD_TABLE = "CREATE TABLE " + TABLE_RTO + "(" + STATE
             + " INTEGER, " + RTO_CODE + " TEXT, " + CITY + " TEXT, FOREIGN KEY(" + STATE
             + ") REFERENCES " + TABLE_STATE + "(" + STATE + "), PRIMARY KEY (" + STATE + "," + CITY
             + "," + RTO_CODE + "))";
+    private static boolean ON_CREATE;
+    private Activity context;
+    private DonutProgress progressBar;
 
     public RTOSQLiteHelper(Activity contextIn, DonutProgress progressBarIn) {
         super(contextIn, DATABASE_NAME, null, DATABASE_VERSION);
@@ -103,11 +99,7 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
                 }
                 if (!context.isFinishing()) {
                     final Double percentage = (i / (double) fileNames.length) * 100.00d;
-                    context.runOnUiThread(new Runnable() {
-                        public void run() {
-                            progressBar.setProgress(percentage.intValue());
-                        }
-                    });
+                    context.runOnUiThread(() -> progressBar.setProgress(percentage.intValue()));
                 }
                 i++;
             }
@@ -180,11 +172,7 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
         if (ON_CREATE) {
             ON_CREATE = false;
         } else if (!context.isFinishing()) {
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    progressBar.setProgress(50);
-                }
-            });
+            context.runOnUiThread(() -> progressBar.setProgress(50));
         }
         return db.rawQuery(selectQuery, null);
     }
@@ -204,11 +192,7 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
         if (ON_CREATE) {
             ON_CREATE = false;
         } else if (!context.isFinishing()) {
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    progressBar.setProgress(50);
-                }
-            });
+            context.runOnUiThread(() -> progressBar.setProgress(50));
         }
 
         return db.rawQuery(select, null);
@@ -224,11 +208,7 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
         if (ON_CREATE) {
             ON_CREATE = false;
         } else if (!context.isFinishing()) {
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    progressBar.setProgress(50);
-                }
-            });
+            context.runOnUiThread(() -> progressBar.setProgress(50));
         }
         return db.rawQuery(select, null);
     }
@@ -241,11 +221,7 @@ public class RTOSQLiteHelper extends SQLiteOpenHelper {
         if (ON_CREATE) {
             ON_CREATE = false;
         } else if (!context.isFinishing()) {
-            context.runOnUiThread(new Runnable() {
-                public void run() {
-                    progressBar.setProgress(50);
-                }
-            });
+            context.runOnUiThread(() -> progressBar.setProgress(50));
         }
 
         return db.rawQuery(select, null);

@@ -40,12 +40,7 @@ public class TabFragment extends Fragment {
           Maybe a Support Library Bug .
          */
 
-        tabLayout.post(new Runnable() {
-            @Override
-            public void run() {
-                tabLayout.setupWithViewPager(viewPager);
-            }
-        });
+        tabLayout.post(() -> tabLayout.setupWithViewPager(viewPager));
 
         return x;
 

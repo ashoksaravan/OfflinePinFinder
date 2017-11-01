@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,7 +15,6 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 
 public class STDFragment extends Fragment {
 
@@ -40,23 +38,14 @@ public class STDFragment extends Fragment {
         stateNameTextView.setAdapter(stateAdapter);
         cityName = v.findViewById(R.id.cityName);
         Button btnSubmit = v.findViewById(R.id.stdSearch);
-        btnSubmit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        btnSubmit.setOnClickListener(v12 -> performSearch(getActivity()));
+
+        cityName.setOnEditorActionListener((v1, actionId, event) -> {
+            if (actionId == EditorInfo.IME_ACTION_SEARCH) {
                 performSearch(getActivity());
+                return true;
             }
-
-        });
-
-        cityName.setOnEditorActionListener(new EditText.OnEditorActionListener() {
-            @Override
-            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-                if (actionId == EditorInfo.IME_ACTION_SEARCH) {
-                    performSearch(getActivity());
-                    return true;
-                }
-                return false;
-            }
+            return false;
         });
         return v;
     }

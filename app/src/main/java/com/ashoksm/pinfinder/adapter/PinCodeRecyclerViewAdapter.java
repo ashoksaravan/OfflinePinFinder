@@ -6,13 +6,11 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.net.Uri;
 import android.support.v7.widget.PopupMenu;
-import android.support.v7.widget.PopupMenu.OnMenuItemClickListener;
 import android.support.v7.widget.RecyclerView;
 import android.text.util.Linkify;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
@@ -81,108 +79,104 @@ public class PinCodeRecyclerViewAdapter
 
                 menu.show();
                 final ViewHolder viewHolder = (ViewHolder) v.getTag();
-                menu.setOnMenuItemClickListener(new OnMenuItemClickListener() {
-                    @Override
-                    public boolean onMenuItemClick(MenuItem item) {
-                        if (item.getTitle().toString()
-                                .equals(context.getResources().getString(R.string.share))) {
-                            Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
-                            sharingIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                            sharingIntent.setType("text/plain");
-                            String shareSubject = "Pincode";
-                            String shareContent = "Office Name : " +
-                                    viewHolder.officeName.getText().toString().trim()
-                                    + "\n";
-                            shareContent = shareContent + "Pincode : " +
-                                    viewHolder.pincode.getText().toString().trim()
-                                    + "\n";
-                            shareContent = shareContent + "Status : " +
-                                    viewHolder.status.getText().toString().trim()
-                                    + "\n";
-                            if (viewHolder.subOffice.getText().toString().trim().length() > 0) {
-                                shareContent = shareContent + "Sub Office : "
-                                        + viewHolder.subOffice.getText().toString() + "\n";
-                            }
-                            if (viewHolder.headOffice.getText().toString().trim().length() > 0) {
-                                shareContent = shareContent + "Head Office : "
-                                        + viewHolder.headOffice.getText().toString() + "\n";
-                            }
-                            shareContent = shareContent + "Location : " +
-                                    viewHolder.location.getText().toString()
-                                    + "\n";
-                            shareContent = shareContent + "State : " +
-                                    viewHolder.state.getText().toString() + "\n";
-                            if (viewHolder.telephoneNumber.getText().toString().trim().length() >
-                                    0) {
-                                shareContent = shareContent + "Telephone : "
-                                        + viewHolder.telephoneNumber.getText().toString() + "\n";
-                            }
-                            sharingIntent
-                                    .putExtra(android.content.Intent.EXTRA_SUBJECT, shareSubject);
-                            sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareContent);
-                            context.startActivity(Intent.createChooser(sharingIntent,
-                                    context.getResources().getText(R.string.send_to)));
-                        } else if (item.getTitle().toString().equalsIgnoreCase(
-                                context.getResources().getString(R.string.add_to_fav))) {
-                            SharedPreferences.Editor editor = sharedPreferences.edit();
-                            String pincodes = sharedPreferences.getString("pincodes", null);
-                            String pincode = viewHolder.pincode.getText().toString().trim();
-                            if (pincodes != null && pincodes.trim().length() > 0) {
-                                if (!pincodes.contains(pincode)) {
-                                    pincodes = pincodes + "," +
-                                            viewHolder.pincode.getText().toString().trim();
-                                    Toast.makeText(context, "Added Successfully!!!",
-                                            Toast.LENGTH_LONG).show();
-                                } else {
-                                    Toast.makeText(context, "Already Exist!!!", Toast.LENGTH_LONG)
-                                            .show();
-                                }
+                menu.setOnMenuItemClickListener(item -> {
+                    if (item.getTitle().toString()
+                            .equals(context.getResources().getString(R.string.share))) {
+                        Intent sharingIntent = new Intent(Intent.ACTION_SEND);
+                        sharingIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        sharingIntent.setType("text/plain");
+                        String shareSubject = "Pincode";
+                        String shareContent = "Office Name : " +
+                                viewHolder.officeName.getText().toString().trim()
+                                + "\n";
+                        shareContent = shareContent + "Pincode : " +
+                                viewHolder.pincode.getText().toString().trim()
+                                + "\n";
+                        shareContent = shareContent + "Status : " +
+                                viewHolder.status.getText().toString().trim()
+                                + "\n";
+                        if (viewHolder.subOffice.getText().toString().trim().length() > 0) {
+                            shareContent = shareContent + "Sub Office : "
+                                    + viewHolder.subOffice.getText().toString() + "\n";
+                        }
+                        if (viewHolder.headOffice.getText().toString().trim().length() > 0) {
+                            shareContent = shareContent + "Head Office : "
+                                    + viewHolder.headOffice.getText().toString() + "\n";
+                        }
+                        shareContent = shareContent + "Location : " +
+                                viewHolder.location.getText().toString()
+                                + "\n";
+                        shareContent = shareContent + "State : " +
+                                viewHolder.state.getText().toString() + "\n";
+                        if (viewHolder.telephoneNumber.getText().toString().trim().length() >
+                                0) {
+                            shareContent = shareContent + "Telephone : "
+                                    + viewHolder.telephoneNumber.getText().toString() + "\n";
+                        }
+                        sharingIntent
+                                .putExtra(Intent.EXTRA_SUBJECT, shareSubject);
+                        sharingIntent.putExtra(Intent.EXTRA_TEXT, shareContent);
+                        context.startActivity(Intent.createChooser(sharingIntent,
+                                context.getResources().getText(R.string.send_to)));
+                    } else if (item.getTitle().toString().equalsIgnoreCase(
+                            context.getResources().getString(R.string.add_to_fav))) {
+                        SharedPreferences.Editor editor = sharedPreferences.edit();
+                        String pincodes = sharedPreferences.getString("pincodes", null);
+                        String pincode = viewHolder.pincode.getText().toString().trim();
+                        if (pincodes != null && pincodes.trim().length() > 0) {
+                            if (!pincodes.contains(pincode)) {
+                                pincodes = pincodes + "," +
+                                        viewHolder.pincode.getText().toString().trim();
+                                Toast.makeText(context, "Added Successfully!!!",
+                                        Toast.LENGTH_LONG).show();
                             } else {
-                                pincodes = viewHolder.pincode.getText().toString().trim();
-                                Toast.makeText(context, "Added Successfully!!!", Toast.LENGTH_LONG)
+                                Toast.makeText(context, "Already Exist!!!", Toast.LENGTH_LONG)
                                         .show();
                             }
-                            editor.putString("pincodes", pincodes);
-                            editor.apply();
-                        } else if (item.getTitle().toString()
-                                .equalsIgnoreCase(
-                                        context.getResources().getString(R.string.del_fav))) {
-                            SharedPreferences.Editor editor = sharedPreferences.edit();
-                            String pincodes = sharedPreferences.getString("pincodes", null);
-                            String pincode = viewHolder.pincode.getText().toString().trim();
-                            if (pincodes != null) {
-                                pincodes = pincodes.replaceAll(pincode, "");
-                                pincodes = pincodes.replaceAll(",,", ",");
-                                if (pincodes.startsWith(",")) {
-                                    pincodes = pincodes.replaceFirst(",", "");
-                                }
-                                if (pincodes.endsWith(",")) {
-                                    pincodes = pincodes.substring(0, pincodes.length() - 1);
-                                }
-                            }
-                            Toast.makeText(context, "Removed Successfully!!!", Toast.LENGTH_LONG)
-                                    .show();
-                            editor.putString("pincodes", pincodes);
-                            editor.apply();
                         } else {
-                            String uri = "http://maps.google.com/maps?q="
-                                    + viewHolder.state.getText().toString().trim() + " "
-                                    + viewHolder.pincode.getText().toString().trim();
-                            Intent intent =
-                                    new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(uri));
-                            intent.setClassName("com.google.android.apps.maps",
-                                    "com.google.android.maps.MapsActivity");
-                            try {
-                                context.startActivity(intent);
-                            } catch (Exception e) {
-                                Toast.makeText(context, R.string.maps_not_found, Toast.LENGTH_LONG)
-                                        .show();
+                            pincodes = viewHolder.pincode.getText().toString().trim();
+                            Toast.makeText(context, "Added Successfully!!!", Toast.LENGTH_LONG)
+                                    .show();
+                        }
+                        editor.putString("pincodes", pincodes);
+                        editor.apply();
+                    } else if (item.getTitle().toString()
+                            .equalsIgnoreCase(
+                                    context.getResources().getString(R.string.del_fav))) {
+                        SharedPreferences.Editor editor = sharedPreferences.edit();
+                        String pincodes = sharedPreferences.getString("pincodes", null);
+                        String pincode = viewHolder.pincode.getText().toString().trim();
+                        if (pincodes != null) {
+                            pincodes = pincodes.replaceAll(pincode, "");
+                            pincodes = pincodes.replaceAll(",,", ",");
+                            if (pincodes.startsWith(",")) {
+                                pincodes = pincodes.replaceFirst(",", "");
+                            }
+                            if (pincodes.endsWith(",")) {
+                                pincodes = pincodes.substring(0, pincodes.length() - 1);
                             }
                         }
-
-                        return false;
+                        Toast.makeText(context, "Removed Successfully!!!", Toast.LENGTH_LONG)
+                                .show();
+                        editor.putString("pincodes", pincodes);
+                        editor.apply();
+                    } else {
+                        String uri = "http://maps.google.com/maps?q="
+                                + viewHolder.state.getText().toString().trim() + " "
+                                + viewHolder.pincode.getText().toString().trim();
+                        Intent intent =
+                                new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
+                        intent.setClassName("com.google.android.apps.maps",
+                                "com.google.android.maps.MapsActivity");
+                        try {
+                            context.startActivity(intent);
+                        } catch (Exception e) {
+                            Toast.makeText(context, R.string.maps_not_found, Toast.LENGTH_LONG)
+                                    .show();
+                        }
                     }
 
+                    return false;
                 });
             }
         });

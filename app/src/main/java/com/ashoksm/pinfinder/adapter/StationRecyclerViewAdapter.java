@@ -5,14 +5,12 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
 import android.support.v7.widget.PopupMenu;
-import android.support.v7.widget.PopupMenu.OnMenuItemClickListener;
 import android.support.v7.widget.RecyclerView;
 import android.text.SpannableString;
 import android.text.style.UnderlineSpan;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
@@ -74,33 +72,26 @@ public class StationRecyclerViewAdapter
 
                 menu.show();
                 final ViewHolder viewHolder = (ViewHolder) v.getTag();
-                menu.setOnMenuItemClickListener(new OnMenuItemClickListener() {
-                    @Override
-                    public boolean onMenuItemClick(MenuItem item) {
-                        if (item.getTitle().toString()
-                                .equals(context.getResources().getString(R.string.share))) {
-                            share(viewHolder);
-                        } else {
-                            openGMAP(viewHolder);
-                        }
-                        return false;
+                menu.setOnMenuItemClickListener(item -> {
+                    if (item.getTitle().toString()
+                            .equals(context.getResources().getString(R.string.share))) {
+                        share(viewHolder);
+                    } else {
+                        openGMAP(viewHolder);
                     }
-
+                    return false;
                 });
             }
         });
 
-        holder.stationName.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(context, StationDetailsActivity.class);
-                intent.putExtra(StationsFragment.EXTRA_STATION, holder.stationCode.getText()
-                        .toString());
-                intent.putExtra(StationsFragment.EXTRA_CITY, holder.stationName.getText()
-                        .toString() + " (" + holder.stationCode.getText().toString() + ")");
-                context.startActivity(intent);
-                context.overridePendingTransition(R.anim.slide_out_left, 0);
-            }
+        holder.stationName.setOnClickListener(view -> {
+            Intent intent = new Intent(context, StationDetailsActivity.class);
+            intent.putExtra(StationsFragment.EXTRA_STATION, holder.stationCode.getText()
+                    .toString());
+            intent.putExtra(StationsFragment.EXTRA_CITY, holder.stationName.getText()
+                    .toString() + " (" + holder.stationCode.getText().toString() + ")");
+            context.startActivity(intent);
+            context.overridePendingTransition(R.anim.slide_out_left, 0);
         });
 
         String city = cursor.getString(cursor.getColumnIndex(RailWaysSQLiteHelper.CITY));

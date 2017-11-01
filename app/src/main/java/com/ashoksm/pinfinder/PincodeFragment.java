@@ -6,17 +6,14 @@ import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.EditorInfo;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 
 import java.util.Locale;
 
@@ -56,23 +53,20 @@ public class PincodeFragment extends Fragment {
     private void addStateChangeListener(View rootView, final Resources resources,
                                         final Activity context) {
         districts = rootView.findViewById(R.id.districts);
-        states.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long rowId) {
-                districts.setText("");
-                String resourceName =
-                        "district_" + states.getText().toString().toLowerCase(Locale.getDefault())
-                                .replace('&', ' ')
-                                .replaceAll(" ", "");
-                int resourceId =
-                        resources.getIdentifier(resourceName, "array", context.getPackageName());
-                if (resourceId != 0) {
-                    ArrayAdapter<CharSequence> districtAdapter =
-                            ArrayAdapter.createFromResource(context, resourceId,
-                                    R.layout.spinner_dropdown_item);
-                    // Apply the adapter to the spinner
-                    districts.setAdapter(districtAdapter);
-                }
+        states.setOnItemClickListener((parent, view, position, rowId) -> {
+            districts.setText("");
+            String resourceName =
+                    "district_" + states.getText().toString().toLowerCase(Locale.getDefault())
+                            .replace('&', ' ')
+                            .replaceAll(" ", "");
+            int resourceId =
+                    resources.getIdentifier(resourceName, "array", context.getPackageName());
+            if (resourceId != 0) {
+                ArrayAdapter<CharSequence> districtAdapter =
+                        ArrayAdapter.createFromResource(context, resourceId,
+                                R.layout.spinner_dropdown_item);
+                // Apply the adapter to the spinner
+                districts.setAdapter(districtAdapter);
             }
         });
     }
@@ -83,24 +77,15 @@ public class PincodeFragment extends Fragment {
         text = rootView.findViewById(R.id.text1);
         Button btnSubmit = rootView.findViewById(R.id.Search);
 
-        text.setOnEditorActionListener(new EditText.OnEditorActionListener() {
-            @Override
-            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-                if (actionId == EditorInfo.IME_ACTION_SEARCH) {
-                    performSearch(getActivity());
-                    return true;
-                }
-                return false;
-            }
-        });
-
-        btnSubmit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        text.setOnEditorActionListener((v, actionId, event) -> {
+            if (actionId == EditorInfo.IME_ACTION_SEARCH) {
                 performSearch(getActivity());
+                return true;
             }
-
+            return false;
         });
+
+        btnSubmit.setOnClickListener(v -> performSearch(getActivity()));
     }
 
     private void performSearch(Activity context) {
