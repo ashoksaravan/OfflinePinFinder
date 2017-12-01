@@ -126,6 +126,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.ashoksm.pinfinder.DisplayTrainResultActivity"/>
         </activity>
+        <activity
+            android:name=".DisplayIPCResultActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/indian_penal_code_1860"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ashoksm.pinfinder.MainActivity"/>
+        </activity>
     </application>
 
 </manifest>

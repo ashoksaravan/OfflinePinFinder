@@ -1,6 +1,7 @@
 package com.ashoksm.pinfinder;
 
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -14,13 +15,13 @@ import android.view.ViewGroup;
 
 public class TabFragment extends Fragment {
 
-    public static int int_items = 6;
+    public static int int_items = 7;
     public TabLayout tabLayout;
     public ViewPager viewPager;
 
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         /*
          Inflate tab_layout and setup Views.
@@ -64,13 +65,16 @@ public class TabFragment extends Fragment {
                 case 1:
                     return new IFSCFragment();
                 case 2:
-                    return new StationsFragment();
+                    return new IPCFragment();
                 case 3:
-                    return new TrainsFragment();
+                    return new StationsFragment();
                 case 4:
-                    return new STDFragment();
+                    return new TrainsFragment();
                 case 5:
+                    return new STDFragment();
+                case 6:
                     return new RTOFragment();
+
             }
             return null;
         }
@@ -95,12 +99,14 @@ public class TabFragment extends Fragment {
                 case 1:
                     return "IFSC";
                 case 2:
-                    return "Stations";
+                    return "IPC";
                 case 3:
-                    return "Trains";
+                    return "Stations";
                 case 4:
-                    return "STD";
+                    return "Trains";
                 case 5:
+                    return "STD";
+                case 6:
                     return "RTO";
             }
             return null;
