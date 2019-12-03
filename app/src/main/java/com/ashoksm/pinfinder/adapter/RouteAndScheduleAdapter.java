@@ -6,7 +6,6 @@ import android.database.Cursor;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Build;
-import android.support.v7.widget.RecyclerView;
 import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,6 +16,9 @@ import com.ashoksm.pinfinder.R;
 import com.ashoksm.pinfinder.StationDetailsActivity;
 import com.ashoksm.pinfinder.StationsFragment;
 import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
 public class RouteAndScheduleAdapter
         extends CursorRecyclerViewAdapter<RecyclerView.ViewHolder> {
@@ -102,8 +104,9 @@ public class RouteAndScheduleAdapter
 
     }
 
+    @NonNull
     @Override
-    public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.route_and_schedule_grid, parent, false);
         if (viewType == TYPE_ITEM) {

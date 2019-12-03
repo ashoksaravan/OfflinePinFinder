@@ -1,9 +1,10 @@
 package com.ashoksm.pinfinder;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
 
 import com.ashoksm.pinfinder.common.Utils;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 abstract class HidingScrollListener extends RecyclerView.OnScrollListener {
 

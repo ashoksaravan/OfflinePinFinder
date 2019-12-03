@@ -9,6 +9,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Objects;
 
 public class PlaceJSONParser {
 
@@ -27,7 +28,7 @@ public class PlaceJSONParser {
         /* Invoking getPlaces with the array of json object
           where each json object represent a place
          */
-        return getPlaces(jPlaces);
+        return getPlaces(Objects.requireNonNull(jPlaces));
     }
 
     private List<HashMap<String, String>> getPlaces(JSONArray jPlaces) {

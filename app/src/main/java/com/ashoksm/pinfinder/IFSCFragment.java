@@ -3,8 +3,6 @@ package com.ashoksm.pinfinder;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,6 +14,11 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import java.util.Locale;
+import java.util.Objects;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 
 public class IFSCFragment extends Fragment {
 
@@ -31,7 +34,7 @@ public class IFSCFragment extends Fragment {
 
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.ifsc_layout, container, false);
 
@@ -41,8 +44,8 @@ public class IFSCFragment extends Fragment {
         branchName = v.findViewById(R.id.branchName);
 
         ArrayAdapter<CharSequence> adapter =
-                ArrayAdapter.createFromResource(getActivity(), R.array.bank_names,
-                        R.layout.spinner_dropdown_item);
+                ArrayAdapter.createFromResource(Objects.requireNonNull(getActivity()),
+                        R.array.bank_names, R.layout.spinner_dropdown_item);
         // Apply the adapter to the spinner
         bankNameSpinner.setAdapter(adapter);
 

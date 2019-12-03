@@ -5,8 +5,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.net.Uri;
-import android.support.v7.widget.PopupMenu;
-import android.support.v7.widget.RecyclerView;
 import android.text.util.Linkify;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -24,6 +22,10 @@ import com.ashoksm.pinfinder.sqlite.PinSQLiteHelper;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.widget.PopupMenu;
+import androidx.recyclerview.widget.RecyclerView;
 
 public class PinCodeRecyclerViewAdapter
         extends CursorRecyclerViewAdapter<PinCodeRecyclerViewAdapter.ViewHolder> {
@@ -241,8 +243,9 @@ public class PinCodeRecyclerViewAdapter
         }
     }
 
+    @NonNull
     @Override
-    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.office_custom_grid, parent, false);
         return new ViewHolder(itemView);

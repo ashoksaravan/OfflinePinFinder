@@ -6,12 +6,6 @@ import android.database.Cursor;
 import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -34,6 +28,14 @@ import com.dgreenhalgh.android.simpleitemdecoration.linear.DividerItemDecoration
 import com.github.lzyzsd.circleprogress.DonutProgress;
 
 import java.lang.ref.WeakReference;
+import java.util.Objects;
+
+import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 public class AllCodeDetailFragment extends Fragment {
 
@@ -50,11 +52,12 @@ public class AllCodeDetailFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        sharedPref = getActivity().getSharedPreferences("AllCodeFinder", Context.MODE_PRIVATE);
+        sharedPref = Objects.requireNonNull(getActivity())
+                .getSharedPreferences("AllCodeFinder", Context.MODE_PRIVATE);
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         return getView(inflater, container);
     }
@@ -79,7 +82,8 @@ public class AllCodeDetailFragment extends Fragment {
         mRecyclerView.setLayoutManager(mLayoutManager);
 
 
-        new MyAsyncTask(getActivity(), getArguments()).execute();
+        new MyAsyncTask(Objects.requireNonNull(getActivity()),
+                Objects.requireNonNull(getArguments())).execute();
         return v;
     }
 

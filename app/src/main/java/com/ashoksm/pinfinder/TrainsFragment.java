@@ -5,8 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,6 +18,11 @@ import android.widget.Switch;
 import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
 
 import java.lang.ref.WeakReference;
+import java.util.Objects;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 
 public class TrainsFragment extends Fragment {
 
@@ -33,7 +36,7 @@ public class TrainsFragment extends Fragment {
 
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         final View v = inflater.inflate(R.layout.trains_layout, container, false);
 
@@ -78,7 +81,8 @@ public class TrainsFragment extends Fragment {
         // hide keyboard
         if (getView() != null) {
             InputMethodManager inputMethodManager =
-                    (InputMethodManager) getContext().getSystemService(Context
+                    (InputMethodManager) Objects.requireNonNull(getContext())
+                            .getSystemService(Context
                             .INPUT_METHOD_SERVICE);
             if (inputMethodManager != null) {
                 inputMethodManager.hideSoftInputFromWindow(getView().getWindowToken(),
@@ -126,16 +130,22 @@ public class TrainsFragment extends Fragment {
         protected void onPostExecute(Void aVoid) {
             if (fragment.get().getContext() != null) {
                 AutoCompleteTextView starts =
-                        fragment.get().getActivity().findViewById(R.id.starts);
-                AutoCompleteTextView ends = fragment.get().getActivity().findViewById(R.id.ends);
+                        Objects.requireNonNull(fragment.get().getActivity())
+                                .findViewById(R.id.starts);
+                AutoCompleteTextView ends = Objects.requireNonNull(fragment.get().getActivity())
+                        .findViewById(R.id.ends);
                 AutoCompleteTextView trainName =
-                        fragment.get().getActivity().findViewById(R.id.train_name);
+                        Objects.requireNonNull(fragment.get().getActivity())
+                                .findViewById(R.id.train_name);
 
-                ArrayAdapter<String> startAdapter = new ArrayAdapter<>(fragment.get().getContext(),
+                ArrayAdapter<String> startAdapter = new ArrayAdapter<>(
+                        Objects.requireNonNull(fragment.get().getContext()),
                         R.layout.spinner_dropdown_item, stationCodes);
-                ArrayAdapter<String> endAdapter = new ArrayAdapter<>(fragment.get().getContext(),
+                ArrayAdapter<String> endAdapter = new ArrayAdapter<>(
+                        Objects.requireNonNull(fragment.get().getContext()),
                         R.layout.spinner_dropdown_item, stationCodes);
-                ArrayAdapter<String> trainAdapter = new ArrayAdapter<>(fragment.get().getContext(),
+                ArrayAdapter<String> trainAdapter = new ArrayAdapter<>(
+                        Objects.requireNonNull(fragment.get().getContext()),
                         R.layout.spinner_dropdown_item, trainNos);
 
                 starts.setAdapter(startAdapter);

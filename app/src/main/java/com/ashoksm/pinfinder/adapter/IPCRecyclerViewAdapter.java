@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Typeface;
 import android.os.Build;
-import android.support.v7.widget.RecyclerView;
 import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,6 +16,9 @@ import com.ashoksm.pinfinder.IPCFragment;
 import com.ashoksm.pinfinder.R;
 import com.ashoksm.pinfinder.sqlite.IPCSQLiteHelper;
 import com.uncopt.android.widget.text.justify.JustifiedTextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
 public class IPCRecyclerViewAdapter
         extends CursorRecyclerViewAdapter<IPCRecyclerViewAdapter.ViewHolder> {
@@ -72,8 +74,9 @@ public class IPCRecyclerViewAdapter
         }
     }
 
+    @NonNull
     @Override
-    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.ipc_grid, parent, false);
         return new ViewHolder(itemView);

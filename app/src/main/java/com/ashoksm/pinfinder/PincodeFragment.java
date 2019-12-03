@@ -4,8 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,6 +14,11 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import java.util.Locale;
+import java.util.Objects;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 
 public class PincodeFragment extends Fragment {
 
@@ -28,13 +31,14 @@ public class PincodeFragment extends Fragment {
 
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.pincode_layout, container, false);
         states = v.findViewById(R.id.states);
 
         // Get the string array
-        String[] statesArr = getActivity().getResources().getStringArray(R.array.states_array);
+        String[] statesArr = Objects.requireNonNull(getActivity()).getResources()
+                .getStringArray(R.array.states_array);
         // Create the adapter and set it to the AutoCompleteTextView
 
         ArrayAdapter<String> statesAdapter =

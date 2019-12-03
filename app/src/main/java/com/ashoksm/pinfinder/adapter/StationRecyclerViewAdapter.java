@@ -4,8 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
-import android.support.v7.widget.PopupMenu;
-import android.support.v7.widget.RecyclerView;
 import android.text.SpannableString;
 import android.text.style.UnderlineSpan;
 import android.util.Log;
@@ -26,6 +24,10 @@ import com.ashoksm.pinfinder.sqlite.RailWaysSQLiteHelper;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.widget.PopupMenu;
+import androidx.recyclerview.widget.RecyclerView;
 
 public class StationRecyclerViewAdapter
         extends CursorRecyclerViewAdapter<StationRecyclerViewAdapter.ViewHolder> {
@@ -151,8 +153,9 @@ public class StationRecyclerViewAdapter
                 context.getResources().getText(R.string.send_to)));
     }
 
+    @NonNull
     @Override
-    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.stations_custom_grid, parent, false);
         return new ViewHolder(itemView);

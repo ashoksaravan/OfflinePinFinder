@@ -26,7 +26,7 @@
         app:donut_finished_color="@color/accent"
         app:donut_unfinished_color="@color/divider"/>
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/ipc_grid_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
